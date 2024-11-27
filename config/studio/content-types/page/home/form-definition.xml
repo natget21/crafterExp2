@@ -224,9 +224,9 @@
 			<fields>
 				<field>
 					<type>node-selector</type>
-					<id>providers_o</id>
+					<id>services_o</id>
 					<iceId></iceId>
-					<title>providers</title>
+					<title>services</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
