@@ -5,8 +5,8 @@
     <div class="row px-xl-5">
         <div class="col">
             <@crafter.renderComponentCollection
-              $field="vendors_o"
-              $containerAttributes={ "class": "owl-carousel vendor-carousel" }
+              $field="providers_o"
+              $containerAttributes={ "class": "owl-carousel provider-carousel" }
               $itemAttributes={ "class": "bg-light p-4" };
               item, index
             />
