@@ -4,8 +4,8 @@
 	<objectType>component</objectType>
 	<content-type>/component/provider</content-type>
 	<imageThumbnail></imageThumbnail>
-	<quickCreate>true</quickCreate>
-	<quickCreatePath>/components/providers</quickCreatePath>
+	<quickCreate>false</quickCreate>
+	<quickCreatePath></quickCreatePath>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
