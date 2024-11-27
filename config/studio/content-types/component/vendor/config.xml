@@ -1,5 +1,5 @@
 <content-type name="/component/vendor" is-wcm-type="true">
-	<label>item: Vendor</label>
+	<label>item: Provider</label>
 	<form>/component/vendor</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
