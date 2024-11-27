@@ -10,9 +10,9 @@
 	<folder-name/>
 	<internal-name>TEST BEFORE INVEST</internal-name>
 	<categoryname_s>TEST BEFORE INVEST</categoryname_s>
-	<macrocategory_o item-list="true">	<item>	<key>/site/components/macro_categories/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</key>
+	<macrocategory_o item-list="true">	<item>	<key>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</key>
 	<value>service</value>
-	<include>/site/components/macro_categories/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</include>
+	<include>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></macrocategory_o>
 	<createdDate>2024-11-14T08:50:52.207Z</createdDate>
