@@ -14,9 +14,10 @@
     <main>
          <#include "/templates/web/components/carousel.ftl"> 
          <!-- <#include "/templates/web/components/featured.ftl"> -->
-         <#include "/templates/web/components/category-list.ftl"> 
-         <#include "/templates/web/components/products.ftl"> 
          
+         
+        <#include "/templates/web/components/category-list.ftl"> 
+        <#include "/templates/web/components/featured-service.ftl"> 
         <#include "/templates/web/components/provider-carousel.ftl">    
     </main>
 
