@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/category</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>337c</objectGroupId>
+	<objectId>337c134b-9833-85b2-c818-e4320a6be08f</objectId>
+	<file-name>337c134b-9833-85b2-c818-e4320a6be08f.xml</file-name>
+	<folder-name/>
+	<internal-name>test</internal-name>
+	<name_s>test</name_s>
+	<tags_s/>
+	<macro_category_o item-list="true">	<item>	<key>/site/components/macro_category/feb5455a-5e17-5bc9-15a7-ae708ca00361.xml</key>
+	<value>PRODOTTI</value>
+	<include>/site/components/macro_category/feb5455a-5e17-5bc9-15a7-ae708ca00361.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></macro_category_o>
+	<_ai_Description_t/>
+	<ai_Tags_t/>
+	<image_s/>
+	<description_html/>
+	<createdDate>2024-11-27T06:28:30.438Z</createdDate>
+	<createdDate_dt>2024-11-27T06:28:30.438Z</createdDate_dt>
+	<lastModifiedDate>2024-11-27T06:28:30.438Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-27T06:28:30.438Z</lastModifiedDate_dt>
+</component>
