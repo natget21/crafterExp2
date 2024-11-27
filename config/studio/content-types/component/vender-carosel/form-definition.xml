@@ -1,5 +1,5 @@
 <form>
-	<title>component: vender-carosel</title>
+	<title>component: provider-carosel</title>
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/vender-carosel</content-type>
@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/components/vendor-carousel.ftl</value>
+			<value>/templates/web/components/provider-carousel.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
