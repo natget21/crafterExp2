@@ -10,7 +10,7 @@
     <div class="row px-xl-5 pb-3">
         <#if categoriesTree?has_content>
         <#list categoriesTree.childItems as macro_category>
-            <#assign categoryItem = siteItemService.getSiteItem(categories.storeUrl) />
+            <#assign categoryItem = siteItemService.getSiteItem(macro_category.storeUrl) />
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-center">${categoryItem.queryValue('name_s')}</p>
