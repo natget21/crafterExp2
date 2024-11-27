@@ -2,7 +2,7 @@
 	<title>item : Service</title>
 	<description></description>
 	<objectType>component</objectType>
-	<content-type>/component/item</content-type>
+	<content-type>/component/service</content-type>
 	<imageThumbnail></imageThumbnail>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
