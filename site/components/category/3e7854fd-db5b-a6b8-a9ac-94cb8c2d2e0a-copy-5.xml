@@ -9,12 +9,12 @@
 	<file-name>3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-5.xml</file-name>
 	<folder-name/>
 	<internal-name>Networking, Ecosystem e Open Innovation</internal-name>
-	<categoryname_s>Networking, Ecosystem e Open Innovation</categoryname_s>
-	<macrocategory_o item-list="true">	<item>	<key>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</key>
+	<name_s>Networking, Ecosystem e Open Innovation</name_s>
+	<macro_category_o item-list="true">	<item>	<key>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</key>
 	<value>service</value>
 	<include>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></macrocategory_o>
+	</item></macro_category_o>
 	<createdDate>2024-11-14T08:51:17.908Z</createdDate>
 	<createdDate_dt>2024-11-14T08:51:17.908Z</createdDate_dt>
 	<lastModifiedDate>2024-11-14T08:51:19.874Z</lastModifiedDate>

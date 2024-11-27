@@ -151,9 +151,9 @@
 				</field>
 				<field>
 					<type>node-selector</type>
-					<id>macrocategory_o</id>
+					<id>macro_category_o</id>
 					<iceId></iceId>
-					<title>macrocategory</title>
+					<title>macro_category</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -170,7 +170,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>macrocategory</value>
+							<value>macro_category</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -462,13 +462,13 @@
 	</sections>
 	<datasources>				<datasource>
 					<type>components</type>
-					<id>macrocategory</id>
-					<title>macrocategory</title>
+					<id>macro_category</id>
+					<title>macro_category</title>
 					<interface>item</interface>
 					<properties>
 						<property>
 							<name>allowEmbedded</name>
-							<value>true</value>
+							<value>false</value>
 								<type>boolean</type>
 						</property>
 						<property>
@@ -488,17 +488,17 @@
 						</property>
 						<property>
 							<name>baseRepoPath</name>
-							<value>/site/components/macro_categories</value>
+							<value>/site/components/macro_category</value>
 								<type>string</type>
 						</property>
 						<property>
 							<name>baseBrowsePath</name>
-							<value>/site/components/macro_categories</value>
+							<value>/site/components/macro_category</value>
 								<type>string</type>
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/macrocategories</value>
+							<value>/component/macrocategories,/component/macro_category</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
