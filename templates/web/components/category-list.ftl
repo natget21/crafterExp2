@@ -15,10 +15,10 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="${categoryItem.queryValue('image_s')}" alt="${categoryItem.queryValue('name_s')}">
+                            <img class="img-fluid" src="${categoryItem.queryValue('image_s')?default("")}" alt="${categoryItem.queryValue('name_s')?default("")}">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>${categoryItem.queryValue('name_s')}</h6>
+                            <h6>${categoryItem.queryValue('name_s')?default("")}</h6>
                             <small class="text-body">${categoryItem.queryValue('description_t')?default("")}</small>
                         </div>
                     </div>
