@@ -5,11 +5,11 @@
 	<content-type>/component/vendor</content-type>
 	<imageThumbnail></imageThumbnail>
 	<quickCreate>true</quickCreate>
-	<quickCreatePath>/components/vendors</quickCreatePath>
+	<quickCreatePath>/components/providers</quickCreatePath>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/items/vendor-item.ftl</value>
+			<value>/templates/web/items/provider-item.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
