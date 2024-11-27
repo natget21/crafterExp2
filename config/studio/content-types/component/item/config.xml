@@ -1,6 +1,6 @@
-<content-type name="/component/item" is-wcm-type="true">
+<content-type name="/component/service" is-wcm-type="true">
 	<label>item : Service</label>
-	<form>/component/item</form>
+	<form>/component/service</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension>xml</file-extension>
