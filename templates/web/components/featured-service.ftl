@@ -5,7 +5,7 @@
     <@crafter.renderComponentCollection
       $field="providers_o"
       $containerAttributes={ "class": "row px-xl-5" }
-      $itemAttributes={ "class": "" };
+      $itemAttributes={ "class": "col-lg-3 col-md-4 col-sm-6 pb-1" };
       item, index
     />
 </div>
