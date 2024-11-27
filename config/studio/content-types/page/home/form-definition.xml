@@ -503,7 +503,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/item</value>
+							<value>/component/item,/component/service</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
