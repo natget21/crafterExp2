@@ -1,5 +1,5 @@
 <form>
-	<title>item</title>
+	<title>item : Service</title>
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/item</content-type>
@@ -256,7 +256,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>repository,upload</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
@@ -276,5 +276,36 @@
 			</fields>
 		</section>
 	</sections>
-	<datasources>	</datasources>
+	<datasources>				<datasource>
+					<type>img-repository-upload</type>
+					<id>repository</id>
+					<title>repository</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/img</value>
+								<type>content-path-input</type>
+						</property>
+						<property>
+							<name>useSearch</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>img-desktop-upload</type>
+					<id>upload</id>
+					<title>upload</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/uploads</value>
+								<type>content-path-input</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
 </form>
