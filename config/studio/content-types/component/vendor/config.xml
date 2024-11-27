@@ -7,7 +7,7 @@
 	<content-as-folder>false</content-as-folder>
 	<previewable>false</previewable>
 	<quickCreate>true</quickCreate>
-	<quickCreatePath>/components/vendors</quickCreatePath>
+	<quickCreatePath>/components/providers</quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
 	<paths>
