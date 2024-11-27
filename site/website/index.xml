@@ -14,9 +14,13 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2024-11-26T08:46:56.572Z</createdDate>
 	<createdDate_dt>2024-11-26T08:46:56.572Z</createdDate_dt>
-	<lastModifiedDate>2024-11-27T07:08:34.843Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-27T07:08:34.843Z</lastModifiedDate_dt>
-	<services_o item-list="true"/>
+	<lastModifiedDate>2024-11-27T08:16:44.597Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-27T08:16:44.597Z</lastModifiedDate_dt>
+	<services_o item-list="true">	<item>	<key>/site/components/services/0d31afb7-547b-0d8c-31bf-cf87f70f8f3a.xml</key>
+	<value>service 1</value>
+	<include>/site/components/services/0d31afb7-547b-0d8c-31bf-cf87f70f8f3a.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></services_o>
 	<providers_o item-list="true">	<item>	<key>/site/components/providers/e11fd8f3-f7ad-167c-7806-92171a7c0092.xml</key>
 	<value>providor 1</value>
 	<include>/site/components/providers/e11fd8f3-f7ad-167c-7806-92171a7c0092.xml</include>
