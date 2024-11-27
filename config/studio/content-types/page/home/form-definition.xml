@@ -425,7 +425,7 @@
 					<properties>
 						<property>
 							<name>allowEmbedded</name>
-							<value>true</value>
+							<value>false</value>
 								<type>boolean</type>
 						</property>
 						<property>
@@ -445,12 +445,12 @@
 						</property>
 						<property>
 							<name>baseRepoPath</name>
-							<value>/site/components</value>
+							<value>/site/components/services</value>
 								<type>string</type>
 						</property>
 						<property>
 							<name>baseBrowsePath</name>
-							<value>/site/components</value>
+							<value>/site/components/services</value>
 								<type>string</type>
 						</property>
 						<property>
