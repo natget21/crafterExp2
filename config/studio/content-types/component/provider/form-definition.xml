@@ -2,7 +2,7 @@
 	<title>item: Provider</title>
 	<description></description>
 	<objectType>component</objectType>
-	<content-type>/component/vendor</content-type>
+	<content-type>/component/provider</content-type>
 	<imageThumbnail></imageThumbnail>
 	<quickCreate>true</quickCreate>
 	<quickCreatePath>/components/providers</quickCreatePath>
