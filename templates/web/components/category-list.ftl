@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#assign categoriesTree = siteItemService.getSiteTree('/site/components/macro_category', 1)>
+<#assign categoriesTree = siteItemService.getSiteTree('/site/components/category', 1)>
                             
 
 <div class="container-fluid pt-5">
@@ -9,8 +9,8 @@
     </div>
     <div class="row px-xl-5 pb-3">
         <#if categoriesTree?has_content>
-        <#list categoriesTree.childItems as macro_category>
-            <#assign categoryItem = siteItemService.getSiteItem(macro_category.storeUrl) />
+        <#list categoriesTree.childItems as category>
+            <#assign categoryItem = siteItemService.getSiteItem(category.storeUrl) />
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
