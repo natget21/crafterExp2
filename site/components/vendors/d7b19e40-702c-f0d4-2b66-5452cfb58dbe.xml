@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/vendor</content-type>
+	<display-template>/templates/web/components/vendor-item.ftl</display-template>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d7b1</objectGroupId>
+	<objectId>d7b19e40-702c-f0d4-2b66-5452cfb58dbe</objectId>
+	<file-name>d7b19e40-702c-f0d4-2b66-5452cfb58dbe.xml</file-name>
+	<folder-name/>
+	<internal-name>vendor3</internal-name>
+	<name_s>Vendor 3</name_s>
+	<link_s>https://test.com</link_s>
+	<logo_s>/static-assets/img/vendor-3.jpg</logo_s>
+	<createdDate>2024-11-22T01:46:36.875Z</createdDate>
+	<createdDate_dt>2024-11-22T01:46:36.875Z</createdDate_dt>
+	<lastModifiedDate>2024-11-22T01:46:36.875Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-22T01:46:36.875Z</lastModifiedDate_dt>
+</component>

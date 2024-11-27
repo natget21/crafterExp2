@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/categories</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>215c1526</objectGroupId>
+	<objectId>215c1526-be85-45d7-9697-16ed4c065e29</objectId>
+	<file-name>3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-1.xml</file-name>
+	<folder-name/>
+	<internal-name>CONSULENZA</internal-name>
+	<categoryname_s>CONSULENZA</categoryname_s>
+	<macrocategory_o item-list="true">	<item>	<key>/site/components/macro_categories/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</key>
+	<value>service</value>
+	<include>/site/components/macro_categories/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></macrocategory_o>
+	<createdDate>2024-11-14T08:45:01.233Z</createdDate>
+	<createdDate_dt>2024-11-14T08:45:01.233Z</createdDate_dt>
+	<lastModifiedDate>2024-11-14T13:05:29.096Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-14T13:05:29.096Z</lastModifiedDate_dt>
+	<tags_s/>
+	<description_html>&lt;p&gt;Insieme di servizi di consulenza che forniscono supporto alle imprese nel loro percorso di innovazione e crescita. Questi servizi sono progettati per migliorare la competitivit&amp;agrave; delle aziende, promuovere la digitalizzazione e facilitare l'accesso a tecnologie avanzate e soluzioni innovative&lt;/p&gt;</description_html>
+	<_ai_Description_t>PROMPT:"La categoria "consulenza" rappresenta un insieme di servizi dedicati al supporto delle imprese nel loro percorso di innovazione e crescita. Questi servizi mirano a:
+
+Migliorare la competitività delle aziende: Fornendo strategie e soluzioni che permettono alle imprese di rimanere competitive nel loro settore di mercato.
+
+Promuovere la digitalizzazione: Facilitando l'adozione di tecnologie digitali avanzate per ottimizzare i processi aziendali e aumentare l'efficienza operativa.
+
+Facilitare l'accesso a tecnologie avanzate e soluzioni innovative: Offrendo alle imprese la possibilità di implementare tecnologie all'avanguardia e approcci innovativi che possono trasformare e migliorare i loro modelli di business.
+
+L'obiettivo principale di questi servizi di consulenza è supportare le imprese nel raggiungere nuovi livelli di successo attraverso l'innovazione, la tecnologia e strategie competitive."</_ai_Description_t>
+	<ai_Tags_t/>
+</component>

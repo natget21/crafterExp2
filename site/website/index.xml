@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/pages/home.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>139c</objectGroupId>
+	<objectId>139c4323-2f74-6bd5-36ff-4b714d19ffcb</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>index</folder-name>
+	<internal-name>home</internal-name>
+	<navLabel>home</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<vendors_o item-list="true">	<item>	<key>/site/components/vendors/18407cc8-9404-a1fe-5086-877d0e4362d8.xml</key>
+	<value>vender1</value>
+	<include>/site/components/vendors/18407cc8-9404-a1fe-5086-877d0e4362d8.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/vendors/5857ee54-7caf-ad0e-9d9a-83d5f0fc0485.xml</key>
+	<value>vendor2</value>
+	<include>/site/components/vendors/5857ee54-7caf-ad0e-9d9a-83d5f0fc0485.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/vendors/d7b19e40-702c-f0d4-2b66-5452cfb58dbe.xml</key>
+	<value>vendor3</value>
+	<include>/site/components/vendors/d7b19e40-702c-f0d4-2b66-5452cfb58dbe.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></vendors_o>
+	<createdDate>2024-11-26T08:46:56.572Z</createdDate>
+	<createdDate_dt>2024-11-26T08:46:56.572Z</createdDate_dt>
+	<lastModifiedDate>2024-11-26T08:46:56.572Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-26T08:46:56.572Z</lastModifiedDate_dt>
+</page>
