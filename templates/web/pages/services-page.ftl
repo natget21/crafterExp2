@@ -109,7 +109,7 @@
                                             <h5>${courseItem.queryValue('price_s')?default("")}</h5>
                                         </div>
                                         <div class="d-flex align-items-center justify-content-center mb-1">
-                                            (${courseItem.queryValue('description_s')?default("")})
+                                            (${courseItem.queryValue('description_t')?default('')})
                                         </div>
                                     </div>
                                 </div>
