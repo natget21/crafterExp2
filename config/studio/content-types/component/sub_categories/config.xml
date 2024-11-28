@@ -1,6 +1,6 @@
-<content-type name="/component/sub_categories" is-wcm-type="true">
+<content-type name="/component/sub_category" is-wcm-type="true">
 	<label>Item: Sub Category</label>
-	<form>/component/sub_categories</form>
+	<form>/component/sub_category</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension>xml</file-extension>
