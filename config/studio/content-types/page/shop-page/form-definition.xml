@@ -1,5 +1,5 @@
 <form>
-	<title>Page: Shop</title>
+	<title>Page: Services</title>
 	<description></description>
 	<objectType>page</objectType>
 	<content-type>/page/shop-page</content-type>
@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/pages/shop.ftl</value>
+			<value>/templates/web/pages/services.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
