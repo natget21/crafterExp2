@@ -7,7 +7,35 @@
                     <h6 class="text-dark m-0"><i class="fa fa-bars mr-2"></i>Categories</h6>
                     <i class="fa fa-angle-down text-dark"></i>
                 </a>
-                
+                <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 bg-light" id="navbar-vertical" style="width: calc(100% - 30px); z-index: 999;">
+                    <div class="navbar-nav w-100">
+                        <#assign categoriesTree = siteItemService.getSiteTree('/site/components/category', 1)>
+                        <#assign subCategoriesTree = siteItemService.getSiteTree('/site/components/sub_category', 1)>
+                            <#if categoriesTree?has_content>
+                                <#list categoriesTree.childItems as category>
+                                    <#assign categoryItem = siteItemService.getSiteItem(category.storeUrl) />
+                                    <div class="nav-item dropdown dropright">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                            ${categoryItem.queryValue('name_s')}
+                                            <i class="fa fa-angle-right float-right mt-1"></i>
+                                        </a>
+                                        <#-- Match subcategories for this category -->
+                                        <#assign relatedSubcategories = subCategoriesTree.childItems?filter(subcategory -> siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0].key == category.storeUrl) />
+                                        <div class="dropdown-menu position-absolute rounded-0 border-0 m-0">
+                                            <#list relatedSubcategories as subcategory>
+                                                <#assign subCategoryItem = siteItemService.getSiteItem(subcategory.storeUrl) />
+                                                <a href="" class="dropdown-item">
+                                                    ${subCategoryItem.queryValue('name_s')}
+                                                </a>
+                                            </#list>
+                                        </div>
+                                    </div>
+                                </#list>
+                            <#else>
+                                <p>No categories found.</p>
+                            </#if>
+                        </div>
+                </nav>
             </div>
             <div class="col-lg-9">
                 <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
