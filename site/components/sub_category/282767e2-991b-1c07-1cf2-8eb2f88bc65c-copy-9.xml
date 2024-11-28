@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/sub_categories</content-type>
+	<content-type>/component/sub_category</content-type>
 	<display-template/>
 	<no-template-required>true</no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
@@ -9,10 +9,10 @@
 	<file-name>282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-9.xml</file-name>
 	<folder-name/>
 	<internal-name>Misure fiscali</internal-name>
-	<subCategoryName_s>Misure fiscali</subCategoryName_s>
-	<category_o item-list="true">	<item>	<key>/site/components/categories/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-2.xml</key>
+	<name_s>Misure fiscali</name_s>
+	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-2.xml</key>
 	<value>ACCESS TO FINANCE</value>
-	<include>/site/components/categories/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-2.xml</include>
+	<include>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-2.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></category_o>
 	<createdDate>2024-11-14T09:02:09.880Z</createdDate>
