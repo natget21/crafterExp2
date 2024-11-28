@@ -1,6 +1,6 @@
-<content-type name="/page/detail" is-wcm-type="true">
+<content-type name="/page/service_detail" is-wcm-type="true">
 	<label>page: Service Detail</label>
-	<form>/page/detail</form>
+	<form>/page/service_detail</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension>xml</file-extension>
