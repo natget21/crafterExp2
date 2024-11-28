@@ -2,7 +2,7 @@
 	<title>Item: Sub Category</title>
 	<description></description>
 	<objectType>component</objectType>
-	<content-type>/component/sub_categories</content-type>
+	<content-type>/component/sub_category</content-type>
 	<imageThumbnail></imageThumbnail>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
