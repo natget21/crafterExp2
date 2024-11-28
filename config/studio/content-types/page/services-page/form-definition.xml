@@ -2,7 +2,7 @@
 	<title>Page: Services</title>
 	<description></description>
 	<objectType>page</objectType>
-	<content-type>/page/shop-page</content-type>
+	<content-type>/page/services-page</content-type>
 	<imageThumbnail></imageThumbnail>
 	<quickCreate>true</quickCreate>
 	<quickCreatePath>/site/website</quickCreatePath>
