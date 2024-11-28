@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<savedAsDraft>true</savedAsDraft>
 	<content-type>/component/service</content-type>
 	<display-template>/templates/web/items/service-template.ftl</display-template>
 	<no-template-required>false</no-template-required>
