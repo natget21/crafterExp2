@@ -95,7 +95,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
                                 <div class="product-item bg-light mb-4">
                                     <div class="product-img position-relative overflow-hidden">
-                                        <img class="img-fluid w-100" src="/static-assets/images/techimage.jpg" alt="${courseItem.queryValue('name_s')}">
+                                        <img class="img-fluid w-100" src="${courseItem.queryValue('image_s')?default("")}" alt="${courseItem.queryValue('name_s')?default("")}">
                                         <div class="product-action">
                                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -104,12 +104,12 @@
                                         </div>
                                     </div>
                                     <div class="text-center py-4">
-                                        <a class="h6 text-decoration-none" href="">${courseItem.queryValue('name_s')}</a>
+                                        <a class="h6 text-decoration-none" href="">${courseItem.queryValue('name_s')?default("")}</a>
                                         <div class="d-flex align-items-center justify-content-center mt-2">
-                                            <h5>${courseItem.queryValue('price_s')}</h5>
+                                            <h5>${courseItem.queryValue('price_s')?default("")}</h5>
                                         </div>
                                         <div class="d-flex align-items-center justify-content-center mb-1">
-                                            (${courseItem.queryValue('description_s')})
+                                            (${courseItem.queryValue('description_s')?default("")})
                                         </div>
                                     </div>
                                 </div>
@@ -118,6 +118,8 @@
                     <#else>
                         <p>No service available.</p>
                     </#if>
+                    
+                    
                     
                     
                     
