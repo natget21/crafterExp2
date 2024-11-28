@@ -106,10 +106,11 @@
                                     <div class="text-center py-4">
                                         <a class="h6 text-decoration-none" href="">${courseItem.queryValue('name_s')?default("")}</a>
                                         <div class="d-flex align-items-center justify-content-center mt-2">
-                                            <h5>${courseItem.queryValue('price_s')?default("")}</h5>
+                                            <h5></h5>
+                                            <h5>EUR ${courseItem.queryValue('price_s')?default("")}</h5><h6 class="text-muted ml-2"><del>EUR ${courseItem.queryValue('price_s')?default("")}</del></h6>
                                         </div>
                                         <div class="d-flex align-items-center justify-content-center mb-1">
-                                            (${courseItem.queryValue('description_t')?default('')})
+                                            (99)
                                         </div>
                                     </div>
                                 </div>
