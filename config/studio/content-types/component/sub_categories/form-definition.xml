@@ -88,9 +88,9 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>subCategoryName_s</id>
+					<id>name_s</id>
 					<iceId></iceId>
-					<title>Sub Category Name</title>
+					<title>name</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
