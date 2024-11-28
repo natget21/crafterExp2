@@ -2,7 +2,7 @@
 <page>
 	<savedAsDraft>true</savedAsDraft>
 	<content-type>/page/services-page</content-type>
-	<display-template>/templates/web/pages/services.ftl</display-template>
+	<display-template>/templates/web/pages/services-page.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>1340</objectGroupId>
