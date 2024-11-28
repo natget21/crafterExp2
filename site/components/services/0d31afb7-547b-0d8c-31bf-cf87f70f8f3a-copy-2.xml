@@ -7,14 +7,14 @@
 	<objectGroupId>5ed0a535</objectGroupId>
 	<objectId>5ed0a535-acb1-4ca5-9f58-a018ed4c8aae</objectId>
 	<file-name>0d31afb7-547b-0d8c-31bf-cf87f70f8f3a-copy-2.xml</file-name>
-	<folder-name>services</folder-name>
-	<internal-name>service 1 (Copy 2)</internal-name>
-	<name_s>service 1</name_s>
-	<price_s>100</price_s>
-	<description_t>service 1</description_t>
-	<image_s>/static-assets/img/product-5.jpg</image_s>
+	<folder-name/>
+	<internal-name>service 3</internal-name>
+	<name_s>service 3</name_s>
+	<price_s>300</price_s>
+	<description_t>service 3</description_t>
+	<image_s>/static-assets/img/product-4.jpg</image_s>
 	<createdDate>2024-11-28T07:39:11.204Z</createdDate>
 	<createdDate_dt>2024-11-28T07:39:11.204Z</createdDate_dt>
-	<lastModifiedDate>2024-11-28T07:39:11.204Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-28T07:39:11.204Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-11-28T07:39:22.633Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-28T07:39:22.633Z</lastModifiedDate_dt>
 </component>
