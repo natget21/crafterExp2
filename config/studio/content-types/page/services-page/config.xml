@@ -3,8 +3,8 @@
 	<form>/page/services-page</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
-	<file-extension>xml</file-extension>
-	<content-as-folder>false</content-as-folder>
+	<file-extension></file-extension>
+	<content-as-folder>true</content-as-folder>
 	<previewable>true</previewable>
 	<quickCreate>true</quickCreate>
 	<quickCreatePath>/site/website</quickCreatePath>
