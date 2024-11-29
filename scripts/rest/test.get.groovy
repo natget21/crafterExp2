@@ -62,7 +62,7 @@
 
 def topNavItems = [:]
 
-def siteDir = siteItemService.getSiteTree('/site/components/categories', 1)
+def siteDir = siteItemService.getSiteTree('/site/components/category', 1)
 
 if (siteDir) {
     def dirs = siteDir.childItems
