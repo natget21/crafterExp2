@@ -87,7 +87,6 @@
                         </div>
                     </div>
                     
-                    <div class="filterResults">
                         <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 1)>
                         <#if courseTree?has_content>
                             <#list courseTree.childItems as course>
@@ -119,7 +118,6 @@
                         <#else>
                             <p>No service available.</p>
                         </#if>
-                    </div>
                     
                     <div class="col-12">
                         <nav>
