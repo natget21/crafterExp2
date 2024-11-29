@@ -6,7 +6,6 @@
 <body>
     <#include "/templates/web/fragments/header.ftl">
     <#include "/templates/web/fragments/navigation.ftl">
-    <#include "/templates/web/components/breadcrumb.ftl">
     
     <#assign id = request.getParameter("id")>
     <div class="container-fluid">
