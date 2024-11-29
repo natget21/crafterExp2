@@ -1,6 +1,6 @@
-<content-type name="/component/tbi" is-wcm-type="true">
-	<label>item: tbi</label>
-	<form>/component/tbi</form>
+<content-type name="/component/itemtbi" is-wcm-type="true">
+	<label>item: TBI</label>
+	<form>/component/itemtbi</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension>xml</file-extension>
