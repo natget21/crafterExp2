@@ -8,7 +8,7 @@
 	<objectId>ad9df6b6-8610-4a13-9994-91b64e79ddba</objectId>
 	<file-name>3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-4.xml</file-name>
 	<folder-name/>
-	<internal-name>TEST BEFORE INVEST</internal-name>
+	<internal-name>TEST-BEFORE-INVEST</internal-name>
 	<name_s>TEST BEFORE INVEST</name_s>
 	<macro_category_o item-list="true">	<item>	<key>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</key>
 	<value>service</value>
@@ -17,6 +17,11 @@
 	</item></macro_category_o>
 	<createdDate>2024-11-14T08:50:52.207Z</createdDate>
 	<createdDate_dt>2024-11-14T08:50:52.207Z</createdDate_dt>
-	<lastModifiedDate>2024-11-14T08:50:54.258Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-14T08:50:54.258Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-11-29T07:26:36.792Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-29T07:26:36.792Z</lastModifiedDate_dt>
+	<tags_s/>
+	<_ai_Description_t/>
+	<ai_Tags_t/>
+	<image_s/>
+	<description_html/>
 </component>
