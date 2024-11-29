@@ -8,7 +8,7 @@
 	<objectId>32cf7af8-f255-439b-8d7a-5348043c91b3</objectId>
 	<file-name>3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-2.xml</file-name>
 	<folder-name/>
-	<internal-name>ACCESS TO FINANCE</internal-name>
+	<internal-name>ACCESS-TO-FINANCE</internal-name>
 	<name_s>ACCESS TO FINANCE</name_s>
 	<macro_category_o item-list="true">	<item>	<key>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</key>
 	<value>service</value>
@@ -17,6 +17,11 @@
 	</item></macro_category_o>
 	<createdDate>2024-11-14T08:46:54.847Z</createdDate>
 	<createdDate_dt>2024-11-14T08:46:54.847Z</createdDate_dt>
-	<lastModifiedDate>2024-11-14T08:46:57.165Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-14T08:46:57.165Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-11-29T07:25:46.407Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-29T07:25:46.407Z</lastModifiedDate_dt>
+	<tags_s/>
+	<_ai_Description_t/>
+	<ai_Tags_t/>
+	<image_s/>
+	<description_html/>
 </component>
