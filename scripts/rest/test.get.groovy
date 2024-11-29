@@ -1,22 +1,23 @@
 // def result = searchClient.search("/site/components/vendor")
 // return result
 
-// def topNavItems = [:]
+def topNavItems = [:]
 // def siteDir = siteItemService.getSiteTree("/site/website", 2)
+def siteDir = siteItemService.getSiteTree('/site/components/categories', 1)
 
-// if (siteDir) {
-//     def dirs = siteDir.childItems
-//     dirs.each { dir ->
-//         def dirName = dir.getStoreName()
-//         def dirItem = siteItemService.getSiteItem("/site/website/${dirName}/index.xml")
-//         if (dirItem != null) {
-//             def dirDisplayName = dirItem.queryValue('internal-name')
-//             topNavItems.put(dirName, dirDisplayName)
-//         }
-//     }
-// }
+if (siteDir) {
+    def dirs = siteDir.childItems
+    dirs.each { dir ->
+        def dirName = dir.getStoreName()
+        def dirItem = siteItemService.getSiteItem("/site/website/${dirName}/index.xml")
+        if (dirItem != null) {
+            def dirDisplayName = dirItem.queryValue('internal-name')
+            topNavItems.put(dirName, dirDisplayName)
+        }
+    }
+}
 
-// return topNavItems
+return topNavItems
 
 // def searchResponse = searchClient.search(r -> r
 //   .query(q -> q
@@ -53,6 +54,6 @@
 // ]
 
 
-def item = siteItemService.getSiteTree('/site/components/categories', 1)
+// def item = siteItemService.getSiteTree('/site/components/categories', 1)
 
-return item
+// return item
