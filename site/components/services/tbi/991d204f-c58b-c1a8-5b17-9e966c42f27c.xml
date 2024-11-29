@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/tbi</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>991d</objectGroupId>
+	<objectId>991d204f-c58b-c1a8-5b17-9e966c42f27c</objectId>
+	<file-name>991d204f-c58b-c1a8-5b17-9e966c42f27c.xml</file-name>
+	<folder-name/>
+	<internal-name>tbi</internal-name>
+	<name_s>tbi</name_s>
+	<duration_s>2 weeks</duration_s>
+	<partners_s/>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-2.xml</key>
+	<value>Change Management</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-2.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<description_t>tbi</description_t>
+	<createdDate>2024-11-29T08:22:05.410Z</createdDate>
+	<createdDate_dt>2024-11-29T08:22:05.410Z</createdDate_dt>
+	<lastModifiedDate>2024-11-29T08:22:05.410Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-29T08:22:05.410Z</lastModifiedDate_dt>
+</component>
