@@ -1,8 +1,8 @@
 <form>
-	<title>item: tbi</title>
+	<title>item: TBI</title>
 	<description></description>
 	<objectType>component</objectType>
-	<content-type>/component/itemtbi</content-type>
+	<content-type>/component/tbi</content-type>
 	<imageThumbnail></imageThumbnail>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
