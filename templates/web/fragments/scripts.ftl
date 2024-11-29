@@ -4,3 +4,15 @@
 <script src="/static-assets/lib/easing/easing.min.js"></script>
 <script src="/static-assets/lib/owlcarousel/owl.carousel.min.js"></script>
 <script src="/static-assets/js/main.js"></script>
+
+<script>
+    document.getElementById('filterForm').addEventListener('change', function() {
+        const formData = new FormData(this);
+        const query = new URLSearchParams(formData).toString();
+        fetch(`/site/components/services?${query}`)
+            .then(response => response.text())
+            .then(html => {
+                document.querySelector('.filterResults').innerHTML = html; // Replace the content with the filtered data
+            });
+    });
+</script>
