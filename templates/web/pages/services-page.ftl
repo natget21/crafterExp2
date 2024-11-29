@@ -59,8 +59,8 @@
             <!-- service products -->
             
             <div class="col-lg-9 col-md-8">
-                <div class="row pb-3">
-                    <div class="col-12 pb-1">
+                <div class="row pb-3 filterResults">
+                    <!-- <div class="col-12 pb-1">
                         <div class="d-flex align-items-center justify-content-between mb-4">
                             <div>
                                 <button class="btn btn-sm btn-light"><i class="fa fa-th-large"></i></button>
@@ -85,7 +85,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     
                         <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 1)>
                         <#if courseTree?has_content>
