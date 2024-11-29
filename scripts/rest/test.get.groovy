@@ -17,7 +17,7 @@
 //     }
 // }
 
-return topNavItems
+// return topNavItems
 
 // def searchResponse = searchClient.search(r -> r
 //   .query(q -> q
@@ -68,10 +68,12 @@ if (siteDir) {
     def dirs = siteDir.childItems
     dirs.each { dir ->
         def dirName = dir.getStoreName()
-        def dirItem = siteItemService.getSiteItem(dir)
+        def dirItem = siteItemService.getSiteItem(dir.storeUrl)
         if (dirItem != null) {
             def dirDisplayName = dirItem.queryValue('internal-name')
             topNavItems.put(dirName, dirDisplayName)
         }
     }
 }
+
+return topNavItems
