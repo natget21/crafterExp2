@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/course</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0948</objectGroupId>
+	<objectId>09481233-84b7-b07a-8499-51ed354cfc6b</objectId>
+	<file-name>09481233-84b7-b07a-8499-51ed354cfc6b.xml</file-name>
+	<folder-name/>
+	<internal-name>course_1</internal-name>
+	<nome_s>course 1</nome_s>
+	<partner_s>partner</partner_s>
+	<costo_s>200</costo_s>
+	<durata_s>2 weeks</durata_s>
+	<modalita_s/>
+	<obiettivo_s/>
+	<contenuto_s/>
+	<rivolto_s/>
+	<maxpartecipanti_s/>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-4.xml</key>
+	<value>Consulenza ICT</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-4.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<createdDate>2024-11-29T08:23:21.868Z</createdDate>
+	<createdDate_dt>2024-11-29T08:23:21.868Z</createdDate_dt>
+	<lastModifiedDate>2024-11-29T08:23:21.868Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-29T08:23:21.868Z</lastModifiedDate_dt>
+</component>
