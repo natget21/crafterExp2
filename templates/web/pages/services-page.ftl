@@ -8,6 +8,23 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/components/breadcrumb.ftl">
     
+    <#assign id = request.getParameter("id")>
+    <div class="container-fluid">
+        <div class="row px-xl-5">
+            <div class="col-12">
+                <nav class="breadcrumb bg-light mb-30">
+                    <a class="breadcrumb-item text-dark" href="#">Home</a>
+                    <a class="breadcrumb-item text-dark" href="#">Services</a>
+                    <#if id?has_content>
+                        <span class="breadcrumb-item active">${id}</span>
+                    <#else>
+                        <span class="breadcrumb-item active">All</span>
+                    </#if>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
     <div class="container-fluid">
         <div class="row px-xl-5">
         
