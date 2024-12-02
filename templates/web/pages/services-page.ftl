@@ -11,13 +11,15 @@
     <#assign query = RequestParameters.query?default("") />
     
     <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 2) />
-    <#function listItems(tree)>
+    
+    
+    <#macro listItems(tree)>
         <#list tree.childItems as item>
             <#if item.isFolder>
                 <!-- Skip folder, but process its children -->
                 <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
                 <#if childTree?has_content>
-                    <#return listItems(childTree)>
+                    <@listItems childTree />
                 </#if>
             <#else>
                 <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
@@ -28,7 +30,7 @@
                 </div>
             </#if>
         </#list>
-    </#function>
+    </#macro>
     
     <div class="container-fluid">
         <div class="row px-xl-5">
