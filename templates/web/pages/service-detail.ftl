@@ -6,7 +6,22 @@
 <body>
     <#include "/templates/web/fragments/header.ftl">
     <#include "/templates/web/fragments/navigation.ftl">
-    <#include "/templates/web/components/breadcrumb.ftl">
+    
+     <div class="container-fluid">
+        <div class="row px-xl-5">
+            <div class="col-12">
+                <nav class="breadcrumb bg-light mb-30">
+                    <a class="breadcrumb-item text-dark" href="#">Home</a>
+                    <a class="breadcrumb-item text-dark" href="#">Services</a>
+                    <#if categoryname?has_content>
+                        <span class="breadcrumb-item active">${categoryname}</span>
+                    <#else>
+                        <span class="breadcrumb-item active">All</span>
+                    </#if>
+                </nav>
+            </div>
+        </div>
+    </div>
    
     <#include "/templates/web/components/product-detail.ftl"> 
     <#include "/templates/web/components/product-carousel.ftl">
