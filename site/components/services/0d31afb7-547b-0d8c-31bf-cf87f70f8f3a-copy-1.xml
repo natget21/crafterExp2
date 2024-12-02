@@ -8,13 +8,13 @@
 	<objectId>e67a2eec-c292-4121-958d-88acb3ab1db6</objectId>
 	<file-name>0d31afb7-547b-0d8c-31bf-cf87f70f8f3a-copy-1.xml</file-name>
 	<folder-name/>
-	<internal-name>service 2</internal-name>
+	<internal-name>service2</internal-name>
 	<name_s>service 2</name_s>
 	<price_s>5000</price_s>
 	<description_t>service 2</description_t>
 	<image_s>/static-assets/img/product-9.jpg</image_s>
 	<createdDate>2024-11-28T07:38:26.338Z</createdDate>
 	<createdDate_dt>2024-11-28T07:38:26.338Z</createdDate_dt>
-	<lastModifiedDate>2024-11-28T07:38:27.979Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-28T07:38:27.979Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-12-02T05:38:23.487Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T05:38:23.487Z</lastModifiedDate_dt>
 </component>
