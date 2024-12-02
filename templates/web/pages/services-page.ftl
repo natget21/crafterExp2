@@ -16,7 +16,7 @@
     <#macro listItems(tree)>
         <#if tree.childItems?has_content>
             <#list tree.childItems as item>
-                <#if item.isFolder>
+                <#if item.isFolder()>
                     <!-- Skip folder, but process its children -->
                     <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
                     <#if childTree?has_content>
