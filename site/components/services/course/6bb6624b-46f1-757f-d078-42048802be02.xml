@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/course</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6bb6</objectGroupId>
+	<objectId>6bb6624b-46f1-757f-d078-42048802be02</objectId>
+	<file-name>6bb6624b-46f1-757f-d078-42048802be02.xml</file-name>
+	<folder-name/>
+	<internal-name>ROBOTICA COLLABORATIVA</internal-name>
+	<name_s>ROBOTICA COLLABORATIVA</name_s>
+	<costo_s>500</costo_s>
+	<durata_s>2 mezze giornate (4 ore + 4 ore)</durata_s>
+	<maxpartecipanti_s>10</maxpartecipanti_s>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+	<value>Formazione a catalogo tecnica e manageriale</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<partner_o item-list="true">	<item>	<key>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</key>
+	<value>MADE SCARL</value>
+	<include>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></partner_o>
+	<extra_costo_t>+ IVA a partecipante</extra_costo_t>
+	<modalita_t>Online sincrono</modalita_t>
+	<obiettivo_t>Il corso si pone l’obiettivo di fornire una visione ampia e strategica del ruolo che la robotica collaborativa può rivestire nelle PMI e di comprendere le molteplici opportunità di innovazione del business che possono derivare dal suo inserimento, nonché le implicazioni normative e di sicurezza. Il corso vuole presentare i diversi ambiti in cui l’introduzione della robotica collaborativa porta un vantaggio competitivo all’azienda e dove invece converrà orientarsi su una robotica di tipo tradizionale. Approfondirà attraverso le giornate esperienziali presso le Academy dei partner specifiche applicazioni e tematiche correlate alla robotica collaborativa in azienda attraverso ambienti di apprendimento innovativi.</obiettivo_t>
+	<contenuto_t>Automazione e robotica nella quarta rivoluzione industriale - Stato dell’arte e trend della robotica industriale - Elementi di un sistema robotico - Dai robot ai cobot: opportunità e vantaggi della robotica collaborativa - Applicazioni della robotica collaborativa - Sicurezza nelle applicazioni robotiche</contenuto_t>
+	<rivolto_t>Imprenditori di PMI, Manager, Direttori di produzione, Responsabili di linea, Capireparto</rivolto_t>
+	<image_s/>
+	<createdDate>2024-12-02T13:54:27.344Z</createdDate>
+	<createdDate_dt>2024-12-02T13:54:27.344Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T13:54:27.344Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T13:54:27.344Z</lastModifiedDate_dt>
+</component>
