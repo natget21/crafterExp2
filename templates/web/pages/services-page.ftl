@@ -7,15 +7,16 @@
     <#include "/templates/web/fragments/header.ftl">
     <#include "/templates/web/fragments/navigation.ftl">
     
-    <#assign id = request.getParameter("id")>
+    <#assign categoryname = request.getParameter("categoryname")>
     <div class="container-fluid">
         <div class="row px-xl-5">
             <div class="col-12">
+                <p>${categoryname} - test</p>
                 <nav class="breadcrumb bg-light mb-30">
                     <a class="breadcrumb-item text-dark" href="#">Home</a>
                     <a class="breadcrumb-item text-dark" href="#">Services</a>
-                    <#if id?has_content>
-                        <span class="breadcrumb-item active">${id}</span>
+                    <#if categoryname?has_content>
+                        <span class="breadcrumb-item active">${categoryname}</span>
                     <#else>
                         <span class="breadcrumb-item active">All</span>
                     </#if>
