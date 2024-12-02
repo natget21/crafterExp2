@@ -13,10 +13,10 @@
                 <nav class="breadcrumb bg-light mb-30">
                     <a class="breadcrumb-item text-dark" href="#">Home</a>
                     <a class="breadcrumb-item text-dark" href="#">Services</a>
-                    <#if categoryname?has_content>
-                        <span class="breadcrumb-item active">${categoryname}</span>
+                    <#if servicename?has_content>
+                        <span class="breadcrumb-item active">${servicename}</span>
                     <#else>
-                        <span class="breadcrumb-item active">All</span>
+                        <span class="breadcrumb-item active">Detail</span>
                     </#if>
                 </nav>
             </div>
