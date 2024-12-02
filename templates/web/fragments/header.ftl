@@ -12,11 +12,11 @@
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search for services...">
                         <div class="input-group-append">
-                            <a href="/services?query=a">
-                                <span class="input-group-text bg-transparent text-primary">
+                            <span class="input-group-text bg-transparent text-primary">
+                                <a href="/services?query=a">
                                     <i class="fa fa-search"></i>
-                                </span>
-                            </a>
+                                </a>
+                            </span>
                         </div>
                     </div>
                 </form>
