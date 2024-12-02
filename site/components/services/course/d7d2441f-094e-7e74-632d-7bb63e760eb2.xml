@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/course</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d7d2</objectGroupId>
+	<objectId>d7d2441f-094e-7e74-632d-7bb63e760eb2</objectId>
+	<file-name>d7d2441f-094e-7e74-632d-7bb63e760eb2.xml</file-name>
+	<folder-name/>
+	<internal-name>INTRODUZIONE ALLE TECNOLOGIE 4.0</internal-name>
+	<name_s>INTRODUZIONE ALLE TECNOLOGIE 4.0</name_s>
+	<costo_s>1000</costo_s>
+	<durata_s>Due moduli da 8 ore</durata_s>
+	<maxpartecipanti_s>10</maxpartecipanti_s>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+	<value>Formazione a catalogo tecnica e manageriale</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<partner_o item-list="true">	<item>	<key>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</key>
+	<value>MADE SCARL</value>
+	<include>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></partner_o>
+	<extra_costo_t>+ IVA a partecipante</extra_costo_t>
+	<modalita_t>In presenza c/o MADE COMPETENCE CENTER</modalita_t>
+	<obiettivo_t>Il corso Manifattura 4.0 vuole essere un corso introduttivo a tutte le principali tecnologie che permettono alle aziende di digitalizzare i propri processi industriali, evidenziando quelli che sono i trend del settore e le opportunità che possono offrire alle aziende.</obiettivo_t>
+	<contenuto_t>Il 4.0 e il futuro del manifatturiero - Il Digital Backbone – L’intelligenza artificiale – Internet of things – La progettazione 4.0 – Il controllo da remoto – La manutenzione 4.0 – La sostenibilità</contenuto_t>
+	<rivolto_t>Imprenditori di PMI, Manager. Direttori di produzione, Responsabili di linea, Capireparto</rivolto_t>
+	<image_s/>
+	<createdDate>2024-12-02T13:47:33.729Z</createdDate>
+	<createdDate_dt>2024-12-02T13:47:33.729Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T13:47:33.729Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T13:47:33.729Z</lastModifiedDate_dt>
+</component>
