@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/course</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3806</objectGroupId>
+	<objectId>38063298-0824-e95f-acae-c10b7b286bca</objectId>
+	<file-name>38063298-0824-e95f-acae-c10b7b286bca.xml</file-name>
+	<folder-name/>
+	<internal-name>APPLICAZIONI DI INTELLIGENZA ARTIFICIALE PER LE MPMI</internal-name>
+	<name_s>APPLICAZIONI DI INTELLIGENZA ARTIFICIALE PER LE MPMI</name_s>
+	<costo_s>194</costo_s>
+	<durata_s>12 ore, 26 luglio, 30 luglio e 31 luglio 2024 dall</durata_s>
+	<maxpartecipanti_s>20</maxpartecipanti_s>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+	<value>Formazione a catalogo tecnica e manageriale</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<partner_o item-list="true">	<item>	<key>/site/components/providers/e8c9ecf4-adc8-aa52-25ec-e56df33bcbae.xml</key>
+	<value>DIH CONFARTIGIANATO IMPRESE MARCHE</value>
+	<include>/site/components/providers/e8c9ecf4-adc8-aa52-25ec-e56df33bcbae.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></partner_o>
+	<extra_costo_t>a partecipante.</extra_costo_t>
+	<modalita_t>Online.</modalita_t>
+	<obiettivo_t>il corso ha l’obiettivo di esplorare una serie di soluzioni e casi duso di intelligenza artificiale per le micro, piccole e medie imprese sia nei servizi che nella manifattura. Spazierà quindi da applicazioni in ambito di gestione dei documenti fino alla gestione e generazione di contenuti più evoluti come immagini, video e suoni. Fornirà sia un quadro generale della tecnologia e delle sue potenzialità che una serie di conoscenze pratiche per lutilizzo da parte dei singoli individui e delle aziende.\r\n</obiettivo_t>
+	<contenuto_t>limpatto e le potenzialità dellAI per le piccole e medie imprese - ruolo delle macchine e ruolo delle persone - casi duso nella gestione documentale - casi duso nella generazione di contenuti- altri casi duso più evoluti- come si scrive alle macchine - come generare immagini, video e suoni - cosa sta per arrivare ancora? uno sguardo al futuro - alcune esercitazioni: EscapeGPT, Prompting Challenge - consigli per percorsi di adozione e sperimentazione</contenuto_t>
+	<rivolto_t>Imprenditori di MPMI, creativi, Designer, Grafici, Content Marketing Specialist.\r\n</rivolto_t>
+	<image_s/>
+	<createdDate>2024-12-02T14:52:54.441Z</createdDate>
+	<createdDate_dt>2024-12-02T14:52:54.441Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T14:52:54.441Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T14:52:54.441Z</lastModifiedDate_dt>
+</component>
