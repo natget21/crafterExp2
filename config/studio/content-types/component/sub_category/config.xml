@@ -1,5 +1,5 @@
 <content-type name="/component/sub_category" is-wcm-type="true">
-	<label>item: Sub Category</label>
+	<label>Item: Sub Category</label>
 	<form>/component/sub_category</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
@@ -11,8 +11,8 @@
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
 	<paths>
-    <includes>
-      <pattern>^/site/components/sub_category/.*</pattern>
-    </includes>
-  </paths>
+		<includes>
+			<pattern>^/site/components/sub_category/.*</pattern>
+		</includes>
+	</paths>
 </content-type>
