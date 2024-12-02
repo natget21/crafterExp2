@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/pages/home.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>63ee</objectGroupId>
+	<objectId>63ee48d3-b33a-98ba-cde7-964d67e7c3f9</objectId>
+	<file-name>home.xml</file-name>
+	<folder-name/>
+	<internal-name>home</internal-name>
+	<navLabel>home</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<services_o item-list="true"/>
+	<providers_o item-list="true"/>
+	<createdDate>2024-12-02T03:28:47.617Z</createdDate>
+	<createdDate_dt>2024-12-02T03:28:47.617Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T03:28:47.617Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T03:28:47.617Z</lastModifiedDate_dt>
+</page>
