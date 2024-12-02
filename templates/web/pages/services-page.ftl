@@ -135,7 +135,8 @@
                             <#list courseTree.childItems as course>
                                 <#assign courseItem = siteItemService.getSiteItem(course.storeUrl) />
                                 <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                                    <div class="product-img position-relative overflow-hidden">
+                                    
+                                    <!-- <div class="product-img position-relative overflow-hidden">
                                         <img class="img-fluid w-100" src="${courseItem.queryValue('image_s')?default("")}" alt="${courseItem.queryValue('name_s')?default("")}">
                                         <div class="product-action">
                                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
@@ -153,7 +154,7 @@
                                         <div class="d-flex align-items-center justify-content-center mb-1">
                                             (99)
                                         </div>
-                                    </div>
+                                    </div> -->
                                    
                                 </div>
                             </#list>
