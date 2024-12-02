@@ -20,7 +20,7 @@
                 </form>
             </div>
             <div class="col-lg-4 col-6 text-right">
-                <a href="/loginuser" class="btn btn-primary text-uppercase px-4">Login/Register</a>
+                <a href="/login" class="btn btn-primary text-uppercase px-4">Login/Register</a>
             </div>
         </div>
     </div>
