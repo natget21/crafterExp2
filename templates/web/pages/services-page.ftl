@@ -48,14 +48,14 @@
                     <!-- Filter by categoryName and subCategoryName -->
                     <#if categoryName?has_content && !subCategoryName?has_content>
                         <!-- Check if folder name matches categoryName -->
-                        <#if item.name_s?lower_case == categoryName?lower_case>
+                        <#if item.queryValue('internal-name')?lower_case == categoryName?lower_case>
                             <@listItems childTree />
                         </#if>
                     <#elseif categoryName?has_content && subCategoryName?has_content>
                         <!-- Check if folder matches categoryName, and process subCategoryName -->
-                        <#if item.name_s?lower_case == categoryName?lower_case>
+                        <#if item.queryValue('internal-name')?lower_case == categoryName?lower_case>
                             <#list childTree.childItems as subItem>
-                                <#if subItem.isFolder() && subItem.name_s?lower_case == subCategoryName?lower_case>
+                                <#if subItem.isFolder() && subItem.queryValue('internal-name')?lower_case == subCategoryName?lower_case>
                                     <@listItems siteItemService.getSiteTree(subItem.storeUrl, 1) />
                                 </#if>
                             </#list>
@@ -67,7 +67,7 @@
                 <#else>
                     <!-- If query exists, filter items by name -->
                     <#if query?has_content>
-                        <#if item.name_s?lower_case?contains(query?lower_case)>
+                        <#if item.queryValue('internal-name')?lower_case?contains(query?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                             <!-- Use itemData for rendering -->
                             <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
@@ -251,3 +251,13 @@
     <#include "/templates/web/fragments/scripts.ftl">
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
