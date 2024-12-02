@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/course</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>68bd</objectGroupId>
+	<objectId>68bd8a33-77db-3eb2-acbc-794844045355</objectId>
+	<file-name>68bd8a33-77db-3eb2-acbc-794844045355.xml</file-name>
+	<folder-name/>
+	<internal-name>Consapevolezza Digitale e Digital Strategy (vecchio)</internal-name>
+	<name_s>Consapevolezza Digitale e Digital Strategy (vecchio)</name_s>
+	<costo_s>100</costo_s>
+	<durata_s>8 ore suddivise in 3 moduli</durata_s>
+	<maxpartecipanti_s>10</maxpartecipanti_s>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+	<value>Formazione a catalogo tecnica e manageriale</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<partner_o item-list="true">	<item>	<key>/site/components/providers/915ba5c6-ad6b-2bdd-ae92-647c530b5a7d.xml</key>
+	<value>MARCHE INNOVATION HUB SCARL</value>
+	<include>/site/components/providers/915ba5c6-ad6b-2bdd-ae92-647c530b5a7d.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></partner_o>
+	<extra_costo_t>+ IVA a partecipante</extra_costo_t>
+	<modalita_t>Primo modulo in presenza presso CAMPETELLA ROBOTIC CENTER Srl Montecassiano (MC).
+Secondo e terzo modulo in presenza presso sede da definire</modalita_t>
+	<obiettivo_t>Il corso si propone di fornire una panoramica sulle nuove tecnologie applicate al mondo della produzione industriale</obiettivo_t>
+	<contenuto_t>Primo modulo: AI e Robotica\r\nSecondo modulo: Come l’IOT cambia la produzione
+Terzo modulo: BLOCKCHAIN cosa fa e cosa non fa
+</contenuto_t>
+	<rivolto_t>Il corso è concepito per accogliere chiunque sia interessato/a alle seguenti tematiche:
+Intelligenza Artificiale;
+Robotica;
+IOT;
+Blockchain.</rivolto_t>
+	<image_s/>
+	<createdDate>2024-12-02T13:31:46.669Z</createdDate>
+	<createdDate_dt>2024-12-02T13:31:46.669Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T13:31:46.669Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T13:31:46.669Z</lastModifiedDate_dt>
+</component>
