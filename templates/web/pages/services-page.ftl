@@ -14,22 +14,27 @@
     
     
     <#macro listItems(tree)>
-        <#list tree.childItems as item>
-            <#if item.isFolder>
-                <!-- Skip folder, but process its children -->
-                <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
-                <#if childTree?has_content>
-                    <@listItems childTree />
+        <#if tree.childItems?has_content>
+            <#list tree.childItems as item>
+                <#if item.isFolder>
+                    <!-- Skip folder, but process its children -->
+                    <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
+                    <#if childTree?has_content>
+                        <@listItems childTree />
+                    </#if>
+                <#else>
+                    <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                    <!-- Use itemData for rendering -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                        <#assign contentModel = itemData />
+                        <#include "/templates/web/items/service-template.ftl"/>
+                    </div>
                 </#if>
-            <#else>
-                <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
-                <!-- Use itemData for rendering -->
-                <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                    <#assign contentModel = itemData />
-                    <#include "/templates/web/items/service-template.ftl"/>
-                </div>
-            </#if>
-        </#list>
+            </#list>
+        <#else>
+            <!-- Optionally handle empty trees -->
+            <p>No items found in this tree.</p>
+        </#if>
     </#macro>
     
     <div class="container-fluid">
