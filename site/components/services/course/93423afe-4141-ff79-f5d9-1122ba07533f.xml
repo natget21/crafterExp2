@@ -24,13 +24,13 @@
 	<disableFlattening>false</disableFlattening>
 	</item></partner_o>
 	<modalita_t>In presenza c/o Ancona</modalita_t>
-	<obiettivo_t>Sviluppare una solida competenza nellambito dellintelligenza artificiale e dellapprendimento automatico Fornire una consapevolezza riguardo limportanza del dato per questo tipo di applicazioni, con particolare enfasi sui concetti di quantità e qualità. Spiegare la differenza tra apprendimento supervisionato, non supervisionato e per rinforzo, consentendo ai partecipanti di comprendere, tramite esempi pratici provenienti da diversi settori applicativi, quale paradigma sia più adatto alla risoluzione di problemi specifici del loro campo di interesse. </obiettivo_t>
-	<contenuto_t>Il corso si articola su 3 tematiche.Il primo formalizza la struttura di una pipeline di apprendimento automatico, partendo dallanalisi esplorativa e dalla pulizia dei dati, procedendo poi con lestrazione e la selezione delle features, fino ad arrivare alla fase di classificazione e validazione delle prestazioni.Il secondo modulo approfondisce lapplicazione pratica di questa pipeline, presentando la sua implementazione in casi di studio specifici nel settore manifatturiero.Infine, il terzo modulo presenta una serie di casi applicativi relativi ad ambiti molto diversi tra loro, spaziando dalla guida autonoma ai sistemi di raccomandazione, concludendo con una breve trattazione dei temi etici correlati allintelligenza artificiale.</contenuto_t>
-	<rivolto_t>Il corso è concepito per accogliere chiunque sia interessato ai temi di intelligenza artificiale ed apprendimento automatico. Non richiede alcuna conoscenza preliminare specifica sullargomento.</rivolto_t>
+	<obiettivo_t>Sviluppare una solida competenza nellambito dellintelligenza artificiale e dellapprendimento automatico\r\nFornire una consapevolezza riguardo limportanza del dato per questo tipo di applicazioni, con particolare enfasi sui concetti di quantità e qualità. \r\nSpiegare la differenza tra apprendimento supervisionato, non supervisionato e per rinforzo, consentendo ai partecipanti di comprendere, tramite esempi pratici provenienti da diversi settori applicativi, quale paradigma sia più adatto alla risoluzione di problemi specifici del loro campo di interesse. \r\n</obiettivo_t>
+	<contenuto_t>Il corso si articola su 3 tematiche.\r\nIl primo formalizza la struttura di una pipeline di apprendimento automatico, partendo dallanalisi esplorativa e dalla pulizia dei dati, procedendo poi con lestrazione e la selezione delle features, fino ad arrivare alla fase di classificazione e validazione delle prestazioni.\r\nIl secondo modulo approfondisce lapplicazione pratica di questa pipeline, presentando la sua implementazione in casi di studio specifici nel settore manifatturiero.\r\nInfine, il terzo modulo presenta una serie di casi applicativi relativi ad ambiti molto diversi tra loro, spaziando dalla guida autonoma ai sistemi di raccomandazione, concludendo con una breve trattazione dei temi etici correlati allintelligenza artificiale.\r\n</contenuto_t>
+	<rivolto_t>Il corso è concepito per accogliere chiunque sia interessato ai temi di intelligenza artificiale ed apprendimento automatico. Non richiede alcuna conoscenza preliminare specifica sullargomento.\r\n \r\n</rivolto_t>
 	<image_s/>
 	<createdDate>2024-12-02T12:47:16.059Z</createdDate>
 	<createdDate_dt>2024-12-02T12:47:16.059Z</createdDate_dt>
-	<lastModifiedDate>2024-12-02T13:21:21.309Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-12-02T13:21:21.309Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-12-02T13:34:51.699Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T13:34:51.699Z</lastModifiedDate_dt>
 	<extra_costo_t>+ iva a partecipante</extra_costo_t>
 </component>
