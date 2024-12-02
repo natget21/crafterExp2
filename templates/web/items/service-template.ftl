@@ -5,7 +5,6 @@
 
 
     <div class="product-item bg-light mb-4">
-        <p>${serviceLink}</p>
         <div class="product-img position-relative overflow-hidden">
             <img class="img-fluid w-100" src="${contentModel.image_s?default("")}" alt="${contentModel.name_s?default("")}">
             <div class="product-action">
