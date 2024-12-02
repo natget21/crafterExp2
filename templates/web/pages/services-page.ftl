@@ -8,6 +8,8 @@
     <#include "/templates/web/fragments/navigation.ftl">
     
     <#assign categoryname = RequestParameters.category?default("") />
+    <#assign query = RequestParameters.query?default("") />
+    
     <div class="container-fluid">
         <div class="row px-xl-5">
             <div class="col-12">
