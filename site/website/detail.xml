@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/service_detail</content-type>
+	<display-template>/templates/web/pages/service-detail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>88b8</objectGroupId>
+	<objectId>88b8bc44-d718-0854-5a8c-fd1d9556d42b</objectId>
+	<file-name>detail.xml</file-name>
+	<folder-name/>
+	<internal-name>detail</internal-name>
+	<navLabel>Detail</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2024-12-02T05:40:27.050Z</createdDate>
+	<createdDate_dt>2024-12-02T05:40:27.050Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T05:40:27.050Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T05:40:27.050Z</lastModifiedDate_dt>
+</page>
