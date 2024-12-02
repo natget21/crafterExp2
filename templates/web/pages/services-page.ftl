@@ -137,7 +137,7 @@
                                 <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
                                 
                                     <#assign contentModel = courseItem />
-                                    <#include "/templates/path-to/service.ftl"/>
+                                    <#include "/templates/web/items/service-template.ftl"/>
                                     
                                     <!-- <div class="product-img position-relative overflow-hidden">
                                         <img class="img-fluid w-100" src="${courseItem.queryValue('image_s')?default("")}" alt="${courseItem.queryValue('name_s')?default("")}">
