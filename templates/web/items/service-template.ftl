@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#assign serviceLink = "/detail?service=${contentModel.id?default("")}" />
+<#assign serviceLink = "/detail?service=${contentModel.internal-name?default("")}" />
 
     <div class="product-item bg-light mb-4">
         <p>${serviceLink}</p>
