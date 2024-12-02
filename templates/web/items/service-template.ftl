@@ -6,12 +6,12 @@
             <div class="product-action">
                 <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                 <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
-                <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
-                <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                <!--<a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>-->
             </div>
         </div>
         <div class="text-center py-4">
-            <a class="h6 text-decoration-none text-truncate" href="">${contentModel.name_s?default("")}</a>
+            <a class="h6 text-decoration-none text-truncate" href="/detail?service=">${contentModel.name_s?default("")}</a>
             <div class="d-flex align-items-center justify-content-center mt-2">
                 <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
             </div>
