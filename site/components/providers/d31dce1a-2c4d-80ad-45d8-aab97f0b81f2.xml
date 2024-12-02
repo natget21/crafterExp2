@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/provider</content-type>
+	<display-template>/templates/web/items/provider-template.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d31d</objectGroupId>
+	<objectId>d31dce1a-2c4d-80ad-45d8-aab97f0b81f2</objectId>
+	<file-name>d31dce1a-2c4d-80ad-45d8-aab97f0b81f2.xml</file-name>
+	<folder-name/>
+	<internal-name>DIGITAL INNOVATION HUB MARCHE</internal-name>
+	<name_s>DIGITAL INNOVATION HUB MARCHE</name_s>
+	<logo_s/>
+	<createdDate>2024-12-02T11:57:53.353Z</createdDate>
+	<createdDate_dt>2024-12-02T11:57:53.353Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T11:57:53.353Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T11:57:53.353Z</lastModifiedDate_dt>
+</component>
