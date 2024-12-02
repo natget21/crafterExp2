@@ -7,6 +7,7 @@
     <#include "/templates/web/fragments/header.ftl">
     <#include "/templates/web/fragments/navigation.ftl">
     
+    <#assign servicename = RequestParameters.service?default("") />
      <div class="container-fluid">
         <div class="row px-xl-5">
             <div class="col-12">
