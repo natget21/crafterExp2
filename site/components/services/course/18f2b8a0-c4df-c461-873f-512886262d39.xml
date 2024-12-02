@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/course</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>18f2</objectGroupId>
+	<objectId>18f2b8a0-c4df-c461-873f-512886262d39</objectId>
+	<file-name>18f2b8a0-c4df-c461-873f-512886262d39.xml</file-name>
+	<folder-name/>
+	<internal-name>Consapevolezza Digitale e Digital Strategy (vecchio)</internal-name>
+	<name_s>Consapevolezza Digitale e Digital Strategy (vecchio)</name_s>
+	<costo_s>250</costo_s>
+	<durata_s>4 ore ( 2 moduli da 2 ore)</durata_s>
+	<maxpartecipanti_s>10</maxpartecipanti_s>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+	<value>Formazione a catalogo tecnica e manageriale</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<partner_o item-list="true">	<item>	<key>/site/components/providers/915ba5c6-ad6b-2bdd-ae92-647c530b5a7d.xml</key>
+	<value>MARCHE INNOVATION HUB SCARL</value>
+	<include>/site/components/providers/915ba5c6-ad6b-2bdd-ae92-647c530b5a7d.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></partner_o>
+	<extra_costo_t>+ Iva a partecipante</extra_costo_t>
+	<modalita_t>In presenza presso la sede della Compagnia delle Opere Marche Sud. Indirizzo: Lungomare Gramsci, 1 Porto San Giorgio. Modulo «Consapevolezza digitale»: 16 maggio 2024 alle ore 17:30.
+Modulo «Digital Strategy: Come Strutturare Correttamente la Propria Presenza Digitale»: 25 settembre, dalle ore 17:30 alle 19:30 </modalita_t>
+	<obiettivo_t>2 modulo formativi: «Consapevolezza Digitale» e «Digital Strategy: Come Strutturare Correttamente la Propria Presenza Digitale».
+Il modulo «Consapevolezza digitale» è pensato per coloro che desiderano immergersi nelle logiche della trasformazione digitale, comprendere come le persone, gli strumenti e i processi si combinano per comprendere e gestire il cambiamento e, soprattutto, valutare consapevolmente limpatto del digitale sul sistema azienda.\r\nIl modulo «Digital Strategy: Come Strutturare Correttamente la Propria Presenza Digitale» è ideale per marketing manager o digital specialist che vogliono imparare come strutturare efficacemente la presenza digitale dellazienda.</obiettivo_t>
+	<contenuto_t>Programma modulo «Consapevolezza Digitale»: il ruolo del digital nel processo decisionale, canali/strumenti/competenze per una corretta presenza digitale, concetti e approcci per impostare un nuovo progetto digital.
+Programma modulo «Digital Strategy: Come Strutturare Correttamente la Propria Presenza Digitale»: analisi del pubblico target, lottimizzazione del sito web, il posizionamento sui motori di ricerca, la gestione dei social media e lanalisi dei dati. Questo corso fornirà agli allievi gli strumenti e le conoscenze per navigare con fiducia il panorama digitale, ottimizzando la visibilità online e massimizzando il ROI.</contenuto_t>
+	<rivolto_t>Il corso è concepito per accogliere chiunque sia interessato/a alle tematiche digital.</rivolto_t>
+	<image_s/>
+	<createdDate>2024-12-02T13:28:52.796Z</createdDate>
+	<createdDate_dt>2024-12-02T13:28:52.796Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T13:28:52.796Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T13:28:52.796Z</lastModifiedDate_dt>
+</component>
