@@ -141,9 +141,9 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>nome_s</id>
+					<id>name_s</id>
 					<iceId></iceId>
-					<title>nome</title>
+					<title>name</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
