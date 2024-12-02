@@ -2,23 +2,16 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>MultiShop - Online Shop Website Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
-    <#include "/templates/web/fragments/head.ftl">
-    <#include "/templates/web/fragments/header.ftl">
-    <@crafter.head />
-</head>
-
-
+<#include "/templates/web/fragments/head.ftl">
 <body>
-<@crafter.body_top/>
-    <!-- Contact Start -->
+    <!-- Header Section (Logo, Search Bar, etc.) -->
+    <#include "/templates/web/fragments/header.ftl">
+    
+     <!-- Navigation Section --> 
+    <#include "/templates/web/fragments/navigation.ftl">
+
+<!-- Contact Start -->
     <div class="container-fluid">
-        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Contact Us</span></h2>
         <div class="row px-xl-5">
             <div class="col-lg-7 mb-5">
                 <div class="contact-form bg-light p-30">
@@ -68,16 +61,10 @@
     </div>
     <!-- Contact End -->
 
+    <!-- Footer Section -->
+    <#include "/templates/web/fragments/footer.ftl">
 
-    <!-- Back to Top -->
-<a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-    
-	<#include "/templates/web/fragments/footer.ftl">
-
+    <!-- Scripts -->
     <#include "/templates/web/fragments/scripts.ftl">
-<@crafter.body_bottom/>
-
 </body>
-
 </html>
