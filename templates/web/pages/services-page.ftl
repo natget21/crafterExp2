@@ -11,7 +11,7 @@
     <div class="container-fluid">
         <div class="row px-xl-5">
             <div class="col-12">
-                <p>${categoryname} - test</p>
+                <p>${RequestParameters.category} - test - ${request.getParameter("category")}</p>
                 <nav class="breadcrumb bg-light mb-30">
                     <a class="breadcrumb-item text-dark" href="#">Home</a>
                     <a class="breadcrumb-item text-dark" href="#">Services</a>
