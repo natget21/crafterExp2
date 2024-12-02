@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/course</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c8f0</objectGroupId>
+	<objectId>c8f035bf-677d-a5d6-767b-468ef5a7a361</objectId>
+	<file-name>c8f035bf-677d-a5d6-767b-468ef5a7a361.xml</file-name>
+	<folder-name/>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+	<value>Formazione a catalogo tecnica e manageriale</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<partner_o item-list="true">	<item>	<key>/site/components/providers/e8c9ecf4-adc8-aa52-25ec-e56df33bcbae.xml</key>
+	<value>DIH CONFARTIGIANATO IMPRESE MARCHE</value>
+	<include>/site/components/providers/e8c9ecf4-adc8-aa52-25ec-e56df33bcbae.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></partner_o>
+	<internal-name>CORSO SU COMMESSA DIH CONFARTIGIANATO IMPRESE MARCHE</internal-name>
+	<name_s>CORSO SU COMMESSA DIH CONFARTIGIANATO IMPRESE MARCHE</name_s>
+	<costo_s>Da definire per ogni singolo corso</costo_s>
+	<durata_s>Da definire per ogni singolo corso (max 24 ore)</durata_s>
+	<maxpartecipanti_s>15</maxpartecipanti_s>
+	<extra_costo_t/>
+	<modalita_t>In presenza o da remoto in base alla richiesta dell azienda</modalita_t>
+	<obiettivo_t>Lobiettivo è quello di sviluppare corsi di formazione per l’aggiornamento e la riqualificazione delle competenze aziendali nell’ambito della transizione digitale.\r\nAttraverso una puntuale analisi dei bisogni dell impresa, MADE offre la possibilità di realizzare dei corsi su commessa che offrono un’opportunità unica di acquisire competenze e conoscenze su misura per le diverse esigenze professionali. Questi corsi si distinguono per la loro flessibilità e adattabilità. I contenuti, le modalità di erogazione e i tempi sono definiti in base alle esigenze di un’azienda e ai rispettivi obiettivi.</obiettivo_t>
+	<contenuto_t>Da definire in base alle esigenze dell impresa.</contenuto_t>
+	<rivolto_t>Da definire con l impresa</rivolto_t>
+	<image_s/>
+	<createdDate>2024-12-02T15:36:27.875Z</createdDate>
+	<createdDate_dt>2024-12-02T15:36:27.875Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T15:36:27.875Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T15:36:27.875Z</lastModifiedDate_dt>
+</component>
