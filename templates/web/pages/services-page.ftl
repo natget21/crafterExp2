@@ -7,7 +7,8 @@
     <#include "/templates/web/fragments/header.ftl">
     <#include "/templates/web/fragments/navigation.ftl">
     
-    <#assign categoryname = RequestParameters.category?default("") />
+    <#assign categoryName = RequestParameters.category?default("") />
+    <#assign subCategoryName = RequestParameters.sub-category?default("") />
     <#assign query = RequestParameters.query?default("") />
     
     <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 2) />
@@ -37,14 +38,66 @@
         </#if>
     </#macro>
     
+    <#macro listFilteredItems(tree)>
+        <#if tree.childItems?has_content>
+            <#list tree.childItems as item>
+                <#if item.isFolder()>
+                    <!-- Get child items for the folder -->
+                    <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
+                    
+                    <!-- Filter by categoryName and subCategoryName -->
+                    <#if categoryName?has_content && !subCategoryName?has_content>
+                        <!-- Check if folder name matches categoryName -->
+                        <#if item.name?lower_case == categoryName?lower_case>
+                            <@listItems childTree />
+                        </#if>
+                    <#elseif categoryName?has_content && subCategoryName?has_content>
+                        <!-- Check if folder matches categoryName, and process subCategoryName -->
+                        <#if item.name?lower_case == categoryName?lower_case>
+                            <#list childTree.childItems as subItem>
+                                <#if subItem.isFolder() && subItem.name?lower_case == subCategoryName?lower_case>
+                                    <@listItems siteItemService.getSiteTree(subItem.storeUrl, 1) />
+                                </#if>
+                            </#list>
+                        </#if>
+                    <#else>
+                        <!-- Default: Process all folders -->
+                        <@listItems childTree />
+                    </#if>
+                <#else>
+                    <!-- If query exists, filter items by name -->
+                    <#if query?has_content>
+                        <#if item.name?lower_case?contains(query?lower_case)>
+                            <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                            <!-- Use itemData for rendering -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                                <#assign contentModel = itemData />
+                                <#include "/templates/web/items/service-template.ftl" />
+                            </div>
+                        </#if>
+                    <#else>
+                        <!-- No query: Display all items -->
+                        <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                        <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                            <#assign contentModel = itemData />
+                            <#include "/templates/web/items/service-template.ftl" />
+                        </div>
+                    </#if>
+                </#if>
+            </#list>
+        <#else>
+            <p>No items found in this tree.</p>
+        </#if>
+    </#macro>
+    
     <div class="container-fluid">
         <div class="row px-xl-5">
             <div class="col-12">
                 <nav class="breadcrumb bg-light mb-30">
                     <a class="breadcrumb-item text-dark" href="#">Home</a>
                     <a class="breadcrumb-item text-dark" href="#">Services</a>
-                    <#if categoryname?has_content>
-                        <span class="breadcrumb-item active">${categoryname}</span>
+                    <#if categoryName?has_content>
+                        <span class="breadcrumb-item active">${categoryName}</span>
                     <#else>
                         <span class="breadcrumb-item active">All</span>
                     </#if>
@@ -162,7 +215,7 @@
                         
                     <div class="row">
                         <#if courseTree?has_content>
-                            <@listItems courseTree />
+                            <@listFilteredItems courseTree />
                         <#else>
                             <p>No service available.</p>
                         </#if>
