@@ -10,6 +10,26 @@
     <#assign categoryname = RequestParameters.category?default("") />
     <#assign query = RequestParameters.query?default("") />
     
+    <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 2) />
+    <#function listItems(tree)>
+        <#list tree.childItems as item>
+            <#if item.isFolder>
+                <!-- Skip folder, but process its children -->
+                <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
+                <#if childTree?has_content>
+                    <#return listItems(childTree)>
+                </#if>
+            <#else>
+                <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                <!-- Use itemData for rendering -->
+                <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                    <#assign contentModel = itemData />
+                    <#include "/templates/web/items/service-template.ftl"/>
+                </div>
+            </#if>
+        </#list>
+    </#function>
+    
     <div class="container-fluid">
         <div class="row px-xl-5">
             <div class="col-12">
@@ -132,40 +152,14 @@
                         </div>
                     </div> -->
                     
-                        <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 1)>
+                        
+                    <div class="row">
                         <#if courseTree?has_content>
-                            <#list courseTree.childItems as course>
-                                <#assign courseItem = siteItemService.getSiteItem(course.storeUrl) />
-                                <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                                
-                                    <#assign contentModel = courseItem />
-                                    <#include "/templates/web/items/service-template.ftl"/>
-                                    
-                                    <!-- <div class="product-img position-relative overflow-hidden">
-                                        <img class="img-fluid w-100" src="${courseItem.queryValue('image_s')?default("")}" alt="${courseItem.queryValue('name_s')?default("")}">
-                                        <div class="product-action">
-                                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
-                                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
-                                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
-                                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="text-center py-4">
-                                        <a class="h6 text-decoration-none" href="">${courseItem.queryValue('name_s')?default("")}</a>
-                                        <div class="d-flex align-items-center justify-content-center mt-2">
-                                            <h5></h5>
-                                            <h5>EUR ${courseItem.queryValue('price_s')?default("")}</h5><h6 class="text-muted ml-2"><del>EUR ${courseItem.queryValue('price_s')?default("")}</del></h6>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-center mb-1">
-                                            (99)
-                                        </div>
-                                    </div> -->
-                                   
-                                </div>
-                            </#list>
+                            <@listItems courseTree />
                         <#else>
                             <p>No service available.</p>
                         </#if>
+                    </div>
                     
                     <div class="col-12">
                         <nav>
