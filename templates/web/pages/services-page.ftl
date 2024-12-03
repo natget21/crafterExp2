@@ -35,7 +35,7 @@
                     <#elseif categoryName?has_content && !subCategoryName?has_content>
                         <!-- Category filtering -->
                         <p>${item.storeUrl?lower_case} - ${categoryName?lower_case} - ${item.storeUrl?lower_case?contains(categoryName?lower_case)}</p>
-                        <#if item.storeUrl?contains(categoryName?lower_case)>
+                        <#if item.storeUrl?lower_case?contains(categoryName?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                             <#assign contentModel = itemData />
                             <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
