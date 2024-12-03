@@ -6,7 +6,12 @@
 
     <div class="product-item bg-light mb-4">
         <div class="product-img position-relative overflow-hidden">
-            <img class="img-fluid w-100" src=${contentModel.image_s?hasContent ? contentModel.image_s : "/static-assets/img/default/product-default.png"} alt="${contentModel.name_s?default("")}">
+            <#if contentModel.image_s?hasContent>
+                <img class="img-fluid w-100" src="${contentModel.image_s?default("/static-assets/img/default/product-default.png")}" alt="${contentModel.name_s?default("")}">
+            <#else>
+                <img class="img-fluid w-100" src="/static-assets/img/default/product-default.png" alt="${contentModel.name_s?default("")}">            
+            </#if>
+            
             <div class="product-action">
                 <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                 <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
