@@ -10,7 +10,7 @@
 	<folder-name/>
 	<internal-name>APPLICAZIONI ROBOTICHE E PROCESSI ROBOTIZZATI</internal-name>
 	<name_s>APPLICAZIONI ROBOTICHE E PROCESSI ROBOTIZZATI</name_s>
-	<duration_s>Da 15 a 20 giornate (definita dal partner erogator</duration_s>
+	<duration_s>Da 15 a 20 giornate (definita dal partner erogatore In base a casistica e obiettivi)</duration_s>
 	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</key>
 	<value>DEMO</value>
 	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</include>
@@ -33,6 +33,6 @@
 	<image_s/>
 	<createdDate>2024-12-03T08:20:50.924Z</createdDate>
 	<createdDate_dt>2024-12-03T08:20:50.924Z</createdDate_dt>
-	<lastModifiedDate>2024-12-03T08:20:50.924Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-12-03T08:20:50.924Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-12-03T08:22:20.844Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-03T08:22:20.844Z</lastModifiedDate_dt>
 </component>
