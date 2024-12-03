@@ -23,8 +23,8 @@
                         <@listFilteredItems childTree />
                     </#if>
                 <#else>
-                    <!-- Query filtering -->
                     <#if query?has_content>
+                        <!-- Query filtering -->
                         <#if item.queryValue('name_s')?lower_case?contains(query?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                             <#assign contentModel = itemData />
@@ -32,10 +32,8 @@
                                 <#include "/templates/web/items/service-template.ftl" />
                             </div>
                         </#if>
-                    
-                    <!-- Category filtering -->
                     <#elseif categoryName?has_content && !subCategoryName?has_content>
-                        <!-- Check subcategory node selector for a matching category -->
+                        <!-- Category filtering -->
                         <#assign subcategoryRef = item.queryValue('subcategory_o') />
                         <#if subcategoryRef?has_content>
                             <#assign subcategoryData = siteItemService.getSiteItem(subcategoryRef) />
@@ -47,9 +45,8 @@
                                 </div>
                             </#if>
                         </#if>
-                    
-                    <!-- Subcategory filtering -->
                     <#elseif categoryName?has_content && subCategoryName?has_content>
+                        <!-- Subcategory filtering -->
                         <#if item.queryValue('subcategory_o')?has_content>
                             <#assign subcategoryRef = item.queryValue('subcategory_o') />
                             <#if subcategoryRef?has_content>
@@ -61,11 +58,14 @@
                                         <#include "/templates/web/items/service-template.ftl" />
                                     </div>
                                 </#if>
+                            <#else>
+                                <p>${item.queryValue('subcategory_o')} - node</p>
                             </#if>
+                        <#else>
+                                <p>${item} - item</p>
                         </#if>
-                    
-                    <!-- Default: Display all items -->
                     <#else>
+                        <!-- Default: Display all items -->
                         <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                         <#assign contentModel = itemData />
                         <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
