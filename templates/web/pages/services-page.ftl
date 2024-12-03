@@ -55,7 +55,6 @@
                             </div>
                         </#if>
                     <#else>
-                        <!-- No query: Display all items -->
                         <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                         <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
                             <#assign contentModel = itemData />
