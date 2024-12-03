@@ -34,7 +34,6 @@
                         </#if>
                     <#elseif categoryName?has_content && !subCategoryName?has_content>
                         <!-- Category filtering -->
-                        <p>${item.storeUrl?lower_case} - ${categoryName?lower_case} - ${item.storeUrl?lower_case?contains(categoryName?lower_case)}</p>
                         <#if item.storeUrl?lower_case?contains(categoryName?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                             <#assign contentModel = itemData />
@@ -44,7 +43,7 @@
                         </#if>
                     <#elseif categoryName?has_content && subCategoryName?has_content>
                         <!-- Subcategory filtering -->
-                        <#if item.storeUrl?contains(subCategoryName?lower_case)>
+                        <#if item.storeUrl?lower_case?contains(subCategoryName?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                             <#assign contentModel = itemData />
                             <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
