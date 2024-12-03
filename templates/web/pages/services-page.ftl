@@ -33,7 +33,6 @@
                 </#if>
             </#list>
         <#else>
-            <!-- Optionally handle empty trees -->
             <p>No items found in this tree.</p>
         </#if>
     </#macro>
@@ -42,20 +41,18 @@
         <#if tree.childItems?has_content>
             <#list tree.childItems as item>
                 <#if item.isFolder()>
-                    <!-- Skip folder, but process its children -->
                     <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
                     <#if childTree?has_content>
-                        <@listItems childTree />
+                        <@listFilteredItems childTree />
                     </#if>
                 <#else>
                     <!-- If query exists, filter items by name -->
                     <#if query?has_content>
                         <#if item.queryValue('name_s')?lower_case?contains(query?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
-                            <!-- Use itemData for rendering -->
                             <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
                                 <p>${item.queryValue('name_s')}</p>
-                                <!-- <#assign contentModel = itemData />  -->
+                                 <!-- <#assign contentModel = itemData />  -->
                                  <!-- <#include "/templates/web/items/service-template.ftl" /> -->
                             </div>
                         </#if>
@@ -63,8 +60,9 @@
                         <!-- No query: Display all items -->
                         <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                         <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                            <#assign contentModel = itemData />
-                            <#include "/templates/web/items/service-template.ftl" />
+                            <p>display all</p>
+                            <!-- <#assign contentModel = itemData /> -->
+                            <!-- <#include "/templates/web/items/service-template.ftl" /> -->
                         </div>
                     </#if>
                 </#if>
