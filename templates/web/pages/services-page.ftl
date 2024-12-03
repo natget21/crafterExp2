@@ -50,15 +50,17 @@
                     
                     <!-- Subcategory filtering -->
                     <#elseif categoryName?has_content && subCategoryName?has_content>
-                        <#assign subcategoryRef = item.queryValue('subcategory_o') />
-                        <#if subcategoryRef?has_content>
-                            <#assign subcategoryData = siteItemService.getSiteItem(subcategoryRef) />
-                            <#if subcategoryData.queryValue('name_s')?lower_case == subCategoryName?lower_case>
-                                <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
-                                <#assign contentModel = itemData />
-                                <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                                    <#include "/templates/web/items/service-template.ftl" />
-                                </div>
+                        <#if item.queryValue('subcategory_o')?has_content>
+                            <#assign subcategoryRef = item.queryValue('subcategory_o') />
+                            <#if subcategoryRef?has_content>
+                                <#assign subcategoryData = siteItemService.getSiteItem(subcategoryRef) />
+                                <#if subcategoryData.queryValue('name_s')?lower_case == subCategoryName?lower_case>
+                                    <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                                    <#assign contentModel = itemData />
+                                    <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                                        <#include "/templates/web/items/service-template.ftl" />
+                                    </div>
+                                </#if>
                             </#if>
                         </#if>
                     
