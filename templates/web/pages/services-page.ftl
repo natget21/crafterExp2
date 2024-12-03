@@ -47,7 +47,8 @@
                         </#if>
                     <#elseif categoryName?has_content && subCategoryName?has_content>
                         <!-- Subcategory filtering -->
-                        <#assign subcategoryRef = item.queryValue('subcategory_o') />
+                        <p>${item.queryValue('name_s')}</p>
+                        <#assign subcategoryRef = item.queryValue('subcategory_o')? />
                         <#if subcategoryRef?has_content && subcategoryRef.item?has_content>
                             <#list subcategoryRef.item as subItem>
                                 <#if subItem.value?lower_case == subCategoryName?lower_case>
