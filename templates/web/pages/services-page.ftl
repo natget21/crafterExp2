@@ -52,8 +52,6 @@
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                             <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
                                 <p>${item.queryValue('name_s')}</p>
-                                 <!-- <#assign contentModel = itemData />  -->
-                                 <!-- <#include "/templates/web/items/service-template.ftl" /> -->
                             </div>
                         </#if>
                     <#else>
