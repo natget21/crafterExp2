@@ -48,7 +48,8 @@
                     <#elseif categoryName?has_content && subCategoryName?has_content>
                         <!-- Subcategory filtering -->
                         <#assign subcategoryRef = item.queryValue('subcategory_o')?default("") />
-                        <p>item - ${item.queryValue('name_s')} - ${item?keys?join(", ")} - ${item.toString()}</p>
+                        <#assign itemData1 = siteItemService.getSiteItem(item.storeUrl) />
+                        <p>item - ${item.queryValue('name_s')} - ${itemData1?keys?join(", ")} - ${itemData1.toString()}</p>
                         <#if subcategoryRef?has_content && subcategoryRef.item?has_content>
                             <#list subcategoryRef.item as subItem>
                                 <#if subItem.value?lower_case == subCategoryName?lower_case>
