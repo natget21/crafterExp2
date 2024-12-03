@@ -13,39 +13,17 @@
     
     <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 2) />
     
-    
-    <#macro listItems(tree)>
-        <#if tree.childItems?has_content>
-            <#list tree.childItems as item>
-                <#if item.isFolder()>
-                    <!-- Skip folder, but process its children -->
-                    <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
-                    <#if childTree?has_content>
-                        <@listItems childTree />
-                    </#if>
-                <#else>
-                    <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
-                    <!-- Use itemData for rendering -->
-                    <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                        <#assign contentModel = itemData />
-                        <#include "/templates/web/items/service-template.ftl"/>
-                    </div>
-                </#if>
-            </#list>
-        <#else>
-            <p>No items found in this tree.</p>
-        </#if>
-    </#macro>
-    
     <#macro listFilteredItems(tree)>
         <#if tree.childItems?has_content>
             <#list tree.childItems as item>
                 <#if item.isFolder()>
+                    <!-- Get child items for the folder -->
                     <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
                     <#if childTree?has_content>
                         <@listFilteredItems childTree />
                     </#if>
                 <#else>
+                    <!-- Query filtering -->
                     <#if query?has_content>
                         <#if item.queryValue('name_s')?lower_case?contains(query?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
@@ -55,26 +33,40 @@
                             </div>
                         </#if>
                     
+                    <!-- Category filtering -->
                     <#elseif categoryName?has_content && !subCategoryName?has_content>
-                        <#if item.queryValue('name_s')?lower_case?contains(categoryName?lower_case)>
-                            <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
-                            <#assign contentModel = itemData />
-                            <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                                <#include "/templates/web/items/service-template.ftl" />
-                            </div>
+                        <!-- Check subcategory node selector for a matching category -->
+                        <#assign subcategoryRef = item.queryValue('subcategory_o') />
+                        <#if subcategoryRef?has_content>
+                            <#assign subcategoryData = siteItemService.getSiteItem(subcategoryRef) />
+                            <#if subcategoryData.queryValue('name_s')?lower_case == categoryName?lower_case>
+                                <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                                <#assign contentModel = itemData />
+                                <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                                    <#include "/templates/web/items/service-template.ftl" />
+                                </div>
+                            </#if>
                         </#if>
+                    
+                    <!-- Subcategory filtering -->
                     <#elseif categoryName?has_content && subCategoryName?has_content>
-                        <#if item.queryValue('name_s')?lower_case?contains(subCategoryName?lower_case)>
-                            <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
-                            <#assign contentModel = itemData />
-                            <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                                <#include "/templates/web/items/service-template.ftl" />
-                            </div>
+                        <#assign subcategoryRef = item.queryValue('subcategory_o') />
+                        <#if subcategoryRef?has_content>
+                            <#assign subcategoryData = siteItemService.getSiteItem(subcategoryRef) />
+                            <#if subcategoryData.queryValue('name_s')?lower_case == subCategoryName?lower_case>
+                                <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                                <#assign contentModel = itemData />
+                                <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                                    <#include "/templates/web/items/service-template.ftl" />
+                                </div>
+                            </#if>
                         </#if>
+                    
+                    <!-- Default: Display all items -->
                     <#else>
                         <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                        <#assign contentModel = itemData />
                         <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                            <#assign contentModel = itemData />
                             <#include "/templates/web/items/service-template.ftl" />
                         </div>
                     </#if>
@@ -84,6 +76,7 @@
             <p>No items found in this tree.</p>
         </#if>
     </#macro>
+
     
     <div class="container-fluid">
         <div class="row px-xl-5">
