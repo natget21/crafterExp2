@@ -47,10 +47,7 @@
                         </#if>
                     <#elseif categoryName?has_content && subCategoryName?has_content>
                         <!-- Subcategory filtering -->
-                        <#assign itemData = siteItemService.getSiteItem(item.storeUrl,2) />
-                        <#assign itemData2 = siteItemService.getSiteItem(itemData.storeUrl,2) />
-                        <p>${itemData2} - itemData2</p>
-                        <#if itemData.queryValue('subcategory_o')?has_content>
+                        <#if item.queryValue('subcategory_o')?has_content>
                             <#assign subcategoryRef = itemData.queryValue('subcategory_o') />
                             <#if subcategoryRef?has_content>
                                 <#assign subcategoryData = siteItemService.getSiteItem(subcategoryRef) />
