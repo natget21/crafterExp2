@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/provider</content-type>
+	<display-template>/templates/web/items/provider-template.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c455</objectGroupId>
+	<objectId>c455c66d-a59a-f98b-856e-d29ae89f708c</objectId>
+	<file-name>c455c66d-a59a-f98b-856e-d29ae89f708c.xml</file-name>
+	<folder-name/>
+	<internal-name>UNIVERSITA DEGLI STUDI DI CAMERINO</internal-name>
+	<name_s>UNIVERSITA DEGLI STUDI DI CAMERINO</name_s>
+	<logo_s/>
+	<createdDate>2024-12-03T08:50:50.900Z</createdDate>
+	<createdDate_dt>2024-12-03T08:50:50.900Z</createdDate_dt>
+	<lastModifiedDate>2024-12-03T08:50:50.900Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-03T08:50:50.900Z</lastModifiedDate_dt>
+</component>
