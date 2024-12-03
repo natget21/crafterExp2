@@ -49,6 +49,7 @@
                         <!-- Subcategory filtering -->
                         <#if item.queryValue('subcategory_o')?has_content>
                             <#assign subcategoryRef = itemData.queryValue('subcategory_o') />
+                            <p>subcategory - ${subcategoryRef}</p>
                             <#if subcategoryRef?has_content>
                                 <#assign subcategoryData = siteItemService.getSiteItem(subcategoryRef) />
                                 <#if subcategoryData.queryValue('name_s')?lower_case == subCategoryName?lower_case>
@@ -58,11 +59,7 @@
                                         <#include "/templates/web/items/service-template.ftl" />
                                     </div>
                                 </#if>
-                            <#else>
-                                <p>${item.queryValue('subcategory_o')} - node</p>
                             </#if>
-                        <#else>
-                                <p>${item} - item</p>
                         </#if>
                     <#else>
                         <!-- Default: Display all items -->
