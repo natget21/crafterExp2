@@ -48,7 +48,7 @@
                     <#elseif categoryName?has_content && subCategoryName?has_content>
                         <!-- Subcategory filtering -->
                         <#assign subcategoryRef = item.queryValue('subcategory_o') />
-                        <#if subcategoryRef.item?has_content>
+                        <#if subcategoryRef?has_content && subcategoryRef.item?has_content>
                             <#list subcategoryRef.item as subItem>
                                 <#if subItem.value?lower_case == subCategoryName?lower_case>
                                     <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
