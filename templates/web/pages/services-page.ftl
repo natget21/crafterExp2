@@ -50,8 +50,9 @@
                     <#if query?has_content>
                         <#if item.queryValue('name_s')?lower_case?contains(query?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                            <#assign contentModel = itemData />
                             <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                                <p>${item.queryValue('name_s')}</p>
+                                <#include "/templates/web/items/service-template.ftl" />
                             </div>
                         </#if>
                     <#else>
