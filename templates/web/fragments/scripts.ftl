@@ -6,13 +6,25 @@
 <script src="/static-assets/js/main.js"></script>
 
 <script>
-    document.getElementById('filterForm').addEventListener('change', function() {
-        const formData = new FormData(this);
-        const query = new URLSearchParams(formData).toString();
-        fetch(`/site/components/services?${query}`)
-            .then(response => response.text())
-            .then(html => {
-                document.querySelector('.filterResults').innerHTML = html; // Replace the content with the filtered data
-            });
+    // Get all relevant elements
+    const allCheckbox = document.getElementById('tag-all');
+    const checkboxes = document.querySelectorAll('#filterTagForm input[type="checkbox"]:not(#tag-all)');
+
+    // When the "All Tags" checkbox is clicked, toggle all others
+    allCheckbox.addEventListener('change', function () {
+        checkboxes.forEach(checkbox => {
+            checkbox.checked = allCheckbox.checked;
+        });
+    });
+
+    // When any checkbox is clicked, check if all checkboxes are selected, update "All Tags" checkbox
+    checkboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', function () {
+            if ([...checkboxes].every(cb => cb.checked)) {
+                allCheckbox.checked = true;
+            } else {
+                allCheckbox.checked = false;
+            }
+        });
     });
 </script>
