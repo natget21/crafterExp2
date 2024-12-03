@@ -10,16 +10,16 @@
     <div class="row px-xl-5 pb-3">
         <#if categoriesTree?has_content>
         <#list categoriesTree.childItems as category>
-            <#assign categoryItem = siteItemService.getSiteItem(category.storeUrl) />
+            <#assign category_item = siteItemService.getSiteItem(category.storeUrl) />
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="/services?category=${categoryItem.queryValue('internal-name')?url}">
+                <a class="text-decoration-none" href="/services?category=${category_item.queryValue('internal-name')?url}">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="${categoryItem.queryValue('image_s')?hasContent  ? categoryItem.queryValue('image_s') : '/static-assets/img/default/category-default.jpg'}" alt="${categoryItem.queryValue('name_s')?default("")}">
+                            <img class="img-fluid" src="${category_item.queryValue('image_s')?has_content  ? category_item.queryValue('image_s') : '/static-assets/img/default/category-default.jpg'}" alt="${category_item.queryValue('name_s')?default("")}">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>${categoryItem.queryValue('name_s')?default("")}</h6>
-                            <small class="text-body">${categoryItem.queryValue('description_t')?default("")}</small>
+                            <h6>${category_item.queryValue('name_s')?default("")}</h6>
+                            <small class="text-body">${category_item.queryValue('description_t')?default("")}</small>
                         </div>
                     </div>
                 </a>
