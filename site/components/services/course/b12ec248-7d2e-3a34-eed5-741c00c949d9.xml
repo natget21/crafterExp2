@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/course</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b12e</objectGroupId>
+	<objectId>b12ec248-7d2e-3a34-eed5-741c00c949d9</objectId>
+	<file-name>b12ec248-7d2e-3a34-eed5-741c00c949d9.xml</file-name>
+	<folder-name/>
+	<internal-name>DIGITAL INNOVATION MANAGEMENT</internal-name>
+	<name_s>DIGITAL INNOVATION MANAGEMENT</name_s>
+	<costo_s>2750</costo_s>
+	<durata_s>Totale: 20h</durata_s>
+	<maxpartecipanti_s>20</maxpartecipanti_s>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+	<value>Formazione a catalogo tecnica e manageriale</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<partner_o item-list="true">	<item>	<key>/site/components/providers/d31dce1a-2c4d-80ad-45d8-aab97f0b81f2.xml</key>
+	<value>DIGITAL INNOVATION HUB MARCHE</value>
+	<include>/site/components/providers/d31dce1a-2c4d-80ad-45d8-aab97f0b81f2.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></partner_o>
+	<extra_costo_t>+ IVA</extra_costo_t>
+	<modalita_t>In presenza presso sede di Confindustria Ancona, Via R. Bianchi snc, Ancona</modalita_t>
+	<obiettivo_t>• Comprendere il concetto di innovazione nelle aziende e il suo ruolo cruciale per la competitività e la sostenibilità nel mercato attuale.\r\n• Apprendere i processi sistemici dellinnovazione attraverso casi studio ed esempi pratici ed essere in grado di applicarli all’interno della propria realtà aziendale.\r\n• Acquisire tecniche e strumenti per la gestione dellinnovazione digitale, compresa la valutazione delle tecnologie digitali e la gestione del cambiamento organizzativo.\r\n• Saper distinguere le caratteristiche della digitalizzazione dei diversi processi operativi e funzioni aziendali attraverso casi studio ed esempi pratici e saperli scegliere ed applicare all’interno della propria realtà aziendale.\r\n• Essere in grado di guidare e implementare progetti di innovazione digitale allinterno della propria organizzazione, migliorando lefficienza operativa e creando valore per i clienti e gli stakeholder.\r\n• Conoscere e saper utilizzare strumenti operativi per la digitalizzazione dei processi di lavoro, tra cui software gestionali, piattaforme di collaborazione e strumenti per lautomazione dei processi.\r\n</obiettivo_t>
+	<contenuto_t>1. Introduzione al Digital Innovation Management - perché gestire l’innovazione? \r\n1.1 - Introduzione all’innovazione\r\n1.2 - Innovazione e transizione digitale\r\n2. Fattori critici per la trasformazione digitale - cosa serve per innovare? \r\n2.1 - Chi deve guidare l’agenda dell’innovazione digitale\r\n2.2 - I processi necessari all’innovazione digitale\r\n3. Gli ambiti dell’innovazione digitale - che cosa dobbiamo innovare? \r\n3.1 - Le tecnologie abilitanti\r\n3.2 - Ambiti funzionali dellInnovazione Digitale\r\n4. Creazione del percorso di digitalizzazione – come innovare? \r\n4.1 - Avviare del percorso e identificare i ruoli coinvolti nell’innovazione\r\n4.2 - Creare processi stabili per la generazione delle opportunità di innovazione (ricerca)\r\n4.3 - Creare una Vision ed una Roadmap di trasformazione (selezione)\r\n4.4 - Definire un progetto di innovazione (implementazione)\r\n5. Strumenti operativi per la Digitalizzazione \r\n5.1 - Presentazione di tecniche, tool e applicativi per la digitalizzazione\r\n5.2 - Strumenti per lautomazione dei processi e l’integrazione di sistemi\r\n5.3 - Workshop operativo: test di digitalizzazione su processi operativi reali\r\n</contenuto_t>
+	<rivolto_t>• Imprenditori della PMI\r\n• Manager e figure apicali di aziende della PMI\r\n• Responsabili di R&amp;D e Innovazione di aziende della PMI\r\n\r\n</rivolto_t>
+	<image_s/>
+	<createdDate>2024-12-02T15:43:39.935Z</createdDate>
+	<createdDate_dt>2024-12-02T15:43:39.935Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T15:43:39.935Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T15:43:39.935Z</lastModifiedDate_dt>
+</component>

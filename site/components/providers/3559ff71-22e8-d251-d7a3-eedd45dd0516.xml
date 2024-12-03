@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/provider</content-type>
+	<display-template>/templates/web/items/provider-template.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3559</objectGroupId>
+	<objectId>3559ff71-22e8-d251-d7a3-eedd45dd0516</objectId>
+	<file-name>3559ff71-22e8-d251-d7a3-eedd45dd0516.xml</file-name>
+	<folder-name/>
+	<internal-name>ARTES 4.0</internal-name>
+	<name_s>ARTES 4.0</name_s>
+	<logo_s/>
+	<createdDate>2024-12-02T11:58:49.108Z</createdDate>
+	<createdDate_dt>2024-12-02T11:58:49.108Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T11:58:49.108Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T11:58:49.108Z</lastModifiedDate_dt>
+</component>

@@ -69,13 +69,28 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>100</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>100</value>
 							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
@@ -83,6 +98,54 @@
 							<name>required</name>
 							<value><![CDATA[true]]></value>
 							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>name_s</id>
+					<iceId></iceId>
+					<title>name</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>100</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>100</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
 						</constraint>
 					</constraints>
 				</field>
@@ -140,56 +203,8 @@
 					</constraints>
 				</field>
 				<field>
-					<type>input</type>
-					<id>name_s</id>
-					<iceId></iceId>
-					<title>name</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>escapeContent</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>input</type>
-					<id>partner_s</id>
+					<type>node-selector</type>
+					<id>partner_o</id>
 					<iceId></iceId>
 					<title>partner</title>
 					<description></description>
@@ -197,14 +212,19 @@
 					<help></help>
 					<properties>
 						<property>
-							<name>size</name>
-							<value>50</value>
+							<name>minSize</name>
+							<value>1</value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>maxlength</name>
-							<value>50</value>
+							<name>maxSize</name>
+							<value>1</value>
 							<type>int</type>
+						</property>
+						<property>
+							<name>itemManager</name>
+							<value>partner</value>
+							<type>datasource:item</type>
 						</property>
 						<property>
 							<name>readonly</name>
@@ -212,26 +232,26 @@
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>tokenize</name>
-							<value>false</value>
+							<name>disableFlattening</name>
+							<value></value>
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>escapeContent</name>
-							<value>false</value>
+							<name>useSingleValueFilename</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>useMVS</name>
+							<value></value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
-							<name>required</name>
+							<name>allowDuplicates</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
 						</constraint>
 					</constraints>
 				</field>
@@ -284,6 +304,49 @@
 					</constraints>
 				</field>
 				<field>
+					<type>textarea</type>
+					<id>extra_costo_t</id>
+					<iceId></iceId>
+					<title>extra_costo</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>rows</name>
+							<value>5</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>100000</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>allowResize</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
 					<type>input</type>
 					<id>durata_s</id>
 					<iceId></iceId>
@@ -294,12 +357,12 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>100</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>100</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -332,8 +395,8 @@
 					</constraints>
 				</field>
 				<field>
-					<type>input</type>
-					<id>modalita_s</id>
+					<type>textarea</type>
+					<id>modalita_t</id>
 					<iceId></iceId>
 					<title>modalita</title>
 					<description></description>
@@ -341,23 +404,23 @@
 					<help></help>
 					<properties>
 						<property>
-							<name>size</name>
-							<value>50</value>
+							<name>rows</name>
+							<value>5</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>100000</value>
 							<type>int</type>
+						</property>
+						<property>
+							<name>allowResize</name>
+							<value>true</value>
+							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
 							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
 							<type>boolean</type>
 						</property>
 						<property>
@@ -372,16 +435,11 @@
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
 					</constraints>
 				</field>
 				<field>
-					<type>input</type>
-					<id>obiettivo_s</id>
+					<type>textarea</type>
+					<id>obiettivo_t</id>
 					<iceId></iceId>
 					<title>obiettivo</title>
 					<description></description>
@@ -389,23 +447,23 @@
 					<help></help>
 					<properties>
 						<property>
-							<name>size</name>
-							<value>50</value>
+							<name>rows</name>
+							<value>5</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>100000</value>
 							<type>int</type>
+						</property>
+						<property>
+							<name>allowResize</name>
+							<value>true</value>
+							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
 							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
 							<type>boolean</type>
 						</property>
 						<property>
@@ -420,16 +478,11 @@
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
 					</constraints>
 				</field>
 				<field>
-					<type>input</type>
-					<id>contenuto_s</id>
+					<type>textarea</type>
+					<id>contenuto_t</id>
 					<iceId></iceId>
 					<title>contenuto</title>
 					<description></description>
@@ -437,23 +490,23 @@
 					<help></help>
 					<properties>
 						<property>
-							<name>size</name>
-							<value>50</value>
+							<name>rows</name>
+							<value>5</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>100000</value>
 							<type>int</type>
+						</property>
+						<property>
+							<name>allowResize</name>
+							<value>true</value>
+							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
 							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
 							<type>boolean</type>
 						</property>
 						<property>
@@ -468,16 +521,11 @@
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
 					</constraints>
 				</field>
 				<field>
-					<type>input</type>
-					<id>rivolto_s</id>
+					<type>textarea</type>
+					<id>rivolto_t</id>
 					<iceId></iceId>
 					<title>rivolto</title>
 					<description></description>
@@ -485,23 +533,23 @@
 					<help></help>
 					<properties>
 						<property>
-							<name>size</name>
-							<value>50</value>
+							<name>rows</name>
+							<value>5</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>100000</value>
 							<type>int</type>
+						</property>
+						<property>
+							<name>allowResize</name>
+							<value>true</value>
+							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
 							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
 							<type>boolean</type>
 						</property>
 						<property>
@@ -515,11 +563,6 @@
 							<name>required</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
 						</constraint>
 					</constraints>
 				</field>
@@ -698,6 +741,54 @@
 							<name>repoPath</name>
 							<value>/static-assets/uploads</value>
 								<type>content-path-input</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>components</type>
+					<id>partner</id>
+					<title>partner</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>allowEmbedded</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>allowShared</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableBrowse</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSearch</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>baseRepoPath</name>
+							<value>/site/components</value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>baseBrowsePath</name>
+							<value>/site/components</value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>contentTypes</name>
+							<value>/component/provider</value>
+								<type>contentTypes</type>
+						</property>
+						<property>
+							<name>tags</name>
+							<value></value>
+								<type>string</type>
 						</property>
 					</properties>
 				</datasource>

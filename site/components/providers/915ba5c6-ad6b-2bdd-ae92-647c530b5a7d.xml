@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/provider</content-type>
+	<display-template>/templates/web/items/provider-template.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>915b</objectGroupId>
+	<objectId>915ba5c6-ad6b-2bdd-ae92-647c530b5a7d</objectId>
+	<file-name>915ba5c6-ad6b-2bdd-ae92-647c530b5a7d.xml</file-name>
+	<folder-name/>
+	<internal-name>MARCHE INNOVATION HUB SCARL</internal-name>
+	<name_s>MARCHE INNOVATION HUB SCARL</name_s>
+	<logo_s/>
+	<createdDate>2024-12-02T11:57:01.414Z</createdDate>
+	<createdDate_dt>2024-12-02T11:57:01.414Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T11:57:01.414Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T11:57:01.414Z</lastModifiedDate_dt>
+</component>

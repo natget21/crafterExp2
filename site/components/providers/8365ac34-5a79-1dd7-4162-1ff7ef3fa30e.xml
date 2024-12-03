@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/provider</content-type>
+	<display-template>/templates/web/items/provider-template.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8365</objectGroupId>
+	<objectId>8365ac34-5a79-1dd7-4162-1ff7ef3fa30e</objectId>
+	<file-name>8365ac34-5a79-1dd7-4162-1ff7ef3fa30e.xml</file-name>
+	<folder-name/>
+	<internal-name>UNIVERSITA POLITECNICA DELLE MARCHE</internal-name>
+	<name_s>UNIVERSITA POLITECNICA DELLE MARCHE</name_s>
+	<logo_s/>
+	<createdDate>2024-12-02T11:59:59.716Z</createdDate>
+	<createdDate_dt>2024-12-02T11:59:59.716Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T11:59:59.716Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T11:59:59.716Z</lastModifiedDate_dt>
+</component>

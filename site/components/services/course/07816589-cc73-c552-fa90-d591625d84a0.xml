@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/course</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0781</objectGroupId>
+	<objectId>07816589-cc73-c552-fa90-d591625d84a0</objectId>
+	<file-name>07816589-cc73-c552-fa90-d591625d84a0.xml</file-name>
+	<folder-name/>
+	<internal-name>CYBERSECURITY AWARENESS (remoto asincrono)</internal-name>
+	<name_s>CYBERSECURITY AWARENESS (remoto asincrono)</name_s>
+	<costo_s>200</costo_s>
+	<durata_s>6 ore</durata_s>
+	<maxpartecipanti_s>100</maxpartecipanti_s>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+	<value>Formazione a catalogo tecnica e manageriale</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<partner_o item-list="true">	<item>	<key>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</key>
+	<value>MADE SCARL</value>
+	<include>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></partner_o>
+	<extra_costo_t>+ IVA a licenza</extra_costo_t>
+	<modalita_t>Remoto asincrono</modalita_t>
+	<obiettivo_t>L’obiettivo del corso è quello di creare e aumentare la consapevolezza in tutti i dipendenti su cosa  sono gli attacchi informatici: la maggior parte degli attacchi informatici sfrutta infatti “il fattore umano” più che le vulnerabilità tecnologiche.</obiettivo_t>
+	<contenuto_t>Il contesto di riferimento (principali attacchi dellultimo anno, definizione di Information Security) I trend dellinnovazione digitale e le implicazioni sulla security ( Mobile, Big Data, Internet of Things Social media, Artificial Intelligence, Blockchain) Le minacce e vulnerabilità che mettono in pericolo la sicurezza Lo stato attuale dellinformation security in Italia ( progettualità, policy nelle aziende italiane) Le competenze ed i ruoli della gestione dellInformation Security Privacy La gestione del fattore umano -Social Engineering (principali tecniche di attacco ed esempi) I programmi di creazione di awareness ( obiettivi, indicatori di valutazione, principali iniziative implementate, approcci alla gestione del fattore umano)</contenuto_t>
+	<rivolto_t>Tutti</rivolto_t>
+	<image_s/>
+	<createdDate>2024-12-02T13:58:46.055Z</createdDate>
+	<createdDate_dt>2024-12-02T13:58:46.055Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T13:58:46.055Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T13:58:46.055Z</lastModifiedDate_dt>
+</component>

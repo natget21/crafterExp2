@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/course</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e88d</objectGroupId>
+	<objectId>e88db3fb-d439-5542-d851-331701864498</objectId>
+	<file-name>e88db3fb-d439-5542-d851-331701864498.xml</file-name>
+	<folder-name/>
+	<internal-name>CYBERSECURITY ASSET STRATEGICO PER LA COMPETITIVITA’</internal-name>
+	<name_s>CYBERSECURITY ASSET STRATEGICO PER LA COMPETITIVITA’</name_s>
+	<costo_s>150</costo_s>
+	<durata_s>8 ore con orario 9-13 e 14-18</durata_s>
+	<maxpartecipanti_s>15</maxpartecipanti_s>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+	<value>Formazione a catalogo tecnica e manageriale</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<partner_o item-list="true">	<item>	<key>/site/components/providers/915ba5c6-ad6b-2bdd-ae92-647c530b5a7d.xml</key>
+	<value>MARCHE INNOVATION HUB SCARL</value>
+	<include>/site/components/providers/915ba5c6-ad6b-2bdd-ae92-647c530b5a7d.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></partner_o>
+	<extra_costo_t>a partecipante. Il Corso beneficia delle agevolazioni previste dal progetto EDIH4Marche, ovvero sconto diretto in fattura del 100% per le micro e piccole imprese.</extra_costo_t>
+	<modalita_t>Il corso si svolgerà in presenza presso CNA Ancona, via Umani 1/a zona Baraccola, Ancona. Saranno svolte 3 edizioni identiche dello stesso corso in 3 date diverse (25 settembre 2024 / 2 ottobre 2024 / 16 ottobre 2024).</modalita_t>
+	<obiettivo_t>• Analizzare come è cambiato il Cyber Crime negli ultimi anni ed aumentare la consapevolezza dell’azienda in merito all’importanza della Cyber Security per la Business Continuity e la Competitività dell’impresa • Conoscere le principali tipologie di attacco, le motivazioni degli attaccanti, con quali criteri vengono individuati gli obbiettivi e le tecniche di attacco • Comprendere le conseguenze economiche, reputazionali e legali di un attacco cyber • Illustrare come possono essere implementate misure tecniche ed organizzative per prevenire e mitigare gli attacchi • Essere in grado di adeguarsi alle normative conoscendo le Istituzioni (europee ed italiane) di riferimento per la sicurezza cibernetica</obiettivo_t>
+	<contenuto_t>• Perché parliamo di cyber security • Cosa si intende per sicurezza cibernetica • Chi ci può attaccare • Perché ci attaccano • Gli obiettivi degli attacchi • Le Tipologie di attacco • Come viene organizzato un attacco • I rischi derivanti da un attacco • Chi ci aiuta a difenderci • Cosa prevede la normativa • Come prevenire e mitigare un attacco</contenuto_t>
+	<rivolto_t>Imprenditori, loro dipendenti e collaboratori</rivolto_t>
+	<image_s/>
+	<createdDate>2024-12-02T14:42:49.622Z</createdDate>
+	<createdDate_dt>2024-12-02T14:42:49.622Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T14:42:49.622Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T14:42:49.622Z</lastModifiedDate_dt>
+</component>

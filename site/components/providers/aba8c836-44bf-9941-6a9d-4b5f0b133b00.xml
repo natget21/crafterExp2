@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/provider</content-type>
+	<display-template>/templates/web/items/provider-template.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>aba8</objectGroupId>
+	<objectId>aba8c836-44bf-9941-6a9d-4b5f0b133b00</objectId>
+	<file-name>aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</file-name>
+	<folder-name/>
+	<internal-name>MADE SCARL</internal-name>
+	<name_s>MADE SCARL</name_s>
+	<logo_s/>
+	<createdDate>2024-12-02T11:55:32.439Z</createdDate>
+	<createdDate_dt>2024-12-02T11:55:32.439Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T11:55:32.439Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T11:55:32.439Z</lastModifiedDate_dt>
+</component>

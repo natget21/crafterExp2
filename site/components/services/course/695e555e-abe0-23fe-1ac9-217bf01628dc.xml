@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/course</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>695e</objectGroupId>
+	<objectId>695e555e-abe0-23fe-1ac9-217bf01628dc</objectId>
+	<file-name>695e555e-abe0-23fe-1ac9-217bf01628dc.xml</file-name>
+	<folder-name/>
+	<internal-name>CORSO SU COMMESSA EDI MARCHE SCARL</internal-name>
+	<name_s>CORSO SU COMMESSA EDI MARCHE SCARL</name_s>
+	<costo_s>Da definire per ogni singolo corso</costo_s>
+	<durata_s>Da definire per ogni singolo corso (max 24 ore)</durata_s>
+	<maxpartecipanti_s>15</maxpartecipanti_s>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+	<value>Formazione a catalogo tecnica e manageriale</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<partner_o item-list="true">	<item>	<key>/site/components/providers/691f5038-1d2e-9f56-7cda-c26ef8f0eca4.xml</key>
+	<value>Edi.Marche S.c.a.r.l</value>
+	<include>/site/components/providers/691f5038-1d2e-9f56-7cda-c26ef8f0eca4.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></partner_o>
+	<extra_costo_t/>
+	<modalita_t>In presenza o da remoto in base alla richiesta dell azienda</modalita_t>
+	<obiettivo_t>L obiettivo è quello di sviluppare corsi di formazione per l’aggiornamento e la riqualificazione delle competenze aziendali nell’ambito della transizione digitale.\r\nAttraverso una puntuale analisi dei bisogni dell impresa, MADE offre la possibilità di realizzare dei corsi su commessa che offrono un’opportunità unica di acquisire competenze e conoscenze su misura per le diverse esigenze professionali. Questi corsi si distinguono per la loro flessibilità e adattabilità. I contenuti, le modalità di erogazione e i tempi sono definiti in base alle esigenze di un’azienda e ai rispettivi obiettivi.</obiettivo_t>
+	<contenuto_t>Da definire in base alle esigenze dell impresa.</contenuto_t>
+	<rivolto_t>Da definire con l impresa</rivolto_t>
+	<image_s/>
+	<createdDate>2024-12-02T15:39:33.835Z</createdDate>
+	<createdDate_dt>2024-12-02T15:39:33.835Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T15:39:33.835Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T15:39:33.835Z</lastModifiedDate_dt>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/provider</content-type>
+	<display-template>/templates/web/items/provider-template.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2571</objectGroupId>
+	<objectId>25712995-d05a-8c57-d298-b15b6448fab5</objectId>
+	<file-name>25712995-d05a-8c57-d298-b15b6448fab5.xml</file-name>
+	<folder-name/>
+	<internal-name>I-LABS INDUSTRY S.C.A R.L.</internal-name>
+	<name_s>I-LABS INDUSTRY S.C.A R.L.</name_s>
+	<logo_s/>
+	<createdDate>2024-12-02T12:00:25.171Z</createdDate>
+	<createdDate_dt>2024-12-02T12:00:25.171Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T12:00:25.171Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T12:00:25.171Z</lastModifiedDate_dt>
+</component>

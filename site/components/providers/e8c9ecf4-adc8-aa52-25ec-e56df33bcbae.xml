@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/provider</content-type>
+	<display-template>/templates/web/items/provider-template.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e8c9</objectGroupId>
+	<objectId>e8c9ecf4-adc8-aa52-25ec-e56df33bcbae</objectId>
+	<file-name>e8c9ecf4-adc8-aa52-25ec-e56df33bcbae.xml</file-name>
+	<folder-name/>
+	<internal-name>DIH CONFARTIGIANATO IMPRESE MARCHE</internal-name>
+	<name_s>DIH CONFARTIGIANATO IMPRESE MARCHE</name_s>
+	<logo_s/>
+	<createdDate>2024-12-02T11:57:24.358Z</createdDate>
+	<createdDate_dt>2024-12-02T11:57:24.358Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T11:57:24.358Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T11:57:24.358Z</lastModifiedDate_dt>
+</component>

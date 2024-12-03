@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/course</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a4b9</objectGroupId>
+	<objectId>a4b9c306-bf55-0129-8cd7-c2d3d68f378f</objectId>
+	<file-name>a4b9c306-bf55-0129-8cd7-c2d3d68f378f.xml</file-name>
+	<folder-name/>
+	<internal-name>CYBER AND INDUSTRIAL SECURITY</internal-name>
+	<name_s>CYBER AND INDUSTRIAL SECURITY</name_s>
+	<costo_s>500</costo_s>
+	<durata_s>8 ore (1 giornata)</durata_s>
+	<maxpartecipanti_s>15</maxpartecipanti_s>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+	<value>Formazione a catalogo tecnica e manageriale</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<partner_o item-list="true">	<item>	<key>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</key>
+	<value>MADE SCARL</value>
+	<include>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></partner_o>
+	<extra_costo_t>+ IVA a partecipante</extra_costo_t>
+	<modalita_t>In presenza c/o Ancona</modalita_t>
+	<obiettivo_t>Il corso esplora i concetti fondamentali di security, politiche di gestione e protezione dei dati nei contesti industriali, al fine di offrire ai partecipanti una visione generale di concetti, strumenti e terminologie utilizzati in Cybersecurity utili per proteggere il business aziendale.</obiettivo_t>
+	<contenuto_t>•Cronistoria degli incidenti informatici in ambito industriale\r\n•Panorami sui sistemi industriali\r\n•Cybersecurity industriale\r\n•Governare la cybersecurity in uno stabilimento industriale\r\n•Superfice d’attacco\r\n•Interventi correttivi</contenuto_t>
+	<rivolto_t>Imprenditori di PMI - programmatori – esperti ICT</rivolto_t>
+	<image_s/>
+	<createdDate>2024-12-02T14:49:53.275Z</createdDate>
+	<createdDate_dt>2024-12-02T14:49:53.275Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T14:49:53.275Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T14:49:53.275Z</lastModifiedDate_dt>
+</component>

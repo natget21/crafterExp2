@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/course</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f931</objectGroupId>
+	<objectId>f931a81e-52b6-65dc-fc50-82e8061f6b25</objectId>
+	<file-name>f931a81e-52b6-65dc-fc50-82e8061f6b25.xml</file-name>
+	<folder-name/>
+	<internal-name>INTELLIGENZA ARTIFICIALE PER IL MANUFACTURING</internal-name>
+	<name_s>INTELLIGENZA ARTIFICIALE PER IL MANUFACTURING</name_s>
+	<costo_s>1000</costo_s>
+	<durata_s>2 moduli da 8 ore</durata_s>
+	<maxpartecipanti_s>10</maxpartecipanti_s>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+	<value>Formazione a catalogo tecnica e manageriale</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<partner_o item-list="true">	<item>	<key>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</key>
+	<value>MADE SCARL</value>
+	<include>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></partner_o>
+	<extra_costo_t>+ IVA a partecipante</extra_costo_t>
+	<modalita_t>In presenza c/o DIH marche</modalita_t>
+	<obiettivo_t>Comprendere i concetti fondamentali dell’intelligenza artificiale e il suo impatto sull’industria\r\nmanifatturiera.\r\nEsplorare le diverse tecniche e approcci di intelligenza artificiale, machine learning e deep learning, con particolare focus sulle loro applicazioni nel settore manifatturiero.\r\nAcquisire la capacità di analizzare i dati per ottimizzare la produzione, migliorare l’efficienza e ridurre i costi.\r\nApprendere come implementare soluzioni di IA nel processo produttivo e come integrare questi strumenti nelle linee di produzione esistenti.</obiettivo_t>
+	<contenuto_t>Fornire una panoramica delle principali applicazioni dell’intelligenza artificiale nel settore manifatturiero, con casi studio concreti in ambito industriale.\r\nApprofondire l’uso di tecniche avanzate di intelligenza artificiale, come il machine learning e il deep learning, per risolvere sfide legate alla produzione.\r\nPresentare i principali strumenti di analisi dei dati utilizzati per migliorare la gestione delle risorse produttive e per ottimizzare i processi aziendali.\r\nAnalizzare le sfide e le opportunità legate all’adozione di tecnologie di IA nel settore manifatturiero.\r\n</contenuto_t>
+	<rivolto_t>Il corso è concepito per accogliere chiunque sia interessato/a all’intelligenza artificiale e alle sue applicazioni nell’industria manifatturiera, inclusi manager, tecnici e operatori di produzione.\r\n</rivolto_t>
+	<image_s/>
+	<createdDate>2024-12-02T13:45:06.362Z</createdDate>
+	<createdDate_dt>2024-12-02T13:45:06.362Z</createdDate_dt>
+	<lastModifiedDate>2024-12-02T13:45:06.362Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-02T13:45:06.362Z</lastModifiedDate_dt>
+</component>
