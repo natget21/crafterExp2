@@ -7,8 +7,8 @@
 	<objectGroupId>19b26a7d</objectGroupId>
 	<objectId>19b26a7d-dfe7-4df6-a710-ec18245e7649</objectId>
 	<file-name>09481233-84b7-b07a-8499-51ed354cfc6b.xml</file-name>
-	<folder-name>/site/components/services</folder-name>
-	<internal-name>course_1</internal-name>
+	<folder-name/>
+	<internal-name>course_3</internal-name>
 	<partner_s>partner</partner_s>
 	<costo_s>200</costo_s>
 	<durata_s>2 weeks</durata_s>
@@ -24,8 +24,8 @@
 	</item></subcategory_o>
 	<createdDate>2024-12-03T06:23:40.235Z</createdDate>
 	<createdDate_dt>2024-12-03T06:23:40.235Z</createdDate_dt>
-	<lastModifiedDate>2024-12-03T06:23:40.235Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-12-03T06:23:40.235Z</lastModifiedDate_dt>
-	<name_s>course 1</name_s>
+	<lastModifiedDate>2024-12-03T06:23:52.737Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-03T06:23:52.737Z</lastModifiedDate_dt>
+	<name_s>course 3</name_s>
 	<image_s>/static-assets/img/cat-2.jpg</image_s>
 </component>
