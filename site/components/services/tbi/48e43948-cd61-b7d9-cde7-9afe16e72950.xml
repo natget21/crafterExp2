@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/tbi</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>48e4</objectGroupId>
+	<objectId>48e43948-cd61-b7d9-cde7-9afe16e72950</objectId>
+	<file-name>48e43948-cd61-b7d9-cde7-9afe16e72950.xml</file-name>
+	<folder-name/>
+	<internal-name>Anomaly detection</internal-name>
+	<name_s>Anomaly detection</name_s>
+	<duration_s>14 giorni</duration_s>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</key>
+	<value>DEMO</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<partners_o item-list="true">	<item>	<key>/site/components/providers/c455c66d-a59a-f98b-856e-d29ae89f708c.xml</key>
+	<value>UNIVERSITA DEGLI STUDI DI CAMERINO</value>
+	<include>/site/components/providers/c455c66d-a59a-f98b-856e-d29ae89f708c.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></partners_o>
+	<description_t>Test per l’applicazione di strumenti di AI per il monitoraggio ed il rilevamento di anomalie all’interno dei sistemi aziendali.</description_t>
+	<image_s/>
+	<createdDate>2024-12-03T08:51:14.621Z</createdDate>
+	<createdDate_dt>2024-12-03T08:51:14.621Z</createdDate_dt>
+	<lastModifiedDate>2024-12-03T08:51:14.621Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-03T08:51:14.621Z</lastModifiedDate_dt>
+</component>
