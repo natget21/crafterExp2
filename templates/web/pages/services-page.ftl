@@ -42,32 +42,15 @@
         <#if tree.childItems?has_content>
             <#list tree.childItems as item>
                 <#if item.isFolder()>
-                    <!-- Get child items for the folder -->
+                    <!-- Skip folder, but process its children -->
                     <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
-                    
-                    <!-- Filter by categoryName and subCategoryName -->
-                    <#if categoryName?has_content && !subCategoryName?has_content>
-                        <!-- Check if folder name matches categoryName -->
-                        <#if item.queryValue('internal-name')?lower_case == categoryName?lower_case>
-                            <@listItems childTree />
-                        </#if>
-                    <#elseif categoryName?has_content && subCategoryName?has_content>
-                        <!-- Check if folder matches categoryName, and process subCategoryName -->
-                        <#if item.queryValue('internal-name')?lower_case == categoryName?lower_case>
-                            <#list childTree.childItems as subItem>
-                                <#if subItem.isFolder() && subItem.queryValue('internal-name')?lower_case == subCategoryName?lower_case>
-                                    <@listItems siteItemService.getSiteTree(subItem.storeUrl, 1) />
-                                </#if>
-                            </#list>
-                        </#if>
-                    <#else>
-                        <!-- Default: Process all folders -->
+                    <#if childTree?has_content>
                         <@listItems childTree />
                     </#if>
                 <#else>
                     <!-- If query exists, filter items by name -->
                     <#if query?has_content>
-                        <#if item.queryValue('internal-name')?lower_case?contains(query?lower_case)>
+                        <#if item.queryValue('name_s')?lower_case?contains(query?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                             <!-- Use itemData for rendering -->
                             <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
