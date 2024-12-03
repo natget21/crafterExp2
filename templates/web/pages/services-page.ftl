@@ -46,7 +46,6 @@
                         <@listFilteredItems childTree />
                     </#if>
                 <#else>
-                    <!-- If query exists, filter items by name -->
                     <#if query?has_content>
                         <#if item.queryValue('name_s')?lower_case?contains(query?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
@@ -59,9 +58,8 @@
                         <!-- No query: Display all items -->
                         <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                         <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                            <p>display all</p>
-                            <!-- <#assign contentModel = itemData /> -->
-                            <!-- <#include "/templates/web/items/service-template.ftl" /> -->
+                            <#assign contentModel = itemData />
+                            <#include "/templates/web/items/service-template.ftl" />
                         </div>
                     </#if>
                 </#if>
