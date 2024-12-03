@@ -231,7 +231,7 @@
 					<iceId></iceId>
 					<title>image</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>/static-assets/img/default/product-default.png</defaultValue>
 					<help></help>
 					<properties>
 						<property>
