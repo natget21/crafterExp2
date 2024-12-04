@@ -158,21 +158,57 @@
                             <label class="custom-control-label" for="tag-all">All Tags</label>
                             <span class="badge border font-weight-normal">400</span>
                         </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="tag-1" value="0-100" name="tag">
-                            <label class="custom-control-label" for="tag-1">Hardware</label>
-                            <span class="badge border font-weight-normal">150</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="tag-2" value="100-100" name="tag">
-                            <label class="custom-control-label" for="tag-2">Software</label>
-                            <span class="badge border font-weight-normal">200</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="tag-3" value="200-300" name="tag">
-                            <label class="custom-control-label" for="tag-3">Service</label>
-                            <span class="badge border font-weight-normal">50</span>
-                        </div>
+                        <#assign tagsTaxonomy = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
+        <#assign tags = tagsTaxonomy.values_o.item />
+        
+        <#assign smallTags = []>
+        <#assign largeTags = []>
+        
+        <#-- Separate tags into small and large categories -->
+        <#list tags as tag>
+            <#if tag.value_s?trim?length <= 15>
+                <#assign smallTags = smallTags + [tag]>
+            <#else>
+                <#assign largeTags = largeTags + [tag]>
+            </#if>
+        </#list>
+        
+        <#-- Display smaller tags (length <= 30) two per row -->
+        <#assign counter = 0>
+        <#list smallTags as tag>
+            <#assign counter = counter + 1>
+            <#if counter % 2 == 1>
+                <div class="row mb-3">
+            </#if>
+            
+            <div class="col-6">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="tag-${tag.key_s}">
+                    <label class="custom-control-label" for="tag-${tag.key_s}">
+                        ${tag.value_s}
+                    </label>
+                </div>
+            </div>
+
+            <#if counter % 2 == 0 || counter == smallTags?size>
+                </div> <!-- End row for tags with length <= 30 -->
+            </#if>
+        </#list>
+
+        <#-- Display larger tags (length > 30), each on its own row -->
+        <#list largeTags as tag>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="tag-${tag.key_s}">
+                        <label class="custom-control-label" for="tag-${tag.key_s}">
+                            ${tag.value_s}
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </#list>
+
                     </form>
                 </div>
                 <!-- Tag End -->
