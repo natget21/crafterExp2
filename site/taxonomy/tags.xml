@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0b59</objectGroupId>
+	<objectId>0b59c512-7a91-e576-6500-e99b737a65ff</objectId>
+	<items item-list="true">	<item>	<key>Hardware</key>
+	<value>Hardware</value>
+	</item>	<item>	<key>Software</key>
+	<value>Software</value>
+	</item>	<item>	<key>Service</key>
+	<value>Service</value>
+	</item>	<item>	<key>Human</key>
+	<value>Human</value>
+	</item>	<item>	<key>PA</key>
+	<value>PA</value>
+	</item>	<item>	<key>PMI</key>
+	<value>PMI</value>
+	</item>	<item>	<key>Terzo settore</key>
+	<value>Terzo settore</value>
+	</item>	<item>	<key>Tag delle tecnologie digitali</key>
+	<value>Tag delle tecnologie digitali</value>
+	</item>	<item>	<key>Energy</key>
+	<value>Energy</value>
+	</item>	<item>	<key>Mobility</key>
+	<value>Mobility</value>
+	</item>	<item>	<key>Health</key>
+	<value>Health</value>
+	</item>	<item>	<key>Corsi formazione &lt;24 ore</key>
+	<value>Corsi formazione &lt;24 ore</value>
+	</item>	<item>	<key>Online</key>
+	<value>Online</value>
+	</item>	<item>	<key> In presenza</key>
+	<value> In presenza</value>
+	</item></items>
+	<internal-name>Tags</internal-name>
+	<file-name>tags.xml</file-name>
+	<folder-name/>
+	<createdDate>2024-12-04T09:14:15.000Z</createdDate>
+	<createdDate_dt>2024-12-04T09:14:15.000Z</createdDate_dt>
+	<lastModifiedDate>2024-12-04T09:14:15.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-04T09:14:15.000Z</lastModifiedDate_dt>
+</component>
