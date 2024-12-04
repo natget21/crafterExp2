@@ -160,9 +160,7 @@
                         </div>
                      <#assign tagsItem = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
 <#assign items = tagsItem.queryValues('/component/items/item') />
-<#list items as item>
-    ${item}
-</#list>
+    ${items}
                     </form>
                 </div>
                 <!-- Tag End -->
