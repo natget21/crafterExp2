@@ -47,3 +47,41 @@
         });
     });
 </script>
+
+<script>
+    const filterResultsContainer = document.querySelector('.filterResults');
+    const filterPriceForm = document.getElementById('filterPriceForm');
+
+    function filterByPrice() {
+        // Get all checked price checkboxes
+        const selectedPrices = [...filterPriceForm.querySelectorAll('input[type="checkbox"]:checked')]
+            .map(cb => cb.value)
+            .filter(value => value !== 'all'); // Exclude 'all'
+
+        // If 'all' is selected, display all items
+        if (selectedPrices.length === 0) {
+            document.querySelectorAll('.filterResults .product-item').forEach(item => {
+                item.style.display = '';
+            });
+            return;
+        }
+
+        // Convert price ranges to an array of [min, max]
+        const ranges = selectedPrices.map(range => range.split('-').map(Number));
+
+        // Filter and display only items within the selected price ranges
+        document.querySelectorAll('.filterResults .product-item').forEach(item => {
+            const priceText = item.querySelector('h5').innerText.replace(/[^\d.]/g, '');
+            const price = parseFloat(priceText) || 0;
+
+            const isInRange = ranges.some(([min, max]) => price >= min && price <= max);
+            item.style.display = isInRange ? '' : 'none';
+        });
+    }
+
+    // Listen for changes in the price filter form
+    filterPriceForm.addEventListener('change', filterByPrice);
+
+    // Initialize filters on page load
+    filterByPrice();
+</script>
