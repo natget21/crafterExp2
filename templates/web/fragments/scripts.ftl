@@ -7,23 +7,42 @@
 
 <script>
     // Get all relevant elements
-    const allCheckbox = document.getElementById('tag-all');
-    const checkboxes = document.querySelectorAll('#filterTagForm input[type="checkbox"]:not(#tag-all)');
+    const allTagCheckbox = document.getElementById('tag-all');
+    const tagCheckboxes = document.querySelectorAll('#filterTagForm input[type="checkbox"]:not(#tag-all)');
+    
+    const allPriceCheckbox = document.getElementById('price-all');
+    const priceCheckboxes = document.querySelectorAll('#filterPriceForm input[type="checkbox"]:not(#price-all)');
 
     // When the "All Tags" checkbox is clicked, toggle all others
-    allCheckbox.addEventListener('change', function () {
-        checkboxes.forEach(checkbox => {
-            checkbox.checked = allCheckbox.checked;
+    allTagCheckbox.addEventListener('change', function () {
+        tagCheckboxes.forEach(checkbox => {
+            checkbox.checked = allTagCheckbox.checked;
         });
     });
 
     // When any checkbox is clicked, check if all checkboxes are selected, update "All Tags" checkbox
-    checkboxes.forEach(checkbox => {
+    tagCheckboxes.forEach(checkbox => {
         checkbox.addEventListener('change', function () {
-            if ([...checkboxes].every(cb => cb.checked)) {
-                allCheckbox.checked = true;
+            if ([...tagCheckboxes].every(cb => cb.checked)) {
+                allTagCheckbox.checked = true;
             } else {
-                allCheckbox.checked = false;
+                allTagCheckbox.checked = false;
+            }
+        });
+    });
+    
+    allPriceCheckbox.addEventListener('change', function () {
+        priceCheckboxes.forEach(checkbox => {
+            checkbox.checked = allPriceCheckbox.checked;
+        });
+    });
+    
+    priceCheckboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', function () {
+            if ([...priceCheckboxes].every(cb => cb.checked)) {
+                allPriceCheckbox.checked = true;
+            } else {
+                allPriceCheckbox.checked = false;
             }
         });
     });
