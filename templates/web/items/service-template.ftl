@@ -22,7 +22,7 @@
         <div class="text-center py-4">
             <a class="h6 text-decoration-none text-truncate ellipsis" href="${serviceLink}">${contentModel.name_s?default("")}</a>
             <div class="d-flex align-items-center justify-content-center mt-2">
-                <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                <h5>EUR ${contentModel.price_s?default("0")}</h5><h6 class="text-muted ml-2"></h6>
             </div>
             <div class="d-flex align-items-center justify-content-center mb-1">
                 <small class="fa fa-star text-primary mr-1"></small>
