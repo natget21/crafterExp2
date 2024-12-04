@@ -6,13 +6,84 @@
 <script src="/static-assets/js/main.js"></script>
 
 <script>
-    document.getElementById('filterForm').addEventListener('change', function() {
-        const formData = new FormData(this);
-        const query = new URLSearchParams(formData).toString();
-        fetch(`/site/components/services?${query}`)
-            .then(response => response.text())
-            .then(html => {
-                document.querySelector('.filterResults').innerHTML = html; // Replace the content with the filtered data
-            });
+    // Get all relevant elements
+    const allTagCheckbox = document.getElementById('tag-all');
+    const tagCheckboxes = document.querySelectorAll('#filterTagForm input[type="checkbox"]:not(#tag-all)');
+    
+    const allPriceCheckbox = document.getElementById('price-all');
+    const priceCheckboxes = document.querySelectorAll('#filterPriceForm input[type="checkbox"]:not(#price-all)');
+
+    // When the "All Tags" checkbox is clicked, toggle all others
+    allTagCheckbox.addEventListener('change', function () {
+        tagCheckboxes.forEach(checkbox => {
+            checkbox.checked = allTagCheckbox.checked;
+        });
     });
+
+    // When any checkbox is clicked, check if all checkboxes are selected, update "All Tags" checkbox
+    tagCheckboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', function () {
+            if ([...tagCheckboxes].every(cb => cb.checked)) {
+                allTagCheckbox.checked = true;
+            } else {
+                allTagCheckbox.checked = false;
+            }
+        });
+    });
+    
+    allPriceCheckbox.addEventListener('change', function () {
+        priceCheckboxes.forEach(checkbox => {
+            checkbox.checked = allPriceCheckbox.checked;
+        });
+    });
+    
+    priceCheckboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', function () {
+            if ([...priceCheckboxes].every(cb => cb.checked)) {
+                allPriceCheckbox.checked = true;
+            } else {
+                allPriceCheckbox.checked = false;
+            }
+        });
+    });
+</script>
+
+<script>
+    const filterResultsContainer = document.querySelector('.filterResults');
+    const filterPriceForm = document.getElementById('filterPriceForm');
+
+    function filterByPrice() {
+        // Get all checked price checkboxes
+        const selectedPrices = [...filterPriceForm.querySelectorAll('input[type="checkbox"]:checked')]
+            .map(cb => cb.value)
+            .filter(value => value !== 'all'); // Exclude 'all'
+
+        // If 'all' is selected, display all items
+        if (selectedPrices.length === 0) {
+            //document.querySelectorAll('.filterResults .product-item').forEach(item => {
+            document.querySelectorAll('.filterResults > div').forEach(item => {
+                item.style.display = '';
+            });
+            return;
+        }
+
+        // Convert price ranges to an array of [min, max]
+        const ranges = selectedPrices.map(range => range.split('-').map(Number));
+
+        // Filter and display only items within the selected price ranges
+        //document.querySelectorAll('.filterResults .product-item').forEach(item => {
+        document.querySelectorAll('.filterResults > div').forEach(item => {
+            const priceText = item.querySelector('h5').innerText.replace(/[^\d.]/g, '');
+            const price = parseFloat(priceText) || 0;
+
+            const isInRange = ranges.some(([min, max]) => price >= min && price <= max);
+            item.style.display = isInRange ? '' : 'none';
+        });
+    }
+
+    // Listen for changes in the price filter form
+    filterPriceForm.addEventListener('change', filterByPrice);
+
+    // Initialize filters on page load
+    filterByPrice();
 </script>

@@ -60,20 +60,25 @@
 
 
 
-def topNavItems = [:]
+// def topNavItems = [:]
 
-def siteDir = siteItemService.getSiteTree('/site/components/category', 1)
+// def siteDir = siteItemService.getSiteTree('/site/components/category', 1)
 
-if (siteDir) {
-    def dirs = siteDir.childItems
-    dirs.each { dir ->
-        def dirName = dir.getStoreName()
-        def dirItem = siteItemService.getSiteItem(dir.storeUrl)
-        if (dirItem != null) {
-            def dirDisplayName = dirItem.queryValue('internal-name')
-            topNavItems.put(dirName, dirDisplayName)
-        }
-    }
-}
+// if (siteDir) {
+//     def dirs = siteDir.childItems
+//     dirs.each { dir ->
+//         def dirName = dir.getStoreName()
+//         def dirItem = siteItemService.getSiteItem(dir.storeUrl)
+//         if (dirItem != null) {
+//             def dirDisplayName = dirItem.queryValue('internal-name')
+//             topNavItems.put(dirName, dirDisplayName)
+//         }
+//     }
+// }
 
-return topNavItems
+// return topNavItems
+
+
+
+def item = siteItemService.getSiteTree('/site/components/services', 2)
+return item

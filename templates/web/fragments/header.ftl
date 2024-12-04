@@ -13,7 +13,7 @@
                         <input type="text" class="form-control" placeholder="Search for services...">
                         <div class="input-group-append">
                             <span class="input-group-text bg-transparent text-primary">
-                                <a href="/services?query=a">
+                                <a href="/services?query=tbi">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>

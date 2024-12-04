@@ -11,32 +11,7 @@
     <#assign subCategoryName = RequestParameters.subCategory?default("") />
     <#assign query = RequestParameters.query?default("") />
     
-    <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 2) />
-    
-    
-    <#macro listItems(tree)>
-        <#if tree.childItems?has_content>
-            <#list tree.childItems as item>
-                <#if item.isFolder()>
-                    <!-- Skip folder, but process its children -->
-                    <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
-                    <#if childTree?has_content>
-                        <@listItems childTree />
-                    </#if>
-                <#else>
-                    <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
-                    <!-- Use itemData for rendering -->
-                    <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                        <#assign contentModel = itemData />
-                        <#include "/templates/web/items/service-template.ftl"/>
-                    </div>
-                </#if>
-            </#list>
-        <#else>
-            <!-- Optionally handle empty trees -->
-            <p>No items found in this tree.</p>
-        </#if>
-    </#macro>
+    <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 3) />
     
     <#macro listFilteredItems(tree)>
         <#if tree.childItems?has_content>
@@ -44,42 +19,42 @@
                 <#if item.isFolder()>
                     <!-- Get child items for the folder -->
                     <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
-                    
-                    <!-- Filter by categoryName and subCategoryName -->
-                    <#if categoryName?has_content && !subCategoryName?has_content>
-                        <!-- Check if folder name matches categoryName -->
-                        <#if item.queryValue('internal-name')?lower_case == categoryName?lower_case>
-                            <@listItems childTree />
-                        </#if>
-                    <#elseif categoryName?has_content && subCategoryName?has_content>
-                        <!-- Check if folder matches categoryName, and process subCategoryName -->
-                        <#if item.queryValue('internal-name')?lower_case == categoryName?lower_case>
-                            <#list childTree.childItems as subItem>
-                                <#if subItem.isFolder() && subItem.queryValue('internal-name')?lower_case == subCategoryName?lower_case>
-                                    <@listItems siteItemService.getSiteTree(subItem.storeUrl, 1) />
-                                </#if>
-                            </#list>
-                        </#if>
-                    <#else>
-                        <!-- Default: Process all folders -->
-                        <@listItems childTree />
+                    <#if childTree?has_content>
+                        <@listFilteredItems childTree />
                     </#if>
                 <#else>
-                    <!-- If query exists, filter items by name -->
                     <#if query?has_content>
-                        <#if item.queryValue('internal-name')?lower_case?contains(query?lower_case)>
+                        <!-- Query filtering -->
+                        <#if item.queryValue('name_s')?lower_case?contains(query?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
-                            <!-- Use itemData for rendering -->
+                            <#assign contentModel = itemData />
                             <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                                <#assign contentModel = itemData />
+                                <#include "/templates/web/items/service-template.ftl" />
+                            </div>
+                        </#if>
+                    <#elseif categoryName?has_content && !subCategoryName?has_content>
+                        <!-- Category filtering -->
+                        <#if item.storeUrl?lower_case?contains(categoryName?lower_case)>
+                            <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                            <#assign contentModel = itemData />
+                            <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                                <#include "/templates/web/items/service-template.ftl" />
+                            </div>
+                        </#if>
+                    <#elseif categoryName?has_content && subCategoryName?has_content>
+                        <!-- Subcategory filtering -->
+                        <#if item.storeUrl?lower_case?contains(subCategoryName?lower_case)>
+                            <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                            <#assign contentModel = itemData />
+                            <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
                                 <#include "/templates/web/items/service-template.ftl" />
                             </div>
                         </#if>
                     <#else>
-                        <!-- No query: Display all items -->
+                        <!-- Default: Display all items -->
                         <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                        <#assign contentModel = itemData />
                         <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                            <#assign contentModel = itemData />
                             <#include "/templates/web/items/service-template.ftl" />
                         </div>
                     </#if>
@@ -89,16 +64,7 @@
             <p>No items found in this tree.</p>
         </#if>
     </#macro>
-    
-    <div class="container-fluid">
-        <div class="row px-xl-5">
-            <div class="col-12">
-                <p>query - ${query}</p>
-                <p>cat - ${categoryName}</p>
-                <p>sub-cat - ${subCategoryName}</p>
-            </div>
-        </div>
-    </div>
+
     
     <div class="container-fluid">
         <div class="row px-xl-5">
@@ -118,76 +84,98 @@
     
     <div class="container-fluid">
         <div class="row px-xl-5">
-            <!-- Price Tag -->
             <div class="col-lg-3 col-md-4">
-            <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by Tag</span></h5>
-                <div class="bg-light p-4 mb-30">
-                    <form id="filterForm">
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" checked id="price-all" value="all" name="price">
-                            <label class="custom-control-label" for="price-all">All Tags</label>
-                            <span class="badge border font-weight-normal">1000</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-1" value="0-100" name="price">
-                            <label class="custom-control-label" for="price-1">Hardware</label>
-                            <span class="badge border font-weight-normal">150</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-2" value="100-100" name="price">
-                            <label class="custom-control-label" for="price-2">Software</label>
-                            <span class="badge border font-weight-normal">295</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-3" value="200-300" name="price">
-                            <label class="custom-control-label" for="price-3">Service</label>
-                            <span class="badge border font-weight-normal">246</span>
-                        </div>
-                    </form>
-                </div>
-                <!-- Tag End -->
-                
                 <!-- Price Start -->
-                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by price</span></h5>
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by Price</span></h5>
                 <div class="bg-light p-4 mb-30">
-                    <form id="filterForm">
+                    <form id="filterPriceForm">
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" checked id="price-all" value="all" name="price">
                             <label class="custom-control-label" for="price-all">All Price</label>
-                            <span class="badge border font-weight-normal">1000</span>
+                            <span class="badge border font-weight-normal">800</span>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="price-1" value="0-100" name="price">
                             <label class="custom-control-label" for="price-1">$0 - $100</label>
-                            <span class="badge border font-weight-normal">150</span>
+                            <span class="badge border font-weight-normal">100</span>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="price-2" value="100-100" name="price">
                             <label class="custom-control-label" for="price-2">$100 - $200</label>
-                            <span class="badge border font-weight-normal">295</span>
+                            <span class="badge border font-weight-normal">300</span>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="price-3" value="200-300" name="price">
                             <label class="custom-control-label" for="price-3">$200 - $300</label>
-                            <span class="badge border font-weight-normal">246</span>
+                            <span class="badge border font-weight-normal">100</span>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="price-4" value="300-400" name="price">
                             <label class="custom-control-label" for="price-4">$300 - $400</label>
-                            <span class="badge border font-weight-normal">145</span>
+                            <span class="badge border font-weight-normal">200</span>
                         </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="price-5" value="400-500" name="price">
                             <label class="custom-control-label" for="price-5">$400 - $500</label>
-                            <span class="badge border font-weight-normal">168</span>
+                            <span class="badge border font-weight-normal">100</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="price-6" value="500-1000" name="price">
+                            <label class="custom-control-label" for="price-6">$500 - $1000</label>
+                            <span class="badge border font-weight-normal">100</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="price-7" value="1000-2000" name="price">
+                            <label class="custom-control-label" for="price-7">$1000 - $2000</label>
+                            <span class="badge border font-weight-normal">100</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="price-8" value="2000-3000" name="price">
+                            <label class="custom-control-label" for="price-8">$2000 - $3000</label>
+                            <span class="badge border font-weight-normal">100</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="price-9" value="3000-5000" name="price">
+                            <label class="custom-control-label" for="price-9">$3000 - $5000</label>
+                            <span class="badge border font-weight-normal">100</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
+                            <input type="checkbox" class="custom-control-input" id="price-10" value="5000-10000" name="price">
+                            <label class="custom-control-label" for="price-10">$5000 - $10000</label>
+                            <span class="badge border font-weight-normal">100</span>
                         </div>
                     </form>
                 </div>
                 <!-- Price End -->
                 
+                <!-- Tag Start -->
                 
-
-               
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by Tag</span></h5>
+                <div class="bg-light p-4 mb-30">
+                    <form id="filterTagForm">
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" checked id="tag-all" value="all" name="tag">
+                            <label class="custom-control-label" for="tag-all">All Tags</label>
+                            <span class="badge border font-weight-normal">400</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="tag-1" value="0-100" name="tag">
+                            <label class="custom-control-label" for="tag-1">Hardware</label>
+                            <span class="badge border font-weight-normal">150</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="tag-2" value="100-100" name="tag">
+                            <label class="custom-control-label" for="tag-2">Software</label>
+                            <span class="badge border font-weight-normal">200</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="tag-3" value="200-300" name="tag">
+                            <label class="custom-control-label" for="tag-3">Service</label>
+                            <span class="badge border font-weight-normal">50</span>
+                        </div>
+                    </form>
+                </div>
+                <!-- Tag End -->
             </div>
             
             
@@ -223,15 +211,15 @@
                     </div> -->
                     
                         
-                    <div class="row">
-                        <#if courseTree?has_content>
-                            <@listFilteredItems courseTree />
-                        <#else>
+                    <#if courseTree?has_content>
+                        <@listFilteredItems courseTree />
+                    <#else>
+                        <div class="col-12">
                             <p>No service available.</p>
-                        </#if>
-                    </div>
+                        </div>
+                    </#if>
                     
-                    <div class="col-12">
+                    <!-- <div class="col-12">
                         <nav>
                           <ul class="pagination justify-content-center">
                             <li class="page-item disabled"><a class="page-link" href="#">Previous</span></a></li>
@@ -241,7 +229,7 @@
                             <li class="page-item"><a class="page-link" href="#">Next</a></li>
                           </ul>
                         </nav>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -251,13 +239,3 @@
     <#include "/templates/web/fragments/scripts.ftl">
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-

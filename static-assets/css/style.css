@@ -9702,6 +9702,14 @@ a.text-dark:hover, a.text-dark:focus {
   animation: action 1s infinite alternate;
 }
 
+.ellipsis {
+    white-space: nowrap;         /* Prevent text from wrapping to a new line */
+    overflow: hidden;            /* Hide the overflowed text */
+    text-overflow: ellipsis;     /* Add the ellipsis ("...") */
+    width: 90%;                 /* Ensure the element respects the container's width */
+    display: inline-block;       /* Ensure the element behaves as inline */
+}
+
 @keyframes action {
   0% {
     transform: translateY(0);
