@@ -6,8 +6,8 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>6555a704</objectGroupId>
 	<objectId>6555a704-e8f1-412f-9493-089ac63bf141</objectId>
-	<file-name>282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-11.xml</file-name>
-	<folder-name/>
+	<file-name>index.xml</file-name>
+	<folder-name>6555a704-e8f1-412f-9493-089ac63bf141</folder-name>
 	<internal-name>Formazione tailor made tecnica e manageriale</internal-name>
 	<name_s>Formazione tailor made tecnica e manageriale</name_s>
 	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-3.xml</key>
@@ -17,6 +17,13 @@
 	</item></category_o>
 	<createdDate>2024-11-14T09:02:53.272Z</createdDate>
 	<createdDate_dt>2024-11-14T09:02:53.272Z</createdDate_dt>
-	<lastModifiedDate>2024-11-21T15:26:09.012Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-21T15:26:09.012Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-12-04T09:38:05.788Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-04T09:38:05.788Z</lastModifiedDate_dt>
+	<tags_o>	<item>	<key>Corsi formazione &lt;24 ore</key>
+	<value_smv>Corsi formazione &lt;24 ore</value_smv>
+	</item>	<item>	<key> In presenza</key>
+	<value_smv> In presenza</value_smv>
+	</item>	<item>	<key>Online</key>
+	<value_smv>Online</value_smv>
+	</item></tags_o>
 </component>
