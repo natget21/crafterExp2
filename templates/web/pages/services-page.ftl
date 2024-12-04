@@ -84,35 +84,6 @@
     
     <div class="container-fluid">
         <div class="row px-xl-5">
-            <!-- Price Tag -->
-            <div class="col-lg-3 col-md-4">
-            <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by Tag</span></h5>
-                <div class="bg-light p-4 mb-30">
-                    <form id="filterTagForm">
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" checked id="tag-all" value="all" name="tag">
-                            <label class="custom-control-label" for="tag-all">All Tags</label>
-                            <span class="badge border font-weight-normal">400</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="tag-1" value="0-100" name="tag">
-                            <label class="custom-control-label" for="tag-1">Hardware</label>
-                            <span class="badge border font-weight-normal">150</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="tag-2" value="100-100" name="tag">
-                            <label class="custom-control-label" for="tag-2">Software</label>
-                            <span class="badge border font-weight-normal">200</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="tag-3" value="200-300" name="tag">
-                            <label class="custom-control-label" for="tag-3">Service</label>
-                            <span class="badge border font-weight-normal">50</span>
-                        </div>
-                    </form>
-                </div>
-                <!-- Tag End -->
-                
                 <!-- Price Start -->
                 <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by Price</span></h5>
                 <div class="bg-light p-4 mb-30">
@@ -176,9 +147,34 @@
                 </div>
                 <!-- Price End -->
                 
-                
-
-               
+                <!-- Tag Start -->
+                <div class="col-lg-3 col-md-4">
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by Tag</span></h5>
+                <div class="bg-light p-4 mb-30">
+                    <form id="filterTagForm">
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" checked id="tag-all" value="all" name="tag">
+                            <label class="custom-control-label" for="tag-all">All Tags</label>
+                            <span class="badge border font-weight-normal">400</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="tag-1" value="0-100" name="tag">
+                            <label class="custom-control-label" for="tag-1">Hardware</label>
+                            <span class="badge border font-weight-normal">150</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="tag-2" value="100-100" name="tag">
+                            <label class="custom-control-label" for="tag-2">Software</label>
+                            <span class="badge border font-weight-normal">200</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="tag-3" value="200-300" name="tag">
+                            <label class="custom-control-label" for="tag-3">Service</label>
+                            <span class="badge border font-weight-normal">50</span>
+                        </div>
+                    </form>
+                </div>
+                <!-- Tag End -->
             </div>
             
             
