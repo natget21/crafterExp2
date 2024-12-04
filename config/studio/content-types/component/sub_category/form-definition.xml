@@ -191,7 +191,7 @@
 					<type>checkbox-group</type>
 					<id>tags_o</id>
 					<iceId></iceId>
-					<title>Tags</title>
+					<title>tags</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -289,7 +289,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value>/site/components/taxonomy/c75e804a-1180-fd59-31b8-43b415f10bcb.xml</value>
+							<value>/site/taxonomy/tags.xml</value>
 								<type>string</type>
 						</property>
 					</properties>
