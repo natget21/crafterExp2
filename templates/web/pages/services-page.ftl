@@ -159,7 +159,7 @@
                             <span class="badge border font-weight-normal">400</span>
                         </div>
                         <#assign tagsTaxonomy = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
-        <#assign tags = tagsTaxonomy.values_o.item />
+        <#assign tags = tagsTaxonomy.item />
         
         <#assign smallTags = []>
         <#assign largeTags = []>
