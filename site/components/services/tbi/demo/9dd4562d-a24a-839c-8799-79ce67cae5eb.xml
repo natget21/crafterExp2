@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/tbi</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9dd4</objectGroupId>
+	<objectId>9dd4562d-a24a-839c-8799-79ce67cae5eb</objectId>
+	<file-name>9dd4562d-a24a-839c-8799-79ce67cae5eb.xml</file-name>
+	<folder-name/>
+	<internal-name>VALUTAZIONE ERGONOMICA VALUTAZIONI ERGONOMICHE SU POSTAZIONI, POSTURE, MOVIMENTAZIONI, SFORZI, BENEFICI E SPERIMENTAZIONE DI REALTA MISTA O X REALITY</internal-name>
+	<name_s>VALUTAZIONE ERGONOMICA VALUTAZIONI ERGONOMICHE SU POSTAZIONI, POSTURE, MOVIMENTAZIONI, SFORZI, BENEFICI E SPERIMENTAZIONE DI REALTA MISTA O X REALITY</name_s>
+	<duration_s>Da 15 a 20 giornate (definita dal partner erogatore In base a casistica e obiettivi)</duration_s>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</key>
+	<value>DEMO</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<partners_o item-list="true">	<item>	<key>/site/components/providers/8365ac34-5a79-1dd7-4162-1ff7ef3fa30e.xml</key>
+	<value>UNIVERSITA POLITECNICA DELLE MARCHE</value>
+	<include>/site/components/providers/8365ac34-5a79-1dd7-4162-1ff7ef3fa30e.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</key>
+	<value>MADE SCARL</value>
+	<include>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/providers/25712995-d05a-8c57-d298-b15b6448fab5.xml</key>
+	<value>I-LABS INDUSTRY S.C.A R.L.</value>
+	<include>/site/components/providers/25712995-d05a-8c57-d298-b15b6448fab5.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></partners_o>
+	<description_t>Valutazioni ergonomiche (postura, movimentazione manuale dei carichi, sforzo muscolare, movimenti ripetitivi). Analisi e simulazione del processo dell’impresa volte alla progettazione funzionale della postazione di lavoro e/o alla definizione della collaborazione uomo macchina con rispetto dei requisiti ergonomici e di sicurezza. Valutazioni benefici ergonomici (postura, sforzo muscolare) tramite sensori indossabili nella movimentazione di carichi e attività ripetitive e valutazione degli eventuali benefici con uso di esoscheletri passivi. Validazione di processi di produzione guidati. Sperimentazione dell’applicazione di X Reality a supporto della progettazione ergonomica dei posti di lavoro e procedure di assemblaggio. Sperimentazione di realtà mista per l’assistenza dell’operatore da remoto.</description_t>
+	<image_s/>
+	<createdDate>2024-12-03T08:23:56.322Z</createdDate>
+	<createdDate_dt>2024-12-03T08:23:56.322Z</createdDate_dt>
+	<lastModifiedDate>2024-12-03T08:23:56.322Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-03T08:23:56.322Z</lastModifiedDate_dt>
+</component>
