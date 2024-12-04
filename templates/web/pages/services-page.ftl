@@ -158,18 +158,11 @@
                             <label class="custom-control-label" for="tag-all">All Tags</label>
                             <span class="badge border font-weight-normal">400</span>
                         </div>
-                        <#assign tagsItem = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
- <#if tagsItem?has_content>
-    <#assign tagsData = tagsItem.descriptorDom.component.items.item />
-
-    <ul>
-        <#list tagsData as tag>
-            <li>${tag.key}: ${tag.value}</li>
-        </#list>
-    </ul>
-<#else>
-    <p>No tags found</p>
-</#if>
+                     <#assign tagsItem = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
+<#assign items = tagsItem.queryValues('/component/items/item') />
+<#list items as item>
+    ${item.key} - ${item.value}
+</#list>
                     </form>
                 </div>
                 <!-- Tag End -->
