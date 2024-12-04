@@ -478,7 +478,7 @@
 						</property>
 						<property>
 							<name>allowShared</name>
-							<value>true</value>
+							<value>false</value>
 								<type>boolean</type>
 						</property>
 						<property>
@@ -503,7 +503,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/item,/component/service</value>
+							<value>/component/item,/component/service,/component/course,/component/tbi</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
