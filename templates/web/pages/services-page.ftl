@@ -84,6 +84,7 @@
     
     <div class="container-fluid">
         <div class="row px-xl-5">
+            <div class="col-lg-3 col-md-4">
                 <!-- Price Start -->
                 <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by Price</span></h5>
                 <div class="bg-light p-4 mb-30">
@@ -148,7 +149,7 @@
                 <!-- Price End -->
                 
                 <!-- Tag Start -->
-                <div class="col-lg-3 col-md-4">
+                
                 <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by Tag</span></h5>
                 <div class="bg-light p-4 mb-30">
                     <form id="filterTagForm">
