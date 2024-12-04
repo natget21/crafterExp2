@@ -159,9 +159,17 @@
                             <span class="badge border font-weight-normal">400</span>
                         </div>
                         <#assign tagsItem = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
-  <#assign tagsData = siteItemService.getSiteItem(tagsItem.storeUrl) />
- <div>${tagsData}</div>
+ <#if tagsItem?has_content>
+    <#assign tagsData = tagsItem.descriptorDom.component.items.item />
 
+    <ul>
+        <#list tagsData as tag>
+            <li>${tag.key}: ${tag.value}</li>
+        </#list>
+    </ul>
+<#else>
+    <p>No tags found</p>
+</#if>
                     </form>
                 </div>
                 <!-- Tag End -->
