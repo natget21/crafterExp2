@@ -158,10 +158,9 @@
                             <label class="custom-control-label" for="tag-all">All Tags</label>
                             <span class="badge border font-weight-normal">400</span>
                         </div>
-                        <#assign tagsTaxonomy = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
-        <#assign tags = tagsTaxonomy.item />
-        
- <div>${tags}</div>
+                        <#assign tagsTree = siteItemService.getSiteTree('/site/taxonomy/tags.xml',1) />
+
+ <div>${tagsTree}</div>
 
                     </form>
                 </div>
