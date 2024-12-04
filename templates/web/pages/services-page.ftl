@@ -142,27 +142,27 @@
                             <label class="custom-control-label" for="price-4">$300 - $400</label>
                             <span class="badge border font-weight-normal">200</span>
                         </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="price-5" value="400-500" name="price">
                             <label class="custom-control-label" for="price-5">$400 - $500</label>
                             <span class="badge border font-weight-normal">100</span>
                         </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="price-6" value="500-1000" name="price">
                             <label class="custom-control-label" for="price-6">$500 - $1000</label>
                             <span class="badge border font-weight-normal">100</span>
                         </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="price-7" value="1000-2000" name="price">
                             <label class="custom-control-label" for="price-7">$1000 - $2000</label>
                             <span class="badge border font-weight-normal">100</span>
                         </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="price-8" value="2000-3000" name="price">
                             <label class="custom-control-label" for="price-8">$2000 - $3000</label>
                             <span class="badge border font-weight-normal">100</span>
                         </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="price-9" value="3000-5000" name="price">
                             <label class="custom-control-label" for="price-9">$3000 - $5000</label>
                             <span class="badge border font-weight-normal">100</span>
