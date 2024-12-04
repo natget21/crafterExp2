@@ -161,53 +161,7 @@
                         <#assign tagsTaxonomy = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
         <#assign tags = tagsTaxonomy.item />
         
-        <#assign smallTags = []>
-        <#assign largeTags = []>
-        
-        <#-- Separate tags into small and large categories -->
-        <#list tags as tag>
-            <#if tag.value_s?trim?length <= 15>
-                <#assign smallTags = smallTags + [tag]>
-            <#else>
-                <#assign largeTags = largeTags + [tag]>
-            </#if>
-        </#list>
-        
-        <#-- Display smaller tags (length <= 30) two per row -->
-        <#assign counter = 0>
-        <#list smallTags as tag>
-            <#assign counter = counter + 1>
-            <#if counter % 2 == 1>
-                <div class="row mb-3">
-            </#if>
-            
-            <div class="col-6">
-                <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="tag-${tag.key_s}">
-                    <label class="custom-control-label" for="tag-${tag.key_s}">
-                        ${tag.value_s}
-                    </label>
-                </div>
-            </div>
-
-            <#if counter % 2 == 0 || counter == smallTags?size>
-                </div> <!-- End row for tags with length <= 30 -->
-            </#if>
-        </#list>
-
-        <#-- Display larger tags (length > 30), each on its own row -->
-        <#list largeTags as tag>
-            <div class="row mb-3">
-                <div class="col-12">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="tag-${tag.key_s}">
-                        <label class="custom-control-label" for="tag-${tag.key_s}">
-                            ${tag.value_s}
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </#list>
+ <div>${tags}</div>
 
                     </form>
                 </div>
