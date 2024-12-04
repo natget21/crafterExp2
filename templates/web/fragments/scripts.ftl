@@ -60,7 +60,8 @@
 
         // If 'all' is selected, display all items
         if (selectedPrices.length === 0) {
-            document.querySelectorAll('.filterResults .product-item').forEach(item => {
+            //document.querySelectorAll('.filterResults .product-item').forEach(item => {
+            document.querySelectorAll('.filterResults > div').forEach(item => {
                 item.style.display = '';
             });
             return;
@@ -70,7 +71,8 @@
         const ranges = selectedPrices.map(range => range.split('-').map(Number));
 
         // Filter and display only items within the selected price ranges
-        document.querySelectorAll('.filterResults .product-item').forEach(item => {
+        //document.querySelectorAll('.filterResults .product-item').forEach(item => {
+        document.querySelectorAll('.filterResults > div').forEach(item => {
             const priceText = item.querySelector('h5').innerText.replace(/[^\d.]/g, '');
             const price = parseFloat(priceText) || 0;
 
