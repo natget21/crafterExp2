@@ -158,16 +158,8 @@
                             <label class="custom-control-label" for="tag-all">All Tags</label>
                             <span class="badge border font-weight-normal">400</span>
                         </div>
-                     <#assign tagsItem = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
-                                           <#assign tagsTree = siteItemService.getSiteTree('/site/taxonomy', 1)>
-  <#if tagsTree?has_content>
-                            <#list tagsTree.childItems as tags>
 <#assign tagItem = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
  ${tagItem}
-</#list>
-                            <#else>
-                                <p>No categories found.</p>
-                            </#if>
                     </form>
                 </div>
                 <!-- Tag End -->
