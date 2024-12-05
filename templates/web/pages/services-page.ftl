@@ -161,8 +161,11 @@
                      <#assign tagsItem = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
                          <#assign taxonomyTree = siteItemService.getSiteTree('/site/taxonomy', 1) />
                          <#assign childTree = siteItemService.getSiteItem(taxonomyTree.storeUrl) />
+                          <#if tagsItem?has_content>
+                            <#list tagsItem.childItems as tags>
+                            <#assign categoryItem = siteItemService.getSiteItem(tags.storeUrl) />
 
-    ${taxonomyTree}
+    ${categoryItem}
     ${tagsItem}
                     </form>
                 </div>
