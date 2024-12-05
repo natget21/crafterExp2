@@ -162,7 +162,7 @@
                                            <#assign tagsTree = siteItemService.getSiteTree('/site/taxonomy', 1)>
   <#if tagsTree?has_content>
                             <#list tagsTree.childItems as tags>
-<#assign tagItem = siteItemService.getSiteItem(tags.storeUrl) />
+<#assign tagItem = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
  ${tagItem}
 </#list>
                             <#else>
