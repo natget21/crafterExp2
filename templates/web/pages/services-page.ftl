@@ -159,7 +159,7 @@
                             <span class="badge border font-weight-normal">400</span>
                         </div>
                      <#assign tagsItem = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
-                                           <#assign tagsTree = siteItemService.getSiteTree('/site/taxonomy/tags.xml', 1)>
+                                           <#assign tagsTree = siteItemService.getSiteTree('/site/taxonomy', 1)>
   <#if tagsTree?has_content>
                             <#list tagsTree.childItems as tags>
 <#assign tagItem = siteItemService.getSiteItem(tags.storeUrl) />
