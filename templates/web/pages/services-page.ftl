@@ -160,8 +160,10 @@
                         </div>
                      <#assign tagsItem = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
                          <#assign taxonomyTree = siteItemService.getSiteTree('/site/taxonomy', 1) />
+                         <#assign childTree = siteItemService.getSiteTree(taxonomyTree.storeUrl, 1) />
 
     ${taxonomyTree}
+    ${childTree}
                     </form>
                 </div>
                 <!-- Tag End -->
