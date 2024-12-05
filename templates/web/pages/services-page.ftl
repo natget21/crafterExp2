@@ -159,7 +159,8 @@
                             <span class="badge border font-weight-normal">400</span>
                         </div>
                      <#assign tagsItem = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
-    ${tagsItem}
+                     <#assign tagsTaxonomy = siteItemService.getSiteItem('/site/taxonomy/tags.json') />
+    ${tagsTaxonomy}
                     </form>
                 </div>
                 <!-- Tag End -->
