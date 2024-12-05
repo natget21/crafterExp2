@@ -159,8 +159,16 @@
                             <span class="badge border font-weight-normal">400</span>
                         </div>
                      <#assign tagsItem = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
+                                           <#assign categoriesTree = siteItemService.getSiteTree('/site/taxonomy/tags.xml', 1)>
+  <#if categoriesTree?has_content>
+                            <#list categoriesTree.childItems as category>
+<#assign categoryItem = siteItemService.getSiteItem(category.storeUrl) />
+ ${categoryItem}
+</#list>
+                            <#else>
+                                <p>No categories found.</p>
+                            </#if>
 
-    ${itemData}
     ${tagsItem}
                     </form>
                 </div>
