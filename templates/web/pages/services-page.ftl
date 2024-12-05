@@ -162,8 +162,8 @@
                                            <#assign categoriesTree = siteItemService.getSiteTree('/site/taxonomy/tags.xml', 1)>
   <#if categoriesTree?has_content>
                             <#list categoriesTree.childItems as category>
-<#assign categoryItem = siteItemService.getSiteItem(category.storeUrl) />
- ${categoryItem}
+<#assign tagItem = siteItemService.getSiteItem(category.storeUrl) />
+ ${tagItem}
 </#list>
                             <#else>
                                 <p>No categories found.</p>
