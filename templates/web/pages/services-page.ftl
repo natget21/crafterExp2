@@ -163,7 +163,7 @@
                          <#assign childTree = siteItemService.getSiteItem(taxonomyTree.storeUrl) />
 
     ${taxonomyTree}
-    ${childTree}
+    ${tagsItem}
                     </form>
                 </div>
                 <!-- Tag End -->
