@@ -160,7 +160,7 @@
                         </div>
 <#assign tagItem = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
 
- ${tagItem}
+ ${tagItem.storeUrl}
                     </form>
                 </div>
                 <!-- Tag End -->
