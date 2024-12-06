@@ -80,5 +80,13 @@
 
 
 
-def item = siteItemService.getSiteTree('/site/components/services', 2)
-return item
+// def item = siteItemService.getSiteTree('/site/components/services', 2)
+// return item
+
+
+import org.springframework.security.access.annotation.Secured
+
+@Secured(['permitAll()'])
+def handle() {
+    return ["message": "Hello, world!"]
+}
