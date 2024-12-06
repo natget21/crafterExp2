@@ -9,7 +9,7 @@
             <#if contentModel.image_s?hasContent>
                 <img class="img-fluid w-100" src="${contentModel.image_s?default("/static-assets/img/default/product-default.png")}" alt="${contentModel.name_s?default("")}">
             <#else>
-                <img class="img-fluid w-100" src="/static-assets/img/default/product-default.pmg" alt="${contentModel.name_s?default("")}">            
+                <img class="img-fluid w-100" src="/static-assets/img/default/product-default.png" alt="${contentModel.name_s?default("")}">            
             </#if>
             
             <div class="product-action">
