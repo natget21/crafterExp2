@@ -159,9 +159,10 @@
                             <span class="badge border font-weight-normal">400</span>
                         </div>
 <#assign tagsXml = siteItemService.getSiteItem("/site/taxonomy/tags.xml", null) />
-<#assign tagsXmlContent = tagsXml.content?interpret?xml />
+<#assign tagsXmlTree = siteItemService.getSiteItem("/site/taxonomy", 1) />
+
  ${tagsXml}
- ${tagsXmlContent}
+ ${tagsXmlTree}
 
                     </form>
                 </div>
