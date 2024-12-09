@@ -1,4 +1,4 @@
-<#import "/templates/system/common/crafter.ftl" as crafter />
+queryValue('<#imp')ort "/templates/system/common/crafter.ftl" as crafter />
 
 <!DOCTYPE html>
 <html lang="en">
@@ -159,7 +159,7 @@
                             <span class="badge border font-weight-normal">400</span>
                         </div>
 <#assign tagsData = siteItemService.getSiteItem("/site/taxonomy/tags.xml") />
-         ${tagsData.items)}
+         ${tagsData.queryValue('items'))}
 
 
                     </form>
