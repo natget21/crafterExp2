@@ -51,7 +51,7 @@
 <script>
     const filterResultsContainer = document.querySelector('.filterResults');
     const filterPriceForm = document.getElementById('filterPriceForm');
-    const filterPriceForm = document.getElementById('filterPriceForm');
+    const filterTagForm = document.getElementById('filterTagForm');
     
     function filterByPrice() {
         // Get all checked price checkboxes
@@ -81,10 +81,35 @@
             item.style.display = isInRange ? '' : 'none';
         });
     }
+    
+     function filterByTag() {
+        // Get all checked price checkboxes
+        const selectedTags = [...filterTagForm.querySelectorAll('input[type="checkbox"]:checked')]
+            .map(cb => cb.value)
+            .filter(value => value !== 'all'); // Exclude 'all'
+
+        // If 'all' is selected, display all items
+        if (filterTagForm.length === 0) {
+            //document.querySelectorAll('.filterResults .product-item').forEach(item => {
+            document.querySelectorAll('.filterResults > div').forEach(item => {
+                item.style.display = '';
+            });
+            return;
+        }
+
+
+    }
 
     // Listen for changes in the price filter form
     filterPriceForm.addEventListener('change', filterByPrice);
-
+    
+    
+   // Listen for changes in the tag filter form
+    filterTagForm.addEventListener('change', filterByTag);
+    
     // Initialize filters on page load
     filterByPrice();
+    
+    // Initialize tag filters on page load
+    filterByTag();
 </script>
