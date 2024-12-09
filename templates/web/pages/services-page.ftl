@@ -8,9 +8,12 @@
     <#include "/templates/web/fragments/navigation.ftl">
     
     <#assign categoryName = RequestParameters.category?default("") />
+    <#assign categoryURL = RequestParameters.categoryURL?default("") />
     <#assign subCategoryName = RequestParameters.subCategory?default("") />
     <#assign query = RequestParameters.query?default("") />
     <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 3) />
+    <p>${categoryURL}</p>
+    <p>${categoryName}</p>
     <#macro listFilteredItems(tree)>
         <#if tree.childItems?has_content>
             <#list tree.childItems as item>
