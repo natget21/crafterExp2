@@ -161,8 +161,8 @@
 <#assign tagsXml = siteItemService.getSiteItem("/site/taxonomy/tags.xml") />
 <#assign tagsXmlTree = siteItemService.getSiteTree("/site/taxonomy", 1) />
   <#if tagsXmlTree?has_content>
-    <#if tree.childItems?has_content>
-            <#list tree.childItems as item>
+    <#if tagsXmlTree.childItems?has_content>
+            <#list tagsXmlTree.childItems as item>
                 <#if item.isFolder()>
                     <!-- Get child items for the folder -->
                     <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
