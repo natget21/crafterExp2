@@ -160,7 +160,24 @@
                         </div>
 <#assign tagsXml = siteItemService.getSiteItem("/site/taxonomy/tags.xml") />
 <#assign tagsXmlTree = siteItemService.getSiteTree("/site/taxonomy", 1) />
-
+  <#if tagsXmlTree?has_content>
+    <#if tree.childItems?has_content>
+            <#list tree.childItems as item>
+                <#if item.isFolder()>
+                    <!-- Get child items for the folder -->
+                    <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
+                      <#else>
+            <p>No items found in this tree.</p>
+        </#if>
+                                </#list>
+        <#else>
+            <p>No items found in this tree.</p>
+        </#if>
+    <#else>
+                        <div class="col-12">
+                            <p>No taxonomy available.</p>
+                        </div>
+                    </#if>
  ${tagsXml}
  ${tagsXmlTree}
 
