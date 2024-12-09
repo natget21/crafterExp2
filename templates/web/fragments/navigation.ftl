@@ -20,7 +20,7 @@
                                             siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0]?has_content && 
                                             siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0].key == category.storeUrl)) />                                    
                                         <div class="nav-item dropdown dropright">
-                                        <a href="/services?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${categoryItem.queryValue('file-name')?url?default("")}" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                        <a href="/services?category=${categoryItem.queryValue('file-name')?url?default("")}&categoryURL=${categoryItem.queryValue('file-name')?url?default("")}" class="nav-link dropdown-toggle" data-toggle="dropdown">
                                             ${categoryItem.queryValue('name_s')}
                                             <#if relatedSubcategories?has_content>
                                                 <i class="fa fa-angle-right float-right mt-1"></i>
