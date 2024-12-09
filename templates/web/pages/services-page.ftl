@@ -167,7 +167,7 @@
                     <!-- Get child items for the folder -->
                     <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
                       <#else>
-            <p>No items found in this tree.</p>
+            <p>${item}</p>
         </#if>
                                 </#list>
         <#else>
