@@ -163,12 +163,8 @@
   <#if tagsXmlTree?has_content>
     <#if tagsXmlTree.childItems?has_content>
             <#list tagsXmlTree.childItems as item>
-                <#if item.isFolder()>
-                    <!-- Get child items for the folder -->
-                    <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
-                      <#else>
-            <p>${item}</p>
-        </#if>
+         <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+         ${itemData}
                                 </#list>
         <#else>
             <p>No items found in this tree.</p>
