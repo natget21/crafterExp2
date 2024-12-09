@@ -1,4 +1,4 @@
-queryValue('<#imp')ort "/templates/system/common/crafter.ftl" as crafter />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!DOCTYPE html>
 <html lang="en">
@@ -158,9 +158,21 @@ queryValue('<#imp')ort "/templates/system/common/crafter.ftl" as crafter />
                             <label class="custom-control-label" for="tag-all">All Tags</label>
                             <span class="badge border font-weight-normal">400</span>
                         </div>
-
-
-
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="tag-1" value="0-100" name="tag">
+                            <label class="custom-control-label" for="tag-1">Hardware</label>
+                            <span class="badge border font-weight-normal">150</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="tag-2" value="100-100" name="tag">
+                            <label class="custom-control-label" for="tag-2">Software</label>
+                            <span class="badge border font-weight-normal">200</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="tag-3" value="200-300" name="tag">
+                            <label class="custom-control-label" for="tag-3">Service</label>
+                            <span class="badge border font-weight-normal">50</span>
+                        </div>
                     </form>
                 </div>
                 <!-- Tag End -->
