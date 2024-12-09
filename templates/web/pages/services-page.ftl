@@ -158,13 +158,9 @@
                             <label class="custom-control-label" for="tag-all">All Tags</label>
                             <span class="badge border font-weight-normal">400</span>
                         </div>
-<#assign tagItem = siteItemService.getRawContent('/site/taxonomy/tags.xml') />
- ${tagItem}
- <ul>
-    <#list site.taxonomy["tags"].children as tag>
-        <li>${tag}</li>
-    </#list>
-</ul>
+<#assign tagsXml = siteItemService.getSiteItem("/site/taxonomy/tags.xml", null) />
+ ${tagsXml}
+
                     </form>
                 </div>
                 <!-- Tag End -->
