@@ -165,7 +165,6 @@
                         </div>
                         <#assign itemData = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
                          <#assign items = itemData.queryValues('items') />
-                        <#assign itemsValue = items.queryValue('item') />
 
                         ${itemData.queryValue('objectId')}
                         ${items}
