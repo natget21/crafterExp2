@@ -158,33 +158,9 @@
                             <label class="custom-control-label" for="tag-all">All Tags</label>
                             <span class="badge border font-weight-normal">400</span>
                         </div>
-<#assign tagsXml = siteItemService.getSiteItem("/site/taxonomy/tags.xml") />
-<#assign tagsXmlTree = siteItemService.getSiteTree("/site/taxonomy", 1) />
-<#assign categoryTree = siteItemService.getSiteTree("/site/components/category", 1) />
- <#if categoryTree.childItems?has_content>
-            <#list categoryTree.childItems as item>
-               <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
-         ${itemData.queryValue('name_s')}
-                                </#list>
-        <#else>
-            <p>No category found in this tree.</p>
-        </#if> 
-  <#if tagsXmlTree?has_content>
-    <#if tagsXmlTree.childItems?has_content>
-            <#list tagsXmlTree.childItems as item>
-         <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
-         ${itemData}
-                                </#list>
-        <#else>
-            <p>No items found in this tree.</p>
-        </#if>
-    <#else>
-                        <div class="col-12">
-                            <p>No taxonomy available.</p>
-                        </div>
-                    </#if>
- ${tagsXml}
- ${tagsXmlTree}
+<#assign tagsData = siteItemService.getSiteItem("/site/taxonomy/tags.xml") />
+         ${tagsData.queryValue('key')}
+
 
                     </form>
                 </div>
