@@ -14,6 +14,7 @@
     <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 3) />
     <p>${categoryName}</p>
     <p>${subCategoryName}</p>
+    <p>${query}</p>
     <#macro listFilteredItems(tree)>
         <#if tree.childItems?has_content>
             <#list tree.childItems as item>
