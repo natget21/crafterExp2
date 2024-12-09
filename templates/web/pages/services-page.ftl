@@ -163,8 +163,8 @@
                          <#assign tags = itemData.items.item />
                         <#list tags as tag>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="tag-1" value="0-100" name="tag">
-                            <label class="custom-control-label" for="tag-1">${tag.value}</label>
+                            <input type="checkbox" class="custom-control-input" id=${tag.key} value="0-100" name="tag">
+                            <label class="custom-control-label" for=${tag.key}>${tag.value}</label>
                             <span class="badge border font-weight-normal">150</span>
                         </div>
                         </#list>
