@@ -51,7 +51,8 @@
 <script>
     const filterResultsContainer = document.querySelector('.filterResults');
     const filterPriceForm = document.getElementById('filterPriceForm');
-
+    const filterPriceForm = document.getElementById('filterPriceForm');
+    
     function filterByPrice() {
         // Get all checked price checkboxes
         const selectedPrices = [...filterPriceForm.querySelectorAll('input[type="checkbox"]:checked')]
