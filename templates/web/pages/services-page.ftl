@@ -158,17 +158,16 @@
                             <label class="custom-control-label" for="tag-all">All Tags</label>
                             <span class="badge border font-weight-normal">400</span>
                         </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="tag-1" value="0-100" name="tag">
-                            <label class="custom-control-label" for="tag-1">Hardware</label>
-                            <span class="badge border font-weight-normal">150</span>
-                        </div>
+                        
                         <#assign itemData = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
                          <#assign tags = itemData.items.item />
-                        ${itemData.queryValue('objectId')}
                         <#list tags as tag>
-    <p>${tag.key} - ${tag.value}</p>
-</#list>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="tag-1" value="0-100" name="tag">
+                            <label class="custom-control-label" for="tag-1">${tag.value}</label>
+                            <span class="badge border font-weight-normal">150</span>
+                        </div>
+                        </#list>
                     </form>
                 </div>
                 <!-- Tag End -->
