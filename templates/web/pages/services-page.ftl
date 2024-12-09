@@ -160,6 +160,11 @@
                         </div>
 <#assign tagItem = siteItemService.getRawContent('/site/taxonomy/tags.xml') />
  ${tagItem}
+ <ul>
+    <#list site.taxonomy["tags"].children as tag>
+        <li>${tag}</li>
+    </#list>
+</ul>
                     </form>
                 </div>
                 <!-- Tag End -->
