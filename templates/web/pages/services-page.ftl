@@ -160,7 +160,47 @@
                             <span class="badge border font-weight-normal">400</span>
                         </div>
                         
-                        
+                         <#assign itemData = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
+                         <#assign allTags = itemData.items.item />
+                         
+                         <#if query?has_content>
+                        <!-- Query filtering -->
+                        <#if item.queryValue('name_s')?lower_case?contains(query?lower_case)>
+                            <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                            <#assign contentModel = itemData />
+                            <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                                <#include "/templates/web/items/service-template.ftl" />
+                            </div>
+                        </#if>
+                    <#elseif categoryName?has_content && !subCategoryName?has_content>
+                        <!-- Category filtering -->
+                        <#if item.storeUrl?lower_case?contains(categoryName?lower_case)>
+                            <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                            <#assign contentModel = itemData />
+                            <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                                <#include "/templates/web/items/service-template.ftl" />
+                            </div>
+                        </#if>
+                    <#elseif categoryName?has_content && subCategoryName?has_content>
+                        <!-- Subcategory filtering -->
+                        <#if item.storeUrl?lower_case?contains(subCategoryName?lower_case)>
+                            <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+                            <#assign contentModel = itemData />
+                            <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                                <#include "/templates/web/items/service-template.ftl" />
+                            </div>
+                        </#if>
+                    <#else>
+                        <!-- Default: Display all tags -->
+
+                        <#list allTags as tag>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id=${tag.key} value="0-100" name="tag">
+                            <label class="custom-control-label" for=${tag.key}>${tag.value}</label>
+                            <span class="badge border font-weight-normal">150</span>
+                        </div>
+                        </#list>
+                    </#if>
                         
                     
                     </form>
