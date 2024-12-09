@@ -160,6 +160,15 @@
                         </div>
 <#assign tagsXml = siteItemService.getSiteItem("/site/taxonomy/tags.xml") />
 <#assign tagsXmlTree = siteItemService.getSiteTree("/site/taxonomy", 1) />
+<#assign categoryTree = siteItemService.getSiteTree("/site/components/category", 1) />
+ <#if categoryTree.childItems?has_content>
+            <#list categoryTree.childItems as item>
+               <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
+         ${itemData}
+                                </#list>
+        <#else>
+            <p>No category found in this tree.</p>
+        </#if> 
   <#if tagsXmlTree?has_content>
     <#if tagsXmlTree.childItems?has_content>
             <#list tagsXmlTree.childItems as item>
