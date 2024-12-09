@@ -14,8 +14,7 @@
                             <#if categoriesTree?has_content>
                                 <#list categoriesTree.childItems as category>
                                     <#assign categoryItem = siteItemService.getSiteItem(category.storeUrl) />
-                                    <#assign relatedSubcategories = subCategoriesTree.childItems?filter(subcategory -> 
-                                    siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0].key == category.storeUrl) />
+                                    <#assign relatedSubcategories = subCategoriesTree.childItems?filter(subcategory -> siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0].key == category.storeUrl) />
                                     <div class="nav-item dropdown dropright">
                                         <a href="/services?category=${categoryItem.queryValue('internal-name')?url?default("")}" class="nav-link dropdown-toggle" data-toggle="dropdown">
                                             ${categoryItem.queryValue('name_s')}
