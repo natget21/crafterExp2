@@ -30,7 +30,7 @@
                                             <div class="dropdown-menu position-absolute rounded-0 border-0 m-0">
                                                 <#list relatedSubcategories as subcategory>
                                                     <#assign subCategoryItem = siteItemService.getSiteItem(subcategory.storeUrl) />
-                                                    <a href="/services?category=${categoryItem.queryValue('file-name')?url?default("")}&subCategory=${subCategoryItem.queryValue('internal-name')?url?default("")}" class="dropdown-item">
+                                                    <a href="/services?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${categoryItem.queryValue('file-name')?url?default("")}&subCategory=${subCategoryItem.queryValue('internal-name')?url?default("")}&subCategoryURL=${subCategoryItem.queryValue('file-name')?url?default("")}" class="dropdown-item">
                                                         ${subCategoryItem.queryValue('name_s')}
                                                     </a>
                                                 </#list>
