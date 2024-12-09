@@ -158,8 +158,8 @@
                             <label class="custom-control-label" for="tag-all">All Tags</label>
                             <span class="badge border font-weight-normal">400</span>
                         </div>
-<#assign tagsXml = siteItemService.getSiteItem("/site/taxonomy/tags.xml", null) />
-<#assign tagsXmlTree = siteItemService.getSiteItem("/site/taxonomy", 1) />
+<#assign tagsXml = siteItemService.getSiteItem("/site/taxonomy/tags.xml") />
+<#assign tagsXmlTree = siteItemService.getSiteTree("/site/taxonomy", 1) />
 
  ${tagsXml}
  ${tagsXmlTree}
