@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/sub_category</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>fdd391ca</objectGroupId>
+	<objectId>fdd391ca-3273-42b4-a002-28307af0c2d0</objectId>
+	<file-name>282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</file-name>
+	<folder-name/>
+	<internal-name>Formazione-a-catalogo-tecnica-e-manageriale</internal-name>
+	<name_s>Formazione a catalogo tecnica e manageriale</name_s>
+	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-3.xml</key>
+	<value>SKILLS AND TRAINING</value>
+	<include>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-3.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></category_o>
+	<createdDate>2024-11-14T09:02:31.271Z</createdDate>
+	<createdDate_dt>2024-11-14T09:02:31.271Z</createdDate_dt>
+	<lastModifiedDate>2024-11-21T15:25:41.989Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-21T15:25:41.989Z</lastModifiedDate_dt>
+</component>
