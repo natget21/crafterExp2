@@ -164,7 +164,7 @@
                             <span class="badge border font-weight-normal">150</span>
                         </div>
                         <#assign itemData = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
-                         <#assign items = itemData.queryValue('items') />
+                         <#assign items = itemData.queryValues('items') />
                         <#assign itemsValue = items.queryValue('item') />
 
                         ${itemData.queryValue('objectId')}
