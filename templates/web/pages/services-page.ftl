@@ -12,7 +12,8 @@
     <#assign query = RequestParameters.query?default("") />
     
     <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 3) />
-    
+    <p>${categoryName}</p>
+    <p>${subCategoryName}</p>
     <#macro listFilteredItems(tree)>
         <#if tree.childItems?has_content>
             <#list tree.childItems as item>
@@ -159,15 +160,9 @@
                             <span class="badge border font-weight-normal">400</span>
                         </div>
                         
-                        <#assign itemData = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
-                         <#assign tags = itemData.items.item />
-                        <#list tags as tag>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id=${tag.key} value="0-100" name="tag">
-                            <label class="custom-control-label" for=${tag.key}>${tag.value}</label>
-                            <span class="badge border font-weight-normal">150</span>
-                        </div>
-                        </#list>
+                        
+                        
+                    
                     </form>
                 </div>
                 <!-- Tag End -->
