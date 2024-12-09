@@ -165,9 +165,10 @@
                         </div>
                         <#assign itemData = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
                          <#assign items = itemData.queryValues('items') />
+                         <#assign itemsValue = itemData.queryValues('item') />
 
                         ${itemData.queryValue('objectId')}
-                        ${items}
+                        ${itemsValue}
                     </form>
                 </div>
                 <!-- Tag End -->
