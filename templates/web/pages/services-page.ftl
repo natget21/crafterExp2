@@ -164,7 +164,7 @@
  <#if categoryTree.childItems?has_content>
             <#list categoryTree.childItems as item>
                <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
-         ${itemData}
+         ${itemData.queryValue('name_s')}
                                 </#list>
         <#else>
             <p>No category found in this tree.</p>
