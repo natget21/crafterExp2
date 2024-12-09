@@ -168,7 +168,7 @@
                         <#assign itemsValue = items.queryValue('item') />
 
                         ${itemData.queryValue('objectId')}
-                        ${itemsValue}
+                        ${items}
                     </form>
                 </div>
                 <!-- Tag End -->
