@@ -10,7 +10,7 @@
     <#assign categoryName = RequestParameters.category?default("") />
     <#assign subCategoryName = RequestParameters.subCategory?default("") />
     <#assign query = RequestParameters.query?default("") />
-    
+        <p>${RequestParameters}</p>
     <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 3) />
     <p>${categoryName}</p>
     <p>${subCategoryName}</p>
