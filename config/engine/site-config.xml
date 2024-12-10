@@ -22,13 +22,4 @@
 <site>
     <version>4.0.1</version>
     
-   <!-- CORS Properties -->
- <cors>
-   <enable>true</enable>
-   <accessControlMaxAge>3600</accessControlMaxAge>
-   <accessControlAllowOrigin>*</accessControlAllowOrigin>
-   <accessControlAllowMethods>GET\, POST\, PUT</accessControlAllowMethods>
-   <accessControlAllowHeaders>Content-Type</accessControlAllowHeaders>
-   <accessControlAllowCredentials>true</accessControlAllowCredentials>
- </cors>
 </site>
