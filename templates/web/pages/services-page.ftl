@@ -173,8 +173,8 @@
             <#-- Fetch sub-items if it's a folder -->
             <#assign subData = siteItemService.getSiteTree(categoryURL, 1) />
             <#list subData as subItem>
-                <#if subItem.descriptorDom.component.tags_o??>
-                    <#list subItem.descriptorDom.component.tags_o.item as tag>
+                <#if subItem.tags_o??>
+                    <#list subItem.tags_o.item as tag>
                         <#if !(tagsFromCategory?seq_contains(tag))>
                             <#assign tagsFromCategory = tagsFromCategory + [tag] />
                         </#if>
