@@ -176,7 +176,6 @@
                 <#if subItem.tags_o??>
                     <#list subItem.tags_o.item as tag>
                         <#if !(tagsFromCategory?seq_contains(tag))>
-                                            <div>${tag}</div>
                             <#assign tagsFromCategory = tagsFromCategory + [tag] />
                         </#if>
                     </#list>
@@ -209,11 +208,6 @@
         <#else>
             <#-- If not a folder, check for tags directly -->
             <#if subCatDataMain.tags_o??>
-             <#list subCatDataMain.tags_o as ttt>
-             <p>sjhdfhjsgfhsdfsdf</p>
-                          <div>${subCatDataMain.queryValue('name_s')}</div>
-
-             </#list>
                 <#assign tagsFromCategory = subCatDataMain.tags_o.item />
             </#if>
         </#if>
