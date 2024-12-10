@@ -13,7 +13,7 @@
  <#assign tagsStr = tags?join(",")>
 </#if>
 <script type="text/javascript">
-    console.log("tags:", "${tags?size > 0 ? tags?join(",") : "No tags available"}");
+    console.log("tags:", "${tags?size == 0 ? "" : tags?join(",")}");
 
 </script>
 
