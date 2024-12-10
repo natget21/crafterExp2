@@ -2,6 +2,7 @@
 
 
 <#assign serviceLink = "/detail?service=${contentModel.queryValue('internal-name')?url}" />
+<#assign subcategoryData = siteItemService.getSiteItem(contentModel.subcategory_o.item[0].key)>
 
 
     <div class="product-item bg-light mb-4" data-subcategory-key="${contentModel.subcategory_o.item[0].key}">
