@@ -18,7 +18,7 @@
                                     
                                     <#assign relatedSubcategories = getRelatedSubcategories(category.storeUrl, subCategoriesTree) />
 
-                                            
+                                            <p>h: ${relatedSubcategories}
                                             
                                         <div class="nav-item dropdown dropright">
                                         <a href="/services?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}" class="nav-link dropdown-toggle" data-toggle="dropdown">
