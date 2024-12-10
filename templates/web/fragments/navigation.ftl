@@ -14,11 +14,12 @@
                             <#if categoriesTree?has_content>
                                 <#list categoriesTree.childItems as category>
                                     <#assign categoryItem = siteItemService.getSiteItem(category.storeUrl) />
-                                    <#assign relatedSubcategories = subCategoriesTree.childItems?filter(subcategory -> 
-                                         (siteItemService.getSiteItem(subcategory.storeUrl)?has_content && 
-                                            siteItemService.getSiteItem(subcategory.storeUrl).category_o?has_content && 
-                                            siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0]?has_content && 
-                                            siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0].key == category.storeUrl)) />                                    
+                                    
+                                    
+                                    <#assign relatedSubcategories = getRelatedSubcategories(category.storeUrl, subCategoriesTree) />
+
+                                            
+                                            
                                         <div class="nav-item dropdown dropright">
                                         <a href="/services?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}" class="nav-link dropdown-toggle" data-toggle="dropdown">
                                             ${categoryItem.queryValue('name_s')}
@@ -82,4 +83,26 @@
             </div>
         </div>
     </div>
+    
+    <#function getRelatedSubcategories(categoryStoreUrl, subCategoriesTree)>
+    <#assign results = [] />
+    <#list subCategoriesTree.childItems as subcategory>
+        <#assign subcategoryItem = siteItemService.getSiteItem(subcategory.storeUrl) />
+        <#if subcategoryItem?has_content>
+            <#if subcategoryItem.isFolder()>
+                <#-- If it's a folder, recursively collect its child items -->
+                <#assign childResults = getRelatedSubcategories(categoryStoreUrl, subcategoryItem) />
+                <#assign results = results + childResults />
+            <#else>
+                <#-- If it's not a folder, check the category_o -->
+                <#if subcategoryItem.category_o?has_content && subcategoryItem.category_o.item[0]?has_content>
+                    <#if subcategoryItem.category_o.item[0].key == categoryStoreUrl>
+                        <#assign results = results + [subcategoryItem] />
+                    </#if>
+                </#if>
+            </#if>
+        </#if>
+    </#list>
+    <#return results />
+</#function>
     
