@@ -6,7 +6,7 @@
 <#assign tags = subcategoryData.tag_o?exists && subcategoryData.tag_o.item?default([])>
 
 
-    <div class="product-item bg-light mb-4" data-tags="${tags}>
+    <div class="product-item bg-light mb-4" >
         <div class="product-img position-relative overflow-hidden">
             <#if contentModel.image_s?hasContent>
                 <img class="img-fluid w-100" src="${contentModel.image_s?default("/static-assets/img/default/product-default.png")}" alt="${contentModel.name_s?default("")}">
