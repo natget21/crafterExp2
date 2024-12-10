@@ -10,10 +10,11 @@
     <#assign categoryName = RequestParameters.category?default("") />
     <#assign categoryURL = RequestParameters.categoryURL?default("") />
     <#assign subCategoryName = RequestParameters.subCategory?default("") />
+    <#assign subCategoryURL = RequestParameters.subCategoryURL?default("") />
     <#assign query = RequestParameters.query?default("") />
     <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 3) />
     <p>${categoryURL}</p>
-    <p>${categoryName}</p>
+    <p>${subCategoryURL}</p>
     <#macro listFilteredItems(tree)>
         <#if tree.childItems?has_content>
             <#list tree.childItems as item>
@@ -165,15 +166,9 @@
                          
                          <#if query?has_content>
                         <!-- Query filtering -->
-                        <#if item.queryValue('name_s')?lower_case?contains(query?lower_case)>
-                            <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
-                            <#assign contentModel = itemData />
-                            <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
-                                <#include "/templates/web/items/service-template.ftl" />
-                            </div>
-                        </#if>
-                    <#elseif categoryName?has_content && !subCategoryName?has_content>
+                    <#if categoryURL?has_content && !subCategoryURL?has_content>
                         <!-- Category filtering -->
+                        <#assign catData = siteItemService.getSiteItem(categoryURL) />
                         <#if item.storeUrl?lower_case?contains(categoryName?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                             <#assign contentModel = itemData />
