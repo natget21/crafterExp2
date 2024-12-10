@@ -4,8 +4,8 @@
 <#assign serviceLink = "/detail?service=${contentModel.queryValue('internal-name')?url}" />
 <#assign subcategoryData = siteItemService.getSiteItem(contentModel.subcategory_o.item[0].key)>
 <#assign tags = []>
-<#if subcategoryData.tags_o??>
-    <#assign tags = subcategoryData.tag_o.item>
+  <#if subcategoryData.tags_o??>
+    <#assign tags = subcategoryData.tags_o.item />
 </#if>
     <#if (tags?size = 0)>
     <#assign tagsStr = "">
@@ -13,7 +13,7 @@
  <#assign tagsStr = tags?join(",")>
 </#if>
 <script type="text/javascript">
-        console.log("tagsStr:", "${subcategoryData.tags_o}");
+       console.log("tags:", "${tags?join(",")}");
 
 </script>
 
