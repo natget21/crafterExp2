@@ -168,10 +168,10 @@
 
     <#-- Check if category is selected but subcategory is not -->
     <#if categoryURL?has_content && !subCategoryURL?has_content>
-        <#assign catDataMain = services.siteItemService.getSiteItem(categoryURL) />
+        <#assign catDataMain = siteItemService.getSiteItem(categoryURL) />
         <#if catDataMain.isFolder()>
             <#-- Fetch sub-items if it's a folder -->
-            <#assign subData = services.siteItemService.getSiteTree(categoryURL, 1) />
+            <#assign subData = siteItemService.getSiteTree(categoryURL, 1) />
             <#list subData as subItem>
                 <#if subItem.descriptorDom.component.tags_o??>
                     <#list subItem.descriptorDom.component.tags_o.item as tag>
@@ -190,11 +190,11 @@
     
     <#-- Check if both category and subcategory are selected -->
     <#elseif categoryURL?has_content && subCategoryURL?has_content>
-        <#assign subCatDataMain = services.siteItemService.getSiteItem(subCategoryURL) />
+        <#assign subCatDataMain = siteItemService.getSiteItem(subCategoryURL) />
         <#if subCatDataMain.isFolder()>
 
             <#-- Fetch sub-items if it's a folder -->
-            <#assign subItems = services.siteItemService.getSiteTree(subCategoryURL, 1) />
+            <#assign subItems = siteItemService.getSiteTree(subCategoryURL, 1) />
             <#list subItems as subItem>
                 <#if subItem.descriptorDom.component.tags_o??>
                     <#list subItem.descriptorDom.component.tags_o.item as tag>
