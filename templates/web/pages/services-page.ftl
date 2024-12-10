@@ -205,9 +205,6 @@
                 </#if>
             </#list>
         <#else>
-        <p>${subCatDataMain.queryValue('tags_o')}</p>
-         <p>${subCatDataMain.queryValue('name_s')}</p>
-         <p>${subCatDataMain.tags_o}</p>
             <#-- If not a folder, check for tags directly -->
             <#if subCatDataMain.tags_o??>
                 <#assign tagsFromCategory = subCatDataMain.tags_o.item />
@@ -218,7 +215,7 @@
         <#-- Default to all tags if no category or subcategory is selected -->
         <#assign tagsFromCategory = allTags />
     </#if>
-
+<p>${tagsFromCategory}</p>
 <#-- Step 4: Display the filtered tags -->
 
     <#list tagsFromCategory as tag>
