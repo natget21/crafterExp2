@@ -21,7 +21,7 @@
     console.log("tags:", "${tagsStr}");
 </script>
 
-    <div class="product-item bg-light mb-4" data-tags="${tagsStr}">
+    <div class="product-item bg-light mb-4" data-tags="tag1,tag2,tag3">
         <div class="product-img position-relative overflow-hidden">
             <#if contentModel.image_s?hasContent>
                 <img class="img-fluid w-100" src="${contentModel.image_s?default("/static-assets/img/default/product-default.png")}" alt="${contentModel.name_s?default("")}">
