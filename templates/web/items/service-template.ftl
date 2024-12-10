@@ -36,9 +36,9 @@
                 <a class="btn btn-outline-dark btn-square" href="${serviceLink}"><i class="fa fa-eye"></i></a>
             </div>
         </div>
-        <div class="text-center py-4">
+        <div class="text-center py-4" data-tags="tag1,tag2,tag3">
             <a class="h6 text-decoration-none text-truncate ellipsis" href="${serviceLink}">${contentModel.name_s?default("")}</a>
-            <div class="d-flex align-items-center justify-content-center mt-2" data-tags="tag1,tag2,tag3">
+            <div class="d-flex align-items-center justify-content-center mt-2">
                 <h5>EUR ${contentModel.costo_s?default("0")}</h5><h6 class="text-muted ml-2"></h6>
             </div>
             <div class="d-flex align-items-center justify-content-center mb-1">
