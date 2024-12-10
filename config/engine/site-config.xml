@@ -22,9 +22,4 @@
 <site>
     <version>4.0.1</version>
     
-    <security>
-        <!-- Disable authentication -->
-        <enabled>false</enabled>
-    </security>
-    
 </site>
