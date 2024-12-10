@@ -84,9 +84,22 @@
         </div>
     </div>
     
-    <#function getRelatedSubcategories(categoryStoreUrl, subCategoriesTree)>
-    <#assign results = ["heooookoosdjf"] />
-   
+<#function getRelatedSubcategories(categoryStoreUrl, subCategoriesTree)>
+    <#assign results = [] />
+    <#list subCategoriesTree.childItems as subcategory>
+        <#assign subcategoryItem = siteItemService.getSiteItem(subcategory.storeUrl) />
+        <#if subcategoryItem?has_content>
+            <#if subcategoryItem.isFolder()>
+                <#assign childResults = getRelatedSubcategories(categoryStoreUrl, siteItemService.getSiteTree(subcategory.storeUrl, 1)) />
+                <#assign results = results + childResults />
+            <#else>
+                <#if subcategoryItem.category_o?has_content && subcategoryItem.category_o.item[0]?has_content>
+                    <#if subcategoryItem.category_o.item[0].key == categoryStoreUrl>
+                        <#assign results = results + [subcategoryItem] />
+                    </#if>
+                </#if>
+            </#if>
+        </#if>
+    </#list>
     <#return results />
 </#function>
-    
