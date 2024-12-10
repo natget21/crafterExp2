@@ -161,35 +161,41 @@
                             <span class="badge border font-weight-normal">400</span>
                         </div>
                         
-                         <#assign itemData = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
-                         <#assign allTags = itemData.items.item />
-                         <#assign tagsFromCategory = []>
-                         
-                        <#if query?has_content>
-                         <#if categoryURL?has_content && !subCategoryURL?has_content>
-                          <#assign catDataMain = services.siteItemService.getSiteItem(categoryURL) />
-                          <#if catDataMain.isFolder()>
-                          <#assign subData = services.siteItemService.getSiteTree(categoryURL, 1) />
-                           <#list subData as data>
-                            <#if subItem.descriptorDom.component.tags_o??>
-                             <#list subItem.descriptorDom.component.tags_o.item as tag>
+                      <#-- Step 1: Fetch all tags -->
+<#assign itemData = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
+<#assign allTags = itemData.items.item />
+<#assign tagsFromCategory = [] />
+
+<#-- Step 2: Check if a query exists -->
+<#if query?has_content>
+    <#-- Check if category is selected but subcategory is not -->
+    <#if categoryURL?has_content && !subCategoryURL?has_content>
+        <#assign catDataMain = services.siteItemService.getSiteItem(categoryURL) />
+        <#if catDataMain.isFolder()>
+            <#-- Fetch sub-items if it's a folder -->
+            <#assign subData = services.siteItemService.getSiteTree(categoryURL, 1) />
+            <#list subData as subItem>
+                <#if subItem.descriptorDom.component.tags_o??>
+                    <#list subItem.descriptorDom.component.tags_o.item as tag>
                         <#if !(tagsFromCategory?seq_contains(tag))>
                             <#assign tagsFromCategory = tagsFromCategory + [tag] />
                         </#if>
                     </#list>
-                     </#if>
+                </#if>
             </#list>
         <#else>
-        <#-- If not a folder, check for tags directly -->
+            <#-- If not a folder, check for tags directly -->
             <#if catDataMain.descriptorDom.component.tags_o??>
                 <#assign tagsFromCategory = catDataMain.descriptorDom.component.tags_o.item />
             </#if>
         </#if>
-         <#elseif categoryName?has_content && subCategoryName?has_content>
-          <#assign subCatDataMain = services.siteItemService.getSiteItem(subCategoryURL) />
-          <#if subCatDataMain.isFolder()>
+    
+    <#-- Check if both category and subcategory are selected -->
+    <#elseif categoryURL?has_content && subCategoryURL?has_content>
+        <#assign subCatDataMain = services.siteItemService.getSiteItem(subCategoryURL) />
+        <#if subCatDataMain.isFolder()>
+            <#-- Fetch sub-items if it's a folder -->
             <#assign subItems = services.siteItemService.getSiteTree(subCategoryURL, 1) />
-            <#-- Iterate over sub-items to collect tags -->
             <#list subItems as subItem>
                 <#if subItem.descriptorDom.component.tags_o??>
                     <#list subItem.descriptorDom.component.tags_o.item as tag>
@@ -199,12 +205,22 @@
                     </#list>
                 </#if>
             </#list>
+        <#else>
+            <#-- If not a folder, check for tags directly -->
+            <#if subCatDataMain.descriptorDom.component.tags_o??>
+                <#assign tagsFromCategory = subCatDataMain.descriptorDom.component.tags_o.item />
             </#if>
-                    <#else>
-                        <#assign tagsFromCategory = allTags />
-                    </#if>
- 
+        </#if>
+    
+    <#else>
+        <#-- Default to all tags if no category or subcategory is selected -->
+        <#assign tagsFromCategory = allTags />
+    </#if>
 
+<#else>
+    <#-- Default to all tags if no query is present -->
+    <#assign tagsFromCategory = allTags />
+</#if>
 <#-- Step 4: Display the filtered tags -->
 
     <#list tagsFromCategory as tag>
