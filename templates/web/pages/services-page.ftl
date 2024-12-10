@@ -167,7 +167,7 @@
                          <#if query?has_content>
                           <#assign tagsFromCategory = allTags />
                          </#if>
-                         </#else>
+                         <#else>
                          <#-- No category or subcategory selected -->
                         <#assign tagsFromCategory = allTags />
                         </#if>
