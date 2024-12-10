@@ -15,7 +15,6 @@
     <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 3) />
     <p>${categoryURL}</p>
     <p>${subCategoryURL}</p>
-      <p>${query}</p>
     <#macro listFilteredItems(tree)>
         <#if tree.childItems?has_content>
             <#list tree.childItems as item>
@@ -166,9 +165,7 @@
 <#assign itemData = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
 <#assign allTags = itemData.items.item />
 <#assign tagsFromCategory = [] />
-        <p>${query}</p>
-<#-- Step 2: Check if a query exists -->
-<#if query?has_content>
+
     <#-- Check if category is selected but subcategory is not -->
     <#if categoryURL?has_content && !subCategoryURL?has_content>
         <#assign catDataMain = services.siteItemService.getSiteItem(categoryURL) />
@@ -220,10 +217,6 @@
         <#assign tagsFromCategory = allTags />
     </#if>
 
-<#else>
-    <#-- Default to all tags if no query is present -->
-    <#assign tagsFromCategory = allTags />
-</#if>
 <#-- Step 4: Display the filtered tags -->
 
     <#list tagsFromCategory as tag>
