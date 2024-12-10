@@ -13,7 +13,6 @@
  <#assign tagsStr = tags?join(",")>
 </#if>
 <script type="text/javascript">
-   </#if>
     <#if (tags?size = 0)>
     <#assign tagsStr = "">
 <#else>
