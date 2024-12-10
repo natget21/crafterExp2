@@ -4,7 +4,11 @@
 <#assign serviceLink = "/detail?service=${contentModel.queryValue('internal-name')?url}" />
 <#assign subcategoryData = siteItemService.getSiteItem(contentModel.subcategory_o.item[0].key)>
 <#assign tags = subcategoryData.tag_o?exists && subcategoryData.tag_o.item?default([])>
-<#assign tagsStr = tags?join(",")>
+<#if tags?size > 0>
+    <#assign tagsStr = tags?join(",")>
+<#else>
+    <#assign tagsStr = ""> <!-- Default to an empty string if no tags -->
+</#if>
 
     <div class="product-item bg-light mb-4" data-tags="${tagsStr}">
         <div class="product-img position-relative overflow-hidden">
