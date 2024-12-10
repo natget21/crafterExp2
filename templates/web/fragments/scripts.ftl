@@ -89,7 +89,7 @@
             .filter(value => value !== 'all'); // Exclude 'all'
 
         // If 'all' is selected, display all items
-        if (filterTagForm.length === 0) {
+        if (selectedTags.length === 0) {
             //document.querySelectorAll('.filterResults .product-item').forEach(item => {
             document.querySelectorAll('.filterResults > div').forEach(item => {
                 item.style.display = '';
