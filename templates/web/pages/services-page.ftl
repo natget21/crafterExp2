@@ -194,6 +194,7 @@
     <#elseif categoryURL?has_content && subCategoryURL?has_content>
         <#assign subCatDataMain = services.siteItemService.getSiteItem(subCategoryURL) />
         <#if subCatDataMain.isFolder()>
+        <p>${subCatDataMain}</p>
             <#-- Fetch sub-items if it's a folder -->
             <#assign subItems = services.siteItemService.getSiteTree(subCategoryURL, 1) />
             <#list subItems as subItem>
@@ -206,6 +207,7 @@
                 </#if>
             </#list>
         <#else>
+        <p>${subCatDataMain}</p>
             <#-- If not a folder, check for tags directly -->
             <#if subCatDataMain.descriptorDom.component.tags_o??>
                 <#assign tagsFromCategory = subCatDataMain.descriptorDom.component.tags_o.item />
