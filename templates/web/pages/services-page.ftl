@@ -209,7 +209,7 @@
         <#else>
             <#-- If not a folder, check for tags directly -->
             <#if subCatDataMain.tags_o??>
-             <#list subCatDataMain.tags_o.item as ttt>
+             <#list subCatDataMain.tags_o as ttt>
              <p>sjhdfhjsgfhsdfsdf</p>
                           <div>${ttt}</div>
 
