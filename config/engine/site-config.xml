@@ -21,4 +21,7 @@
 
 <site>
   <version>4.0.1</version>
+  <db>
+      <uri>mongodb+srv://test:test@cluster0.sbzx7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0</uri>
+  </db>  
 </site>
