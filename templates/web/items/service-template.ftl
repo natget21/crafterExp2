@@ -13,7 +13,7 @@
  <#assign tagsStr = tags?join(",")>
 </#if>
 <script type="text/javascript">
-        console.log("tagsStr:", "${subcategoryData.queryValue('name_s')}");
+        console.log("tagsStr:", "${subcategoryData.tags_o}");
 
 </script>
 
