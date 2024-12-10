@@ -97,7 +97,12 @@
             return;
         }
         
+  document.querySelectorAll('.filterResults > div').forEach(item => {
+            const itemTags = JSON.parse(item.getAttribute('data-tags')) || [];
 
+            const hasMatchingTag = selectedTags.every(tag => itemTags.includes(tag));
+            item.style.display = hasMatchingTag ? '' : 'none';
+        });
 
     }
 
