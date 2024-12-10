@@ -167,72 +167,16 @@
                          
                          
                          
-                         <#if query?has_content>
-    <#if categoryURL?has_content>
-        <#-- Step 2: Fetch category data -->
-        <#assign catDataMain = services.siteItemService.getSiteItem(categoryURL) />
-        
-        <#-- Step 3: If category is a folder, get its children -->
-        <#assign tagsFromCategory = []>
-        <#if catDataMain.isFolder()>
-            <#assign subItems = services.siteItemService.getSiteTree(categoryURL, 1) />
-            <#-- Iterate over sub-items to collect tags -->
-            <#list subItems as subItem>
-                <#if subItem.descriptorDom.component.tags_o??>
-                    <#list subItem.descriptorDom.component.tags_o.item as tag>
-                        <#if !(tagsFromCategory?seq_contains(tag))>
-                            <#assign tagsFromCategory = tagsFromCategory + [tag] />
-                        </#if>
-                    </#list>
-                </#if>
-            </#list>
-        <#else>
-            <#-- If not a folder, check for tags directly -->
-            <#if catDataMain.descriptorDom.component.tags_o??>
-                <#assign tagsFromCategory = catDataMain.descriptorDom.component.tags_o.item />
-            </#if>
-        </#if>
-    </#elseif subCategoryURL?has_content>
-        <#-- Step 2: Fetch subcategory data -->
-        <#assign subCatDataMain = services.siteItemService.getSiteItem(subCategoryURL) />
-        
-        <#-- Step 3: If subcategory is a folder, get its children -->
-        <#assign tagsFromCategory = []>
-        <#if subCatDataMain.isFolder()>
-            <#assign subItems = services.siteItemService.getSiteTree(subCategoryURL, 1) />
-            <#-- Iterate over sub-items to collect tags -->
-            <#list subItems as subItem>
-                <#if subItem.descriptorDom.component.tags_o??>
-                    <#list subItem.descriptorDom.component.tags_o.item as tag>
-                        <#if !(tagsFromCategory?seq_contains(tag))>
-                            <#assign tagsFromCategory = tagsFromCategory + [tag] />
-                        </#if>
-                    </#list>
-                </#if>
-            </#list>
-        <#else>
-            <#-- If not a folder, check for tags directly -->
-            <#if subCatDataMain.descriptorDom.component.tags_o??>
-                <#assign tagsFromCategory = subCatDataMain.descriptorDom.component.tags_o.item />
-            </#if>
-        </#if>
-    </#else>
-        <#-- No category or subcategory selected -->
-        <#assign tagsFromCategory = allTags />
-    </#if>
-<#else>
-    <#-- No query parameter -->
-    <#assign tagsFromCategory = allTags />
-</#if>
+ 
 
 <#-- Step 4: Display the filtered tags -->
 
-    <#list tagsFromCategory as tag>
+    <#list allTags as tag>
           <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id=${tag.key} value="0-100" name="tag">
-                            <label class="custom-control-label" for=${tag.key}>${tag.value_smv}</label>
+                            <label class="custom-control-label" for=${tag.key}>${tag.value}</label>
                             <span class="badge border font-weight-normal">150</span>
-                        </div>
+            </div>
     </#list>
                         
                     
