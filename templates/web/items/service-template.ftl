@@ -21,7 +21,7 @@
     console.log("tags:", "${tagsStr}");
 </script>
 
-    <div class="product-item bg-light mb-4">
+    <div class="product-item bg-light mb-4" data-tags="tag1,tag2,tag3">
         <div class="product-img position-relative overflow-hidden">
             <#if contentModel.image_s?hasContent>
                 <img class="img-fluid w-100" src="${contentModel.image_s?default("/static-assets/img/default/product-default.png")}" alt="${contentModel.name_s?default("")}">
@@ -36,7 +36,7 @@
                 <a class="btn btn-outline-dark btn-square" href="${serviceLink}"><i class="fa fa-eye"></i></a>
             </div>
         </div>
-        <div class="text-center py-4" data-tags="tag1,tag2,tag3">
+        <div class="text-center py-4">
             <a class="h6 text-decoration-none text-truncate ellipsis" href="${serviceLink}">${contentModel.name_s?default("")}</a>
             <div class="d-flex align-items-center justify-content-center mt-2">
                 <h5>EUR ${contentModel.costo_s?default("0")}</h5><h6 class="text-muted ml-2"></h6>
