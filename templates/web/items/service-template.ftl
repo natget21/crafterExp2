@@ -9,10 +9,10 @@
 </#if>
 
 <#-- Convert tags array to a string (if tags exist) -->
-<#if tags?size > 0>
+<#if tags?is_sequence && tags?size > 0>
     <#assign tagsStr = tags?join(",")>
 <#else>
-    <#assign tagsStr = "">
+    <#assign tagsStr = "No tags available">
 </#if>
 
     <div class="product-item bg-light mb-4" data-tags="${tagsStr}">
