@@ -97,12 +97,16 @@
             return;
         }
         
-  document.querySelectorAll('.filterResults > div').forEach(item => {
-            const itemTags = JSON.parse(item.getAttribute('data-tags')) || [];
+ document.querySelectorAll('.filterResults > div').forEach(item => {
+        // Get the data-tags attribute and convert it to an array of tags
+        const itemTags = item.getAttribute('data-tags') ? item.getAttribute('data-tags').split(',') : [];
 
-            const hasMatchingTag = selectedTags.every(tag => itemTags.includes(tag));
-            item.style.display = hasMatchingTag ? '' : 'none';
-        });
+        // Check if all selected tags are present in the item's tags
+        const hasMatchingTag = selectedTags.every(tag => itemTags.includes(tag));
+
+        // Show or hide the item based on whether it matches the selected tags
+        item.style.display = hasMatchingTag ? '' : 'none';
+    });
 
     }
 
