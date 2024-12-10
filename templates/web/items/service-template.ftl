@@ -19,7 +19,7 @@
  <#assign tagsStr = tags?join(",")>
 </#if>
     console.log("tags:", "${tagsStr}");
-
+<pre>${tags}</pre>
 </script>
 
     <div class="product-item bg-light mb-4" data-tags="${tagsStr}">
