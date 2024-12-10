@@ -102,7 +102,7 @@
         const itemTags = item.querySelector('h5').getAttribute('data-tags') 
         ? item.querySelector('h5').getAttribute('data-tags').split(',') 
         : [];
-        console.log('data-tags for item:', itemTags);
+        console.log('data-tags for item:', itemTags,item.querySelector('h5').getAttribute('data-tags'));
         // Check if all selected tags are present in the item's tags
         const hasMatchingTag = selectedTags.every(tag => itemTags.includes(tag));
 
