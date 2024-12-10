@@ -165,6 +165,7 @@
                          <#assign allTags = itemData.items.item />
                          <#assign tagsFromCategory = []>
                          <#if query?has_content>
+                          <#assign tagsFromCategory = allTags />
                          </#if>
                          </#else>
                          <#-- No category or subcategory selected -->
