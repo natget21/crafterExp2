@@ -4,7 +4,7 @@
 <#assign serviceLink = "/detail?service=${contentModel.queryValue('internal-name')?url}" />
 <#assign subcategoryData = siteItemService.getSiteItem(contentModel.subcategory_o.item[0].key)>
 <#assign tags = []>
-<#if subcategoryData.tag_o && subcategoryData.tag_o.item>
+<#if subcategoryData.tags_o??>
     <#assign tags = subcategoryData.tag_o.item>
 </#if>
     <#if (tags?size = 0)>
