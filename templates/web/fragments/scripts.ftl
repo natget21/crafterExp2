@@ -97,10 +97,10 @@
             return;
         }
         
- document.querySelectorAll('.filterResults > div').forEach(item => {
+        document.querySelectorAll('.filterResults > div').forEach(item => {
         // Get the data-tags attribute and convert it to an array of tags
         const itemTags = item.getAttribute('data-tags') ? item.getAttribute('data-tags').split(',') : [];
-
+            console.log(str: ${item.getAttribute('data-tags')})
         // Check if all selected tags are present in the item's tags
         const hasMatchingTag = selectedTags.every(tag => itemTags.includes(tag));
 
