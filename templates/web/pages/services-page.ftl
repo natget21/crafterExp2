@@ -206,7 +206,7 @@
             </#list>
         <#else>
             <#-- If not a folder, check for tags directly -->
-            <#if subCatDataMain..tags_o??>
+            <#if subCatDataMain.tags_o??>
                 <#assign tagsFromCategory = subCatDataMain.tags_o.item />
             </#if>
         </#if>
