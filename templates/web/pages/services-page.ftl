@@ -205,6 +205,9 @@
                 </#if>
             </#list>
         <#else>
+        <p>${subCatDataMain.queryValue('tags_o')}</p>
+         <p>${subCatDataMain.queryValue('name_s')}</p>
+         <p>${subCatDataMain.tags_o}</p>
             <#-- If not a folder, check for tags directly -->
             <#if subCatDataMain.tags_o??>
                 <#assign tagsFromCategory = subCatDataMain.tags_o.item />
