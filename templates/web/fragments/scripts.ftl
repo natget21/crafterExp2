@@ -103,7 +103,7 @@
         ? item.querySelector('h5').getAttribute('data-tags').split(',') 
         : [];
         // Check if all selected tags are present in the item's tags
-        const hasMatchingTag = selectedTags.every(tag => itemTags.includes(tag));
+        const hasMatchingTag = selectedTags.some(tag => itemTags.includes(tag));
 
         // Show or hide the item based on whether it matches the selected tags
         item.style.display = hasMatchingTag ? '' : 'none';
