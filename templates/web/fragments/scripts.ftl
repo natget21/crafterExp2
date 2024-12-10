@@ -96,7 +96,10 @@
             });
             return;
         }
-
+        
+        document.querySelectorAll('.filterResults > div').forEach(item => {
+             console.log(item);
+        });
 
     }
 
