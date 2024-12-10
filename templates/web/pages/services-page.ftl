@@ -164,15 +164,12 @@
                          <#assign itemData = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
                          <#assign allTags = itemData.items.item />
                          <#assign tagsFromCategory = []>
-                         <#if query?has_content>
-                          <#assign tagsFromCategory = allTags />
-                         </#if>
-                         <#else>
-                         <#-- No category or subcategory selected -->
+                         
+                        <#if query?has_content>
+                         <#assign tagsFromCategory = allTags />
+                    <#else>
                         <#assign tagsFromCategory = allTags />
-                        </#if>
-                         
-                         
+                    </#if>
  
 
 <#-- Step 4: Display the filtered tags -->
