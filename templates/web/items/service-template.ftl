@@ -8,6 +8,9 @@
     <#assign tags = subcategoryData.tag_o.item>
 </#if>
 
+<#-- Convert tags array to a string (if tags exist) -->
+<#assign tagsStr = tags?size > 0 ? tags?join(",") : "">
+
     <div class="product-item bg-light mb-4" data-tags="${tagsStr}">
         <div class="product-img position-relative overflow-hidden">
             <#if contentModel.image_s?hasContent>
