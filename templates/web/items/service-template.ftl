@@ -13,7 +13,7 @@
  <#assign tagsStr = tags?join(",")>
 </#if>
 <script type="text/javascript">
-    console.log("tagsStr:", "${tagsStr}");
+    console.log("tagsStr:", "${tags}");
 </script>
 
     <div class="product-item bg-light mb-4" data-tags="${tagsStr}">
