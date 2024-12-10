@@ -176,6 +176,7 @@
                 <#if subItem.tags_o??>
                     <#list subItem.tags_o.item as tag>
                         <#if !(tagsFromCategory?seq_contains(tag))>
+                                            <div>${tag}</div>
                             <#assign tagsFromCategory = tagsFromCategory + [tag] />
                         </#if>
                     </#list>
@@ -199,6 +200,7 @@
                 <#if subItem.tags_o??>
                     <#list subItem.tags_o.item as tag>
                         <#if !(tagsFromCategory?seq_contains(tag))>
+                        <div>${tag}</div>
                             <#assign tagsFromCategory = tagsFromCategory + [tag] />
                         </#if>
                     </#list>
