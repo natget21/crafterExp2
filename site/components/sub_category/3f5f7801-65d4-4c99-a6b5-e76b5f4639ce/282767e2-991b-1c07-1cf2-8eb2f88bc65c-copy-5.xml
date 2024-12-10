@@ -17,13 +17,15 @@
 	</item></category_o>
 	<createdDate>2024-11-14T08:55:23.317Z</createdDate>
 	<createdDate_dt>2024-11-14T08:55:23.317Z</createdDate_dt>
-	<lastModifiedDate>2024-12-09T14:27:38.967Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-12-09T14:27:38.967Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-12-10T10:01:13.947Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-10T10:01:13.947Z</lastModifiedDate_dt>
 	<tags_o>	<item>	<key>Energy</key>
 	<value_smv>Energy</value_smv>
-	</item>	<item>	<key>Health</key>
-	<value_smv>Health</value_smv>
 	</item>	<item>	<key>Mobility</key>
 	<value_smv>Mobility</value_smv>
+	</item>	<item>	<key>Health</key>
+	<value_smv>Health</value_smv>
+	</item>	<item>	<key>Hardware</key>
+	<value_smv>Hardware</value_smv>
 	</item></tags_o>
 </component>
