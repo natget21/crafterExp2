@@ -10,7 +10,7 @@
     <#if (tags?size = 0)>
     <#assign tagsStr = "">
 <#else>
- <#assign tagsStr = tags?join(",")>
+ <#assign tagsStr = tags?map(t -> t.key)?join(",")>
 </#if>
 <script type="text/javascript">
     <#if (tags?size = 0)>
