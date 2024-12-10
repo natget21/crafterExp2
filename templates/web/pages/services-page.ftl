@@ -211,7 +211,7 @@
             <#if subCatDataMain.tags_o??>
              <#list subCatDataMain.tags_o as ttt>
              <p>sjhdfhjsgfhsdfsdf</p>
-                          <div>${ttt}</div>
+                          <div>${subCatDataMain.queryValue('name_s')}</div>
 
              </#list>
                 <#assign tagsFromCategory = subCatDataMain.tags_o.item />
