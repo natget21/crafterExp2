@@ -7,11 +7,11 @@
 <#if subcategoryData.tag_o?exists && subcategoryData.tag_o.item?exists>
     <#assign tags = subcategoryData.tag_o.item>
 </#if>
-
-
-    <#assign tagsStr = "No tags available">
-
-
+    <#if (tags?size = 0)>
+    <#assign tagsStr = "">
+<#else>
+ <#assign tagsStr = tags?join(",")>
+</#if>
     <div class="product-item bg-light mb-4" data-tags="${tagsStr}">
         <div class="product-img position-relative overflow-hidden">
             <#if contentModel.image_s?hasContent>
