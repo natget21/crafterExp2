@@ -15,10 +15,12 @@
                                 <#list categoriesTree.childItems as category>
                                     <#assign categoryItem = siteItemService.getSiteItem(category.storeUrl) />
                                     
-                                    
-                                    <#assign relatedSubcategories = getRelatedSubcategories(category.storeUrl, subCategoriesTree) />
+                                    <#assign relatedSubcategories = subCategoriesTree.childItems?filter(subcategory -> 
+                                         (siteItemService.getSiteItem(subcategory.storeUrl)?has_content && 
+                                            siteItemService.getSiteItem(subcategory.storeUrl).category_o?has_content && 
+                                            siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0]?has_content && 
+                                            siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0].key == category.storeUrl)) /> 
 
-                                            <p>h: ${relatedSubcategories}
                                             
                                         <div class="nav-item dropdown dropright">
                                         <a href="/services?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}" class="nav-link dropdown-toggle" data-toggle="dropdown">
@@ -83,23 +85,3 @@
             </div>
         </div>
     </div>
-    
-<#function getRelatedSubcategories(categoryStoreUrl, subCategoriesTree)>
-    <#assign results = [] />
-    <#list subCategoriesTree.childItems as subcategory>
-        <#assign subcategoryItem = siteItemService.getSiteItem(subcategory.storeUrl) />
-        <#if subcategoryItem?has_content>
-            <#if subcategoryItem.isFolder()>
-                <#assign childResults = getRelatedSubcategories(categoryStoreUrl, siteItemService.getSiteTree(subcategory.storeUrl, 1)) />
-                <#assign results = results + childResults />
-            <#else>
-                <#if subcategoryItem.category_o?has_content && subcategoryItem.category_o.item[0]?has_content>
-                    <#if subcategoryItem.category_o.item[0].key == categoryStoreUrl>
-                        <#assign results = results + [subcategoryItem] />
-                    </#if>
-                </#if>
-            </#if>
-        </#if>
-    </#list>
-    <#return results />
-</#function>
