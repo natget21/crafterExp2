@@ -185,7 +185,21 @@
                 <#assign tagsFromCategory = catDataMain.descriptorDom.component.tags_o.item />
             </#if>
         </#if>
-         
+         <#elseif categoryName?has_content && subCategoryName?has_content>
+          <#assign subCatDataMain = services.siteItemService.getSiteItem(subCategoryURL) />
+          <#if subCatDataMain.isFolder()>
+            <#assign subItems = services.siteItemService.getSiteTree(subCategoryURL, 1) />
+            <#-- Iterate over sub-items to collect tags -->
+            <#list subItems as subItem>
+                <#if subItem.descriptorDom.component.tags_o??>
+                    <#list subItem.descriptorDom.component.tags_o.item as tag>
+                        <#if !(tagsFromCategory?seq_contains(tag))>
+                            <#assign tagsFromCategory = tagsFromCategory + [tag] />
+                        </#if>
+                    </#list>
+                </#if>
+            </#list>
+            </#if>
                     <#else>
                         <#assign tagsFromCategory = allTags />
                     </#if>
