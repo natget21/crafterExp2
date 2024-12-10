@@ -13,8 +13,6 @@
     <#assign subCategoryURL = RequestParameters.subCategoryURL?default("") />
     <#assign query = RequestParameters.query?default("") />
     <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 3) />
-    <p>${categoryURL}</p>
-    <p>${subCategoryURL}</p>
     <#macro listFilteredItems(tree)>
         <#if tree.childItems?has_content>
             <#list tree.childItems as item>
