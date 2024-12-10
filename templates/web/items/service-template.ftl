@@ -16,10 +16,9 @@
     <#if (tags?size = 0)>
     <#assign tagsStr = "">
 <#else>
- <#assign tagsStr = tags?join(",")>
+ <#assign tagsStr = tags?map(t -> t.key)?join(",")>
 </#if>
     console.log("tags:", "${tagsStr}");
-<pre>${tags}</pre>
 </script>
 
     <div class="product-item bg-light mb-4" data-tags="${tagsStr}">
