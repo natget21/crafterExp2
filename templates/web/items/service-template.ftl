@@ -12,15 +12,6 @@
 <#else>
  <#assign tagsStr = tags?map(t -> t.key)?join(",")>
 </#if>
-<script type="text/javascript">
-    <#if (tags?size = 0)>
-    <#assign tagsStr = "">
-<#else>
- <#assign tagsStr = tags?map(t -> t.key)?join(",")>
-</#if>
-    console.log("tags:", "${tagsStr}");
-</script>
-
     <div class="product-item bg-light mb-4">
         <div class="product-img position-relative overflow-hidden">
             <#if contentModel.image_s?hasContent>
