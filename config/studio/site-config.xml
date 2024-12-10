@@ -21,8 +21,8 @@
 -->
 <site-config>
     <version>4.2.0.0</version>
-    <wem-project>ecomerce-project3</wem-project>
-    <display-name>ecomerce-project3</display-name>
+    <wem-project>{siteName}</wem-project>
+    <display-name>{siteName}</display-name>
     <!-- Site URLs. Default to http://localhost:8080 if blank -->
     <site-urls>
         <authoring-url/>
