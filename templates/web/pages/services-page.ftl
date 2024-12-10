@@ -217,7 +217,6 @@
         <#-- Default to all tags if no category or subcategory is selected -->
         <#assign tagsFromCategory = allTags />
     </#if>
-<p>${tagsFromCategory}</p>
 <#-- Step 4: Display the filtered tags -->
 
     <#list tagsFromCategory as tag>
