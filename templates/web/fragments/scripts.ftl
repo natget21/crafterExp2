@@ -98,7 +98,7 @@
         }
         
         document.querySelectorAll('.filterResults > div').forEach(item => {
-             console.log(item);
+            const subcategoryKey = item.getAttribute('data-subcategory-key');
         });
 
     }
