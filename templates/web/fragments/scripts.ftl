@@ -99,6 +99,16 @@
         
         document.querySelectorAll('.filterResults > div').forEach(item => {
             const subcategoryKey = item.getAttribute('data-subcategory-key');
+            <#assign subcategoryData= siteItemService.getSiteItem(subcategoryKey ) />
+            const allTags = subcategoryData.tag_o ? subcategoryData.tag_o.item.map(tag => tag.key) : [];
+            const isTagMatch = selectedTags.some(tag => allTags.includes(tag));
+
+                    // Show or hide the item based on whether there's a tag match
+                    if (isTagMatch) {
+                        item.style.display = '';
+                    } else {
+                        item.style.display = 'none';
+                    }
         });
 
     }
