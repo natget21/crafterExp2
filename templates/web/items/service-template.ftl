@@ -13,7 +13,8 @@
  <#assign tagsStr = tags?join(",")>
 </#if>
 <script type="text/javascript">
-    console.log("tagsStr:", "${tags?size}");
+        console.log("tagsStr:", "${subcategoryData.queryValue('name_s')}");
+
 </script>
 
     <div class="product-item bg-light mb-4" data-tags="${tagsStr}">
