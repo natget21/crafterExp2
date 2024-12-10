@@ -15,6 +15,7 @@
     <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 3) />
     <p>${categoryURL}</p>
     <p>${subCategoryURL}</p>
+      <p>${query}</p>
     <#macro listFilteredItems(tree)>
         <#if tree.childItems?has_content>
             <#list tree.childItems as item>
@@ -165,7 +166,7 @@
 <#assign itemData = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
 <#assign allTags = itemData.items.item />
 <#assign tagsFromCategory = [] />
-
+        <p>${query}</p>
 <#-- Step 2: Check if a query exists -->
 <#if query?has_content>
     <#-- Check if category is selected but subcategory is not -->
@@ -194,7 +195,7 @@
     <#elseif categoryURL?has_content && subCategoryURL?has_content>
         <#assign subCatDataMain = services.siteItemService.getSiteItem(subCategoryURL) />
         <#if subCatDataMain.isFolder()>
-        <p>${subCatDataMain}</p>
+
             <#-- Fetch sub-items if it's a folder -->
             <#assign subItems = services.siteItemService.getSiteTree(subCategoryURL, 1) />
             <#list subItems as subItem>
