@@ -12,6 +12,10 @@
 <#else>
  <#assign tagsStr = tags?join(",")>
 </#if>
+<script type="text/javascript">
+    console.log("tagsStr:", "${tagsStr}");
+</script>
+
     <div class="product-item bg-light mb-4" data-tags="${tagsStr}">
         <div class="product-img position-relative overflow-hidden">
             <#if contentModel.image_s?hasContent>
