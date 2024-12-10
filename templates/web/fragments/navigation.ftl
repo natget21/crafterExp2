@@ -85,6 +85,7 @@
     </div>
     
     <#function getRelatedSubcategories(categoryStoreUrl, subCategoriesTree)>
+    <p>hello</p>
     <#assign results = [] />
     <#list subCategoriesTree.childItems as subcategory>
         <#assign subcategoryItem = siteItemService.getSiteItem(subcategory.storeUrl) />
