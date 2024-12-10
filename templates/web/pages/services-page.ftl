@@ -209,6 +209,7 @@
         <#else>
             <#-- If not a folder, check for tags directly -->
             <#if subCatDataMain.tags_o??>
+             <div>${subCatDataMain.tags_o.item}</div>
                 <#assign tagsFromCategory = subCatDataMain.tags_o.item />
             </#if>
         </#if>
