@@ -20,5 +20,52 @@
 -->
 
 <site>
-  <version>4.0.1</version>
+    <version>4.0.1</version>
+    
+    <!-- General properties -->
+    <indexFileName>index.xml</indexFileName>
+    <defaultLocale>en</defaultLocale>
+    
+    <!-- CORS Properties -->
+    <cors>
+        <enable>true</enable>
+        <accessControlMaxAge>3600</accessControlMaxAge>
+        <accessControlAllowOrigin>*</accessControlAllowOrigin>
+        <accessControlAllowMethods>GET\, OPTIONS</accessControlAllowMethods>
+        <accessControlAllowHeaders>Content-Type</accessControlAllowHeaders>
+        <accessControlAllowCredentials>true</accessControlAllowCredentials>
+    </cors>
+    
+    <!-- Profile properties -->
+    <profile>
+        <api>
+            <accessTokenId>${enc:q3l5YNoKH38RldAkg6EAGjxlI7+K7Cl4iEmMJNlemNOjcuhaaQNPLwAB824QcJKCbEeLfsg+QSfHCYNcNP/yMw==}</accessTokenId>
+        </api>
+    </profile>
+    
+    <!-- Security properties -->
+    <security>
+        <login>
+            <formUrl>/signin</formUrl>
+            <defaultSuccessUrl>/home</defaultSuccessUrl>
+            <alwaysUseDefaultSuccessUrl>true</alwaysUseDefaultSuccessUrl>
+            <failureUrl>/signin?error=loginFailure</failureUrl>
+        </login>
+        <logout>
+            <successUrl>/home</successUrl>
+        </logout>
+        <accessDenied>
+            <errorPageUrl>/signin?error=accessDenied</errorPageUrl>
+        </accessDenied>
+        <urlRestrictions>
+            <restriction>
+                <url>/auth/*</url>
+                <expression>hasRole('USER')</expression>
+            </restriction>
+        </urlRestrictions>
+    </security>
+    
+    <db>
+        <uri></uri>
+    </db>  
 </site>
