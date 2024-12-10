@@ -9,7 +9,11 @@
 </#if>
 
 <#-- Convert tags array to a string (if tags exist) -->
-<#assign tagsStr = tags? tags?join(","):"">
+<#if tags?size > 0>
+    <#assign tagsStr = tags?join(",")>
+<#else>
+    <#assign tagsStr = "">
+</#if>
 
     <div class="product-item bg-light mb-4" data-tags="${tagsStr}">
         <div class="product-img position-relative overflow-hidden">
