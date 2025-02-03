@@ -1,5 +1,6 @@
 <header>
-   <div class="container-fluid">
+    <#assign queryParam = request.getParameter("query")!"" />
+    <div class="container-fluid">
         <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
             <div class="col-lg-4">
                 <a href="" class="text-decoration-none">
@@ -18,7 +19,7 @@
                                 </a>
                             </span>
                         </div> -->
-                        <input type="text" id="searchInput" class="form-control" placeholder="Search for services...">
+                        <input type="text" id="searchInput" class="form-control" placeholder="Search for services..." value="${queryParam}">
                         <div class="input-group-append">
                             <span class="input-group-text bg-transparent text-primary">
                                 <a href="javascript:void(0);" onclick="searchServices()">
