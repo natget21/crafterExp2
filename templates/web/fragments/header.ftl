@@ -10,10 +10,18 @@
             <div class="col-lg-4 col-6 text-left">
                 <form action="">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search for services...">
+                        <!-- <input type="text" class="form-control" placeholder="Search for services...">
                         <div class="input-group-append">
                             <span class="input-group-text bg-transparent text-primary">
                                 <a href="/services?query=tbi">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </span>
+                        </div> -->
+                        <input type="text" id="searchInput" class="form-control" placeholder="Search for services...">
+                        <div class="input-group-append">
+                            <span class="input-group-text bg-transparent text-primary">
+                                <a href="javascript:void(0);" onclick="searchServices()">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
