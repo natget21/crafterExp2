@@ -1,3 +1,4 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <header>
     <#assign queryParam = request.getParameter("query")!"" />
     <div class="container-fluid">
