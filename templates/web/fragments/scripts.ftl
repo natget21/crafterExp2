@@ -6,6 +6,13 @@
 <script src="/static-assets/js/main.js"></script>
 
 <script>
+    function searchServices() {
+        var query = document.getElementById("searchInput").value;
+        window.location.href = "/services?query=" + encodeURIComponent(query);
+    }
+</script>
+
+<script>
     // Get all relevant elements
     const allTagCheckbox = document.getElementById('tag-all');
     const tagCheckboxes = document.querySelectorAll('#filterTagForm input[type="checkbox"]:not(#tag-all)');
