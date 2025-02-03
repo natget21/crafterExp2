@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 <header>
-    <#assign queryParam = request.getParameter("query")?default("") />
+    <#assign queryParam = (request.getParameter("query")!?default("")) />
     <div class="container-fluid">
         <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
             <div class="col-lg-4">
