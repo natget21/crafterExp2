@@ -109,17 +109,17 @@
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="price-3" value="1000-3000" name="price">
                             <label class="custom-control-label" for="price-3">€1000 - €3000</label>
-                            <span class="badge border font-weight-normal">100</span>
+                            <!--<span class="badge border font-weight-normal">100</span> -->
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="price-9" value="3000-5000" name="price">
                             <label class="custom-control-label" for="price-9">€3000 - €5000</label>
-                            <span class="badge border font-weight-normal">100</span>
+                            <!--<span class="badge border font-weight-normal">100</span> -->
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
                             <input type="checkbox" class="custom-control-input" id="price-10" value="5000-10000" name="price">
                             <label class="custom-control-label" for="price-10">€5000 - €10000</label>
-                            <span class="badge border font-weight-normal">100</span>
+                            <!--<span class="badge border font-weight-normal">100</span> -->
                         </div>
                     </form>
                 </div>
