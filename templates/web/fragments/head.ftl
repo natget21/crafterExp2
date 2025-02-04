@@ -19,4 +19,5 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="/static-assets/css/style.css" rel="stylesheet">
+    <@crafter.head/>
 </head>
