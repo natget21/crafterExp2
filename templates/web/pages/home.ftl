@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-craftercms-preview="${modePreview?c}">
 <#include "/templates/web/fragments/head.ftl">
 <body>
 <@crafter.body_top/>
