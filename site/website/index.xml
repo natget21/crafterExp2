@@ -6,7 +6,7 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>63ee</objectGroupId>
 	<objectId>63ee48d3-b33a-98ba-cde7-964d67e7c3f9</objectId>
-	<file-name>home.xml</file-name>
+	<file-name>index.xml</file-name>
 	<folder-name/>
 	<internal-name>home</internal-name>
 	<navLabel>home</navLabel>
