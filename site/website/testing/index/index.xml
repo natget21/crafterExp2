@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/test</content-type>
+	<display-template>/templates/web/pages/about-us.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>cd0b</objectGroupId>
+	<objectId>cd0b6a36-c75e-39ca-8038-3b91e3fc6aed</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>index</folder-name>
+	<internal-name>testing</internal-name>
+	<navLabel>test</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-02-04T14:50:44.388Z</createdDate>
+	<createdDate_dt>2025-02-04T14:50:44.388Z</createdDate_dt>
+	<lastModifiedDate>2025-02-04T14:50:44.388Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-02-04T14:50:44.388Z</lastModifiedDate_dt>
+</page>
