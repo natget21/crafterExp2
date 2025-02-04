@@ -4,6 +4,7 @@
 <html lang="en">
 <#include "/templates/web/fragments/head.ftl">
 <body>
+<@crafter.body_top/>
     <!-- Header Section (Logo, Search Bar, etc.) -->
     <#include "/templates/web/fragments/header.ftl">
     
@@ -23,5 +24,6 @@
 
     <!-- Scripts -->
     <#include "/templates/web/fragments/scripts.ftl">
+    <@crafter.body_bottom/>
 </body>
 </html>
