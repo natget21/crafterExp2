@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/pages/home.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>63ee</objectGroupId>
+	<objectId>63ee48d3-b33a-98ba-cde7-964d67e7c3f9</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name/>
+	<internal-name>home</internal-name>
+	<navLabel>home</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<services_o item-list="true"/>
+	<providers_o item-list="true">	<item>	<key>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</key>
+	<value>MADE SCARL</value>
+	<include>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/providers/25712995-d05a-8c57-d298-b15b6448fab5.xml</key>
+	<value>I-LABS INDUSTRY S.C.A R.L.</value>
+	<include>/site/components/providers/25712995-d05a-8c57-d298-b15b6448fab5.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/providers/915ba5c6-ad6b-2bdd-ae92-647c530b5a7d.xml</key>
+	<value>MARCHE INNOVATION HUB SCARL</value>
+	<include>/site/components/providers/915ba5c6-ad6b-2bdd-ae92-647c530b5a7d.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/providers/c455c66d-a59a-f98b-856e-d29ae89f708c.xml</key>
+	<value>UNIVERSITA DEGLI STUDI DI CAMERINO</value>
+	<include>/site/components/providers/c455c66d-a59a-f98b-856e-d29ae89f708c.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></providers_o>
+	<createdDate>2024-12-02T03:28:47.617Z</createdDate>
+	<createdDate_dt>2024-12-02T03:28:47.617Z</createdDate_dt>
+	<lastModifiedDate>2024-12-04T05:24:00.458Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-12-04T05:24:00.458Z</lastModifiedDate_dt>
+</page>
