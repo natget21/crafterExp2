@@ -1,18 +1,12 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!DOCTYPE html>
-<html lang="en" data-craftercms-preview="${modePreview?c}" >
-<head>
-    
-    <#include "/templates/web/fragments/head.ftl">
-    <#include "/templates/web/fragments/header.ftl">
-
-    <@crafter.head />
-</head>
-
-
+<html lang="en" data-craftercms-preview="${modePreview?c}">
+<#include "/templates/web/fragments/head.ftl">
 <body>
 <@crafter.body_top/>
+    <!-- Header Section (Logo, Search Bar, etc.) -->
+    <#include "/templates/web/fragments/header.ftl">
      <!-- Checkout Start -->
      <div class="container-fluid">
         <div class="row px-xl-5">
