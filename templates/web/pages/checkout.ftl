@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-craftercms-preview="${modePreview?c}" >
 <head>
     <meta charset="utf-8">
     <title>MultiShop - Online Shop Website Template</title>
