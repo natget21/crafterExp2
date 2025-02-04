@@ -1,3 +1,4 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <head>
     <meta charset="utf-8">
     <title>${contentModel.title_t}</title>
