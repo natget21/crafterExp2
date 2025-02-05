@@ -123,7 +123,7 @@
         Items that match the paths specified will be grouped together in the dashboard widget
         -->
         <folders>
-            <folder name="Pages" path="/website" read-direct-children="false" attach-root-prefix="true"/>
+            <folder name="Pages" path="/website" read-direct-children="true" attach-root-prefix="true"/>
             <folder name="Components" path="/components" read-direct-children="false" attach-root-prefix="true"/>
             <folder name="Taxonomy" path="/taxonomy" read-direct-children="false" attach-root-prefix="true"/>
             <folder name="Assets" path="/static-assets" read-direct-children="false" attach-root-prefix="false"/>
@@ -137,7 +137,7 @@
             - The UI icon used for the item
             -->
             <pattern-group name="page">
-                <pattern>/site/website/([^&lt;"']+)\.xml</pattern>
+                <pattern>/site/website/([^&lt;]+)\.xml</pattern>
             </pattern-group>
             <pattern-group name="component">
                 <pattern>/site/components/([^&lt;]+)\.xml</pattern>
