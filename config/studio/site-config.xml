@@ -137,7 +137,7 @@
             - The UI icon used for the item
             -->
             <pattern-group name="page">
-                <pattern>/site/website/([^&lt;]+)\.xml</pattern>
+                <pattern>/site/website/([^&lt;"']+)\.xml</pattern>
             </pattern-group>
             <pattern-group name="component">
                 <pattern>/site/components/([^&lt;]+)\.xml</pattern>
