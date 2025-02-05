@@ -76,7 +76,7 @@
             let username = document.getElementById("username").value;
             let password = document.getElementById("password").value;
         
-            let response = await fetch('/api/1/services/authenticate.json', {
+            let response = await fetch('/api/1/site/ideale/services/authenticate.json', {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ username, password })
