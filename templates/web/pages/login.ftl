@@ -14,16 +14,16 @@
     <@crafter.body_top/>
 
     <div class="cont">
-        <Form class="form sign-in" action="/crafter-security-login" method="post">
+        <Form class="form sign-in" id="login-form">
          <input type="hidden" name="redirect" value="/" />
             <h2>Welcome</h2>
             <label>
                 <span>Username</span>
-                <input type="username" name="username" class="form-control" required />
+                <input type="username" name="username" id="username" class="form-control" required />
             </label>
             <label>
                 <span>Password</span>
-                <input type="password" name="password" class="form-control" required />
+                <input type="password" name="password" id="password" class="form-control" required />
             </label>
              <label>
     <input type="checkbox" name="rememberMe" value="true" id="rememberMe">Remember Me</input>
@@ -66,6 +66,31 @@
     <script>
         document.querySelector('.img__btn').addEventListener('click', function () {
             document.querySelector('.cont').classList.toggle('s--signup');
+        });
+    </script>
+    
+    <script>
+        document.getElementById("login-form").addEventListener("submit", async function (event) {
+            event.preventDefault();
+        
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+        
+            let response = await fetch('/api/1/services/authenticate.json', {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ username, password })
+            });
+        
+            let data = await response.json();
+        
+            if (data.authenticated) {
+                // Store user data (you can use localStorage, sessionStorage, or cookies)
+                localStorage.setItem("user", JSON.stringify(data.user));
+                window.location.href = "/index";  // Redirect on success
+            } else {
+                alert("Login failed: " + data.message);
+            }
         });
     </script>
 
