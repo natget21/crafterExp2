@@ -7,11 +7,11 @@ def externalAuthUrl = "https://external-api.com/authenticate"  // Replace with y
 
 def session = request.getSession(true)
     session.setAttribute("authenticated", true)
-    session.setAttribute("user", jsonResponse.user)
+    session.setAttribute("user", {})
 
 return [
     authenticated: true,
-    user: jsonResponse.user
+    user: {}
 ]
 
 
