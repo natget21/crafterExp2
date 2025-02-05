@@ -30,15 +30,12 @@
         <div class="text-center py-4">
             <a class="h6 text-decoration-none text-truncate ellipsis" href="${serviceLink}">${contentModel.name_s?default("")}</a>
             <div class="d-flex align-items-center justify-content-center mt-2">
-                <h5 data-tags="${tagsStr}">EUR ${contentModel.costo_s?default("0")}</h5><h6 class="text-muted ml-2"></h6>
+                <h5 data-tags="${tagsStr}">EUR ${contentModel.costo_s?default("0")} ${contentModel.extra_costo_s}</h5><h6 class="text-muted ml-2"></h6>
             </div>
             <div class="d-flex align-items-center justify-content-center mb-1">
-                <small class="fa fa-star text-primary mr-1"></small>
-                <small class="fa fa-star text-primary mr-1"></small>
-                <small class="fa fa-star text-primary mr-1"></small>
-                <small class="fa fa-star text-primary mr-1"></small>
-                <small class="fa fa-star text-primary mr-1"></small>
-                <small>(99)</small>
+                <small>${contentModel.duranta_s} - ${contentModel.modalita_s} </small>
+                <br></br>
+                <small>${contentModel.maxpartecipanti_s} Max Participant</small>
             </div>
         </div>
     </div>
