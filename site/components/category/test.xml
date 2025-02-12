@@ -12,7 +12,7 @@
     <macro_category_o item-list="true">
         <item>
             <key>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</key>
-            <value>service</value>
+            <value>service2</value>
             <include>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</include>
             <disableFlattening>false</disableFlattening>
         </item>
