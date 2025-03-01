@@ -1,5 +1,5 @@
 <content-type name="/component/projectdevelopment" is-wcm-type="true">
-	<label>item: ProjectDevelopment</label>
+	<label>item: Project Development</label>
 	<form>/component/projectdevelopment</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
