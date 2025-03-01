@@ -1,5 +1,5 @@
 <content-type name="/component/itemaccesstofinance" is-wcm-type="true">
-	<label>item: AccessToFinance</label>
+	<label>item: Access To Finance</label>
 	<form>/component/itemaccesstofinance</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
