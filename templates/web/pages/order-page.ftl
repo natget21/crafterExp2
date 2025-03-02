@@ -11,7 +11,9 @@
      <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
 
-    <iframe src="http://localhost:5000/v1/web/client-order-management" width="100%" height="600" frameborder="0"></iframe>
+    <iframe src="https://www.youtube.com/embed/wXinXQ45jI8" width="100%" height="600" frameborder="0"></iframe>
+
+
 
     <!-- Footer Section -->
     <#include "/templates/web/fragments/footer.ftl">
