@@ -118,8 +118,8 @@
             })
             .catch(error => {
             
-                localStorage.setItem('user', JSON.stringify(data.user));
-                localStorage.setItem('token', data.token);
+                localStorage.setItem('user', "0");
+                localStorage.setItem('token', "0");
                 window.location.href = '/';
             
                 toastMessage.textContent = 'An error occurred. Please try again.';
