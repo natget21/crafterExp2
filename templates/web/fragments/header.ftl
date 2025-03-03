@@ -32,7 +32,8 @@
                 </form>
             </div>
             <div class="col-lg-4 col-6 text-right">
-                <a href="/login" class="btn btn-primary text-uppercase px-4">Login/Register</a>
+                <a href="/login" class="btn btn-primary text-uppercase px-4" id="login-btn">Login/Register</a>
+                <a class="btn btn-primary text-uppercase px-4" id="logout-btn">Logout</a>
             </div>
         </div>
     </div>
