@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 
-<#assign serviceLink = "/detail?service=${contentModel.queryValue('internal-name')?url}" />
+<#assign serviceLink = "/detail?service=${contentModel.queryValue('internal-name')?url}&p=${contentModel.costo_s?default('0')}&n=${contentModel.name_s?default('')}" />
 <#assign subcategoryData = siteItemService.getSiteItem(contentModel.subcategory_o.item[0].key)>
 <#assign tags = []>
   <#if subcategoryData.tags_o??>
@@ -21,9 +21,9 @@
             </#if>
             
             <div class="product-action">
-                <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                <!--<a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                 <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
-                <!--<a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a> -->
+                <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a> -->
                 <a class="btn btn-outline-dark btn-square" href="${serviceLink}"><i class="fa fa-eye"></i></a>
             </div>
         </div>
@@ -42,5 +42,8 @@
             </div>
         </div>
     </div>
+
+
+
 
 
