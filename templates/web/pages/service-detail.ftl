@@ -62,6 +62,18 @@
             let productName = document.getElementById("productName").innerText;
             let productPrice = document.getElementById("productPrice").innerText;
             let productQty = document.getElementById("productQty").value;
+            let clientId = null;
+            
+            let crafterUser = localStorage.getItem("crafterUser");
+
+            if (crafterUser) {
+                let userData = JSON.parse(crafterUser);
+                clientId = userData._id;
+                console.log(clientId);
+            } else {
+                console.log("No crafterUser found in localStorage");
+            }
+            
             
             const toastMessage = document.getElementById('toast-message');
             const toastSuccessMessage = document.getElementById('toast-s-message');
