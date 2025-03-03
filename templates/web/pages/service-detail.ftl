@@ -64,14 +64,13 @@
             let productQty = document.getElementById("productQty").value;
             let clientId = null;
             
-            let crafterUser = localStorage.getItem("crafterUser");
+            let crafterVadinUser = localStorage.getItem("crafterVadinUser");
 
-            if (crafterUser) {
-                let userData = JSON.parse(crafterUser);
+            if (crafterVadinUser) {
+                let userData = JSON.parse(crafterVadinUser);
                 clientId = userData._id;
-                console.log(clientId);
             } else {
-                console.log("No crafterUser found in localStorage");
+                console.log("No crafterVadinUser found in localStorage");
             }
             
             
@@ -85,7 +84,7 @@
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ productCode, productName,productPrice,productQty })
+                body: JSON.stringify({ productCode, productName,productPrice,productQty,clientId })
             })
             .then(response => response.json())
             .then(data => {
@@ -106,3 +105,4 @@
     <@crafter.body_bottom/>
 </body>
 </html>
+
