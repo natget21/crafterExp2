@@ -32,7 +32,7 @@
 
             <div class="col-lg-7 h-auto mb-30">
                 <div class="h-100 bg-light p-30">
-                    <h3>${title}</h3>
+                    <h3 id="productName">${title}</h3>
                     <div class="d-flex mb-3">
                         <div class="text-primary mr-2">
                             <small class="fas fa-star"></small>
@@ -41,9 +41,9 @@
                             <small class="fas fa-star-half-alt"></small>
                             <small class="far fa-star"></small>
                         </div>
-                        <!--<small class="pt-1">(99 Reviews)</small> -->
+                        <small class="pt-1" id="productCode">IH43J94</small>
                     </div>
-                    <h3 class="font-weight-semi-bold mb-4">EUR ${price}</h3>
+                    <h3 class="font-weight-semi-bold mb-4" id="productPrice">EUR ${price}</h3>
                     <p class="mb-4">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit
                         clita ea. Sanc ipsum et, labore clita lorem magna duo dolor no sea
                         Nonumy</p>
