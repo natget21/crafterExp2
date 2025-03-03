@@ -107,7 +107,7 @@
             .then(data => {
                 if (data) {
                     // Save user details in localStorage
-                    localStorage.setItem('user', JSON.stringify(data));
+                    localStorage.setItem('crafterUser', JSON.stringify(data));
                     localStorage.setItem('token', data.access_token);
         
                     // Redirect to homepage after login
