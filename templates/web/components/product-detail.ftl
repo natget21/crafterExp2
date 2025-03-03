@@ -111,8 +111,7 @@
                                 </button>
                             </div>
                         </div>
-                        <button class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i> Add To
-                            Cart</button>
+                        <button class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i> Order Item </button>
                     </div>
                     <!--<div class="d-flex pt-2">
                         <strong class="text-dark mr-2">Share on:</strong>
