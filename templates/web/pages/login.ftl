@@ -83,6 +83,8 @@
         
             let username = document.getElementById("username").value;
             let password = document.getElementById("password").value;
+            const toastMessage = document.getElementById('toast-message');
+            const errorToast = new bootstrap.Toast(document.getElementById('error-toast'));
         
             
             fetch('https://external-auth-service.com/api/login', {
