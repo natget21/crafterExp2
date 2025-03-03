@@ -89,25 +89,26 @@
         document.getElementById("login-form").addEventListener("submit", async function (event) {
             event.preventDefault();
         
-            let username = document.getElementById("username").value;
+            let email = document.getElementById("username").value;
             let password = document.getElementById("password").value;
             const toastMessage = document.getElementById('toast-message');
             const errorToast = new bootstrap.Toast(document.getElementById('error-toast'));
         
             
-            fetch('https://external-auth-service.com/api/login', {
+            fetch('http://localhost:5000/v1/Ideale-client/login', {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'Origin': 'http://localhost'
                 },
-                body: JSON.stringify({ username, password })
+                body: JSON.stringify({ email, password })
             })
             .then(response => response.json())
             .then(data => {
-                if (data.success) {
+                if (data) {
                     // Save user details in localStorage
-                    localStorage.setItem('user', JSON.stringify(data.user));
-                    localStorage.setItem('token', data.token);
+                    localStorage.setItem('user', JSON.stringify(data));
+                    localStorage.setItem('token', data.access_token);
         
                     // Redirect to homepage after login
                     window.location.href = '/';
@@ -117,11 +118,6 @@
                 }
             })
             .catch(error => {
-            
-                localStorage.setItem('user', "0");
-                localStorage.setItem('token', "0");
-                window.location.href = '/';
-            
                 toastMessage.textContent = 'An error occurred. Please try again.';
                 errorToast.show();
             });
