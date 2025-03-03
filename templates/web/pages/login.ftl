@@ -12,7 +12,15 @@
 </head>
 <body>
     <@crafter.body_top/>
-
+    <div class="toast-container position-fixed top-0 end-0 p-3">
+        <div id="error-toast" class="toast bg-danger text-white" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">Error</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body" id="toast-message"></div>
+        </div>
+    </div>
     <div class="cont">
         <Form class="form sign-in" id="login-form">
          <input type="hidden" name="redirect" value="/" />
@@ -76,21 +84,32 @@
             let username = document.getElementById("username").value;
             let password = document.getElementById("password").value;
         
-            let response = await fetch('/api/1/services/controllers/authenticate.json', {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
+            
+            fetch('https://external-auth-service.com/api/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
                 body: JSON.stringify({ username, password })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Save user details in localStorage
+                    localStorage.setItem('user', JSON.stringify(data.user));
+                    localStorage.setItem('token', data.token);
+        
+                    // Redirect to homepage after login
+                    window.location.href = '/';
+                } else {
+                    toastMessage.textContent = data.message;
+                    errorToast.show();
+                }
+            })
+            .catch(error => {
+                toastMessage.textContent = 'An error occurred. Please try again.';
+                errorToast.show();
             });
-        
-            let data = await response.json();
-        
-            if (data.authenticated) {
-                // Store user data (you can use localStorage, sessionStorage, or cookies)
-                localStorage.setItem("user", JSON.stringify(data.user));
-                window.location.href = "/index";  // Redirect on success
-            } else {
-                alert("Login failed: " + data.message);
-            }
         });
     </script>
 
