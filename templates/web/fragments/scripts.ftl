@@ -15,7 +15,7 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    const user = localStorage.getItem('user');
+    const user = localStorage.getItem('crafterVadinUser');
     if (user) {
         document.getElementById('login-btn').style.display = 'none';
         document.getElementById('logout-btn').style.display = 'inline-block';
@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     document.getElementById('logout-btn').addEventListener('click', function () {
-        localStorage.removeItem('user');
-        localStorage.removeItem('token');
+        localStorage.removeItem('crafterVadinUser');
+        localStorage.removeItem('crafterVadinToken');
         window.location.href = '/';
     });
 });
@@ -153,3 +153,4 @@ document.addEventListener('DOMContentLoaded', function () {
     // Initialize tag filters on page load
     filterByTag();
 </script>
+
