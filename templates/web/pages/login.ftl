@@ -117,6 +117,11 @@
                 }
             })
             .catch(error => {
+            
+                localStorage.setItem('user', JSON.stringify(data.user));
+                localStorage.setItem('token', data.token);
+                window.location.href = '/';
+            
                 toastMessage.textContent = 'An error occurred. Please try again.';
                 errorToast.show();
             });
