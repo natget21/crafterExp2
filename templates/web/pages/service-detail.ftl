@@ -58,9 +58,9 @@
         document.getElementById("add-order").addEventListener("click", async function (event) {
             event.preventDefault();
         
-            let productCode = document.getElementById("productCode").value;
-            let productName = document.getElementById("productName").value;
-            let productPrice = document.getElementById("productPrice").value;
+            let productCode = document.getElementById("productCode").innerText;
+            let productName = document.getElementById("productName").innerText;
+            let productPrice = document.getElementById("productPrice").innerText;
             let productQty = document.getElementById("productQty").value;
             
             const toastMessage = document.getElementById('toast-message');
