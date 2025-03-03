@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageorder</content-type>
+	<display-template>/templates/web/pages/order-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c930</objectGroupId>
+	<objectId>c930674e-9ce5-8027-0406-b95c7fbc1724</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>order</folder-name>
+	<internal-name>order</internal-name>
+	<navLabel>order</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-03-02T16:07:00.727Z</createdDate>
+	<createdDate_dt>2025-03-02T16:07:00.727Z</createdDate_dt>
+	<lastModifiedDate>2025-03-02T16:07:00.727Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-03-02T16:07:00.727Z</lastModifiedDate_dt>
+</page>
