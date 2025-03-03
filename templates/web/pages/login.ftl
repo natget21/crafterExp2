@@ -107,8 +107,8 @@
             .then(data => {
                 if (data) {
                     // Save user details in localStorage
-                    localStorage.setItem('crafterUser', JSON.stringify(data));
-                    localStorage.setItem('token', data.access_token);
+                    localStorage.setItem('crafterVadinUser', JSON.stringify(data));
+                    localStorage.setItem('crafterVadinToken', data.access_token);
         
                     // Redirect to homepage after login
                     window.location.href = '/';
@@ -127,12 +127,4 @@
     <@crafter.body_bottom/>
 </body>
 </html>
-
-
-
-
-
-
-
-
 
