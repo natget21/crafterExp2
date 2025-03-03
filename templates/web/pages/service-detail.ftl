@@ -60,6 +60,9 @@
         
             let productCode = document.getElementById("productCode").value;
             let productName = document.getElementById("productName").value;
+            let productPrice = document.getElementById("productPrice").value;
+            let productQty = document.getElementById("productQty").value;
+            
             const toastMessage = document.getElementById('toast-message');
             const toastSuccessMessage = document.getElementById('toast-s-message');
             const errorToast = new bootstrap.Toast(document.getElementById('error-toast'));
@@ -70,7 +73,7 @@
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ productCode, productName })
+                body: JSON.stringify({ productCode, productName,productPrice,productQty })
             })
             .then(response => response.json())
             .then(data => {
