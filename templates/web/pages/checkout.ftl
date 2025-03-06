@@ -1,22 +1,12 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>MultiShop - Online Shop Website Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
-    <#include "/templates/web/fragments/head.ftl">
-    <#include "/templates/web/fragments/header.ftl">
-
-    <@crafter.head />
-</head>
-
-
+<html lang="en" data-craftercms-preview="${modePreview?c}">
+<#include "/templates/web/fragments/head.ftl">
 <body>
 <@crafter.body_top/>
+    <!-- Header Section (Logo, Search Bar, etc.) -->
+    <#include "/templates/web/fragments/header.ftl">
      <!-- Checkout Start -->
      <div class="container-fluid">
         <div class="row px-xl-5">

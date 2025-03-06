@@ -1,20 +1,25 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
+
+<#assign title = RequestParameters.n?default("") />
+<#assign price = RequestParameters.p?default("") />
+
 <div class="container-fluid pb-5">
         <div class="row px-xl-5">
             <div class="col-lg-5 mb-30">
                 <div id="product-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner bg-light">
                         <div class="carousel-item active">
-                            <img class="w-100 h-100" src="static-assets/img/product-1.jpg" alt="Image">
+                            <img class="w-100 h-100" src="/static-assets/img/default/product-default.png" alt="Image">
                         </div>
                         <div class="carousel-item">
-                            <img class="w-100 h-100" src="static-assets/img/product-2.jpg" alt="Image">
+                            <img class="w-100 h-100" src="/static-assets/img/default/product-default.png" alt="Image">
                         </div>
-                        <div class="carousel-item">
+                        <!--<div class="carousel-item">
                             <img class="w-100 h-100" src="static-assets/img/product-3.jpg" alt="Image">
                         </div>
                         <div class="carousel-item">
                             <img class="w-100 h-100" src="static-assets/img/product-4.jpg" alt="Image">
-                        </div>
+                        </div>-->
                     </div>
                     <a class="carousel-control-prev" href="#product-carousel" data-slide="prev">
                         <i class="fa fa-2x fa-angle-left text-dark"></i>
@@ -27,7 +32,7 @@
 
             <div class="col-lg-7 h-auto mb-30">
                 <div class="h-100 bg-light p-30">
-                    <h3>Product Name Goes Here</h3>
+                    <h3 id="productName">${title}</h3>
                     <div class="d-flex mb-3">
                         <div class="text-primary mr-2">
                             <small class="fas fa-star"></small>
@@ -36,13 +41,13 @@
                             <small class="fas fa-star-half-alt"></small>
                             <small class="far fa-star"></small>
                         </div>
-                        <small class="pt-1">(99 Reviews)</small>
+                        <small class="pt-1" id="productCode">IH43J94</small>
                     </div>
-                    <h3 class="font-weight-semi-bold mb-4">$150.00</h3>
+                    <h3 class="font-weight-semi-bold mb-4" id="productPrice">EUR ${price}</h3>
                     <p class="mb-4">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit
                         clita ea. Sanc ipsum et, labore clita lorem magna duo dolor no sea
                         Nonumy</p>
-                    <div class="d-flex mb-3">
+                    <!--<div class="d-flex mb-3">
                         <strong class="text-dark mr-3">Sizes:</strong>
                         <form>
                             <div class="custom-control custom-radio custom-control-inline">
@@ -91,7 +96,7 @@
                                 <label class="custom-control-label" for="color-5">Green</label>
                             </div>
                         </form>
-                    </div>
+                    </div> -->
                     <div class="d-flex align-items-center mb-4 pt-2">
                         <div class="input-group quantity mr-3" style="width: 130px;">
                             <div class="input-group-btn">
@@ -99,17 +104,16 @@
                                     <i class="fa fa-minus"></i>
                                 </button>
                             </div>
-                            <input type="text" class="form-control bg-secondary border-0 text-center" value="1">
+                            <input type="text" class="form-control bg-secondary border-0 text-center" id="productQty" value="1">
                             <div class="input-group-btn">
                                 <button class="btn btn-primary btn-plus">
                                     <i class="fa fa-plus"></i>
                                 </button>
                             </div>
                         </div>
-                        <button class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i> Add To
-                            Cart</button>
+                        <button id="add-order" class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i> Order Item </button>
                     </div>
-                    <div class="d-flex pt-2">
+                    <!--<div class="d-flex pt-2">
                         <strong class="text-dark mr-2">Share on:</strong>
                         <div class="d-inline-flex">
                             <a class="text-dark px-2" href="">
@@ -125,7 +129,7 @@
                                 <i class="fab fa-pinterest"></i>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

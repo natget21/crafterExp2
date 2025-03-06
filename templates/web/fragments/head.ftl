@@ -1,3 +1,4 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <head>
     <meta charset="utf-8">
     <title>${contentModel.title_t}</title>
@@ -12,6 +13,9 @@
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
     <link href="/static-assets/lib/animate/animate.min.css" rel="stylesheet">
@@ -19,4 +23,5 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="/static-assets/css/style.css" rel="stylesheet">
+    <@crafter.head/>
 </head>
