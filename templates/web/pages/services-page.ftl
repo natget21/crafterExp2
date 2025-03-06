@@ -1,9 +1,10 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-craftercms-preview="${modePreview?c}">
 <#include "/templates/web/fragments/head.ftl">
 <body>
+    <@crafter.body_top/>
     <#include "/templates/web/fragments/header.ftl">
     <#include "/templates/web/fragments/navigation.ftl">
     
@@ -70,8 +71,8 @@
         <div class="row px-xl-5">
             <div class="col-12">
                 <nav class="breadcrumb bg-light mb-30">
-                    <a class="breadcrumb-item text-dark" href="#">Home</a>
-                    <a class="breadcrumb-item text-dark" href="#">Services</a>
+                    <a class="breadcrumb-item text-dark" href="/index">Home</a>
+                    <a class="breadcrumb-item text-dark" href="//services">Services</a>
                     <#if categoryName?has_content>
                         <span class="breadcrumb-item active">${categoryName}</span>
                     <#else>
@@ -81,7 +82,9 @@
             </div>
         </div>
     </div>
-    
+    <div class="container-fluid">
+        <#include "/templates/web/components/category-list.ftl"> 
+    </div>
     <div class="container-fluid">
         <div class="row px-xl-5">
             <div class="col-lg-3 col-md-4">
@@ -95,54 +98,29 @@
                             <span class="badge border font-weight-normal">800</span>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-1" value="0-100" name="price">
-                            <label class="custom-control-label" for="price-1">$0 - $100</label>
-                            <span class="badge border font-weight-normal">100</span>
+                            <input type="checkbox" class="custom-control-input" id="price-1" value="0-500" name="price">
+                            <label class="custom-control-label" for="price-1">€0 - €500</label>
+                            <!--<span class="badge border font-weight-normal">100</span> -->
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-2" value="100-100" name="price">
-                            <label class="custom-control-label" for="price-2">$100 - $200</label>
-                            <span class="badge border font-weight-normal">300</span>
+                            <input type="checkbox" class="custom-control-input" id="price-2" value="500-1000" name="price">
+                            <label class="custom-control-label" for="price-2">€500 - €1000</label>
+                            <!--<span class="badge border font-weight-normal">100</span> -->
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-3" value="200-300" name="price">
-                            <label class="custom-control-label" for="price-3">$200 - $300</label>
-                            <span class="badge border font-weight-normal">100</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-4" value="300-400" name="price">
-                            <label class="custom-control-label" for="price-4">$300 - $400</label>
-                            <span class="badge border font-weight-normal">200</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-5" value="400-500" name="price">
-                            <label class="custom-control-label" for="price-5">$400 - $500</label>
-                            <span class="badge border font-weight-normal">100</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-6" value="500-1000" name="price">
-                            <label class="custom-control-label" for="price-6">$500 - $1000</label>
-                            <span class="badge border font-weight-normal">100</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-7" value="1000-2000" name="price">
-                            <label class="custom-control-label" for="price-7">$1000 - $2000</label>
-                            <span class="badge border font-weight-normal">100</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-8" value="2000-3000" name="price">
-                            <label class="custom-control-label" for="price-8">$2000 - $3000</label>
-                            <span class="badge border font-weight-normal">100</span>
+                            <input type="checkbox" class="custom-control-input" id="price-3" value="1000-3000" name="price">
+                            <label class="custom-control-label" for="price-3">€1000 - €3000</label>
+                            <!--<span class="badge border font-weight-normal">100</span> -->
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="price-9" value="3000-5000" name="price">
-                            <label class="custom-control-label" for="price-9">$3000 - $5000</label>
-                            <span class="badge border font-weight-normal">100</span>
+                            <label class="custom-control-label" for="price-9">€3000 - €5000</label>
+                            <!--<span class="badge border font-weight-normal">100</span> -->
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
                             <input type="checkbox" class="custom-control-input" id="price-10" value="5000-10000" name="price">
-                            <label class="custom-control-label" for="price-10">$5000 - $10000</label>
-                            <span class="badge border font-weight-normal">100</span>
+                            <label class="custom-control-label" for="price-10">€5000 - €10000</label>
+                            <!--<span class="badge border font-weight-normal">100</span> -->
                         </div>
                     </form>
                 </div>
@@ -289,5 +267,6 @@
     
     <#include "/templates/web/fragments/footer.ftl">
     <#include "/templates/web/fragments/scripts.ftl">
+    <@crafter.body_bottom/>
 </body>
 </html>

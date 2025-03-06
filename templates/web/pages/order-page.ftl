@@ -11,13 +11,9 @@
      <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
 
-    <!-- Main Content Section -->
-    <main>
-        <#include "/templates/web/components/home-slider.ftl"> 
-        <#include "/templates/web/components/category-list.ftl"> 
-        <#include "/templates/web/components/featured-service.ftl"> 
-        <#include "/templates/web/components/provider-carousel.ftl">    
-    </main>
+    <iframe src="http://localhost:5000/v1/web/client-order-management" width="100%" height="600" frameborder="0"></iframe>
+
+
 
     <!-- Footer Section -->
     <#include "/templates/web/fragments/footer.ftl">
