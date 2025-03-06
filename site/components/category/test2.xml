@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/category</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>3e78</objectGroupId>
+    <file-name>test2.xml</file-name>
+    <folder-name/>
+    <name_s>test</name_s>
+    <durata_s>test</durata_s>
+    <costo_s>test</costo_s>
+    <maxpartecipanti_s>test</maxpartecipanti_s>
+    <objectGroupId>3e78</objectGroupId>
+</component>
