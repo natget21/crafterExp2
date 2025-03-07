@@ -104,7 +104,7 @@
             })
             .then(response => response.json())
             .then(data => {
-                if (data && data.status==200 && data.error != null) {
+                if (data && data.status==200 && data.error == null) {
                     localStorage.setItem('crafterVadinUser', JSON.stringify(data));
                     localStorage.setItem('crafterVadinToken', data.access_token);
         
@@ -124,3 +124,4 @@
     <@crafter.body_bottom/>
 </body>
 </html>
+
