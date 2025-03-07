@@ -33,7 +33,7 @@
             </div>
             <div class="col-lg-4 col-6 text-right">
                 <a href="/login" class="btn btn-primary text-uppercase px-4" id="login-btn">Login/Register</a>
-                <a class="btn btn-primary text-uppercase px-4" id="logout-btn" style="display:none">Logout</a>
+                <a href="javascript:void(0);" class="btn btn-primary text-uppercase px-4" id="logout-btn" style="display:none" onclick="logout()">Logout</a>
             </div>
         </div>
     </div>
