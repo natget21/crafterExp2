@@ -11,7 +11,7 @@
      <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
 
-    <iframe src="http://localhost:5000/v1/web/client-order-management" width="100%" height="600" frameborder="0"></iframe>
+    <iframe src="https://ideale.shortcut.uno/client-order-management" width="100%" height="600" frameborder="0"></iframe>
 
 
 
