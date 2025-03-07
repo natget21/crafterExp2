@@ -94,8 +94,7 @@
             const toastMessage = document.getElementById('toast-message');
             const errorToast = new bootstrap.Toast(document.getElementById('error-toast'));
         
-            
-            fetch('https://ideale.shortcut.uno/Ideale-client/login', {
+            fetch('https://api.shortcut.uno/v1/Ideale-client/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
