@@ -95,7 +95,7 @@
             const errorToast = new bootstrap.Toast(document.getElementById('error-toast'));
         
             
-            fetch('http://localhost:5000/v1/Ideale-client/login', {
+            fetch('https://ideale.shortcut.uno/Ideale-client/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -127,4 +127,3 @@
     <@crafter.body_bottom/>
 </body>
 </html>
-
