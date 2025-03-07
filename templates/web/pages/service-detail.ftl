@@ -79,7 +79,7 @@
             const errorToast = new bootstrap.Toast(document.getElementById('error-toast'));
             const successToast = new bootstrap.Toast(document.getElementById('success-toast'));
             
-            fetch('http://localhost:5000/v1/Ideale-request/request', {
+            fetch('https://api.shortcut.uno/v1/Ideale-request/request', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -105,4 +105,3 @@
     <@crafter.body_bottom/>
 </body>
 </html>
-
