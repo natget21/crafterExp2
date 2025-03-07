@@ -104,12 +104,10 @@
             })
             .then(response => response.json())
             .then(data => {
-                if (data && data.status==200) {
-                    // Save user details in localStorage
+                if (data && data.status==200 && error != "1008") {
                     localStorage.setItem('crafterVadinUser', JSON.stringify(data));
                     localStorage.setItem('crafterVadinToken', data.access_token);
         
-                    // Redirect to homepage after login
                     window.location.href = '/';
                 } else {
                     toastMessage.textContent = data.message;
