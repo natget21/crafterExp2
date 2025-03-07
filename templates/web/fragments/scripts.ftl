@@ -28,11 +28,15 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('add-order').style.display = 'none';
     }
 
-    document.getElementById('logout-btn').addEventListener('click', function (event) {
-        event.preventDefault();
+    function logout(){
         localStorage.removeItem('crafterVadinUser');
         localStorage.removeItem('crafterVadinToken');
         window.location.href = '/';
+    }
+
+    document.getElementById('logout-btn').addEventListener('click', function (event) {
+        event.preventDefault();
+        logout()
     });
 });
 </script>
