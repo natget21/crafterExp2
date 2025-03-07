@@ -104,7 +104,7 @@
             })
             .then(response => response.json())
             .then(data => {
-                if (data) {
+                if (data && data.status==200) {
                     // Save user details in localStorage
                     localStorage.setItem('crafterVadinUser', JSON.stringify(data));
                     localStorage.setItem('crafterVadinToken', data.access_token);
