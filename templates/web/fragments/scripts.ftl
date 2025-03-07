@@ -5,7 +5,6 @@
 <script src="/static-assets/lib/owlcarousel/owl.carousel.min.js"></script>
 <script src="/static-assets/js/main.js"></script>
 
-
 <script>
     function searchServices() {
         var query = document.getElementById("searchInput").value;
@@ -29,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('add-order').style.display = 'none';
     }
 
-    document.getElementById('logout-btn').addEventListener('click', function () {
+    document.getElementById('logout-btn').addEventListener('click', function (event) {
         event.preventDefault();
         localStorage.removeItem('crafterVadinUser');
         localStorage.removeItem('crafterVadinToken');
