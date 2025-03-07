@@ -10,6 +10,12 @@
         var query = document.getElementById("searchInput").value;
         window.location.href = "/services?query=" + encodeURIComponent(query);
     }
+    
+    function logout(){
+        localStorage.removeItem('crafterVadinUser');
+        localStorage.removeItem('crafterVadinToken');
+        window.location.href = '/';
+    }
 </script>
 
 <script>
@@ -26,12 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('logout-btn').style.display = 'none';
         document.getElementById('order-btn').style.display = 'none';
         document.getElementById('add-order').style.display = 'none';
-    }
-
-    function logout(){
-        localStorage.removeItem('crafterVadinUser');
-        localStorage.removeItem('crafterVadinToken');
-        window.location.href = '/';
     }
 
     document.getElementById('logout-btn').addEventListener('click', function (event) {
