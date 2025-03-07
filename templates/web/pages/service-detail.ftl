@@ -73,6 +73,7 @@
                 console.log("No crafterVadinUser found in localStorage");
             }
             
+            clientId="67ae767f5456b36b1e6f3988";
             
             const toastMessage = document.getElementById('toast-message');
             const toastSuccessMessage = document.getElementById('toast-s-message');
