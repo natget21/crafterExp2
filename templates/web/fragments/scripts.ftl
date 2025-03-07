@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     document.getElementById('logout-btn').addEventListener('click', function () {
+        event.preventDefault();
         localStorage.removeItem('crafterVadinUser');
         localStorage.removeItem('crafterVadinToken');
         window.location.href = '/';
