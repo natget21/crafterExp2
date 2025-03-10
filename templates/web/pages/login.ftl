@@ -105,12 +105,13 @@
             })
             .then(response => response.json())
             .then(data => {
-                if (data && data.error == null) {
+                if (data && !data.error) {
                     localStorage.setItem('crafterVadinUser', JSON.stringify(data));
                     localStorage.setItem('crafterVadinToken', data.access_token);
         
                     window.location.href = '/';
                 } else {
+                    console.log(data,"data")
                     toastMessage.textContent = data.message;
                     errorToast.show();
                 }
