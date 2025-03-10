@@ -100,6 +100,7 @@
                     'Content-Type': 'application/json',
                     'Origin': 'http://localhost'
                 },
+                credentials: 'include',
                 body: JSON.stringify({ email, password })
             })
             .then(response => response.json())
@@ -124,3 +125,5 @@
     <@crafter.body_bottom/>
 </body>
 </html>
+
+
