@@ -1,7 +1,8 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 <head>
     <meta charset="utf-8">
-    <title>${contentModel.title_t}</title>
+    <!--<title>${contentModel.title_t}</title> -->
+    <title>Ideale</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <!-- Favicon -->
