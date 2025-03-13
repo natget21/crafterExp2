@@ -390,7 +390,7 @@
 						</property>
 						<property>
 							<name>showkeys</name>
-							<value></value>
+							<value>true</value>
 								<type>boolean</type>
 						</property>
 					</properties>
