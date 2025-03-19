@@ -317,28 +317,46 @@
 					</constraints>
 				</field>
 				<field>
-					<type>node-selector</type>
-					<id>finanziamentopubblicoapplicato_o</id>
+					<type>checkbox</type>
+					<id>agevolazione_b</id>
 					<iceId></iceId>
-					<title>finanziamento pubblico applicato</title>
+					<title>agevolazione</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>minSize</name>
+							<name>readonly</name>
 							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>productID_s</id>
+					<iceId></iceId>
+					<title>product id</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>maxSize</name>
-							<value></value>
+							<name>maxlength</name>
+							<value>50</value>
 							<type>int</type>
-						</property>
-						<property>
-							<name>itemManager</name>
-							<value>options</value>
-							<type>datasource:item</type>
 						</property>
 						<property>
 							<name>readonly</name>
@@ -346,26 +364,74 @@
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>disableFlattening</name>
-							<value></value>
+							<name>tokenize</name>
+							<value>false</value>
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>useSingleValueFilename</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>useMVS</name>
-							<value></value>
+							<name>escapeContent</name>
+							<value>false</value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
-							<name>allowDuplicates</name>
+							<name>required</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>cup_s</id>
+					<iceId></iceId>
+					<title>cup</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
 						</constraint>
 					</constraints>
 				</field>
