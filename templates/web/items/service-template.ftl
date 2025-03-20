@@ -13,7 +13,7 @@
 
 <#assign tags = []>
   <#if subcategoryData.tags_o??>
-    <#assign tags = subcategoryData.tags_o.item />
+    <#assign tags = subcategoryData.tags_o.item?default([]) />
 </#if>
     <#if (tags?size = 0)>
     <#assign tagsStr = "">
