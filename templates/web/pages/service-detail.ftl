@@ -58,10 +58,12 @@
         document.getElementById("add-order").addEventListener("click", async function (event) {
             event.preventDefault();
         
-            let productCode = document.getElementById("productCode").innerText;
+            let productId = document.getElementById("productCode").innerText;
             let productName = document.getElementById("productName").innerText;
             let productPrice = document.getElementById("productPrice").innerText;
             let productQty = document.getElementById("productQty").value;
+            let cud = document.getElementById("cud").innerText;
+            let agevolazione = document.getElementById("agevolazione").innerText;
             let clientId = null;
             
             let crafterVadinUser = localStorage.getItem("crafterVadinUser");
@@ -73,7 +75,7 @@
                 console.log("No crafterVadinUser found in localStorage");
             }
             
-            clientId="67ae767f5456b36b1e6f3988";
+            //clientId="67ae767f5456b36b1e6f3988";
             
             const toastMessage = document.getElementById('toast-message');
             const toastSuccessMessage = document.getElementById('toast-s-message');
@@ -85,7 +87,7 @@
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ productCode, productName,productPrice,productQty,clientId })
+                body: JSON.stringify({ productId, productName,productPrice,productQty,clientId,cud,agevolazione })
             })
             .then(response => response.json())
             .then(data => {
