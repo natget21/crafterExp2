@@ -5,6 +5,9 @@
 <#assign serviceLink = "/detail?service=" + contentModel.queryValue('internal-name')?url +
 "&p=" + contentModel.costo_s?default('0') +
 "&n=" + contentModel.name_s?default('') +
+"&pid=" + contentModel.productid_s?default('') +
+"&cud=" + contentModel.cud_s?default('') +
+"&agev=" + contentModel.agevolazione_b?default('false') +
 "&g=" + subcategoryData.requireGDPRAcceptance_b?default('false') +
 "&pri=" + subcategoryData.requireprivacyacceptance_b?default('false') />
 
