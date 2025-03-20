@@ -124,7 +124,8 @@
                                         <label for="termsCheckbox" class="form-check-label">I accept the Terms and Conditions</label>
                                     </div>
                                 </#if>
-                            <br></br>
+                                </div>
+                                <div class="d-flex align-items-center mb-4 pt-2">
                                 <#if gdpr>
                                     <div class="form-check">
                                         <input type="checkbox" id="gdprCheckbox" class="form-check-input">
