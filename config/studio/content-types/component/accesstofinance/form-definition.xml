@@ -389,9 +389,9 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>cup_s</id>
+					<id>cud_s</id>
 					<iceId></iceId>
-					<title>cup</title>
+					<title>cud</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
