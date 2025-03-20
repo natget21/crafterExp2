@@ -63,7 +63,7 @@
             let productPrice = document.getElementById("productPrice").innerText;
             let productQty = document.getElementById("productQty").value;
             let cud = document.getElementById("cud").innerText;
-            let agevolazione = document.getElementById("agevolazione").innerText;
+            let agevolazione = (document.getElementById("agevolazione").innerText)=="true";
             let clientId = null;
             
             let crafterVadinUser = localStorage.getItem("crafterVadinUser");
