@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageprivacy</content-type>
+	<display-template>/templates/web/pages/privacy.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>961e</objectGroupId>
+	<objectId>961ef387-ed44-4808-0d01-ecea54bf9035</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>privacy</folder-name>
+	<internal-name>privacy</internal-name>
+	<navLabel>privacy</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-03-20T04:24:22.493Z</createdDate>
+	<createdDate_dt>2025-03-20T04:24:22.493Z</createdDate_dt>
+	<lastModifiedDate>2025-03-20T04:24:22.493Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-03-20T04:24:22.493Z</lastModifiedDate_dt>
+</page>
