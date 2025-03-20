@@ -1,8 +1,9 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-
-<#assign serviceLink = "/detail?service=${contentModel.queryValue('internal-name')?url}&p=${contentModel.costo_s?default('0')}&n=${contentModel.name_s?default('')}" />
 <#assign subcategoryData = siteItemService.getSiteItem(contentModel.subcategory_o.item[0].key)>
+
+<#assign serviceLink = "/detail?service=${contentModel.queryValue('internal-name')?url}&p=${contentModel.costo_s?default('0')}&n=${contentModel.name_s?default('')}&g=${subcategoryData.requireGDPRAcceptance_b?default('false')&p=${subcategoryData.requireprivacyacceptance_b?default('false')}" />
+
 <#assign tags = []>
   <#if subcategoryData.tags_o??>
     <#assign tags = subcategoryData.tags_o.item />
@@ -42,8 +43,4 @@
             </div>
         </div>
     </div>
-
-
-
-
 
