@@ -4,7 +4,7 @@
 <#assign price = RequestParameters.p?default("") />
 <#assign gdpr = (RequestParameters.g?default("false") == "true") />
 <#assign privacy = (RequestParameters.pri?default("false") == "true") />
-<#assign productId = RequestParameters.productId?default("") />
+<#assign productId = RequestParameters.pid?default("") />
 <#assign cud = RequestParameters.cud?default("") />
 <#assign agevolazione = RequestParameters.agev?default("") />
 
