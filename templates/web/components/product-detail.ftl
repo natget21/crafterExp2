@@ -5,6 +5,8 @@
 <#assign gdpr = (RequestParameters.g?default("false") == "true") />
 <#assign privacy = (RequestParameters.pri?default("false") == "true") />
 <#assign productId = RequestParameters.productId?default("") />
+<#assign cud = RequestParameters.cud?default("") />
+<#assign agevolazione = RequestParameters.agev?default("") />
 
 <div class="container-fluid pb-5">
         <div class="row px-xl-5">
@@ -45,6 +47,8 @@
                             <small class="far fa-star"></small>
                         </div>
                         <small class="pt-1" id="productCode">${productId}</small>
+                        <small class="pt-1" style="visibility: hidden" id="cud">${cud}</small>
+                        <small class="pt-1"  style="visibility: hidden" id="agevolazione">${agevolazione}</small>
                     </div>
                     <h3 class="font-weight-semi-bold mb-4" id="productPrice">EUR ${price}</h3>
                     <p class="mb-4">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit
