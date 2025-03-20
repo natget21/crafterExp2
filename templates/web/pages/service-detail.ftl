@@ -9,7 +9,7 @@
     <#include "/templates/web/fragments/navigation.ftl">
     
     <#assign servicename = RequestParameters.service?default("") />
-    <#assign contentData = siteItemService.getSiteItem(servicename) />
+    <#assign contentData = siteItemService.getSiteItem('/site/components/services/'+servicename) />
     <#assign contentJson = contentData?json />
 
      <div class="container-fluid">
