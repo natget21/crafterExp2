@@ -42,6 +42,25 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const termsCheckbox = document.getElementById("termsCheckbox");
+        const gdprCheckbox = document.getElementById("gdprCheckbox");
+        const orderButton = document.getElementById("add-order");
+
+        function updateButtonState() {
+            const termsChecked = termsCheckbox ? termsCheckbox.checked : true;
+            const gdprChecked = gdprCheckbox ? gdprCheckbox.checked : true;
+            orderButton.disabled = !(termsChecked && gdprChecked);
+        }
+
+        if (termsCheckbox) termsCheckbox.addEventListener("change", updateButtonState);
+        if (gdprCheckbox) gdprCheckbox.addEventListener("change", updateButtonState);
+
+        updateButtonState(); // Initial check
+    });
+</script>
+
+<script>
     // Get all relevant elements
     const allTagCheckbox = document.getElementById('tag-all');
     const tagCheckboxes = document.querySelectorAll('#filterTagForm input[type="checkbox"]:not(#tag-all)');
