@@ -117,6 +117,7 @@
                                     <i class="fa fa-plus"></i>
                                 </button>
                             </div>
+                        </div>
                             
                             
                                 <#if privacy>
