@@ -2,8 +2,9 @@
 
 <#assign title = RequestParameters.n?default("") />
 <#assign price = RequestParameters.p?default("") />
-<#assign gdpr = RequestParameters.g?default('false') />
-<#assign privacy = RequestParameters.pri?default("false") />
+<#assign gdpr = (RequestParameters.g?default("false") == "true") />
+<#assign privacy = (RequestParameters.pri?default("false") == "true") />
+<#assign productId = RequestParameters.productId?default("") />
 
 <div class="container-fluid pb-5">
         <div class="row px-xl-5">
@@ -43,7 +44,7 @@
                             <small class="fas fa-star-half-alt"></small>
                             <small class="far fa-star"></small>
                         </div>
-                        <small class="pt-1" id="productCode">IH43J94</small>
+                        <small class="pt-1" id="productCode">${productId}</small>
                     </div>
                     <h3 class="font-weight-semi-bold mb-4" id="productPrice">EUR ${price}</h3>
                     <p class="mb-4">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit
