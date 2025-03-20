@@ -9,8 +9,7 @@
     <#include "/templates/web/fragments/navigation.ftl">
     
     <#assign servicename = RequestParameters.service?default("") />
-    <#assign contentData = siteItemService.getSiteItem('/site/components/services/'+servicename) />
-    <#assign contentJson = contentData?json />
+
 
      <div class="container-fluid">
         <div class="row px-xl-5">
@@ -67,7 +66,7 @@
             let productQty = document.getElementById("productQty").value;
             let cud = document.getElementById("cud").innerText;
             let agevolazione = (document.getElementById("agevolazione").innerText)=="true";
-            let productData = ${contentJson?no_esc}; 
+
             let clientId = null;
             
             let crafterVadinUser = localStorage.getItem("crafterVadinUser");
@@ -91,7 +90,7 @@
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ productId, productName,productPrice,productQty,clientId,cud,agevolazione,productData })
+                body: JSON.stringify({ productId, productName,productPrice,productQty,clientId,cud,agevolazione })
             })
             .then(response => response.json())
             .then(data => {
