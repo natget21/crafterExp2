@@ -341,9 +341,9 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>productID_s</id>
+					<id>cud_s</id>
 					<iceId></iceId>
-					<title>product id</title>
+					<title>cud</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -389,9 +389,9 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>cud_s</id>
+					<id>productid_s</id>
 					<iceId></iceId>
-					<title>cud</title>
+					<title>product id</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
