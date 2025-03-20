@@ -3,6 +3,7 @@
 <#assign subcategoryData = siteItemService.getSiteItem(contentModel.subcategory_o.item[0].key)>
 
 <#assign serviceLink = "/detail?service=" + contentModel.queryValue('internal-name')?url +
+"&contentId=" + contentModel.key +
 "&p=" + contentModel.costo_s?default('0') +
 "&n=" + contentModel.name_s?default('') +
 "&pid=" + contentModel.productid_s?default('') +
