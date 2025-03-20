@@ -105,7 +105,7 @@
 					<type>input</type>
 					<id>name_s</id>
 					<iceId></iceId>
-					<title>name</title>
+					<title>Nome TBI</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -153,7 +153,7 @@
 					<type>node-selector</type>
 					<id>subcategory_o</id>
 					<iceId></iceId>
-					<title>Sub category</title>
+					<title>Tipologia TBI</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -206,7 +206,7 @@
 					<type>node-selector</type>
 					<id>partners_o</id>
 					<iceId></iceId>
-					<title>partners</title>
+					<title>Partners</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -259,7 +259,7 @@
 					<type>textarea</type>
 					<id>description_t</id>
 					<iceId></iceId>
-					<title>description</title>
+					<title>Descrizione</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -302,7 +302,7 @@
 					<type>input</type>
 					<id>duration_s</id>
 					<iceId></iceId>
-					<title>duration</title>
+					<title>Durata</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -350,7 +350,7 @@
 					<type>image-picker</type>
 					<id>image_s</id>
 					<iceId></iceId>
-					<title>image</title>
+					<title>Immagine</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -398,7 +398,7 @@
 					<type>input</type>
 					<id>productid_s</id>
 					<iceId></iceId>
-					<title>product id</title>
+					<title>Codice prdotto</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -446,7 +446,7 @@
 					<type>checkbox</type>
 					<id>agevolazione_b</id>
 					<iceId></iceId>
-					<title>agevolazione</title>
+					<title>Agevolato</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -469,7 +469,7 @@
 					<type>input</type>
 					<id>cud_s</id>
 					<iceId></iceId>
-					<title>cud</title>
+					<title>CUD</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -517,7 +517,7 @@
 					<type>input</type>
 					<id>costo_s</id>
 					<iceId></iceId>
-					<title>costo</title>
+					<title>Costo</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
