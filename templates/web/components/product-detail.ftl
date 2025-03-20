@@ -113,17 +113,22 @@
                                 </button>
                             </div> -->
                             
-                            <div class="form-check mr-3">
-                                <input type="checkbox" id="termsCheckbox" class="form-check-input">
-                                <label for="termsCheckbox" class="form-check-label">I accept the Terms and Conditions</label>
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" id="gdprCheckbox" class="form-check-input">
-                                <label for="gdprCheckbox" class="form-check-label">
-                                    I accept the 
-                                    <a href="https://your-privacy-policy-link.com" target="_blank">GDPR Privacy Policy</a>
-                                </label>
-                            </div>
+                                <#if privacy>
+                                    <div class="form-check mb-2">
+                                        <input type="checkbox" id="termsCheckbox" class="form-check-input">
+                                        <label for="termsCheckbox" class="form-check-label">I accept the Terms and Conditions</label>
+                                    </div>
+                                </#if>
+                            
+                                <#if gdpr>
+                                    <div class="form-check">
+                                        <input type="checkbox" id="gdprCheckbox" class="form-check-input">
+                                        <label for="gdprCheckbox" class="form-check-label">
+                                            I accept the 
+                                            <a href="https://your-privacy-policy-link.com" target="_blank">GDPR Privacy Policy</a>
+                                        </label>
+                                    </div>
+                                </#if>
                             
                         </div>
                         
