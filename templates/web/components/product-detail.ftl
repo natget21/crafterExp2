@@ -2,6 +2,8 @@
 
 <#assign title = RequestParameters.n?default("") />
 <#assign price = RequestParameters.p?default("") />
+<#assign gdpr = RequestParameters.g?default('false') />
+<#assign privacy = RequestParameters.pr?default("false") />
 
 <div class="container-fluid pb-5">
         <div class="row px-xl-5">
