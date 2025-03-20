@@ -105,7 +105,7 @@
                         </form>
                     </div> -->
                     <div class="d-flex align-items-center mb-4 pt-2">
-                        <!-- <div class="input-group quantity mr-3" style="width: 130px;">
+                        <div class="input-group quantity mr-3" style="width: 130px;">
                             <div class="input-group-btn">
                                 <button class="btn btn-primary btn-minus">
                                     <i class="fa fa-minus"></i>
@@ -116,7 +116,8 @@
                                 <button class="btn btn-primary btn-plus">
                                     <i class="fa fa-plus"></i>
                                 </button>
-                            </div> -->
+                            </div>
+                            
                             
                                 <#if privacy>
                                     <div class="form-check mb-2">
