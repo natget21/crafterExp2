@@ -7,9 +7,9 @@
 "&n=" + contentModel.name_s?default('') +
 "&pid=" + contentModel.productid_s?default('') +
 "&cud=" + contentModel.cud_s?default('') +
-"&agev=" + contentModel.agevolazione_b?string("true", "false") +
-"&g=" + subcategoryData.requireGDPRAcceptance_b?string("true", "false") +
-"&pri=" + subcategoryData.requireprivacyacceptance_b?string("true", "false") />
+"&agev=" + contentModel.agevolazione_b?default(false)?string("true", "false") +
+"&g=" + subcategoryData.requireGDPRAcceptance_b?default(false)?string("true", "false") +
+"&pri=" + subcategoryData.requireprivacyacceptance_b?default(false)?string("true", "false") />
 
 <#assign tags = []>
   <#if subcategoryData.tags_o??>
