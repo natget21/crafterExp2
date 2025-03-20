@@ -121,7 +121,7 @@
                                 <#if privacy>
                                     <div class="form-check mb-2">
                                         <input type="checkbox" id="termsCheckbox" class="form-check-input">
-                                        <label for="termsCheckbox" class="form-check-label">I accept the Terms and Conditions</label>
+                                        <label for="termsCheckbox" class="form-check-label">I accept the <a href="/privacy#tac" target="_blank">Terms and Conditions</a></label>
                                     </div>
                                 </#if>
                                 </div>
@@ -131,7 +131,7 @@
                                         <input type="checkbox" id="gdprCheckbox" class="form-check-input">
                                         <label for="gdprCheckbox" class="form-check-label">
                                             I accept the 
-                                            <a href="https://your-privacy-policy-link.com" target="_blank">GDPR Privacy Policy</a>
+                                            <a href="/privacy#gdpr" target="_blank">GDPR Privacy Policy</a>
                                         </label>
                                     </div>
                                 </#if>
