@@ -3,7 +3,7 @@
 <#assign title = RequestParameters.n?default("") />
 <#assign price = RequestParameters.p?default("") />
 <#assign gdpr = RequestParameters.g?default('false') />
-<#assign privacy = RequestParameters.pr?default("false") />
+<#assign privacy = RequestParameters.pri?default("false") />
 
 <div class="container-fluid pb-5">
         <div class="row px-xl-5">
@@ -100,7 +100,7 @@
                         </form>
                     </div> -->
                     <div class="d-flex align-items-center mb-4 pt-2">
-                        <div class="input-group quantity mr-3" style="width: 130px;">
+                        <!-- <div class="input-group quantity mr-3" style="width: 130px;">
                             <div class="input-group-btn">
                                 <button class="btn btn-primary btn-minus">
                                     <i class="fa fa-minus"></i>
@@ -111,9 +111,23 @@
                                 <button class="btn btn-primary btn-plus">
                                     <i class="fa fa-plus"></i>
                                 </button>
+                            </div> -->
+                            
+                            <div class="form-check mr-3">
+                                <input type="checkbox" id="termsCheckbox" class="form-check-input">
+                                <label for="termsCheckbox" class="form-check-label">I accept the Terms and Conditions</label>
                             </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="gdprCheckbox" class="form-check-input">
+                                <label for="gdprCheckbox" class="form-check-label">
+                                    I accept the 
+                                    <a href="https://your-privacy-policy-link.com" target="_blank">GDPR Privacy Policy</a>
+                                </label>
+                            </div>
+                            
                         </div>
-                        <button id="add-order" class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i> Order Item </button>
+                        
+                        <button id="add-order" class="btn btn-primary px-3" disabled><i class="fa fa-shopping-cart mr-1"></i> Order Item </button>
                     </div>
                     <!--<div class="d-flex pt-2">
                         <strong class="text-dark mr-2">Share on:</strong>
