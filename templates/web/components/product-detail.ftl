@@ -118,7 +118,8 @@
                                 </button>
                             </div>
                         </div>
-                            
+                        </div>
+                            <div class="d-flex align-items-center mb-4 pt-2">
                             
                                 <#if privacy>
                                     <div class="form-check mb-2">
