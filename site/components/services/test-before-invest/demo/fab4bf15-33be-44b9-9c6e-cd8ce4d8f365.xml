@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/tbi</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>fab4</objectGroupId>
+    <objectId>fab4bf15-33be-44b9-9c6e-cd8ce4d8f365</objectId>
+    <file-name>fab4bf15-33be-44b9-9c6e-cd8ce4d8f365.xml</file-name>
+    <folder-name/>
+    <name_s>test</name_s>
+    <agevolazione_b>true</agevolazione_b>
+    <description_t>test</description_t>
+    <partners_o>/site/components/providers/aba8c836-44bf-9941-6a9d-4b5f0b133b00.xml</partners_o>
+    <costo_s>test</costo_s>
+    <productid_s>PRO_5d4a1df3</productid_s>
+    <subcategory_o>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</subcategory_o>
+    <duration_s>test</duration_s>
+    <cud_s>tet</cud_s>
+    <createdDate>2025-03-23T06:46:28.765Z</createdDate>
+    <createdDate_dt>2025-03-23T06:46:28.765Z</createdDate_dt>
+    <lastModifiedDate>2025-03-23T06:46:28.765Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-03-23T06:46:28.765Z</lastModifiedDate_dt>
+</component>
