@@ -8,15 +8,9 @@
     <!-- Header Section (Logo, Search Bar, etc.) -->
     <#include "/templates/web/fragments/header.ftl">
     
-     <!-- Navigation Section --> 
-    <#include "/templates/web/fragments/navigation.ftl">
 
-    <iframe src="https://ideale.shortcut.uno/client-order-management" width="100%" height="600" frameborder="0"></iframe>
+    <iframe src="" width="100%" height="600" frameborder="0"></iframe>
 
-
-
-    <!-- Footer Section -->
-    <#include "/templates/web/fragments/footer.ftl">
 
     <!-- Scripts -->
     <#include "/templates/web/fragments/scripts.ftl">
