@@ -49,10 +49,8 @@
     <div>
         <#assign servicename = RequestParameters.service?default("") />
         <p>servicename : ${servicename}</p>
-        <#assign internalName = siteItemService.getSiteItem(servicename) />
-        <@cms.getContent id=internalName var="detailContent">
-            <p>${detailContent?json_string}</p>
-        </@cms.getContent>
+        <#assign data = siteItemService.getSiteItem(servicename) />
+       <p>data : ${data}</p>
     </div>
     
     <#include "/templates/web/fragments/footer.ftl">
