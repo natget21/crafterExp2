@@ -5,7 +5,7 @@
 <#assign gdpr = (RequestParameters.g?default("false") == "true") />
 <#assign privacy = (RequestParameters.pri?default("false") == "true") />
 <#assign productId = RequestParameters.pid?default("") />
-<#assign cud = RequestParameters.cud?default("") />
+<#assign cup = RequestParameters.cup?default("") />
 <#assign agevolazione = RequestParameters.agev?default("") />
 <#assign itemUrl = RequestParameters.item?default("") />
 <#assign partnerId = RequestParameters.partnerId?default("") />
@@ -44,7 +44,7 @@
                     <div class="d-flex mb-3">
                         
                         <small class="pt-1" id="productCode">${productId}</small>
-                        <small class="pt-1" style="visibility: hidden" id="cup">${cud}</small>
+                        <small class="pt-1" style="visibility: hidden" id="cup">${cup}</small>
                         <small class="pt-1" style="visibility: hidden" id="agevolazione">${agevolazione}</small>
                         <small class="pt-1" style="visibility: hidden" id="itemUrl">${itemUrl}</small>
                         <small class="pt-1" style="visibility: hidden" id="partnerId">${partnerId}</small>
