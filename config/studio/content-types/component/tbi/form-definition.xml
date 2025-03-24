@@ -467,9 +467,9 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>cud_s</id>
+					<id>costo_s</id>
 					<iceId></iceId>
-					<title>CUD</title>
+					<title>Costo</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -515,9 +515,9 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>costo_s</id>
+					<id>cup_s</id>
 					<iceId></iceId>
-					<title>Costo</title>
+					<title>Cup</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
