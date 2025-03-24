@@ -69,6 +69,14 @@
             let productQty = document.getElementById("productQty").value;
             let cud = document.getElementById("cud").innerText;
             let agevolazione = (document.getElementById("agevolazione").innerText)=="true";
+            let productData = {
+                "productCode":productCode,
+                "productName":productName,
+                "productPrice":productPrice,
+                "productQty":productQty,
+                "cud":cud,
+                "agevolazione":agevolazione
+            }
 
             let clientId = null;
             
