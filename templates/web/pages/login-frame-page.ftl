@@ -37,11 +37,11 @@
     
             button.addEventListener("click", function () {
                 if (isRegister) {
-                    iframe.src = "https://ideale.shortcut.uno/provider-login"; // Change to register URL
-                    button.textContent = "Login"; // Change button text
+                    iframe.src = "https://ideale.shortcut.uno/provider-login"; 
+                    button.textContent = "Register";
                 } else {
-                    iframe.src = "https://ideale.shortcut.uno/provider-register"; // Change to login URL
-                    button.textContent = "Register"; // Change button text
+                    iframe.src = "https://ideale.shortcut.uno/provider-register"; 
+                    button.textContent = "Login";
                 }
                 isRegister = !isRegister;
             });
