@@ -19,7 +19,7 @@
                     
                 </div>
                 <div class="col-lg-4 col-6 text-right">
-                    <a href="/home" class="btn btn-primary text-uppercase px-4" id="home-btn">home</a>
+                    <a href="/" class="btn btn-primary text-uppercase px-4" id="home-btn">home</a>
                 </div>
             </div>
         </div>
