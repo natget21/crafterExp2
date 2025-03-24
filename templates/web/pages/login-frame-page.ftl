@@ -27,7 +27,7 @@
     </header>
     
 
-    <iframe id="partnerFrame" src="https://ideale.shortcut.uno/provider-login" width="100%" height="650px" frameborder="0"></iframe>
+    <iframe id="partnerFrame" src="https://ideale.shortcut.uno/provider-login" width="100%" height="700px" frameborder="0"></iframe>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
