@@ -60,7 +60,7 @@
         document.getElementById("add-order").addEventListener("click", async function (event) {
             event.preventDefault();
         
-            let productId = document.getElementById("productCode").innerText;
+            let productCode = document.getElementById("productCode").innerText;
             let productName = document.getElementById("productName").innerText;
             let productPrice = document.getElementById("productPrice").innerText;
             let productQty = document.getElementById("productQty").value;
@@ -90,7 +90,7 @@
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ productId, productName,productPrice,productQty,clientId,cud,agevolazione })
+                body: JSON.stringify({ productCode, productName,productPrice,productQty,clientId,cud,agevolazione })
             })
             .then(response => response.json())
             .then(data => {
