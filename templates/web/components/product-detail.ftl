@@ -41,13 +41,7 @@
                 <div class="h-100 bg-light p-30">
                     <h3 id="productName">${title}</h3>
                     <div class="d-flex mb-3">
-                        <div class="text-primary mr-2">
-                            <small class="fas fa-star"></small>
-                            <small class="fas fa-star"></small>
-                            <small class="fas fa-star"></small>
-                            <small class="fas fa-star-half-alt"></small>
-                            <small class="far fa-star"></small>
-                        </div>
+                        
                         <small class="pt-1" id="productCode">${productId}</small>
                         <small class="pt-1" style="visibility: hidden" id="cud">${cud}</small>
                         <small class="pt-1" style="visibility: hidden" id="agevolazione">${agevolazione}</small>
