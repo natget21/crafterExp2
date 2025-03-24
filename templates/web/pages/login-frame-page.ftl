@@ -19,18 +19,35 @@
                     
                 </div>
                 <div class="col-lg-4 col-6 text-right">
-                    <a href="javascript();" class="btn btn-primary text-uppercase px-4" id="home-btn">Register</a>
+                    <a href="javascript:void(0);" class="btn btn-primary text-uppercase px-4" id="toggle-btn">Register</a>
                 </div>
             </div>
         </div>
     </header>
     
 
-    <iframe src="https://ideale.shortcut.uno/provider-login" width="100%" height="100%" frameborder="0"></iframe>
+    <iframe id="partnerFrame" src="https://ideale.shortcut.uno/provider-login" width="100%" height="90vh" frameborder="0"></iframe>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const button = document.getElementById("toggle-btn");
+            const iframe = document.getElementById("partnerFrame");
+    
+            let isRegister = true;
+    
+            button.addEventListener("click", function () {
+                if (isRegister) {
+                    iframe.src = "https://ideale.shortcut.uno/provider-register"; // Change to register URL
+                    button.textContent = "Login"; // Change button text
+                } else {
+                    iframe.src = "https://ideale.shortcut.uno/provider-login"; // Change to login URL
+                    button.textContent = "Register"; // Change button text
+                }
+                isRegister = !isRegister;
+            });
+        });
+    </script>
 
-    <!-- Scripts -->
-    <#include "/templates/web/fragments/scripts.ftl">
     <@crafter.body_bottom/>
 </body>
 </html>
