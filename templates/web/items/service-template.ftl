@@ -9,7 +9,8 @@
 "&cud=" + contentModel.cud_s?default('') +
 "&agev=" + contentModel.agevolazione_b?default(false)?string("true", "false") +
 "&g=" + subcategoryData.requireGDPRAcceptance_b?default(false)?string("true", "false") +
-"&pri=" + subcategoryData.requireprivacyacceptance_b?default(false)?string("true", "false") />
+"&pri=" + subcategoryData.requireprivacyacceptance_b?default(false)?string("true", "false")+
+"&storeUrl"+contentModel.storeUrl?default('')/>
 
 <#assign tags = []>
   <#if subcategoryData.tags_o??>
@@ -41,7 +42,7 @@
                 <h5 data-tags="${tagsStr}">EUR ${contentModel.costo_s?default("0")}</h5><h6 class="text-muted ml-2"></h6>
             </div>
             <div class="d-flex align-items-center justify-content-center mb-1">
-            ${contentModel}
+            ${contentModel.storeUrl}
                 <small class="fa fa-star text-primary mr-1"></small>
                 <small class="fa fa-star text-primary mr-1"></small>
                 <small class="fa fa-star text-primary mr-1"></small>
