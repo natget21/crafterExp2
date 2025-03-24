@@ -10,7 +10,7 @@
 "&agev=" + contentModel.agevolazione_b?default(false)?string("true", "false") +
 "&g=" + subcategoryData.requireGDPRAcceptance_b?default(false)?string("true", "false") +
 "&pri=" + subcategoryData.requireprivacyacceptance_b?default(false)?string("true", "false")+
-"&storeUrl"+contentModel.storeUrl?default('')/>
+"&item"+contentModel.storeUrl?default('')/>
 
 <#assign tags = []>
   <#if subcategoryData.tags_o??>
@@ -51,4 +51,3 @@
             </div>
         </div>
     </div>
-
