@@ -63,7 +63,7 @@
             let cup = document.getElementById("cup").innerText;
             let agevolazione = (document.getElementById("agevolazione").innerText)=="true";
             let itemUrl = document.getElementById("itemUrl").innerText;
-            let partnerId = document.getElementById("partnerId").innerText;
+            let partnerId = "67dd8279c70ba0680bdc849d";//document.getElementById("partnerId").innerText;
             
             
             
@@ -86,7 +86,8 @@
             const errorToast = new bootstrap.Toast(document.getElementById('error-toast'));
             const successToast = new bootstrap.Toast(document.getElementById('success-toast'));
             
-            fetch('https://api.shortcut.uno/v1/Ideale-request/request', {
+            //https://api.shortcut.uno
+            fetch('http://localhost:5000/v1/Ideale-request/request', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
