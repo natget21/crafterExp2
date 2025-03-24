@@ -60,16 +60,13 @@
             let productName = document.getElementById("productName").innerText;
             let productPrice = document.getElementById("productPrice").innerText;
             let productQty = document.getElementById("productQty").value;
-            let cud = document.getElementById("cud").innerText;
+            let cup = document.getElementById("cup").innerText;
             let agevolazione = (document.getElementById("agevolazione").innerText)=="true";
-            let productData = {
-                "productCode":productCode,
-                "productName":productName,
-                "productPrice":productPrice,
-                "productQty":productQty,
-                "cud":cud,
-                "agevolazione":agevolazione
-            }
+            let itemUrl = document.getElementById("itemUrl").innerText;
+            let providerId = document.getElementById("providerId").innerText;
+            
+            
+            
 
             let clientId = null;
             
@@ -94,7 +91,7 @@
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ productCode, productName,productPrice,productQty,clientId,cud,agevolazione,productData })
+                body: JSON.stringify({ productCode, productName,productPrice,productQty,clientId,cup,agevolazione,itemUrl,providerId })
             })
             .then(response => response.json())
             .then(data => {
