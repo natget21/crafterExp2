@@ -9,7 +9,7 @@
     <#include "/templates/web/fragments/navigation.ftl">
     
     <#assign servicename = RequestParameters.service?default("") />
-
+    <#assign internalName = siteItemService.getSiteItem(servicename) />
 
      <div class="container-fluid">
         <div class="row px-xl-5">
@@ -66,6 +66,11 @@
             let productQty = document.getElementById("productQty").value;
             let cud = document.getElementById("cud").innerText;
             let agevolazione = (document.getElementById("agevolazione").innerText)=="true";
+            
+            <@cms.getContent id=internalName var="detailContent">
+                var productData = ${detailContent?json_string};
+                console.log("Content Data: ", productData);
+            </@cms.getContent>
 
             let clientId = null;
             
@@ -90,7 +95,7 @@
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ productCode, productName,productPrice,productQty,clientId,cud,agevolazione })
+                body: JSON.stringify({ productCode, productName,productPrice,productQty,clientId,cud,agevolazione,productData })
             })
             .then(response => response.json())
             .then(data => {
