@@ -19,14 +19,14 @@
                     
                 </div>
                 <div class="col-lg-4 col-6 text-right">
-                    <a href="/" class="btn btn-primary text-uppercase px-4" id="home-btn">home</a>
+                    <a href="javascript();" class="btn btn-primary text-uppercase px-4" id="home-btn">Register</a>
                 </div>
             </div>
         </div>
     </header>
     
 
-    <iframe src="https://ideale.shortcut.uno/provider-login" width="100%" height="600" frameborder="0"></iframe>
+    <iframe src="https://ideale.shortcut.uno/provider-login" width="100%" height="100%" frameborder="0"></iframe>
 
 
     <!-- Scripts -->
