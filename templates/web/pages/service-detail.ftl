@@ -49,7 +49,7 @@
     <div>
         <#assign servicename = RequestParameters.service?default("") />
         <p>servicename : ${servicename}</p>
-        <#assign data = siteItemService.getSiteItem(servicename) />
+        <#assign data = siteItemService.getSiteItem("AI PER DIAGNOSI E PREDIZIONE") />
        <p>data : ${data}</p>
     </div>
     
