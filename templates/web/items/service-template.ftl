@@ -41,6 +41,7 @@
                 <h5 data-tags="${tagsStr}">EUR ${contentModel.costo_s?default("0")}</h5><h6 class="text-muted ml-2"></h6>
             </div>
             <div class="d-flex align-items-center justify-content-center mb-1">
+            ${contentModel}
                 <small class="fa fa-star text-primary mr-1"></small>
                 <small class="fa fa-star text-primary mr-1"></small>
                 <small class="fa fa-star text-primary mr-1"></small>
