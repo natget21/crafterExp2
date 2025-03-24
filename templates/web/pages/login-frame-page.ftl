@@ -19,6 +19,7 @@
                     
                 </div>
                 <div class="col-lg-4 col-6 text-right">
+                    <a href="/home" class=" text-uppercase px-4" id="toggle-btn">Home</a>
                     <a href="javascript:void(0);" class="btn btn-primary text-uppercase px-4" id="toggle-btn">Register</a>
                 </div>
             </div>
