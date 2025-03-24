@@ -63,7 +63,7 @@
             let cup = document.getElementById("cup").innerText;
             let agevolazione = (document.getElementById("agevolazione").innerText)=="true";
             let itemUrl = document.getElementById("itemUrl").innerText;
-            let providerId = document.getElementById("providerId").innerText;
+            let partnerId = document.getElementById("partnerId").innerText;
             
             
             
@@ -91,7 +91,7 @@
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ productCode, productName,productPrice,productQty,clientId,cup,agevolazione,itemUrl,providerId })
+                body: JSON.stringify({ productCode, productName,productPrice,productQty,clientId,cup,agevolazione,itemUrl,partnerId })
             })
             .then(response => response.json())
             .then(data => {
