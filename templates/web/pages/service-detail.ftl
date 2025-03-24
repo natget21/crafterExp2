@@ -7,9 +7,6 @@
     <@crafter.body_top/>
     <#include "/templates/web/fragments/header.ftl">
     <#include "/templates/web/fragments/navigation.ftl">
-    
-    <#assign servicename = RequestParameters.service?default("") />
-    <#assign internalName = siteItemService.getSiteItem(servicename) />
 
      <div class="container-fluid">
         <div class="row px-xl-5">
@@ -49,6 +46,14 @@
     <#include "/templates/web/components/product-detail.ftl"> 
     <!-- <#include "/templates/web/components/product-carousel.ftl"> -->
    
+    <div>
+        <#assign servicename = RequestParameters.service?default("") />
+        <p>servicename : ${servicename}</p>
+        <#assign internalName = siteItemService.getSiteItem(servicename) />
+        <@cms.getContent id=internalName var="detailContent">
+            <p>${detailContent?json_string}</p>
+        </@cms.getContent>
+    </div>
     
     <#include "/templates/web/fragments/footer.ftl">
     <#include "/templates/web/fragments/scripts.ftl">
@@ -66,11 +71,6 @@
             let productQty = document.getElementById("productQty").value;
             let cud = document.getElementById("cud").innerText;
             let agevolazione = (document.getElementById("agevolazione").innerText)=="true";
-            
-            <@cms.getContent id=internalName var="detailContent">
-                var productData = ${detailContent?json_string};
-                console.log("Content Data: ", productData);
-            </@cms.getContent>
 
             let clientId = null;
             
