@@ -47,7 +47,7 @@
     <!-- <#include "/templates/web/components/product-carousel.ftl"> -->
    
     <div>
-        <#assign storeUrl = RequestParameters.storeUrl?default("") />
+        <#assign storeUrl = RequestParameters.storeUrl />
         <p>storeUrl : ${storeUrl}</p>
         <#assign data = siteItemService.getSiteItem(storeUrl) />
        <p>data : ${data}</p>
