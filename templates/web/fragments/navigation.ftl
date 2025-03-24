@@ -60,7 +60,8 @@
                         <div class="navbar-nav mr-auto py-0">
                             <a href="/index" class="nav-item nav-link active">Home</a>
                             <a href="/services" class="nav-item nav-link">Explore</a>
-                            <a href="https://www.google.com" class="nav-item nav-link">About</a>
+                            <a href="" class="nav-item nav-link">About</a>
+                            <a href="/partner-login" class="nav-item nav-link">Partner</a>
                             <!--<div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
