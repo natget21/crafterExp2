@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageloginframe</content-type>
+	<display-template>/templates/web/pages/login-frame-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>89ea</objectGroupId>
+	<objectId>89ea70be-c8cb-c410-7865-bda38cc329ca</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>partner-login</folder-name>
+	<internal-name>partner-login</internal-name>
+	<navLabel>partner-login</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-03-24T07:53:06.984Z</createdDate>
+	<createdDate_dt>2025-03-24T07:53:06.984Z</createdDate_dt>
+	<lastModifiedDate>2025-03-24T07:53:06.984Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-03-24T07:53:06.984Z</lastModifiedDate_dt>
+</page>
