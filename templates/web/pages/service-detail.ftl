@@ -45,13 +45,6 @@
    
     <#include "/templates/web/components/product-detail.ftl"> 
     <!-- <#include "/templates/web/components/product-carousel.ftl"> -->
-   
-    <div>
-        <#assign storeUrl = RequestParameters.storeUrl />
-        <p>storeUrl : ${storeUrl}</p>
-        <#assign data = siteItemService.getSiteItem(storeUrl) />
-       <p>data : ${data}</p>
-    </div>
     
     <#include "/templates/web/fragments/footer.ftl">
     <#include "/templates/web/fragments/scripts.ftl">
