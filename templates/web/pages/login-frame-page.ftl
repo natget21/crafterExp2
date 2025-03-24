@@ -19,7 +19,7 @@
                     
                 </div>
                 <div class="col-lg-4 col-6 text-right">
-                    <a href="/home" class=" text-uppercase px-4" id="toggle-btn">Home</a>
+                    <a href="/" class=" text-uppercase px-4" id="toggle-btn">Home</a>
                     <a href="javascript:void(0);" class="btn btn-primary text-uppercase px-4" id="toggle-btn">Register</a>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                     iframe.src = "https://ideale.shortcut.uno/provider-login"; 
                     button.textContent = "Register";
                 } else {
-                    iframe.src = "https://ideale.shortcut.uno/provider-register"; 
+                    iframe.src = "https://ideale.shortcut.uno/signup-partner"; 
                     button.textContent = "Login";
                 }
                 isRegister = !isRegister;
