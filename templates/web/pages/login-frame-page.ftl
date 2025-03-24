@@ -26,21 +26,21 @@
     </header>
     
 
-    <iframe id="partnerFrame" src="https://ideale.shortcut.uno/provider-login" width="100%" height="900px" frameborder="0"></iframe>
+    <iframe id="partnerFrame" src="https://ideale.shortcut.uno/provider-login" width="100%" height="800px" frameborder="0"></iframe>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const button = document.getElementById("toggle-btn");
             const iframe = document.getElementById("partnerFrame");
     
-            let isRegister = true;
+            let isRegister = false;
     
             button.addEventListener("click", function () {
                 if (isRegister) {
-                    iframe.src = "https://ideale.shortcut.uno/provider-register"; // Change to register URL
+                    iframe.src = "https://ideale.shortcut.uno/provider-login"; // Change to register URL
                     button.textContent = "Login"; // Change button text
                 } else {
-                    iframe.src = "https://ideale.shortcut.uno/provider-login"; // Change to login URL
+                    iframe.src = "https://ideale.shortcut.uno/provider-register"; // Change to login URL
                     button.textContent = "Register"; // Change button text
                 }
                 isRegister = !isRegister;
