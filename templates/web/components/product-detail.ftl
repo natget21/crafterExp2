@@ -9,7 +9,7 @@
 <#assign agevolazione = RequestParameters.agev?default("") />
 <#assign item = RequestParameters.item?default("") />
 
-<#assign itemDataObj = siteItemService.getSiteItem(item) />
+<#assign itemDataObj = siteItemService.getSiteItem(item).getProperties() />
 
 <div class="container-fluid pb-5">
         <div class="row px-xl-5">
