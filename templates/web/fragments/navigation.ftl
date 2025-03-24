@@ -61,7 +61,6 @@
                             <a href="/index" class="nav-item nav-link active">Home</a>
                             <a href="/services" class="nav-item nav-link">Explore</a>
                             <a href="" class="nav-item nav-link">About</a>
-                            <a href="/partner-login" class="nav-item nav-link">Partner</a>
                             <!--<div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
@@ -70,6 +69,7 @@
                                 </div>
                             </div> -->
                             <a href="/contact" class="nav-item nav-link">Contact</a>
+                            <a href="/partner-login" class="nav-item nav-link">Partner</a>
                         </div>
                         <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
                             <!-- <a href="" class="btn px-0">
