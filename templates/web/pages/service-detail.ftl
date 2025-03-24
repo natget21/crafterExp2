@@ -47,9 +47,9 @@
     <!-- <#include "/templates/web/components/product-carousel.ftl"> -->
    
     <div>
-        <#assign servicename = RequestParameters.service?default("") />
-        <p>servicename : ${servicename}</p>
-        <#assign data = siteItemService.getSiteItem("AI PER DIAGNOSI E PREDIZIONE") />
+        <#assign storeUrl = RequestParameters.storeUrl?default("") />
+        <p>storeUrl : ${storeUrl}</p>
+        <#assign data = siteItemService.getSiteItem(storeUrl) />
        <p>data : ${data}</p>
     </div>
     
