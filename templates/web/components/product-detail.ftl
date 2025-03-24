@@ -7,7 +7,8 @@
 <#assign productId = RequestParameters.pid?default("") />
 <#assign cud = RequestParameters.cud?default("") />
 <#assign agevolazione = RequestParameters.agev?default("") />
-<#assign item = RequestParameters.item?default("") />
+<#assign itemUrl = RequestParameters.item?default("") />
+<#assign partnerId = RequestParameters.partnerId?default("") />
 
 
 <div class="container-fluid pb-5">
@@ -43,9 +44,10 @@
                     <div class="d-flex mb-3">
                         
                         <small class="pt-1" id="productCode">${productId}</small>
-                        <small class="pt-1" style="visibility: hidden" id="cud">${cud}</small>
+                        <small class="pt-1" style="visibility: hidden" id="cup">${cud}</small>
                         <small class="pt-1" style="visibility: hidden" id="agevolazione">${agevolazione}</small>
-                        <small class="pt-1" style="visibility: hidden" id="itemUrl">${item}</small>
+                        <small class="pt-1" style="visibility: hidden" id="itemUrl">${itemUrl}</small>
+                        <small class="pt-1" style="visibility: hidden" id="partnerId">${partnerId}</small>
                     </div>
                     <h3 class="font-weight-semi-bold mb-4" id="productPrice">EUR ${price}</h3>
                     <p class="mb-4">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit
