@@ -32,7 +32,7 @@
     
 
     <!-- Footer Section -->
-    <#include "/templates/web/fragments/footer.ftl">
+    <#include "/templates/web/fragments/footer-no-padding.ftl">
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
