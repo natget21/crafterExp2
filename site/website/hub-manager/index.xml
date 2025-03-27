@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pagehubmanagerlogin</content-type>
+	<display-template>/templates/web/pages/login-hm-frame-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e7fb</objectGroupId>
+	<objectId>e7fbd014-ec13-dbfb-6444-233f0418ee3d</objectId>
+	<internal-name>hub-manager</internal-name>
+	<navLabel>hub-manager</navLabel>
+	<file-name>index.xml</file-name>
+	<folder-name>hub-manager</folder-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-03-27T11:16:40.425Z</createdDate>
+	<createdDate_dt>2025-03-27T11:16:40.425Z</createdDate_dt>
+	<lastModifiedDate>2025-03-27T11:16:40.425Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-03-27T11:16:40.425Z</lastModifiedDate_dt>
+</page>
