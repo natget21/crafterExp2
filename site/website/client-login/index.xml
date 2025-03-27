@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageclientlogin</content-type>
+	<display-template>/templates/web/pages/client-login-frame-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a09f</objectGroupId>
+	<objectId>a09fff69-a64f-6001-96be-ddd84a96fcf1</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>client-login</folder-name>
+	<internal-name>client-login</internal-name>
+	<navLabel>client-login</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-03-27T07:27:12.305Z</createdDate>
+	<createdDate_dt>2025-03-27T07:27:12.305Z</createdDate_dt>
+	<lastModifiedDate>2025-03-27T07:27:12.305Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-03-27T07:27:12.305Z</lastModifiedDate_dt>
+</page>
