@@ -636,7 +636,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value></value>
+							<value>/site/taxonomy/tbi_names.xml</value>
 								<type>string</type>
 						</property>
 					</properties>
