@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f7f6</objectGroupId>
+	<objectId>f7f661b2-0583-5934-4383-1f4d8d3a3c05</objectId>
+	<items item-list="true">	<item>	<key>Material</key>
+	<value>Material</value>
+	</item>	<item>	<key>Cyber Security</key>
+	<value>Cyber Security</value>
+	</item></items>
+	<internal-name>tbi_names</internal-name>
+	<file-name>tbi_names.xml</file-name>
+	<folder-name/>
+	<createdDate>2025-03-27T06:53:32.421Z</createdDate>
+	<createdDate_dt>2025-03-27T06:53:32.421Z</createdDate_dt>
+	<lastModifiedDate>2025-03-27T06:53:32.421Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-03-27T06:53:32.421Z</lastModifiedDate_dt>
+</component>
