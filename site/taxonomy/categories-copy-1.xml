@@ -1,37 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  ~ Copyright (C) 2007-2022 Crafter Software Corporation. All Rights Reserved.
-  ~
-  ~ This program is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License version 3 as published by
-  ~ the Free Software Foundation.
-  ~
-  ~ This program is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
-  --><component>
-	<content-type>/taxonomy</content-type>	<display-template/>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>cc0aba84</objectGroupId>
 	<objectId>cc0aba84-45dc-4936-824a-70ff8032ad1d</objectId>
-	<items>	<item>	<key>style</key>
-	<value>Style</value>
-	</item>	<item>	<key>health</key>
-	<value>Health</value>
-	</item>	<item>	<key>entertainment</key>
-	<value>Entertainment</value>
-	</item>	<item>	<key>technology</key>
-	<value>Technology</value>
+	<items item-list="true">	<item>	<key>Material Strength</key>
+	<value>Material Strength</value>
+	</item>	<item>	<key>Cyber Security</key>
+	<value>Cyber Security</value>
 	</item></items>
 	<file-name>categories-copy-1.xml</file-name>
-	<folder-name>taxonomy</folder-name>
-	<internal-name>Categories (Copy 1)</internal-name>
+	<folder-name/>
+	<internal-name>TBI_names</internal-name>
 	<createdDate>2025-03-27T06:49:02.877Z</createdDate>
 	<createdDate_dt>2025-03-27T06:49:02.877Z</createdDate_dt>
-	<lastModifiedDate>2025-03-27T06:49:02.877Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-03-27T06:49:02.877Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-03-27T06:49:06.758Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-03-27T06:49:06.758Z</lastModifiedDate_dt>
 </component>
