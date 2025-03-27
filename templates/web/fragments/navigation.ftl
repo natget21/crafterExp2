@@ -70,6 +70,8 @@
                             </div> -->
                             <a href="/contact" class="nav-item nav-link">Contact</a>
                             <a href="/partner-login" class="nav-item nav-link">Partner</a>
+                            <a href="/hub-manager" class="nav-item nav-link">Partner</a>
+                            
                         </div>
                         <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
                             <!-- <a href="" class="btn px-0">
