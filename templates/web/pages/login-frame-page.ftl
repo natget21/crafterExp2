@@ -28,6 +28,11 @@
     
 
     <iframe id="partnerFrame" src="https://ideale.shortcut.uno/provider-login" width="100%" height="750px" frameborder="0"></iframe>
+    
+    
+
+    <!-- Footer Section -->
+    <#include "/templates/web/fragments/footer.ftl">
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -41,7 +46,7 @@
                     iframe.src = "https://ideale.shortcut.uno/provider-login"; 
                     button.textContent = "Register";
                 } else {
-                    iframe.src = "https://ideale.shortcut.uno/signup-partner"; 
+                    iframe.src = "https://ideale.shortcut.uno/signup-partner?orgId=67ac78b641f3e43f93473810"; 
                     button.textContent = "Login";
                 }
                 isRegister = !isRegister;
