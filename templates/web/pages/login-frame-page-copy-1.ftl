@@ -20,41 +20,20 @@
                 </div>
                 <div class="col-lg-4 col-6 text-right">
                     <a href="/" class=" text-uppercase px-4">Home</a>
-                    <a href="javascript:void(0);" class="btn btn-primary text-uppercase px-4" id="toggle-btn">Register</a>
                 </div>
             </div>
         </div>
     </header>
     
 
-    <iframe id="partnerFrame" src="https://ideale.shortcut.uno/provider-login" width="100%" height="750px" frameborder="0"></iframe>
+    <iframe id="partnerFrame" src="https://ideale.shortcut.uno/account-login" width="100%" height="750px" frameborder="0"></iframe>
     
     
 
     <!-- Footer Section -->
     <#include "/templates/web/fragments/footer-no-padding.ftl">
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const button = document.getElementById("toggle-btn");
-            const iframe = document.getElementById("partnerFrame");
-            
-            console.log("here")
-    
-            let isRegister = false;
-    
-            button.addEventListener("click", function () {
-                if (isRegister) {
-                    iframe.src = "https://ideale.shortcut.uno/provider-login"; 
-                    button.textContent = "Register";
-                } else {
-                    iframe.src = "https://ideale.shortcut.uno/signup-partner?orgId=67ac78b641f3e43f93473810"; 
-                    button.textContent = "Login";
-                }
-                isRegister = !isRegister;
-            });
-        });
-    </script>
+   
 
     <@crafter.body_bottom/>
 </body>
