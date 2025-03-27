@@ -38,6 +38,8 @@
         document.addEventListener("DOMContentLoaded", function () {
             const button = document.getElementById("toggle-btn");
             const iframe = document.getElementById("partnerFrame");
+            
+            console.log("here")
     
             let isRegister = false;
     
