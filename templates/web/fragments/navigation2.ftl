@@ -59,17 +59,17 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
                             <a href="/index" class="nav-item nav-link active">Home</a>
-                            <a id="catalog-btn" href="/services" class="nav-item nav-link" >Catalog</a>
+                            <a id="catalog-btn" href="/services" class="nav-item nav-link" >Catalogo</a>
                             <a href="/partners" class="nav-item nav-link">Partners</a>
                             <a href="" class="nav-item nav-link">About</a>
                             
-                            <a href="/contact" class="nav-item nav-link">Contact</a>
+                            <a href="/contact" class="nav-item nav-link">Contatti</a>
                             <!-- <a href="/partner-login" class="nav-item nav-link">Partner Login</a>
                             <a href="/hub-manager" class="nav-item nav-link">Hub Manager</a> -->
                             
                             
                             <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Manage <i class="fa fa-angle-down mt-1"></i></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gestione <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
                                     <a href="/partner-login" class="nav-item nav-link sublink">Partner Login</a>
                                     <a href="/hub-manager" class="nav-item nav-link sublink">Hub Manager Login</a>
