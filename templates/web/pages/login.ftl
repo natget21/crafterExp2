@@ -29,9 +29,9 @@
     <div class="cont">
         <Form class="form sign-in" id="login-form">
          <input type="hidden" name="redirect" value="/" />
-            <h2>Welcome</h2>
+            <h2>Benvenuto accedi al tuo account cliente</h2>
             <label>
-                <span>Username</span>
+                <span>Email</span>
                 <input type="username" name="username" id="username" class="form-control" required />
             </label>
             <label>
@@ -47,14 +47,14 @@
         <div class="sub-cont">
             <div class="img">
                 <div class="img__text m--up">
-                    <h3>Don't have an account? Please Sign up!</h3>
+                    <h3>Non hai un account? Invia la tua richiesta!</h3>
                 </div>
                 <div class="img__text m--in">
-                    <h3>If you already have an account, just sign in.</h3>
+                    <h3>Se hai gia un account, esegui la login con le tue credenziali.</h3>
                 </div>
                 <div class="img__btn">
-                    <span class="m--up">Sign Up</span>
-                    <span class="m--in">Sign In</span>
+                    <span class="m--up">Registrati</span>
+                    <span class="m--in">Accedi</span>
                 </div>
             </div>
             <div class="form sign-up">
