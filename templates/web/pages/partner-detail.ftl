@@ -28,119 +28,56 @@
 	<!-- banner section end-->
 	
 	
-	<!-- marketing section start-->
-	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5" >
-		<div class="container-fluid">
-		    <h1 class="jobs_text">1. Assessment</h1>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="job_section">
-					    <b class="jobs_text" style="font-size:26px !important" > <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</b>
-					    
-					    <p class="dummy_text">
-					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
-					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="job_section">
-                        <b class="jobs_text" style="font-size:26px !important" > <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</b>
-					    
-					    <p class="dummy_text">
-					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
-					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- marketing section end-->
-	<!-- Industrial section start-->
-	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="job_section">
-					    <b class="jobs_text" style="font-size:26px !important" > <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</b>
-					    
-					    <p class="dummy_text">
-					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
-					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="job_section">
-                        <b class="jobs_text" style="font-size:26px !important" > <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</b>
-					    
-					    <p class="dummy_text">
-					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
-					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Industrial section end-->
-	<!-- Corporate section start-->
-	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5">
-		<div class="container-fluid">
-		<h1 class="jobs_text">2. Assessment</h1>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="job_section">
-					    <b class="jobs_text" style="font-size:26px !important" > <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</b>
-					    
-					    <p class="dummy_text">
-					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
-					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="job_section">
-					    <b class="jobs_text" style="font-size:26px !important" > <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</b>
-					    
-					    <p class="dummy_text">
-					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
-					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Corporate section end-->
-	<!-- Government section start-->
-	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="job_section">
-					    <b class="jobs_text" style="font-size:26px !important" > <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</b>
-					    
-					    <p class="dummy_text">
-					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
-					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="job_section">
-					    <b class="jobs_text" style="font-size:26px !important" > <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</b>
-					    
-					    <p class="dummy_text">
-					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
-					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<div class="services_section">
+    <div class="container">
+      <h1 class="services_text">About Partner</h1>
+    </div>
+  </div>
+  <div class="companies_section layout_padding">
+    <div class="container">
+      <h1 class="companies_text">Our Service</h1>
+      <div class="images_main ">
+          <h2 id="demo03"></h2>
+          <div class="hover03 column">
+              <div>
+                  <figure><img src="/static-asset/img2/img-1.png"></figure>
+                  <span>Marketing jobs</span>
+              </div>
+              <div>
+                  <figure><img src="/static-asset/img2/img-2.png"></figure>
+                  <span>Industrial jobs</span>
+              </div>
+              <div>
+                  <figure><img src="/static-asset/img2/img-3.png"></figure>
+                  <span>Corporate jobs</span>
+              </div>
+              <div>
+                  <figure><img src="/static-asset/img2/img-1.png"></figure>
+                  <span>Marketing jobs</span>
+              </div>
+          </div>
+
+          <h2 id="demo03"></h2>
+          <div class="hover03 column">
+              <div>
+                  <figure><img src="/static-asset/img2/img-4.png"></figure>
+                  <span>Government jobs</span>
+              </div>
+              <div>
+                  <figure><img src="/static-asset/img2/img-1.png"></figure>
+                  <span>Marketing jobs</span>
+              </div>
+              <div>
+                  <figure><img src="/static-asset/img2/img-2.png"></figure>
+                  <span>Industrial jobs</span>
+              </div>
+              <div>
+                  <figure><img src="/static-asset/img2/img-4.png"></figure>
+                  <span>Government jobs</span>
+              </div>
+          </div>
+    </div>
+  </div>
 	<!-- Government section end-->
 <div class="marketing_section layout_padding"  style="background-color: #F5F5F5">
 		<div class="container-fluid">
