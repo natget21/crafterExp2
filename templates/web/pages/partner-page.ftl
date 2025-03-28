@@ -6,6 +6,11 @@
 <body>
     <@crafter.body_top/>
 
+    <!-- Header Section (Logo, Search Bar, etc.) -->
+    <#include "/templates/web/fragments/header.ftl">
+    
+     <!-- Navigation Section --> 
+    <#include "/templates/web/fragments/navigation.ftl">
 	
 	<!-- banner section start-->
 	<div class="banner_section layout_padding">
