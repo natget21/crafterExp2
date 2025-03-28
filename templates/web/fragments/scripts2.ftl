@@ -6,19 +6,6 @@
 <script src="/static-assets/js/main.js"></script>
 
 
-<script src="/static-assets/js2/popper.min.js"></script>
-<script src="/static-assets/js2/plugin.js"></script>
-
-<script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-
-<script>
-    $(document).ready(function(){
-    $(".fancybox").fancybox({
-    openEffect: "none",
-    closeEffect: "none"
-    });
-</script>
-
 
 
 
