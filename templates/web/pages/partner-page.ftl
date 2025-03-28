@@ -11,7 +11,7 @@
     
      <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation2.ftl">
-	<div class="container-fluid">
+	<div style="background-color: #F5F5F5">
 	<!-- banner section start-->
 	<div class="banner_section layout_padding">
 		<div class="container">
