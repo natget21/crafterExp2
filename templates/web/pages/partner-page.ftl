@@ -10,7 +10,7 @@
     <#include "/templates/web/fragments/header.ftl">
     
      <!-- Navigation Section --> 
-    <#include "/templates/web/fragments/navigation.ftl">
+    <#include "/templates/web/fragments/navigation2.ftl">
 	
 	<!-- banner section start-->
 	<div class="banner_section layout_padding">
