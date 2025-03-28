@@ -30,12 +30,8 @@
     
     
     
-    
-    
-<!-- bootstrap css -->
-<link rel="stylesheet" type="text/css" href="/static-assets/css2/bootstrap.min.css">
 <!-- style css -->
-<link rel="stylesheet" type="text/css" href="/static-assets/css2/style.css">
+<link rel="stylesheet" type="text/css" href="/static-assets/css2/style.css" rel="stylesheet">
 
     
     
