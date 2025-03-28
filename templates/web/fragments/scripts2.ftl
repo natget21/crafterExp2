@@ -4,7 +4,7 @@
 <script src="/static-assets/js2/jquery-3.0.0.min.js"></script>
 <script src="/static-assets/js2/plugin.js"></script>
       <!-- sidebar -->
-<script src="/static-assets/js2/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="/static-assets/js2/jquery.mcustomscrollbar.concat.min.js"></script>
 <script src="/static-assets/js2/custom.js"></script>
       <!-- javascript --> 
 <script src="/static-assets/js2/owl.carousel.js"></script>
