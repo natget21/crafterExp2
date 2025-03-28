@@ -31,10 +31,11 @@
 	<!-- marketing section start-->
 	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5" >
 		<div class="container-fluid">
+		    <h1 class="jobs_text">1. Assessment</h1>
 			<div class="row">
 				<div class="col-md-6">
 					<div class="job_section">
-					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+					    <h3 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h3>
 					    
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
@@ -44,7 +45,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="job_section">
-					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+                        <h3 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h3>
 					    
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
@@ -62,7 +63,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="job_section">
-					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+					    <h3 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h3>
 					    
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
@@ -72,7 +73,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="job_section">
-					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+                        <h3 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h3>
 					    
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
@@ -90,7 +91,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="job_section">
-					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+					    <h3 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h3>
 					    
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
@@ -100,7 +101,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="job_section">
-					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+					    <h3 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h3>
 					    
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
@@ -118,7 +119,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="job_section">
-					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+					    <h3 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h3>
 					    
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
@@ -128,7 +129,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="job_section">
-					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+					    <h3 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h3>
 					    
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
@@ -140,8 +141,18 @@
 		</div>
 	</div>
 	<!-- Government section end-->
-
-<div class ="layout_padding"></div>
+<div class="marketing_section layout_padding"  style="background-color: #F5F5F5">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					
+				</div>
+				<div class="col-md-6">
+					
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 </div>
