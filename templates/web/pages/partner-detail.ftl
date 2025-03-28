@@ -28,31 +28,26 @@
 	<!-- banner section end-->
 	
 	
-	<div class="services_section">
-    <div class="container">
-      <h1 class="services_text">About Partner</h1>
-    </div>
-  </div>
-  <div class="companies_section layout_padding">
+  <div class="companies_section layout_padding"  style="background-color: #F5F5F5">
     <div class="container">
       <h1 class="companies_text">Our Service</h1>
       <div class="images_main ">
           <h2 id="demo03"></h2>
           <div class="hover03 column">
               <div>
-                  <figure><img src="/static-asset/img2/img-1.png"></figure>
+                  <figure><img src="/static-assets/img2/img-1.png"></figure>
                   <span>Marketing jobs</span>
               </div>
               <div>
-                  <figure><img src="/static-asset/img2/img-2.png"></figure>
+                  <figure><img src="/static-assets/img2/img-2.png"></figure>
                   <span>Industrial jobs</span>
               </div>
               <div>
-                  <figure><img src="/static-asset/img2/img-3.png"></figure>
+                  <figure><img src="/static-assets/img2/img-3.png"></figure>
                   <span>Corporate jobs</span>
               </div>
               <div>
-                  <figure><img src="/static-asset/img2/img-1.png"></figure>
+                  <figure><img src="/static-assets/img2/img-1.png"></figure>
                   <span>Marketing jobs</span>
               </div>
           </div>
@@ -60,19 +55,19 @@
           <h2 id="demo03"></h2>
           <div class="hover03 column">
               <div>
-                  <figure><img src="/static-asset/img2/img-4.png"></figure>
+                  <figure><img src="/static-assets/img2/img-4.png"></figure>
                   <span>Government jobs</span>
               </div>
               <div>
-                  <figure><img src="/static-asset/img2/img-1.png"></figure>
+                  <figure><img src="/static-assets/img2/img-1.png"></figure>
                   <span>Marketing jobs</span>
               </div>
               <div>
-                  <figure><img src="/static-asset/img2/img-2.png"></figure>
+                  <figure><img src="/static-assets/img2/img-2.png"></figure>
                   <span>Industrial jobs</span>
               </div>
               <div>
-                  <figure><img src="/static-asset/img2/img-4.png"></figure>
+                  <figure><img src="/static-assets/img2/img-4.png"></figure>
                   <span>Government jobs</span>
               </div>
           </div>
