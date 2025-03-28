@@ -61,7 +61,7 @@
                             <a href="/index" class="nav-item nav-link active">Home</a>
                             <a id="catalog-btn" href="/services" class="nav-item nav-link" >Catalogo</a>
                             <a href="/partners" class="nav-item nav-link">Partners</a>
-                            <a href="" class="nav-item nav-link">About</a>
+                            <a href="" class="nav-item nav-link">Il progetto</a>
                             
                             <a href="/contact" class="nav-item nav-link">Contatti</a>
                             <!-- <a href="/partner-login" class="nav-item nav-link">Partner Login</a>
