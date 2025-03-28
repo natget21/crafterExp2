@@ -15,11 +15,11 @@
 	<!-- banner section start-->
 	<div class=" layout_padding" style="background-color: #F5F5F5">
 		<div class="container">
-			<h1 class="best_taital">Partner 1</h1>
+			<h1 class="best_taital" style="color: black">Partner 1</h1>
 			<div class="box_main">
 
 		    </div>
-		    <p class="there_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+		    <p class="there_text" style="color: black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
 		    <div class="bt_main">
 		    
 		    </div>
