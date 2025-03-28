@@ -26,12 +26,15 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('logout-btn').style.display = 'inline-block';
         document.getElementById('order-btn').style.display = 'inline-block';
         document.getElementById('add-order').style.display = 'inline-block';
+        document.getElementById('catalog-btn').style.display = 'inline-block';
+        
         
     }else{
         document.getElementById('login-btn').style.display = 'inline-block';
         document.getElementById('logout-btn').style.display = 'none';
         document.getElementById('order-btn').style.display = 'none';
         document.getElementById('add-order').style.display = 'none';
+        document.getElementById('catalog-btn').style.display = 'none';
     }
 
     document.getElementById('logout-btn').addEventListener('click', function (event) {
