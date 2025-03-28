@@ -27,7 +27,7 @@
     </header>
     
 
-    <iframe id="partnerFrame" src="https://ideale.shortcut.uno/provider-login" width="100%" height="750px" frameborder="0"></iframe>
+    <iframe id="partnerFrame" src="https://ideale.shortcut.uno/provider-login?themeStyle=light" width="100%" height="750px" frameborder="0"></iframe>
     
     
 
@@ -45,10 +45,10 @@
     
             button.addEventListener("click", function () {
                 if (isRegister) {
-                    iframe.src = "https://ideale.shortcut.uno/provider-login"; 
+                    iframe.src = "https://ideale.shortcut.uno/provider-login?themeStyle=light"; 
                     button.textContent = "Register";
                 } else {
-                    iframe.src = "https://ideale.shortcut.uno/signup-partner?orgId=67ac78b641f3e43f93473810"; 
+                    iframe.src = "https://ideale.shortcut.uno/signup-partner?orgId=67ac78b641f3e43f93473810&themeStyle=light"; 
                     button.textContent = "Login";
                 }
                 isRegister = !isRegister;
