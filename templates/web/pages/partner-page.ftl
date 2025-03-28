@@ -30,7 +30,7 @@
 	
 	<!-- marketing section start-->
 	<div class="marketing_section layout_padding">
-		<div class="container-fluid">
+		<div style="background:white">
 			<div class="row">
 				<div class="col-md-6">
 					<div class="job_section">
