@@ -86,9 +86,9 @@
 	</div>
 	<!-- Industrial section end-->
 	<!-- Corporate section start-->
-    <h1 class="jobs_text">2. Assessment</h1>    
 	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5">
 		<div class="container-fluid">
+		<h1 class="jobs_text">2. Assessment</h1>
 			<div class="row">
 				<div class="col-md-6">
 					<div class="job_section">
