@@ -11,7 +11,7 @@
     
      <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation2.ftl">
-	
+	<div class="container-fluid">
 	<!-- banner section start-->
 	<div class="banner_section layout_padding">
 		<div class="container">
@@ -106,7 +106,7 @@
 
 
 
-
+</div>
 
 
 
