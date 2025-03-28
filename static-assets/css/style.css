@@ -9710,6 +9710,10 @@ a.text-dark:hover, a.text-dark:focus {
     display: inline-block;       /* Ensure the element behaves as inline */
 }
 
+.sublink:hover {
+    color: black !important;
+}
+
 @keyframes action {
   0% {
     transform: translateY(0);
