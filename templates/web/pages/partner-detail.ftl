@@ -43,7 +43,14 @@
 					</div>
 				</div>
 				<div class="col-md-6">
-					<div class="image_1 padding_0"><img src="/static-assets/img2/img-1.png"></div>
+					<div class="job_section">
+					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+					    
+					    <p class="dummy_text">
+					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
+					    </p>
+					    <div class="apply_bt"><a href="#">Read More</a></div>
+					</div>
 				</div>
 			</div>
 		</div>
