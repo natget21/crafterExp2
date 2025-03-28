@@ -21,6 +21,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     const user = localStorage.getItem('crafterVadinUser');
+    console.log(document.getElementById('catalog-btn'),"catalog-btn")
     if (user) {
         document.getElementById('login-btn').style.display = 'none';
         document.getElementById('logout-btn').style.display = 'inline-block';
