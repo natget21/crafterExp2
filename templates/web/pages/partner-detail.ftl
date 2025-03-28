@@ -61,12 +61,22 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6">
-					<div class="image_1 padding_0"><img src="/static-assets/img2/img-2.png"></div>
+					<div class="job_section">
+					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+					    
+					    <p class="dummy_text">
+					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
+					    </p>
+					    <div class="apply_bt"><a href="#">Read More</a></div>
+					</div>
 				</div>
 				<div class="col-md-6">
-					<div class="job_section_2">
-					    <h1 class="jobs_text">Industrial jobs</h1>
-					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+					<div class="job_section">
+					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+					    
+					    <p class="dummy_text">
+					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
+					    </p>
 					    <div class="apply_bt"><a href="#">Read More</a></div>
 					</div>
 				</div>
@@ -80,13 +90,23 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="job_section">
-					    <h1 class="jobs_text">Corporate jobs</h1>
-					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+					    
+					    <p class="dummy_text">
+					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
+					    </p>
 					    <div class="apply_bt"><a href="#">Read More</a></div>
 					</div>
 				</div>
-				<div class="col-md-6 padding_0">
-					<div class="image_1"><img src="/static-assets/img2/img-3.png"></div>
+				<div class="col-md-6">
+					<div class="job_section">
+					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+					    
+					    <p class="dummy_text">
+					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
+					    </p>
+					    <div class="apply_bt"><a href="#">Read More</a></div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -96,14 +116,24 @@
 	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-6 padding_0">
-					<div class="image_1"><img src="/static-assets/img2/img-4.png"></div>
+				<div class="col-md-6">
+					<div class="job_section">
+					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+					    
+					    <p class="dummy_text">
+					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
+					    </p>
+					    <div class="apply_bt"><a href="#">Read More</a></div>
+					</div>
 				</div>
 				<div class="col-md-6">
-					<div class="job_section_2">
-					    <h1 class="jobs_text">Government jobs</h1>
-					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
-				        <div class="apply_bt"><a href="#">Read More</a></div>
+					<div class="job_section">
+					    <h1 class="jobs_text"> <img src="/static-assets/img2/img-1.png" width="64" height="64">  Assessment</h1>
+					    
+					    <p class="dummy_text">
+					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
+					    </p>
+					    <div class="apply_bt"><a href="#">Read More</a></div>
 					</div>
 				</div>
 			</div>
