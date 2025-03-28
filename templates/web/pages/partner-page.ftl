@@ -40,7 +40,7 @@
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
 					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
+					    <div class="apply_bt"><a href="/partner-detail">Read More</a></div>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -50,7 +50,7 @@
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
 					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
+					    <div class="apply_bt"><a href="/partner-detail">Read More</a></div>
 					</div>
 				</div>
 			</div>
@@ -68,7 +68,7 @@
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
 					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
+					    <div class="apply_bt"><a href="/partner-detail">Read More</a></div>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -78,7 +78,7 @@
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
 					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
+					    <div class="apply_bt"><a href="/partner-detail">Read More</a></div>
 					</div>
 				</div>
 			</div>
@@ -97,7 +97,7 @@
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
 					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
+					    <div class="apply_bt"><a href="/partner-detail">Read More</a></div>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -107,7 +107,7 @@
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
 					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
+					    <div class="apply_bt"><a href="/partner-detail">Read More</a></div>
 					</div>
 				</div>
 			</div>
@@ -125,7 +125,7 @@
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
 					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
+					    <div class="apply_bt"><a href="/partner-detail">Read More</a></div>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -135,7 +135,7 @@
 					    <p class="dummy_text">
 					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
 					    </p>
-					    <div class="apply_bt"><a href="#">Read More</a></div>
+					    <div class="apply_bt"><a href="/partner-detail">Read More</a></div>
 					</div>
 				</div>
 			</div>
