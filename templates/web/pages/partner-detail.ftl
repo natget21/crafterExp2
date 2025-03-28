@@ -13,7 +13,7 @@
     <#include "/templates/web/fragments/navigation2.ftl">
 	<div style="background-color: #F5F5F5">
 	<!-- banner section start-->
-	<div class="banner_section layout_padding">
+	<div class=" layout_padding" style="background-color: #F5F5F5">
 		<div class="container">
 			<h1 class="best_taital">Partner 1</h1>
 			<div class="box_main">
