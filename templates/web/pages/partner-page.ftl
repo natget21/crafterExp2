@@ -29,7 +29,7 @@
 	
 	
 	<!-- marketing section start-->
-	<div class="marketing_section layout_padding">
+	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5" >
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6">
@@ -49,7 +49,7 @@
 	</div>
 	<!-- marketing section end-->
 	<!-- Industrial section start-->
-	<div class="marketing_section layout_padding">
+	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6">
@@ -67,7 +67,7 @@
 	</div>
 	<!-- Industrial section end-->
 	<!-- Corporate section start-->
-	<div class="marketing_section layout_padding">
+	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6">
@@ -85,7 +85,7 @@
 	</div>
 	<!-- Corporate section end-->
 	<!-- Government section start-->
-	<div class="marketing_section layout_padding">
+	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6 padding_0">
