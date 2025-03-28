@@ -26,6 +26,8 @@
         </div>
     </header>
     
+    <!-- Navigation Section --> 
+    <#include "/templates/web/fragments/navigation.ftl">
 
     <iframe id="partnerFrame" src="https://ideale.shortcut.uno/provider-login?themeStyle=light" width="100%" height="750px" frameborder="0"></iframe>
     
