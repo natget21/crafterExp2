@@ -71,8 +71,8 @@
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Manage <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
-                                    <a href="/partner-login" class="nav-item nav-link">Partner Login</a>
-                                    <a href="/hub-manager" class="nav-item nav-link">Hub Manager Login</a>
+                                    <a href="/partner-login" class="nav-item nav-link sublink">Partner Login</a>
+                                    <a href="/hub-manager" class="nav-item nav-link sublink">Hub Manager Login</a>
                                 </div>
                             </div>
                             
