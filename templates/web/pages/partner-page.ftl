@@ -10,7 +10,7 @@
 	<!-- banner section start-->
 	<div class="banner_section layout_padding">
 		<div class="container">
-			<h1 class="best_taital">Best Naukri Search here</h1>
+			<h1 class="best_taital">Partners</h1>
 			<div class="box_main">
 
 		    </div>
@@ -54,7 +54,7 @@
 					<div class="job_section_2">
 					    <h1 class="jobs_text">Industrial jobs</h1>
 					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
-					    <div class="apply_bt"><a href="#">Apply now</a></div>
+					    <div class="apply_bt"><a href="#">Read More</a></div>
 					</div>
 				</div>
 			</div>
@@ -69,7 +69,7 @@
 					<div class="job_section">
 					    <h1 class="jobs_text">Corporate jobs</h1>
 					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
-					    <div class="apply_bt"><a href="#">Apply now</a></div>
+					    <div class="apply_bt"><a href="#">Read More</a></div>
 					</div>
 				</div>
 				<div class="col-md-6 padding_0">
@@ -90,7 +90,7 @@
 					<div class="job_section_2">
 					    <h1 class="jobs_text">Government jobs</h1>
 					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
-					    <div class="apply_bt"><a href="#">Apply now</a></div>
+				        <div class="apply_bt"><a href="#">Read More</a></div>
 					</div>
 				</div>
 			</div>
