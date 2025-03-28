@@ -1,50 +1,121 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
+
 <!DOCTYPE html>
-<html lang="en" data-craftercms-preview="${modePreview?c}" >
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${contentModel.pageTitle?default("About Us")}</title>
-    <link rel="stylesheet" href="/static/css/about-us.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <@crafter.head/>
-</head>
+<html lang="en" data-craftercms-preview="${modePreview?c}">
+<#include "/templates/web/fragments/head2.ftl">
 <body>
-<@crafter.body_top/>
-    <#include "/templates/web/fragments/header.ftl" />
+    <@crafter.body_top/>
+
+    <!-- Header Section (Logo, Search Bar, etc.) -->
+    <#include "/templates/web/fragments/header.ftl">
     
-    <section class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
-                    <div class="inner-column">
-                        <div class="sec-title">
-                            <span class="title">${contentModel.sectionTitle?default("About Company")}</span>
-                            <h2>${contentModel.mainHeading?default("We are leader in <br> Industrial market Since 1992")}</h2>
-                        </div>
-                        <div class="text">${contentModel.aboutText?default("Lorem ipsum dolor sit amet, consectetur adipisicing elit...")}</div>
-                        <ul class="list-style-one">
-                            <#list contentModel.features?default([]) as feature>
-                                <li>${feature}</li>
-                            </#list>
-                        </ul>
-                        <div class="btn-box">
-                            <a href="${contentModel.contactLink?default("#")}" class="theme-btn btn-style-one">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner-column wow fadeInLeft">
-                        <figure class="image-1"><a href="${contentModel.image1?default("#")}" class="lightbox-image" data-fancybox="images"><img src="${contentModel.image1?default("https://i.ibb.co/QP6Nmpf/image-1-about.jpg")}" alt=""></a></figure>
-                        <figure class="image-2"><a href="${contentModel.image2?default("#")}" class="lightbox-image" data-fancybox="images"><img src="${contentModel.image2?default("https://i.ibb.co/JvN0NVB/image-2-about.jpg")}" alt=""></a></figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <#include "/templates/web/fragments/footer.ftl" />
+     <!-- Navigation Section --> 
+    <#include "/templates/web/fragments/navigation2.ftl">
+	<div style="background-color: #F5F5F5">
+	<!-- banner section start-->
+	<div class="banner_section layout_padding">
+		<div class="container">
+			<h1 class="best_taital">Partners</h1>
+			<div class="box_main">
+
+		    </div>
+		    <p class="there_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+		    <div class="bt_main">
+		    
+		    </div>
+		</div>
+	</div>
+	<!-- banner section end-->
+	
+	
+	<!-- marketing section start-->
+	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5" >
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="job_section">
+					    <h1 class="jobs_text">1. Assessment</h1>
+					    <img src="/static-assets/img2/img-1.png" width="32" height="32">
+					    <p class="dummy_text">
+					    L’azienda viene stimolata a valutare la propria strategia digitale rispetto alla strategia generale, valutando un percorso concreto verso obiettivi, raggiungibili con i partner e i propri fornitori di tecnologie. L’assesment proposto porta alla definizione di una digital strategy coerente con: obiettivi, opportunità, minacce budget disponibile.
+					    </p>
+					    <div class="apply_bt"><a href="#">Read More</a></div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="image_1 padding_0"><img src="/static-assets/img2/img-1.png"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- marketing section end-->
+	<!-- Industrial section start-->
+	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="image_1 padding_0"><img src="/static-assets/img2/img-2.png"></div>
+				</div>
+				<div class="col-md-6">
+					<div class="job_section_2">
+					    <h1 class="jobs_text">Industrial jobs</h1>
+					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+					    <div class="apply_bt"><a href="#">Read More</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Industrial section end-->
+	<!-- Corporate section start-->
+	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="job_section">
+					    <h1 class="jobs_text">Corporate jobs</h1>
+					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+					    <div class="apply_bt"><a href="#">Read More</a></div>
+					</div>
+				</div>
+				<div class="col-md-6 padding_0">
+					<div class="image_1"><img src="/static-assets/img2/img-3.png"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Corporate section end-->
+	<!-- Government section start-->
+	<div class="marketing_section layout_padding"  style="background-color: #F5F5F5">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 padding_0">
+					<div class="image_1"><img src="/static-assets/img2/img-4.png"></div>
+				</div>
+				<div class="col-md-6">
+					<div class="job_section_2">
+					    <h1 class="jobs_text">Government jobs</h1>
+					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+				        <div class="apply_bt"><a href="#">Read More</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Government section end-->
+
+<div class ="layout_padding"></div>
+
+
+</div>
+
+
+
+    <!-- Footer Section -->
+    <#include "/templates/web/fragments/footer.ftl">
+
+    <!-- Scripts -->
+    <#include "/templates/web/fragments/scripts2.ftl">
     <@crafter.body_bottom/>
 </body>
 </html>
