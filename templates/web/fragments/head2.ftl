@@ -27,7 +27,7 @@
 <link rel="stylesheet" href="/static-assets/css2/responsive.css">
 
 <!-- Scrollbar Custom CSS -->
-<link rel="stylesheet" href="/static-assets/css2/jquery.mCustomScrollbar.min.css">
+<link rel="stylesheet" href="/static-assets/css2/jquery.mcustomscrollbar.min.css">
 <!-- Tweaks for older IEs-->
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 <!-- owl stylesheets --> 
