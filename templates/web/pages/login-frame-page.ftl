@@ -47,7 +47,7 @@
     
             button.addEventListener("click", function () {
                 if (isRegister) {
-                    iframe.src = "https://ideale.shortcut.uno/provider-login?themeStyle=light"; 
+                    iframe.src = "https://ideale.shortcut.uno/provider-login?orgId=67ac78b641f3e43f93473810&themeStyle=light";
                     button.textContent = "Register";
                 } else {
                     iframe.src = "https://ideale.shortcut.uno/signup-partner?orgId=67ac78b641f3e43f93473810&themeStyle=light"; 
