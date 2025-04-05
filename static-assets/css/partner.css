@@ -1,0 +1,12 @@
+.banner_partners {
+  background-image: url(assets/banner-partners.jpg);
+}
+
+.partners_section .partner_description {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.partners_section .partner_logo {
+  height: 92px;
+}
