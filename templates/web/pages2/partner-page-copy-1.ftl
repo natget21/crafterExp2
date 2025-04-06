@@ -31,7 +31,7 @@
     <link href="/static-assets/css/style.css" rel="stylesheet">
     
     <link rel="stylesheet" href="/static-assets/css/general-style.css" />
-    <link rel="stylesheet" href="/static-assets/css/partner.css" />
+    <link rel="stylesheet" href="/static-assets/css/test-before-invest.css" />
     
     <@crafter.head/>
 </head>
@@ -45,110 +45,79 @@
     <#include "/templates/web/fragments/navigation.ftl">
 
 
-
-
 <div class="content pb-5">
       <div
-        class="banner_section banner_partners layout_padding d-flex align-items-center"
+        class="banner_section banner_services layout_padding d-flex align-items-center"
       >
         <div class="container">
-          <h1 class="best_taital text-center text-white p-0">Partner</h1>
+          <h1 class="best_taital text-center text-white p-0">Consulenza</h1>
         </div>
       </div>
       <div
         class="explanation layout_padding mx-auto d-flex flex-column flex-md-row justify-content-center col-11 col-md-9 px-0"
       >
-        <h2 class="title_section pl-3 pl-md-0 col-md-6">Partner di progetto</h2>
+        <h2 class="title_section pl-3 pl-md-0 col-md-6">Cosa offriamo</h2>
         <div class="col-md-6">
-          <p class="" for="">
-            Il progetto è promosso da Synthesis3 S.r.l., insieme ai partner
-            Amicucci Formazione S.r.l. e Sinergia EPC S.r.l. Ognuno di loro
-            porta competenze chiave specifiche e complementari al progetto,
-            permettendo di offrire una gamma diversificata e altamente
-            qualificata di soluzioni per le imprese, la pubblica amministrazione
-            e il terzo settore.
-          </p>
-        </div>
-      </div>
-      <div
-        class="layout_padding partners_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
-      >
-        <div class="row row-gap-5">
-          <div class="partner col-12 col-md-6 d-flex flex-column gap-3">
-            <h3 class="service_title text-center">Synthesis3 S.r.l.</h3>
-            <div class="d-flex justify-content-center">
-              <img
-                class="partner_logo"
-                src="assets/synthesis-logo.png"
-                alt=""
-              />
-            </div>
-            <p class="partner_description m-0">
-              Fondata nel 2001, Synthesis3 è una società specializzata nella
-              consulenza informatica e gestionale, con una forte esperienza nel
-              facility management e nell’innovation management. Attiva dal 2022
-              nelle Marche, il team di Synthesis3 supporta le imprese, la
-              pubblica amministrazione e il terzo settore nella trasformazione
-              digitale, con particolare focus su Project Management, Innovation
-              Management, e Stakeholders Engagement. Il partner è coinvolto
-              nella progettazione e sviluppo di soluzioni digitali, come la
-              Digital Ecosystem Platform, e offre servizi di consulenza per la
-              trasformazione digitale e la gestione dell'innovazione.
-            </p>
-            <div
-              class="d-flex flex-grow-1 justify-content-center align-items-end"
-            >
-              <button class="btn btn-primary read_more">Scopri di più</button>
-            </div>
-          </div>
-          <div class="partner col-12 col-md-6 d-flex flex-column gap-3">
-            <h3 class="service_title text-center">Sinergia EPC S.r.l.</h3>
-            <div class="d-flex justify-content-center">
-              <img class="partner_logo" src="assets/sinergia-logo.png" alt="" />
-            </div>
-            <p class="partner_description m-0">
-              Nata nel 2021 come spin-off di Sinergia Consulenze, Sinergia EPC
-              si specializza in Lean Technology e Sistemi di Controllo Interni,
-              supportando le imprese e le pubbliche amministrazioni nel
-              miglioramento dei processi e nella digitalizzazione. Il partner ha
-              un forte focus sul settore manifatturiero delle Marche, in
-              particolare nell’ambito di Industria 4.0 e soluzioni basate su
-              machine learning, deep learning, computer vision e intelligenza
-              artificiale. Sinergia EPC collabora con il gruppo di ricerca VRAI
-              per lo sviluppo di soluzioni innovative, inclusi strumenti per la
-              qualità estetica basati su AI e realtà aumentata.
-            </p>
-            <div
-              class="d-flex flex-grow-1 justify-content-center align-items-end"
-            >
-              <button class="btn btn-primary read_more">Scopri di più</button>
-            </div>
-          </div>
-          <div class="partner col-12 col-md-6 d-flex flex-column gap-3">
-            <h3 class="service_title text-center">
-              Amicucci Formazione S.r.l. (SKILLA)
-            </h3>
-            <div class="d-flex justify-content-center">
-              <img class="partner_logo" src="assets/skilla-logo.png" alt="" />
-            </div>
-            <p class="partner_description m-0">
-              Specializzata nel settore della formazione digitale, SKILLA -
-              Amicucci Formazione S.R.L. offre soluzioni di e-learning, con un
-              focus su microlearning e contenuti fruibili su più dispositivi.
-              Con oltre 90 partner internazionali, l'azienda ha sviluppato una
-              solida expertise nella formazione aziendale, specializzandosi in
-              competenze digitali e leadership. Il partner è all'avanguardia
-              nell'uso di tecnologie immersive, come realtà virtuale e
-              aumentata, per creare esperienze di apprendimento coinvolgenti e
-              pratiche, con un forte impatto nell’educazione e nel miglioramento
-              delle performance lavorative
-            </p>
-            <div
-              class="d-flex flex-grow-1 justify-content-center align-items-end"
-            >
-              <button class="btn btn-primary read_more">Scopri di più</button>
-            </div>
-          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <strong> Orientamento e Assessment: </strong>
+              Questo servizio aiuta le aziende a identificare le loro necessità
+              e priorità strategiche. Attraverso una valutazione approfondita,
+              si analizzano le sfide tecnologiche e organizzative per creare un
+              piano d'azione personalizzato che favorisca l'adozione di
+              soluzioni innovative.
+            </li>
+            <li class="list-group-item">
+              <strong> Innovation Management </strong>
+              Si tratta di un supporto strategico volto a definire le priorità
+              aziendali in ambito tecnologico e organizzativo. Include attività
+              come lo scouting di tecnologie emergenti, la selezione delle
+              soluzioni più adatte e la gestione di progetti di innovazione.
+              Questo servizio supporta le aziende nel miglioramento continuo dei
+              loro processi, prodotti e servizi attraverso l'adozione di
+              tecnologie all'avanguardia.
+            </li>
+            <li class="list-group-item">
+              <strong> Consulenza Manageriale: </strong>
+              Aiuta le aziende a ottimizzare la loro gestione interna,
+              attraverso una guida esperta nella riorganizzazione dei processi
+              aziendali, la gestione delle risorse e la definizione di strategie
+              per affrontare sfide competitive. È indirizzata a migliorare
+              l'efficienza e la produttività complessiva dell'azienda.
+            </li>
+            <li class="list-group-item">
+              <strong> Change Management: </strong>
+              Supporta le aziende nel processo di cambiamento organizzativo,
+              aiutando a gestire transizioni complesse, come l'adozione di nuove
+              tecnologie o la riorganizzazione dei processi. Il servizio include
+              la gestione della comunicazione, il coinvolgimento dei dipendenti
+              e il monitoraggio dei risultati.
+            </li>
+            <li class="list-group-item">
+              <strong>Social Innovation Management:</strong>
+              Si focalizza sullo sviluppo di soluzioni innovative che abbiano un
+              impatto positivo sulla società, promuovendo la sostenibilità e
+              l'inclusione sociale. Questo tipo di consulenza aiuta le aziende a
+              implementare pratiche responsabili e socialmente orientate,
+              creando valore anche a livello sociale.
+            </li>
+            <li class="list-group-item">
+              <strong>Consulenza ICT:</strong>
+              Consulenza focalizzata sulle tecnologie dell'informazione e della
+              comunicazione (ICT), essenziale per le aziende che desiderano
+              ottimizzare la loro infrastruttura tecnologica e migliorare la
+              gestione dei dati e delle informazioni, con l'obiettivo di
+              favorire l'integrazione di soluzioni digitali avanzate.
+            </li>
+            <li class="list-group-item">
+              <strong>Engineering:</strong>
+              Servizi tecnici e ingegneristici per progettare, sviluppare e
+              implementare soluzioni tecnologiche avanzate. Questo include
+              attività di progettazione hardware e software, nonché
+              l'ottimizzazione di sistemi e processi industriali attraverso
+              l'adozione di nuove tecnologie.
+            </li>
+          </ul>
         </div>
       </div>
     </div>
