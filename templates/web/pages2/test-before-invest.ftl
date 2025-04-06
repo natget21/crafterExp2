@@ -43,14 +43,13 @@
     
     <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
-
 <div class="content pb-5">
       <div
         class="banner_section banner_services layout_padding d-flex align-items-center"
       >
         <div class="container">
           <h1 class="best_taital text-center text-white p-0">
-            Access to Finance
+            Test Before Invest
           </h1>
         </div>
       </div>
@@ -61,45 +60,51 @@
         <div class="col-md-6">
           <ul class="list-group">
             <li class="list-group-item">
-              <strong> Finanza Agevolata ed Europrogettazione: </strong> Un
-              servizio altamente specializzato che supporta le aziende nella
-              definizione e preparazione di progetti per accedere a
-              finanziamenti pubblici, nazionali ed europei. Comprende la
-              creazione del concept di progetto, la stesura della documentazione
-              amministrativa, la costruzione di partenariati internazionali,
-              l'analisi dei costi e la gestione delle fasi di rendicontazione,
-              nonché le attività di comunicazione e sfruttamento dei risultati
-              del progetto.
+              <strong> Demo: </strong>
+              Accesso a casi d’uso e dimostratori di soluzioni tecnologiche in
+              fase pilota o in laboratori specializzati. Questo servizio aiuta
+              le aziende a esplorare potenziali soluzioni prima di impegnarsi in
+              investimenti significativi, consentendo di valutare l'efficacia e
+              i benefici delle tecnologie.
             </li>
             <li class="list-group-item">
-              <strong> Accesso al Credito: </strong> Consulenza mirata per
-              aiutare le imprese a sviluppare una strategia di finanziamento che
-              si adatti alle loro necessità, incluso il supporto nella
-              preparazione di pitch per investitori, l'assessment finanziario e
-              la preparazione di documentazione per l'accesso a linee di credito
-              private o pubbliche.
+              <strong>
+                Accesso a Infrastrutture e Piattaforme Tecnologiche
+                (as-a-service):
+              </strong>
+              Offerta di un accesso temporaneo a tecnologie avanzate e
+              piattaforme in modalità "as-a-service", permettendo alle aziende
+              di testare infrastrutture e soluzioni in ambienti controllati
+              prima di decidere un'adozione su larga scala.
             </li>
             <li class="list-group-item">
-              <strong> Crowdfunding: </strong> Servizi per supportare le aziende
-              nella creazione e gestione di campagne di crowdfunding, un'opzione
-              di finanziamento sempre più popolare per progetti innovativi.
-              Questo servizio include la pianificazione della campagna, la
-              creazione di contenuti e la gestione delle relazioni con i
-              donatori o investitori.
+              <strong> Studi di Fattibilità: </strong>
+              Servizi di analisi per valutare la fattibilità e il potenziale di
+              un'idea o progetto, identificando le risorse, le tecnologie
+              necessarie e le eventuali criticità per la sua realizzazione.
+              Questo servizio aiuta a minimizzare i rischi prima di avviare un
+              progetto.
             </li>
             <li class="list-group-item">
-              <strong> Misure Fiscali: </strong> Consulenza per sfruttare le
-              opportunità fiscali a disposizione delle aziende, inclusi
-              incentivi, agevolazioni e deduzioni fiscali che possono
-              contribuire a ridurre i costi operativi e favorire l'adozione di
-              nuove tecnologie.
+              <strong> Proof-of-Concept (PoC): </strong>
+              Progetti che mirano a sviluppare prototipi o dimostratori per
+              verificare la fattibilità di un concetto o di una tecnologia.
+              Questi progetti sono ideali per testare nuove idee e soluzioni
+              prima di passare alla fase di sviluppo completo.
             </li>
             <li class="list-group-item">
-              <strong> Corporate Finance: </strong> Consulenza strategica per la
-              gestione finanziaria aziendale, che include attività come la
-              pianificazione finanziaria, l'analisi delle performance e
-              l'ottimizzazione delle risorse economiche, con l'obiettivo di
-              supportare la crescita e la competitività dell'azienda.
+              <strong>Test e Validazione:</strong>
+              Progetti di innovazione che permettono di testare, validare e
+              ingegnerizzare soluzioni tecnologiche esistenti, in modo da
+              garantirne l'efficacia e l'affidabilità in contesti industriali
+              reali.
+            </li>
+            <li class="list-group-item">
+              <strong>Progetti di Ricerca e Sviluppo:</strong>
+              Servizi di ricerca industriale o sviluppo sperimentale finalizzati
+              a creare nuovi prodotti, processi o modelli di business. Questo
+              servizio è pensato per supportare le aziende che vogliono
+              investire in innovazione e trasformare idee in soluzioni pratiche.
             </li>
           </ul>
         </div>
