@@ -43,14 +43,14 @@
     
     <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
+
+
 <div class="content pb-5">
       <div
         class="banner_section banner_services layout_padding d-flex align-items-center"
       >
         <div class="container">
-          <h1 class="best_taital text-center text-white p-0">
-            Access to Finance
-          </h1>
+          <h1 class="best_taital text-center text-white p-0">Consulenza</h1>
         </div>
       </div>
       <div
@@ -60,51 +60,35 @@
         <div class="col-md-6">
           <ul class="list-group">
             <li class="list-group-item">
-              <strong> Finanza Agevolata ed Europrogettazione: </strong> Un
-              servizio altamente specializzato che supporta le aziende nella
-              definizione e preparazione di progetti per accedere a
-              finanziamenti pubblici, nazionali ed europei. Comprende la
-              creazione del concept di progetto, la stesura della documentazione
-              amministrativa, la costruzione di partenariati internazionali,
-              l'analisi dei costi e la gestione delle fasi di rendicontazione,
-              nonché le attività di comunicazione e sfruttamento dei risultati
-              del progetto.
+              <strong>Eventi di Brokeraggio: </strong> Organizzazione di eventi
+              che favoriscono il matching tra domanda e offerta di tecnologie,
+              competenze e risorse, creando opportunità di collaborazione tra
+              imprese, investitori e innovatori.
             </li>
             <li class="list-group-item">
-              <strong> Accesso al Credito: </strong> Consulenza mirata per
-              aiutare le imprese a sviluppare una strategia di finanziamento che
-              si adatti alle loro necessità, incluso il supporto nella
-              preparazione di pitch per investitori, l'assessment finanziario e
-              la preparazione di documentazione per l'accesso a linee di credito
-              private o pubbliche.
+              <strong>Eventi di Disseminazione ed Exploitation: </strong>
+              Attività di sensibilizzazione e promozione di progetti e
+              innovazioni tramite eventi, pubblicazioni, webinar e social media,
+              con l'obiettivo di far conoscere e diffondere i risultati ottenuti
+              attraverso attività di ricerca e sviluppo.
             </li>
             <li class="list-group-item">
-              <strong> Crowdfunding: </strong> Servizi per supportare le aziende
-              nella creazione e gestione di campagne di crowdfunding, un'opzione
-              di finanziamento sempre più popolare per progetti innovativi.
-              Questo servizio include la pianificazione della campagna, la
-              creazione di contenuti e la gestione delle relazioni con i
-              donatori o investitori.
+              <strong>Hackathon: </strong> Organizzazione di eventi in cui
+              gruppi di innovatori si confrontano per risolvere specifiche sfide
+              tecnologiche, promuovendo la collaborazione e stimolando la
+              co-innovazione tra aziende, istituzioni e sviluppatori.
             </li>
             <li class="list-group-item">
-              <strong> Misure Fiscali: </strong> Consulenza per sfruttare le
-              opportunità fiscali a disposizione delle aziende, inclusi
-              incentivi, agevolazioni e deduzioni fiscali che possono
-              contribuire a ridurre i costi operativi e favorire l'adozione di
-              nuove tecnologie.
-            </li>
-            <li class="list-group-item">
-              <strong> Corporate Finance: </strong> Consulenza strategica per la
-              gestione finanziaria aziendale, che include attività come la
-              pianificazione finanziaria, l'analisi delle performance e
-              l'ottimizzazione delle risorse economiche, con l'obiettivo di
-              supportare la crescita e la competitività dell'azienda.
+              <strong>Location, Coworking & Marketplace: </strong> Offerta di
+              spazi di coworking temporanei per le aziende, incluse le
+              opportunità di testare e integrare nuove tecnologie in ambienti di
+              lavoro condivisi, aumentando la maturità tecnologica e promuovendo
+              la crescita commerciale.
             </li>
           </ul>
         </div>
       </div>
     </div>
-
 
 
     <!-- Footer Section -->
