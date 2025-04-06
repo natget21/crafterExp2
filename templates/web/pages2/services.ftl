@@ -99,7 +99,7 @@
               operazioni.
             </p>
           </div>
-          <img src="assets/assessment-1.jpg" alt="" />
+          <img src="/static-assets/assets/assessment-1.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -115,7 +115,7 @@
               l'automazione e l'efficienza operativa.
             </p>
           </div>
-          <img src="assets/test-before-invest-1.jpg" alt="" />
+          <img src="/static-assets/assets/test-before-invest-1.jpg" alt="" />
         </div>
         <h3 class="service_type layout_padding">Servizi Digitali:</h3>
         <div class="service d-flex justify-content-between align-items-center">
@@ -136,7 +136,7 @@
               <button class="btn btn-primary read_more">Scopri di più</button>
             </div>
           </div>
-          <img src="assets/formazione-1.jpg" alt="" />
+          <img src="/static-assets/assets/formazione-1.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -156,7 +156,7 @@
               <button class="btn btn-primary read_more">Scopri di più</button>
             </div>
           </div>
-          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="/static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -176,7 +176,7 @@
               <button class="btn btn-primary read_more">Scopri di più</button>
             </div>
           </div>
-          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="/static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -196,7 +196,7 @@
               <button class="btn btn-primary read_more">Scopri di più</button>
             </div>
           </div>
-          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="/static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -218,7 +218,7 @@
               <button class="btn btn-primary read_more">Scopri di più</button>
             </div>
           </div>
-          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="/static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
       </div>
     </div>
