@@ -31,7 +31,7 @@
     <link href="/static-assets/css/style.css" rel="stylesheet">
     
     <link rel="stylesheet" href="/static-assets/css/general-style.css" />
-    <link rel="stylesheet" href="/static-assets/css/project.css" />
+    <link rel="stylesheet" href="/static-assets/css/services.css" />
     
     <@crafter.head/>
 </head>
@@ -44,262 +44,184 @@
     <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
 
-<div class="content pb-5">
-        <div class="banner_section banner_project layout_padding">
-            <div class="container">
-            <h1 class="best_taital text-center text-white">Il progetto</h1>
-            <div class="box_main"></div>
-            <p
-                class="there_text d-flex justify-content-center text-white pt-0 pt-md-5"
-            >
-                L’ecosistema digitale per costruire valore attraverso l’innovazione condivisa
-            </p>
-            </div>
-        </div>
-        <div class="marketing_section layout_padding">
-            <div
-            class="marketing_content mx-auto d-flex flex-column flex-md-row justify-content-center col-11 col-md-9 px-0"
-            >
-                <h2 class="marketing_title title_section pl-3 pl-md-0 col-md-6">
-                    Obiettivi e Visione
-                </h2>
-                <div class="col-md-6">
-                    <p class="" for="">
-                        IDEALE è un progetto strategico che nasce con l’obiettivo di costruire un Digital Innovation Ecosystem capace di connettere in modo intelligente la domanda e l’offerta di innovazione digitale, formazione e nuovi servizi per imprese, pubbliche amministrazioni e terzo settore, con un focus sui settori del turismo, della cultura e del sociale. Attraverso una piattaforma digitale avanzata, il progetto mette in relazione una rete articolata di attori pubblici e privati – startup, spin-off, PMI innovative, centri di ricerca e grandi aziende – favorendo processi di co-progettazione e collaborazione in ambienti virtuali, per accelerare la transizione digitale e generare valore condiviso.
-                    </p>
-                    <p>Il progetto IDEALE vuole contribuire alla costruzione di un modello innovativo di servizi digitali condivisi, dove tecnologia e innovazione diventano leve per promuovere inclusione sociale, accessibilità e valorizzazione del patrimonio turistico e culturale. Un ecosistema aperto, flessibile e centrato sulle persone, in cui la trasformazione digitale diventa uno strumento concreto per generare impatto positivo nei territori. In particolare, il progetto intende:
-                        <ol class="list-group list-group-numbered">
-                            <li class="list-group-item">Costruire un hub digitale che favorisca l’ideazione e la sperimentazione condivisa di soluzioni per la digitalizzazione dei servizi pubblici e privati;</li>
-                            <li class="list-group-item">Rivoluzionare l’incontro tra domanda e offerta di innovazione attraverso tecnologie avanzate di AI e VR, facilitando connessioni rapide, intelligenti ed efficaci;</li>
-                            <li class="list-group-item">Valorizzare gli attori dell’ecosistema dell’innovazione, dando visibilità a startup, PMI e fornitori di soluzioni tecnologiche tramite un sistema aperto e interattivo;</li>
-                            <li class="list-group-item">Promuovere modelli di business collaborativi, sostenibili e orientati alla creazione di valore per tutti i partner coinvolti;</li>
-                            <li class="list-group-item">Innovare la formazione, rendendola esperienziale, interattiva e adattabile a diversi contesti applicativi, anche nelle pubbliche amministrazioni e nelle imprese culturali;</li>
-                            <li class="list-group-item">Integrare metodologie avanzate di apprendimento, che permettano di misurare e certificare l’acquisizione di competenze attraverso strumenti immersivi e contenuti digitali evoluti.</li>
-                        </ol>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="marketing_section layout_padding">
-            <div
-            class="marketing_content mx-auto d-flex flex-column flex-md-row justify-content-center col-11 col-md-9 px-0"
-            >
-                <h2 class="marketing_title title_section pl-3 pl-md-0 col-md-6">
-                    Il digitale che trasforma: le tecnologie chiave del progetto
-                </h2>
-                <div class="col-md-6">
-                    <p class="" for="">
-                        Elemento centrale del progetto è la piattaforma digitale, concepita come uno spazio dinamico e interattivo pensato per favorire la trasformazione digitale in chiave inclusiva, accessibile e sostenibile. Le sue principali funzionalità includono:
-                        <ol class="list-group list-group-numbered">
-                            <li class="list-group-item">Un marketplace digitale dove gli operatori dell’innovazione possono presentare, qualificare e promuovere i propri servizi digitali;</li>
-                            <li class="list-group-item">Sistemi di matching intelligente, basati su tecnologie di Intelligenza Artificiale e Realtà Virtuale, per analizzare i bisogni degli utenti e suggerire soluzioni personalizzate;</li>
-                            <li class="list-group-item">Percorsi formativi immersivi e aumentati, che sfruttano AI e VR per migliorare le competenze professionali in modo coinvolgente e accessibile;</li>
-                            <li class="list-group-item">Un’architettura cloud-native a microservizi, che assicura flessibilità, interoperabilità e scalabilità dei servizi offerti;</li>
-                            <li class="list-group-item">Strumenti per la collaborazione in tempo reale, come stanze virtuali e call4procurement, che incentivano la co-creazione e il networking tra i membri dell’ecosistema.</li>
-                        </ol>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div
-            class="layout_padding services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
-        >
-            <h2 class="services_section_title title_section">Prodotti e Servizi</h2>
-            <p class="services_section_description mb-0 mt-3">La piattaforma offre un'ampia gamma di prodotti e servizi digitali pensati per facilitare l'adozione di tecnologie innovative, lo sviluppo delle competenze digitali, l'accesso ai finanziamenti e la creazione di reti collaborative tra aziende, startup, istituzioni ed Enti del Terzo settore. L'offerta si suddivide in due aree principali:</p>
-            <div class="mt-5">
-                <p class="service_type">Prodotti digitali</p>
-                <div class="accordion" id="productsAccordion">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#productOne" aria-expanded="false" aria-controls="productOne">
-                            E-services
-                        </button>
-                      </h2>
-                      <div id="productOne" class="accordion-collapse collapse" data-bs-parent="#productsAccordion">
-                        <div class="accordion-body">
-                            Microservizi completi con interfaccia utente, pronti all'uso per il cliente finale
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#productTwo" aria-expanded="false" aria-controls="productTwo">
-                            API
-                        </button>
-                      </h2>
-                      <div id="productTwo" class="accordion-collapse collapse" data-bs-parent="#productsAccordion">
-                        <div class="accordion-body">
-                            Interfacce di programmazione senza GUI, per l'integrazione diretta con altri sistemi
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-5">
-                <p class="service_type">Servizi digitali</p>
-                <div class="accordion" id="servicesAccordion">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serviceOne" aria-expanded="false" aria-controls="serviceOne">
-                            Test Before Invest
-                        </button>
-                      </h2>
-                      <div id="serviceOne" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
-                        <div class="accordion-body">
-                            Servizi che permettono alle aziende di esplorare e testare nuove
-                            tecnologie e soluzioni prima di effettuare investimenti,
-                            attraverso dimostrazioni pratiche, studi di fattibilità,
-                            proof-of-concept, test e validazione di soluzioni.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serviceTwo" aria-expanded="false" aria-controls="serviceTwo">
-                            Consulenza
-                        </button>
-                      </h2>
-                      <div id="serviceTwo" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
-                        <div class="accordion-body">
-                            Servizi progettati per supportare le aziende nel loro percorso di
-                            innovazione e crescita, fornendo supporto strategico e operativo
-                            su diverse aree come l'orientamento tecnologico, la gestione del
-                            cambiamento, l'innovazione sociale e la consulenza ICT e
-                            manageriale.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serviceThree" aria-expanded="false" aria-controls="serviceThree">
-                            Skills and Training
-                        </button>
-                      </h2>
-                      <div id="serviceThree" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
-                        <div class="accordion-body">
-                            Offerta di corsi di formazione standard e personalizzati per
-                            sviluppare competenze in ambito digitale, manageriale e tecnico,
-                            con l'obiettivo di potenziare le capacità delle risorse umane
-                            aziendali in settori strategici.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serviceFour" aria-expanded="false" aria-controls="serviceFour">
-                            Access to Finance
-                        </button>
-                      </h2>
-                      <div id="serviceFour" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
-                        <div class="accordion-body">
-                            Servizi di consulenza finalizzati a facilitare l'accesso a
-                            finanziamenti pubblici e privati, tra cui la finanza agevolata, la
-                            progettazione di crowdfunding, l'accesso al credito, le misure
-                            fiscali e la consulenza in corporate finance.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serviceFive" aria-expanded="false" aria-controls="serviceFive">
-                            Networking, Ecosystem e Open Innovation
-                        </button>
-                      </h2>
-                      <div id="serviceFive" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
-                        <div class="accordion-body">
-                            Attività mirate a facilitare il networking tra aziende,
-                            istituzioni e innovatori, promuovendo la creazione di alleanze
-                            strategiche, la diffusione di conoscenze e la partecipazione a
-                            eventi di innovazione aperta come hackathon e incontri di
-                            brokeraggio.
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center mt-5">
-                <button class="btn btn-primary read_more">Scopri di più</button>
-            </div>
-        </div>
-        <div class="layout_padding addressee_section mx-auto col-11 col-md-9 px-0">
-            <h2 class="addressee_title title_section ">
-                Destinatari
-            </h2>
-            <div class="row pl-3 ">
-                <div
-                class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-center flex-column gap-3"
-                >
-                    <img
-                        src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
-                        alt=""
-                    />
-                    <h5 class="addressee_text d-flex justify-content-start">Imprese</h5>
-                </div>
-                <div
-                class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-center flex-column gap-3"
-                >
-                    <img
-                        src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
-                        alt=""
-                    />
-                    <h5 class="addressee_text d-flex justify-content-start">Pubblica Amministrazione</h5>
-                </div>
-                <div
-                class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-center flex-column gap-3"
-                >
-                    <img
-                        src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
-                        alt=""
-                    />
-                    <h5 class="addressee_text d-flex justify-content-start">Enti del Terzo Settore</h5>
-                </div>
-                <div
-                class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-center flex-column gap-3"
-                >
-                    <img
-                        src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
-                        alt=""
-                    />
-                    <h5 class="addressee_text d-flex justify-content-start">Liberi Professionisti</h5>
-                </div>
-            </div>
-        </div>
-        <div class="layout_padding targets_section mx-auto col-11 col-md-9 px-0">
-            <h2 class="targets_section_title title_section">
-                Settori target
-            </h2>
-            <div class="targets row layout_padding pl-3 gap-3">
-                <div
-                class="target px-0 col-12 col-md-2 d-flex justify-content-center flex-column gap-3"
-                >
-                    <img
-                        src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
-                        alt=""
-                    />
-                    <h5>Cultura</h5>
-                </div>
-                <div
-                class="target px-0 col-12 col-md-2 d-flex justify-content-center flex-column gap-3"
-                >
-                    <img
-                        src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
-                        alt=""
-                    />
-                    <h5>Turismo</h5>
-                </div>
-                <div
-                class="target px-0 col-12 col-md-2 d-flex justify-content-center flex-column gap-3"
-                >
-                    <img
-                        src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
-                        alt=""
-                    />
-                    <h5>Sociale</h5>
-                </div>
-            </div>
-        </div>
-    </div>
 
+<div class="content pb-5">
+      <div
+        class="banner_section banner_services layout_padding d-flex align-items-center"
+      >
+        <div class="container">
+          <h1 class="best_taital text-center text-white p-0">
+            Prodotti e Servizi
+          </h1>
+        </div>
+      </div>
+      <div
+        class="explanation layout_padding mx-auto d-flex flex-column flex-md-row justify-content-center col-11 col-md-9 px-0"
+      >
+        <h2 class="title_section pl-3 pl-md-0 col-md-6">Cosa offriamo</h2>
+        <div class="col-md-6">
+          <p class="" for="">
+            Il catalogo dell'offerta della piattaforma comprende una vasta gamma
+            di prodotti e servizi digitali, progettati per rispondere alle
+            esigenze di imprese, pubblica amministrazione, enti del terzo
+            settore, liberi professionisti e startup. L'offerta si articola in
+            soluzioni tecnologiche avanzate e consulenze specializzate, pensate
+            per favorire l'adozione di tecnologie innovative, il rafforzamento
+            delle competenze digitali, l'accesso a finanziamenti e la creazione
+            di reti collaborative.
+          </p>
+          <p>
+            La piattaforma si propone come punto di riferimento per il supporto
+            alla trasformazione digitale e allo sviluppo di nuove opportunità di
+            business e innovazione attraverso l’erogazione di prodotti e servizi
+            digitali:
+          </p>
+        </div>
+      </div>
+      <div
+        class="services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
+      >
+        <h3 class="service_type layout_padding">Prodotti digitali:</h3>
+        <div
+          class="service mt-5 d-flex justify-content-between align-items-center"
+        >
+          <div
+            class="d-flex flex-column align-items-center justify-content-center"
+          >
+            <h3 class="service_title text-center">E-services</h3>
+            <p class="service_description text-center">
+              Si tratta di microservizi avanzati, facilmente accessibili tramite
+              interfacce utente complete e progettati per rispondere alle
+              esigenze specifiche del cliente finale. Questi servizi sono
+              pensati per essere utilizzati immediatamente, senza necessità di
+              configurazioni complesse, e possono essere integrati facilmente
+              nei processi aziendali per ottimizzare la gestione e le
+              operazioni.
+            </p>
+          </div>
+          <img src="assets/assessment-1.jpg" alt="" />
+        </div>
+        <div class="service d-flex justify-content-between align-items-center">
+          <div
+            class="d-flex flex-column align-items-center justify-content-center"
+          >
+            <h3 class="service_title text-center">API</h3>
+            <p class="service_description text-center">
+              Le API (Application Programming Interface) senza interfaccia
+              grafica sono soluzioni pensate per le aziende che necessitano di
+              integrare sistemi esterni o personalizzati. Queste API permettono
+              una comunicazione diretta tra applicazioni diverse, senza dover
+              gestire una complessa interfaccia utente, facilitando
+              l'automazione e l'efficienza operativa.
+            </p>
+          </div>
+          <img src="assets/test-before-invest-1.jpg" alt="" />
+        </div>
+        <h3 class="service_type layout_padding">Servizi Digitali:</h3>
+        <div class="service d-flex justify-content-between align-items-center">
+          <div
+            class="d-flex flex-column align-items-center justify-content-center"
+          >
+            <h3 class="service_title text-center">Test Before Invest</h3>
+            <p class="service_description text-center">
+              Questa categoria permette alle aziende di esplorare soluzioni e
+              tecnologie prima di fare investimenti significativi. Consente di
+              validare idee e concetti tecnologici attraverso attività pratiche
+              e dimostrative che riducono i rischi e migliorano la decisione
+              sugli investimenti.
+            </p>
+            <div
+              class="d-flex flex-grow-1 justify-content-center align-items-end"
+            >
+              <button class="btn btn-primary read_more">Scopri di più</button>
+            </div>
+          </div>
+          <img src="assets/formazione-1.jpg" alt="" />
+        </div>
+        <div class="service d-flex justify-content-between align-items-center">
+          <div
+            class="d-flex flex-column align-items-center justify-content-center"
+          >
+            <h3 class="service_title text-center">Consulenza</h3>
+            <p class="service_description text-center">
+              Questa categoria fornisce un ampio supporto alle aziende per
+              affrontare sfide strategiche e operazioni aziendali complesse. I
+              servizi di consulenza aiutano le imprese a migliorare
+              l'efficienza, a rispondere alle dinamiche del mercato e a
+              promuovere l’innovazione tecnologica e manageriale.
+            </p>
+            <div
+              class="d-flex flex-grow-1 justify-content-center align-items-end"
+            >
+              <button class="btn btn-primary read_more">Scopri di più</button>
+            </div>
+          </div>
+          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+        </div>
+        <div class="service d-flex justify-content-between align-items-center">
+          <div
+            class="d-flex flex-column align-items-center justify-content-center"
+          >
+            <h3 class="service_title text-center">Skills and Training</h3>
+            <p class="service_description text-center">
+              La formazione è un aspetto cruciale per l’aggiornamento delle
+              competenze interne e per rispondere alle sfide di un mercato
+              sempre più competitivo e tecnologicamente avanzato. Questa
+              categoria offre corsi strutturati per sviluppare competenze
+              tecnologiche, manageriali e trasversali.
+            </p>
+            <div
+              class="d-flex flex-grow-1 justify-content-center align-items-end"
+            >
+              <button class="btn btn-primary read_more">Scopri di più</button>
+            </div>
+          </div>
+          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+        </div>
+        <div class="service d-flex justify-content-between align-items-center">
+          <div
+            class="d-flex flex-column align-items-center justify-content-center"
+          >
+            <h3 class="service_title text-center">Access to Finance</h3>
+            <p class="service_description text-center">
+              Questa categoria aiuta le aziende ad accedere a diverse forme di
+              finanziamento, sia pubbliche che private, per finanziare progetti
+              innovativi e di crescita. I servizi offrono consulenza mirata per
+              la gestione di fondi e risorse, rendendo più facile l'accesso a
+              capitali necessari per lo sviluppo.
+            </p>
+            <div
+              class="d-flex flex-grow-1 justify-content-center align-items-end"
+            >
+              <button class="btn btn-primary read_more">Scopri di più</button>
+            </div>
+          </div>
+          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+        </div>
+        <div class="service d-flex justify-content-between align-items-center">
+          <div
+            class="d-flex flex-column align-items-center justify-content-center"
+          >
+            <h3 class="service_title text-center">
+              Networking, Ecosystem e Open Innovation
+            </h3>
+            <p class="service_description text-center">
+              Questa categoria supporta la creazione di connessioni tra aziende,
+              startup, università, istituzioni e investitori, promuovendo la
+              collaborazione e l’innovazione aperta. L'obiettivo è favorire la
+              creazione di ecosistemi dinamici in cui le imprese possano
+              crescere attraverso il confronto e l’interazione con altri attori.
+            </p>
+            <div
+              class="d-flex flex-grow-1 justify-content-center align-items-end"
+            >
+              <button class="btn btn-primary read_more">Scopri di più</button>
+            </div>
+          </div>
+          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+        </div>
+      </div>
+    </div>
 
     <!-- Footer Section -->
     <#include "/templates/web/fragments/footer-no-padding.ftl">
