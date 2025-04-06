@@ -44,13 +44,14 @@
     <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
 
-
 <div class="content pb-5">
       <div
         class="banner_section banner_services layout_padding d-flex align-items-center"
       >
         <div class="container">
-          <h1 class="best_taital text-center text-white p-0">Consulenza</h1>
+          <h1 class="best_taital text-center text-white p-0">
+            Access to Finance
+          </h1>
         </div>
       </div>
       <div
@@ -60,62 +61,45 @@
         <div class="col-md-6">
           <ul class="list-group">
             <li class="list-group-item">
-              <strong> Orientamento e Assessment: </strong>
-              Questo servizio aiuta le aziende a identificare le loro necessità
-              e priorità strategiche. Attraverso una valutazione approfondita,
-              si analizzano le sfide tecnologiche e organizzative per creare un
-              piano d'azione personalizzato che favorisca l'adozione di
-              soluzioni innovative.
+              <strong> Finanza Agevolata ed Europrogettazione: </strong> Un
+              servizio altamente specializzato che supporta le aziende nella
+              definizione e preparazione di progetti per accedere a
+              finanziamenti pubblici, nazionali ed europei. Comprende la
+              creazione del concept di progetto, la stesura della documentazione
+              amministrativa, la costruzione di partenariati internazionali,
+              l'analisi dei costi e la gestione delle fasi di rendicontazione,
+              nonché le attività di comunicazione e sfruttamento dei risultati
+              del progetto.
             </li>
             <li class="list-group-item">
-              <strong> Innovation Management </strong>
-              Si tratta di un supporto strategico volto a definire le priorità
-              aziendali in ambito tecnologico e organizzativo. Include attività
-              come lo scouting di tecnologie emergenti, la selezione delle
-              soluzioni più adatte e la gestione di progetti di innovazione.
-              Questo servizio supporta le aziende nel miglioramento continuo dei
-              loro processi, prodotti e servizi attraverso l'adozione di
-              tecnologie all'avanguardia.
+              <strong> Accesso al Credito: </strong> Consulenza mirata per
+              aiutare le imprese a sviluppare una strategia di finanziamento che
+              si adatti alle loro necessità, incluso il supporto nella
+              preparazione di pitch per investitori, l'assessment finanziario e
+              la preparazione di documentazione per l'accesso a linee di credito
+              private o pubbliche.
             </li>
             <li class="list-group-item">
-              <strong> Consulenza Manageriale: </strong>
-              Aiuta le aziende a ottimizzare la loro gestione interna,
-              attraverso una guida esperta nella riorganizzazione dei processi
-              aziendali, la gestione delle risorse e la definizione di strategie
-              per affrontare sfide competitive. È indirizzata a migliorare
-              l'efficienza e la produttività complessiva dell'azienda.
+              <strong> Crowdfunding: </strong> Servizi per supportare le aziende
+              nella creazione e gestione di campagne di crowdfunding, un'opzione
+              di finanziamento sempre più popolare per progetti innovativi.
+              Questo servizio include la pianificazione della campagna, la
+              creazione di contenuti e la gestione delle relazioni con i
+              donatori o investitori.
             </li>
             <li class="list-group-item">
-              <strong> Change Management: </strong>
-              Supporta le aziende nel processo di cambiamento organizzativo,
-              aiutando a gestire transizioni complesse, come l'adozione di nuove
-              tecnologie o la riorganizzazione dei processi. Il servizio include
-              la gestione della comunicazione, il coinvolgimento dei dipendenti
-              e il monitoraggio dei risultati.
+              <strong> Misure Fiscali: </strong> Consulenza per sfruttare le
+              opportunità fiscali a disposizione delle aziende, inclusi
+              incentivi, agevolazioni e deduzioni fiscali che possono
+              contribuire a ridurre i costi operativi e favorire l'adozione di
+              nuove tecnologie.
             </li>
             <li class="list-group-item">
-              <strong>Social Innovation Management:</strong>
-              Si focalizza sullo sviluppo di soluzioni innovative che abbiano un
-              impatto positivo sulla società, promuovendo la sostenibilità e
-              l'inclusione sociale. Questo tipo di consulenza aiuta le aziende a
-              implementare pratiche responsabili e socialmente orientate,
-              creando valore anche a livello sociale.
-            </li>
-            <li class="list-group-item">
-              <strong>Consulenza ICT:</strong>
-              Consulenza focalizzata sulle tecnologie dell'informazione e della
-              comunicazione (ICT), essenziale per le aziende che desiderano
-              ottimizzare la loro infrastruttura tecnologica e migliorare la
-              gestione dei dati e delle informazioni, con l'obiettivo di
-              favorire l'integrazione di soluzioni digitali avanzate.
-            </li>
-            <li class="list-group-item">
-              <strong>Engineering:</strong>
-              Servizi tecnici e ingegneristici per progettare, sviluppare e
-              implementare soluzioni tecnologiche avanzate. Questo include
-              attività di progettazione hardware e software, nonché
-              l'ottimizzazione di sistemi e processi industriali attraverso
-              l'adozione di nuove tecnologie.
+              <strong> Corporate Finance: </strong> Consulenza strategica per la
+              gestione finanziaria aziendale, che include attività come la
+              pianificazione finanziaria, l'analisi delle performance e
+              l'ottimizzazione delle risorse economiche, con l'obiettivo di
+              supportare la crescita e la competitività dell'azienda.
             </li>
           </ul>
         </div>
