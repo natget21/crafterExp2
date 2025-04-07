@@ -34,6 +34,10 @@
                             <a href="/contact" class="nav-item nav-link">Contatti</a>
                             
                             
+                            
+                            
+                        </div>
+                        <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gestione <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
@@ -41,16 +45,8 @@
                                     <a href="/hub-manager" class="nav-item nav-link sublink">Hub Manager Login</a>
                                 </div>
                             </div>
-                            
-                        </div>
-                        <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
-                            <!-- <a href="" class="btn px-0">
-                                <i class="fas fa-heart text-primary"></i>
-                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
-                            </a> -->
                             <a href="/order" class="btn px-0 ml-3" id="order-btn" style="display:none">
                                 <i class="fas fa-list text-primary"></i>
-                                <!--<span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>-->
                             </a>
                         </div>
                     </div>
