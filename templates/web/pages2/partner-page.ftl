@@ -80,7 +80,7 @@
             <div class="d-flex justify-content-center">
               <img
                 class="partner_logo"
-                src="assets/synthesis-logo.png"
+                src="/static-assets/assets/synthesis-logo.png"
                 alt=""
               />
             </div>
@@ -105,7 +105,7 @@
           <div class="partner col-12 col-md-6 d-flex flex-column gap-3">
             <h3 class="service_title text-center">Sinergia EPC S.r.l.</h3>
             <div class="d-flex justify-content-center">
-              <img class="partner_logo" src="assets/sinergia-logo.png" alt="" />
+              <img class="partner_logo" src="/static-assets/assets/sinergia-logo.png" alt="" />
             </div>
             <p class="partner_description m-0">
               Nata nel 2021 come spin-off di Sinergia Consulenze, Sinergia EPC
@@ -130,7 +130,7 @@
               Amicucci Formazione S.r.l. (SKILLA)
             </h3>
             <div class="d-flex justify-content-center">
-              <img class="partner_logo" src="assets/skilla-logo.png" alt="" />
+              <img class="partner_logo" src="/static-assets/assets/skilla-logo.png" alt="" />
             </div>
             <p class="partner_description m-0">
               Specializzata nel settore della formazione digitale, SKILLA -
