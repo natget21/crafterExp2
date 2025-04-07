@@ -19,15 +19,19 @@
                                 </a>
                             </span>
                         </div> -->
+                        
+                        
+                        
                         <#assign query = RequestParameters.query?default("") />
-                        <input type="text" id="searchInput" class="form-control" placeholder="Cerca un servizio..." value="${query?default("")}">
+                        
+                        <!-- <input type="text" id="searchInput" class="form-control" placeholder="Cerca un servizio..." value="${query?default("")}">
                         <div class="input-group-append">
                             <span class="input-group-text bg-transparent text-primary">
                                 <a href="javascript:void(0);" onclick="searchServices()">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
-                        </div>
+                        </div> -->
                     </div>
                 </form>
             </div>
