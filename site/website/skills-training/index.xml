@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageskillsandtraining</content-type>
+	<display-template>/templates/web/pages2/skills-training.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f34e</objectGroupId>
+	<objectId>f34e19b8-3483-a295-66fb-1010c6cb4b16</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>skills-training</folder-name>
+	<internal-name>skills-training</internal-name>
+	<navLabel>skills-training</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-04-07T05:08:01.006Z</createdDate>
+	<createdDate_dt>2025-04-07T05:08:01.006Z</createdDate_dt>
+	<lastModifiedDate>2025-04-07T05:08:01.006Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-07T05:08:01.006Z</lastModifiedDate_dt>
+</page>
