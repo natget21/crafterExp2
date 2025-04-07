@@ -35,7 +35,7 @@
                             <a href="#" class="nav-item nav-link">NEWS</a>
 
                             
-                            <a href="/contact" class="nav-item nav-link">Contatti</a>
+                            <a href="/contact" class="nav-item nav-link">CONTATTI</a>
                             
                             
                             
