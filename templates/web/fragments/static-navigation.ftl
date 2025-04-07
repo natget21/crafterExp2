@@ -8,43 +8,7 @@
                     <i class="fa fa-angle-down text-dark"></i>
                 </a>
                 <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 bg-light" id="navbar-vertical" style="width: calc(100% - 30px); z-index: 999;">
-                    <div class="navbar-nav w-100">
-                        <#assign categoriesTree = siteItemService.getSiteTree('/site/components/category', 1)>
-                        <#assign subCategoriesTree = siteItemService.getSiteTree('/site/components/sub_category', 1)>
-                            <#if categoriesTree?has_content>
-                                <#list categoriesTree.childItems as category>
-                                    <#assign categoryItem = siteItemService.getSiteItem(category.storeUrl) />
-                                    
-                                    <#assign relatedSubcategories = subCategoriesTree.childItems?filter(subcategory -> 
-                                         (siteItemService.getSiteItem(subcategory.storeUrl)?has_content && 
-                                            siteItemService.getSiteItem(subcategory.storeUrl).category_o?has_content && 
-                                            siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0]?has_content && 
-                                            siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0].key == category.storeUrl)) /> 
-
-                                            
-                                        <div class="nav-item dropdown dropright">
-                                        <a href="/services?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                                            ${categoryItem.queryValue('name_s')}
-                                            <#if relatedSubcategories?has_content>
-                                                <i class="fa fa-angle-right float-right mt-1"></i>
-                                            </#if>
-                                        </a>
-                                        <#if relatedSubcategories?has_content>
-                                            <div class="dropdown-menu position-absolute rounded-0 border-0 m-0">
-                                                <#list relatedSubcategories as subcategory>
-                                                    <#assign subCategoryItem = siteItemService.getSiteItem(subcategory.storeUrl) />
-                                                    <a href="/services?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}&subCategory=${subCategoryItem.queryValue('internal-name')?url?default("")}&subCategoryURL=${subcategory.storeUrl?url?default("")}" class="dropdown-item">
-                                                        ${subCategoryItem.queryValue('name_s')}
-                                                    </a>
-                                                </#list>
-                                            </div>
-                                        </#if>
-                                    </div>
-                                </#list>
-                            <#else>
-                                <p>No categories found.</p>
-                            </#if>
-                        </div>
+                    
                 </nav>
             </div>
             <div class="col-lg-9">
