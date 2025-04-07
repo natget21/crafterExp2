@@ -14,7 +14,7 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="/index" class="nav-item nav-link active"><i class="fa fa-home mt-1"></i></a>
+                            <a href="/index" class="nav-item nav-link active"><i class="fa fa-home mt-1"></i> HOME</a>
                             
                             <a href="/project" class="nav-item nav-link">PROGETTO</a>
                             <a href="/partner" class="nav-item nav-link">PARTNER</a>
