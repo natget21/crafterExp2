@@ -59,7 +59,6 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
                             <a href="/index" class="nav-item nav-link active">Home</a>
-                            <a id="catalog-btn" href="/services" class="nav-item nav-link" >Catalogo</a>
                             
                         
                             <div class="nav-item dropdown">
