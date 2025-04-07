@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pagetestbeforeinverst</content-type>
+	<display-template>/templates/web/pages2/test-before-invest.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6950</objectGroupId>
+	<objectId>6950f680-537e-bf80-f0b5-6e2914b4b1f6</objectId>
+	<internal-name>test-before-invest</internal-name>
+	<navLabel>test-before-invest</navLabel>
+	<file-name>index.xml</file-name>
+	<folder-name>test-before-invest</folder-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-04-07T05:07:17.575Z</createdDate>
+	<createdDate_dt>2025-04-07T05:07:17.575Z</createdDate_dt>
+	<lastModifiedDate>2025-04-07T05:07:17.575Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-07T05:07:17.575Z</lastModifiedDate_dt>
+</page>
