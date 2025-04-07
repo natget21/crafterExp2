@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageevents</content-type>
+	<display-template>/templates/web/pages2/events.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0d8c</objectGroupId>
+	<objectId>0d8c9ab9-c5ad-1e08-cee4-dff62d36dc58</objectId>
+	<internal-name>event</internal-name>
+	<navLabel>event</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<file-name>index.xml</file-name>
+	<folder-name>event</folder-name>
+	<createdDate>2025-04-07T12:14:11.044Z</createdDate>
+	<createdDate_dt>2025-04-07T12:14:11.044Z</createdDate_dt>
+	<lastModifiedDate>2025-04-07T12:14:11.044Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-07T12:14:11.044Z</lastModifiedDate_dt>
+</page>
