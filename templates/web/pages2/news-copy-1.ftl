@@ -31,7 +31,7 @@
     <link href="/static-assets/css/style.css" rel="stylesheet">
     
     <link rel="stylesheet" href="/static-assets/css/general-style.css" />
-    <link rel="stylesheet" href="/static-assets/css/news.css" />
+    <link rel="stylesheet" href="/static-assets/css/events.css" />
     
     <@crafter.head/>
 </head>
@@ -45,109 +45,91 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
     
-
 <div class="content pb-5">
       <div
         class="banner_section banner_services layout_padding d-flex align-items-center"
       >
         <div class="container">
-          <h1 class="best_taital text-center text-white p-0">News</h1>
+          <h1 class="best_taital text-center text-white p-0">Eventi</h1>
         </div>
       </div>
-      <div
-        class="news_section layout_padding d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
-      >
-        <div class="card mb-4 mb-md-5 shadow-sm border-0">
-          <div class="row g-0">
-            <div class="col-md-5">
+
+      <div class="events layout_padding mx-auto col-11 col-md-9 px-0">
+        <div class="row g-4">
+          <div class="col-12 col-lg-4">
+            <div class="card">
               <img
-                src="https://www.edih4marche.eu/wp-content/uploads/elementor/thumbs/cyber-security-article-r3itn6mf44gxx1olsft3f0jnwfvacf3svkvdgomqvo.jpg"
-                class="img-fluid rounded-start object-fit-cover h-100"
-                alt="AI Matters"
+                src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
+                alt="Event Image"
               />
-            </div>
-            <div class="col-md-7">
-              <div class="card-body d-flex flex-column h-100">
-                <small class="text-muted d-block mb-1">3 Aprile, 2025</small>
-                <h5 class="card-title fw-bold">
-                  Roadshow AI MATTERS: “L’Ai che fa la differenza nel
-                  manifatturiero”
+              <div class="card-body">
+                <h5 class="card-title">
+                  VIRTUALIA – Il Futuro digitale che ci attende
                 </h5>
-                <p class="card-text">
-                  Un'opportunità per conoscere da vicino soluzioni di
-                  intelligenza artificiale dedicate al mondo manifatturiero.
-                  Tappa marchigiana – Jesi, 10 aprile 2024
-                </p>
-                <div
-                  class="flex-grow-1 d-flex align-items-end justify-content-center"
-                >
-                  <a href="#" class="btn btn-primary btn-sm read_more"
-                    >Scopri di piu'</a
-                  >
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary rounded">Leggi</button>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="card mb-4 mb-md-5 shadow-sm border-0">
-          <div class="row g-0">
-            <div class="col-md-5">
+          <div class="col-12 col-lg-4">
+            <div class="card">
               <img
-                src="https://www.edih4marche.eu/wp-content/uploads/elementor/thumbs/Immagine-2025-03-21-113701-r36l0v7qfy5ke2l0kv5iutd0177k5ot20ef6gzuhzo.png"
-                class="img-fluid rounded-start object-fit-cover h-100"
-                alt="AI Matters"
+                src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
+                alt="Event Image"
               />
-            </div>
-            <div class="col-md-7">
-              <div class="card-body d-flex flex-column h-100">
-                <small class="text-muted d-block mb-1">3 Aprile, 2025</small>
-                <h5 class="card-title fw-bold">
-                  Roadshow AI MATTERS: “L’Ai che fa la differenza nel
-                  manifatturiero”
+              <div class="card-body">
+                <h5 class="card-title">
+                  DANTE EDIH – Riunione Plenaria (Giugno 2024)
                 </h5>
-                <p class="card-text">
-                  Un'opportunità per conoscere da vicino soluzioni di
-                  intelligenza artificiale dedicate al mondo manifatturiero.
-                  Tappa marchigiana – Jesi, 10 aprile 2024
-                </p>
-                <div
-                  class="flex-grow-1 d-flex align-items-end justify-content-center"
-                >
-                  <a href="#" class="btn btn-primary btn-sm read_more"
-                    >Scopri di piu'</a
-                  >
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary rounded">Leggi</button>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="card mb-4 mb-md-5 shadow-sm border-0">
-          <div class="row g-0">
-            <div class="col-md-5">
+          <div class="col-12 col-lg-4">
+            <div class="card">
               <img
-                src="https://www.edih4marche.eu/wp-content/uploads/elementor/thumbs/immagine-notizia-evento-conf-macer-micozzi-r2491wgzopea0i1vucxs8mnofyi74trc4cpmspcdqs.png"
-                class="img-fluid rounded-start object-fit-cover h-100"
-                alt="AI Matters"
+                src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
+                alt="Event Image"
               />
+              <div class="card-body">
+                <h5 class="card-title">ForItAAL 2024</h5>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary rounded">Leggi</button>
+                </div>
+              </div>
             </div>
-            <div class="col-md-7">
-              <div class="card-body d-flex flex-column h-100">
-                <small class="text-muted d-block mb-1">3 Aprile, 2025</small>
-                <h5 class="card-title fw-bold">
-                  Roadshow AI MATTERS: “L’Ai che fa la differenza nel
-                  manifatturiero”
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card">
+              <img
+                src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
+                alt="Event Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Building a Northeast Research-Driven Innovation Ecosystem
                 </h5>
-                <p class="card-text">
-                  Un'opportunità per conoscere da vicino soluzioni di
-                  intelligenza artificiale dedicate al mondo manifatturiero.
-                  Tappa marchigiana – Jesi, 10 aprile 2024
-                </p>
-                <div
-                  class="flex-grow-1 d-flex align-items-end justify-content-center"
-                >
-                  <a href="#" class="btn btn-primary btn-sm read_more"
-                    >Scopri di piu'</a
-                  >
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary rounded">Leggi</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card">
+              <img
+                src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
+                alt="Event Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Tecnologie e Soluzioni Digitali per una Vita Sana e Attiva
+                </h5>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary rounded">Leggi</button>
                 </div>
               </div>
             </div>
@@ -155,7 +137,6 @@
         </div>
       </div>
     </div>
-
 
 
 
