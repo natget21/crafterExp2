@@ -31,8 +31,8 @@
                             </div>
                         
                             <a href="#" class="nav-item nav-link">TECNOLOGIE</a>
-                            <a href="#" class="nav-item nav-link">EVENTI</a>
-                            <a href="#" class="nav-item nav-link">NEWS</a>
+                            <a href="/event" class="nav-item nav-link">EVENTI</a>
+                            <a href="/news" class="nav-item nav-link">NEWS</a>
 
                             
                             <a href="/contact" class="nav-item nav-link">CONTATTI</a>
