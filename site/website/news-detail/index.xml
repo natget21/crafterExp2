@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pagenewsdetail</content-type>
+	<display-template>/templates/web/pages2/news-detail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3408</objectGroupId>
+	<objectId>34088408-2b1e-22b0-ec12-01734deab35d</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>news-detail</folder-name>
+	<internal-name>news-detail</internal-name>
+	<navLabel>news-detail</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-04-07T12:17:37.800Z</createdDate>
+	<createdDate_dt>2025-04-07T12:17:37.800Z</createdDate_dt>
+	<lastModifiedDate>2025-04-07T12:17:37.800Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-07T12:17:37.800Z</lastModifiedDate_dt>
+</page>
