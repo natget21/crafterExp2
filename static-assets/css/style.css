@@ -9758,6 +9758,12 @@ button.bg-primary:focus {
     background-color: rgb(255 255 255) !important;
 }
 
+a.bg-dark2:hover, a.bg-dark2:focus,
+button.bg-dark2:hover,
+button.bg-dark2:focus {
+  background-color: rgb(255 255 255) !important;
+}
+
 @keyframes action {
   0% {
     transform: translateY(0);
