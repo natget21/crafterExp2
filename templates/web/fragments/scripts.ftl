@@ -27,13 +27,18 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('logout-btn').style.display = 'inline-block';
         document.getElementById('order-btn').style.display = 'inline-block';
         document.getElementById('catalog-btn').style.display = 'inline-block';
+        document.getElementById('default-nav').style.display = 'inline-block';
+        document.getElementById('static-nav').style.display = 'none';
         document.getElementById('add-order').style.display = 'inline-block';
+        
         
     }else{
         document.getElementById('login-btn').style.display = 'inline-block';
         document.getElementById('logout-btn').style.display = 'none';
         document.getElementById('order-btn').style.display = 'none';
         document.getElementById('catalog-btn').style.display = 'none';
+        document.getElementById('default-nav').style.display = 'none';
+        document.getElementById('static-nav').style.display = 'inline-block';
         document.getElementById('add-order').style.display = 'none';
     }
 
