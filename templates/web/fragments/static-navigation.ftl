@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<div id="static-nav" style="display:none" class="container-fluid bg-dark">
+<div id="static-nav" style="display:none" class="container-fluid bg-dark2">
         <div class="row px-xl-5">
             
             <div class="col-lg-12">
