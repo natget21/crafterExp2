@@ -9752,7 +9752,7 @@ a.text-dark:hover, a.text-dark:focus {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: black !important;
+  background-color: #3d464d !important;
 }
 
 .bg-dark2 {
