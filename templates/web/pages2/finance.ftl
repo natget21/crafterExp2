@@ -43,6 +43,8 @@
     
     <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
+    <#include "/templates/web/fragments/static-navigation.ftl">
+    
 <div class="content pb-5">
       <div
         class="banner_section banner_services layout_padding d-flex align-items-center"
