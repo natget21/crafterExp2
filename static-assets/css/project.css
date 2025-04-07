@@ -53,7 +53,7 @@
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #ffd333;
+  background-color:  var(--primary-color-blue);
 }
 
 .addressee_section .addressee_title {
