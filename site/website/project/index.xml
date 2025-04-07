@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageproject</content-type>
+	<display-template>/templates/web/pages2/project.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b8f9</objectGroupId>
+	<objectId>b8f96169-5835-c9eb-712d-f0a6b561a4d5</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>project</folder-name>
+	<internal-name>project</internal-name>
+	<navLabel>project</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-04-07T05:09:43.676Z</createdDate>
+	<createdDate_dt>2025-04-07T05:09:43.676Z</createdDate_dt>
+	<lastModifiedDate>2025-04-07T05:09:43.676Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-07T05:09:43.676Z</lastModifiedDate_dt>
+</page>
