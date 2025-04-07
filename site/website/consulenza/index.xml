@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageconsoltant</content-type>
+	<display-template>/templates/web/pages2/consulenza.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f990</objectGroupId>
+	<objectId>f990bccb-c67e-5e72-fea0-dbccde89746b</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>consulenza</folder-name>
+	<internal-name>consulenza</internal-name>
+	<navLabel>consulenza</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-04-07T05:16:18.252Z</createdDate>
+	<createdDate_dt>2025-04-07T05:16:18.252Z</createdDate_dt>
+	<lastModifiedDate>2025-04-07T05:16:18.252Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-07T05:16:18.252Z</lastModifiedDate_dt>
+</page>
