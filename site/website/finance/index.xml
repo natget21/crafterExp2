@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pagefinance</content-type>
+	<display-template>/templates/web/pages2/finance.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e70f</objectGroupId>
+	<objectId>e70f5cff-7a90-da61-fdc4-addd7476f4a8</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>finance</folder-name>
+	<internal-name>finance</internal-name>
+	<navLabel>finance</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-04-07T05:15:28.217Z</createdDate>
+	<createdDate_dt>2025-04-07T05:15:28.217Z</createdDate_dt>
+	<lastModifiedDate>2025-04-07T05:15:28.217Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-07T05:15:28.217Z</lastModifiedDate_dt>
+</page>
