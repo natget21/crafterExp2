@@ -8,13 +8,7 @@
     <!-- Header Section (Logo, Search Bar, etc.) -->
     <#include "/templates/web/fragments/header.ftl">
     
-     <!-- Navigation Section --> 
-    <#assign isLoggedIn = localStorage.getItem('crafterVadinUser')?>
-    <#if isLoggedIn?has_content>
-        <#include "/templates/web/fragments/navigation.ftl">
-    <#else>
-        <#include "/templates/web/fragments/static-navigation.ftl">
-    </#if>
+  
 
 
     <!-- Main Content Section -->
