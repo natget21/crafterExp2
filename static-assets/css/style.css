@@ -9738,6 +9738,8 @@ nav-link.active {
     color: rgb(0 122 255);
 }
 
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link.active { color: color: rgb(0 122 255); }
+
 @keyframes action {
   0% {
     transform: translateY(0);
