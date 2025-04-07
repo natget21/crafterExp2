@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pagenetworking</content-type>
+	<display-template>/templates/web/pages2/networking.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>40cf</objectGroupId>
+	<objectId>40cf437b-6337-aa6a-10dc-22025351c3f2</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>networking</folder-name>
+	<internal-name>networking</internal-name>
+	<navLabel>networking</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-04-07T05:14:11.361Z</createdDate>
+	<createdDate_dt>2025-04-07T05:14:11.361Z</createdDate_dt>
+	<lastModifiedDate>2025-04-07T05:14:11.361Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-07T05:14:11.361Z</lastModifiedDate_dt>
+</page>
