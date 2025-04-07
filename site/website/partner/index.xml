@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pagepartner</content-type>
+	<display-template>/templates/web/pages/partner-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>91a0</objectGroupId>
+	<objectId>91a02b5c-198b-b8f9-022e-2d220f8ca591</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>partner</folder-name>
+	<internal-name>partner</internal-name>
+	<navLabel>partner</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-04-07T05:10:35.003Z</createdDate>
+	<createdDate_dt>2025-04-07T05:10:35.003Z</createdDate_dt>
+	<lastModifiedDate>2025-04-07T05:10:35.003Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-07T05:10:35.003Z</lastModifiedDate_dt>
+</page>
