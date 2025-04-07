@@ -14,9 +14,9 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <!-- <a href="/index" class="nav-item nav-link active">Home</a> -->
+                            <a href="/index" class="nav-item nav-link active">Home</a>
                             
-                            <a href="/project" class="nav-item nav-link active">PROGETTO</a>
+                            <a href="/project" class="nav-item nav-link">PROGETTO</a>
                             <a href="/partner" class="nav-item nav-link">PARTNER</a>
                         
                             <div class="nav-item dropdown">
