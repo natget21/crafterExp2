@@ -9726,6 +9726,18 @@ a.text-dark:hover, a.text-dark:focus {
   border-color: rgb(24 52 125);
 }
 
+.btn.btn-primary {
+  color: white !important;
+}
+
+.text-primary {
+  color: rgb(0 122 255) !important;
+}
+
+nav-link.active {
+    color: rgb(0 122 255);
+}
+
 @keyframes action {
   0% {
     transform: translateY(0);
