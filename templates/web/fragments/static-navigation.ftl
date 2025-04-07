@@ -20,8 +20,7 @@
                             <a href="/partner" class="nav-item nav-link">PARTNER</a>
                         
                             <div class="nav-item dropdown">
-                                <a href="/services" class="nav-link">SERVIZI </a>
-                                <a href="/services" class="nav-link dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-angle-down mt-1"></i></a>
+                                <a href="/services" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown">SERVIZI <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
                                     <a href="/consulenza" class="nav-item nav-link sublink">Consulenza</a>
                                     <a href="/finance" class="nav-item nav-link sublink">Finance</a>
