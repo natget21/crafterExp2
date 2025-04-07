@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pagenews</content-type>
+	<display-template>/templates/web/pages2/news.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a020</objectGroupId>
+	<objectId>a0206e10-1900-47a2-e4a6-da479c607b12</objectId>
+	<internal-name>news</internal-name>
+	<navLabel>news</navLabel>
+	<file-name>index.xml</file-name>
+	<folder-name>news</folder-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-04-07T12:13:17.626Z</createdDate>
+	<createdDate_dt>2025-04-07T12:13:17.626Z</createdDate_dt>
+	<lastModifiedDate>2025-04-07T12:13:17.626Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-07T12:13:17.626Z</lastModifiedDate_dt>
+</page>
