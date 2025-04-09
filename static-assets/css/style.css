@@ -9711,8 +9711,13 @@ a.text-dark:hover, a.text-dark:focus {
     display: inline-block;       /* Ensure the element behaves as inline */
 }
 
-.sublink:hover {
+
+.sublink {
     color: black !important;
+}
+
+.sublink:hover {
+    color: var(--primary-color-blue) !important;
 }
 
 .btn-primary {
