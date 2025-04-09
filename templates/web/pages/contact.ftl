@@ -12,6 +12,7 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
 
+    <#include "/templates/web/components/home-slider.ftl"> 
 <!-- Contact Start -->
     <div class="container-fluid">
         <div class="row px-xl-5">
