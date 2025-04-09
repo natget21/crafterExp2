@@ -20,29 +20,28 @@
                     <div id="success"></div>
                     <form name="sentMessage" id="contactForm" novalidate="novalidate">
                         <div class="control-group">
-                            <input type="text" class="form-control" id="name" placeholder="Your Name"
-                                required="required" data-validation-required-message="Please enter your name" />
+                            <input type="text" class="form-control" id="name" placeholder="Nome"
+                                required="required" data-validation-required-message="Scrivi il tuo nome" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <input type="email" class="form-control" id="email" placeholder="Your Email"
-                                required="required" data-validation-required-message="Please enter your email" />
+                            <input type="email" class="form-control" id="email" placeholder="Email"
+                                required="required" data-validation-required-message="La tua mail" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <input type="text" class="form-control" id="subject" placeholder="Subject"
-                                required="required" data-validation-required-message="Please enter a subject" />
+                            <input type="text" class="form-control" id="subject" placeholder="Soggetto"
+                                required="required" data-validation-required-message="Inserisci un oggetto" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
                             <textarea class="form-control" rows="8" id="message" placeholder="Message"
                                 required="required"
-                                data-validation-required-message="Please enter your message"></textarea>
+                                data-validation-required-message="Scrivi il tuo messaggio"></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div>
-                            <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Send
-                                Message</button>
+                            <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Invia</button>
                         </div>
                     </form>
                 </div>
