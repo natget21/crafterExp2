@@ -10,7 +10,7 @@
     <#include "/templates/web/fragments/header.ftl">
     
      <!-- Navigation Section --> 
-    <#include "/templates/web/fragments/navigation2.ftl">
+    <#include "/templates/web/fragments/navigation-no-padding.ftl">
 	<div style="background-color: #F5F5F5">
 	<!-- banner section start-->
 	<div class=" layout_padding" style="background-color: #F5F5F5">
