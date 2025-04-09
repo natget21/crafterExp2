@@ -35,7 +35,7 @@
                     </div>
                     <div class="col-md-4 mb-5">
                         <h5 class="text-secondary text-uppercase mb-4">Newsletter</h5>
-                        <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
+                        <p>Iscriviti alla nostra newsletter per restare sempre aggiornato!</p>
                         <form action="">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Scrivi il tuo indirizzo email">
