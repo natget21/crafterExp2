@@ -735,7 +735,7 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>cud_s</id>
+					<id>cup_s</id>
 					<iceId></iceId>
 					<title>CUP</title>
 					<description></description>
