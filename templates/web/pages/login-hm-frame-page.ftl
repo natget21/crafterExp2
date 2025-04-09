@@ -19,9 +19,9 @@
                 <div class="col-lg-4 col-6 text-left">
                     
                 </div>
-                <div class="col-lg-4 col-6 text-right">
+                <!--<div class="col-lg-4 col-6 text-right">
                     <a href="/" class=" text-uppercase px-4">Home</a>
-                </div>
+                </div>-->
             </div>
         </div>
     </header>
