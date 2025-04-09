@@ -53,9 +53,9 @@
                     frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
                 <div class="bg-light p-30 mb-3">
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@example.com</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Marche, Italia</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>innovation@synthesis3.it</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-primary mr-3"></i>  39 071 6627492</p>
                 </div>
             </div>
         </div>
