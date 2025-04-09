@@ -4338,7 +4338,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: var(--primary-color-blue);
 }
 
 .navbar-dark .navbar-toggler {
@@ -9772,13 +9772,6 @@ button.bg-dark2:focus {
 
 .navbar-collapse {
     background-color: rgb(255 255 255) !important;
-}
-
-.navbar-dark .navbar-nav .show > .nav-link,
-.navbar-dark .navbar-nav .active > .nav-link,
-.navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .nav-link.active {
-  color: var(--primary-color-blue) !important;
 }
 
 @keyframes action {
