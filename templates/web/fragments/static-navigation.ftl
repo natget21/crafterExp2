@@ -54,5 +54,5 @@
                     </div>
                 </nav>
             </div>
-        </div><#if page.request.url?starts_with("/project")>active</#if>
+        </div><#if page.url?starts_with("/project")>active</#if>
     </div>
