@@ -22,24 +22,53 @@
 document.addEventListener('DOMContentLoaded', function () {
     const user = localStorage.getItem('crafterVadinUser');
     console.log(document.getElementById('catalog-btn'),"catalog-btn")
+    
+    
+    const hide = (id) => {
+      const el = document.getElementById(id);
+      if (el) el.style.display = 'none';
+    };
+    
+    const show = (id) => {
+      const el = document.getElementById(id);
+      if (el) el.style.display = 'inline-block';
+    };
+
+    
     if (user) {
-        document.getElementById('login-btn').style.display = 'none';
-        document.getElementById('logout-btn').style.display = 'inline-block';
-        document.getElementById('order-btn').style.display = 'inline-block';
-        document.getElementById('catalog-btn').style.display = 'inline-block';
-        document.getElementById('default-nav').style.display = 'inline-block';
-        document.getElementById('static-nav').style.display = 'none';
-        document.getElementById('add-order').style.display = 'inline-block';
+        // document.getElementById('login-btn').style.display = 'none';
+        // document.getElementById('logout-btn').style.display = 'inline-block';
+        // document.getElementById('order-btn').style.display = 'inline-block';
+        // document.getElementById('catalog-btn').style.display = 'inline-block';
+        // document.getElementById('default-nav').style.display = 'inline-block';
+        // document.getElementById('static-nav').style.display = 'none';
+        // document.getElementById('add-order').style.display = 'inline-block';
+        
+        hide('login-btn');
+        show('logout-btn');
+        show('order-btn');
+        show('catalog-btn');
+        show('default-nav');
+        hide('static-nav');
+        show('add-order');
         
         
     }else{
-        document.getElementById('login-btn').style.display = 'inline-block';
-        document.getElementById('logout-btn').style.display = 'none';
-        document.getElementById('order-btn').style.display = 'none';
-        document.getElementById('catalog-btn').style.display = 'none';
-        document.getElementById('default-nav').style.display = 'none';
-        document.getElementById('static-nav').style.display = 'inline-block';
-        document.getElementById('add-order').style.display = 'none';
+        // document.getElementById('login-btn').style.display = 'inline-block';
+        // document.getElementById('logout-btn').style.display = 'none';
+        // document.getElementById('order-btn').style.display = 'none';
+        // document.getElementById('catalog-btn').style.display = 'none';
+        // document.getElementById('default-nav').style.display = 'none';
+        // document.getElementById('static-nav').style.display = 'inline-block';
+        // document.getElementById('add-order').style.display = 'none';
+        
+        show('login-btn');
+        hide('logout-btn');
+        hide('order-btn');
+        hide('catalog-btn');
+        hide('default-nav');
+        show('static-nav');
+        hide('add-order');
     }
 
     document.getElementById('logout-btn').addEventListener('click', function (event) {
