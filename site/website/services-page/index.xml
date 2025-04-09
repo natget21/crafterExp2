@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageservices-new</content-type>
+	<display-template>/templates/web/pages2/services.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d1ff</objectGroupId>
+	<objectId>d1ffa9db-4178-a856-8dab-003f3bc454e0</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>services-page</folder-name>
+	<internal-name>services-page</internal-name>
+	<navLabel>services-page</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-04-07T05:08:54.085Z</createdDate>
+	<createdDate_dt>2025-04-07T05:08:54.085Z</createdDate_dt>
+	<lastModifiedDate>2025-04-07T05:08:54.085Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-07T05:08:54.085Z</lastModifiedDate_dt>
+</page>
