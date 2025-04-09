@@ -16,7 +16,7 @@
                         <div class="navbar-nav mr-auto py-0">
                             <a href="/index" class="nav-item nav-link active"><i class="fa fa-home mt-1"></i> HOME</a>
                             
-                            <a href="/project" class="nav-item nav-link">PROGETTO</a>
+                            <a href="/project" class="nav-item nav-link <#if page.url?starts_with('/project')>active</#if>">PROGETTO</a>
                             <a href="/partner" class="nav-item nav-link">PARTNER</a>
                         
                             <div class="nav-item dropdown">
