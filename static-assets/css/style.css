@@ -9774,6 +9774,13 @@ button.bg-dark2:focus {
     background-color: rgb(255 255 255) !important;
 }
 
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: var(--primary-color-blue) !important;
+}
+
 @keyframes action {
   0% {
     transform: translateY(0);
