@@ -1,0 +1,112 @@
+.banner_project {
+  background-image: url(/static-assets/assets/banner-project.jpg);
+}
+
+.marketing_section {
+  color: black;
+  flex-wrap: nowrap;
+}
+
+.marketing_section p {
+  font-size: 1.2rem;
+}
+
+.services_section .services_section_description {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.services_section .service_type {
+  font-weight: 550 !important;
+  color: black;
+  font-size: 45px;
+}
+
+.services_section .service {
+  margin-top: 100px;
+}
+
+.services_section .service_title {
+  font-size: 2.5rem;
+}
+
+.services_section .service_description {
+  font-size: 18px;
+  color: black;
+}
+
+.service img {
+  width: 50%;
+  height: 50%;
+}
+
+.service {
+  gap: 18px;
+}
+
+.services_section .service:nth-child(odd) {
+  flex-direction: row;
+}
+
+.services_section .service:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color:  var(--primary-color-blue);
+}
+
+.addressee_section .addressee_title {
+  font-size: 50px;
+  font-weight: 500 !important;
+  color: black;
+}
+
+.addressee_section img {
+  width: 70px;
+}
+
+.aplication_scope_section .application_scope img {
+  width: 70px;
+}
+
+.aplication_scope_text {
+  font-size: 2rem;
+  color: black;
+}
+
+.technology_section {
+  padding-bottom: 90px;
+}
+
+.technologies .tech {
+  /* padding: 0; */
+}
+
+.technologies .tech img {
+  width: 70px;
+}
+
+.targets .target img {
+  width: 70px;
+}
+
+@media (max-width: 992px) {
+  .marketing_section h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .service {
+    flex-direction: column !important;
+  }
+
+  .service img {
+    width: 100%;
+  }
+
+  .technologies {
+    gap: 50px;
+  }
+}
