@@ -20,7 +20,7 @@
                             <a href="/partner" class="nav-item nav-link">PARTNER</a>
                         
                             <div class="nav-item dropdown">
-                                <a href="/services" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown">SERVIZI <i class="fa fa-angle-down mt-1"></i></a>
+                                <a href="" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown">SERVIZI <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
                                     <a href="/consulenza" class="nav-item nav-link sublink">Consulenza</a>
                                     <a href="/finance" class="nav-item nav-link sublink">Finance</a>
@@ -44,7 +44,7 @@
                         <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">DASHBOARD <i class="fa fa-angle-down mt-1"></i></a>
-                                <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
+                                <div class="dropdown-menu  rounded-0 border-0 m-0">
                                     <a href="/partner-login" class="nav-item nav-link sublink">Partner Login</a>
                                     <a href="/hub-manager" class="nav-item nav-link sublink">Hub Manager Login</a>
                                 </div>
