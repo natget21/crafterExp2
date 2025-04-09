@@ -29,8 +29,6 @@
                                     <a href="/test-before-invest" class="nav-item nav-link sublink">Test before invest</a>
                                 </div>
                             </div>
-                        
-                            <a href="#" class="nav-item nav-link">TECNOLOGIE</a>
                             <a href="/event" class="nav-item nav-link">EVENTI</a>
                             <a href="/news" class="nav-item nav-link">NEWS</a>
 
