@@ -1,4 +1,5 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
+<#assign currentUrl = request.requestURI?default("") />
 
 <div id="static-nav" style="display:none" class="container-fluid bg-dark2">
         <div class="row px-xl-5">
@@ -54,5 +55,5 @@
                     </div>
                 </nav>
             </div>
-        </div><#if page.url!""?starts_with("/project")>active</#if>
+        </div><#if currentUrl?starts_with("/project")>active</#if>
     </div>
