@@ -135,6 +135,7 @@ a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
   background-color: var(--secondary-active) !important;
+  color: white !important;
 }
 
 @media (max-width: 767px) {
