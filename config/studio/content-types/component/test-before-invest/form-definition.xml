@@ -104,7 +104,7 @@
 					</constraints>
 				</field>
 				<field>
-					<type>dropdown</type>
+					<type>input</type>
 					<id>name_s</id>
 					<iceId></iceId>
 					<title>Nome TBI</title>
