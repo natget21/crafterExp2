@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>f97e</objectGroupId>
+    <objectId>f97e86cb-0911-46b2-bbe6-f6158c2c1b8c</objectId>
+    <file-name>f97e86cb-0911-46b2-bbe6-f6158c2c1b8c.xml</file-name>
+    <folder-name/>
+    <internal-name>FORMAZIONE </internal-name>
+    <name_s>Formazione </name_s>
+    <rootId>ideale:/site/components/services/test-before-invest/demo/cf43fc13-2570-0bfc-3682-5d9c874c1fb1.xml</rootId>
+    <internal-name>VULNERABILITY ASSESSMENT</internal-name>
+    <objectGroupId>cf43</objectGroupId>
+    <costo_s>650</costo_s>
+    <localId>/site/components/services/test-before-invest/demo/cf43fc13-2570-0bfc-3682-5d9c874c1fb1.xml</localId>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+   <value>Formazione-a-catalogo-tecnica-e-manageriale</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <cud_s>1234</cud_s>
+    <crafterSite>ideale</crafterSite>
+    <crafterPublishedDate>2025-04-09T21:12:49.236148746Z</crafterPublishedDate>
+    <agevolazione_b>true</agevolazione_b>
+    <no-template-required>true</no-template-required>
+    <description_t>Il test di vulnerability assessment offre un servizio che analizza l? infrastruttura aziendale e individua eventuali vulnerabilit� , misurandone la gravit� . L? analisi del report suggerisce possibili remediation per sanare le vulnerabilit� riscontrate</description_t>
+    <content-type>/component/test-before-invest</content-type>
+    <id>ideale:/site/components/services/test-before-invest/demo/cf43fc13-2570-0bfc-3682-5d9c874c1fb1.xml</id>
+    <objectId>cf43fc13-2570-0bfc-3682-5d9c874c1fb1</objectId>
+    <productid_s>PRO_a1a3ef1d</productid_s>
+    <createdDate_dt>2024-12-03T08:57:18.389Z</createdDate_dt>
+    <crafterPublishedDate_dt>2025-04-09T21:12:49.236148746Z</crafterPublishedDate_dt>
+    <lastModifiedDate>2025-03-20T03:58:54.162Z</lastModifiedDate>
+    <duration_s>15 giorni</duration_s>
+    <createdDate>2024-12-03T08:57:18.389Z</createdDate>
+    <lastModifiedDate_dt>2025-03-20T03:58:54.162Z</lastModifiedDate_dt>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <partners_o>{item=[{include=/site/components/providers/c455c66d-a59a-f98b-856e-d29ae89f708c.xml, component={name_s=UNIVERSITA DEGLI STUDI DI CAMERINO, createdDate_dt=2024-12-03T08:50:50.900Z, lastModifiedDate=2024-12-03T08:50:50.900Z, internal-name=UNIVERSITA DEGLI STUDI DI CAMERINO, objectGroupId=c455, createdDate=2024-12-03T08:50:50.900Z, no-template-required=false, lastModifiedDate_dt=2024-12-03T08:50:50.900Z, merge-strategy=inherit-levels, content-type=/component/provider, display-template=/templates/web/items/provider-template.ftl, file-name=c455c66d-a59a-f98b-856e-d29ae89f708c.xml, objectId=c455c66d-a59a-f98b-856e-d29ae89f708c}, value=UNIVERSITA DEGLI STUDI DI CAMERINO, disableFlattening=false, key=/site/components/providers/c455c66d-a59a-f98b-856e-d29ae89f708c.xml}]}</partners_o>
+    <file-name>cf43fc13-2570-0bfc-3682-5d9c874c1fb1.xml</file-name>
+    <inheritsFrom_smv>[/crafter-level-descriptor.level.xml, /site/crafter-level-descriptor.level.xml, /site/components/crafter-level-descriptor.level.xml, /site/components/services/crafter-level-descriptor.level.xml, /site/components/services/test-before-invest/crafter-level-descriptor.level.xml, /site/components/services/test-before-invest/demo/crafter-level-descriptor.level.xml]</inheritsFrom_smv>
+    <durata_s>20</durata_s>
+    <modalita_t>Online</modalita_t>
+    <maxpartecipanti_s>10</maxpartecipanti_s>
+    <createdDate>2025-04-10T13:57:08.230Z</createdDate>
+    <createdDate_dt>2025-04-10T13:57:08.230Z</createdDate_dt>
+    <lastModifiedDate>2025-04-10T13:57:08.230Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-10T13:57:08.230Z</lastModifiedDate_dt>
+</component>
