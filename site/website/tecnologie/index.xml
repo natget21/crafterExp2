@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pagetecnologie</content-type>
+	<display-template>/templates/web/pages2/tecnologie.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8c0b</objectGroupId>
+	<objectId>8c0b9452-9041-8c3b-5db0-cc32b0b4c23d</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>tecnologie</folder-name>
+	<internal-name>tecnologie</internal-name>
+	<navLabel>tecnologie</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-04-10T15:18:41.543Z</createdDate>
+	<createdDate_dt>2025-04-10T15:18:41.543Z</createdDate_dt>
+	<lastModifiedDate>2025-04-10T15:18:41.543Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-10T15:18:41.543Z</lastModifiedDate_dt>
+</page>
