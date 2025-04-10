@@ -26,13 +26,13 @@
                                     <a href="/consulenza" class="nav-item nav-link sublink <#if currentUrl?starts_with("/consulenza")>active</#if>">Consulenza</a>
                                     <a href="/finance" class="nav-item nav-link sublink <#if currentUrl?starts_with("/finance")>active</#if>">Finance</a>
                                     <a href="/networking" class="nav-item nav-link sublink <#if currentUrl?starts_with("/networking")>active</#if>">Networking</a>
-                                    <a href="/tecnologie" class="nav-item nav-link sublink <#if currentUrl?starts_with("/tecnologie")>active</#if>">Tecnologie</a>
                                     <a href="/skills-training" class="nav-item nav-link sublink <#if currentUrl?starts_with("/skills-training")>active</#if>">Skills & Training</a>
                                     <a href="/test-before-invest" class="nav-item nav-link sublink <#if currentUrl?starts_with("/test-before-invest")>active</#if>">Test before invest</a>
                                 </div>
                             </div>
                             <a href="/event" class="nav-item nav-link <#if currentUrl?starts_with("/event")>active</#if>">EVENTI</a>
                             <a href="/news" class="nav-item nav-link <#if currentUrl?starts_with("/news")>active</#if>">NEWS</a>
+                            <a href="/tecnologie" class="nav-item nav-link sublink <#if currentUrl?starts_with("/tecnologie")>active</#if>">TECNOLOGIE</a>
 
                             
                             <a href="/contact" class="nav-item nav-link <#if currentUrl?starts_with("/contact")>active</#if>">CONTATTI</a>
