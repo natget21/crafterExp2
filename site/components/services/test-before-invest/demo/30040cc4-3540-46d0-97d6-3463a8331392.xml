@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/test-before-invest</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>3004</objectGroupId>
+    <objectId>30040cc4-3540-46d0-97d6-3463a8331392</objectId>
+    <file-name>30040cc4-3540-46d0-97d6-3463a8331392.xml</file-name>
+    <folder-name/>
+    <internal-name>TEST6</internal-name>
+    <name_s>test6</name_s>
+    <description_t>test</description_t>
+    <costo_s>test</costo_s>
+    <cup_s>test</cup_s>
+    <productid_s>PRO_27652394</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>DEMO</key>
+   <value>DEMO</value>
+   <include>DEMO</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <duration_s>test</duration_s>
+    <createdDate>2025-04-10T05:53:59.748Z</createdDate>
+    <createdDate_dt>2025-04-10T05:53:59.748Z</createdDate_dt>
+    <lastModifiedDate>2025-04-10T05:53:59.748Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-10T05:53:59.748Z</lastModifiedDate_dt>
+</component>
