@@ -6,7 +6,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --primary-color-blue: rgb(29 113 184);
+  --primary: #62388e;
+  --primary-active: #242a55;
+  --primary-box-shadow: 0 0 0 0.2rem #242a5589;
+  --secondary: #25a4dd;
+  --secondary-active: #32509f;
+  --secondary-box-shadow: 0 0 0 0.2rem #32519f84;
+  --disabled: #333333;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -20,21 +26,20 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #FFD333;
-  --secondary: #F5F5F5;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
-  --light: #FFFFFF;
-  --dark: #3D464D;
+  --light: #ffffff;
+  --dark: #3d464d;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Roboto", sans-serif;
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
 }
 
 *,
