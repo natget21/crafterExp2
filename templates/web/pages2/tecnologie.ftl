@@ -31,7 +31,7 @@
     <link href="/static-assets/css/style.css" rel="stylesheet">
     
     <link rel="stylesheet" href="/static-assets/css/general-style.css" />
-    <link rel="stylesheet" href="/static-assets/css/news.css" />
+    <link rel="stylesheet" href="/static-assets/css/tecnologie.css" />
     
     <@crafter.head/>
 </head>
@@ -47,109 +47,106 @@
     
 
 <div class="content pb-5">
-      <div
-        class="banner_section banner_services layout_padding d-flex align-items-center"
-      >
+      <div class="banner_section banner_tecnologie layout_padding">
         <div class="container">
-          <h1 class="best_taital text-center text-white p-0">News</h1>
+          <h1 class="best_taital text-center text-white">Tecnologie</h1>
+          <div class="box_main"></div>
+          <p
+            class="there_text d-flex justify-content-center text-white pt-0 pt-md-5"
+          >
+            L’ecosistema digitale per costruire valore attraverso l’innovazione
+            condivisa
+          </p>
         </div>
       </div>
       <div
-        class="news_section layout_padding d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
+        class="explanation layout_padding mx-auto d-flex flex-column flex-md-row justify-content-center col-11 col-md-9 px-0"
       >
-        <div class="card mb-4 mb-md-5 shadow-sm border-0">
-          <div class="row g-0">
-            <div class="col-md-5">
-              <img
-                src="https://www.edih4marche.eu/wp-content/uploads/elementor/thumbs/cyber-security-article-r3itn6mf44gxx1olsft3f0jnwfvacf3svkvdgomqvo.jpg"
-                class="img-fluid rounded-start object-fit-cover h-100"
-                alt="AI Matters"
-              />
-            </div>
-            <div class="col-md-7">
-              <div class="card-body d-flex flex-column h-100">
-                <small class="text-muted d-block mb-1">3 Aprile, 2025</small>
-                <h5 class="card-title fw-bold">
-                  Roadshow AI MATTERS: “L’Ai che fa la differenza nel
-                  manifatturiero”
-                </h5>
-                <p class="card-text">
-                  Un'opportunità per conoscere da vicino soluzioni di
-                  intelligenza artificiale dedicate al mondo manifatturiero.
-                  Tappa marchigiana – Jesi, 10 aprile 2024
-                </p>
-                <div
-                  class="flex-grow-1 d-flex align-items-end justify-content-center"
-                >
-                  <a href="#" class="btn btn-primary btn-sm read_more"
-                    >Scopri di piu'</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
+        <h2 class="title_section pl-3 pl-md-0 col-md-6">
+          Tecnologie e soluzioni digitali
+        </h2>
+        <div class="col-md-6">
+          <p class="" for="">
+            Il catalogo dell'offerta della piattaforma comprende una vasta gamma
+            di prodotti e servizi digitali, progettati per rispondere alle
+            esigenze di imprese, pubblica amministrazione, enti del terzo
+            settore, liberi professionisti e startup. L'offerta si articola in
+            soluzioni tecnologiche avanzate e consulenze specializzate, pensate
+            per favorire l'adozione di tecnologie innovative, il rafforzamento
+            delle competenze digitali, l'accesso a finanziamenti e la creazione
+            di reti collaborative.
+          </p>
+          <p>
+            La piattaforma si propone come punto di riferimento per il supporto
+            alla trasformazione digitale e allo sviluppo di nuove opportunità di
+            business e innovazione attraverso l’erogazione di prodotti e servizi
+            digitali:
+          </p>
         </div>
-        <div class="card mb-4 mb-md-5 shadow-sm border-0">
-          <div class="row g-0">
-            <div class="col-md-5">
+      </div>
+      <div class="bg-primary pb-5 mt-3 text-black">
+        <div class="layout_padding mx-auto col-11 col-md-9 px-0 tech_section">
+          <h2 class="title_section text-black">Le tecnologie che offriamo</h2>
+          <p>
+            La digital Roadmap si attua attraverso l’ introduzione delle
+            cosiddette “Key Enabling Technologies”, le tecnologie che abilitano
+            la trasformazione digitale. Gli ambiti in cui opera EDIH4Marche con
+            i suoi partner sono quelli a maggiore impatto sulla crescita dell’
+            impresa.
+          </p>
+          <div class="row pl-3">
+            <div
+              class="layout_padding tech px-0 col-12 col-md-3 d-flex align-items-center align-items-md-start flex-column gap-3"
+            >
               <img
-                src="https://www.edih4marche.eu/wp-content/uploads/elementor/thumbs/Immagine-2025-03-21-113701-r36l0v7qfy5ke2l0kv5iutd0177k5ot20ef6gzuhzo.png"
-                class="img-fluid rounded-start object-fit-cover h-100"
-                alt="AI Matters"
+                src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
+                alt=""
               />
+
+              <p
+                class="tech_text d-flex justify-content-center justify-content-md-start"
+              >
+                Imprese
+              </p>
             </div>
-            <div class="col-md-7">
-              <div class="card-body d-flex flex-column h-100">
-                <small class="text-muted d-block mb-1">3 Aprile, 2025</small>
-                <h5 class="card-title fw-bold">
-                  Roadshow AI MATTERS: “L’Ai che fa la differenza nel
-                  manifatturiero”
-                </h5>
-                <p class="card-text">
-                  Un'opportunità per conoscere da vicino soluzioni di
-                  intelligenza artificiale dedicate al mondo manifatturiero.
-                  Tappa marchigiana – Jesi, 10 aprile 2024
-                </p>
-                <div
-                  class="flex-grow-1 d-flex align-items-end justify-content-center"
-                >
-                  <a href="#" class="btn btn-primary btn-sm read_more"
-                    >Scopri di piu'</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-4 mb-md-5 shadow-sm border-0">
-          <div class="row g-0">
-            <div class="col-md-5">
+            <div
+              class="layout_padding tech px-0 col-12 col-md-3 d-flex align-items-center align-items-md-start flex-column gap-3"
+            >
               <img
-                src="https://www.edih4marche.eu/wp-content/uploads/elementor/thumbs/immagine-notizia-evento-conf-macer-micozzi-r2491wgzopea0i1vucxs8mnofyi74trc4cpmspcdqs.png"
-                class="img-fluid rounded-start object-fit-cover h-100"
-                alt="AI Matters"
+                src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
+                alt=""
               />
+              <p
+                class="tech_text d-flex justify-content-center justify-content-md-start"
+              >
+                Pubblica Amministrazione
+              </p>
             </div>
-            <div class="col-md-7">
-              <div class="card-body d-flex flex-column h-100">
-                <small class="text-muted d-block mb-1">3 Aprile, 2025</small>
-                <h5 class="card-title fw-bold">
-                  Roadshow AI MATTERS: “L’Ai che fa la differenza nel
-                  manifatturiero”
-                </h5>
-                <p class="card-text">
-                  Un'opportunità per conoscere da vicino soluzioni di
-                  intelligenza artificiale dedicate al mondo manifatturiero.
-                  Tappa marchigiana – Jesi, 10 aprile 2024
-                </p>
-                <div
-                  class="flex-grow-1 d-flex align-items-end justify-content-center"
-                >
-                  <a href="#" class="btn btn-primary btn-sm read_more"
-                    >Scopri di piu'</a
-                  >
-                </div>
-              </div>
+            <div
+              class="layout_padding tech px-0 col-12 col-md-3 d-flex align-items-center align-items-md-start flex-column gap-3"
+            >
+              <img
+                src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
+                alt=""
+              />
+              <p
+                class="tech_text d-flex justify-content-center justify-content-md-start"
+              >
+                Enti del Terzo Settore
+              </p>
+            </div>
+            <div
+              class="layout_padding tech px-0 col-12 col-md-3 d-flex align-items-center align-items-md-start flex-column gap-3"
+            >
+              <img
+                src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
+                alt=""
+              />
+              <p
+                class="tech_text d-flex justify-content-center justify-content-md-start"
+              >
+                Liberi Professionisti
+              </p>
             </div>
           </div>
         </div>
