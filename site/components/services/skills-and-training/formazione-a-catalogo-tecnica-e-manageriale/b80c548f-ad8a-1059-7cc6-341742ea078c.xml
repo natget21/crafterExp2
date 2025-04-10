@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/course</content-type>
+	<content-type>/component/skills-and-training</content-type>
 	<display-template/>
 	<no-template-required>true</no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
