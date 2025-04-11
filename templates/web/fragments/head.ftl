@@ -23,7 +23,7 @@
     <link href="/static-assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="/static-assets/css/style.css" rel="stylesheet">
+    <link href="/static-assets/css/general-style.css" rel="stylesheet">
     
     <@crafter.head/>
 </head>
