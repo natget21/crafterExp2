@@ -45,7 +45,7 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
     
-    <div class="content pb-5">
+        <div class="content pb-5">
       <div
         class="banner_section banner_services layout_padding d-flex align-items-center"
       >
@@ -56,7 +56,7 @@
 
       <div class="events layout_padding mx-auto col-11 col-md-9 px-0">
         <div class="row g-4">
-          <div class="col-12 col-lg-4 pb-5">
+          <div class="col-12 col-lg-6 pb-5 d-flex justify-content-center">
             <div class="event_container position-relative">
               <div class="image-container">
                 <div class="position-absolute image_overlay w-100">
@@ -81,7 +81,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4 pb-5">
+          <div class="col-12 col-lg-6 pb-5 d-flex justify-content-center">
             <div class="event_container position-relative">
               <div class="image-container">
                 <div class="position-absolute image_overlay w-100">
@@ -106,7 +106,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4 pb-5">
+          <div class="col-12 col-lg-6 pb-5 d-flex justify-content-center">
             <div class="event_container position-relative">
               <div class="image-container">
                 <div class="position-absolute image_overlay w-100">
@@ -131,7 +131,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4 pb-5">
+          <div class="col-12 col-lg-6 pb-5 d-flex justify-content-center">
             <div class="event_container position-relative">
               <div class="image-container">
                 <div class="position-absolute image_overlay w-100">
@@ -159,6 +159,7 @@
         </div>
       </div>
     </div>
+
 
 
 
