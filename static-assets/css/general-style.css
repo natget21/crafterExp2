@@ -10253,6 +10253,11 @@ footer p {
   color: white !important;
 }
 
+footer .btn-primary {
+  background-color: var(--secondary) !important;
+  border-color: var(--secondary) !important;
+}
+
 @media (max-width: 767px) {
   .service {
     flex-direction: column !important;
