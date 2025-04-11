@@ -10008,7 +10008,7 @@ h6 {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:active {
   font-weight: 500 !important;
-  color: var(--primary-active) !important;
+  color: var(--primary) !important;
   outline: none;
 }
 
