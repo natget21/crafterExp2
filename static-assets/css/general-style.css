@@ -10241,6 +10241,18 @@ h6 {
   }
 }
 
+footer .text-primary {
+  color: var(--secondary) !important;
+}
+
+footer {
+  background-color: var(--primary-active);
+}
+
+footer p {
+  color: white !important;
+}
+
 @media (max-width: 767px) {
   .service {
     flex-direction: column !important;
