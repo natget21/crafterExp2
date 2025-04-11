@@ -112,6 +112,7 @@ label.form-label {
   border-top: 0 !important;
   border-left: 0 !important;
   border-right: 0 !important;
+  color: var(--primary) !important;
 }
 
 .nav-tabs .nav-item .nav-link.active,
@@ -122,6 +123,7 @@ label.form-label {
   border-top: 0 !important;
   border-left: 0 !important;
   border-right: 0 !important;
+  font-weight: 500 !important;
   border-bottom: 3px solid var(--primary);
   color: var(--primary-active) !important;
 }
