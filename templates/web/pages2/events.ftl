@@ -56,97 +56,110 @@
 
       <div class="events layout_padding mx-auto col-11 col-md-9 px-0">
         <div class="row g-4">
-          <div class="col-12 col-lg-4">
-            <div class="card h-100">
-              <img
-                src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
-                alt="Event Image"
-              />
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">
-                  VIRTUALIA – Il Futuro digitale che ci attende
-                </h5>
-                <div
-                  class="d-flex justify-content-center flex-grow-1 d-flex align-items-end"
-                >
-                  <button class="btn btn-secondary rounded">Leggi</button>
+          <div class="col-12 col-lg-4 pb-5">
+            <div class="event_container position-relative">
+              <div class="image-container">
+                <div class="position-absolute image_overlay w-100">
+                  <h5
+                    class="position-absolute bottom-0 start-0 text-white px-3"
+                  >
+                    VIRTUALIA – Il Futuro digitale che ci attende
+                  </h5>
                 </div>
+                <img
+                  class="position-relative event_image"
+                  src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
+                  alt="Event Image"
+                />
+              </div>
+              <div
+                class="position-absolute bottom-0 right-0 w-100 d-flex justify-content-end"
+              >
+                <button class="open_event btn btn-secondary rounded-pill">
+                  Leggi
+                </button>
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4">
-            <div class="card h-100">
-              <img
-                src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
-                alt="Event Image"
-              />
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">
-                  DANTE EDIH – Riunione Plenaria (Giugno 2024)
-                </h5>
-                <div
-                  class="d-flex justify-content-center flex-grow-1 d-flex align-items-end"
-                >
-                  <button class="btn btn-secondary rounded">Leggi</button>
+          <div class="col-12 col-lg-4 pb-5">
+            <div class="event_container position-relative">
+              <div class="image-container">
+                <div class="position-absolute image_overlay w-100">
+                  <h5
+                    class="position-absolute bottom-0 start-0 text-white px-3"
+                  >
+                    VIRTUALIA – Il Futuro digitale che ci attende
+                  </h5>
                 </div>
+                <img
+                  class="position-relative event_image"
+                  src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
+                  alt="Event Image"
+                />
+              </div>
+              <div
+                class="position-absolute bottom-0 right-0 w-100 d-flex justify-content-end"
+              >
+                <button class="open_event btn btn-secondary rounded-pill">
+                  Leggi
+                </button>
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4">
-            <div class="card h-100">
-              <img
-                src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
-                alt="Event Image"
-              />
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">ForItAAL 2024</h5>
-                <div
-                  class="d-flex justify-content-center flex-grow-1 d-flex align-items-end"
-                >
-                  <button class="btn btn-secondary rounded">Leggi</button>
+          <div class="col-12 col-lg-4 pb-5">
+            <div class="event_container position-relative">
+              <div class="image-container">
+                <div class="position-absolute image_overlay w-100">
+                  <h5
+                    class="position-absolute bottom-0 start-0 text-white px-3"
+                  >
+                    VIRTUALIA – Il Futuro digitale che ci attende
+                  </h5>
                 </div>
+                <img
+                  class="position-relative event_image"
+                  src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
+                  alt="Event Image"
+                />
+              </div>
+              <div
+                class="position-absolute bottom-0 right-0 w-100 d-flex justify-content-end"
+              >
+                <button class="open_event btn btn-secondary rounded-pill">
+                  Leggi
+                </button>
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4">
-            <div class="card h-100">
-              <img
-                src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
-                alt="Event Image"
-              />
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">
-                  Building a Northeast Research-Driven Innovation Ecosystem
-                </h5>
-                <div
-                  class="d-flex justify-content-center flex-grow-1 d-flex align-items-end"
-                >
-                  <button class="btn btn-secondary rounded">Leggi</button>
+          <div class="col-12 col-lg-4 pb-5">
+            <div class="event_container position-relative">
+              <div class="image-container">
+                <div class="position-absolute image_overlay w-100">
+                  <h5
+                    class="position-absolute bottom-0 start-0 text-white px-3"
+                  >
+                    VIRTUALIA – Il Futuro digitale che ci attende
+                  </h5>
                 </div>
+                <img
+                  class="position-relative event_image"
+                  src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
+                  alt="Event Image"
+                />
               </div>
-            </div>
-          </div>
-          <div class="col-12 col-lg-4">
-            <div class="card h-100">
-              <img
-                src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
-                alt="Event Image"
-              />
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">
-                  Tecnologie e Soluzioni Digitali per una Vita Sana e Attiva
-                </h5>
-                <div
-                  class="d-flex justify-content-center flex-grow-1 d-flex align-items-end"
-                >
-                  <button class="btn btn-secondary rounded">Leggi</button>
-                </div>
+              <div
+                class="position-absolute bottom-0 right-0 w-100 d-flex justify-content-end"
+              >
+                <button class="open_event btn btn-secondary rounded-pill">
+                  Leggi
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
 
 
 
