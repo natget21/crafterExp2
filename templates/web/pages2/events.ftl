@@ -45,7 +45,7 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
     
-<div class="content pb-5">
+    <div class="content pb-5">
       <div
         class="banner_section banner_services layout_padding d-flex align-items-center"
       >
@@ -57,79 +57,89 @@
       <div class="events layout_padding mx-auto col-11 col-md-9 px-0">
         <div class="row g-4">
           <div class="col-12 col-lg-4">
-            <div class="card">
+            <div class="card h-100">
               <img
                 src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
                 alt="Event Image"
               />
-              <div class="card-body">
+              <div class="card-body d-flex flex-column">
                 <h5 class="card-title">
                   VIRTUALIA – Il Futuro digitale che ci attende
                 </h5>
-                <div class="d-flex justify-content-center">
-                  <button class="btn btn-primary rounded">Leggi</button>
+                <div
+                  class="d-flex justify-content-center flex-grow-1 d-flex align-items-end"
+                >
+                  <button class="btn btn-secondary rounded">Leggi</button>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-lg-4">
-            <div class="card">
+            <div class="card h-100">
               <img
                 src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
                 alt="Event Image"
               />
-              <div class="card-body">
+              <div class="card-body d-flex flex-column">
                 <h5 class="card-title">
                   DANTE EDIH – Riunione Plenaria (Giugno 2024)
                 </h5>
-                <div class="d-flex justify-content-center">
-                  <button class="btn btn-primary rounded">Leggi</button>
+                <div
+                  class="d-flex justify-content-center flex-grow-1 d-flex align-items-end"
+                >
+                  <button class="btn btn-secondary rounded">Leggi</button>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-lg-4">
-            <div class="card">
+            <div class="card h-100">
               <img
                 src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
                 alt="Event Image"
               />
-              <div class="card-body">
+              <div class="card-body d-flex flex-column">
                 <h5 class="card-title">ForItAAL 2024</h5>
-                <div class="d-flex justify-content-center">
-                  <button class="btn btn-primary rounded">Leggi</button>
+                <div
+                  class="d-flex justify-content-center flex-grow-1 d-flex align-items-end"
+                >
+                  <button class="btn btn-secondary rounded">Leggi</button>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-lg-4">
-            <div class="card">
+            <div class="card h-100">
               <img
                 src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
                 alt="Event Image"
               />
-              <div class="card-body">
+              <div class="card-body d-flex flex-column">
                 <h5 class="card-title">
                   Building a Northeast Research-Driven Innovation Ecosystem
                 </h5>
-                <div class="d-flex justify-content-center">
-                  <button class="btn btn-primary rounded">Leggi</button>
+                <div
+                  class="d-flex justify-content-center flex-grow-1 d-flex align-items-end"
+                >
+                  <button class="btn btn-secondary rounded">Leggi</button>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-lg-4">
-            <div class="card">
+            <div class="card h-100">
               <img
                 src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
                 alt="Event Image"
               />
-              <div class="card-body">
+              <div class="card-body d-flex flex-column">
                 <h5 class="card-title">
                   Tecnologie e Soluzioni Digitali per una Vita Sana e Attiva
                 </h5>
-                <div class="d-flex justify-content-center">
-                  <button class="btn btn-primary rounded">Leggi</button>
+                <div
+                  class="d-flex justify-content-center flex-grow-1 d-flex align-items-end"
+                >
+                  <button class="btn btn-secondary rounded">Leggi</button>
                 </div>
               </div>
             </div>
@@ -137,6 +147,7 @@
         </div>
       </div>
     </div>
+
 
 
 
