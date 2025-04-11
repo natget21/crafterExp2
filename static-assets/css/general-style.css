@@ -9758,7 +9758,7 @@ button.bg-dark:focus {
 
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #e6b400 !important;
+  color: var(--secondary-active) !important;
 }
 
 .text-secondary {
