@@ -94,12 +94,12 @@
               Management, e Stakeholders Engagement. Il partner è coinvolto
               nella progettazione e sviluppo di soluzioni digitali, come la
               Digital Ecosystem Platform, e offre servizi di consulenza per la
-              trasformazione digitale e la gestione dell'innovazione.
+              trasformazione digitale e la gestione dell'innovazione.<a href="/partner-detail?id=67e5a65504d7835a3899d22e">Scopri di più -</a>
             </p>
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-primary read_more"><a href="/partner-detail?id=67e5a65504d7835a3899d22e">Scopri di più -</a></button>
+              <button class="btn btn-primary read_more">Scopri di più</button>
             </div>
           </div>
           <div class="partner col-12 col-md-6 d-flex flex-column gap-3">
