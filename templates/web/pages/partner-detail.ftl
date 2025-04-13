@@ -50,17 +50,10 @@
     <div class="container">
         <#-- Retrieve 'id' parameter from the request -->
         <#assign partnerId = RequestParameters["id"]?default("")>
-        
-        <#-- Initialize partnerData as null -->
-        <#assign partnerData = "">
          
         <#-- Fetch partner data from the API if 'id' is provided -->
         <#if partnerId?has_content>
-            <#assign apiUrl = "http://localhost:5000/v1/Ideale-partner/findOne?partnerId=" + partnerId>
-            <#assign response = RestClient.get(apiUrl)>
-            <#if response.status == 200>
-                <#assign partnerData = JSON.parse(response.body)>
-            </#if>
+            <@controller path="/scripts/controllers/get-partner.groovy" />
         </#if>
 
         <#-- Display partner details if data is available -->
