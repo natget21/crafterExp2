@@ -43,24 +43,24 @@
 
     <div class="content pb-5">
         <div class="banner_section banner_partners layout_padding d-flex align-items-center">
-            <div class="container">
-                <#-- Retrieve 'id' parameter from the request -->
-                <#assign partnerId = RequestParameters["id"]?first>
-                
-                <#-- Initialize partnerData as null -->
-                <#assign partnerData = null>
-                
-               
-
-                <#-- Display partner details if data is available -->
-                <#if partnerData??>
-                    <h1 class="best_taital text-center text-white p-0">${partnerData.partnerAzienda}</h1>
-                <#else>
-                    <h1 class="best_taital text-center text-white p-0">Partner Not Found</h1>
-                </#if>
-            </div>
+           Partners
         </div>
+    </div>
+    
+    <div class="container">
+        <#-- Retrieve 'id' parameter from the request -->
+        <#assign partnerId = RequestParameters["id"]??>
+        
+        <#-- Initialize partnerData as null -->
+        <#assign partnerData = null>
+        
 
+        <#-- Display partner details if data is available -->
+        <#if partnerData??>
+            <h1 class="best_taital text-center text-white p-0">${partnerData.partnerAzienda}</h1>
+        <#else>
+            <h1 class="best_taital text-center text-white p-0">Partner Not Found</h1>
+        </#if>
     </div>
 
     <!-- Footer Section -->
