@@ -99,7 +99,7 @@
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-primary read_more">Scopri di più</button>
+              <button class="btn btn-primary read_more"><a href="/partner-detail?id=67e5a65504d7835a3899d22e">Scopri di più -</a></button>
             </div>
           </div>
           <div class="partner col-12 col-md-6 d-flex flex-column gap-3">
