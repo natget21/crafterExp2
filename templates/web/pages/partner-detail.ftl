@@ -55,12 +55,7 @@
         <#assign partnerData = null>
         
 
-        <#-- Display partner details if data is available -->
-        <#if partnerData??>
-            <h1 class="best_taital text-center text-white p-0">${partnerData.partnerAzienda}</h1>
-        <#else>
-            <h1 class="best_taital text-center text-white p-0">Partner Not Found</h1>
-        </#if>
+       
     </div>
 
     <!-- Footer Section -->
