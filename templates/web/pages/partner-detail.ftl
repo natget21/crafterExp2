@@ -52,10 +52,70 @@
         <#assign partnerId = RequestParameters["id"]?default("")>
         
         <#-- Initialize partnerData as null -->
-        <#assign partnerData = null>
-        
+        <#assign partnerData = "">
+         
+        <#-- Fetch partner data from the API if 'id' is provided -->
+        <#if partnerId?? && partnerId?length > 0>
+            <#assign apiUrl = "http://localhost:5000/v1/Ideale-partner/findOne?partnerId=" + partnerId>
+            <#assign response = RestClient.get(apiUrl)>
+            <#if response.status == 200>
+                <#assign partnerData = JSON.parse(response.body)>
+            </#if>
+        </#if>
 
-       
+        <#-- Display partner details if data is available -->
+        <#if partnerData?has_content>
+            <h1 class="best_taital text-center text-white p-0">${partnerData.partnerAzienda}</h1>
+        <#else>
+            <h1 class="best_taital text-center text-white p-0">Partner Not Found</h1>
+        </#if>
+    </div>
+    
+    <div  class="container">
+        <#if partnerData?has_content>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <#if partnerData.partnerCompanyLogoUrl??>
+                            <img src="${partnerData.partnerCompanyLogoUrl}" alt="${partnerData.partnerAzienda}" class="img-fluid">
+                        </#if>
+                    </div>
+                    <div class="col-md-8">
+                        <h2>${partnerData.partnerLandingTitle}</h2>
+                        <div>${partnerData.partnerLandingIntroduction?no_esc}</div>
+                        <div>${partnerData.partnerLandingContent?no_esc}</div>
+                        <ul class="list-unstyled mt-3">
+                            <li><strong>Contact:</strong> ${partnerData.partnerContatto}</li>
+                            <li><strong>Email:</strong> ${partnerData.partnerContactEmail}</li>
+                            <li><strong>Phone:</strong> ${partnerData.partnerTelephone}</li>
+                            <li><strong>Region:</strong> ${partnerData.partnerRegione}</li>
+                            <li><strong>Country:</strong> ${partnerData.partnerNazione}</li>
+                            <li><strong>Sector:</strong> ${partnerData.partnerSettore}</li>
+                            <li><strong>Staff Size:</strong> ${partnerData.partnerStaffSize}</li>
+                            <li><strong>Status:</strong> ${partnerData.partnerStatus}</li>
+                        </ul>
+                        <#if partnerData.partnerAllowedCategories??>
+                            <h5>Allowed Categories:</h5>
+                            <ul>
+                                <#list partnerData.partnerAllowedCategories as category>
+                                    <li>${category}</li>
+                                </#list>
+                            </ul>
+                        </#if>
+                        <#if partnerData.partnerLandingImagesAssetsUrlList??>
+                            <h5>Gallery:</h5>
+                            <div class="row">
+                                <#list partnerData.partnerLandingImagesAssetsUrlList as imageUrl>
+                                    <div class="col-md-4 mb-3">
+                                        <img src="${imageUrl}" alt="Partner Image" class="img-fluid">
+                                    </div>
+                                </#list>
+                            </div>
+                        </#if>
+                    </div>
+                </div>
+            </div>
+        </#if>
     </div>
 
     <!-- Footer Section -->
