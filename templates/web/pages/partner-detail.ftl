@@ -55,7 +55,7 @@
         <#assign partnerData = "">
          
         <#-- Fetch partner data from the API if 'id' is provided -->
-        <#if partnerId?? && partnerId?length > 0>
+        <#if partnerId?has_content>
             <#assign apiUrl = "http://localhost:5000/v1/Ideale-partner/findOne?partnerId=" + partnerId>
             <#assign response = RestClient.get(apiUrl)>
             <#if response.status == 200>
