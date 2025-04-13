@@ -49,7 +49,7 @@
     
     <div class="container">
         <#-- Retrieve 'id' parameter from the request -->
-        <#assign partnerId = RequestParameters["id"]??>
+        <#assign partnerId = RequestParameters["id"]?default("")>
         
         <#-- Initialize partnerData as null -->
         <#assign partnerData = null>
