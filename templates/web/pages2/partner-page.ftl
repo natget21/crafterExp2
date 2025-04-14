@@ -104,7 +104,10 @@
                 <div
                   class="d-flex flex-grow-1 justify-content-end align-items-end mt-3"
                 >
-                  <button class="btn btn-secondary read_more rounded-pill">
+<button
+                    class="btn btn-secondary read_more rounded-pill"
+                    onclick="window.location.href='/partner-detail?id=67e5a65504d7835a3899d22e'"
+                  >
                     Scopri di più
                   </button>
                 </div>
