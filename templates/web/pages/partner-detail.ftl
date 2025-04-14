@@ -43,7 +43,7 @@
 
     <div class="content pb-5">
         <div class="banner_section banner_partners layout_padding d-flex align-items-center">
-           Partners
+           <h1 class="best_taital text-center text-white p-0">Partners</h1>
         </div>
     </div>
     
