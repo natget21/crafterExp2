@@ -118,7 +118,7 @@
               <div class="partner_logo_container w-100">
                 <img
                   class="partner_logo"
-                  src="assets/sinergia-logo-area_quadrata.svg"
+                  src="static-assets/assets/sinergia-logo-area_quadrata.svg"
                   alt=""
                 />
               </div>
@@ -152,7 +152,7 @@
               class="d-flex flex-column flex-md-row justify-content-between gap-5 align-items-center"
             >
               <div class="partner_logo_container w-100">
-                <img class="partner_logo" src="assets/skilla-logo.png" alt="" />
+                <img class="partner_logo" src="static-assets/assets/skilla-logo.png" alt="" />
               </div>
               <div class="col-12 col-md-8">
                 <h3 class="partner_title">
