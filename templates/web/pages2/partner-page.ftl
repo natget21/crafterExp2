@@ -106,7 +106,7 @@
                 >
 <button
                     class="btn btn-secondary read_more rounded-pill"
-                    onclick="window.location.href='/partner-detail?id=67e5a65504d7835asasa3899d22e'"
+                    onclick="window.location.href='/partner-detail?id=67e5a65504d7835a3899d22e'"
                   >
                     Scopri di più
                   </button>
