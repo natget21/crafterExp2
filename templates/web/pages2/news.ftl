@@ -46,7 +46,7 @@
     <#include "/templates/web/fragments/static-navigation.ftl">
     
 
-<div class="content pb-5">
+    <div class="content pb-5">
       <div
         class="banner_section banner_services layout_padding d-flex align-items-center"
       >
@@ -81,7 +81,9 @@
                 <div
                   class="flex-grow-1 d-flex align-items-end justify-content-center"
                 >
-                  <a href="#" class="btn btn-primary btn-sm read_more"
+                  <a
+                    href="#"
+                    class="btn btn-secondary btn-sm read_more rounded-pill"
                     >Scopri di piu'</a
                   >
                 </div>
@@ -113,7 +115,9 @@
                 <div
                   class="flex-grow-1 d-flex align-items-end justify-content-center"
                 >
-                  <a href="#" class="btn btn-primary btn-sm read_more"
+                  <a
+                    href="#"
+                    class="btn btn-secondary btn-sm read_more rounded-pill"
                     >Scopri di piu'</a
                   >
                 </div>
@@ -145,7 +149,9 @@
                 <div
                   class="flex-grow-1 d-flex align-items-end justify-content-center"
                 >
-                  <a href="#" class="btn btn-primary btn-sm read_more"
+                  <a
+                    href="#"
+                    class="btn btn-secondary btn-sm read_more rounded-pill"
                     >Scopri di piu'</a
                   >
                 </div>
