@@ -71,23 +71,7 @@
                             <img src="${partnerData.partnerCompanyLogoUrl}" alt="${partnerData.partnerAzienda}" class="img-fluid">
                         </#if>
                     </div>
-                    <div class="col-md-8">
-                        <h2>${partnerData.partnerLandingTitle}</h2>
-                        <div>${partnerData.partnerLandingIntroduction?no_esc}</div>
-                        <div>${partnerData.partnerLandingContent?no_esc}</div>
-                        <ul class="list-unstyled mt-3">
-                            <li><strong>Contact:</strong> ${partnerData.partnerContatto}</li>
-                            <li><strong>Email:</strong> ${partnerData.partnerContactEmail}</li>
-                            <li><strong>Phone:</strong> ${partnerData.partnerTelephone}</li>
-                            <li><strong>Region:</strong> ${partnerData.partnerRegione}</li>
-                            <li><strong>Country:</strong> ${partnerData.partnerNazione}</li>
-                            <li><strong>Sector:</strong> ${partnerData.partnerSettore}</li>
-                            <li><strong>Staff Size:</strong> ${partnerData.partnerStaffSize}</li>
-                            <li><strong>Status:</strong> ${partnerData.partnerStatus}</li>
-                        </ul>
-                        
-                        
-                    </div>
+                    
                 </div>
             </div>
         </#if>
