@@ -94,7 +94,7 @@
                 </div>
                 <div class="col-12 col-lg-3 info">
                   <p class="text-primary">Indirizzo</p>
-                  <p class="fs-5 desc">${partnerData.partnerTelephone}, ${partnerData.country}</p>
+                  <p class="fs-5 desc">${partnerData.partnerTelephone}, ${partnerData.partnerNazione}</p>
                 </div>
                 <div class="col-12 col-lg-3 info">
                   <p class="text-primary">Email</p>
@@ -204,6 +204,37 @@
         </div>
       </div>
     </div>
+
+    <div  class="container">
+       
+        <#if partnerData?has_content>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <#if partnerData.partnerCompanyLogoUrl??>
+                            <img src="${partnerData.partnerCompanyLogoUrl}" alt="${partnerData.partnerAzienda}" class="img-fluid">
+                        </#if>
+                    </div>
+                    <div class="col-md-8">
+                        <h2>${partnerData.partnerLandingTitle}</h2>
+                        <div>${partnerData.partnerLandingIntroduction?no_esc}</div>
+                        <div>${partnerData.partnerLandingContent?no_esc}</div>
+                        <ul class="list-unstyled mt-3">
+                            <li><strong>Contact:</strong> ${partnerData.partnerContatto}</li>
+                            <li><strong>Email:</strong> ${partnerData.partnerContactEmail}</li>
+                            <li><strong>Phone:</strong> ${partnerData.partnerTelephone}</li>
+                            <li><strong>Region:</strong> ${partnerData.partnerRegione}</li>
+                            <li><strong>Country:</strong> ${partnerData.partnerNazione}</li>
+                            <li><strong>Sector:</strong> ${partnerData.partnerSettore}</li>
+                            <li><strong>Staff Size:</strong> ${partnerData.partnerStaffSize}</li>
+                            <li><strong>Status:</strong> ${partnerData.partnerStatus}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </#if>
+    </div>
+
     <div class="bg-primary pb-5">
       <div
         class="layout_padding mx-auto col-11 col-md-9 px-0 other_news_section"
