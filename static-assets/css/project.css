@@ -9,7 +9,7 @@
 
 .services_section .service_type {
   font-weight: 550 !important;
-  color: black;
+  /* color: black; */
   font-size: 45px;
 }
 
