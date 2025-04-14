@@ -186,19 +186,6 @@
                     <a href=""><i class="bi bi-eye"></i></a>
                   </div>
                 </div>
-                <div class="attachment col-12 col-md-4">
-                  <p
-                    class="name_attachment d-flex justify-content-center justify-content-md-start"
-                  >
-                    Allegato-5.jpeg
-                  </p>
-                  <div
-                    class="buttons justify-content-center justify-content-md-start d-flex gap-3"
-                  >
-                    <a href=""><i class="bi bi-download"></i></a>
-                    <a href=""><i class="bi bi-eye"></i></a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
