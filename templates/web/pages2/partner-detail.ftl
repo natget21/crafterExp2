@@ -42,9 +42,9 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
 
-    <div  class="container">
+    <#if partnerData?has_content>
+        <div  class="container">
        
-        <#if partnerData?has_content>
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-md-4">
@@ -69,8 +69,10 @@
                     </div>
                 </div>
             </div>
-        </#if>
-    </div>
+        </div>
+        <#else>
+        <h1>Not found</h1>
+    </#if>
     
 
 
