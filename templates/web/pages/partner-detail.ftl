@@ -57,7 +57,7 @@
         </#if>
 
         <#-- Display partner details if data is available -->
-        <#if partnerData??>
+        <#if partnerData?has_content>
             <h1 class="best_taital text-center text-white p-0">${partnerData.partnerAzienda}</h1>
         <#else>
             <h1 class="best_taital text-center text-white p-0">Partner Not Found</h1>
@@ -65,7 +65,7 @@
     </div>
     
     <div  class="container">
-       <#if partnerData??>
+       <#if partnerData?has_content>
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-md-4">
