@@ -42,13 +42,33 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
 
-    <div class="container">
-
-        <#-- Display partner details if data is available -->
+    <div  class="container">
+       
         <#if partnerData?has_content>
-            <h1 class="best_taital text-center text-white p-0">${partnerData.partnerAzienda}</h1>
-        <#else>
-            <h1 class="best_taital text-center text-white p-0">Partner Not Found</h1>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <#if partnerData.partnerCompanyLogoUrl??>
+                            <img src="${partnerData.partnerCompanyLogoUrl}" alt="${partnerData.partnerAzienda}" class="img-fluid">
+                        </#if>
+                    </div>
+                    <div class="col-md-8">
+                        <h2>${partnerData.partnerLandingTitle}</h2>
+                        <div>${partnerData.partnerLandingIntroduction?no_esc}</div>
+                        <div>${partnerData.partnerLandingContent?no_esc}</div>
+                        <ul class="list-unstyled mt-3">
+                            <li><strong>Contact:</strong> ${partnerData.partnerContatto}</li>
+                            <li><strong>Email:</strong> ${partnerData.partnerContactEmail}</li>
+                            <li><strong>Phone:</strong> ${partnerData.partnerTelephone}</li>
+                            <li><strong>Region:</strong> ${partnerData.partnerRegione}</li>
+                            <li><strong>Country:</strong> ${partnerData.partnerNazione}</li>
+                            <li><strong>Sector:</strong> ${partnerData.partnerSettore}</li>
+                            <li><strong>Staff Size:</strong> ${partnerData.partnerStaffSize}</li>
+                            <li><strong>Status:</strong> ${partnerData.partnerStatus}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </#if>
     </div>
     
