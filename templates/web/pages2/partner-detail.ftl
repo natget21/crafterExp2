@@ -91,7 +91,7 @@
                 </div>
                 <div class="col-12 col-lg-9 info">
                   <p class="text-primary">Partita IVA</p>
-                  <p class="fs-5 desc">01234567890</p>
+                  <p class="fs-5 desc">${partnerData.partnerPiva}</p>
                 </div>
                 <div class="col-12 col-lg-3 info">
                   <p class="text-primary">Indirizzo</p>
@@ -205,6 +205,10 @@
         </div>
       </div>
     </div>
+
+    ${partnerData.partnerLandingVideosAssetsUrlList}
+${partnerData.partnerLandingDocAssetsUrlList}
+${partnerData.partnerLandingImagesAssetsUrlList}
 
     <div class="bg-primary pb-5">
       <div
