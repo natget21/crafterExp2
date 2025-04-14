@@ -391,7 +391,7 @@
 					<type>input</type>
 					<id>productid_s</id>
 					<iceId></iceId>
-					<title>product id</title>
+					<title>Codice prdotto</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -408,7 +408,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value>true</value>
 							<type>boolean</type>
 						</property>
 						<property>
