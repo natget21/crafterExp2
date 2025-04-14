@@ -1,4 +1,4 @@
-<content-type name="/component/course" is-wcm-type="true">
+<content-type name="/component/skills-and-training" is-wcm-type="true">
 	<label>product: skills-and-training</label>
 	<form>/component/skills-and-training</form>
 	<form-path>simple</form-path>
