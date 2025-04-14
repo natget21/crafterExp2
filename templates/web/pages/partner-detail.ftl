@@ -51,10 +51,7 @@
         <#-- Retrieve 'id' parameter from the request -->
         <#assign partnerId = RequestParameters["id"]?default("")>
          
-        <#-- Fetch partner data from the API if 'id' is provided -->
-        <#if partnerId?has_content>
-            <@controller path="/scripts/controllers/get-partner.groovy" />
-        </#if>
+       
 
         <#-- Display partner details if data is available -->
         <#if partnerData?has_content>
