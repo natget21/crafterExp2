@@ -49,10 +49,6 @@
     </div>
     
     <div class="container">
-        <#-- Retrieve 'id' parameter from the request -->
-        <#assign partnerId = RequestParameters["id"]?default("")>
-         
-       
 
         <#-- Display partner details if data is available -->
         <#if partnerData?has_content>
