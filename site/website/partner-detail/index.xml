@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
 	<content-type>/page/pagepartnerdetail</content-type>
-	<display-template>/templates/web/pages/partner-detail.ftl</display-template>
+	<display-template>/templates/web/pages2/partner-detail.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>5f8d</objectGroupId>
