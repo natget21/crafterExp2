@@ -136,7 +136,7 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>nomeprodotto_s</id>
+					<id>name_s</id>
 					<iceId></iceId>
 					<title>nome prodotto</title>
 					<description></description>
