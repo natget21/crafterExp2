@@ -15,7 +15,6 @@
   color: var(--primary) !important;
 }
 
-
 .accordion-body .name_attachment {
   color: var(--secondary-active);
 }
@@ -52,4 +51,7 @@
 
 .info .desc {
   color: var(--primary-active);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
