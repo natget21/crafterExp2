@@ -121,7 +121,7 @@
               <div class="partner_logo_container w-100">
                 <img
                   class="partner_logo"
-                  src="static-assets/assets/sinergia-logo-area_quadrata.svg"
+                  src="static-assets/assets/sinergia-logo.svg"
                   alt=""
                 />
               </div>
