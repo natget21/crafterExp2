@@ -1,6 +1,6 @@
 <content-type name="/component/test-before-invest" is-wcm-type="true">
-        <label>product: test-before-invest</label>
-        <form>/component/test-before-invest</form>
+	<label>product: test-before-invest</label>
+	<form>/component/test-before-invest</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension>xml</file-extension>
