@@ -194,8 +194,6 @@
     </div>
 
     ${partnerData.partnerLandingVideosAssetsUrlList}
-${partnerData.partnerLandingDocAssetsUrlList}
-${partnerData.partnerLandingImagesAssetsUrlList}
 
     <div class="bg-primary pb-5">
       <div
