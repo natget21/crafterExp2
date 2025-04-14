@@ -193,7 +193,7 @@
       </div>
     </div>
 <div>
-    ${partnerData.partnerTelephone}
+    ${partnerData.partnerLandingVideosAssetsUrlList}
 </div>
 
     <div class="bg-primary pb-5">
