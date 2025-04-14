@@ -42,7 +42,6 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
 
-    <#if partnerData?has_content>
     <div class="content pb-5 layout_padding col-11 col-md-9 mx-auto">
       <div class="d-flex flex-column flex-md-row">
         <div class="col-12 col-md-7">
@@ -259,9 +258,6 @@
         </div>
       </div>
     </div>
-    <#else>
-    <h1 class="best_taital text-center text-white p-0">Partner Not Found</h1>
-    <#if>
 
     
 
