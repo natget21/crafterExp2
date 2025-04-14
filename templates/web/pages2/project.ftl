@@ -389,7 +389,7 @@
               src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
               alt=""
             />
-            <h5 class="addressee_text d-flex justify-content-start">Imprese</h5>
+            <p class="addressee_text d-flex justify-content-start">Imprese</p>
           </div>
           <div
             class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-center flex-column gap-3"
@@ -398,9 +398,9 @@
               src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
               alt=""
             />
-            <h5 class="addressee_text d-flex justify-content-start">
+            <p class="addressee_text d-flex justify-content-start">
               Pubblica Amministrazione
-            </h5>
+            </p>
           </div>
           <div
             class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-center flex-column gap-3"
@@ -409,9 +409,9 @@
               src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
               alt=""
             />
-            <h5 class="addressee_text d-flex justify-content-start">
+            <p class="addressee_text d-flex justify-content-start">
               Enti del Terzo Settore
-            </h5>
+            </p>
           </div>
           <div
             class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-center flex-column gap-3"
@@ -420,9 +420,9 @@
               src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
               alt=""
             />
-            <h5 class="addressee_text d-flex justify-content-start">
+            <p class="addressee_text d-flex justify-content-start">
               Liberi Professionisti
-            </h5>
+            </p>
           </div>
         </div>
       </div>
@@ -436,7 +436,7 @@
               src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
               alt=""
             />
-            <h5>Cultura</h5>
+            <p>Cultura</p>
           </div>
           <div
             class="target px-0 col-12 col-md-2 d-flex justify-content-center flex-column gap-3"
@@ -445,7 +445,7 @@
               src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
               alt=""
             />
-            <h5>Turismo</h5>
+            <p>Turismo</p>
           </div>
           <div
             class="target px-0 col-12 col-md-2 d-flex justify-content-center flex-column gap-3"
@@ -454,7 +454,7 @@
               src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
               alt=""
             />
-            <h5>Sociale</h5>
+            <p>Sociale</p>
           </div>
         </div>
       </div>
