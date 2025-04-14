@@ -82,7 +82,7 @@
               <div class="partner_logo_container w-100">
                 <img
                   class="partner_logo"
-                  src="assets/synthesis-logo.jpeg"
+                  src="static-assets/assets/synthesis-logo.jpeg"
                   alt=""
                 />
               </div>
