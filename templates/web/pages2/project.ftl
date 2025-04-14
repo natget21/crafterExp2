@@ -45,7 +45,7 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
 
-<div class="content pb-5">
+
     <div class="content pb-5">
       <div class="banner_section banner_project layout_padding">
         <div class="container">
@@ -458,7 +458,7 @@
           </div>
         </div>
       </div>
-    </div>
+
 
 
 
