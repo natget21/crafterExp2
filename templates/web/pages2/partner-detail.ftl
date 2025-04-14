@@ -51,9 +51,9 @@
       <div class="d-flex flex-column flex-md-row">
         <div class="col-12 col-md-7">
           <h2 class="title_section">${partnerData.partnerAzienda}</h2>
-          <p class="explanation pt-4" for="">
+          <div class="explanation pt-4" for="">
             ${partnerData.partnerLandingIntroduction}
-          </p>
+          </div>
         </div>
         <div class="col-12 col-md-5">
           <img
@@ -86,7 +86,7 @@
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 col-lg-3 info">
                   <p class="text-primary">Ragione sociale</p>
-                  <p class="fs-5 desc">Synthesis3 S.r.l. ${partnerData.partnerRegione}</p>
+                  <p class="fs-5 desc">${partnerData.partnerAzienda}</p>
                 </div>
                 <div class="col-12 col-lg-9 info">
                   <p class="text-primary">Partita IVA</p>
@@ -94,15 +94,15 @@
                 </div>
                 <div class="col-12 col-lg-3 info">
                   <p class="text-primary">Indirizzo</p>
-                  <p class="fs-5 desc">Via Roma, 123</p>
+                  <p class="fs-5 desc">${partnerData.partnerTelephone}, ${partnerData.country}</p>
                 </div>
                 <div class="col-12 col-lg-3 info">
                   <p class="text-primary">Email</p>
-                  <p class="fs-5 desc">info@synthesis3.it</p>
+                  <p class="fs-5 desc">${partnerData.partnerContactEmail}</p>
                 </div>
                 <div class="col-12 col-lg-3 info">
                   <p class="text-primary">Telefono</p>
-                  <p class="fs-5 desc">+39 01234567890</p>
+                  <p class="fs-5 desc">${partnerData.partnerTelephone}</p>
                 </div>
                 <div class="col-12 info">
                   <p class="text-primary">Categoria servizi</p>
@@ -262,17 +262,6 @@
           </div>
         </div>
       </div>
-                              <ul class="list-unstyled mt-3">
-                            <li><strong>Contact:</strong> ${partnerData.partnerContatto}</li>
-                            <li><strong>Email:</strong> ${partnerData.partnerContactEmail}</li>
-                            <li><strong>Phone:</strong> ${partnerData.partnerTelephone}</li>
-                            <li><strong>Region:</strong> ${partnerData.partnerRegione}</li>
-                            <li><strong>Country:</strong> ${partnerData.partnerNazione}</li>
-                            <li><strong>Sector:</strong> ${partnerData.partnerSettore}</li>
-                            <li><strong>Staff Size:</strong> ${partnerData.partnerStaffSize}</li>
-                            <li><strong>Status:</strong> ${partnerData.partnerStatus}</li>
-                        </ul>
-
     </div>
 
     
