@@ -14,54 +14,118 @@
 
     <#include "/templates/web/components/home-slider.ftl"> 
 <!-- Contact Start -->
-    <div class="container-fluid">
-        <div class="row px-xl-5">
-            <div class="col-lg-7 mb-5">
-                <div class="contact-form bg-light p-30">
-                    <div id="success"></div>
-                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                        <div class="control-group">
-                            <input type="text" class="form-control" id="name" placeholder="Nome"
-                                required="required" data-validation-required-message="Scrivi il tuo nome" />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="control-group">
-                            <input type="email" class="form-control" id="email" placeholder="Email"
-                                required="required" data-validation-required-message="La tua mail" />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="control-group">
-                            <input type="text" class="form-control" id="subject" placeholder="Soggetto"
-                                required="required" data-validation-required-message="Inserisci un oggetto" />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="control-group">
-                            <textarea class="form-control" rows="8" id="message" placeholder="Message"
-                                required="required"
-                                data-validation-required-message="Scrivi il tuo messaggio"></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div>
-                            <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Invia</button>
-                        </div>
-                    </form>
-                </div>
+        <section id="contact" class="contact mt-5 mb-5">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <div
+              class="info-item d-flex flex-column justify-content-center align-items-start gap-4 p-4"
+            >
+              <h2 class="title_section">
+                <strong> </strong>
+                Contattaci
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisque
+                faucibus ex sapien vitae pellentesque sem placerat. In id cursus
+                mi pretium
+              </p>
             </div>
-            <div class="col-lg-5 mb-5">
-                <!--<div class="bg-light p-30 mb-30">
-                    <iframe style="width: 100%; height: 250px;"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>-->
-                <div class="bg-light p-30 mb-3">
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Marche, Italia</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>innovation@synthesis3.it</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt text-primary mr-3"></i>  39 071 6627492</p>
+
+            <div class="row 2">
+              <div class="col-md-12">
+                <div class="info-item d-flex align-items-center p-3">
+                  <i class="bi bi-geo-alt flex-shrink-0 me-3 text-primary"></i>
+                  <!-- Placeholder for icon -->
+                  <p class="mb-0 text-primary">Marche, Italia</p>
                 </div>
+              </div>
+              <!-- End Info Item -->
+
+              <div class="col-md-12">
+                <div class="info-item d-flex align-items-center p-3">
+                  <i class="bi bi-envelope flex-shrink-0 me-3 text-primary"></i>
+                  <!-- Placeholder for icon -->
+                  <p class="mb-0 text-primary">info@example.com</p>
+                </div>
+              </div>
+              <!-- End Info Item -->
+
+              <div class="col-md-12">
+                <div class="info-item d-flex align-items-center p-3">
+                  <i
+                    class="bi bi-telephone flex-shrink-0 me-3 text-primary"
+                  ></i>
+                  <!-- Placeholder for icon -->
+                  <p class="mb-0 text-primary">+39 34567890</p>
+                </div>
+              </div>
+              <!-- End Info Item -->
             </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form
+              action="forms/contact.php"
+              method="post"
+              role="form"
+              class="php-email-form p-4"
+            >
+              <!-- Replace action with your endpoint -->
+              <div class="row gy-4">
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-12">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-12">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="6"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="col-md-12 text-end">
+                  <button type="submit" class="btn btn-primary px-4 rounded-2">
+                    INVIA MESSAGGIO
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- End Contact Form -->
         </div>
-    </div>
-    <!-- Contact End -->
+      </div>
+    </section>
+
 
     <!-- Footer Section -->
     <#include "/templates/web/fragments/footer.ftl">
