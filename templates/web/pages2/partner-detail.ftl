@@ -193,7 +193,7 @@
       </div>
     </div>
 <div>
-    ${partnerData}
+    ${partnerData.partnerTelephone}
 </div>
 
     <div class="bg-primary pb-5">
