@@ -57,7 +57,7 @@
         </#if>
 
         <#-- Display partner details if data is available -->
-        <#if partnerData?has_content>
+        <#if partnerData??>
             <h1 class="best_taital text-center text-white p-0">${partnerData.partnerAzienda}</h1>
         <#else>
             <h1 class="best_taital text-center text-white p-0">Partner Not Found</h1>
