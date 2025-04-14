@@ -29,7 +29,7 @@
     <link href="/static-assets/css/style.css" rel="stylesheet">
     
     <link rel="stylesheet" href="/static-assets/css/general-style.css" />
-    <link rel="stylesheet" href="/static-assets/css/partner.css" />
+    <link rel="stylesheet" href="/static-assets/css/partner-detail.css" />
     
     <@crafter.head/>
 </head>
