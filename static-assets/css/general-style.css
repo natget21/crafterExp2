@@ -1,5 +1,6 @@
 @import url("style.css");
 @import url("variables.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 .banner_section {
   height: 476px;
@@ -42,7 +43,7 @@
   padding-bottom: 90px;
 }
 
-.read_more {
+.read_more rounded-pill {
   color: white;
   border-radius: 30px;
   padding: 10px 20px;
@@ -71,6 +72,38 @@
   gap: 18px;
 }
 
+.other_news_item {
+  height: 400px;
+  cursor: pointer;
+}
+
+.date-badge {
+  background-color: white;
+  color: black;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.card-title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.date-badge {
+  width: fit-content;
+}
+
+.card-img-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.8)
+  );
+}
+
 .services_section .service:nth-child(odd) {
   flex-direction: row;
 }
@@ -83,6 +116,10 @@
   margin: 0;
 }
 
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../assets/arrow-accordion.svg);
+}
+
 .accordion-button:not(.collapsed) p {
   color: white;
 }
@@ -90,6 +127,7 @@
 .accordion-button p {
   font-size: 23px;
   margin: 0;
+  color: var(--primary-active);
 }
 
 .accordion-collapse .accordion-body p {
@@ -10214,6 +10252,10 @@ h6 {
 
 .sublink:hover {
   color: black !important;
+}
+
+.list-group-item {
+  border-color: #7c7c7c;
 }
 
 @keyframes action {
