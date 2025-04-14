@@ -1,3 +1,4 @@
+<#ftl output_format="HTML">
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!DOCTYPE html>
@@ -73,7 +74,8 @@
                     </div>
                     <div class="col-md-8">
                         <h2>${partnerData.partnerLandingTitle}</h2>
-                        
+                        <div>${partnerData.partnerLandingIntroduction?no_esc}</div>
+                        <div>${partnerData.partnerLandingContent?no_esc}</div>
                         <ul class="list-unstyled mt-3">
                             <li><strong>Contact:</strong> ${partnerData.partnerContatto}</li>
                             <li><strong>Email:</strong> ${partnerData.partnerContactEmail}</li>
