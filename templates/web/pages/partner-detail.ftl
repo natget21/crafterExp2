@@ -86,16 +86,7 @@
                             <li><strong>Status:</strong> ${partnerData.partnerStatus}</li>
                         </ul>
                         
-                        <#if partnerData.partnerLandingImagesAssetsUrlList??>
-                            <h5>Gallery:</h5>
-                            <div class="row">
-                                <#list partnerData.partnerLandingImagesAssetsUrlList as imageUrl>
-                                    <div class="col-md-4 mb-3">
-                                        <img src="${imageUrl}" alt="Partner Image" class="img-fluid">
-                                    </div>
-                                </#list>
-                            </div>
-                        </#if>
+                        
                     </div>
                 </div>
             </div>
