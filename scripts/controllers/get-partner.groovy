@@ -4,7 +4,7 @@ import org.apache.http.util.EntityUtils
 import groovy.json.JsonSlurper
 
 def partnerId = params.id
-def apiUrl = "http://localhost:5000/v1/Ideale-partner/findOne?partnerId=${partnerId}"
+def apiUrl = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${partnerId}"
 
 def httpClient = HttpClients.createDefault()
 def httpGet = new HttpGet(apiUrl)
