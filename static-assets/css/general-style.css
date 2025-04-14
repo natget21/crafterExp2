@@ -51,7 +51,7 @@
 
 .services_section .service_type {
   font-weight: 550 !important;
-  color: black;
+  color: var(--primary-active);
   font-size: 45px;
 }
 
@@ -120,11 +120,11 @@
   background-image: url(../assets/arrow-accordion.svg);
 }
 
-.accordion-button:not(.collapsed) p {
+.accordion-button:not(.collapsed) {
   color: white;
 }
 
-.accordion-button p {
+.accordion-button {
   font-size: 23px;
   margin: 0;
   color: var(--primary-active);
