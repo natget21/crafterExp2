@@ -86,7 +86,7 @@
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 col-lg-3 info">
                   <p class="text-primary">Ragione sociale</p>
-                  <p class="fs-5 desc">Synthesis3 S.r.l.</p>
+                  <p class="fs-5 desc">Synthesis3 S.r.l. ${partnerData.partnerLandingContent?no_esc}</p>
                 </div>
                 <div class="col-12 col-lg-9 info">
                   <p class="text-primary">Partita IVA</p>
