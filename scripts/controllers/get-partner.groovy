@@ -12,7 +12,7 @@ def response = httpClient.execute(httpGet)
 def responseBody = EntityUtils.toString(response.getEntity())
 def partnerData = new JsonSlurper().parseText(responseBody)
 
-templateModel.partnerData = partnerData
+//templateModel.partnerData = partnerData
 
 return [partnerData: partnerData]
 
