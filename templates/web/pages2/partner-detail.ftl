@@ -86,7 +86,7 @@
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 col-lg-3 info">
                   <p class="text-primary">Ragione sociale</p>
-                  <p class="fs-5 desc">Synthesis3 S.r.l. ${partnerData.partnerLandingContent?no_esc}</p>
+                  <p class="fs-5 desc">Synthesis3 S.r.l. ${partnerData.partnerRegione}</p>
                 </div>
                 <div class="col-12 col-lg-9 info">
                   <p class="text-primary">Partita IVA</p>
@@ -262,6 +262,17 @@
           </div>
         </div>
       </div>
+                              <ul class="list-unstyled mt-3">
+                            <li><strong>Contact:</strong> ${partnerData.partnerContatto}</li>
+                            <li><strong>Email:</strong> ${partnerData.partnerContactEmail}</li>
+                            <li><strong>Phone:</strong> ${partnerData.partnerTelephone}</li>
+                            <li><strong>Region:</strong> ${partnerData.partnerRegione}</li>
+                            <li><strong>Country:</strong> ${partnerData.partnerNazione}</li>
+                            <li><strong>Sector:</strong> ${partnerData.partnerSettore}</li>
+                            <li><strong>Staff Size:</strong> ${partnerData.partnerStaffSize}</li>
+                            <li><strong>Status:</strong> ${partnerData.partnerStatus}</li>
+                        </ul>
+
     </div>
 
     
