@@ -2,11 +2,22 @@
   background-image: url(/static-assets/assets/banner-partners.jpg);
 }
 
-.partners_section .partner_description {
-  font-size: 1.2rem;
-  color: black;
+.partners_section .partner_logo {
+  width: 100%;
+  max-width: 300px;
 }
 
-.partners_section .partner_logo {
-  height: 92px;
+.partner_title {
+  font-size: 26px;
+}
+
+@media (max-width: 768px) {
+  .partner_logo_container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .partner_logo {
+    width: 222px !important;
+  }
 }
