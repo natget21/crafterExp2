@@ -71,7 +71,12 @@
                             <img src="${partnerData.partnerCompanyLogoUrl}" alt="${partnerData.partnerAzienda}" class="img-fluid">
                         </#if>
                     </div>
-                    
+                    <div class="col-md-8">
+                        <h2>${partnerData.partnerLandingTitle}</h2>
+                        <div>${partnerData.partnerLandingIntroduction?no_esc}</div>
+                        <div>${partnerData.partnerLandingContent?no_esc}</div>
+                        
+                    </div>
                 </div>
             </div>
         </#if>
