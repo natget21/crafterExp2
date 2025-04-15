@@ -136,7 +136,7 @@
               data-bs-parent="#productsAccordion"
             >
               <div class="accordion-body row row-gap-5">
-                <#list partnerData.partnerLandingDocAssetsUrlList as mediaUrl>
+                <#list partnerData.partnerLandingImagesAssetsUrlList as mediaUrl>
                   <div class="attachment col-12 col-md-4">
                     <p
                       class="name_attachment d-flex justify-content-center justify-content-md-start"
