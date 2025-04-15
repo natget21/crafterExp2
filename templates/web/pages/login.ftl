@@ -101,7 +101,7 @@
                     'Origin': 'http://localhost'
                 },
                 credentials: 'include',
-                body: JSON.stringify({ email, password })
+                body: JSON.stringify({ email, password,"projectId":"67ac9fa58932d32db3c9768e" })
             })
             .then(response => response.json())
             .then(data => {
