@@ -134,59 +134,82 @@
               data-bs-parent="#productsAccordion"
             >
               <div class="accordion-body row row-gap-5">
-                <div class="attachment col-12 col-md-4">
-                  <p
-                    class="name_attachment d-flex justify-content-center justify-content-md-start"
-                  >
-                    Allegato-1.jpeg
-                  </p>
-                  <div
-                    class="buttons justify-content-center justify-content-md-start d-flex gap-3"
-                  >
-                    <a href=""><i class="bi bi-download"></i></a>
-                    <a href=""><i class="bi bi-eye"></i></a>
+                <#list partnerData.partnerLandingImagesAssetsUrlList as mediaUrl>
+                  <div class="attachment col-12 col-md-4">
+                    <p
+                      class="name_attachment d-flex justify-content-center justify-content-md-start"
+                    >
+                      Allegato-${mediaUrl_index + 1}
+                    </p>
+                    <div
+                      class="buttons justify-content-center justify-content-md-start d-flex gap-3"
+                    >
+                      <a href="${mediaUrl}" download><i class="bi bi-download"></i></a>
+                      <a target="_blank" rel="noopener noreferrer"><i class="bi bi-eye"></i></a>
+                    </div>
                   </div>
-                </div>
-                <div class="attachment col-12 col-md-4">
-                  <p
-                    class="name_attachment d-flex justify-content-center justify-content-md-start"
-                  >
-                    Allegato-2.jpeg
-                  </p>
-                  <div
-                    class="buttons justify-content-center justify-content-md-start d-flex gap-3"
-                  >
-                    <a href=""><i class="bi bi-download"></i></a>
-                    <a href=""><i class="bi bi-eye"></i></a>
-                  </div>
-                </div>
-                <div class="attachment col-12 col-md-4">
-                  <p
-                    class="name_attachment d-flex justify-content-center justify-content-md-start"
-                  >
-                    Allegato-3.jpeg
-                  </p>
-                  <div
-                    class="buttons justify-content-center justify-content-md-start d-flex gap-3"
-                  >
-                    <a href=""><i class="bi bi-download"></i></a>
-                    <a href=""><i class="bi bi-eye"></i></a>
-                  </div>
-                </div>
-                <div class="attachment col-12 col-md-4">
-                  <p
-                    class="name_attachment d-flex justify-content-center justify-content-md-start"
-                  >
-                    Allegato-4.jpeg
-                  </p>
-                  <div
-                    class="buttons justify-content-center justify-content-md-start d-flex gap-3"
-                  >
-                    <a href=""><i class="bi bi-download"></i></a>
-                    <a href=""><i class="bi bi-eye"></i></a>
-                  </div>
-                </div>
+                </#list>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-primary pb-5">
+      <div
+        class="layout_padding mx-auto col-11 col-md-9 px-0 other_news_section"
+      >
+        <div class="other_news_list d-flex gap-4 overflow-auto pb-4">
+          <div
+            class="card text-white border-0 shadow other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden"
+          >
+            <img
+              src="https://www.ip4fvg.it/wp-content/uploads/2024/11/Deep-tech-sostenibile-680x459.png"
+              class="card-img w-100 h-100 object-fit-cover"
+              alt="Deep Tech"
+            />
+            <div
+              class="card-img-overlay d-flex flex-column justify-content-between p-4"
+            >
+              <span class="date-badge px-3">4 Novembre 2024</span>
+              <h5 class="card-title">
+                Deep tech: secondo bando del programma D2XCEL Scaling
+              </h5>
+            </div>
+          </div>
+          <div
+            class="card text-white border-0 shadow other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden"
+          >
+            <img
+              src="https://www.edih4marche.eu/wp-content/uploads/elementor/thumbs/Immagine-2025-02-08-152302-r17hobiwl861im24au3j3nhchyisva3oqu0wsdmges.png"
+              class="card-img w-100 h-100 object-fit-cover"
+              alt="Deep Tech"
+            />
+            <div
+              class="card-img-overlay d-flex flex-column justify-content-between p-4"
+            >
+              <span class="date-badge px-3">4 Novembre 2024</span>
+              <h5 class="card-title">
+                Deep tech: secondo bando del programma D2XCEL Scaling
+              </h5>
+            </div>
+          </div>
+          <div
+            class="card text-white border-0 shadow other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden"
+          >
+            <img
+              src="https://www.edih4marche.eu/wp-content/uploads/elementor/thumbs/56acbf54-73fa-431d-a856-c404044f0107-qzy1y0l8kj99grp7yenuewm293m94yk3movw4uxllg.jpeg"
+              class="card-img w-100 h-100 object-fit-cover"
+              alt="Deep Tech"
+            />
+            <div
+              class="card-img-overlay d-flex flex-column justify-content-between p-4"
+            >
+              <span class="date-badge px-3">4 Novembre 2024</span>
+              <h5 class="card-title">
+                Deep tech: secondo bando del programma D2XCEL Scaling
+              </h5>
             </div>
           </div>
         </div>
