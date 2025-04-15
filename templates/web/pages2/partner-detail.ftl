@@ -146,7 +146,7 @@
                     <div
                       class="buttons justify-content-center justify-content-md-start d-flex gap-3"
                     >
-                      <a href="${mediaUrl}" download><i class="bi bi-download"></i></a>
+                      <a href="${mediaUrl}?download=true" download><i class="bi bi-download"></i></a>
                       <a href="${mediaUrl}" target="_blank" rel="noopener noreferrer">
                         <i class="bi bi-eye"></i>
                       </a>
