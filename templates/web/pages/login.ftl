@@ -52,9 +52,9 @@
                 <div class="img__text m--in">
                     <h3>Se hai gia un account, esegui la login con le tue credenziali.</h3>
                 </div>
-                <div class="img__btn" id="register">
-                    <span class="m--up">Registrati</span>
-                    <span class="m--in">Accedi</span>
+                <div class="img__btn register">
+                    <span class="m--up register">Registrati</span>
+                    <span class="m--in register">Accedi</span>
                 </div>
             </div>
             <div class="form sign-up">
@@ -86,7 +86,7 @@
     </script> -->
     
     <script>
-        document.getElementById('register').addEventListener('click', function () {
+        document.querySelector('.register').addEventListener('click', function () {
             console.log("here")
             window.location.href = /client-register
         });
