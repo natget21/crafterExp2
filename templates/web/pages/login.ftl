@@ -79,18 +79,13 @@
     <!-- Bootstrap JS (Required for Toasts) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- <script>
+   <script>
         document.querySelector('.img__btn').addEventListener('click', function () {
             document.querySelector('.cont').classList.toggle('s--signup');
         });
-    </script> -->
+    </script> 
     
-    <script>
-        document.querySelector('.register').addEventListener('click', function () {
-            console.log("here")
-            window.location.href = /client-register
-        });
-    </script>
+  
     
     
     <script>
