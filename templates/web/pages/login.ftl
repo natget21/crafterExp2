@@ -87,6 +87,7 @@
     
     <script>
         document.getElementById('register').addEventListener('click', function () {
+            console.log("here")
             window.location.href = /client-register
         });
     </script>
