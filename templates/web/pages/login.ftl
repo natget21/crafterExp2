@@ -52,9 +52,9 @@
                 <div class="img__text m--in">
                     <h3>Se hai gia un account, esegui la login con le tue credenziali.</h3>
                 </div>
-                <div class="img__btn">
-                    <a href="/client-register" ><span class="m--up">Registrati</span></a>
-                    <a href="/client-register" ><span class="m--in">Accedi</span></a>
+                <div class="img__btn" id="register">
+                    <span class="m--up">Registrati</span>
+                    <span class="m--in">Accedi</span>
                 </div>
             </div>
             <div class="form sign-up">
@@ -84,6 +84,13 @@
             document.querySelector('.cont').classList.toggle('s--signup');
         });
     </script> -->
+    
+    <script>
+        document.getElementById('register').addEventListener('click', function () {
+            window.location.href = /client-register
+        });
+    </script>
+    
     
     <script>
         document.getElementById("login-form").addEventListener("submit", async function (event) {
