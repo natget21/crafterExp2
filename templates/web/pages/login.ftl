@@ -52,10 +52,10 @@
                 <div class="img__text m--in">
                     <h3>Se hai gia un account, esegui la login con le tue credenziali.</h3>
                 </div>
-                <div class="img__btn">
+                <a href="/client-register" ><div class="img__btn">
                     <span class="m--up">Registrati</span>
                     <span class="m--in">Accedi</span>
-                </div>
+                </div></a>
             </div>
             <div class="form sign-up">
                 <h2>Create your Account</h2>
@@ -79,11 +79,11 @@
     <!-- Bootstrap JS (Required for Toasts) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script>
+    <!-- <script>
         document.querySelector('.img__btn').addEventListener('click', function () {
             document.querySelector('.cont').classList.toggle('s--signup');
         });
-    </script>
+    </script> -->
     
     <script>
         document.getElementById("login-form").addEventListener("submit", async function (event) {
