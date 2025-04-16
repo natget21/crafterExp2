@@ -52,10 +52,10 @@
                 <div class="img__text m--in">
                     <h3>Se hai gia un account, esegui la login con le tue credenziali.</h3>
                 </div>
-                <a href="/client-register" ><div class="img__btn">
-                    <span class="m--up">Registrati</span>
-                    <span class="m--in">Accedi</span>
-                </div></a>
+                <div class="img__btn">
+                    <a href="/client-register" ><span class="m--up">Registrati</span></a>
+                    <a href="/client-register" ><span class="m--in">Accedi</span></a>
+                </div>
             </div>
             <div class="form sign-up">
                 <h2>Create your Account</h2>
