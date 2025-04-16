@@ -84,7 +84,7 @@
             //document.querySelector('.cont').classList.toggle('s--signup');
             console.log("hello")
             window.location.href = "/client-register";
-    </script>
+    
         });
     </script> 
     
