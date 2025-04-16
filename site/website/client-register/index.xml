@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageregisterclient</content-type>
+	<display-template>/templates/web/pages/register-client-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d82e</objectGroupId>
+	<objectId>d82eac6f-1a1e-f24e-0677-c96059f17f9d</objectId>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<internal-name>client-register</internal-name>
+	<navLabel>client-register</navLabel>
+	<file-name>index.xml</file-name>
+	<folder-name>client-register</folder-name>
+	<createdDate>2025-04-16T20:20:22.348Z</createdDate>
+	<createdDate_dt>2025-04-16T20:20:22.348Z</createdDate_dt>
+	<lastModifiedDate>2025-04-16T20:20:22.348Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-16T20:20:22.348Z</lastModifiedDate_dt>
+</page>
