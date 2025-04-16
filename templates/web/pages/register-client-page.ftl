@@ -40,6 +40,14 @@
 
     <!-- Scripts -->
     <#include "/templates/web/fragments/scripts.ftl">
+    
+    <script>
+        window.addEventListener('message', function(event) {
+            if (event.data && event.data.type === 'redirect') {
+                window.location.href = "/login";
+            }
+        });
+    </script>
    
 
     <@crafter.body_bottom/>
