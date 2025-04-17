@@ -46,82 +46,109 @@
     <#include "/templates/web/fragments/static-navigation.ftl">
     
 
-<div class="content pb-5">
-      <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
-        <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            class="active"
-            aria-label="Slide 1"
-          ></li>
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="1"
-            aria-label="Slide 2"
-          ></li>
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="2"
-            aria-label="Slide 3"
-          ></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class=""
-              src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
-              alt=""
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class=""
-              src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-750x1024.jpeg"
-              alt=""
-            />
-          </div>
-          <div class="carousel-item">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
-              width="800"
-              height="400"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: Third slide"
-              preserveAspectRatio="xMidYMid slice"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#555"></rect>
-              <text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text>
-            </svg>
+
+
+    <div class="content layout_padding">
+      <div class="news_section mx-auto col-11 col-md-9 px-0">
+        <h1 class="title-hero title_section mb-4">
+          EDIH Network Summit 2024: Seconda edizione dell'EDIH Network Summit
+        </h1>
+        <p class="">by <strong>DANTE EDIH</strong> | 26 Giugno 2024</p>
+        <div class="mb-4 d-flex justify-content-center">
+          <img
+            src="https://www.edih4marche.eu/wp-content/uploads/2024/11/Immagine-2024-12-04-133444.png"
+            class="article_img w-100"
+            alt="Image News"
+          />
+        </div>
+
+        <p>
+          <strong class="subtitle">
+            EDIH Network Summit 2024 | 26 e 27 novembre The EGG, Bruxelles
+          </strong>
+        </p>
+
+        <p>
+          EDIH4Marche, insieme agli altri 12 EDIH italiani, ha partecipato alla
+          seconda edizione dell’EDIH Network Summit, tenutasi a Bruxelles il 26
+          e 27 novembre, che ha riunito i principali stakeholder della rete
+          degli European Digital Innovation Hub (EDIH), inclusi rappresentanti
+          di vari gruppi di lavoro tematici, autorità nazionali e gruppi di
+          esperti.
+        </p>
+
+        <p>
+          L’evento ha fornito informazioni di prim’ordine su argomenti chiave
+          come le sfide dell’intelligenza artificiale e ha facilitato momenti di
+          networking tra i partecipanti provenienti da tutta Europa.
+        </p>
+
+        <p>Iscriviti qui</p>
+        <a href="#" target="_blank">www.example.com</a>
+      </div>
+      <div class="layout_padding">
+        <div class="bg-primary pb-5">
+          <div
+            class="layout_padding mx-auto col-11 col-md-9 px-0 other_news_section"
+          >
+            <div class="other_news_list d-flex gap-4 overflow-auto pb-4">
+              <div
+                class="card text-white border-0 shadow other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden"
+              >
+                <img
+                  src="https://www.ip4fvg.it/wp-content/uploads/2024/11/Deep-tech-sostenibile-680x459.png"
+                  class="card-img w-100 h-100 object-fit-cover"
+                  alt="Deep Tech"
+                />
+                <div
+                  class="card-img-overlay d-flex flex-column justify-content-between p-4"
+                >
+                  <span class="date-badge px-3">4 Novembre 2024</span>
+                  <h5 class="card-title">
+                    Deep tech: secondo bando del programma D2XCEL Scaling
+                  </h5>
+                </div>
+              </div>
+              <div
+                class="card text-white border-0 shadow other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden"
+              >
+                <img
+                  src="https://www.edih4marche.eu/wp-content/uploads/elementor/thumbs/Immagine-2025-02-08-152302-r17hobiwl861im24au3j3nhchyisva3oqu0wsdmges.png"
+                  class="card-img w-100 h-100 object-fit-cover"
+                  alt="Deep Tech"
+                />
+                <div
+                  class="card-img-overlay d-flex flex-column justify-content-between p-4"
+                >
+                  <span class="date-badge px-3">4 Novembre 2024</span>
+                  <h5 class="card-title">
+                    Deep tech: secondo bando del programma D2XCEL Scaling
+                  </h5>
+                </div>
+              </div>
+              <div
+                class="card text-white border-0 shadow other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden"
+              >
+                <img
+                  src="https://www.edih4marche.eu/wp-content/uploads/elementor/thumbs/56acbf54-73fa-431d-a856-c404044f0107-qzy1y0l8kj99grp7yenuewm293m94yk3movw4uxllg.jpeg"
+                  class="card-img w-100 h-100 object-fit-cover"
+                  alt="Deep Tech"
+                />
+                <div
+                  class="card-img-overlay d-flex flex-column justify-content-between p-4"
+                >
+                  <span class="date-badge px-3">4 Novembre 2024</span>
+                  <h5 class="card-title">
+                    Deep tech: secondo bando del programma D2XCEL Scaling
+                  </h5>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container event-container text-black">
-      <h1 class="event-title">DANTE EDIH – Riunione Plenaria (Giugno 2024)</h1>
-      <p class="event-meta">
-        by <strong>DANTE EDIH</strong> &nbsp; | &nbsp; 26 Giugno 2024
-      </p>
-      <hr />
-      <p class="event-content">
-        Il 25 giugno, a Firenze, si è svolto il General Meeting del progetto
-        DANTE EDIH, con la partecipazione di tutti i partner nazionali,
-        finalizzato a condividere l’avanzamento delle attività e a creare
-        un’occasione di scambio e confronto, al fine di guidare il settore
-        pubblico e privato italiano verso un’era digitale sempre più avanzata e
-        sicura.
-      </p>
-      <p class="event-content">
-        Il consorzio del progetto DANTE EDIH si impegna a mantenere il suo ruolo
-        di promotore di innovazione e crescita per il tessuto imprenditoriale
-        italiano. Per ulteriori informazioni o per discutere opportunità di
-        collaborazione, vi invitiamo a seguire le attività di DANTE EDIH e a
-        contattarci per qualsiasi richiesta o interesse a partecipare al
-        progetto.
-      </p>
-    </div>
+
 
    
 
