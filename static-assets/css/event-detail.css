@@ -1,20 +1,33 @@
-.carousel-inner {
-  height: 350px;
+.article_img {
+  max-width: 800px;
 }
 
-.carousel-inner img {
-  width: 100%;
-}
-
-.carousel-indicators li {
-  width: 15px;
-  height: 15px;
-  margin: 0 3px 12px 3px;
-  background: transparent;
-  border: 1px solid #ffffff;
-  transition: 0.5s;
-}
-
-.event-container {
+.text-black {
   color: black;
+}
+
+.title-hero {
+  color: #333;
+  font-size: 40px;
+}
+
+.other_news_list::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+  height: 10px;
+}
+
+.other_news_list::-webkit-scrollbar-track {
+  background: transparent;
+  height: 10px;
+  border-radius: 4px;
+}
+
+.other_news_list::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+.other_news_list::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-active);
 }
