@@ -43,7 +43,7 @@
                     <h3 id="productName">${title}</h3>
                     <div class="d-flex mb-3">
                         
-                        <small class="pt-1" id="productCode">${productId}</small><br />
+                        <small class="pt-1" id="productCode">${productId}</small><br><br/><br><br/>
                         <small class="pt-1" id="cup">CUP </small> <small class="pt-1" id="cup">${cup}</small>
                         <small class="pt-1" style="visibility: hidden" id="agevolazione">${agevolazione}</small>
                         <small class="pt-1" style="visibility: hidden" id="itemUrl">${itemUrl}</small>
