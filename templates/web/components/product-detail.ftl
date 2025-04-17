@@ -44,7 +44,7 @@
                     <div class="d-flex mb-3">
                         
                         <small class="pt-1" id="productCode">${productId}</small>
-                        <small class="pt-1" style="visibility: hidden" id="cup">${cup}</small>
+                        <small class="pt-1" id="cup">CUP </small> <small class="pt-1" id="cup">${cup}</small>
                         <small class="pt-1" style="visibility: hidden" id="agevolazione">${agevolazione}</small>
                         <small class="pt-1" style="visibility: hidden" id="itemUrl">${itemUrl}</small>
                         <small class="pt-1" style="visibility: hidden" id="partnerId">${partnerId}</small>
