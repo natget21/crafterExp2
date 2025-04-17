@@ -17,7 +17,7 @@
                             <a class="text-secondary mb-2" href="/index"><i class="fa fa-angle-right mr-2"></i>Home</a>
                             <a class="text-secondary mb-2" href="/partner"><i class="fa fa-angle-right mr-2"></i>Partners</a>
                             <a class="text-secondary mb-2" href="/project"><i class="fa fa-angle-right mr-2"></i>Il progetto</a>
-                            <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Servizi</a>
+                            <a class="text-secondary mb-2" href="/services"><i class="fa fa-angle-right mr-2"></i>Servizi</a>
                             <a class="text-secondary mb-2" href="/contact"><i class="fa fa-angle-right mr-2"></i>Contatti</a>
                             <!--<a class="text-secondary" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>-->
                         </div>
