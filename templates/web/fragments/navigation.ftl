@@ -51,7 +51,7 @@
             <div class="col-lg-9">
                 <nav class="navbar navbar-expand-lg navbar-dark py-3 py-lg-0 px-0">
                     <a href="" class="text-decoration-none d-block d-lg-none">
-                        <img src="/static-assets/assets/ideale_logo.png" height="90px" />
+                        <img src="/static-assets/assets/ideale_logo.png" height="70px" />
                         <!-- <span class="h1 text-uppercase text-light bg-primary px-2 ml-n1">Shop</span> -->
                     </a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
