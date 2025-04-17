@@ -100,7 +100,7 @@
               <div
                 class="position-absolute bottom-0 right-0 w-100 d-flex justify-content-end"
               >
-                <button class="open_event btn btn-secondary rounded-pill">
+                <button class="open_event btn btn-secondary rounded-pill" onclick="window.location.href='/event-detail'">
                   Leggi
                 </button>
               </div>
@@ -125,7 +125,7 @@
               <div
                 class="position-absolute bottom-0 right-0 w-100 d-flex justify-content-end"
               >
-                <button class="open_event btn btn-secondary rounded-pill">
+                <button class="open_event btn btn-secondary rounded-pill" onclick="window.location.href='/event-detail'">
                   Leggi
                 </button>
               </div>
@@ -150,7 +150,7 @@
               <div
                 class="position-absolute bottom-0 right-0 w-100 d-flex justify-content-end"
               >
-                <button class="open_event btn btn-secondary rounded-pill">
+                <button class="open_event btn btn-secondary rounded-pill" onclick="window.location.href='/event-detail'">
                   Leggi
                 </button>
               </div>
