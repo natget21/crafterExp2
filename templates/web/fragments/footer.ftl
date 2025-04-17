@@ -14,11 +14,11 @@
                     <div class="col-md-4 mb-5">
                         <h5 class="text-secondary text-uppercase mb-4">Accesso rapido</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-secondary mb-2" href="window.location.href='index'"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                            <a class="text-secondary mb-2" href="window.location.href='partner'"><i class="fa fa-angle-right mr-2"></i>Partners</a>
-                            <a class="text-secondary mb-2" href="window.location.href='project'"><i class="fa fa-angle-right mr-2"></i>Il progetto</a>
+                            <a class="text-secondary mb-2" href="/index"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-secondary mb-2" href="/partner"><i class="fa fa-angle-right mr-2"></i>Partners</a>
+                            <a class="text-secondary mb-2" href="/project"><i class="fa fa-angle-right mr-2"></i>Il progetto</a>
                             <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Servizi</a>
-                            <a class="text-secondary mb-2" href="window.location.href='contact'"><i class="fa fa-angle-right mr-2"></i>Contatti</a>
+                            <a class="text-secondary mb-2" href="/contact"><i class="fa fa-angle-right mr-2"></i>Contatti</a>
                             <!--<a class="text-secondary" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>-->
                         </div>
                     </div>
