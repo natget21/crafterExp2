@@ -49,7 +49,7 @@
                         <small class="pt-1" style="visibility: hidden" id="partnerId">${partnerId}</small>
                     </div>
                     <div class="d-flex mb-3">
-                        <small class="pt-1">CUP </small> <small class="pt-1" id="cup">${cup}</small>
+                        <small class="pt-1">CUP : </small> <small class="pt-1" id="cup">${cup}</small>
                     </div>
                     <h3 class="font-weight-semi-bold mb-4" id="productPrice">EUR ${price}</h3>
                     <p class="mb-4">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit
