@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageservices</content-type>
+	<display-template>/templates/web/pages2/services.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c37a</objectGroupId>
+	<objectId>c37ab6b2-7990-bc13-0974-3d898c76b62d</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>services</folder-name>
+	<internal-name>services</internal-name>
+	<navLabel>services</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-04-17T10:44:59.388Z</createdDate>
+	<createdDate_dt>2025-04-17T10:44:59.388Z</createdDate_dt>
+	<lastModifiedDate>2025-04-17T10:44:59.388Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-17T10:44:59.388Z</lastModifiedDate_dt>
+</page>
