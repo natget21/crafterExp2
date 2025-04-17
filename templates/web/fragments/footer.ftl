@@ -1,6 +1,6 @@
 <footer>
     <!-- Footer Start -->
-    <div class="container-fluid text-secondary bg-dark pt-5">
+    <div class="container-fluid text-secondary pt-5">
         <div class="row px-xl-5 pt-5">
             <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
                 <h5 class="text-secondary text-uppercase mb-4">Rimani in contatto</h5>
@@ -14,11 +14,11 @@
                     <div class="col-md-4 mb-5">
                         <h5 class="text-secondary text-uppercase mb-4">Accesso rapido</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                            <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Partners</a>
-                            <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Il progetto</a>
+                            <a class="text-secondary mb-2" href="window.location.href='index'"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-secondary mb-2" href="window.location.href='partner'"><i class="fa fa-angle-right mr-2"></i>Partners</a>
+                            <a class="text-secondary mb-2" href="window.location.href='project'"><i class="fa fa-angle-right mr-2"></i>Il progetto</a>
                             <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Servizi</a>
-                            <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Contatti</a>
+                            <a class="text-secondary mb-2" href="window.location.href='contact'"><i class="fa fa-angle-right mr-2"></i>Contatti</a>
                             <!--<a class="text-secondary" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>-->
                         </div>
                     </div>
