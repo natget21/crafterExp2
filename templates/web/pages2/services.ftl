@@ -116,7 +116,7 @@
               l'automazione e l'efficienza operativa.
             </p>
           </div>
-          <img src="assets/test-before-invest-1.jpg" alt="" />
+          <img src="static-assets/assets/test-before-invest-1.jpg" alt="" />
         </div>
         <h5 class="service_type layout_padding">Servizi Digitali:</h5>
         <div class="service d-flex justify-content-between align-items-center">
@@ -139,7 +139,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/formazione-1.jpg" alt="" />
+          <img src="static-assets/assets/formazione-1.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -161,7 +161,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -183,7 +183,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -205,7 +205,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -229,7 +229,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
       </div>
     </div>
