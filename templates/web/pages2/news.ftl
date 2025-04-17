@@ -45,6 +45,8 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
     
+    
+    
 
     <div class="content pb-5">
       <div
@@ -116,7 +118,7 @@
                   class="flex-grow-1 d-flex align-items-end justify-content-center"
                 >
                   <a
-                    href="#"
+                    href="/news-detail"
                     class="btn btn-secondary btn-sm read_more rounded-pill"
                     >Scopri di piu'</a
                   >
@@ -150,7 +152,7 @@
                   class="flex-grow-1 d-flex align-items-end justify-content-center"
                 >
                   <a
-                    href="#"
+                    href="/news-detail"
                     class="btn btn-secondary btn-sm read_more rounded-pill"
                     >Scopri di piu'</a
                   >
@@ -161,6 +163,7 @@
         </div>
       </div>
     </div>
+
 
 
 
