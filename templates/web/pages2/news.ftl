@@ -82,7 +82,7 @@
                   class="flex-grow-1 d-flex align-items-end justify-content-center"
                 >
                   <a
-                    href="#"
+                    href="/news-detail"
                     class="btn btn-secondary btn-sm read_more rounded-pill"
                     >Scopri di piu'</a
                   >
