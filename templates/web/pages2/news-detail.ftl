@@ -45,7 +45,7 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
     
-<div class="content pb-5 layout_padding">
+<div class="content layout_padding">
       <div class="news_section mx-auto col-11 col-md-9 px-0 text-black">
         <div class="article-date mb-2 text-muted">Novembre 29, 2024</div>
         <h1 class="title-hero mb-4 text-black">
