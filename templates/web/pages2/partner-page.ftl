@@ -143,7 +143,7 @@
                 <div
                   class="d-flex flex-grow-1 justify-content-end align-items-end mt-3"
                 >
-                  <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/partner-detail?id=67dd8279c70ba0680bdc849d'">
+                  <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/partner-detail?id=67fce234f647a63da899d027'">
                     Scopri di più
                   </button>
                 </div>
