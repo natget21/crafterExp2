@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>17f2</objectGroupId>
+    <objectId>17f27579-1528-4de8-beb8-5f03c5ce324c</objectId>
+    <file-name>17f27579-1528-4de8-beb8-5f03c5ce324c.xml</file-name>
+    <folder-name/>
+    <internal-name>CORSO VR IMMERSIVO ?ALLA SCOPERTA DEL TEATRO?</internal-name>
+    <partnerId_s>67fce234f647a63da899d027</partnerId_s>
+    <name_s>Corso VR immersivo ?Alla scoperta del Teatro?</name_s>
+    <contenuto_t>Esperienze educative basate sulla gamification in realt� virtuale (VR) rivolto a studenti delle scuole secondarie di primo grado, concepito come un?esperienza narrativa e immersiva all?interno di un teatro storico. Lo studente, protagonista della storia, riceve una missione: ritrovare tre spartiti scomparsi per ristabilire l?armonia del teatro prima dello spettacolo.
+L?esperienza � articolata in tre sezioni esplorative ? Area Maestranze (quinte e sartoria), Area Performer (palco e sala prove) e Area Spettatori (platea) ? che illustrano i ruoli e le dinamiche dietro le quinte, sul palco e in platea. Ogni sezione � accompagnata da quiz, contenuti interattivi, poesie narrative, e include la scoperta simbolica di uno spartito tratto da un'opera lirica.
+
+Il tour � declinabile ? su richiesta - in diverse versioni con obiettivi differenziati:
+?	Distribuzione culturale e avvicinamento delle nuove generazioni al mondo del teatro;
+?	Promozione territoriale, valorizzando luoghi iconici e il patrimonio storico-artistico della citt�;
+?	Comunicazione dell?associazione culturale di riferimento, attraverso un?esperienza coinvolgente e innovativa;
+?	Attrazione turistica, proponendo un?esperienza interattiva che pu� essere fruita anche da visitatori e scuole in modalit� remota (dal sito web dell?associazione culturale) o in loco durante i momenti di attesa (prima dell?evento).</contenuto_t>
+    <durata_s>1 esperienza formativa suddivisa in 3 moduli: Maestranze, Performer, Spettatore</durata_s>
+    <productid_s>PRO_b560b57f</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>null</key>
+   <value>null</value>
+   <include>null</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <extra_costo_t>Il prezzo del servizio dipende dalla personalizzazione dell?esperienza (adattamento all?ambiente specifico, creazione di contenuti 360�, narrazione vocale, gamification con quiz e attivit� interattive), dalla complessit� del flusso narrativo e dal numero di moduli in cui si desidera suddividere il corso.</extra_costo_t>
+    <createdDate>2025-04-18T10:02:33.960Z</createdDate>
+    <createdDate_dt>2025-04-18T10:02:33.960Z</createdDate_dt>
+    <lastModifiedDate>2025-04-18T10:02:33.960Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-18T10:02:33.960Z</lastModifiedDate_dt>
+</component>
