@@ -63,7 +63,7 @@
             let cup = document.getElementById("cup").innerHTML;
             let agevolazione = (document.getElementById("agevolazione").innerText)=="true";
             let itemUrl = document.getElementById("itemUrl").innerHTML;
-            let partnerId = document.getElementById("partnerId").innerHTML; //67dd8279c70ba0680bdc849d
+            let partnerId = "67dd8279c70ba0680bdc849d";//document.getElementById("partnerId").innerHTML; //
             
             
             
