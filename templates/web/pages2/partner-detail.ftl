@@ -97,7 +97,7 @@
                 </div>
                 <div class="col-12 col-lg-3 info">
                   <p class="text-primary">Indirizzo</p>
-                  <p class="fs-5 desc">${partnerData.partnerTelephone}, ${partnerData.partnerNazione}</p>
+                  <p class="fs-5 desc">${partnerData.partnerNazione}</p>
                 </div>
                 <div class="col-12 col-lg-3 info">
                   <p class="text-primary">Email</p>
