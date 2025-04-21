@@ -217,3 +217,28 @@ document.addEventListener('DOMContentLoaded', function () {
     filterByTag();
 </script>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (window.location.pathname.includes("/order")) {
+            let clientId = null;
+            let crafterVadinUser = localStorage.getItem("crafterVadinUser");
+
+            if (crafterVadinUser) {
+                try {
+                    let userData = JSON.parse(crafterVadinUser);
+                    clientId = userData._id;
+
+                    const themeStyle = "light";
+                    const iframe = document.getElementById("clientOrderIframe");
+                    if (iframe) {
+                        iframe.src = `https://ideale.shortcut.uno/client-order-management?themeStyle=${themeStyle}&clientId=${clientId}`;
+                    }
+                } catch (e) {
+                    console.error("Error parsing crafterVadinUser:", e);
+                }
+            } else {
+                console.warn("No crafterVadinUser found in localStorage");
+            }
+        }
+    });
+</script>
