@@ -11,7 +11,7 @@
      <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
 
-    <iframe src="https://ideale.shortcut.uno/client-order-management?themeStyle=light" width="100%" height="750px" frameborder="0"></iframe>
+     <iframe id="clientOrderIframe" width="100%" height="750px" frameborder="0"></iframe>
 
 
 
@@ -20,6 +20,27 @@
 
     <!-- Scripts -->
     <#include "/templates/web/fragments/scripts.ftl">
+     <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let clientId = null;
+            let crafterVadinUser = localStorage.getItem("crafterVadinUser");
+
+            if (crafterVadinUser) {
+                try {
+                    let userData = JSON.parse(crafterVadinUser);
+                    clientId = userData._id;
+
+                    const themeStyle = "light";
+                    const iframe = document.getElementById("clientOrderIframe");
+                    iframe.src = `https://ideale.shortcut.uno/client-order-management?themeStyle=${themeStyle}&clientId=${clientId}`;
+                } catch (e) {
+                    console.error("Error parsing crafterVadinUser:", e);
+                }
+            } else {
+                console.warn("No crafterVadinUser found in localStorage");
+            }
+        });
+    </script>
     <@crafter.body_bottom/>
 </body>
 </html>
