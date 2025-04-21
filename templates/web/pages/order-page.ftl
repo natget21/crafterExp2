@@ -28,14 +28,18 @@
             if (crafterVadinUser) {
                 try {
                     let userData = JSON.parse(crafterVadinUser);
+                      console.log("Parsed userData:", userData);
                     clientId = userData._id;
 
                     const themeStyle = "light";
                     const iframe = document.getElementById("clientOrderIframe");
                     console.log(iframe,"2")
-                    if (iframe) {
+                    if (iframe && clientId ) {
                     console.log(clientId,"3")
                         iframe.src = `https://ideale.shortcut.uno/client-order-management?themeStyle=${themeStyle}&clientId=${clientId}`;
+                         console.log("Setting iframe src to:", fullUrl);
+                    }else{
+                        console.warn("Iframe element or clientId missing.");
                     }
                 } catch (e) {
                     console.error("Error parsing crafterVadinUser:", e);
