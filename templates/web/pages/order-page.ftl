@@ -25,7 +25,7 @@
     document.addEventListener("DOMContentLoaded", function () {
             let clientId = null;
             let crafterVadinUser = localStorage.getItem("crafterVadinUser");
-
+                console.log(crafterVadinUser,"1")
             if (crafterVadinUser) {
                 try {
                     let userData = JSON.parse(crafterVadinUser);
@@ -33,7 +33,9 @@
 
                     const themeStyle = "light";
                     const iframe = document.getElementById("clientOrderIframe");
+                    console.log(iframe,"2")
                     if (iframe) {
+                    console.log(clientId,"3")
                         iframe.src = `https://ideale.shortcut.uno/client-order-management?themeStyle=${themeStyle}&clientId=${clientId}`;
                     }
                 } catch (e) {
