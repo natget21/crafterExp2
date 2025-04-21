@@ -11,7 +11,7 @@
      <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
 
-     <iframe id="clientOrderIframe" width="100%" height="750px" frameborder="0"></iframe>
+     <iframe id="clientOrderIframe" src="" width="100%" height="750px" frameborder="0"></iframe>
 
 
 
