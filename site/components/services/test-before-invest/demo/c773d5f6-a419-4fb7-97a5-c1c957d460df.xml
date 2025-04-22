@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/test-before-invest</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>c773</objectGroupId>
+    <objectId>c773d5f6-a419-4fb7-97a5-c1c957d460df</objectId>
+    <file-name>c773d5f6-a419-4fb7-97a5-c1c957d460df.xml</file-name>
+    <folder-name/>
+    <internal-name>TEST</internal-name>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <name_s>test</name_s>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <description_t>test</description_t>
+    <costo_s>test</costo_s>
+    <cup_s>test</cup_s>
+    <productid_s>PRO_e5acc92d</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</key>
+   <value>DEMO</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <duration_s>test</duration_s>
+    <createdDate>2025-04-22T06:34:08.243Z</createdDate>
+    <createdDate_dt>2025-04-22T06:34:08.243Z</createdDate_dt>
+    <lastModifiedDate>2025-04-22T06:34:08.243Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-22T06:34:08.243Z</lastModifiedDate_dt>
+</component>
