@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>fb71</objectGroupId>
+    <objectId>fb7134be-d5d9-462e-8928-75d5209b050f</objectId>
+    <file-name>fb7134be-d5d9-462e-8928-75d5209b050f.xml</file-name>
+    <folder-name/>
+    <internal-name>CORSO VR IMMERSIVO ALLA SCOPERTA DEL TEATRO</internal-name>
+    <name_s>Corso VR immersivo Alla scoperta del Teatro</name_s>
+    <contenuto_t>Esperienze educative basate sulla gamification in realt� virtuale (VR) rivolto a studenti delle scuole secondarie di primo grado, concepito come un?esperienza narrativa e immersiva all?interno di un teatro storico. 
+Lo studente, protagonista della storia, riceve una missione: ritrovare tre spartiti scomparsi per ristabilire l?armonia del teatro prima dello spettacolo.
+L?esperienza � articolata in tre sezioni esplorative ? Area Maestranze (quinte e sartoria), Area Performer (palco e sala prove) e Area Spettatori (platea) ? che illustrano i ruoli e le dinamiche dietro le quinte, sul palco e in platea. Ogni sezione � accompagnata da quiz, contenuti interattivi, poesie narrative, e include la scoperta simbolica di uno spartito tratto da un'opera lirica.
+
+</contenuto_t>
+    <modalita_t>1 esperienza formativa suddivisa in 3 moduli: Maestranze, Performer, Spettatore.</modalita_t>
+    <partnerId_s>67fce234f647a63da899d027</partnerId_s>
+    <obiettivo_t>Il tour � declinabile ? su richiesta - in diverse versioni con obiettivi differenziati:
+ 
+- Distribuzione culturale e avvicinamento delle nuove generazioni al mondo del teatro;
+- Promozione territoriale, valorizzando luoghi iconici e il patrimonio storico-artistico della citt�;
+- Comunicazione dell?associazione culturale di riferimento, attraverso un?esperienza coinvolgente e innovativa;
+- Attrazione turistica, proponendo un?esperienza interattiva che pu� essere fruita anche da visitatori e scuole in modalit� remota (dal sito web dell?associazione culturale) o in loco durante i momenti di attesa (prima dell?evento).
+</obiettivo_t>
+    <productid_s>PRO_cb98a283</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+   <value>formazione-a-catalogo-tecnica-e-manageriale</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <createdDate>2025-04-23T15:39:42.048Z</createdDate>
+    <createdDate_dt>2025-04-23T15:39:42.048Z</createdDate_dt>
+    <lastModifiedDate>2025-04-23T15:39:42.048Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-23T15:39:42.048Z</lastModifiedDate_dt>
+</component>
