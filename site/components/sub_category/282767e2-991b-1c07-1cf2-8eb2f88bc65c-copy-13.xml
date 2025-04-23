@@ -8,7 +8,7 @@
 	<objectId>f2ff9426-159f-4452-9ec8-d7bfdd6c6fdc</objectId>
 	<file-name>282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</file-name>
 	<folder-name/>
-	<internal-name>DEMO</internal-name>
+	<internal-name>demo</internal-name>
 	<name_s>DEMO</name_s>
 	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-4.xml</key>
 	<value>TEST BEFORE INVEST</value>
@@ -17,8 +17,8 @@
 	</item></category_o>
 	<createdDate>2024-11-14T09:03:42.624Z</createdDate>
 	<createdDate_dt>2024-11-14T09:03:42.624Z</createdDate_dt>
-	<lastModifiedDate>2025-03-20T03:39:00.154Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-03-20T03:39:00.154Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-04-23T12:12:35.603Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-23T12:12:35.603Z</lastModifiedDate_dt>
 	<tags_o/>
 	<requireGDPRAcceptance_b>true</requireGDPRAcceptance_b>
 	<requireprivacyacceptance_b>true</requireprivacyacceptance_b>
