@@ -8,7 +8,7 @@
 	<objectId>72e82e95-5c78-45e2-a4f8-6c07c569d45b</objectId>
 	<file-name>282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-6.xml</file-name>
 	<folder-name/>
-	<internal-name>Finanza agevolata ed Europrogettazione</internal-name>
+	<internal-name>finanza-agevolata-ed-europrogettazione</internal-name>
 	<name_s>Finanza agevolata ed Europrogettazione</name_s>
 	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-2.xml</key>
 	<value>ACCESS TO FINANCE</value>
@@ -17,6 +17,9 @@
 	</item></category_o>
 	<createdDate>2024-11-14T08:56:43.830Z</createdDate>
 	<createdDate_dt>2024-11-14T08:56:43.830Z</createdDate_dt>
-	<lastModifiedDate>2024-11-21T15:25:08.289Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-21T15:25:08.289Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-04-23T12:13:57.939Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-23T12:13:57.939Z</lastModifiedDate_dt>
+	<requireGDPRAcceptance_b>false</requireGDPRAcceptance_b>
+	<requireprivacyacceptance_b>false</requireprivacyacceptance_b>
+	<tags_o/>
 </component>
