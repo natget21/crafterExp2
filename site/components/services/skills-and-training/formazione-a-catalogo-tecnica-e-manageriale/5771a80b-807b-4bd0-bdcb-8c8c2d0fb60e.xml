@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>5771</objectGroupId>
+    <objectId>5771a80b-807b-4bd0-bdcb-8c8c2d0fb60e</objectId>
+    <file-name>5771a80b-807b-4bd0-bdcb-8c8c2d0fb60e.xml</file-name>
+    <folder-name/>
+    <internal-name>ONBOARDING IMMERSIVO IN REALT� VIRTUALE PER LINEE PRODUTTIVE (CON SICURAZZA BASE)</internal-name>
+    <name_s>Onboarding immersivo in realt� virtuale per linee produttive (con sicurazza base)</name_s>
+    <contenuto_t>Percorso formativo immersivo e interattivo in realt� virtuale (VR), pensato per l?onboarding delle nuove risorse nelle linee produttive. </contenuto_t>
+    <modalita_t>L?esperienza include un tour guidato in ambienti a 360�, esercizi pratici per il riconoscimento e l?utilizzo corretto dei DPI (Dispositivi di Protezione Individuale), quiz interattivi sulle procedure operative e scenari decisionali su comportamenti corretti da adottare. Ogni attivit� prevede feedback immediato tramite audio, video o documentazione a supporto.</modalita_t>
+    <partnerId_s>67fce234f647a63da899d027</partnerId_s>
+    <durata_s>6 ore</durata_s>
+    <rivolto_t>Nuove risorse delle linee produttive</rivolto_t>
+    <costo_s>Il costo varia in base alla personalizzazione delle scene, numero di attivit� interattive richieste, produzione dei contenuti multimediali (foto 360�, video tutorial, quiz, PDF) e supporto tecnico/formativo. </costo_s>
+    <productid_s>PRO_fd92391e</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+   <value>formazione-a-catalogo-tecnica-e-manageriale</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <extra_costo_t>� disponibile una versione base e versioni avanzate su misura.</extra_costo_t>
+    <maxpartecipanti_s>8</maxpartecipanti_s>
+    <createdDate>2025-04-23T15:47:14.239Z</createdDate>
+    <createdDate_dt>2025-04-23T15:47:14.239Z</createdDate_dt>
+    <lastModifiedDate>2025-04-23T15:47:14.239Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-23T15:47:14.239Z</lastModifiedDate_dt>
+</component>
