@@ -8,7 +8,7 @@
 	<objectId>b2caf882-fa08-467f-9e9d-4855603b84d6</objectId>
 	<file-name>282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-3.xml</file-name>
 	<folder-name/>
-	<internal-name>Social Innovation Management</internal-name>
+	<internal-name>social-innovation-management</internal-name>
 	<name_s>Social Innovation Management</name_s>
 	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-1.xml</key>
 	<value>CONSULENZA</value>
@@ -17,6 +17,9 @@
 	</item></category_o>
 	<createdDate>2024-11-14T08:54:33.304Z</createdDate>
 	<createdDate_dt>2024-11-14T08:54:33.304Z</createdDate_dt>
-	<lastModifiedDate>2024-11-21T15:28:35.968Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-21T15:28:35.968Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-04-23T12:17:03.635Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-23T12:17:03.635Z</lastModifiedDate_dt>
+	<tags_o/>
+	<requireGDPRAcceptance_b>false</requireGDPRAcceptance_b>
+	<requireprivacyacceptance_b>false</requireprivacyacceptance_b>
 </component>
