@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/access-to-finance</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>ac65</objectGroupId>
+    <objectId>ac6502c1-ac6d-4e3c-bb6e-64630308d7ac</objectId>
+    <file-name>ac6502c1-ac6d-4e3c-bb6e-64630308d7ac.xml</file-name>
+    <folder-name/>
+    <internal-name>TEST</internal-name>
+    <name_s>test</name_s>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <descrizioneprodotto_t>test</descrizioneprodotto_t>
+    <codiceprodotto_s>test</codiceprodotto_s>
+    <descrizionecostoservizio_t>test</descrizionecostoservizio_t>
+    <costodelservizio_s>test</costodelservizio_s>
+    <productid_s>PRO_e2535199</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>null</key>
+   <value>null</value>
+   <include>null</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <createdDate>2025-04-23T10:02:59.894Z</createdDate>
+    <createdDate_dt>2025-04-23T10:02:59.894Z</createdDate_dt>
+    <lastModifiedDate>2025-04-23T10:02:59.894Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-23T10:02:59.894Z</lastModifiedDate_dt>
+</component>
