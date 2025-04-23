@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/access-to-finance</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>ba76</objectGroupId>
+    <objectId>ba7634c8-250c-4c64-937a-6d9ddbbe4009</objectId>
+    <file-name>ba7634c8-250c-4c64-937a-6d9ddbbe4009.xml</file-name>
+    <folder-name/>
+    <internal-name>TESTF</internal-name>
+    <name_s>testf</name_s>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <descrizioneprodotto_t>testf</descrizioneprodotto_t>
+    <codiceprodotto_s>testf</codiceprodotto_s>
+    <descrizionecostoservizio_t>testf</descrizionecostoservizio_t>
+    <costodelservizio_s>testf</costodelservizio_s>
+    <productid_s>PRO_238ba6bc</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>null</key>
+   <value>null</value>
+   <include>null</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <createdDate>2025-04-23T11:58:18.344Z</createdDate>
+    <createdDate_dt>2025-04-23T11:58:18.344Z</createdDate_dt>
+    <lastModifiedDate>2025-04-23T11:58:18.344Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-23T11:58:18.344Z</lastModifiedDate_dt>
+</component>
