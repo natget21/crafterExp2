@@ -8,7 +8,7 @@
 	<objectId>7b2d1761-ec81-45f7-aa62-3ac8d55d4f27</objectId>
 	<file-name>282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-15.xml</file-name>
 	<folder-name/>
-	<internal-name>Progetti</internal-name>
+	<internal-name>progetti</internal-name>
 	<name_s>Progetti</name_s>
 	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-4.xml</key>
 	<value>TEST BEFORE INVEST</value>
@@ -17,6 +17,9 @@
 	</item></category_o>
 	<createdDate>2024-11-14T09:04:49.178Z</createdDate>
 	<createdDate_dt>2024-11-14T09:04:49.178Z</createdDate_dt>
-	<lastModifiedDate>2024-11-21T15:27:45.374Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-21T15:27:45.374Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-04-23T12:16:20.347Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-23T12:16:20.347Z</lastModifiedDate_dt>
+	<tags_o/>
+	<requireGDPRAcceptance_b>false</requireGDPRAcceptance_b>
+	<requireprivacyacceptance_b>false</requireprivacyacceptance_b>
 </component>
