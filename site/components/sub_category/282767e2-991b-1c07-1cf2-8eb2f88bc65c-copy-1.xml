@@ -8,7 +8,7 @@
 	<objectId>a9bba155-4c9e-4c8b-a202-a8d1fee837a4</objectId>
 	<file-name>282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-1.xml</file-name>
 	<folder-name/>
-	<internal-name>Consulenza manageriale</internal-name>
+	<internal-name>Consulenza-manageriale</internal-name>
 	<name_s>Consulenza manageriale</name_s>
 	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-1.xml</key>
 	<value>CONSULENZA</value>
@@ -17,6 +17,9 @@
 	</item></category_o>
 	<createdDate>2024-11-14T08:53:43.002Z</createdDate>
 	<createdDate_dt>2024-11-14T08:53:43.002Z</createdDate_dt>
-	<lastModifiedDate>2024-11-21T15:09:46.478Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-21T15:09:46.478Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-04-23T12:11:28.154Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-23T12:11:28.154Z</lastModifiedDate_dt>
+	<tags_o/>
+	<requireGDPRAcceptance_b>false</requireGDPRAcceptance_b>
+	<requireprivacyacceptance_b>false</requireprivacyacceptance_b>
 </component>
