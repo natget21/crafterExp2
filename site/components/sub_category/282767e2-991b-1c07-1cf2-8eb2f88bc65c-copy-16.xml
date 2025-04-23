@@ -8,7 +8,7 @@
 	<objectId>4f6f712b-0b68-43fe-bfc8-b22dd2a84cf7</objectId>
 	<file-name>282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-16.xml</file-name>
 	<folder-name/>
-	<internal-name>Eventi di Brokeraggio</internal-name>
+	<internal-name>eventi-di-brokeraggio</internal-name>
 	<name_s>Eventi di Brokeraggio</name_s>
 	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-5.xml</key>
 	<value>Networking, Ecosystem e Open Innovation</value>
@@ -17,6 +17,9 @@
 	</item></category_o>
 	<createdDate>2024-11-14T09:05:16.345Z</createdDate>
 	<createdDate_dt>2024-11-14T09:05:16.345Z</createdDate_dt>
-	<lastModifiedDate>2024-11-21T15:24:37.539Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-21T15:24:37.539Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-04-23T12:13:07.043Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-23T12:13:07.043Z</lastModifiedDate_dt>
+	<tags_o/>
+	<requireGDPRAcceptance_b>false</requireGDPRAcceptance_b>
+	<requireprivacyacceptance_b>false</requireprivacyacceptance_b>
 </component>
