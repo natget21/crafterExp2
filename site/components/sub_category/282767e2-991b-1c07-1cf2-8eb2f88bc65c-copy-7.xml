@@ -8,7 +8,7 @@
 	<objectId>e38ffde6-f36b-4c7c-8c46-b5c9bdf8913a</objectId>
 	<file-name>282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-7.xml</file-name>
 	<folder-name/>
-	<internal-name>Corporate Finance</internal-name>
+	<internal-name>corporate-finance</internal-name>
 	<name_s>Corporate Finance</name_s>
 	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-2.xml</key>
 	<value>ACCESS TO FINANCE</value>
@@ -17,6 +17,9 @@
 	</item></category_o>
 	<createdDate>2024-11-14T08:57:17.740Z</createdDate>
 	<createdDate_dt>2024-11-14T08:57:17.740Z</createdDate_dt>
-	<lastModifiedDate>2024-11-21T15:10:12.596Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-21T15:10:12.596Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-04-23T12:11:49.789Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-23T12:11:49.789Z</lastModifiedDate_dt>
+	<tags_o/>
+	<requireGDPRAcceptance_b>false</requireGDPRAcceptance_b>
+	<requireprivacyacceptance_b>false</requireprivacyacceptance_b>
 </component>
