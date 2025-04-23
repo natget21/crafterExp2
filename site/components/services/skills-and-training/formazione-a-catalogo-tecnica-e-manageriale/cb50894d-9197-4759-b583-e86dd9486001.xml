@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>cb50</objectGroupId>
+    <objectId>cb50894d-9197-4759-b583-e86dd9486001</objectId>
+    <file-name>cb50894d-9197-4759-b583-e86dd9486001.xml</file-name>
+    <folder-name/>
+    <internal-name>ONBOARDING IMMERSIVO PER LA FASE DI SCARICO</internal-name>
+    <name_s>Onboarding immersivo per la fase di scarico</name_s>
+    <contenuto_t>Esperienza formativa in realt� virtuale (VR) per nuovi operatori assegnati alla fase di scarico e controllo qualit� di una linea produttiva in uno stabilimento industriale. Il percorso guida l?utente in modo interattivo e immersivo attraverso ambienti a 360�, esercizi pratici, quiz e video tutorial, permettendo di familiarizzare con attrezzature, procedure operative e controlli di qualit�.</contenuto_t>
+    <modalita_t>L?esperienza si sviluppa lungo cinque fasi operative chiave:
+1. Carrello e navetta di scarico
+2. Rulliere e gestione degli scarti
+3. Gestione e smaltimento dei martiri
+4. Uso del cono girapezzi e sua taratura
+5. Controllo qualit� manuale e automatico
+ 
+Ogni fase include attivit� interattive, contenuti visivi/audio e quiz per verificare la comprensione. 
+</modalita_t>
+    <partnerId_s>67fce234f647a63da899d027</partnerId_s>
+    <rivolto_t>Nuovi operatori assegnati alla fase di scarico e controllo qualit� di una linea produttiva in uno stabilimento industriale</rivolto_t>
+    <productid_s>PRO_4ff970a3</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+   <value>formazione-a-catalogo-tecnica-e-manageriale</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <maxpartecipanti_s>10</maxpartecipanti_s>
+    <createdDate>2025-04-23T15:42:23.594Z</createdDate>
+    <createdDate_dt>2025-04-23T15:42:23.594Z</createdDate_dt>
+    <lastModifiedDate>2025-04-23T15:42:23.594Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-23T15:42:23.594Z</lastModifiedDate_dt>
+</component>
