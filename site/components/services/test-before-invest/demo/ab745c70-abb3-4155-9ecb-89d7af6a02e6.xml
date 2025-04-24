@@ -18,11 +18,16 @@
     <internal-name>A</internal-name>
     <objectGroupId>ab74</objectGroupId>
     <localId>/site/components/services/test-before-invest/demo/ab745c70-abb3-4155-9ecb-89d7af6a02e6.xml</localId>
-{item=[{include=/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml, component={name_s=DEMO, createdDate_dt=2024-11-14T09:03:42.624Z, lastModifiedDate=2025-04-23T12:12:35.603Z, internal-name=demo, category_o={item=[{include=/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-4.xml, component={name_s=TEST BEFORE INVEST, createdDate_dt=2024-11-14T08:50:52.207Z, lastModifiedDate=2025-01-24T14:08:36.733Z, internal-name=TEST-BEFORE-INVEST, macro_category_o={item=[{include=/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml, component={name_s=SERVIZI, createdDate_dt=2024-11-13T08:17:29.506Z, lastModifiedDate=2025-01-24T14:06:38.072Z, internal-name=SERVIZI, objectGroupId=374f, createdDate=2024-11-13T08:17:29.506Z, no-template-required=true, lastModifiedDate_dt=2025-01-24T14:06:38.072Z, description_t=description, merge-strategy=inherit-levels, content-type=/component/macro_category, image_s=/static-assets/img/product-5.jpg, file-name=374fbd2e-727f-a324-cf65-e02b65d87a48.xml, objectId=374fbd2e-727f-a324-cf65-e02b65d87a48}, value=service, disableFlattening=false, key=/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml}]}, objectGroupId=ad9df6b6, createdDate=2024-11-14T08:50:52.207Z, no-template-required=true, lastModifiedDate_dt=2025-01-24T14:08:36.733Z, merge-strategy=inherit-levels, content-type=/component/category, file-name=3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-4.xml, objectId=ad9df6b6-8610-4a13-9994-91b64e79ddba}, value=TEST BEFORE INVEST, disableFlattening=false, key=/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-4.xml}]}, objectGroupId=f2ff9426, createdDate=2024-11-14T09:03:42.624Z, no-template-required=true, lastModifiedDate_dt=2025-04-23T12:12:35.603Z, merge-strategy=inherit-levels, content-type=/component/sub_category, file-name=282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml, requireprivacyacceptance_b=true, objectId=f2ff9426-159f-4452-9ec8-d7bfdd6c6fdc, requireGDPRAcceptance_b=true}, value=demo, disableFlattening=false, key=/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml}]}    <crafterSite>ideale</crafterSite>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</key>
+   <value>demo</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <crafterSite>ideale</crafterSite>
     <crafterPublishedDate>2025-04-24T12:15:40.282436234Z</crafterPublishedDate>
     <createdDate>2025-04-24T12:15:38.818Z</createdDate>
     <no-template-required>true</no-template-required>
-    <description_t>v</description_t>
+    <description_t>h</description_t>
     <lastModifiedDate_dt>2025-04-24T12:15:38.818Z</lastModifiedDate_dt>
     <merge-strategy>inherit-levels</merge-strategy>
     <content-type>/component/test-before-invest</content-type>
@@ -31,8 +36,8 @@
     <inheritsFrom_smv>[/crafter-level-descriptor.level.xml, /site/crafter-level-descriptor.level.xml, /site/components/crafter-level-descriptor.level.xml, /site/components/services/crafter-level-descriptor.level.xml, /site/components/services/test-before-invest/crafter-level-descriptor.level.xml, /site/components/services/test-before-invest/demo/crafter-level-descriptor.level.xml]</inheritsFrom_smv>
     <objectId>ab745c70-abb3-4155-9ecb-89d7af6a02e6</objectId>
     <productid_s>PRO_875e0907</productid_s>
-    <createdDate>2025-04-24T12:21:27.692Z</createdDate>
-    <createdDate_dt>2025-04-24T12:21:27.692Z</createdDate_dt>
-    <lastModifiedDate>2025-04-24T12:21:27.692Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-04-24T12:21:27.692Z</lastModifiedDate_dt>
+    <createdDate>2025-04-24T12:32:08.839Z</createdDate>
+    <createdDate_dt>2025-04-24T12:32:08.839Z</createdDate_dt>
+    <lastModifiedDate>2025-04-24T12:32:08.839Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-24T12:32:08.839Z</lastModifiedDate_dt>
 </component>
