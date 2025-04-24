@@ -100,7 +100,7 @@
               operazioni.
             </p>
           </div>
-          <img src="static-assets/assets/assessment-1.jpg" alt="" />
+          <img src="assets/assessment-1.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -116,7 +116,7 @@
               l'automazione e l'efficienza operativa.
             </p>
           </div>
-          <img src="static-assets/assets/test-before-invest-1.jpg" alt="" />
+          <img src="assets/test-before-invest-1.jpg" alt="" />
         </div>
         <h5 class="service_type layout_padding">Servizi Digitali:</h5>
         <div class="service d-flex justify-content-between align-items-center">
@@ -134,12 +134,15 @@
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-secondary read_more rounded-pill">
+              <button
+                class="btn btn-secondary read_more rounded-pill"
+                onclick="window.location.href='/test-before-invest'"
+              >
                 Scopri di più
               </button>
             </div>
           </div>
-          <img src="static-assets/assets/formazione-1.jpg" alt="" />
+          <img src="assets/formazione-1.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -156,12 +159,15 @@
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-secondary read_more rounded-pill">
+              <button
+                class="btn btn-secondary read_more rounded-pill"
+                onclick="window.location.href='/consulenza'"
+              >
                 Scopri di più
               </button>
             </div>
           </div>
-          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="assets/supporto-finanziamenti.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -178,12 +184,15 @@
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-secondary read_more rounded-pill">
+              <button
+                class="btn btn-secondary read_more rounded-pill"
+                onclick="window.location.href='/skills-training'"
+              >
                 Scopri di più
               </button>
             </div>
           </div>
-          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="assets/supporto-finanziamenti.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -200,12 +209,15 @@
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-secondary read_more rounded-pill">
+              <button
+                class="btn btn-secondary read_more rounded-pill"
+                onclick="window.location.href='/finance'"
+              >
                 Scopri di più
               </button>
             </div>
           </div>
-          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="assets/supporto-finanziamenti.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -224,15 +236,19 @@
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-secondary read_more rounded-pill">
+              <button
+                class="btn btn-secondary read_more rounded-pill"
+                onclick="window.location.href='/networking'"
+              >
                 Scopri di più
               </button>
             </div>
           </div>
-          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="assets/supporto-finanziamenti.jpg" alt="" />
         </div>
       </div>
     </div>
+
 
 
 
