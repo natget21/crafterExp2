@@ -119,3 +119,14 @@
         </div>
       </div>
     </div>
+    
+        <!-- Footer Section -->
+    <#include "/templates/web/fragments/footer-no-padding.ftl">
+
+    
+        <!-- Scripts -->
+    <#include "/templates/web/fragments/scripts.ftl">
+
+    <@crafter.body_bottom/>
+</body>
+</html>
