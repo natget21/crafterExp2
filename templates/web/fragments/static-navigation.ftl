@@ -32,8 +32,7 @@
                             </div>
                             <a href="/event" class="nav-item nav-link <#if currentUrl?starts_with("/event")>active</#if>">EVENTI</a>
                             <a href="/news" class="nav-item nav-link <#if currentUrl?starts_with("/news")>active</#if>">NEWS</a>
-
-                            
+                            <a href="/news" class="nav-item nav-link">FAQ</a>
                             <a href="/contact" class="nav-item nav-link <#if currentUrl?starts_with("/contact")>active</#if>">CONTATTI</a>
                             
                             
