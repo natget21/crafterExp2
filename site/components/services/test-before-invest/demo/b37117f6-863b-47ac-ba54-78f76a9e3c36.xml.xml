@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/test-before-invest</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>b371</objectGroupId>
+    <objectId>b37117f6-863b-47ac-ba54-78f76a9e3c36.xml</objectId>
+    <file-name>b37117f6-863b-47ac-ba54-78f76a9e3c36.xml.xml</file-name>
+    <folder-name/>
+    <internal-name>A</internal-name>
+    <name_s>a</name_s>
+    <createdDate_dt>2025-04-24T11:56:39.947Z</createdDate_dt>
+    <crafterPublishedDate_dt>2025-04-24T11:56:41.617895045Z</crafterPublishedDate_dt>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <rootId>ideale:/site/components/services/test-before-invest/demo/b37117f6-863b-47ac-ba54-78f76a9e3c36.xml</rootId>
+    <lastModifiedDate>2025-04-24T11:56:39.947Z</lastModifiedDate>
+    <internal-name>A</internal-name>
+    <objectGroupId>b371</objectGroupId>
+    <localId>/site/components/services/test-before-invest/demo/b37117f6-863b-47ac-ba54-78f76a9e3c36.xml</localId>
+   <subcategory_o item-list="true">        <item>  <key>null</key>
+   <value>null</value>
+   <include>null</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <crafterSite>ideale</crafterSite>
+    <crafterPublishedDate>2025-04-24T11:56:41.617895045Z</crafterPublishedDate>
+    <createdDate>2025-04-24T11:56:39.947Z</createdDate>
+    <no-template-required>true</no-template-required>
+    <description_t>b</description_t>
+    <lastModifiedDate_dt>2025-04-24T11:56:39.947Z</lastModifiedDate_dt>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <content-type>/component/test-before-invest</content-type>
+    <id>ideale:/site/components/services/test-before-invest/demo/b37117f6-863b-47ac-ba54-78f76a9e3c36.xml</id>
+    <file-name>b37117f6-863b-47ac-ba54-78f76a9e3c36.xml</file-name>
+    <inheritsFrom_smv>[/crafter-level-descriptor.level.xml, /site/crafter-level-descriptor.level.xml, /site/components/crafter-level-descriptor.level.xml, /site/components/services/crafter-level-descriptor.level.xml, /site/components/services/test-before-invest/crafter-level-descriptor.level.xml, /site/components/services/test-before-invest/demo/crafter-level-descriptor.level.xml]</inheritsFrom_smv>
+    <objectId>b37117f6-863b-47ac-ba54-78f76a9e3c36</objectId>
+    <productid_s>PRO_27d12010</productid_s>
+    <createdDate>2025-04-24T11:56:56.564Z</createdDate>
+    <createdDate_dt>2025-04-24T11:56:56.564Z</createdDate_dt>
+    <lastModifiedDate>2025-04-24T11:56:56.564Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-24T11:56:56.564Z</lastModifiedDate_dt>
+</component>
