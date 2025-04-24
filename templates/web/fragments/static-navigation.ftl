@@ -21,7 +21,7 @@
                             <a href="/partner" class="nav-item nav-link <#if currentUrl?starts_with("/partner")>active</#if>">PARTNER</a>
                         
                             <div class="nav-item dropdown">
-                                <a href="/partners" class="nav-item nav-link dropdown-toggle">PARTNER <i class="fa fa-angle-down mt-1"></i></a>
+                                <a href="/partner" class="nav-item nav-link dropdown-toggle">PARTNER <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu rounded-0 border-0 m-0">
                                     <a href="/consulenza" class="nav-item nav-link sublink <#if currentUrl?starts_with("/consulenza")>active</#if>">Synthesis3</a>
                                     <a href="/finance" class="nav-item nav-link sublink <#if currentUrl?starts_with("/finance")>active</#if>">Sinergia</a>
