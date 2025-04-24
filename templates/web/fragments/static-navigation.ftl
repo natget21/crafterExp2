@@ -22,8 +22,8 @@
                             <div class="nav-item dropdown">
                                 <a href="/partner" class="nav-item nav-link dropdown-toggle">PARTNER <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu rounded-0 border-0 m-0">
-                                    <a href="/partner-detail?id=67dd8279c70ba0680bdc849d'" class="nav-item nav-link sublink <#if currentUrl?starts_with("/partner-detail?id=67dd8279c70ba0680bdc849d")>active</#if>">Synthesis3</a>
-                                    <a href="/partner-detail?id=67fce234f647a63da899d027'" class="nav-item nav-link sublink <#if currentUrl?starts_with("/finance")>active</#if>">Sinergia</a>
+                                    <a href="/partner-detail?id=67dd8279c70ba0680bdc849d" class="nav-item nav-link sublink <#if currentUrl?starts_with("/partner-detail?id=67dd8279c70ba0680bdc849d")>active</#if>">Synthesis3</a>
+                                    <a href="/partner-detail?id=67fce234f647a63da899d027" class="nav-item nav-link sublink <#if currentUrl?starts_with("/finance")>active</#if>">Sinergia</a>
                                     <a href="/networking" class="nav-item nav-link sublink <#if currentUrl?starts_with("/networking")>active</#if>">Skilla</a>
                                 </div>
                             </div>
