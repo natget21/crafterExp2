@@ -65,10 +65,17 @@
                             <a id="catalog-btn" href="/catalog" class="nav-item nav-link <#if currentUrl?starts_with("/catalog")>active</#if>" >CATALOGO</a>
                             
                             <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">PROGETTO</a>
-                            <a href="/partner" class="nav-item nav-link <#if currentUrl?starts_with("/partner")>active</#if>">PARTNER</a>
+                            <div class="nav-item dropdown">
+                                <a href="/partner" class="nav-item nav-link dropdown-toggle">PARTNER <i class="fa fa-angle-down mt-1"></i></a>
+                                <div class="dropdown-menu rounded-0 border-0 m-0">
+                                    <a href="/partner-detail?id=67dd8279c70ba0680bdc849d" class="nav-item nav-link sublink">Synthesis3</a>
+                                    <a href="/partner-detail?id=67fce234f647a63da899d027" class="nav-item nav-link sublink">Sinergia</a>
+                                    <a href="/networking" class="nav-item nav-link sublink <#if currentUrl?starts_with("/networking")>active</#if>">Skilla</a>
+                                </div>
+                            </div>
                         
                             <div class="nav-item dropdown">
-                                <a href="" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown">SERVIZI <i class="fa fa-angle-down mt-1"></i></a>
+                                <a href="/services" class="nav-item nav-link dropdown-toggle">SERVIZI <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu  rounded-0 border-0 m-0">
                                     <a href="/consulenza" class="nav-item nav-link sublink <#if currentUrl?starts_with("/consulenza")>active</#if>">Consulenza</a>
                                     <a href="/finance" class="nav-item nav-link sublink <#if currentUrl?starts_with("/finance")>active</#if>">Finance</a>
