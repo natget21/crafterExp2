@@ -27,7 +27,7 @@
     <crafterPublishedDate>2025-04-24T11:56:41.617895045Z</crafterPublishedDate>
     <createdDate>2025-04-24T11:56:39.947Z</createdDate>
     <no-template-required>true</no-template-required>
-    <description_t>b</description_t>
+    <description_t>c</description_t>
     <lastModifiedDate_dt>2025-04-24T11:56:39.947Z</lastModifiedDate_dt>
     <merge-strategy>inherit-levels</merge-strategy>
     <content-type>/component/test-before-invest</content-type>
@@ -36,8 +36,8 @@
     <inheritsFrom_smv>[/crafter-level-descriptor.level.xml, /site/crafter-level-descriptor.level.xml, /site/components/crafter-level-descriptor.level.xml, /site/components/services/crafter-level-descriptor.level.xml, /site/components/services/test-before-invest/crafter-level-descriptor.level.xml, /site/components/services/test-before-invest/demo/crafter-level-descriptor.level.xml]</inheritsFrom_smv>
     <objectId>b37117f6-863b-47ac-ba54-78f76a9e3c36</objectId>
     <productid_s>PRO_27d12010</productid_s>
-    <createdDate>2025-04-24T11:56:56.564Z</createdDate>
-    <createdDate_dt>2025-04-24T11:56:56.564Z</createdDate_dt>
-    <lastModifiedDate>2025-04-24T11:56:56.564Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-04-24T11:56:56.564Z</lastModifiedDate_dt>
+    <createdDate>2025-04-24T12:09:43.352Z</createdDate>
+    <createdDate_dt>2025-04-24T12:09:43.352Z</createdDate_dt>
+    <lastModifiedDate>2025-04-24T12:09:43.352Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-24T12:09:43.352Z</lastModifiedDate_dt>
 </component>
