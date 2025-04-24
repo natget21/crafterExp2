@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/test-before-invest</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>3698</objectGroupId>
+    <objectId>36987428-a71e-4505-ba7c-187f1127a779</objectId>
+    <file-name>36987428-a71e-4505-ba7c-187f1127a779.xml</file-name>
+    <folder-name/>
+    <internal-name>Q</internal-name>
+    <name_s>q</name_s>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <description_t>q</description_t>
+    <productid_s>PRO_3a63b98a</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</key>
+   <value>demo</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <createdDate>2025-04-24T12:11:31.143Z</createdDate>
+    <createdDate_dt>2025-04-24T12:11:31.143Z</createdDate_dt>
+    <lastModifiedDate>2025-04-24T12:11:31.143Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-24T12:11:31.143Z</lastModifiedDate_dt>
+</component>
