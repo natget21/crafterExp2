@@ -100,7 +100,7 @@
               operazioni.
             </p>
           </div>
-          <img src="static-assets/assessment-1.jpg" alt="" />
+          <img src="static-assets/assets/assessment-1.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
