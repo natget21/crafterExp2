@@ -13,6 +13,18 @@
   padding-top: 90px;
 }
 
+/* Mostra il menu al passaggio del mouse */
+.nav-item.dropdown:hover > .dropdown-menu {
+  display: block;
+  /* opzionale: rimuove eventuale gap tra link e menu */
+  margin-top: 0;
+}
+
+/* Mantieni l’anchor nello stato “active” visivo */
+.nav-item.dropdown:hover > .nav-link.dropdown-toggle {
+  color: #0056b3; /* es. colore link attivo */
+}
+
 .title_section {
   font-size: 56px;
   font-weight: 500 !important;
