@@ -22,7 +22,7 @@
 
 /* Mantieni l’anchor nello stato “active” visivo */
 .nav-item.dropdown:hover > .nav-link.dropdown-toggle {
-  color: #0056b3; /* es. colore link attivo */
+  color: var(--primary-active); /* es. colore link attivo */
 }
 
 .title_section {
