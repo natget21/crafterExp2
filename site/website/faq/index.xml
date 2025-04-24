@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pagefaq</content-type>
+	<display-template>/templates/web/pages2/faq.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c569</objectGroupId>
+	<objectId>c5698f4b-327e-b320-32c6-f33d05f879d3</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>faq</folder-name>
+	<internal-name>faq</internal-name>
+	<navLabel>faq</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-04-24T13:54:00.589Z</createdDate>
+	<createdDate_dt>2025-04-24T13:54:00.589Z</createdDate_dt>
+	<lastModifiedDate>2025-04-24T13:54:00.589Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-04-24T13:54:00.589Z</lastModifiedDate_dt>
+</page>
