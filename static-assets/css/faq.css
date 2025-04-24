@@ -1,0 +1,53 @@
+.title_section {
+  font-weight: 550 !important;
+}
+
+.explanation {
+  color: var(--primary);
+}
+
+.explanation p,
+.explanation h2 {
+  color: var(--primary) !important;
+}
+
+.accordion-body .name_attachment {
+  color: var(--secondary-active);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.accordion-body .buttons a {
+  font-size: 30px;
+}
+
+.logo {
+  width: 100%;
+  max-width: 490px;
+}
+
+.other_news_list::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+  height: 10px;
+}
+
+.other_news_list::-webkit-scrollbar-track {
+  background: transparent;
+  height: 10px;
+  border-radius: 4px;
+}
+
+.other_news_list::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+.other_news_list::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-active);
+}
+
+.info .desc {
+  color: var(--primary-active);
+}
