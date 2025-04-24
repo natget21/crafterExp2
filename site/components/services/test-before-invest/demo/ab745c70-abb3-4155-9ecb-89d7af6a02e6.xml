@@ -8,8 +8,8 @@
     <objectId>ab745c70-abb3-4155-9ecb-89d7af6a02e6</objectId>
     <file-name>ab745c70-abb3-4155-9ecb-89d7af6a02e6.xml</file-name>
     <folder-name/>
-    <internal-name>A</internal-name>
-    <name_s>a</name_s>
+    <internal-name>Z</internal-name>
+    <name_s>z</name_s>
     <createdDate_dt>2025-04-24T12:15:38.818Z</createdDate_dt>
     <crafterPublishedDate_dt>2025-04-24T12:15:40.282436234Z</crafterPublishedDate_dt>
     <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
@@ -27,7 +27,7 @@
     <crafterPublishedDate>2025-04-24T12:15:40.282436234Z</crafterPublishedDate>
     <createdDate>2025-04-24T12:15:38.818Z</createdDate>
     <no-template-required>true</no-template-required>
-    <description_t>a</description_t>
+    <description_t>z</description_t>
     <lastModifiedDate_dt>2025-04-24T12:15:38.818Z</lastModifiedDate_dt>
     <merge-strategy>inherit-levels</merge-strategy>
     <content-type>/component/test-before-invest</content-type>
@@ -36,8 +36,8 @@
     <inheritsFrom_smv>[/crafter-level-descriptor.level.xml, /site/crafter-level-descriptor.level.xml, /site/components/crafter-level-descriptor.level.xml, /site/components/services/crafter-level-descriptor.level.xml, /site/components/services/test-before-invest/crafter-level-descriptor.level.xml, /site/components/services/test-before-invest/demo/crafter-level-descriptor.level.xml]</inheritsFrom_smv>
     <objectId>ab745c70-abb3-4155-9ecb-89d7af6a02e6</objectId>
     <productid_s>PRO_875e0907</productid_s>
-    <createdDate>2025-04-24T12:33:49.420Z</createdDate>
-    <createdDate_dt>2025-04-24T12:33:49.420Z</createdDate_dt>
-    <lastModifiedDate>2025-04-24T12:33:49.420Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-04-24T12:33:49.420Z</lastModifiedDate_dt>
+    <createdDate>2025-04-24T12:35:39.381Z</createdDate>
+    <createdDate_dt>2025-04-24T12:35:39.381Z</createdDate_dt>
+    <lastModifiedDate>2025-04-24T12:35:39.381Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-24T12:35:39.381Z</lastModifiedDate_dt>
 </component>
