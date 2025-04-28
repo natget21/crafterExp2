@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/test-before-invest</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>12dd</objectGroupId>
+    <objectId>12dd1733-f025-4073-8bcd-641e22c89829</objectId>
+    <file-name>12dd1733-f025-4073-8bcd-641e22c89829.xml</file-name>
+    <folder-name/>
+    <internal-name>TEST5  �</internal-name>
+    <name_s>test5  �</name_s>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <description_t>test5  �</description_t>
+    <costo_s>test5  �</costo_s>
+    <cup_s>test5  �</cup_s>
+    <productid_s>PRO_42ec7141</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-15.xml</key>
+   <value>progetti</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-15.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <duration_s>test5  �</duration_s>
+    <createdDate>2025-04-28T14:15:27.163Z</createdDate>
+    <createdDate_dt>2025-04-28T14:15:27.163Z</createdDate_dt>
+    <lastModifiedDate>2025-04-28T14:15:27.163Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-28T14:15:27.163Z</lastModifiedDate_dt>
+</component>
