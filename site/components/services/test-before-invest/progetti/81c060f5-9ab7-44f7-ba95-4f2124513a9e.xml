@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/test-before-invest</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>81c0</objectGroupId>
+    <objectId>81c060f5-9ab7-44f7-ba95-4f2124513a9e</objectId>
+    <file-name>81c060f5-9ab7-44f7-ba95-4f2124513a9e.xml</file-name>
+    <folder-name/>
+    <internal-name>TEST4  �</internal-name>
+    <name_s>test4  �</name_s>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <description_t>test4  �</description_t>
+    <costo_s>test4  �</costo_s>
+    <cup_s>test4  �</cup_s>
+    <productid_s>PRO_37c2167e</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-15.xml</key>
+   <value>progetti</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-15.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <duration_s>test4  �</duration_s>
+    <createdDate>2025-04-28T14:01:08.344Z</createdDate>
+    <createdDate_dt>2025-04-28T14:01:08.344Z</createdDate_dt>
+    <lastModifiedDate>2025-04-28T14:01:08.344Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-28T14:01:08.344Z</lastModifiedDate_dt>
+</component>
