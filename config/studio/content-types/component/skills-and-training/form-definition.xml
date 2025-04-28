@@ -206,7 +206,7 @@
 					<type>input</type>
 					<id>codice_s</id>
 					<iceId></iceId>
-					<title>Codice Interno Prodotto/Servizio</title>
+					<title>Codice Interno</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
