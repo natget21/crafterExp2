@@ -39,8 +39,8 @@
     <merge-strategy>inherit-levels</merge-strategy>
     <file-name>cb50894d-9197-4759-b583-e86dd9486001.xml</file-name>
     <inheritsFrom_smv>[/crafter-level-descriptor.level.xml, /site/crafter-level-descriptor.level.xml, /site/components/crafter-level-descriptor.level.xml, /site/components/services/crafter-level-descriptor.level.xml, /site/components/services/skills-and-training/crafter-level-descriptor.level.xml, /site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/crafter-level-descriptor.level.xml]</inheritsFrom_smv>
-    <createdDate>2025-04-28T13:34:39.346Z</createdDate>
-    <createdDate_dt>2025-04-28T13:34:39.346Z</createdDate_dt>
-    <lastModifiedDate>2025-04-28T13:34:39.346Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-04-28T13:34:39.346Z</lastModifiedDate_dt>
+    <createdDate>2025-04-28T13:34:52.483Z</createdDate>
+    <createdDate_dt>2025-04-28T13:34:52.483Z</createdDate_dt>
+    <lastModifiedDate>2025-04-28T13:34:52.483Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-28T13:34:52.483Z</lastModifiedDate_dt>
 </component>
