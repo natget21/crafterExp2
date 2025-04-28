@@ -666,7 +666,7 @@
 					<type>input</type>
 					<id>costo_s</id>
 					<iceId></iceId>
-					<title>costo</title>
+					<title>Costo unitario</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
