@@ -517,7 +517,7 @@
 					<type>input</type>
 					<id>maxpartecipanti_s</id>
 					<iceId></iceId>
-					<title>maxpartecipanti</title>
+					<title>Max partecipanti</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
