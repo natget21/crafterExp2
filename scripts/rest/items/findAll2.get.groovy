@@ -1,4 +1,8 @@
-def contentStoreService = engine.getContentStoreService()
+import org.craftercms.engine.service.ContentStoreService
+import org.springframework.web.context.support.WebApplicationContextUtils
+
+def ctx = WebApplicationContextUtils.getWebApplicationContext(request.servletContext)
+def contentStoreService = ctx.getBean(ContentStoreService)
 
 def allItems = contentStoreService.getObjects("/site/components/services/")
 
