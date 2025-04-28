@@ -55,7 +55,7 @@
 .target_text {
   font-size: 23px;
   color: var(--primary-active);
-  width: 170px;
+  width: 180px;
   word-break: break-word;
 }
 
