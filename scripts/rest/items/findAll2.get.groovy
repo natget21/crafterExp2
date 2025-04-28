@@ -1,4 +1,4 @@
-def searchResponse = searchService.search(
+def searchResponse = searchClient.search(
   [
     query: [
       bool: [
@@ -26,3 +26,5 @@ return [
     itemsFound: allItems.size(),
     items: allItems
 ]
+
+
