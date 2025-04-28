@@ -62,7 +62,7 @@
 					<type>input</type>
 					<id>codice_s</id>
 					<iceId></iceId>
-					<title>Codice Interno Prodotto/Servizio </title>
+					<title>Codice Interno Prodotto/Servizio</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -153,7 +153,7 @@
 					<type>input</type>
 					<id>name_s</id>
 					<iceId></iceId>
-					<title>name</title>
+					<title>Nome Prodotto/Servizio</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
