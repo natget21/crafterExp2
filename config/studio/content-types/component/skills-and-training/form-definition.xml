@@ -158,7 +158,7 @@
 					<type>input</type>
 					<id>productid_s</id>
 					<iceId></iceId>
-					<title>Codice Prodotto/Servizio Marketplace</title>
+					<title>Codice Marketplace</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
