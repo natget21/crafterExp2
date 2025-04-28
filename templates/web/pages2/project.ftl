@@ -46,6 +46,7 @@
     <#include "/templates/web/fragments/static-navigation.ftl">
 
 
+
     <div class="content pb-5">
       <div class="banner_section banner_project layout_padding">
         <div class="container">
@@ -385,43 +386,39 @@
         <h2 class="addressee_title title_section">Destinatari</h2>
         <div class="row pl-3">
           <div
-            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-center flex-column gap-3"
+            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
           >
-            <img
-              src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
-              alt=""
-            />
+            <div class="imageContainer">
+              <img src="/static-assets/assets/imprese.png" alt="" />
+            </div>
             <p class="addressee_text d-flex justify-content-start">Imprese</p>
           </div>
           <div
-            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-center flex-column gap-3"
+            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
           >
-            <img
-              src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
-              alt=""
-            />
+            <div class="imageContainer">
+              <img src="/static-assets/assets/pa.png" alt="" style="width: 100px" />
+            </div>
             <p class="addressee_text d-flex justify-content-start">
               Pubblica Amministrazione
             </p>
           </div>
           <div
-            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-center flex-column gap-3"
+            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
           >
-            <img
-              src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
-              alt=""
-            />
+            <div class="imageContainer">
+              <img src="/static-assets/assets/terzo-settore.png" alt="" style="width: 90px" />
+            </div>
             <p class="addressee_text d-flex justify-content-start">
               Enti del Terzo Settore
             </p>
           </div>
           <div
-            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-center flex-column gap-3"
+            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
           >
-            <img
-              src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
-              alt=""
-            />
+            <div class="imageContainer">
+              <img src="/static-assets/assets/freelance.png" alt="" style="width: 80px" />
+            </div>
             <p class="addressee_text d-flex justify-content-start">
               Liberi Professionisti
             </p>
@@ -432,30 +429,27 @@
         <h2 class="targets_section_title title_section">Settori target</h2>
         <div class="targets row layout_padding pl-3 gap-3">
           <div
-            class="target px-0 col-12 col-md-2 d-flex justify-content-center flex-column gap-3"
+            class="target px-0 col-12 col-md-2 d-flex justify-content-start flex-column gap-3"
           >
-            <img
-              src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
-              alt=""
-            />
+            <div class="imageContainer">
+              <img src="/static-assets/assets/cultura.png" alt="" style="height: 90px;" />
+            </div>
             <p>Cultura</p>
           </div>
           <div
-            class="target px-0 col-12 col-md-2 d-flex justify-content-center flex-column gap-3"
+            class="target px-0 col-12 col-md-2 d-flex justify-content-start flex-column gap-3"
           >
-            <img
-              src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
-              alt=""
-            />
+            <div class="imageContainer">
+              <img src="/static-assets/assets/turismo.png" alt="" />
+            </div>
             <p>Turismo</p>
           </div>
           <div
-            class="target px-0 col-12 col-md-2 d-flex justify-content-center flex-column gap-3"
+            class="target px-0 col-12 col-md-2 d-flex justify-content-start flex-column gap-3"
           >
-            <img
-              src="https://www.edih4marche.eu/wp-content/uploads/2024/07/ico-robotica.svg"
-              alt=""
-            />
+            <div class="imageContainer">
+              <img src="/static-assets/assets/sociale.png" alt="" />
+            </div>
             <p>Sociale</p>
           </div>
         </div>
