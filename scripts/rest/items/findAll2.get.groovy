@@ -1,8 +1,11 @@
+def contentStoreService = engine.getContentStoreService()
 
-def items = contentService.getContentStore().getObjects("/site/components/services/")
+def allItems = contentStoreService.getObjects("/site/components/services/")
+
+// def filteredItems = allItems.findAll { it.get("subcategory_s") == "your-subcategory" }
 
 return [
     status: 200,
-    itemsFound: items.size(),
-    items: items
+    itemsFound: allItems.size(),
+    items: allItems
 ]
