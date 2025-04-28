@@ -10,19 +10,37 @@
     <folder-name/>
     <internal-name>TEST4  �</internal-name>
     <name_s>test4  �</name_s>
-    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
-    <description_t>test4  �</description_t>
+    <rootId>ideale:/site/components/services/test-before-invest/progetti/81c060f5-9ab7-44f7-ba95-4f2124513a9e.xml</rootId>
+    <internal-name>TEST4 ?</internal-name>
+    <objectGroupId>81c0</objectGroupId>
     <costo_s>test4  �</costo_s>
-    <cup_s>test4  �</cup_s>
-    <productid_s>PRO_37c2167e</productid_s>
+    <localId>/site/components/services/test-before-invest/progetti/81c060f5-9ab7-44f7-ba95-4f2124513a9e.xml</localId>
    <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-15.xml</key>
    <value>progetti</value>
    <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-15.xml</include>
    <disableFlattening>false</disableFlattening>
    </item></subcategory_o>
+    <crafterSite>ideale</crafterSite>
+    <crafterPublishedDate>2025-04-28T14:01:09.195468463Z</crafterPublishedDate>
+    <no-template-required>true</no-template-required>
+    <description_t>test4  �</description_t>
+    <content-type>/component/test-before-invest</content-type>
+    <id>ideale:/site/components/services/test-before-invest/progetti/81c060f5-9ab7-44f7-ba95-4f2124513a9e.xml</id>
+    <cup_s>test4  �</cup_s>
+    <objectId>81c060f5-9ab7-44f7-ba95-4f2124513a9e</objectId>
+    <productid_s>PRO_37c2167e</productid_s>
+    <createdDate_dt>2025-04-28T14:01:08.344Z</createdDate_dt>
+    <crafterPublishedDate_dt>2025-04-28T14:01:09.195468463Z</crafterPublishedDate_dt>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <lastModifiedDate>2025-04-28T14:01:08.344Z</lastModifiedDate>
     <duration_s>test4  �</duration_s>
     <createdDate>2025-04-28T14:01:08.344Z</createdDate>
-    <createdDate_dt>2025-04-28T14:01:08.344Z</createdDate_dt>
-    <lastModifiedDate>2025-04-28T14:01:08.344Z</lastModifiedDate>
     <lastModifiedDate_dt>2025-04-28T14:01:08.344Z</lastModifiedDate_dt>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <file-name>81c060f5-9ab7-44f7-ba95-4f2124513a9e.xml</file-name>
+    <inheritsFrom_smv>[/crafter-level-descriptor.level.xml, /site/crafter-level-descriptor.level.xml, /site/components/crafter-level-descriptor.level.xml, /site/components/services/crafter-level-descriptor.level.xml, /site/components/services/test-before-invest/crafter-level-descriptor.level.xml, /site/components/services/test-before-invest/progetti/crafter-level-descriptor.level.xml]</inheritsFrom_smv>
+    <createdDate>2025-04-28T14:14:43.802Z</createdDate>
+    <createdDate_dt>2025-04-28T14:14:43.802Z</createdDate_dt>
+    <lastModifiedDate>2025-04-28T14:14:43.802Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-04-28T14:14:43.802Z</lastModifiedDate_dt>
 </component>
