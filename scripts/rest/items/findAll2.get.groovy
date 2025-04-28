@@ -1,12 +1,25 @@
-import org.craftercms.engine.service.ContentStoreService
-import org.springframework.web.context.support.WebApplicationContextUtils
+def searchResponse = searchService.search(
+  [
+    query: [
+      bool: [
+        must: [
+          [
+            wildcard: [
+              "localId" : "/site/components/services/*"
+            ]
+          ]
+        ]
+      ]
+    ],
+    size: 1000  // fetch up to 1000 results
+  ]
+)
 
-def ctx = WebApplicationContextUtils.getWebApplicationContext(request.servletContext)
-def contentStoreService = ctx.getBean(ContentStoreService)
+def allItems = searchResponse.response.docs
 
-def allItems = contentStoreService.getObjects("/site/components/services/")
-
-// def filteredItems = allItems.findAll { it.get("subcategory_s") == "your-subcategory" }
+def filteredItems = allItems.findAll { 
+  it.subcategory_s == "your-subcategory"
+}
 
 return [
     status: 200,
