@@ -12,7 +12,7 @@
         <#list categoriesTree.childItems as category>
             <#assign categoryItem = siteItemService.getSiteItem(category.storeUrl) />
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="/services?category=${categoryItem.queryValue('internal-name')?url}">
+                <a class="text-decoration-none" href="/catalog?category=${categoryItem.queryValue('internal-name')?url}">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
                             <img class="img-fluid" src="${categoryItem.queryValue('description_t')?default('/static-assets/img/default/category-default.jpg')}" alt="${categoryItem.queryValue('name_s')?default("")}">
