@@ -254,7 +254,7 @@
 					<type>input</type>
 					<id>name_s</id>
 					<iceId></iceId>
-					<title>Nome Prodotto/Servizio</title>
+					<title>Nome</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
