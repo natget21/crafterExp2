@@ -2,7 +2,7 @@
 <#assign currentUrl = request.requestURI?default("") />
 
 <div id="static-nav" style="display:none" class="container-fluid bg-dark2">
-        <div class="row px-xl-5">
+        <div class="row px-xl-5" style="border-bottom:1px solid;">
             
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg navbar-dark py-3 py-lg-0 px-0">
