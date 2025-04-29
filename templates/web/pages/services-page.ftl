@@ -88,44 +88,6 @@
     <div class="container-fluid">
         <div class="row px-xl-5">
             <div class="col-lg-3 col-md-4">
-                <!-- Price Start -->
-                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by Price</span></h5>
-                <div class="bg-light p-4 mb-30">
-                    <form id="filterPriceForm">
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" checked id="price-all" value="all" name="price">
-                            <label class="custom-control-label" for="price-all">All Price</label>
-                            <span class="badge border font-weight-normal">800</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-1" value="0-500" name="price">
-                            <label class="custom-control-label" for="price-1">€0 - €500</label>
-                            <!--<span class="badge border font-weight-normal">100</span> -->
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-2" value="500-1000" name="price">
-                            <label class="custom-control-label" for="price-2">€500 - €1000</label>
-                            <!--<span class="badge border font-weight-normal">100</span> -->
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-3" value="1000-3000" name="price">
-                            <label class="custom-control-label" for="price-3">€1000 - €3000</label>
-                            <!--<span class="badge border font-weight-normal">100</span> -->
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-9" value="3000-5000" name="price">
-                            <label class="custom-control-label" for="price-9">€3000 - €5000</label>
-                            <!--<span class="badge border font-weight-normal">100</span> -->
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
-                            <input type="checkbox" class="custom-control-input" id="price-10" value="5000-10000" name="price">
-                            <label class="custom-control-label" for="price-10">€5000 - €10000</label>
-                            <!--<span class="badge border font-weight-normal">100</span> -->
-                        </div>
-                    </form>
-                </div>
-                <!-- Price End -->
-                
                 <!-- Tag Start -->
                 
                 <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by Tag</span></h5>
