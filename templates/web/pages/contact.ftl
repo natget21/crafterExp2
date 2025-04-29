@@ -12,18 +12,20 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
 
-<!-- Contact Start -->
-        <section id="contact" class="contact mt-5 mb-5">
+    <div
+      class="banner_section banner_contacts layout_padding d-flex align-items-center"
+    >
+      <div class="container">
+        <h1 class="best_taital text-center text-white p-0">Contattaci</h1>
+      </div>
+    </div>
+    <section id="contact" class="contact mt-5 mb-5">
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6">
             <div
               class="info-item d-flex flex-column justify-content-center align-items-start gap-4 p-4"
             >
-              <h2 class="title_section">
-                <strong> </strong>
-                Contattaci
-              </h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisque
                 faucibus ex sapien vitae pellentesque sem placerat. In id cursus
@@ -124,6 +126,7 @@
         </div>
       </div>
     </section>
+    <!-- End Contact Section -->
 
 
     <!-- Footer Section -->
