@@ -3,6 +3,9 @@
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
 <#include "/templates/web/fragments/head.ftl">
+<head> 
+    <link rel="stylesheet" href="/static-assets/css/contacts.css" />
+</head>
 <body>
 <@crafter.body_top/>
     <!-- Header Section (Logo, Search Bar, etc.) -->
