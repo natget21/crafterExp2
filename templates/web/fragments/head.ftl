@@ -24,6 +24,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="/static-assets/css/general-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static-assets/css/contacts.css" />
     
     <@crafter.head/>
 </head>
