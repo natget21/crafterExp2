@@ -58,8 +58,8 @@
             
                                                         
                                                     <div class="nav-item dropdown dropright">
-                                                    <a href="/catalog?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                                                        <span>${categoryItem.queryValue('name_s')}</span>
+                                                    <a href="/catalog?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}" class="nav-link dropdown-toggle d-flex" data-toggle="dropdown">
+                                                        <span style="max-width: 170px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${categoryItem.queryValue('name_s')}</span>
                                                         <#if relatedSubcategories?has_content>
                                                             <i class="fa fa-angle-right float-right mt-1"></i>
                                                         </#if>
