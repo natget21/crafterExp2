@@ -5,6 +5,7 @@
 <#include "/templates/web/fragments/head.ftl">
 <head> 
     <link rel="stylesheet" href="/static-assets/css/contacts.css" />
+    <link rel="stylesheet" href="/static-assets/css/general-style.css" />
 </head>
 <body>
 <@crafter.body_top/>
