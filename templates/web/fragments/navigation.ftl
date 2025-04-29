@@ -62,48 +62,6 @@
                         
                             <a href="/index" class="nav-item nav-link <#if currentUrl?starts_with("/index")>active</#if>"><i class="fa fa-home mt-1"></i> HOME</a>
                             
-                            <a id="catalog-btn" href="/catalog" class="nav-item nav-link <#if currentUrl?starts_with("/catalog")>active</#if>" >CATALOGO</a>
-                                                        <div class="nav-item dropdown">
-                                <a href="/services" class="nav-item nav-link dropdown-toggle">CATALOG <i class="fa fa-angle-down mt-1"></i></a>
-                                <div class="dropdown-menu  rounded-0 border-0 m-0">
-                        <#assign categoriesTree = siteItemService.getSiteTree('/site/components/category', 1)>
-                        <#assign subCategoriesTree = siteItemService.getSiteTree('/site/components/sub_category', 1)>
-                            <#if categoriesTree?has_content>
-                                <#list categoriesTree.childItems as category>
-                                    <#assign categoryItem = siteItemService.getSiteItem(category.storeUrl) />
-                                    
-                                    <#assign relatedSubcategories = subCategoriesTree.childItems?filter(subcategory -> 
-                                         (siteItemService.getSiteItem(subcategory.storeUrl)?has_content && 
-                                            siteItemService.getSiteItem(subcategory.storeUrl).category_o?has_content && 
-                                            siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0]?has_content && 
-                                            siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0].key == category.storeUrl)) /> 
-
-                                            
-                                        <div class="nav-item dropdown dropright">
-                                        <a href="/services?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                                            ${categoryItem.queryValue('name_s')}
-                                            <#if relatedSubcategories?has_content>
-                                                <i class="fa fa-angle-right float-right mt-1"></i>
-                                            </#if>
-                                        </a>
-                                        <#if relatedSubcategories?has_content>
-                                            <div class="dropdown-menu position-absolute rounded-0 border-0 m-0">
-                                                <#list relatedSubcategories as subcategory>
-                                                    <#assign subCategoryItem = siteItemService.getSiteItem(subcategory.storeUrl) />
-                                                    <a href="/services?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}&subCategory=${subCategoryItem.queryValue('internal-name')?url?default("")}&subCategoryURL=${subcategory.storeUrl?url?default("")}" class="dropdown-item">
-                                                        ${subCategoryItem.queryValue('name_s')}
-                                                    </a>
-                                                </#list>
-                                            </div>
-                                        </#if>
-                                    </div>
-                                </#list>
-                            <#else>
-                                <p>No categories found.</p>
-                            </#if>
-                                </div>
-                            </div>
-                            
                             <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">PROGETTO</a>
                             <div class="nav-item dropdown">
                                 <a href="/partner" class="nav-item nav-link dropdown-toggle">PARTNER <i class="fa fa-angle-down mt-1"></i></a>
@@ -128,7 +86,46 @@
                             <a href="/news" class="nav-item nav-link <#if currentUrl?starts_with("/news")>active</#if>">NEWS</a>
                             <a href="/faq" class="nav-item nav-link">FAQ</a>
                             <a href="/contact" class="nav-item nav-link <#if currentUrl?starts_with("/contact")>active</#if>">CONTATTI</a>
-                        
+                            <div class="nav-item dropdown">
+                                <a href="/services" class="nav-item nav-link dropdown-toggle">CATALOGO <i class="fa fa-angle-down mt-1"></i></a>
+                                <div class="dropdown-menu  rounded-0 border-0 m-0">
+                                    <#assign categoriesTree = siteItemService.getSiteTree('/site/components/category', 1)>
+                                    <#assign subCategoriesTree = siteItemService.getSiteTree('/site/components/sub_category', 1)>
+                                        <#if categoriesTree?has_content>
+                                            <#list categoriesTree.childItems as category>
+                                                <#assign categoryItem = siteItemService.getSiteItem(category.storeUrl) />
+                                                
+                                                <#assign relatedSubcategories = subCategoriesTree.childItems?filter(subcategory -> 
+                                                     (siteItemService.getSiteItem(subcategory.storeUrl)?has_content && 
+                                                        siteItemService.getSiteItem(subcategory.storeUrl).category_o?has_content && 
+                                                        siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0]?has_content && 
+                                                        siteItemService.getSiteItem(subcategory.storeUrl).category_o.item[0].key == category.storeUrl)) /> 
+            
+                                                        
+                                                    <div class="nav-item dropdown dropright">
+                                                    <a href="/services?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                                        ${categoryItem.queryValue('name_s')}
+                                                        <#if relatedSubcategories?has_content>
+                                                            <i class="fa fa-angle-right float-right mt-1"></i>
+                                                        </#if>
+                                                    </a>
+                                                    <#if relatedSubcategories?has_content>
+                                                        <div class="dropdown-menu position-absolute rounded-0 border-0 m-0">
+                                                            <#list relatedSubcategories as subcategory>
+                                                                <#assign subCategoryItem = siteItemService.getSiteItem(subcategory.storeUrl) />
+                                                                <a href="/services?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}&subCategory=${subCategoryItem.queryValue('internal-name')?url?default("")}&subCategoryURL=${subcategory.storeUrl?url?default("")}" class="dropdown-item">
+                                                                    ${subCategoryItem.queryValue('name_s')}
+                                                                </a>
+                                                            </#list>
+                                                        </div>
+                                                    </#if>
+                                                </div>
+                                            </#list>
+                                        <#else>
+                                            <p>Nessuna categoria trovata</p>
+                                        </#if>
+                                </div>
+                            </div>
                            
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">DASHBOARD <i class="fa fa-angle-down mt-1"></i></a>
