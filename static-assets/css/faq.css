@@ -1,3 +1,7 @@
+.banner_faq {
+  background-image: url(assets/FAQ.jpg);
+}
+
 .title_section {
   font-weight: 550 !important;
 }
