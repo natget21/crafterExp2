@@ -127,10 +127,10 @@
                             
                            
                             <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">DASHBOARD <i class="fa fa-angle-down mt-1"></i></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ACCEDI <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu  rounded-0 border-0 m-0">
-                                    <a href="/partner-login" class="nav-item nav-link sublink">Partner Login</a>
-                                    <a href="/hub-manager" class="nav-item nav-link sublink">Hub Manager Login</a>
+                                    <a href="/partner-login" class="nav-item nav-link sublink">Partner</a>
+                                    <a href="/hub-manager" class="nav-item nav-link sublink">Hub Manager</a>
                                 </div>
                             </div>
                             
