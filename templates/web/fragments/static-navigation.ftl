@@ -91,8 +91,8 @@
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">DASHBOARD <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu  rounded-0 border-0 m-0">
-                                    <a href="/partner-login" class="nav-item nav-link sublink <#if currentUrl?starts_with("/partner-login")>active</#if>">Partner Login</a>
-                                    <a href="/hub-manager" class="nav-item nav-link sublink <#if currentUrl?starts_with("/hub-manager")>active</#if>">Hub Manager Login</a>
+                                    <a href="/partner-login" class="nav-item nav-link sublink <#if currentUrl?starts_with("/partner-login")>active</#if>">Partner</a>
+                                    <a href="/hub-manager" class="nav-item nav-link sublink <#if currentUrl?starts_with("/hub-manager")>active</#if>">Hub Manager</a>
                                 </div>
                             </div>
                             <a href="/order" class="btn px-0 ml-3" id="order-btn" style="display:none">
