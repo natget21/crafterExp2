@@ -12,7 +12,6 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
 
-    <#include "/templates/web/components/home-slider.ftl"> 
 <!-- Contact Start -->
         <section id="contact" class="contact mt-5 mb-5">
       <div class="container">
