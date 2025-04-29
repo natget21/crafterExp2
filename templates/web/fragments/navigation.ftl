@@ -103,7 +103,7 @@
             
                                                         
                                                     <div class="nav-item dropdown dropright">
-                                                    <a href="/services?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                                    <a href="/catalog?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}" class="nav-link dropdown-toggle" data-toggle="dropdown">
                                                         ${categoryItem.queryValue('name_s')}
                                                         <#if relatedSubcategories?has_content>
                                                             <i class="fa fa-angle-right float-right mt-1"></i>
@@ -113,7 +113,7 @@
                                                         <div class="dropdown-menu position-absolute rounded-0 border-0 m-0">
                                                             <#list relatedSubcategories as subcategory>
                                                                 <#assign subCategoryItem = siteItemService.getSiteItem(subcategory.storeUrl) />
-                                                                <a href="/services?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}&subCategory=${subCategoryItem.queryValue('internal-name')?url?default("")}&subCategoryURL=${subcategory.storeUrl?url?default("")}" class="dropdown-item">
+                                                                <a href="/catalog?category=${categoryItem.queryValue('internal-name')?url?default("")}&categoryURL=${category.storeUrl?url?default("")}&subCategory=${subCategoryItem.queryValue('internal-name')?url?default("")}&subCategoryURL=${subcategory.storeUrl?url?default("")}" class="dropdown-item">
                                                                     ${subCategoryItem.queryValue('name_s')}
                                                                 </a>
                                                             </#list>
