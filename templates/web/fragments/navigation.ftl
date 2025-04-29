@@ -83,7 +83,7 @@
                             </div>
                             
                         </div>
-                        <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
+                        <div class="navbar-nav ml-auto py-0 d-none d-flex">
                         
                       
                             <div class="nav-item dropdown">
