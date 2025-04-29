@@ -49,7 +49,13 @@
     <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
-
+    <div
+      class="banner_section banner_faq layout_padding d-flex align-items-center"
+    >
+      <div class="container">
+        <h1 class="best_taital text-center text-white p-0">FAQ</h1>
+      </div>
+    </div>
     <div class="content pb-5 layout_padding col-11 col-md-9 mx-auto">
       <div class="d-flex flex-column flex-md-row">
         <div class="col-12 col-md-7">
