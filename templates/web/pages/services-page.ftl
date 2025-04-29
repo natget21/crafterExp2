@@ -82,6 +82,13 @@
             </div>
         </div>
     </div>
+    <div
+      class="banner_section banner_catalogo layout_padding d-flex align-items-center"
+    >
+      <div class="container">
+        <h1 class="best_taital text-center text-white p-0">Catalogo</h1>
+      </div>
+    </div>
     <div class="container-fluid">
         <#include "/templates/web/components/category-list.ftl"> 
     </div>
