@@ -62,7 +62,7 @@
                         
                             <a href="/index" class="nav-item nav-link <#if currentUrl?starts_with("/index")>active</#if>"><i class="fa fa-home mt-1"></i> HOME</a>
                             
-                            <a id="catalog-btn" href="/catalog" class="nav-item nav-link <#if currentUrl?starts_with("/catalog")>active</#if>" >CATALOGO</a>
+                            <a id="catalog-btn" href="/catalog" class="nav-item nav-link <#if currentUrl?starts_with("/catalog")>active</#if>" >CATALOGOs</a>
                             
                             <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">PROGETTO</a>
                             <div class="nav-item dropdown">
