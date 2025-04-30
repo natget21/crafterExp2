@@ -45,14 +45,7 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
 
-    <#if partnerList?? && (partnerList?size > 0)>
-        <#list partnerList as partner>
-            <#list partner?keys as key>
-              <strong>${key}</strong> : ${partner[key]}<br>
-            </#list>
-
-        </#list>
-    </#if>
+    
 
     <div class="content pb-5">
       <div
@@ -99,17 +92,7 @@
                   <div class="col-12 col-md-8">
                     <h3 class="partner_title">${partner.partnerAzienda}</h3>
                     <p class="partner_description m-0">
-                      Fondata nel 2001, Synthesis3 è una società specializzata nella
-                      consulenza informatica e gestionale, con una forte esperienza
-                      nel facility management e nell’innovation management. Attiva
-                      dal 2022 nelle Marche, il team di Synthesis3 supporta le
-                      imprese, la pubblica amministrazione e il terzo settore nella
-                      trasformazione digitale, con particolare focus su Project
-                      Management, Innovation Management, e Stakeholders Engagement.
-                      Il partner è coinvolto nella progettazione e sviluppo di
-                      soluzioni digitali, come la Digital Ecosystem Platform, e
-                      offre servizi di consulenza per la trasformazione digitale e
-                      la gestione dell'innovazione.
+                      ${partner.partnerLandingIntroduction}
                     </p>
                     <div
                       class="d-flex flex-grow-1 justify-content-end align-items-end mt-3"
