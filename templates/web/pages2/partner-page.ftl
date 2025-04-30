@@ -46,7 +46,13 @@
     <#include "/templates/web/fragments/static-navigation.ftl">
 
 
-
+    <#if partnerList?? && (partnerList?size > 0)>
+      <ul>
+        <#list partnerList as partner>
+          <li>${partner.partnerAzienda}</li>
+        </#list>
+      </ul>
+    </#if>
 
     <div class="content pb-5">
       <div
