@@ -87,11 +87,13 @@
               class="d-flex flex-column flex-md-row justify-content-between gap-5 align-items-center"
             >
                   <div class="partner_logo_container w-100">
-                    <img
-                      class="partner_logo"
-                      src="${partner.partnerCompanyLogoUrl}"
-                      alt=""
-                    />
+                    <#if partner.partnerCompanyLogoUrl?? && !partner.partnerCompanyLogoUrl?lower_case?contains("script")>
+                      <img
+                        class="partner_logo"
+                        src="${partner.partnerCompanyLogoUrl}"
+                        alt=""
+                      />
+                    </#if>
                   </div>
                   <div class="col-12 col-md-8">
                     <h3 class="partner_title">${partner.partnerAzienda}</h3>
