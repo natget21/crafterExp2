@@ -75,9 +75,10 @@
       </div>
     </div>
     <div class="d-flex">
-        <div class="col-3">
+        <div class="col-9">
             <#include "/templates/web/components/category-list.ftl"> 
         </div>
+    </div>
         <div class="col-9">
             <div class="row px-xl-5">
                 <div class="col-lg-3 col-md-4">
@@ -219,7 +220,6 @@
                 </div>
             </div>
         </div>
-    </div>
     
     <#include "/templates/web/fragments/footer.ftl">
     <#include "/templates/web/fragments/scripts.ftl">
