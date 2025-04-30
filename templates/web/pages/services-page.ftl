@@ -87,7 +87,7 @@
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" checked id="tag-all" value="all" name="tag">
                             <label class="custom-control-label" for="tag-all">All Tags</label>
-                            <span class="badge border font-weight-normal">400</span>
+                            <span style="background-color: var(--primary); border-radius: 100px;" class="badge border font-weight-normal">400</span>
                         </div>
                         
                       <#-- Step 1: Fetch all tags -->
