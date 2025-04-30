@@ -10154,10 +10154,6 @@ h6 {
   transition: 0.5s;
 }
 
-.cat-item:hover {
-  background: var(--primary);
-}
-
 .cat-item img {
   transition: 0.5s;
 }
