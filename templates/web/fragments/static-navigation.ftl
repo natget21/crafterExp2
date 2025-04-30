@@ -93,6 +93,13 @@
                         </div>
                         <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
                             <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">REGISTRATI <i class="fa fa-angle-down mt-1"></i></a>
+                                <div class="dropdown-menu  rounded-0 border-0 m-0">
+                                    <a href="/partner-login" class="nav-item nav-link sublink <#if currentUrl?starts_with("/partner-login")>active</#if>">Cliente</a>
+                                    <a href="/partner-login" class="nav-item nav-link sublink <#if currentUrl?starts_with("/partner-login")>active</#if>">Partner</a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ACCEDI <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu  rounded-0 border-0 m-0">
                                     <a href="/client-login" class="nav-item nav-link sublink <#if currentUrl?starts_with("/client-login")>active</#if>">Cliente</a>
