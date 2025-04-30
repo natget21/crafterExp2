@@ -21,15 +21,15 @@
                         
                             <div class="nav-item dropdown">
                                 <a href="/partner" class="nav-item nav-link dropdown-toggle">PARTNER <i class="fa fa-angle-down mt-1"></i></a>
-                                <div class="dropdown-menu rounded-0 border-0 m-0">
-                                    <#if partnerList?? && (partnerList?size > 0)>
+                                <#if partnerList?? && (partnerList?size > 0)>
+                                    <div class="dropdown-menu rounded-0 border-0 m-0">
                                         <#list partnerList as partner>
                                             <a href="/partner-detail?id=${partner.id}" class="nav-item nav-link sublink">
                                               ${partner.partnerAzienda}
                                             </a>
                                         </#list>
-                                    </#if>
-                                </div>
+                                    </div>
+                                </#if>
                             </div>
                         
                             <div class="nav-item dropdown">
