@@ -86,109 +86,39 @@
             <div
               class="d-flex flex-column flex-md-row justify-content-between gap-5 align-items-center"
             >
-                       <div class="partner_logo_container w-100">
-                         <img
-                           class="partner_logo"
-                           src="${partner.partnerCompanyLogoUrl}"
-                           alt=""
-                         />
-                       </div>
-                      <div class="col-12 col-md-8">
-                        <h3 class="partner_title">${partner.partnerAzienda}</h3>
-                        <p class="partner_description m-0">
-                          Fondata nel 2001, Synthesis3 è una società specializzata nella
-                          consulenza informatica e gestionale, con una forte esperienza
-                          nel facility management e nell’innovation management. Attiva
-                          dal 2022 nelle Marche, il team di Synthesis3 supporta le
-                          imprese, la pubblica amministrazione e il terzo settore nella
-                          trasformazione digitale, con particolare focus su Project
-                          Management, Innovation Management, e Stakeholders Engagement.
-                          Il partner è coinvolto nella progettazione e sviluppo di
-                          soluzioni digitali, come la Digital Ecosystem Platform, e
-                          offre servizi di consulenza per la trasformazione digitale e
-                          la gestione dell'innovazione.
-                        </p>
-                        <div
-                          class="d-flex flex-grow-1 justify-content-end align-items-end mt-3"
-                        >
-                          <button
-                            class="btn btn-secondary read_more rounded-pill"
-                            onclick="window.location.href='/partner-detail?id=67dd8279c70ba0680bdc849d'"
-                          >
-                            Scopri di più
-                          </button>
-                        </div>
-                      </div>
-            </div>
-          </div>
-          <div class="partner col-12 d-flex flex-column gap-3">
-            <div
-              class="d-flex flex-column flex-md-row justify-content-between gap-5 align-items-center"
-            >
-              <div class="partner_logo_container w-100">
-                <img
-                  class="partner_logo"
-                  src="static-assets/assets/sinergia-logo.png"
-                  alt=""
-                />
-              </div>
-              <div class="col-12 col-md-8">
-                <h3 class="partner_title">Sinergia EPC S.r.l.</h3>
-                <p class="partner_description m-0">
-                  Nata nel 2021 come spin-off di Sinergia Consulenze, Sinergia
-                  EPC si specializza in Lean Technology e Sistemi di Controllo
-                  Interni, supportando le imprese e le pubbliche amministrazioni
-                  nel miglioramento dei processi e nella digitalizzazione. Il
-                  partner ha un forte focus sul settore manifatturiero delle
-                  Marche, in particolare nell’ambito di Industria 4.0 e
-                  soluzioni basate su machine learning, deep learning, computer
-                  vision e intelligenza artificiale. Sinergia EPC collabora con
-                  il gruppo di ricerca VRAI per lo sviluppo di soluzioni
-                  innovative, inclusi strumenti per la qualità estetica basati
-                  su AI e realtà aumentata.
-                </p>
-                <div
-                  class="d-flex flex-grow-1 justify-content-end align-items-end mt-3"
-                >
-                  <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/partner-detail?id=67fce234f647a63da899d027'">
-                    Scopri di più
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="partner col-12 d-flex flex-column gap-3">
-            <div
-              class="d-flex flex-column flex-md-row justify-content-between gap-5 align-items-center"
-            >
-              <div class="partner_logo_container w-100">
-                <img class="partner_logo" src="static-assets/assets/skilla-logo.png" alt="" />
-              </div>
-              <div class="col-12 col-md-8">
-                <h3 class="partner_title">
-                  Amicucci Formazione S.r.l. (SKILLA)
-                </h3>
-                <p class="partner_description m-0">
-                  Specializzata nel settore della formazione digitale, SKILLA -
-                  Amicucci Formazione S.R.L. offre soluzioni di e-learning, con
-                  un focus su microlearning e contenuti fruibili su più
-                  dispositivi. Con oltre 90 partner internazionali, l'azienda ha
-                  sviluppato una solida expertise nella formazione aziendale,
-                  specializzandosi in competenze digitali e leadership. Il
-                  partner è all'avanguardia nell'uso di tecnologie immersive,
-                  come realtà virtuale e aumentata, per creare esperienze di
-                  apprendimento coinvolgenti e pratiche, con un forte impatto
-                  nell’educazione e nel miglioramento delle performance
-                  lavorative
-                </p>
-                <div
-                  class="d-flex flex-grow-1 justify-content-end align-items-end mt-3"
-                >
-                  <button class="btn btn-secondary read_more rounded-pill">
-                    Scopri di più
-                  </button>
-                </div>
-              </div>
+                  <div class="partner_logo_container w-100">
+                    <img
+                      class="partner_logo"
+                      src="${partner.partnerCompanyLogoUrl}"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-12 col-md-8">
+                    <h3 class="partner_title">${partner.partnerAzienda}</h3>
+                    <p class="partner_description m-0">
+                      Fondata nel 2001, Synthesis3 è una società specializzata nella
+                      consulenza informatica e gestionale, con una forte esperienza
+                      nel facility management e nell’innovation management. Attiva
+                      dal 2022 nelle Marche, il team di Synthesis3 supporta le
+                      imprese, la pubblica amministrazione e il terzo settore nella
+                      trasformazione digitale, con particolare focus su Project
+                      Management, Innovation Management, e Stakeholders Engagement.
+                      Il partner è coinvolto nella progettazione e sviluppo di
+                      soluzioni digitali, come la Digital Ecosystem Platform, e
+                      offre servizi di consulenza per la trasformazione digitale e
+                      la gestione dell'innovazione.
+                    </p>
+                    <div
+                      class="d-flex flex-grow-1 justify-content-end align-items-end mt-3"
+                    >
+                      <button
+                        class="btn btn-secondary read_more rounded-pill"
+                        onclick="window.location.href='/partner-detail?id=67dd8279c70ba0680bdc849d'"
+                      >
+                        Scopri di più
+                      </button>
+                    </div>
+                  </div>
             </div>
           </div>
           </#list>
