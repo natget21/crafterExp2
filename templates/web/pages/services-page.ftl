@@ -74,6 +74,9 @@
         <h1 class="best_taital text-center text-white p-0">Catalogo Servizi</h1>
       </div>
     </div>
+    <div class="text-center mb-4">
+        <h2 class="section-title px-5"><span class="px-2 explore">Esplora le categorie del catalogo</span></h2>
+    </div>
     <div class="d-flex">
         <div class="col-3">
         <!-- Tag Start -->
