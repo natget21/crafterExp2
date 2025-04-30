@@ -75,6 +75,9 @@
         class="layout_padding partners_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
         <div class="row row-gap-5">
+        
+        <p>${partnerList}</p>
+        
           <div class="partner col-12 d-flex flex-column gap-3">
             <div
               class="d-flex flex-column flex-md-row justify-content-between gap-5 align-items-center"
