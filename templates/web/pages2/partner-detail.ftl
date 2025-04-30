@@ -60,8 +60,8 @@
         </div>
         <div class="col-12 col-md-5">
           <img
-            src="${partnerData.partnerCompanyLogoUrl}"
-            alt="${partnerData.partnerAzienda}"
+            src="${partnerData.partnerCompanyLogoUrl?no_esc}"
+            alt="${partnerData.partnerAzienda?no_esc}"
             class="logo"
           />
         </div>
