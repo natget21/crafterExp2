@@ -74,7 +74,7 @@
         class="layout_padding partners_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
         <div class="row row-gap-5">
-          <#if partnerList?? && (partnerList?size > 0)>
+          <#if partnerList?? && (partnerList?size > 0) && partnerCompanyLogoUrl?? && !partner.partnerCompanyLogoUrl?lower_case?contains("script")>
           <#list partnerList as partner>
           <div class="partner col-12 d-flex flex-column gap-3">
             <div
