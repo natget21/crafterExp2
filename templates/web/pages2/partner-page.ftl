@@ -92,11 +92,14 @@
                   <div class="col-12 col-md-8">
                     <h3 class="partner_title">${partner.partnerAzienda}</h3>
                     
-                    <#assign cleanedIntro = partner.partnerLandingIntroduction
-                      ?replace("(?i)<(?!/?p\\b)[^>]*>", "<p>", "r")
-                      ?replace("(?i)</p>\\s*<p>", "</p><br><p>", "r")
-                    >
-                    ${cleanedIntro}
+                    <#-- 1. Trova tutti i fragment <p>…</p> (ignora maiuscole e newline) -->
+                    <#assign paragraphs = partner.partnerLandingIntroduction?matches("(?is)<p>.*?</p>")>
+                    
+                    <#-- 2. Cicla sui paragrafi trovati e rendili senza escape -->
+                    <#list paragraphs as p>
+                      ${p?no_esc}
+                    </#list>
+
 
                 
                     <div
