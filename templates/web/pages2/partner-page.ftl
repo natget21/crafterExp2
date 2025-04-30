@@ -93,16 +93,23 @@
                   <div class="col-12 col-md-8">
                     <h3 class="partner_title">${partner.partnerAzienda}</h3>
                     
-<#-- 1. Estrai tutti i blocchi <p>…</p> -->
+<#-- 1. Estrai tutti i paragrafi -->
 <#assign paragraphs = partner.partnerLandingIntroduction?matches("(?is)<p>.*?</p>")>
 
-<#-- 2. Itera sui paragrafi e rendi solo quelli non-vuoti -->
+<#-- 2. Itera e nascondi quelli vuoti -->
 <#list paragraphs as p>
-  <#-- rimuove i tag <p> e </p>, poi fa trim e controlla length > 0 -->
-  <#if p?replace("(?is)</?p>","", "r")?replace("(?is)<p>","", "r")?trim?length > 0>
+  <#-- rimuovo i tag <p> e </p> per controllare il contenuto interno -->
+  <#assign innerText = p
+      ?replace("(?is)^<p>","", "r")
+      ?replace("(?is)</p>$","", "r")
+      ?trim
+  >
+
+  <#if innerText?length gt 0>
     ${p?no_esc}
   </#if>
 </#list>
+
 
 
                 
