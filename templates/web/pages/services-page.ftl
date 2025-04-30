@@ -74,152 +74,150 @@
         <h1 class="best_taital text-center text-white p-0">Catalogo Servizi</h1>
       </div>
     </div>
-    <div class="d-flex">
-        <div class="col-9">
-            <#include "/templates/web/components/category-list.ftl"> 
-        </div>
+    <div class="container-fluid">
+        <#include "/templates/web/components/category-list.ftl"> 
     </div>
     <div class="container-fluid">
-            <div class="row px-xl-5">
-                <div class="col-lg-3 col-md-4">
-                    <!-- Tag Start -->
-                    
-                    <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by Tag</span></h5>
-                    <div class="bg-light p-4 mb-30">
-                        <form id="filterTagForm">
-                            <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                                <input type="checkbox" class="custom-control-input" checked id="tag-all" value="all" name="tag">
-                                <label class="custom-control-label" for="tag-all">All Tags</label>
-                                <span class="badge border font-weight-normal">400</span>
-                            </div>
-                            
-                          <#-- Step 1: Fetch all tags -->
-            <#assign itemData = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
-            <#assign allTags = itemData.items.item />
-            <#assign tagsFromCategory = [] />
-            
-                <#-- Check if category is selected but subcategory is not -->
-                <#if categoryURL?has_content && !subCategoryURL?has_content>
-                    <#assign catDataMain = siteItemService.getSiteItem(categoryURL) />
-                    <#if catDataMain.isFolder()>
-                        <#-- Fetch sub-items if it's a folder -->
-                        <#assign subData = siteItemService.getSiteTree(categoryURL, 1) />
-                        <#list subData as subItem>
-                            <#if subItem.tags_o??>
-                                <#list subItem.tags_o.item as tag>
-                                    <#if !(tagsFromCategory?seq_contains(tag))>
-                                        <#assign tagsFromCategory = tagsFromCategory + [tag] />
-                                    </#if>
-                                </#list>
-                            </#if>
-                        </#list>
-                    <#else>
-                        <#-- If not a folder, check for tags directly -->
-                        <#if catDataMain.descriptorDom.component.tags_o??>
-                            <#assign tagsFromCategory = catDataMain.descriptorDom.component.tags_o.item />
-                        </#if>
-                    </#if>
+        <div class="row px-xl-5">
+            <div class="col-lg-3 col-md-4">
+                <!-- Tag Start -->
                 
-                <#-- Check if both category and subcategory are selected -->
-                <#elseif categoryURL?has_content && subCategoryURL?has_content>
-                    <#assign subCatDataMain = siteItemService.getSiteItem(subCategoryURL) />
-                    <#if subCatDataMain.isFolder()>
-            
-                        <#-- Fetch sub-items if it's a folder -->
-                        <#assign subItems = siteItemService.getSiteTree(subCategoryURL, 1) />
-                        <#list subItems as subItem>
-                            <#if subItem.tags_o??>
-                                <#list subItem.tags_o.item as tag>
-                                    <#if !(tagsFromCategory?seq_contains(tag))>
-                                    <div>${tag}</div>
-                                        <#assign tagsFromCategory = tagsFromCategory + [tag] />
-                                    </#if>
-                                </#list>
-                            </#if>
-                        </#list>
-                    <#else>
-                        <#-- If not a folder, check for tags directly -->
-                        <#if subCatDataMain.tags_o??>
-                            <#assign tagsFromCategory = subCatDataMain.tags_o.item />
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by Tag</span></h5>
+                <div class="bg-light p-4 mb-30">
+                    <form id="filterTagForm">
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" checked id="tag-all" value="all" name="tag">
+                            <label class="custom-control-label" for="tag-all">All Tags</label>
+                            <span class="badge border font-weight-normal">400</span>
+                        </div>
+                        
+                      <#-- Step 1: Fetch all tags -->
+<#assign itemData = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
+<#assign allTags = itemData.items.item />
+<#assign tagsFromCategory = [] />
+
+    <#-- Check if category is selected but subcategory is not -->
+    <#if categoryURL?has_content && !subCategoryURL?has_content>
+        <#assign catDataMain = siteItemService.getSiteItem(categoryURL) />
+        <#if catDataMain.isFolder()>
+            <#-- Fetch sub-items if it's a folder -->
+            <#assign subData = siteItemService.getSiteTree(categoryURL, 1) />
+            <#list subData as subItem>
+                <#if subItem.tags_o??>
+                    <#list subItem.tags_o.item as tag>
+                        <#if !(tagsFromCategory?seq_contains(tag))>
+                            <#assign tagsFromCategory = tagsFromCategory + [tag] />
                         </#if>
-                    </#if>
-                
-                <#else>
-                    <#-- Default to all tags if no category or subcategory is selected -->
-                    <#assign tagsFromCategory = allTags />
+                    </#list>
                 </#if>
-            <#-- Step 4: Display the filtered tags -->
+            </#list>
+        <#else>
+            <#-- If not a folder, check for tags directly -->
+            <#if catDataMain.descriptorDom.component.tags_o??>
+                <#assign tagsFromCategory = catDataMain.descriptorDom.component.tags_o.item />
+            </#if>
+        </#if>
+    
+    <#-- Check if both category and subcategory are selected -->
+    <#elseif categoryURL?has_content && subCategoryURL?has_content>
+        <#assign subCatDataMain = siteItemService.getSiteItem(subCategoryURL) />
+        <#if subCatDataMain.isFolder()>
+
+            <#-- Fetch sub-items if it's a folder -->
+            <#assign subItems = siteItemService.getSiteTree(subCategoryURL, 1) />
+            <#list subItems as subItem>
+                <#if subItem.tags_o??>
+                    <#list subItem.tags_o.item as tag>
+                        <#if !(tagsFromCategory?seq_contains(tag))>
+                        <div>${tag}</div>
+                            <#assign tagsFromCategory = tagsFromCategory + [tag] />
+                        </#if>
+                    </#list>
+                </#if>
+            </#list>
+        <#else>
+            <#-- If not a folder, check for tags directly -->
+            <#if subCatDataMain.tags_o??>
+                <#assign tagsFromCategory = subCatDataMain.tags_o.item />
+            </#if>
+        </#if>
+    
+    <#else>
+        <#-- Default to all tags if no category or subcategory is selected -->
+        <#assign tagsFromCategory = allTags />
+    </#if>
+<#-- Step 4: Display the filtered tags -->
+
+    <#list tagsFromCategory as tag>
+          <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id=${tag.key} value="${tag.key}" name="tag">
+                            <label class="custom-control-label" for=${tag.key}>${tag.value?default(tag.value_smv)}</label>
+                            <span class="badge border font-weight-normal">150</span>
+            </div>
+    </#list>
+                        
+                    
+                    </form>
+                </div>
+                <!-- Tag End -->
+            </div>
             
-                <#list tagsFromCategory as tag>
-                      <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                                        <input type="checkbox" class="custom-control-input" id=${tag.key} value="${tag.key}" name="tag">
-                                        <label class="custom-control-label" for=${tag.key}>${tag.value?default(tag.value_smv)}</label>
-                                        <span class="badge border font-weight-normal">150</span>
-                        </div>
-                </#list>
-                                    
-                                
-                                </form>
+            
+            <!-- service products -->
+            
+            <div class="col-lg-9 col-md-8">
+                <div class="row pb-3 filterResults">
+                    <!-- <div class="col-12 pb-1">
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div>
+                                <button class="btn btn-sm btn-light"><i class="fa fa-th-large"></i></button>
+                                <button class="btn btn-sm btn-light ml-2"><i class="fa fa-bars"></i></button>
                             </div>
-                            <!-- Tag End -->
-                        </div>
-                        
-                        
-                        <!-- service products -->
-                        
-                        <div class="col-lg-9 col-md-8">
-                            <div class="row pb-3 filterResults">
-                                <!-- <div class="col-12 pb-1">
-                                    <div class="d-flex align-items-center justify-content-between mb-4">
-                                        <div>
-                                            <button class="btn btn-sm btn-light"><i class="fa fa-th-large"></i></button>
-                                            <button class="btn btn-sm btn-light ml-2"><i class="fa fa-bars"></i></button>
-                                        </div>
-                                        <div class="ml-2">
-                                            <div class="btn-group">
-                                                <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Sorting</button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#">Latest</a>
-                                                    <a class="dropdown-item" href="#">Popularity</a>
-                                                    <a class="dropdown-item" href="#">Best Rating</a>
-                                                </div>
-                                            </div>
-                                            <div class="btn-group ml-2">
-                                                <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Showing</button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#">10</a>
-                                                    <a class="dropdown-item" href="#">20</a>
-                                                    <a class="dropdown-item" href="#">30</a>
-                                                </div>
-                                            </div>
-                                        </div>
+                            <div class="ml-2">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Sorting</button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#">Latest</a>
+                                        <a class="dropdown-item" href="#">Popularity</a>
+                                        <a class="dropdown-item" href="#">Best Rating</a>
                                     </div>
-                                </div> -->
-                                
-                                    
-                                <#if courseTree?has_content>
-                                    <@listFilteredItems courseTree />
-                                <#else>
-                                    <div class="col-12">
-                                        <p>No service available.</p>
+                                </div>
+                                <div class="btn-group ml-2">
+                                    <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Showing</button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#">10</a>
+                                        <a class="dropdown-item" href="#">20</a>
+                                        <a class="dropdown-item" href="#">30</a>
                                     </div>
-                                </#if>
-                                
-                                <!-- <div class="col-12">
-                                    <nav>
-                                      <ul class="pagination justify-content-center">
-                                        <li class="page-item disabled"><a class="page-link" href="#">Previous</span></a></li>
-                                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                                      </ul>
-                                    </nav>
-                                </div> -->
+                                </div>
                             </div>
+                        </div>
+                    </div> -->
+                    
+                        
+                    <#if courseTree?has_content>
+                        <@listFilteredItems courseTree />
+                    <#else>
+                        <div class="col-12">
+                            <p>No service available.</p>
+                        </div>
+                    </#if>
+                    
+                    <!-- <div class="col-12">
+                        <nav>
+                          <ul class="pagination justify-content-center">
+                            <li class="page-item disabled"><a class="page-link" href="#">Previous</span></a></li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                          </ul>
+                        </nav>
+                    </div> -->
                 </div>
             </div>
         </div>
+    </div>
     
     <#include "/templates/web/fragments/footer.ftl">
     <#include "/templates/web/fragments/scripts.ftl">
