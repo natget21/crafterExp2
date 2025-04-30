@@ -1,3 +1,9 @@
 .banner_catalogo {
   background-image: url(/static-assets/assets/area-privata.jpg);
 }
+
+.explore{
+    color: var(--primary-active);
+    font-weight: 100;
+
+}
