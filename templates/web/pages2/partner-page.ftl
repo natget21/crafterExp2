@@ -48,7 +48,7 @@
     <#if partnerList?? && (partnerList?size > 0)>
         <#list partnerList as partner>
             <#list partner?keys as key>
-              ${key} : ${partner[key]}
+              <strong>${key}</strong> : ${partner[key]}<br>
             </#list>
 
         </#list>
