@@ -49,7 +49,9 @@
     <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
-    <div
+    
+    
+        <div
       class="banner_section banner_faq layout_padding d-flex align-items-center"
     >
       <div class="container">
@@ -73,24 +75,25 @@
         </div>
       </div>
       <div class="layout_padding">
-        <div class="accordion" id="productsAccordion">
+        <h2 class="title_section">Registrazione al portale</h2>
+        <div class="accordion" id="registrationAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#productOne"
+                data-bs-target="#faqOne"
                 aria-expanded="false"
-                aria-controls="productOne"
+                aria-controls="faqOne"
               >
-                Di che colore é il cavallo bianco di Napoleone?
+                Non riesco a registrarmi tramite credenziali, cosa posso fare?
               </button>
             </h2>
             <div
-              id="productOne"
+              id="faqOne"
               class="accordion-collapse collapse"
-              data-bs-parent="#productsAccordion"
+              data-bs-parent="#registrationAccordion"
             >
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 info">
@@ -105,17 +108,312 @@
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#productTwo"
+                data-bs-target="#faqTwo"
                 aria-expanded="false"
-                aria-controls="productTwo"
+                aria-controls="faqTwo"
               >
-                Quanti sono i giorni di un anno?
+                Non riesco ad accedere tramite SPID/CIE, cosa posso fare?
               </button>
             </h2>
             <div
-              id="productTwo"
+              id="faqTwo"
               class="accordion-collapse collapse"
-              data-bs-parent="#productsAccordion"
+              data-bs-parent="#registrationAccordion"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">
+                    365 perche' Napoleone era francese e Napoleone voleva
+                    imporre il suo calendario
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="title_section layout_padding">FAQ - Lato Cliente</h2>
+        <h2 class="title_section faq_title layout_padding">Marketplace</h2>
+        <div class="accordion" id="marketplaceAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqThree"
+                aria-expanded="false"
+                aria-controls="faqThree"
+              >
+                Come funziona il processo di acquisto di un servizio?
+              </button>
+            </h2>
+            <div
+              id="faqThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#marketplaceAccordion"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">Bianco perche' Napoleone era francese</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqFour"
+                aria-expanded="false"
+                aria-controls="faqFour"
+              >
+                Non riesco a procedere all’acquisto del servizio selezionato,
+                cosa posso fare?
+              </button>
+            </h2>
+            <div
+              id="faqFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#marketplaceAccordion"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">
+                    365 perche' Napoleone era francese e Napoleone voleva
+                    imporre il suo calendario
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqFive"
+                aria-expanded="false"
+                aria-controls="faqFive"
+              >
+                Posso modificare o cancellare una richiesta già inviata al
+                partner?
+              </button>
+            </h2>
+            <div
+              id="faqFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#marketplaceAccordion"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">
+                    365 perche' Napoleone era francese e Napoleone voleva
+                    imporre il suo calendario
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqSix"
+                aria-expanded="false"
+                aria-controls="faqSix"
+              >
+                I miei dati personali sono al sicuro sulla piattaforma?
+              </button>
+            </h2>
+            <div
+              id="faqSix"
+              class="accordion-collapse collapse"
+              data-bs-parent="#marketplaceAccordion"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">
+                    365 perche' Napoleone era francese e Napoleone voleva
+                    imporre il suo calendario
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="title_section faq_title layout_padding">
+          Ricerca dei Servizi
+        </h2>
+        <div class="accordion" id="serviceAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqSeven"
+                aria-expanded="false"
+                aria-controls="faqSeven"
+              >
+                Non riesco a trovare un servizio specifico, come posso cercarlo?
+              </button>
+            </h2>
+            <div
+              id="faqSeven"
+              class="accordion-collapse collapse"
+              data-bs-parent="#serviceAccordion"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">Bianco perche' Napoleone era francese</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqEight"
+                aria-expanded="false"
+                aria-controls="faqEight"
+              >
+                È possibile salvare o aggiungere ai preferiti un servizio che mi
+                interessa?
+              </button>
+            </h2>
+            <div
+              id="faqEight"
+              class="accordion-collapse collapse"
+              data-bs-parent="#serviceAccordion"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">
+                    365 perche' Napoleone era francese e Napoleone voleva
+                    imporre il suo calendario
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="layout_padding">
+        <h2 class="title_section layout_padding">FAQ - Lato Partner</h2>
+        <h2 class="title_section faq_title layout_padding">
+          Accreditamento al Catalogo dei Servizi
+        </h2>
+        <div class="accordion" id="accreditationAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqNine"
+                aria-expanded="false"
+                aria-controls="faqNine"
+              >
+                Come faccio ad accreditarmi per offrire determinati servizi?
+              </button>
+            </h2>
+            <div
+              id="faqNine"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accreditationAccordion"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">Bianco perche' Napoleone era francese</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqTen"
+                aria-expanded="false"
+                aria-controls="faqTen"
+              >
+                Ho problemi in fase di accreditamento dei servizi, cosa posso
+                fare?
+              </button>
+            </h2>
+            <div
+              id="faqTen"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accreditationAccordion"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">
+                    365 perche' Napoleone era francese e Napoleone voleva
+                    imporre il suo calendario
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="title_section faq_title layout_padding">
+          Gestione delle Richieste
+        </h2>
+        <div class="accordion" id="requestsAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqEleven"
+                aria-expanded="false"
+                aria-controls="faqEleven"
+              >
+                Non riesco a visualizzare tutte le richieste dei clienti, cosa
+                posso fare?
+              </button>
+            </h2>
+            <div
+              id="faqEleven"
+              class="accordion-collapse collapse"
+              data-bs-parent="#requestsAccordion"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">Bianco perche' Napoleone era francese</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqTwelve"
+                aria-expanded="false"
+                aria-controls="faqTwelve"
+              >
+                Come gestisco le richieste o prenotazioni dei clienti?
+              </button>
+            </h2>
+            <div
+              id="faqTwelve"
+              class="accordion-collapse collapse"
+              data-bs-parent="#requestsAccordion"
             >
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 info">
@@ -130,6 +428,7 @@
         </div>
       </div>
     </div>
+
     
         <!-- Footer Section -->
     <#include "/templates/web/fragments/footer-no-padding.ftl">
