@@ -92,11 +92,9 @@
                   <div class="col-12 col-md-8">
                     <h3 class="partner_title">${partner.partnerAzienda}</h3>
                     
-                    <#assign cleanedIntro = partner.partnerLandingIntroduction
-                      ?replace("(?i)<(?!/?p\\b)[^>]*>", "<p>", "r")
-                      ?replace("(?i)</p>\\s*<p>", "</p><br><p>", "r")
-                    >
-                    ${cleanedIntro}
+                    <#assign onlyParagraphs = partner.partnerLandingIntroduction?matches("(?is)<p>.*?</p>")?join("")>
+                        ${onlyParagraphs?no_esc}
+
                 
                     <div
                       class="d-flex flex-grow-1 justify-content-end align-items-end mt-3"
