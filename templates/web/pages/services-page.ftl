@@ -75,14 +75,8 @@
       </div>
     </div>
     <div class="d-flex">
-        <div class="container-fluid">
-            <#include "/templates/web/components/category-list.ftl"> 
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row px-xl-5">
-            <div class="col-lg-3 col-md-4">
-                <!-- Tag Start -->
+        <div class="col-3">
+        <!-- Tag Start -->
                 
                 <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by Tag</span></h5>
                 <div class="bg-light p-4 mb-30">
@@ -162,6 +156,15 @@
                     </form>
                 </div>
                 <!-- Tag End -->
+        </div>
+        <div class="col-9">
+            <#include "/templates/web/components/category-list.ftl"> 
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row px-xl-5">
+            <div class="col-lg-3 col-md-4">
+                
             </div>
             
             
