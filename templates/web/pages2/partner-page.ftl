@@ -91,9 +91,9 @@
                   </div>
                   <div class="col-12 col-md-8">
                     <h3 class="partner_title">${partner.partnerAzienda}</h3>
-                    <p class="partner_description m-0">
+                    
                       ${partner.partnerLandingIntroduction}
-                    </p>
+                
                     <div
                       class="d-flex flex-grow-1 justify-content-end align-items-end mt-3"
                     >
