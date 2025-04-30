@@ -49,7 +49,10 @@
     <#if partnerList?? && (partnerList?size > 0)>
       <ul>
         <#list partnerList as partner>
-          <li>${partner.partnerAzienda} ${partner?dump}</li>
+          <#list partner?keys as key>
+            ${key} = ${partner[key]}<br>
+            <li>${key}</li>
+          </#list>
         </#list>
       </ul>
     </#if>
