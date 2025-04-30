@@ -53,7 +53,7 @@
           <h1 class="best_taital text-center text-white">Il progetto</h1>
           <div class="box_main"></div>
           <p
-            class="there_text d-flex justify-content-center text-white pt-0 pt-md-5"
+            class="there_text d-flex justify-content-center text-white pt-0"
           >
             L’ecosistema digitale per costruire valore attraverso l’innovazione
             condivisa
