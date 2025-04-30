@@ -76,7 +76,13 @@
       >
         <div class="row row-gap-5">
         
-        <p>${partnerList}</p>
+        <#if partnerList?? && partnerList?size > 0>
+          <ul>
+            <#list partnerList as partner>
+              <li>${partner.partnerAzienda}</li>
+            </#list>
+          </ul>
+        </#if>
         
           <div class="partner col-12 d-flex flex-column gap-3">
             <div
