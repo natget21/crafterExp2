@@ -50,8 +50,7 @@
       <ul>
         <#list partnerList as partner>
           <#list partner?keys as key>
-            ${key} = ${partner[key]}<br>
-            <li>${key}</li>
+            <li>${partner[key]}</li>
           </#list>
         </#list>
       </ul>
