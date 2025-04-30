@@ -3,7 +3,7 @@
 <#assign categoriesTree = siteItemService.getSiteTree('/site/components/category', 1)>
                             
 
-<div class="container-fluid pt-5">
+<div class="container-fluid">
     <div class="row px-xl-5 pb-3">
         <#if categoriesTree?has_content>
         <#list categoriesTree.childItems as category>
