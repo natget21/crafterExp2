@@ -20,7 +20,7 @@
                             <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">PROGETTO</a>
                         
                             <div class="nav-item dropdown">
-                                <a href="/partner" class="nav-item nav-link dropdown-toggle">PARTNER <i class="fa fa-angle-down mt-1"></i></a>
+                                <a href="/partner" class="nav-item nav-link dropdown-toggle">PARTNER static nav <i class="fa fa-angle-down mt-1"></i></a>
                                 <#if partnerList?? && (partnerList?size > 0)>
                                     <div class="dropdown-menu rounded-0 border-0 m-0">
                                         <#list partnerList as partner>
