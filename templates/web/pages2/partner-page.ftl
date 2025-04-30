@@ -49,9 +49,6 @@
     <#if partnerList?? && (partnerList?size > 0)>
       <ul>
         <#list partnerList as partner>
-          <#list partner?keys as key>
-            <li>${key}</li>
-          </#list>
         </#list>
       </ul>
     </#if>
