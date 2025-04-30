@@ -6,6 +6,10 @@
   font-weight: 550 !important;
 }
 
+.faq_title {
+  font-size: 46px;
+}
+
 .explanation {
   color: var(--primary);
 }
