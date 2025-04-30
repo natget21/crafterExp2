@@ -74,8 +74,10 @@
         <h1 class="best_taital text-center text-white p-0">Catalogo Servizi</h1>
       </div>
     </div>
-    <div class="container-fluid">
-        <#include "/templates/web/components/category-list.ftl"> 
+    <div class="d-flex">
+        <div class="container-fluid">
+            <#include "/templates/web/components/category-list.ftl"> 
+        </div>
     </div>
     <div class="container-fluid">
         <div class="row px-xl-5">
