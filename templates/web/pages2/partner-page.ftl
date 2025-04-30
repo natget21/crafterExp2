@@ -47,9 +47,10 @@
 
     <#if partnerList?? && (partnerList?size > 0)>
         <#list partnerList as partner>
-            <a href="/partner-detail?id=ciao" class="nav-item nav-link sublink">
-              ${partner.partnerAzienda}
-            </a>
+            <#list partner?keys as key>
+              ${key} : ${partner[key]}
+            </#list>
+
         </#list>
     </#if>
 
