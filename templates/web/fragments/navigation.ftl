@@ -23,8 +23,8 @@
                                 <div class="dropdown-menu rounded-0 border-0 m-0">
                                     <#if partnerList?? && (partnerList?size > 0)>
                                         <#list partnerList as partner>
-                                            <a href="/partner-detail?id=ciao" class="nav-item nav-link sublink">
-                                              a${partner.partnerAzienda}
+                                            <a href="/partner-detail?id=${partner.id}" class="nav-item nav-link sublink">
+                                              ${partner.partnerAzienda}
                                             </a>
                                         </#list>
                                     </#if>
