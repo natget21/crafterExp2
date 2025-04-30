@@ -98,17 +98,17 @@
                         <h3 class="partner_title">${partner.partnerAzienda}</h3>
                         <p class="partner_description m-0">
                             partnerLandingTitle:
-                            ${partner.partnerLandingTitle}
+                            ${partner.partnerLandingTitle?no_esc}
                             partnerLandingIntroduction
-                            ${partner.partnerLandingIntroduction}
+                            ${partner.partnerLandingIntroduction?no_esc}
                             partnerLandingContent
-                            ${partner.partnerLandingContent}
+                            ${partner.partnerLandingContent?no_esc}
                             partnerLandingImagesAssetsUrlList
-                            ${partner.partnerLandingImagesAssetsUrlList}
+                            ${partner.partnerLandingImagesAssetsUrlList?no_esc}
                             partnerLandingVideosAssetsUrlList
-                            ${partner.partnerLandingVideosAssetsUrlList}
+                            ${partner.partnerLandingVideosAssetsUrlList?no_esc}
                             partnerLandingDocAssetsUrlList
-                            ${partner.partnerLandingDocAssetsUrlList}
+                            ${partner.partnerLandingDocAssetsUrlList?no_esc}
 
                         </p>
                         <p class="partner_description m-0">
