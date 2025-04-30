@@ -67,26 +67,11 @@
     </#macro>
 
     
-    <div class="container-fluid">
-        <div class="row px-xl-5">
-            <div class="col-12">
-                <nav class="breadcrumb bg-light mb-30">
-                    <a class="breadcrumb-item text-dark" href="/index">Home</a>
-                    <a class="breadcrumb-item text-dark" href="/catalog">Services</a>
-                    <#if categoryName?has_content>
-                        <span class="breadcrumb-item active">${categoryName}</span>
-                    <#else>
-                        <span class="breadcrumb-item active">All</span>
-                    </#if>
-                </nav>
-            </div>
-        </div>
-    </div>
     <div
       class="banner_section banner_catalogo layout_padding d-flex align-items-center"
     >
       <div class="container">
-        <h1 class="best_taital text-center text-white p-0">Catalogo</h1>
+        <h1 class="best_taital text-center text-white p-0">Catalogo Servizi</h1>
       </div>
     </div>
     <div class="container-fluid">
