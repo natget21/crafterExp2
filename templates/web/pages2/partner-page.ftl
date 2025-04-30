@@ -85,61 +85,7 @@
             <div
               class="d-flex flex-column flex-md-row justify-content-between gap-5 align-items-center"
             >
-                <!--
-                <#if partnerList?? && (partnerList?size > 0)>
-                    <#list partnerList as partner>
-                       <div class="partner_logo_container w-100">
-                         <img
-                           class="partner_logo"
-                           src="${partner.partnerCompanyLogoUrl}"
-                           alt=""
-                         />
-                       </div>
-                      <div class="col-12 col-md-8">
-                        <h3 class="partner_title">${partner.partnerAzienda}</h3>
-                        <p class="partner_description m-0">
-                            partnerLandingTitle:
-                            ${partner.partnerLandingTitle?no_esc}
-                            partnerLandingIntroduction
-                            ${partner.partnerLandingIntroduction?no_esc}
-                            partnerLandingContent
-                            ${partner.partnerLandingContent?no_esc}
-                            partnerLandingImagesAssetsUrlList
-                            ${partner.partnerLandingImagesAssetsUrlList?no_esc}
-                            partnerLandingVideosAssetsUrlList
-                            ${partner.partnerLandingVideosAssetsUrlList?no_esc}
-                            partnerLandingDocAssetsUrlList
-                            ${partner.partnerLandingDocAssetsUrlList?no_esc}
-
-                        </p>
-                        <p class="partner_description m-0">
-                          Fondata nel 2001, Synthesis3 è una società specializzata nella
-                          consulenza informatica e gestionale, con una forte esperienza
-                          nel facility management e nell’innovation management. Attiva
-                          dal 2022 nelle Marche, il team di Synthesis3 supporta le
-                          imprese, la pubblica amministrazione e il terzo settore nella
-                          trasformazione digitale, con particolare focus su Project
-                          Management, Innovation Management, e Stakeholders Engagement.
-                          Il partner è coinvolto nella progettazione e sviluppo di
-                          soluzioni digitali, come la Digital Ecosystem Platform, e
-                          offre servizi di consulenza per la trasformazione digitale e
-                          la gestione dell'innovazione.
-                        </p>
-                        <div
-                          class="d-flex flex-grow-1 justify-content-end align-items-end mt-3"
-                        >
-                          <button
-                            class="btn btn-secondary read_more rounded-pill"
-                            onclick="window.location.href='/partner-detail?id=67dd8279c70ba0680bdc849d'"
-                          >
-                            Scopri di più
-                          </button>
-                        </div>
-                      </div>
-
-                    </#list>
-                </#if>
-                -->
+                
             </div>
           </div>
           <div class="partner col-12 d-flex flex-column gap-3">
