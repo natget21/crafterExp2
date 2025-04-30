@@ -96,7 +96,6 @@
 <#assign paragraphs = partner.partnerLandingIntroduction?matches("(?is)<p>.*?</p>")>
 
 <#list paragraphs as p>
-  <#-- rimuovo i tag <p> e </p> per controllare il contenuto interno -->
   <#assign innerText = p
       ?replace("(?is)^<p>","", "r")
       ?replace("(?is)</p>$","", "r")
