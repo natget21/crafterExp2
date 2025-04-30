@@ -18,7 +18,7 @@
                             <img class="img-fluid" src="${categoryItem.queryValue('description_t')?default('/static-assets/img/default/category-default.jpg')}" alt="${categoryItem.queryValue('name_s')?default("")}">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>${categoryItem.queryValue('name_s')?default("")}</h6>
+                            <h6 style="color: var(--primary-active)">${categoryItem.queryValue('name_s')?default("")}</h6>
                             <small class="text-body">${categoryItem.queryValue('description_t')?default("")}</small>
                         </div>
                     </div>
