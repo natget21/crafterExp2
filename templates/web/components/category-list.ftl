@@ -26,7 +26,7 @@
             </div>
         </#list>
         <#else>
-            <p>No categories found.</p>
+            <p>Non sono state trovate categorie</p>
         </#if>
     </div>
 </div>
