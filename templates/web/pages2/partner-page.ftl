@@ -96,6 +96,7 @@
                        </div>
                       <div class="col-12 col-md-8">
                         <h3 class="partner_title">${partner.partnerAzienda}</h3>
+                        <!--
                         <p class="partner_description m-0">
                             partnerLandingTitle:
                             ${partner.partnerLandingTitle?no_esc}
@@ -109,6 +110,7 @@
                             ${partner.partnerLandingVideosAssetsUrlList?no_esc}
                             partnerLandingDocAssetsUrlList
                             ${partner.partnerLandingDocAssetsUrlList?no_esc}
+                        -->
 
                         </p>
                         <p class="partner_description m-0">
