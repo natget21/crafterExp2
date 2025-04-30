@@ -92,7 +92,14 @@
                   <div class="col-12 col-md-8">
                     <h3 class="partner_title">${partner.partnerAzienda}</h3>
                     
-                    ${partner.partnerLandingIntroduction}
+                    <#-- 1. Estrai tutti i paragrafi -->
+                    <#assign paragraphs = partner.partnerLandingIntroduction?matches("(?is)<p>.*?</p>")>
+                    
+                    <#-- 2. Rendi ciascun paragrafo senza escape -->
+                    <#list paragraphs as p>
+                      ${p?no_esc}
+                    </#list>
+
 
 
 
