@@ -77,7 +77,7 @@
     <div class="text-center mb-4 pt-5">
         <h2 class="section-title px-5"><span class="px-2 explore">Esplora le categorie del catalogo</span></h2>
     </div>
-    <div class="d-flex">
+    <div class="d-flex pt-3">
         <div class="col-3">
         <!-- Tag Start -->
                 
