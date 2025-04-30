@@ -97,7 +97,7 @@
                     
                     <#-- 2. Cicla sui paragrafi trovati e rendili senza escape -->
                     <#list paragraphs as p>
-                      ${p?no_esc}
+                      ${p}
                     </#list>
 
 
