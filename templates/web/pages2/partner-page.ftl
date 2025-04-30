@@ -45,12 +45,12 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
 
-
     <#if partnerList?? && (partnerList?size > 0)>
-      <ul>
         <#list partnerList as partner>
+            <a href="/partner-detail?id=ciao" class="nav-item nav-link sublink">
+              a${partner.partnerAzienda}
+            </a>
         </#list>
-      </ul>
     </#if>
 
     <div class="content pb-5">
