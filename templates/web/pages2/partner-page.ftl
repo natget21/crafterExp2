@@ -96,9 +96,12 @@
                     <#assign paragraphs = partner.partnerLandingIntroduction?matches("(?is)<p>.*?</p>")>
                     
                     <#-- 2. Cicla sui paragrafi trovati e rendili senza escape -->
-                    <#list paragraphs as p>
-                      ${p}
-                    </#list>
+                    <#assign cleanedIntro = partner.partnerLandingIntroduction
+                      ?replace("(?i)<(?!/?p\\b)[^>]*>", "<p>", "r")
+                      ?replace("(?i)</p>\\s*<p>", "</p><br><p>", "r")
+                    >
+                    ${cleanedIntro}
+
 
 
                 
