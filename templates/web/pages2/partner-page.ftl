@@ -76,7 +76,7 @@
       >
         <div class="row row-gap-5">
         
-        <#if partnerList?? && partnerList?size > 0>
+        <#if partnerList?? && (partnerList?size > 0)>
           <ul>
             <#list partnerList as partner>
               <li>${partner.partnerAzienda}</li>
