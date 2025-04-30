@@ -26,8 +26,8 @@
                                             <a href="/partner-detail?id=ciao" class="nav-item nav-link sublink">
                                               ${partner.partnerAzienda}
                                             </a>
-                                        <#list>
-                                    <?if>
+                                        </#list>
+                                    </#if>
                                     <a href="/partner-detail?id=67dd8279c70ba0680bdc849d" class="nav-item nav-link sublink">Synthesis3</a>
                                     <a href="/partner-detail?id=67fce234f647a63da899d027" class="nav-item nav-link sublink">Sinergia</a>
                                     <a href="/networking" class="nav-item nav-link sublink <#if currentUrl?starts_with("/networking")>active</#if>">Skilla</a>
