@@ -92,7 +92,7 @@
                   <div class="col-12 col-md-8">
                     <h3 class="partner_title">${partner.partnerAzienda}</h3>
                     
-                      ${partner.partnerLandingIntroduction}
+                      ${partner.partnerLandingIntroduction?replace("(?i)<(?!/?p\\b)[^>]*>", "", "r")}
                 
                     <div
                       class="d-flex flex-grow-1 justify-content-end align-items-end mt-3"
