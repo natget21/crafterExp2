@@ -5036,6 +5036,7 @@ input[type="button"].btn-block {
 
 .breadcrumb-item {
   display: flex;
+  color: var(--primary-active);
 }
 
 .breadcrumb-item + .breadcrumb-item {
