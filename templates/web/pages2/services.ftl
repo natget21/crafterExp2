@@ -81,7 +81,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/formazione-1.jpg" alt="" />
+          <img src="static-assets/assets/formazione-1.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
