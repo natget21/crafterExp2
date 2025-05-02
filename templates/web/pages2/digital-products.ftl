@@ -48,7 +48,7 @@
     
     <div class="content pb-5">
       <div
-        class="banner_section banner_services_typology layout_padding d-flex align-items-center"
+        class="banner_section banner_services layout_padding d-flex align-items-center"
       >
         <div class="container">
           <h1 class="best_taital text-center text-white p-0">
