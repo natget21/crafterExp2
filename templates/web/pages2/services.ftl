@@ -60,7 +60,6 @@
       <div
         class="services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
-        <h3 class="title_section layout_padding">Servizi Digitali:</h3>
         <div class="service d-flex justify-content-between align-items-center">
           <div
             class="d-flex flex-column align-items-center justify-content-center"
