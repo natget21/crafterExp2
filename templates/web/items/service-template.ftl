@@ -31,7 +31,7 @@
         <!-- Testo -->
         <div class="col">
           <h5 class="mb-1 fw-semibold">Servizio</h5>
-          <p class="mb-0 text-muted">Descrizione servizio</p>
+          <p class="mb-0 text-muted">${tagsStr}">EUR ${contentModel.costo_s?default("0")}</p>
         </div>
     
         <!-- Bottone -->
