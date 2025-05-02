@@ -76,7 +76,7 @@
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-secondary read_more rounded-pill">
+              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/test-before-invest'">
                 Scopri di più
               </button>
             </div>
@@ -98,7 +98,7 @@
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-secondary read_more rounded-pill">
+              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/consulenza'">
                 Scopri di più
               </button>
             </div>
@@ -120,7 +120,7 @@
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-secondary read_more rounded-pill">
+              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/skills-training'">
                 Scopri di più
               </button>
             </div>
@@ -142,7 +142,7 @@
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-secondary read_more rounded-pill">
+              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/finance'">
                 Scopri di più
               </button>
             </div>
@@ -166,7 +166,7 @@
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-secondary read_more rounded-pill">
+              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/networking'">
                 Scopri di più
               </button>
             </div>
