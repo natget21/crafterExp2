@@ -169,13 +169,13 @@
                 <div class="bg-light p-30">
                   <ul class="nav nav-tabs mb-4">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#tab-pane-1">Description</a>
+                      <a class="nav-link active" data-bs-toggle="tab" href="#tab-pane-1">Description</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#tab-pane-2">Information</a>
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-pane-2">Information</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#tab-pane-3">Reviews (0)</a>
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-pane-3">Reviews (0)</a>
                     </li>
                   </ul>
                     <div class="tab-content">
