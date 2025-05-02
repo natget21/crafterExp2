@@ -50,7 +50,7 @@
         class="banner_section banner_services layout_padding d-flex align-items-center"
       >
         <div class="container">
-          <h1 class="best_taital text-center text-white p-0">Eventi</h1>
+          <h1 class="best_taital text-center text-white p-0 dark">Eventi</h1>
         </div>
       </div>
 
