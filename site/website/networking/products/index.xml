@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pagedigital-products</content-type>
+	<display-template>/templates/web/pages2/digital-products.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b880</objectGroupId>
+	<objectId>b8809d51-ed72-be85-2a0d-5baea0f9855b</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>products</folder-name>
+	<internal-name>products</internal-name>
+	<navLabel>products</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-05-02T10:24:13.823Z</createdDate>
+	<createdDate_dt>2025-05-02T10:24:13.823Z</createdDate_dt>
+	<lastModifiedDate>2025-05-02T10:24:13.823Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-02T10:24:13.823Z</lastModifiedDate_dt>
+</page>
