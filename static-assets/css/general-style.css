@@ -19,6 +19,7 @@
 .banner_section .container .best_taital{
     font-size: 45px;
     margin:0;
+    text-transform: uppercase;
 }
 
 .layout_padding {
