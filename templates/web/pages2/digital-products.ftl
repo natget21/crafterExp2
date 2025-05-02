@@ -48,135 +48,56 @@
     
     <div class="content pb-5">
       <div
-        class="banner_section banner_services layout_padding d-flex align-items-center"
+        class="banner_section banner_services_typology layout_padding d-flex align-items-center"
       >
         <div class="container">
           <h1 class="best_taital text-center text-white p-0">
-            Servizi Digitali
+            Prodotti Digitali
           </h1>
         </div>
       </div>
-
       <div
         class="services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
-        <h3 class="title_section layout_padding">Servizi Digitali:</h3>
-        <div class="service d-flex justify-content-between align-items-center">
+        <h3 class="title_section layout_padding">Prodotti digitali:</h3>
+        <div
+          class="service mt-5 d-flex justify-content-between align-items-center"
+        >
           <div
             class="d-flex flex-column align-items-center justify-content-center"
           >
-            <h3 class="service_title text-center">Test Before Invest</h3>
+            <h3 class="service_title text-center">E-services</h3>
             <p class="text-center">
-              Questa categoria permette alle aziende di esplorare soluzioni e
-              tecnologie prima di fare investimenti significativi. Consente di
-              validare idee e concetti tecnologici attraverso attività pratiche
-              e dimostrative che riducono i rischi e migliorano la decisione
-              sugli investimenti.
+              Si tratta di microservizi avanzati, facilmente accessibili tramite
+              interfacce utente complete e progettati per rispondere alle
+              esigenze specifiche del cliente finale. Questi servizi sono
+              pensati per essere utilizzati immediatamente, senza necessità di
+              configurazioni complesse, e possono essere integrati facilmente
+              nei processi aziendali per ottimizzare la gestione e le
+              operazioni.
             </p>
-            <div
-              class="d-flex flex-grow-1 justify-content-center align-items-end"
-            >
-              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/test-before-invest'">
-                Scopri di più
-              </button>
-            </div>
           </div>
-          <img src="static-assets/assets/formazione-1.jpg" alt="" />
+          <img src="assets/assessment-1.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
             class="d-flex flex-column align-items-center justify-content-center"
           >
-            <h3 class="service_title text-center">Consulenza</h3>
+            <h3 class="service_title text-center">API</h3>
             <p class="text-center">
-              Questa categoria fornisce un ampio supporto alle aziende per
-              affrontare sfide strategiche e operazioni aziendali complesse. I
-              servizi di consulenza aiutano le imprese a migliorare
-              l'efficienza, a rispondere alle dinamiche del mercato e a
-              promuovere l’innovazione tecnologica e manageriale.
+              Le API (Application Programming Interface) senza interfaccia
+              grafica sono soluzioni pensate per le aziende che necessitano di
+              integrare sistemi esterni o personalizzati. Queste API permettono
+              una comunicazione diretta tra applicazioni diverse, senza dover
+              gestire una complessa interfaccia utente, facilitando
+              l'automazione e l'efficienza operativa.
             </p>
-            <div
-              class="d-flex flex-grow-1 justify-content-center align-items-end"
-            >
-              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/consulenza'">
-                Scopri di più
-              </button>
-            </div>
           </div>
-          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
-        </div>
-        <div class="service d-flex justify-content-between align-items-center">
-          <div
-            class="d-flex flex-column align-items-center justify-content-center"
-          >
-            <h3 class="service_title text-center">Skills and Training</h3>
-            <p class="text-center">
-              La formazione è un aspetto cruciale per l’aggiornamento delle
-              competenze interne e per rispondere alle sfide di un mercato
-              sempre più competitivo e tecnologicamente avanzato. Questa
-              categoria offre corsi strutturati per sviluppare competenze
-              tecnologiche, manageriali e trasversali.
-            </p>
-            <div
-              class="d-flex flex-grow-1 justify-content-center align-items-end"
-            >
-              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/skills-training'">
-                Scopri di più
-              </button>
-            </div>
-          </div>
-          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
-        </div>
-        <div class="service d-flex justify-content-between align-items-center">
-          <div
-            class="d-flex flex-column align-items-center justify-content-center"
-          >
-            <h3 class="service_title text-center">Access to Finance</h3>
-            <p class="text-center">
-              Questa categoria aiuta le aziende ad accedere a diverse forme di
-              finanziamento, sia pubbliche che private, per finanziare progetti
-              innovativi e di crescita. I servizi offrono consulenza mirata per
-              la gestione di fondi e risorse, rendendo più facile l'accesso a
-              capitali necessari per lo sviluppo.
-            </p>
-            <div
-              class="d-flex flex-grow-1 justify-content-center align-items-end"
-            >
-              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/finance'">
-                Scopri di più
-              </button>
-            </div>
-          </div>
-          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
-        </div>
-        <div class="service d-flex justify-content-between align-items-center">
-          <div
-            class="d-flex flex-column align-items-center justify-content-center"
-          >
-            <h3 class="service_title text-center">
-              Networking, Ecosystem e Open Innovation
-            </h3>
-            <p class="text-center">
-              Questa categoria supporta la creazione di connessioni tra aziende,
-              startup, università, istituzioni e investitori, promuovendo la
-              collaborazione e l’innovazione aperta. L'obiettivo è favorire la
-              creazione di ecosistemi dinamici in cui le imprese possano
-              crescere attraverso il confronto e l’interazione con altri attori.
-            </p>
-            <div
-              class="d-flex flex-grow-1 justify-content-center align-items-end"
-            >
-              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/networking'">
-                Scopri di più
-              </button>
-            </div>
-          </div>
-          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="assets/test-before-invest-1.jpg" alt="" />
         </div>
       </div>
-
-
     </div>
+
 
 
 
