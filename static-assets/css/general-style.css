@@ -11,12 +11,13 @@
 
 .banner_section .container{
     margin: 0;
-}
-
-.banner_section .container .best_taital{
     display: flex;
     justify-content: flex-end;
     margin-right: 80px
+}
+
+.banner_section .container .best_taital{
+    font-size: 45px;
 }
 
 .layout_padding {
