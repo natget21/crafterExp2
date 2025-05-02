@@ -103,7 +103,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -125,7 +125,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -147,7 +147,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -171,7 +171,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
       </div>
 
