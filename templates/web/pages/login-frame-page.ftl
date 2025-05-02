@@ -19,10 +19,6 @@
                 <div class="col-lg-4 col-6 text-left">
                     
                 </div>
-                <div class="col-lg-4 col-6 text-right">
-                   <!--<a href="/" class=" text-uppercase px-4">Home</a>-->
-                    <a href="javascript:void(0);" class="btn btn-primary text-uppercase px-4" id="toggle-btn">Iscriviti come partner</a>
-                </div>
             </div>
         </div>
     </header>
