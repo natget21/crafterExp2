@@ -172,17 +172,12 @@
                       <a class="nav-link active" aria-current="page" href="#tab-pane-1">Description</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#tab-pane-2">Information</a>
+                        <a class="nav-link" aria-current="page" href="#tab-pane-2">Information</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#tab-pane-3">Reviews (0)</a>
+                        <a class="nav-link" aria-current="page" href="#tab-pane-3">Reviews (0)</a>
                     </li>
                   </ul>
-                    <div class="nav nav-tabs mb-4">
-                        <a class="nav-item nav-link text-dark active" data-toggle="tab" href="#tab-pane-1">Description</a>
-                        <a class="nav-item nav-link text-dark" data-toggle="tab" href="#tab-pane-2">Information</a>
-                        <a class="nav-item nav-link text-dark" data-toggle="tab" href="#tab-pane-3">Reviews (0)</a>
-                    </div>
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="tab-pane-1">
                             <h4 class="mb-3">Product Description</h4>
