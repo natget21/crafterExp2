@@ -206,7 +206,7 @@
                         <@listFilteredItems courseTree />
                     <#else>
                         <div class="col-12">
-                            <p>No service available.</p>
+                            <p>Nessun servizio disponibile.</p>
                         </div>
                     </#if>
                     
