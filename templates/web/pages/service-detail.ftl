@@ -24,6 +24,43 @@
         </div>
     </div>
     
+    <div class="container my-5">
+  <div class="row align-items-center">
+    <!-- Parte sinistra: info -->
+    <div class="col-md-8 d-flex">
+      <!-- Immagine -->
+      <img src="https://via.placeholder.com/100x100" alt="Servizio" class="me-3" style="width:100px; height:100px;">
+      
+      <!-- Testo -->
+      <div>
+        <h6 class="fw-bold mb-1">Nome del servizio</h6>
+        <small class="text-muted d-block mb-2">Codice prodotto</small>
+        <p class="text-primary fw-bold mb-2" style="font-size: 0.85rem;">DESCRIZIONE PRODOTTO</p>
+        <p class="text-primary" style="font-size: 0.85rem;">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+        </p>
+        <div class="mt-2">
+          <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
+          <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
+          <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
+          <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Parte destra: quantità + bottone -->
+    <div class="col-md-4 d-flex flex-column align-items-end">
+      <div class="d-flex align-items-center mb-3">
+        <button class="btn btn-outline-primary btn-sm me-2">-</button>
+        <span>1</span>
+        <button class="btn btn-outline-primary btn-sm ms-2">+</button>
+      </div>
+      <button class="btn btn-info text-white rounded-pill px-4">AGGIUNGI AL CARRELLO</button>
+    </div>
+  </div>
+</div>
+
+    
     <div class="toast-container position-fixed top-0 end-0 p-3">
         <div id="error-toast" class="toast bg-danger text-white" role="alert" aria-live="assertive" aria-atomic="true">
             <div class="toast-header">
