@@ -26,6 +26,10 @@
     text-transform: uppercase;
 }
 
+.best_taital.dark, .there_text.dark{
+    color: var(--primary-active);
+}
+
 .layout_padding {
   padding-top: 90px;
 }
