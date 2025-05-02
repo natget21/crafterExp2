@@ -36,7 +36,7 @@
     
         <!-- Bottone -->
         <div class="col-auto">
-          <a href="#" class="btn btn-info rounded-pill text-white px-4">
+          <a href="#" class="btn btn-secondary rounded-pill text-white px-4">
             SCOPRI DI PIÙ
           </a>
         </div>
