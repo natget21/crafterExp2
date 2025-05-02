@@ -80,7 +80,7 @@
         <div class="col-3">
         <!-- Tag Start -->
                 
-                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filtra per tag</span></h5>
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-white pr-3">Filtra per tag</span></h5>
                 <div class="bg-light p-4 mb-30" style="border: 1px solid lightgrey; border-radius: 10px; height: 400px; overflow-y: scroll;">
                     <form id="filterTagForm">
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
