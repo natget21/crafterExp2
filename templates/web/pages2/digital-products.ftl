@@ -52,7 +52,7 @@
       >
         <div class="container">
           <h1 class="best_taital text-center text-white p-0">
-            Servizi Digitali
+            Prodotti Digitali
           </h1>
         </div>
       </div>
