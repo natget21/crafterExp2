@@ -167,6 +167,17 @@
         <div class="row px-xl-5">
             <div class="col">
                 <div class="bg-light p-30">
+                  <ul class="nav nav-tabs mb-4">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#tab-pane-1">Description</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#tab-pane-2">Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#tab-pane-3">Reviews (0)</a>
+                    </li>
+                  </ul>
                     <div class="nav nav-tabs mb-4">
                         <a class="nav-item nav-link text-dark active" data-toggle="tab" href="#tab-pane-1">Description</a>
                         <a class="nav-item nav-link text-dark" data-toggle="tab" href="#tab-pane-2">Information</a>
