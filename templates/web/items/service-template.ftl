@@ -21,6 +21,28 @@
 <#else>
  <#assign tagsStr = tags?map(t -> t.key)?join(",")>
 </#if>
+    <div class="container my-4">
+      <div class="row align-items-center">
+        <!-- Immagine -->
+        <div class="col-auto">
+          <img src="/static-assets/img/servizio.png" alt="Servizio" style="width: 100px; height: 100px; object-fit: cover;">
+        </div>
+    
+        <!-- Testo -->
+        <div class="col">
+          <h5 class="mb-1 fw-semibold">Servizio</h5>
+          <p class="mb-0 text-muted">Descrizione servizio</p>
+        </div>
+    
+        <!-- Bottone -->
+        <div class="col-auto">
+          <a href="#" class="btn btn-info rounded-pill text-white px-4">
+            SCOPRI DI PIÙ
+          </a>
+        </div>
+      </div>
+    </div>
+
     <div class="product-item bg-light mb-4">
         <div class="product-img position-relative overflow-hidden">
             <#if contentModel.image_s?hasContent>
