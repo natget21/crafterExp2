@@ -51,7 +51,7 @@
         class="banner_section banner_services layout_padding d-flex align-items-center"
       >
         <div class="container">
-          <h1 class="best_taital text-center text-white p-0">Networking</h1>
+          <h1 class="best_taital text-center text-white p-0 dark">Networking</h1>
         </div>
       </div>
       <div
