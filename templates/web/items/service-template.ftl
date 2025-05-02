@@ -31,7 +31,7 @@
         <!-- Testo -->
         <div class="col">
           <h5 class="mb-1 fw-semibold">${contentModel.name_s?default("")}</h5>
-          <h5 data-tags="${tagsStr}">EUR ${contentModel.costo_s?default("0")}</h5><h6 class="text-muted ml-2"></h6>
+          <p data-tags="${tagsStr}">EUR ${contentModel.costo_s?default("0")}</p>
           <p data-tags="${tagsStr}" class="mb-0 text-muted">${tagsStr}">EUR ${contentModel.costo_s?default("0")}</p>
         </div>
     
