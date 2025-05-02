@@ -77,7 +77,7 @@
               operazioni.
             </p>
           </div>
-          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="static-assets/assets/formazione-1.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
