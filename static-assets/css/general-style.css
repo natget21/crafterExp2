@@ -13,6 +13,7 @@
     margin: 0;
     display: flex;
     justify-content: flex-end;
+    padding: 0;
 }
 
 .banner_section .container .best_taital{
