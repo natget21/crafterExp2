@@ -5058,6 +5058,10 @@ input[type="button"].btn-block {
   text-decoration: none;
 }
 
+.breadcrumb-item.active{
+    color: var(--primary-active);
+}
+
 .pagination {
   display: flex;
   padding-left: 0;
