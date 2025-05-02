@@ -172,7 +172,7 @@
             <!-- service products -->
             
             <div class="col-lg-9 col-md-8">
-                <div class="row pb-3 filterResults">
+                <div class="row pb-3 filterResults" style="gap: 16px;">
                     <!-- <div class="col-12 pb-1">
                         <div class="d-flex align-items-center justify-content-between mb-4">
                             <div>
