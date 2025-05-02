@@ -16,7 +16,7 @@
       class="banner_section banner_contacts layout_padding d-flex align-items-center"
     >
       <div class="container">
-        <h1 class="best_taital text-center text-white p-0">Contattaci</h1>
+        <h1 class="best_taital text-center text-white p-0 dark">Contattaci</h1>
       </div>
     </div>
     <section id="contact" class="contact mt-5 mb-5">
