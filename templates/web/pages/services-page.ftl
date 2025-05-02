@@ -29,7 +29,7 @@
                         <#if item.queryValue('name_s')?lower_case?contains(query?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                             <#assign contentModel = itemData />
-                            <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                            <div class="col-12 pb-1">
                                 <#include "/templates/web/items/service-template.ftl" />
                             </div>
                         </#if>
@@ -38,7 +38,7 @@
                         <#if item.storeUrl?lower_case?contains(categoryName?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                             <#assign contentModel = itemData />
-                            <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                            <div class="col-12 pb-1">
                                 <#include "/templates/web/items/service-template.ftl" />
                             </div>
                         </#if>
@@ -47,7 +47,7 @@
                         <#if item.storeUrl?lower_case?contains(subCategoryName?lower_case)>
                             <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                             <#assign contentModel = itemData />
-                            <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                            <div class="col-12 pb-1">
                                 <#include "/templates/web/items/service-template.ftl" />
                             </div>
                         </#if>
@@ -55,7 +55,7 @@
                         <!-- Default: Display all items -->
                         <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
                         <#assign contentModel = itemData />
-                        <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                        <div class="col-12 pb-1">
                             <#include "/templates/web/items/service-template.ftl" />
                         </div>
                     </#if>
