@@ -27,7 +27,7 @@
 }
 
 .best_taital.dark, .there_text.dark{
-    color: var(--primary-active);
+    color: var(--primary-active) !important;
 }
 
 .layout_padding {
