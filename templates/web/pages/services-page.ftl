@@ -203,7 +203,9 @@
                     
                         
                     <#if courseTree?has_content>
+                    <!--
                         <@listFilteredItems courseTree />
+                    -->
                     <#else>
                         <div class="col-12">
                             <p>Nessun servizio disponibile.</p>
