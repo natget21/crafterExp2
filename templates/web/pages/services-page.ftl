@@ -73,7 +73,7 @@
         <h1 class="best_taital text-center text-white p-0">Catalogo Servizi</h1>
       </div>
     </div>
-    <div class="text-center mb-4 pt-5" style="padding-top: 28px">
+    <div class="text-center mb-4 pt-5" style="padding-top: 28px !important;">
         <h2 class="section-title px-5"><span class="px-2 explore bg-white">Esplora le categorie del catalogo</span></h2>
     </div>
     <div class="d-flex pt-3">
