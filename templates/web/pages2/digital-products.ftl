@@ -80,7 +80,7 @@
               </button>
             </div>
           </div>
-          <img src="static-assets/assets/faq.png" alt="" />
+          <img src="/static-assets/assets/faq.png" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
