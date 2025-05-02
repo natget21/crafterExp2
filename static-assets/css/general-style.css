@@ -9,6 +9,12 @@
   background-size: cover;
 }
 
+.banner_section .container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px
+}
+
 .layout_padding {
   padding-top: 90px;
 }
