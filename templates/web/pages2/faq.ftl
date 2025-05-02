@@ -55,7 +55,7 @@
       class="banner_section banner_faq layout_padding d-flex align-items-center"
     >
       <div class="container">
-        <h1 class="best_taital text-center text-white p-0">FAQ</h1>
+        <h1 class="best_taital text-center text-white p-0 dark">FAQ</h1>
       </div>
     </div>
     <div class="content pb-5 layout_padding col-11 col-md-9 mx-auto">
