@@ -24,9 +24,9 @@
     <div class="product-item bg-light mb-4">
         <div class="product-img position-relative overflow-hidden">
             <#if contentModel.image_s?hasContent>
-                <img class="img-fluid" style="width: 300px; height: 100px" src="${contentModel.image_s?default("/static-assets/img/default/product-default.png")}" alt="${contentModel.name_s?default("")}">
+                <img class="img-fluid" style="height: 100px" src="${contentModel.image_s?default("/static-assets/img/default/product-default.png")}" alt="${contentModel.name_s?default("")}">
             <#else>
-                <img class="img-fluid" style="width: 300px; height: 100px" src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="${contentModel.name_s?default("")}">            
+                <img class="img-fluid" style="height: 100px" src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="${contentModel.name_s?default("")}">            
             </#if>
             
             <div class="product-action">
