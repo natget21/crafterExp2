@@ -25,7 +25,7 @@
       <div class="row align-items-center">
         <!-- Immagine -->
         <div class="col-auto">
-          <img src="/static-assets/img/servizio.png" alt="Servizio" style="width: 100px; height: 100px; object-fit: cover;">
+          <img style="height: 100px" src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="Servizio">
         </div>
     
         <!-- Testo -->
