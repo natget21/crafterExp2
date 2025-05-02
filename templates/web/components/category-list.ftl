@@ -9,7 +9,7 @@
         <#list categoriesTree.childItems as category>
             <#assign categoryItem = siteItemService.getSiteItem(category.storeUrl) />
             <#if categoryItem.queryValue('name_s')?lower_case != "e-service" && categoryItem.queryValue('name_s')?lower_case != "api">
-                <div class="col-md-4 col-sm-6 pb-1">
+                <div class="pb-1">
                     <a class="text-decoration-none" href="/catalog?category=${categoryItem.queryValue('internal-name')?url}">
                         <div class="cat-item img-zoom d-flex flex-column align-items-center mb-4">
                             <div class="overflow-hidden" style="width: 100px; height: 100px;">
