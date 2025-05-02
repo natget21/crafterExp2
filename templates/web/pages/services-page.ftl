@@ -170,16 +170,6 @@
             
             
             <!-- service products -->
-          <ul class="nav nav-tabs mb-4">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Profilo azienda</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-muted" href="#">Profilo Personale</a>
-            </li>
-          </ul>
 
             
             <div class="col-lg-9 col-md-8">
