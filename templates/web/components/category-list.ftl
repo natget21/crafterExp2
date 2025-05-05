@@ -12,8 +12,8 @@
                 <div class="pb-1" style="width: 153px;">
                     <a class="text-decoration-none" href="/catalog?category=${categoryItem.queryValue('internal-name')?url}">
                         <div class="cat-item img-zoom d-flex flex-column align-items-center mb-4">
-                            <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                                <img class="img-fluid" src="static-assets/assets/${categoryItem.queryValue('name_s')?lower_case?replace(' ', '-', 'r')}.png" alt="${categoryItem.queryValue('name_s')?default("")}">
+                            <div class="overflow-hidden d-flex justify-content-center align-items-center" style="width: 100px; height: 100px;">
+                                <img class="img-fluid" style="width: 60px;" src="static-assets/assets/${categoryItem.queryValue('name_s')?lower_case?replace(' ', '-', 'r')}.png" alt="${categoryItem.queryValue('name_s')?default("")}">
                             </div>
                             <div class="flex-fill">
                                 <h6 class="text-center" style="color: var(--primary-active)">${categoryItem.queryValue('name_s')?default("")}</h6>
