@@ -51,7 +51,7 @@
       <div class="banner_section banner_project layout_padding">
         <img class="banner_img" src="static-assets/assets/progetto.png">
         <div class="container flex-column align-items-end">
-          <h1 class="best_taital text-center text-white">Visione</h1>
+          <h1 class="best_taital text-center text-white p-0">Visione</h1>
         </div>
       </div>
       <div class="marketing_section layout_padding">
