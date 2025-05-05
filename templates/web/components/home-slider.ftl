@@ -1,3 +1,9 @@
+  <head>
+    <link rel="stylesheet" href="static-assets/home.css" />
+
+  </head>
+
+
 <div class="container-fluid mb-3">
         <div class="row px-xl-5">
             <!-- <div class="col-lg-8"> -->
