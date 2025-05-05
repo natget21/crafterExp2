@@ -5,7 +5,7 @@
 
 
 <div class="container-fluid mb-3 p-0">
-        <div class="row px-xl-5">
+        <div class="row">
             <!-- <div class="col-lg-8"> -->
             <div class="col-lg-12 p-0">
                 <div id="header-carousel" style="height: 210px;" class="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel">
