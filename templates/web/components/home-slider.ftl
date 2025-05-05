@@ -1,5 +1,5 @@
   <head>
-    <link rel="stylesheet" href="static-assets/home.css" />
+    <link rel="stylesheet" href="/static-assets/css/home.css" />
 
   </head>
 
