@@ -75,7 +75,7 @@
           </p>
         </div>
       </div>
-      <div class="layout_padding">
+      <div class="questions_section layout_padding">
         <h2 class="title_section">Registrazione al portale</h2>
         <div class="accordion" id="registrationAccordion">
           <div class="accordion-item">
