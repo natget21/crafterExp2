@@ -17,7 +17,7 @@
                         
                             <a href="/index" class="nav-item nav-link <#if currentUrl?starts_with("/index")>active</#if>"><i class="fa fa-home mt-1"></i> HOME</a>
                             
-                            <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">PROGETTO</a>
+                            <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">VISIONE</a>
                             <div class="nav-item dropdown">
                                 <a href="/partner" class="nav-item nav-link dropdown-toggle">PARTNER <i class="fa fa-angle-down mt-1"></i></a>
                                 <#if partnerList?? && (partnerList?size > 0)>
