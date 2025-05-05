@@ -49,14 +49,7 @@
 
     <div class="content pb-5">
       <div class="banner_section banner_project layout_padding">
-        <img src="static-assets/assets/progetto.png" style="width: 100%;
-    height: 210px;
-    object-fit: contain;
-    background-color: #d1c9ff;
-    position: absolute;
-    left: 0;
-        object-position: left;
-">
+        <img class="banner_img" src="static-assets/assets/progetto.png">
         <div class="container flex-column align-items-end">
           <h1 class="best_taital text-center text-white">Il progetto</h1>
           <p
