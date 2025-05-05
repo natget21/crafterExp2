@@ -48,18 +48,11 @@
 
 
     <div class="content pb-5">
-      <img src="static-assets/assets/progetto.png" style="width:100%; height: 210px; width: 100%;
-    height: 210px;
-    object-fit: contain;
-    object-position: left; background-color: #d1c9ff">
-    <h1 class="best_taital text-center text-white">Il progetto</h1>
-      <p
-        class="there_textthere_text d-flex justify-content-end text-white pt-0 m-0"
-      >
-        L’ecosistema digitale per costruire valore attraverso l’innovazione
-        condivisa
-      </p>
-      <div class="banner_section banner_project layout_padding d-none">
+      <div class="banner_section banner_project layout_padding">
+        <img src="static-assets/assets/progetto.png" style="width:100%; height: 210px; width: 100%;
+        height: 210px;
+        object-fit: contain;
+        object-position: left; background-color: #d1c9ff">
         <div class="container flex-column align-items-end">
           <h1 class="best_taital text-center text-white">Il progetto</h1>
           <p
