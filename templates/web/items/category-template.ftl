@@ -7,7 +7,6 @@
                 <img class="img-fluid" src="${contentModel.image_s?has_content ? contentModel.image_s : '/static-assets/img/default/category-default.jpg'}" alt="${contentModel.name_s?default("")}">
             </div>
             <div class="flex-fill pl-3">
-            ${contentModel.name_s}
                 <h6>${contentModel.name_s?default("")}</h6>
                 <small class="text-body">${contentModel.description_t?default("")}</small>
             </div>
