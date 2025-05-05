@@ -51,9 +51,10 @@
     <#include "/templates/web/fragments/static-navigation.ftl">
     
     
-        <div
+    <div
       class="banner_section banner_faq layout_padding d-flex align-items-center"
     >
+      <img class="banner_img" src="static-assets/assets/faq.png">
       <div class="container">
         <h1 class="best_taital text-center text-white p-0 dark">FAQ</h1>
       </div>
