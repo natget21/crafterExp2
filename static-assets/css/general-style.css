@@ -6,13 +6,10 @@
   height: 210px;
   width: 100%;
   padding-bottom: 90px;
-  background-size: cover;
-  background-position: center;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   padding-right: 56px;
-  background-position: 0 82%;
 }
 
 .banner_img{
