@@ -46,6 +46,8 @@
                             <a href="/news" class="nav-item nav-link <#if currentUrl?starts_with("/news")>active</#if>">NEWS</a>
                             <a href="/faq" class="nav-item nav-link">FAQ</a>
                             <a href="/contact" class="nav-item nav-link <#if currentUrl?starts_with("/contact")>active</#if>">CONTATTI</a>
+                            <a class="login-btn">logged<a>
+                            <a class="logout-btn">not logged<a>
                             <div class="nav-item dropdown catalog-btn">
                                 <a class="nav-item nav-link dropdown-toggle">CATALOGO <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu  rounded-0 border-0 m-0">
