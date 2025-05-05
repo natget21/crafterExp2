@@ -49,7 +49,7 @@
 
     <div class="content pb-5">
       <div class="banner_section banner_project layout_padding">
-        <img src="static-assets/assets/progetto.png" style="width    width: 100%;
+        <img src="static-assets/assets/progetto.png" style="width: 100%;
     height: 210px;
     object-fit: contain;
     background-color: #d1c9ff;
