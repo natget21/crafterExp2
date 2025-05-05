@@ -52,6 +52,7 @@
         class="banner_section banner_partners layout_padding d-flex align-items-center"
       >
         <div class="container">
+          <img class="banner_img" src="static-assets/assets/progetto.png">
           <h1 class="best_taital text-center text-white p-0">Partner</h1>
         </div>
       </div>
