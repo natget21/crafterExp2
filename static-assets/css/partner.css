@@ -1,7 +1,6 @@
 .banner_partners {
   background-image: url(/static-assets/assets/partner.png);
-  background-position: 0 101%;
-  background-size: 1702px;
+  background-color: #7956a6;
 }
 
 .partners_section .partner_logo {
