@@ -49,6 +49,7 @@
       <div
         class="banner_section banner_services layout_padding d-flex align-items-center"
       >
+        <img class="banner_img" src="static-assets/assets/eventi.png">
         <div class="container">
           <h1 class="best_taital text-center text-white p-0 dark">Eventi</h1>
         </div>
