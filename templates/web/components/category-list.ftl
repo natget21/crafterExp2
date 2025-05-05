@@ -15,7 +15,11 @@
                             <div class="overflow-hidden" style="width: 100px; height: 100px;">
                                 <img class="img-fluid" src="${categoryItem.queryValue('description_t')?default('/static-assets/img/default/category-default.jpg')}" alt="${categoryItem.queryValue('name_s')?default("")}">
                             </div>
-                            
+                            <div class="flex-fill">
+                                ${categoryItem.queryValue('name_s')}
+                                <h6 class="text-center" style="color: var(--primary-active)">${categoryItem.queryValue('name_s')?default("")}</h6>
+                                <small class="text-body">${categoryItem.queryValue('description_t')?default("")}</small>
+                            </div>
                         </div>
                     </a>
                 </div>
