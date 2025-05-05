@@ -59,6 +59,7 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse" style="border-bottom: 1px solid black;">
                         <div class="navbar-nav mr-auto py-0">
                             <a href="/index" class="nav-item nav-link active"><i class="fa fa-home mt-1"></i> HOME</a>
+                            <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">VISIONE</a>
                             <div class="nav-item dropdown">
                                 <a href="/partner" class="nav-item nav-link dropdown-toggle">PARTNER <i class="fa fa-angle-down mt-1"></i></a>
                                 <#if partnerList?? && (partnerList?size > 0)>
