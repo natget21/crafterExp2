@@ -9,6 +9,18 @@
   }
 }
 
+@media (min-width: 2208px) {
+  .banner_catalogo {
+     background-position: 0 320px;
+  }
+}
+
+@media (min-width: 2508px) {
+  .banner_catalogo {
+     background-position: 0 370px;
+  }
+}
+
 
 .explore{
     color: var(--primary-active);
