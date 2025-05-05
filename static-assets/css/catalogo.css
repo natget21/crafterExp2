@@ -1,6 +1,8 @@
 .banner_catalogo {
   background-image: url(/static-assets/assets/area-privata.png);
+  background-position: 0 230px;
 }
+
 
 .explore{
     color: var(--primary-active);
