@@ -1,5 +1,6 @@
 .banner_services {
   background-image: url(/static-assets/assets/news.png);
+  background-position: 0 210px;
 }
 
 .card-title {
