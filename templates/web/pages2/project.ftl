@@ -51,13 +51,7 @@
       <div class="banner_section banner_project layout_padding">
         <img class="banner_img" src="static-assets/assets/progetto.png">
         <div class="container flex-column align-items-end">
-          <h1 class="best_taital text-center text-white">Il progetto</h1>
-          <p
-            class="there_textthere_text d-flex justify-content-end text-white pt-0 m-0"
-          >
-            L’ecosistema digitale per costruire valore attraverso l’innovazione
-            condivisa
-          </p>
+          <h1 class="best_taital text-center text-white">Visione</h1>
         </div>
       </div>
       <div class="marketing_section layout_padding">
