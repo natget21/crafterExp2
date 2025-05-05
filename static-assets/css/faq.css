@@ -6,6 +6,10 @@
   font-weight: 550 !important;
 }
 
+.question_sections .title_section{
+    font-size: 46px;
+}
+
 .faq_title {
   font-size: 40px;
 }
