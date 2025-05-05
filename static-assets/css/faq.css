@@ -1,5 +1,6 @@
 .banner_faq {
   background-image: url(/static-assets/assets/faq.png);
+  background-position: 0 200px;
 }
 
 .title_section {
