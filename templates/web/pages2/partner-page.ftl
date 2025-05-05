@@ -51,8 +51,8 @@
       <div
         class="banner_section banner_partners layout_padding d-flex align-items-center"
       >
+        <img class="banner_img" src="static-assets/assets/partner.png">
         <div class="container">
-          <img class="banner_img" src="static-assets/assets/partner.png">
           <h1 class="best_taital text-center text-white p-0">Partner</h1>
         </div>
       </div>
