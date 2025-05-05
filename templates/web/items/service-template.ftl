@@ -25,7 +25,6 @@
       <div class="row align-items-center flex-column flex-md-row gap-3">
         <!-- Immagine -->
         <div class="col-auto p-0">
-        ${contentModel.name_s}
           <img style="height: 100px" src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="Servizio">
         </div>
     
