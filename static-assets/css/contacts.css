@@ -1,5 +1,7 @@
 .banner_contacts {
   background-image: url(/static-assets/assets/contatti.png);
+  background-position: 0 300px;
+  background-size: 1650px;
 }
 
 .title_section {
