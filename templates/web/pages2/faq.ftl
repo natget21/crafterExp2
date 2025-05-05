@@ -307,7 +307,7 @@
           </div>
         </div>
       </div>
-      <div class="layout_padding">
+      <div class="questions_section layout_padding">
         <h2 class="title_section layout_padding">FAQ - Lato Partner</h2>
         <h2 class="title_section faq_title layout_padding">
           Accreditamento al Catalogo dei Servizi
