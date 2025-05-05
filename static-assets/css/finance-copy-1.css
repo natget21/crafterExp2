@@ -1,3 +1,21 @@
-.banner_services {
-  background-color: white;
+.functionality {
+  width: 250px;
+}
+
+.func_title {
+  font-size: 20px;
+}
+
+.func_image_container {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.client {
+  width: 220px;
+  text-align: center;
+}
+
+.client img {
+  width: 70px;
 }
