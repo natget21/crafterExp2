@@ -16,7 +16,7 @@
         <!-- Parte sinistra: info -->
         <div class="col-md-8 d-flex">
           <!-- Immagine -->
-          <img src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="Servizio" class="me-3" style="width:100px; height:100px;">
+          <img src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="Servizio" class="me-3" style="width:180px; height:100px;">
           
           <!-- Testo -->
           <div>
