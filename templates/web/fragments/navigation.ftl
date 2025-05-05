@@ -1,4 +1,5 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
+<#include "/templates/web/fragments/scripts.ftl">
 <#assign currentUrl = request.requestURI?default("") />
 
 <div id="default-nav" style="display:none" class="container-fluid bg-dark2 ">
