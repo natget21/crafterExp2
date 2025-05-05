@@ -42,7 +42,7 @@
             <span>1</span>
             <button class="btn btn-outline-primary btn-sm ms-2">+</button>
           </div>
-          <button class="btn btn-info text-white rounded-pill px-4">AGGIUNGI AL CARRELLO</button>
+          <button class="btn btn-secondary text-white rounded-pill px-4">AGGIUNGI AL CARRELLO</button>
         </div>
       </div>
     </div>
