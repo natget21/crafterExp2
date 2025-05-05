@@ -1,6 +1,5 @@
 .banner_catalogo {
-  background-image: url(/static-assets/assets/area-privata.png);
-  background-position: 0 230px;
+  background-color: #5ab5d4;
 }
 
 @media (min-width: 1908px) {
