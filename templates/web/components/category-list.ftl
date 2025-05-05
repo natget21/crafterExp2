@@ -16,7 +16,7 @@
                                 <img class="img-fluid" src="${categoryItem.queryValue('description_t')?default('/static-assets/img/default/category-default.jpg')}" alt="${categoryItem.queryValue('name_s')?default("")}">
                             </div>
                             <div class="flex-fill">
-                            ${categoryItem.queryValue('description_t')
+                            ${categoryItem.queryValue('description_t')}
                             ${categoryItem.queryValue('name_s')?lower_case?replace(' ', '-', 'r')}
                                 <h6 class="text-center" style="color: var(--primary-active)">${categoryItem.queryValue('name_s')?default("")}</h6>
                                 <small class="text-body">${categoryItem.queryValue('description_t')?default("")}</small>
