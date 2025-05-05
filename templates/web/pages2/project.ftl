@@ -55,6 +55,7 @@
     background-color: #d1c9ff;
     position: absolute;
     left: 0;
+        object-position: left;
 ">
         <div class="container flex-column align-items-end">
           <h1 class="best_taital text-center text-white">Il progetto</h1>
