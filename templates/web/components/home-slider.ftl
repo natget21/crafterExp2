@@ -4,7 +4,7 @@
   </head>
 
 
-<div class="container-fluid mb-3">
+<div class="container-fluid mb-3 p-0">
         <div class="row px-xl-5">
             <!-- <div class="col-lg-8"> -->
             <div class="col-lg-12 p-0">
