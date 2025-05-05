@@ -15,6 +15,7 @@
     <div
       class="banner_section banner_contacts layout_padding d-flex align-items-center"
     >
+      <img class="banner_img" src="static-assets/assets/contatti.png">
       <div class="container">
         <h1 class="best_taital text-center text-white p-0 dark">Contattaci</h1>
       </div>
