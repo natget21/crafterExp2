@@ -29,7 +29,7 @@
               <h1>${content.name_s}</h1>
               <p>${content.costo_s}</p>
               
-              <#assign model = content.getContentModel()>
+              <#assign model = content.getContentModel().getProperties()>
                 <#list model?keys as key>
               <p><strong>${key}:</strong> ${model[key]}</p>
             </#list>
