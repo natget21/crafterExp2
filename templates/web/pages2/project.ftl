@@ -53,7 +53,7 @@
         <div class="container flex-column align-items-end">
           <h1 class="best_taital text-center text-white p-0">Visione</h1>
           <p
-            class="there_text d-flex justify-content-end text-white pt-0 m-0"
+            class="there_text d-flex justify-content-end text-white p-0 m-0"
           >
             L’innovazione condivisa per costruire valore
           </p>
