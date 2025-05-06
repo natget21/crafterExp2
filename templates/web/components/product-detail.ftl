@@ -11,9 +11,10 @@
 <#assign partnerId = RequestParameters.partnerId?default("") />
 
 <#assign result = siteService.query("/site/components/services")
-    .filter('internal-name:"${internalName}"')
+    .filter('internal-name:"${itemUrl}"')
     .limit(1)
     .execute() />
+
 
 
 
