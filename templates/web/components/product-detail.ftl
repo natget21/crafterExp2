@@ -28,6 +28,11 @@
             <#if content?? && content?has_content>
               <h1>${content.name_s}</h1>
               <p>${content.costo_s}</p>
+              
+              <#assign properties = content.getProperties()>
+              <#list properties?keys as key>
+                <p><strong>${key}:</strong> ${properties[key]}</p>
+              </#list>
             <#else>
               <p>No content found for internal-name: ${itemUrl}</p>
             </#if>
