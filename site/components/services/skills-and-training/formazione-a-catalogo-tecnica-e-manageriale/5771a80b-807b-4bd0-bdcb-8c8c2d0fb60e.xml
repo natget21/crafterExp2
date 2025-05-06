@@ -8,23 +8,23 @@
     <objectId>5771a80b-807b-4bd0-bdcb-8c8c2d0fb60e</objectId>
     <file-name>5771a80b-807b-4bd0-bdcb-8c8c2d0fb60e.xml</file-name>
     <folder-name/>
-    <internal-name>ONBOARDING IMMERSIVO IN REALT? VIRTUALE PER LINEE PRODUTTIVE (CON SICURAZZA BASE)</internal-name>
-    <name_s>Onboarding immersivo in realt? virtuale per linee produttive (con sicurazza base)</name_s>
-    <contenuto_t>Percorso formativo immersivo e interattivo in realt? virtuale (VR), pensato per l?onboarding delle nuove risorse nelle linee produttive.</contenuto_t>
+    <internal-name>ONBOARDING IMMERSIVO IN REALT� VIRTUALE PER LINEE PRODUTTIVE (CON SICURAZZA BASE)</internal-name>
+    <name_s>Onboarding immersivo in realt� virtuale per linee produttive (con sicurazza base)</name_s>
+    <contenuto_t>Percorso formativo immersivo e interattivo in realt� virtuale (VR), pensato per l?onboarding delle nuove risorse nelle linee produttive.</contenuto_t>
     <rootId>ideale:/site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/5771a80b-807b-4bd0-bdcb-8c8c2d0fb60e.xml</rootId>
-    <internal-name>ONBOARDING IMMERSIVO IN REALT? VIRTUALE PER LINEE PRODUTTIVE (CON SICURAZZA BASE)</internal-name>
+    <internal-name>ONBOARDING IMMERSIVO IN REALT� VIRTUALE PER LINEE PRODUTTIVE (CON SICURAZZA BASE)</internal-name>
     <objectGroupId>5771</objectGroupId>
-    <costo_s>Il costo varia in base alla personalizzazione delle scene, numero di attivit? interattive richieste, produzione dei contenuti multimediali (foto 360?, video tutorial, quiz, PDF) e supporto tecnico/formativo.</costo_s>
+    <costo_s>Il costo varia in base alla personalizzazione delle scene, numero di attivit� interattive richieste, produzione dei contenuti multimediali (foto 360�, video tutorial, quiz, PDF) e supporto tecnico/formativo.</costo_s>
     <localId>/site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/5771a80b-807b-4bd0-bdcb-8c8c2d0fb60e.xml</localId>
-   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
-   <value>formazione-a-catalogo-tecnica-e-manageriale</value>
-   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-11.xml</key>
+   <value>formazione-tailor-made-tecnica-e-manageriale</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-11.xml</include>
    <disableFlattening>false</disableFlattening>
    </item></subcategory_o>
-    <extra_costo_t>? disponibile una versione base e versioni avanzate su misura.</extra_costo_t>
+    <extra_costo_t>� disponibile una versione base e versioni avanzate su misura.</extra_costo_t>
     <crafterSite>ideale</crafterSite>
     <crafterPublishedDate>2025-04-23T15:47:15.034142271Z</crafterPublishedDate>
-    <modalita_t>L?esperienza include un tour guidato in ambienti a 360?, esercizi pratici per il riconoscimento e l?utilizzo corretto dei DPI (Dispositivi di Protezione Individuale), quiz interattivi sulle procedure operative e scenari decisionali su comportamenti corretti da adottare. Ogni attivit? prevede feedback immediato tramite audio, video o documentazione a supporto.</modalita_t>
+    <modalita_t>L?esperienza include un tour guidato in ambienti a 360�, esercizi pratici per il riconoscimento e l?utilizzo corretto dei DPI (Dispositivi di Protezione Individuale), quiz interattivi sulle procedure operative e scenari decisionali su comportamenti corretti da adottare. Ogni attivit� prevede feedback immediato tramite audio, video o documentazione a supporto.</modalita_t>
     <no-template-required>true</no-template-required>
     <content-type>/component/skills-and-training</content-type>
     <id>ideale:/site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/5771a80b-807b-4bd0-bdcb-8c8c2d0fb60e.xml</id>
@@ -42,8 +42,8 @@
     <merge-strategy>inherit-levels</merge-strategy>
     <file-name>5771a80b-807b-4bd0-bdcb-8c8c2d0fb60e.xml</file-name>
     <inheritsFrom_smv>[/crafter-level-descriptor.level.xml, /site/crafter-level-descriptor.level.xml, /site/components/crafter-level-descriptor.level.xml, /site/components/services/crafter-level-descriptor.level.xml, /site/components/services/skills-and-training/crafter-level-descriptor.level.xml, /site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/crafter-level-descriptor.level.xml]</inheritsFrom_smv>
-    <createdDate>2025-04-29T08:13:34.354Z</createdDate>
-    <createdDate_dt>2025-04-29T08:13:34.354Z</createdDate_dt>
-    <lastModifiedDate>2025-04-29T08:13:34.354Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-04-29T08:13:34.354Z</lastModifiedDate_dt>
+    <createdDate>2025-05-06T14:03:38.126Z</createdDate>
+    <createdDate_dt>2025-05-06T14:03:38.126Z</createdDate_dt>
+    <lastModifiedDate>2025-05-06T14:03:38.126Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-05-06T14:03:38.126Z</lastModifiedDate_dt>
 </component>
