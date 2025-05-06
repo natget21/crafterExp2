@@ -10,11 +10,10 @@
 <#assign itemUrl = RequestParameters.item?default("") />
 <#assign partnerId = RequestParameters.partnerId?default("") />
 
-<#assign result = siteItemService.findOne({
-    "query": 'internal-name:"${itemUrl}"',
-    "filter": ["*"],
-    "limit": 1
-}) />
+<#assign result = siteService.query("/site/components/services")
+    .filter('internal-name:"${internalName}"')
+    .limit(1)
+    .execute() />
 
 
 
