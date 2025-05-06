@@ -371,11 +371,6 @@
             </div>
           </div>
         </div>
-        <div class="d-flex justify-content-center mt-5">
-          <button class="btn btn-secondary read_more rounded-pill">
-            Scopri di più
-          </button>
-        </div>
       </div>
       <div
         class="layout_padding addressee_section mx-auto col-11 col-md-9 px-0"
