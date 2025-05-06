@@ -5,68 +5,17 @@
 
 
 <div class="container-fluid mb-3 p-0">
-        <div class="row">
-            <!-- <div class="col-lg-8"> -->
-            <div class="col-lg-12 p-0">
-                <div id="header-carousel" style="height: 210px;" class="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#header-carousel" data-slide-to="1"></li>
-                        <li data-target="#header-carousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner" style="height: 210px;" >
-                        <div class="carousel-item position-relative active" style="height: 210px;" >
-                            <img style="height: 210px;" class="position-absolute w-100 h-100" src="static-assets/img/carousel-1-1.jpg" style="object-fit: cover;">
-                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                <div class="p-3" style="max-width: 700px;">
-                                    <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Ideale</h1>
-                                    <p class="mx-md-5 px-5 animate__animated animate__bounceIn">Costruire l'ecosistema digitale dell'innovazione</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item position-relative" style="height: 210px;" >
-                            <img style="height: 210px;" class="position-absolute w-100 h-100" src="static-assets/img/carousel-1-2.jpg" style="object-fit: cover;">
-                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                <div class="p-3" style="max-width: 700px;">
-                                    <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Ideale</h1>
-                                    <p class="mx-md-5 px-5 animate__animated animate__bounceIn">Costruire l'ecosistema digitale dell'innovazione</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item position-relative" style="height: 210px;" >
-                            <img style="height: 210px;" class="position-absolute w-100 h-100" src="static-assets/img/carousel-1-1.jpg" style="object-fit: cover;">
-                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                <div class="p-3" style="max-width: 700px;">
-                                    <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Ideale</h1>
-                                    <p class="mx-md-5 px-5 animate__animated animate__bounceIn">Costruire l'ecosistema digitale dell'innovazione</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="col-lg-4">
-                    <div class="product-offer mb-30" style="height: 200px;">
-                        <img class="img-fluid" src="static-assets/img/offer-1.jpg" alt="">
-                        <div class="offer-text">
-                            <h6 class="text-white text-uppercase">Save 20%</h6>
-                            <h3 class="text-white mb-3">Special Offer</h3>
-                            <a href="" class="btn btn-primary">Shop Now</a>
-                        </div>
-                    </div>
-                    <div class="product-offer mb-30" style="height: 200px;">
-                        <img class="img-fluid" src="static-assets/img/offer-2.jpg" alt="">
-                        <div class="offer-text">
-                            <h6 class="text-white text-uppercase">Save 20%</h6>
-                            <h3 class="text-white mb-3">Special Offer</h3>
-                            <a href="" class="btn btn-primary">Shop Now</a>
-                        </div>
-                    </div>
-            </div> -->
+      <div class="banner_section banner_project layout_padding">
+        <img class="banner_img" src="static-assets/img/carousel-1-2.jpg">
+        <div class="container flex-column align-items-end">
+          <h1 class="best_taital text-center text-white p-0">Ideale</h1>
+          <p
+            class="there_text d-flex justify-content-end text-white p-0 m-0"
+          >
+            Costruire l'ecosistema digitale dell'innovazione
+          </p>
         </div>
+      </div>
     <div
       class="content pb-5 mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
     >
