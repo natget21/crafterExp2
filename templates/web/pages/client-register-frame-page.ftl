@@ -27,34 +27,14 @@
     </header>
     
 
-    <iframe id="partnerFrame" src="https://ideale.shortcut.uno/client-login" width="100%" height="750px" frameborder="0"></iframe>
+    <iframe id="partnerFrame" src="https://ideale.shortcut.uno/signup-client-company?orgId=67ac78b641f3e43f93473810" width="100%" height="750px" frameborder="0"></iframe>
     
     
 
     <!-- Footer Section -->
     <#include "/templates/web/fragments/footer-no-padding.ftl">
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const button = document.getElementById("toggle-btn");
-            const iframe = document.getElementById("partnerFrame");
-            
-            console.log("here")
-    
-            let isRegister = false;
-    
-            button.addEventListener("click", function () {
-                if (isRegister) {
-                    iframe.src = "https://ideale.shortcut.uno/client-login"; 
-                    button.textContent = "Register";
-                } else {
-                    iframe.src = "https://ideale.shortcut.uno/signup-client-company?orgId=67ac78b641f3e43f93473810"; 
-                    button.textContent = "Login";
-                }
-                isRegister = !isRegister;
-            });
-        });
-    </script>
+  
 
     <@crafter.body_bottom/>
 </body>
