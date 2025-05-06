@@ -6,10 +6,6 @@
   color: black;
   flex-wrap: nowrap;
 }
-.marketing_section {
-  color: black;
-  flex-wrap: nowrap;
-}
 
 .services_section .service_type {
   font-weight: 550 !important;
@@ -55,7 +51,7 @@
 .target_text {
   font-size: 23px;
   color: var(--primary-active);
-  width: 180px;
+  width: 170px;
   word-break: break-word;
 }
 
@@ -83,6 +79,15 @@
 .targets .target p {
   font-size: 23px;
   color: var(--primary-active);
+}
+
+.obj_image {
+  width: 30px;
+  height: 30px;
+}
+
+.obj .desc {
+  color: gray;
 }
 
 @media (max-width: 992px) {
