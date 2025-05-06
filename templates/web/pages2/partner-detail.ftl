@@ -222,7 +222,7 @@
         <h2 class="title_section text-white">Galleria</h2>
         <div
           class="other_news_list d-flex gap-4 overflow-auto pb-4"
-          style="height: 490px"
+          style="height: 510px"
         >
           <div
             class="card text-white border-0 other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden"
