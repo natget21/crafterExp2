@@ -11,7 +11,7 @@
 <#assign partnerId = RequestParameters.partnerId?default("") />
 
 
-<#assign result = siteItemService.getSiteItem(itemUrl)>
+<#assign content = siteItemService.getSiteItem(itemUrl)>
 
 
 <div class="row px-xl-5">
@@ -25,10 +25,10 @@
           <!-- Testo -->
           <div>
           
-          <#if result?? && result?has_content>
-              <#assign content = result.getContentModel() />
+          <#if content?? && content?has_content>
             
               <h1>${content.name_s}</h1>
+              <p>${content}</p>
             <#else>
               <p>No content found for internal-name: ${itemUrl}</p>
             </#if>
