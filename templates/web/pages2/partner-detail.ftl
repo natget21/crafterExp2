@@ -87,23 +87,23 @@
               data-bs-parent="#productsAccordion"
             >
               <div class="accordion-body row row-gap-5">
-                <div class="col-12 col-lg-3 info">
+                <div class="col-12 col-lg-4 info">
                   <p class="text-primary">Ragione sociale</p>
                   <p class="fs-5 desc">${partnerData.partnerAzienda}</p>
                 </div>
-                <div class="col-12 col-lg-9 info">
+                <div class="col-12 col-lg-8 info">
                   <p class="text-primary">Partita IVA</p>
                   <p class="fs-5 desc">${partnerData.partnerPiva}</p>
                 </div>
-                <div class="col-12 col-lg-3 info">
+                <div class="col-12 col-lg-4 info">
                   <p class="text-primary">Indirizzo</p>
                   <p class="fs-5 desc">${partnerData.partnerNazione}</p>
                 </div>
-                <div class="col-12 col-lg-3 info">
+                <div class="col-12 col-lg-4 info">
                   <p class="text-primary">Email</p>
                   <p class="fs-5 desc">${partnerData.partnerContactEmail}</p>
                 </div>
-                <div class="col-12 col-lg-3 info">
+                <div class="col-12 col-lg-4 info">
                   <p class="text-primary">Telefono</p>
                   <p class="fs-5 desc">${partnerData.partnerTelephone}</p>
                 </div>
@@ -113,7 +113,7 @@
                   <p class="fs-5 desc">Access to Finance</p>
                   <p class="fs-5 desc">Consulenza</p>
                 </div>
-                <div class="col-12 col-md-3"></div>
+                <div class="col-12 col-md-4"></div>
               </div>
             </div>
           </div>
