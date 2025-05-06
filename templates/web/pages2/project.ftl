@@ -141,9 +141,6 @@
         <div class="unicita">
           <h2 class="title_section sub_title">Cosa rende IDEALE unico?</h2>
           <p>Una piattaforma progettata per generare valore condiviso:</p>
-          <p>
-            AI e VR per connettere bisogni e soluzioni in modo personalizzato
-          </p>
           <ul>
             <li>
               <p>
