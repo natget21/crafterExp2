@@ -49,6 +49,10 @@
   background: var(--primary-active);
 }
 
+.service_name{
+    color: var(--secondary-active);
+}
+
 .info .desc {
   color: var(--primary-active);
   white-space: nowrap;
