@@ -16,9 +16,9 @@
     <objectGroupId>5771</objectGroupId>
     <costo_s>Il costo varia in base alla personalizzazione delle scene, numero di attivit� interattive richieste, produzione dei contenuti multimediali (foto 360�, video tutorial, quiz, PDF) e supporto tecnico/formativo.</costo_s>
     <localId>/site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/5771a80b-807b-4bd0-bdcb-8c8c2d0fb60e.xml</localId>
-   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-11.xml</key>
-   <value>formazione-tailor-made-tecnica-e-manageriale</value>
-   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-11.xml</include>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+   <value>formazione-a-catalogo-tecnica-e-manageriale</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
    <disableFlattening>false</disableFlattening>
    </item></subcategory_o>
     <extra_costo_t>� disponibile una versione base e versioni avanzate su misura.</extra_costo_t>
@@ -42,8 +42,8 @@
     <merge-strategy>inherit-levels</merge-strategy>
     <file-name>5771a80b-807b-4bd0-bdcb-8c8c2d0fb60e.xml</file-name>
     <inheritsFrom_smv>[/crafter-level-descriptor.level.xml, /site/crafter-level-descriptor.level.xml, /site/components/crafter-level-descriptor.level.xml, /site/components/services/crafter-level-descriptor.level.xml, /site/components/services/skills-and-training/crafter-level-descriptor.level.xml, /site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/crafter-level-descriptor.level.xml]</inheritsFrom_smv>
-    <createdDate>2025-05-06T14:03:51.224Z</createdDate>
-    <createdDate_dt>2025-05-06T14:03:51.224Z</createdDate_dt>
-    <lastModifiedDate>2025-05-06T14:03:51.224Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-05-06T14:03:51.224Z</lastModifiedDate_dt>
+    <createdDate>2025-05-06T14:19:06.540Z</createdDate>
+    <createdDate_dt>2025-05-06T14:19:06.540Z</createdDate_dt>
+    <lastModifiedDate>2025-05-06T14:19:06.540Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-05-06T14:19:06.540Z</lastModifiedDate_dt>
 </component>
