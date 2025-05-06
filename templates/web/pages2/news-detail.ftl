@@ -46,7 +46,14 @@
     <#include "/templates/web/fragments/static-navigation.ftl">
     
 
-
+      <div
+        class="banner_section banner_services layout_padding d-flex align-items-center"
+      >
+        <img class="banner_img" src="static-assets/assets/news.png">
+        <div class="container">
+          <h1 class="best_taital text-center p-0 dark">News</h1>
+        </div>
+      </div>
     <div class="content layout_padding">
       <div class="news_section mx-auto col-11 col-md-9 px-0">
         <div class="article-date mb-2 text-muted">Novembre 29, 2024</div>
