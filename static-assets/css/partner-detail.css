@@ -66,6 +66,12 @@
   text-overflow: ellipsis;
 }
 
-.card{
-    background-color: transparent;
+.card {
+  background-color: transparent;
+  height: 450px;
 }
+
+.card .card-img {
+  height: 400px;
+}
+
