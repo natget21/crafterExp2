@@ -65,3 +65,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.card{
+    background-color: transparent;
+}
