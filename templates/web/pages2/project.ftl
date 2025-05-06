@@ -181,7 +181,7 @@
           Enti del Terzo settore. L'offerta si suddivide in due aree principali:
         </p>
         <div class="mt-5">
-          <p class="service_type">Prodotti digitali</p>
+          <p class="title_section sub_title">Prodotti digitali</p>
           <div class="accordion" id="productsAccordion">
             <div class="accordion-item">
               <h2 class="accordion-header">
@@ -234,7 +234,7 @@
           </div>
         </div>
         <div class="mt-5">
-          <p class="service_type">Servizi digitali</p>
+          <p class="title_section sub_title">Servizi digitali</p>
           <div class="accordion" id="servicesAccordion">
             <div class="accordion-item">
               <h2 class="accordion-header">
