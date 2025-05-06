@@ -10,12 +10,8 @@
 <#assign itemUrl = RequestParameters.item?default("") />
 <#assign partnerId = RequestParameters.partnerId?default("") />
 
-<#assign result = siteService.query("/site/components/services")
-    .filter('internal-name:"${itemUrl}"')
-    .limit(1)
-    .execute() />
 
-
+<#assign result = siteItemService.getSiteItem(itemUrl)>
 
 
 <div class="row px-xl-5">
