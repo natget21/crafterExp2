@@ -59,116 +59,114 @@
           </p>
         </div>
       </div>
-      <div class="marketing_section layout_padding">
-        <div
-          class="marketing_content mx-auto d-flex flex-column flex-md-row justify-content-center col-11 col-md-9 px-0"
-        >
-          <h2 class="marketing_title title_section pl-3 pl-md-0 col-md-6">
-            Obiettivi e Visione
+      <div
+        class="mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
+      >
+        <div class="marketing_section layout_padding mb-5">
+          <h2 class="marketing_title title_section">
+            IDEALE è il punto d'incontro tra tecnologia, innovazione e impatto
+            sociale.
           </h2>
-          <div class="col-md-6">
-            <p class="" for="">
-              IDEALE è un progetto strategico che nasce con l’obiettivo di
-              costruire un Digital Innovation Ecosystem capace di connettere in
-              modo intelligente la domanda e l’offerta di innovazione digitale,
-              formazione e nuovi servizi per imprese, pubbliche amministrazioni
-              e terzo settore, con un focus sui settori del turismo, della
-              cultura e del sociale. Attraverso una piattaforma digitale
-              avanzata, il progetto mette in relazione una rete articolata di
-              attori pubblici e privati – startup, spin-off, PMI innovative,
-              centri di ricerca e grandi aziende – favorendo processi di
-              co-progettazione e collaborazione in ambienti virtuali, per
-              accelerare la transizione digitale e generare valore condiviso.
-            </p>
-            <p>
-              Il progetto IDEALE vuole contribuire alla costruzione di un
-              modello innovativo di servizi digitali condivisi, dove tecnologia
-              e innovazione diventano leve per promuovere inclusione sociale,
-              accessibilità e valorizzazione del patrimonio turistico e
-              culturale. Un ecosistema aperto, flessibile e centrato sulle
-              persone, in cui la trasformazione digitale diventa uno strumento
-              concreto per generare impatto positivo nei territori. In
-              particolare, il progetto intende:
-            </p>
-
-            <ol class="list-group list-group-numbered">
-              <li class="list-group-item">
-                Costruire un hub digitale che favorisca l’ideazione e la
-                sperimentazione condivisa di soluzioni per la digitalizzazione
-                dei servizi pubblici e privati;
-              </li>
-              <li class="list-group-item">
-                Rivoluzionare l’incontro tra domanda e offerta di innovazione
-                attraverso tecnologie avanzate di AI e VR, facilitando
-                connessioni rapide, intelligenti ed efficaci;
-              </li>
-              <li class="list-group-item">
-                Valorizzare gli attori dell’ecosistema dell’innovazione, dando
-                visibilità a startup, PMI e fornitori di soluzioni tecnologiche
-                tramite un sistema aperto e interattivo;
-              </li>
-              <li class="list-group-item">
-                Promuovere modelli di business collaborativi, sostenibili e
-                orientati alla creazione di valore per tutti i partner
-                coinvolti;
-              </li>
-              <li class="list-group-item">
-                Innovare la formazione, rendendola esperienziale, interattiva e
-                adattabile a diversi contesti applicativi, anche nelle pubbliche
-                amministrazioni e nelle imprese culturali;
-              </li>
-              <li class="list-group-item">
-                Integrare metodologie avanzate di apprendimento, che permettano
-                di misurare e certificare l’acquisizione di competenze
-                attraverso strumenti immersivi e contenuti digitali evoluti.
-              </li>
-            </ol>
+          <p>
+            Vogliamo costruire un ecosistema digitale dove imprese, pubbliche
+            amministrazioni e terzo settore collaborano per progettare servizi
+            intelligenti, inclusivi e sostenibili.
+          </p>
+        </div>
+        <div class="objectives_section">
+          <h2 class="title_section sub_title mb-4">
+            Obiettivi del progetto IDEALE
+          </h2>
+          <div class="objectives row row-gap-5">
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+              <div class="obj d-flex gap-3">
+                <img class="obj_image" src="assets/turismo.png" alt="" />
+                <p><strong>Matching</strong></p>
+              </div>
+              <p class="desc">
+                Connettere domanda e offerta in modo intelligente e rapido.
+              </p>
+            </div>
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+              <div class="obj d-flex gap-3">
+                <img class="obj_image" src="assets/turismo.png" alt="" />
+                <p><strong>Co-progettazione</strong></p>
+              </div>
+              <p class="desc">
+                Favorire la co-progettazione tra startup, PMI, PA, università e
+                grandi imprese.
+              </p>
+            </div>
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+              <div class="obj d-flex gap-3">
+                <img class="obj_image" src="assets/turismo.png" alt="" />
+                <p><strong>Digital Trasformation</strong></p>
+              </div>
+              <p class="desc">
+                Supportare la trasformazione digitale nei settori del turismo,
+                cultura e sociale.
+              </p>
+            </div>
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+              <div class="obj d-flex gap-3">
+                <img class="obj_image" src="assets/turismo.png" alt="" />
+                <p><strong>Business models </strong></p>
+              </div>
+              <p class="desc">
+                Promuovere modelli di business sostenibili e collaborativi.
+              </p>
+            </div>
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+              <div class="obj d-flex gap-3">
+                <img class="obj_image" src="assets/turismo.png" alt="" />
+                <p><strong>Formazione innovativa </strong></p>
+              </div>
+              <p class="desc">
+                Innovare la formazione con tecnologie immersive e approcci
+                esperienziali.
+              </p>
+            </div>
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+              <div class="obj d-flex gap-3">
+                <img class="obj_image" src="assets/turismo.png" alt="" />
+                <p><strong>Certificare le competenze </strong></p>
+              </div>
+              <p class="desc">
+                Misurare e certificare le competenze digitali, anche nella PA.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="marketing_section layout_padding">
-        <div
-          class="marketing_content mx-auto d-flex flex-column flex-md-row justify-content-center col-11 col-md-9 px-0"
-        >
-          <h2 class="marketing_title title_section pl-3 pl-md-0 col-md-6">
-            Il digitale che trasforma: le tecnologie chiave del progetto
-          </h2>
-          <div class="col-md-6">
-            <p class="" for="">
-              Elemento centrale del progetto è la piattaforma digitale,
-              concepita come uno spazio dinamico e interattivo pensato per
-              favorire la trasformazione digitale in chiave inclusiva,
-              accessibile e sostenibile. Le sue principali funzionalità
-              includono:
-            </p>
-            <ol class="list-group list-group-numbered">
-              <li class="list-group-item">
-                Un marketplace digitale dove gli operatori dell’innovazione
-                possono presentare, qualificare e promuovere i propri servizi
-                digitali;
-              </li>
-              <li class="list-group-item">
-                Sistemi di matching intelligente, basati su tecnologie di
-                Intelligenza Artificiale e Realtà Virtuale, per analizzare i
-                bisogni degli utenti e suggerire soluzioni personalizzate;
-              </li>
-              <li class="list-group-item">
-                Percorsi formativi immersivi e aumentati, che sfruttano AI e VR
-                per migliorare le competenze professionali in modo coinvolgente
-                e accessibile;
-              </li>
-              <li class="list-group-item">
-                Un’architettura cloud-native a microservizi, che assicura
-                flessibilità, interoperabilità e scalabilità dei servizi
-                offerti;
-              </li>
-              <li class="list-group-item">
-                Strumenti per la collaborazione in tempo reale, come stanze
-                virtuali e call4procurement, che incentivano la co-creazione e
-                il networking tra i membri dell’ecosistema.
-              </li>
-            </ol>
-          </div>
+        <hr />
+        <div class="unicita">
+          <h2 class="title_section sub_title">Cosa rende IDEALE unico?</h2>
+          <p>Una piattaforma progettata per generare valore condiviso:</p>
+          <p>
+            AI e VR per connettere bisogni e soluzioni in modo personalizzato
+          </p>
+          <ul>
+            <li>
+              <p>
+                <strong> AI e VR </strong> per connettere bisogni e soluzioni in
+                modo personalizzato
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Marketplace digitale</strong> per promuovere servizi
+                innovativi
+              </p>
+            </li>
+            <li>
+              <p><strong>Formazione immersiva</strong> e adattiva</p>
+            </li>
+            <li>
+              <p>
+                <strong>Strumenti di collaborazione real-time</strong>, come
+                stanze virtuali e call for procurement
+              </p>
+            </li>
+          </ul>
         </div>
       </div>
       <div
