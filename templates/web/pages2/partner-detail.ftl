@@ -141,14 +141,10 @@
                       <p class="category_service_name">Test Before Invest</p>
                       <img class="" src="static-assets/assets/questionmark.png" alt="">
                     </div>
-                  </div>
-                  <div class="category_services row row-gap-5">
                     <div class="category_service col-12 col-md-4 d-flex gap-3">
                       <p class="category_service_name">Access to Finance</p>
                       <img class="" src="static-assets/assets/questionmark.png" alt="">
                     </div>
-                  </div>
-                  <div class="category_services row row-gap-5">
                     <div class="category_service col-12 col-md-4 d-flex gap-3">
                       <p class="category_service_name">Consulenza</p>
                       <img class="" src="static-assets/assets/questionmark.png" alt="">
