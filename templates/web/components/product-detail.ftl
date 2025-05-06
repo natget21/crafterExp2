@@ -29,7 +29,10 @@
               <h1>${content.name_s}</h1>
               <p>${content.costo_s}</p>
               
-              <p>${content}</p>
+              <#assign model = content.getContentModel()>
+                <#list model?keys as key>
+              <p><strong>${key}:</strong> ${model[key]}</p>
+            </#list>
             <#else>
               <p>No content found for internal-name: ${itemUrl}</p>
             </#if>
