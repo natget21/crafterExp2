@@ -10,6 +10,14 @@
 <#assign itemUrl = RequestParameters.item?default("") />
 <#assign partnerId = RequestParameters.partnerId?default("") />
 
+<#assign result = siteItemService.findOne({
+    "query": 'internal-name:"${itemUrl}"',
+    "filter": ["*"],
+    "limit": 1
+}) />
+
+
+
 <div class="row px-xl-5">
     <div class="container my-5">
       <div class="row align-items-center">
@@ -20,6 +28,15 @@
           
           <!-- Testo -->
           <div>
+          
+          <#if result?? && result?has_content>
+              <#assign content = result.getContentModel() />
+            
+              <h1>${content.name_s}</h1>
+            <#else>
+              <p>No content found for internal-name: ${itemUrl}</p>
+            </#if>
+          
             <h6 class="fw-bold mb-1">Nome del servizio</h6>
             <small class="text-muted d-block mb-2">Codice prodotto</small>
             <p class="text-primary fw-bold mb-2" style="font-size: 0.85rem;">DESCRIZIONE PRODOTTO</p>
