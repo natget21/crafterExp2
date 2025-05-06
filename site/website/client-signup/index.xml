@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageclient-register</content-type>
+	<display-template>/templates/web/pages/register-client-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>54d1</objectGroupId>
+	<objectId>54d1a11c-c5ca-7bd2-37a0-8fde38ef7f24</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>client-signup</folder-name>
+	<internal-name>client-signup</internal-name>
+	<navLabel>client-signup</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-05-06T14:09:49.544Z</createdDate>
+	<createdDate_dt>2025-05-06T14:09:49.544Z</createdDate_dt>
+	<lastModifiedDate>2025-05-06T14:09:49.544Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-06T14:09:49.544Z</lastModifiedDate_dt>
+</page>
