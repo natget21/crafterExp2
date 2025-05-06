@@ -107,13 +107,6 @@
                   <p class="text-primary">Telefono</p>
                   <p class="fs-5 desc">${partnerData.partnerTelephone}</p>
                 </div>
-                <div class="col-12 info">
-                  <p class="text-primary">Categoria servizi</p>
-                  <p class="fs-5 desc">Test Before Invest</p>
-                  <p class="fs-5 desc">Access to Finance</p>
-                  <p class="fs-5 desc">Consulenza</p>
-                </div>
-                <div class="col-12 col-md-4"></div>
               </div>
             </div>
           </div>
@@ -137,15 +130,15 @@
             >
               <div class="accordion-body row row-gap-5 p-5">
                   <div class="category_services row row-gap-5">
-                    <div class="category_service col-12 col-md-4 d-flex gap-3">
+                    <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
                       <p class="category_service_name">Test Before Invest</p>
                       <img class="" src="static-assets/assets/questionmark.png" alt="">
                     </div>
-                    <div class="category_service col-12 col-md-4 d-flex gap-3">
+                    <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
                       <p class="category_service_name">Access to Finance</p>
                       <img class="" src="static-assets/assets/questionmark.png" alt="">
                     </div>
-                    <div class="category_service col-12 col-md-4 d-flex gap-3">
+                    <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
                       <p class="category_service_name">Consulenza</p>
                       <img class="" src="static-assets/assets/questionmark.png" alt="">
                     </div>
