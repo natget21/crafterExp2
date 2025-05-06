@@ -5,8 +5,7 @@
 
 
 <div class="container-fluid mb-3 p-0">
-      <div class="banner_section banner_project layout_padding">
-        <img class="banner_img" src="static-assets/img/carousel-1-2.jpg">
+      <div class="banner_section banner_home layout_padding">
         <div class="container flex-column align-items-end">
           <h1 class="best_taital text-center text-white p-0">Ideale</h1>
           <p
