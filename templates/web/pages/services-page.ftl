@@ -69,7 +69,7 @@
     <div
       class="banner_section banner_catalogo layout_padding d-flex align-items-center"
     >
-      <img class="banner_img" src="static-assets/assets/area-privata.png">
+      <img class="banner_img" src="static-assets/assets/catalogo.png">
       <div class="container">
         <h1 class="best_taital text-center text-white p-0">Catalogo Servizi</h1>
       </div>
