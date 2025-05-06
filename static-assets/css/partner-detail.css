@@ -53,6 +53,11 @@
     color: var(--secondary-active);
 }
 
+.category_service img{
+    width: 20px;
+    height: 20px;
+}
+
 .info .desc {
   color: var(--primary-active);
   white-space: nowrap;
