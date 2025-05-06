@@ -123,15 +123,15 @@
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#productOne"
+                data-bs-target="#productCategories"
                 aria-expanded="false"
-                aria-controls="productOne"
+                aria-controls="productCategories"
               >
                 Categorie Servizi
               </button>
             </h2>
             <div
-              id="productOne"
+              id="productCategories"
               class="accordion-collapse collapse"
               data-bs-parent="#productsAccordion"
             >
