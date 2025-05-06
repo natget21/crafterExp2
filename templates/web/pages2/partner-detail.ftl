@@ -137,7 +137,7 @@
             >
               <div class="accordion-body row row-gap-5">
               <div class="category_services row row-gap-5">
-                <div class="category_service col-12 col-md-4">
+                <div class="category_service col-12 col-md-4 d-flex">
                   <p class="category_service_name">Test Before Invest</p>
                   <img src="static-assets/assets/questionmark.png" alt="">
                 </div>
