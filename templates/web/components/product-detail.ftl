@@ -29,7 +29,7 @@
               <h1>${content.name_s}</h1>
               <p>${content.costo_s}</p>
               
-              <pre>${content?dump}</pre>
+              <p>${content.getSiteItem()}</p>
             <#else>
               <p>No content found for internal-name: ${itemUrl}</p>
             </#if>
