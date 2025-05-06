@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pagepartner-register</content-type>
+	<display-template>/templates/web/pages/partner-registeration-frame-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3b0a</objectGroupId>
+	<objectId>3b0aa637-07b1-db76-6249-9a3fc044bed0</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>partner-signup</folder-name>
+	<internal-name>partner-signup</internal-name>
+	<navLabel>partner-signup</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-05-06T14:12:33.556Z</createdDate>
+	<createdDate_dt>2025-05-06T14:12:33.556Z</createdDate_dt>
+	<lastModifiedDate>2025-05-06T14:12:33.556Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-06T14:12:33.556Z</lastModifiedDate_dt>
+</page>
