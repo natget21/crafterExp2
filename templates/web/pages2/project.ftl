@@ -380,7 +380,7 @@
       <div
         class="layout_padding addressee_section mx-auto col-11 col-md-9 px-0"
       >
-        <h2 class="addressee_title title_section">Destinatari</h2>
+        <h2 class="title_section">Destinatari</h2>
         <div class="row pl-3">
           <div
             class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
