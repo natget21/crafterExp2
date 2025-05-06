@@ -31,7 +31,7 @@
     <link href="/static-assets/css/style.css" rel="stylesheet">
     
     <link rel="stylesheet" href="/static-assets/css/general-style.css" />
-    <link rel="stylesheet" href="/static-assets/css/consulenza.css" />
+    <link rel="stylesheet" href="/static-assets/css/services.css" />
     
     <@crafter.head/>
 </head>
