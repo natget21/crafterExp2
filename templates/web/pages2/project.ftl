@@ -80,7 +80,7 @@
           <div class="objectives row row-gap-5">
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
               <div class="obj d-flex gap-3">
-                <img class="obj_image" src="assets/turismo.png" alt="" />
+                <img class="obj_image" src="static-assets/assets/turismo.png" alt="" />
                 <p><strong>Matching</strong></p>
               </div>
               <p class="desc">
@@ -89,7 +89,7 @@
             </div>
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
               <div class="obj d-flex gap-3">
-                <img class="obj_image" src="assets/turismo.png" alt="" />
+                <img class="obj_image" src="static-assets/assets/turismo.png" alt="" />
                 <p><strong>Co-progettazione</strong></p>
               </div>
               <p class="desc">
@@ -99,7 +99,7 @@
             </div>
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
               <div class="obj d-flex gap-3">
-                <img class="obj_image" src="assets/turismo.png" alt="" />
+                <img class="obj_image" src="static-assets/assets/turismo.png" alt="" />
                 <p><strong>Digital Trasformation</strong></p>
               </div>
               <p class="desc">
@@ -109,7 +109,7 @@
             </div>
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
               <div class="obj d-flex gap-3">
-                <img class="obj_image" src="assets/turismo.png" alt="" />
+                <img class="obj_image" src="static-assets/assets/turismo.png" alt="" />
                 <p><strong>Business models </strong></p>
               </div>
               <p class="desc">
@@ -118,7 +118,7 @@
             </div>
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
               <div class="obj d-flex gap-3">
-                <img class="obj_image" src="assets/turismo.png" alt="" />
+                <img class="obj_image" src="static-assets/assets/turismo.png" alt="" />
                 <p><strong>Formazione innovativa </strong></p>
               </div>
               <p class="desc">
@@ -128,7 +128,7 @@
             </div>
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
               <div class="obj d-flex gap-3">
-                <img class="obj_image" src="assets/turismo.png" alt="" />
+                <img class="obj_image" src="static-assets/assets/turismo.png" alt="" />
                 <p><strong>Certificare le competenze </strong></p>
               </div>
               <p class="desc">
