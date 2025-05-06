@@ -1,7 +1,5 @@
 .banner_home{
-    background-image: url(/static-assets/img/carousel-1-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #fbf6f6;
 }
 
 .functionality {
