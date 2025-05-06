@@ -50,11 +50,8 @@
     ></script>
     
     <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
-    const tooltipList = [...tooltipTriggerList].map(el => new bootstrap.Tooltip(el));
-  });
-
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
     
     <@crafter.head/>
@@ -154,8 +151,8 @@
                     <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
                       <p class="category_service_name">Test Before Invest</p>
                       <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
-                        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
-                          Tooltip with HTML
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+                          Tooltip on bottom
                         </button>
 
                     </div>
