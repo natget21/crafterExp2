@@ -2,132 +2,62 @@
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
-<head>
-    <meta charset="utf-8">
-    <title>Login</title>
-    
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="/static-assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static-assets/css/login.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <@crafter.head/>
-</head>
+<#include "/templates/web/fragments/head.ftl">
 <body>
-    <@crafter.body_top/>
-    <div class="toast-container position-fixed top-0 end-0 p-3">
-        <div id="error-toast" class="toast bg-danger text-white" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-                <strong class="me-auto">Error</strong>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body" id="toast-message"></div>
-        </div>
-    </div>
-    <div class="cont">
-        <Form class="form sign-in" id="login-form">
-         <input type="hidden" name="redirect" value="/" />
-            <h2>Benvenuto accedi al tuo account cliente</h2>
-            <label>
-                <span>Email</span>
-                <input type="username" name="username" id="username" class="form-control" required />
-            </label>
-            <label>
-                <span>Password</span>
-                <input type="password" name="password" id="password" class="form-control" required />
-            </label>
-             <label>
-    <input type="checkbox" name="rememberMe" value="true" id="rememberMe">Matieni la sessione attiva</input>
- </label>
-            <p class="forgot-pass"><a href="/path/to/forgot-password">Hai dimenticato la password?</a></p>
-            <button type="submit" class="submit btn btn-primary">Accedi</button>
-        </Form>
-        <div class="sub-cont">
-            <div class="img">
-                <div class="img__text m--up">
-                    <h3>Non hai un account? Invia la tua richiesta!</h3>
-                </div>
-                <div class="img__text m--in">
-                    <h3>Se hai gia un account, esegui la login con le tue credenziali.</h3>
-                </div>
-                <div class="img__btn register">
-                    <span class="m--up register">Registrati</span>
-                    <span class="m--in register">Accedi</span>
-                </div>
-            </div>
-            <div class="form sign-up">
-                <h2>Create your Account</h2>
-                <label>
-                    <span>Name</span>
-                    <input type="text" name="name" class="form-control" required />
-                </label>
-                <label>
-                    <span>Email</span>
-                    <input type="email" name="email" class="form-control" required />
-                </label>
-                <label>
-                    <span>Password</span>
-                    <input type="password" name="password" class="form-control" required />
-                </label>
-                <button type="submit" class="submit btn btn-primary">Sign Up</button>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Bootstrap JS (Required for Toasts) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<@crafter.body_top/>
 
-   <script>
-        document.querySelector('.img__btn').addEventListener('click', function () {
-            //document.querySelector('.cont').classList.toggle('s--signup');
-            console.log("hello")
-            window.location.href = "/client-register";
+    <header>
+        <div class="container-fluid">
+            <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
+                <div class="col-lg-4">
+                    <a href="" class="text-decoration-none">
+                        <img src="/static-assets/assets/ideale_logo.png" height="70px" />
+                        <!-- <span class="h1 text-uppercase text-primary bg-dark px-2">Ideale</span> 
+                        <span class="h1 text-uppercase text-dark bg-primary px-2 ml-n1">Partner</span> -->
+                    </a>
+                </div>
+                <div class="col-lg-4 col-6 text-left">
+                    
+                </div>
+            </div>
+        </div>
+    </header>
     
-        });
-    </script> 
+    <!-- Navigation Section --> 
+    <#include "/templates/web/fragments/navigation.ftl">
+    <#include "/templates/web/fragments/static-navigation.ftl">
+
+    <iframe id="partnerFrame" src="https://ideale.shortcut.uno/provider-login?orgId=67ac78b641f3e43f93473810&themeStyle=light" width="100%" height="750px" frameborder="0"></iframe>
     
-  
     
-    
+
+    <!-- Footer Section -->
+    <#include "/templates/web/fragments/footer-no-padding.ftl">
+
     <script>
-        document.getElementById("login-form").addEventListener("submit", async function (event) {
-            event.preventDefault();
-        
-            let email = document.getElementById("username").value;
-            let password = document.getElementById("password").value;
-            const toastMessage = document.getElementById('toast-message');
-            const errorToast = new bootstrap.Toast(document.getElementById('error-toast'));
-        
-            fetch('https://api.shortcut.uno/v1/Ideale-client/login', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Origin': 'http://localhost'
-                },
-                credentials: 'include',
-                body: JSON.stringify({ email, password,"projectId":"67ac9fa58932d32db3c9768e" })
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data && !data.error) {
-                    localStorage.setItem('crafterVadinUser', JSON.stringify(data));
-                    localStorage.setItem('crafterVadinToken', data.access_token);
-        
-                    window.location.href = '/';
+        document.addEventListener("DOMContentLoaded", function () {
+            const button = document.getElementById("toggle-btn");
+            const iframe = document.getElementById("partnerFrame");
+            
+            console.log("here")
+    
+            let isRegister = false;
+    
+            button.addEventListener("click", function () {
+                if (isRegister) {
+                    iframe.src = "https://ideale.shortcut.uno/provider-login?orgId=67ac78b641f3e43f93473810&themeStyle=light";
+                    button.textContent = "Register";
                 } else {
-                    console.log(data,"data")
-                    toastMessage.textContent = data.message;
-                    errorToast.show();
+                    iframe.src = "https://ideale.shortcut.uno/signup-partner?orgId=67ac78b641f3e43f93473810&themeStyle=light"; 
+                    button.textContent = "Login";
                 }
-            })
-            .catch(error => {
-                toastMessage.textContent = 'An error occurred. Please try again.';
-                errorToast.show();
+                isRegister = !isRegister;
             });
         });
     </script>
+    
+        <!-- Scripts -->
+    <#include "/templates/web/fragments/scripts.ftl">
 
     <@crafter.body_bottom/>
 </body>
