@@ -71,7 +71,7 @@
     >
       <img class="banner_img" src="static-assets/assets/catalogo.png">
       <div class="container">
-        <h1 class="best_taital text-center text-white p-0">Catalogo Servizi</h1>
+        <h1 class="best_taital text-center dark p-0">Catalogo Servizi</h1>
       </div>
     </div>
     <div class="text-center mb-4 pt-5" style="padding-top: 28px !important;">
