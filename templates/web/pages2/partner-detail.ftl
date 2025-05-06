@@ -123,6 +123,32 @@
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
+                data-bs-target="#productOne"
+                aria-expanded="false"
+                aria-controls="productOne"
+              >
+                Categorie Servizi
+              </button>
+            </h2>
+            <div
+              id="productOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#productsAccordion"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="service col-12 col-md-4">
+                  <p class="service_name">Test Before Invest</p>
+                  <img src="static-assets/assets/questionmark.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
                 data-bs-target="#productTwo"
                 aria-expanded="false"
                 aria-controls="productTwo"
