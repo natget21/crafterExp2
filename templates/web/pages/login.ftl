@@ -4,7 +4,6 @@
 <html lang="en" data-craftercms-preview="${modePreview?c}">
 <#include "/templates/web/fragments/head.ftl">
 <head>
-<head>
     <meta charset="utf-8">
     <title>Login</title>
     
@@ -16,7 +15,6 @@
     <link rel="stylesheet" href="/static-assets/css/login.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <@crafter.head/>
-</head>
 </head>
 <body>
 <@crafter.body_top/>
