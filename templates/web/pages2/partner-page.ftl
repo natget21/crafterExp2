@@ -90,7 +90,9 @@
                     </#if>
                   </div>
                   <div class="col-12 col-md-8">
-                    <h3 class="partner_title">${partner.partnerAzienda}</h3>
+                    ${partner.partnerAzienda}
+                    <!-- <h3 class="partner_title">
+                    </h3>-->
                     
                     <#assign cleanedIntro = partner.partnerLandingIntroduction
                       ?replace("(?i)<(?!/?p\\b)[^>]*>", "<p>", "r")
