@@ -81,7 +81,7 @@
       </form>
 
       <div class="layout_padding">
-        <h2 class="title_section">Registrazione al portale</h2>
+        <h2 class="title_section faq_title">Registrazione al portale</h2>
         <div class="accordion mb-3" id="registrationAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -148,7 +148,7 @@
             </div>
           </div>
         </div>
-        <h2 class="title_section layout_padding">Marketplace</h2>
+        <h2 class="title_section faq_title layout_padding">Marketplace</h2>
         <div class="accordion mb-3" id="marketplaceAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -283,7 +283,7 @@
             </div>
           </div>
         </div>
-        <h2 class="title_section layout_padding">Ricerca dei Servizi</h2>
+        <h2 class="title_section faq_title layout_padding">Ricerca dei Servizi</h2>
         <div class="accordion mb-3" id="serviceAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -353,7 +353,7 @@
         </div>
       </div>
       <div class="layout_padding">
-        <h2 class="title_section">Accreditamento al Catalogo dei Servizi</h2>
+        <h2 class="title_section faq_title">Accreditamento al Catalogo dei Servizi</h2>
         <div class="accordion mb-3" id="accreditationAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -421,7 +421,7 @@
             </div>
           </div>
         </div>
-        <h2 class="title_section layout_padding">Gestione delle Richieste</h2>
+        <h2 class="title_section faq_title layout_padding">Gestione delle Richieste</h2>
         <div class="accordion mb-3" id="requestsAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header">
