@@ -28,12 +28,12 @@
     <#include "/templates/web/fragments/static-navigation.ftl">
     
     <div class="d-flex justify-content-center">
-      <div class="card client-login-card col-12 col-md-3">
+      <div class="card client-login-card col-12 col-md-3 p-0">
         <div
-          class="client-login-header text-white d-flex flex-column justify-content-end"
+          class="client-login-header d-flex flex-column justify-content-end"
         >
-          <h4 class="fw-bold">Cliente</h4>
-          <p class="mb-0">Usa le tue credenziali per accedere</p>
+          <h4 class="fw-bold text-white">Cliente</h4>
+          <p class="mb-0 text-white">Usa le tue credenziali per accedere</p>
         </div>
         <div class="card-body p-4">
           <h5 class="mb-3 client-login">Log in</h5>
