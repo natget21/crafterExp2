@@ -56,11 +56,9 @@
           <h1 class="best_taital text-center dark p-0">Partner</h1>
         </div>
       </div>
-      <div
-        class="explanation layout_padding mx-auto d-flex flex-column flex-md-row justify-content-center col-11 col-md-9 px-0"
-      >
-        <h2 class="title_section pl-3 pl-md-0 col-md-6">Partner di progetto</h2>
-        <div class="col-md-6">
+      <div class="explanation layout_padding mx-auto col-11 col-md-9 px-0">
+        <h2 class="title_section mb-3">Partner di progetto</h2>
+        <div class="p-0">
           <p class="" for="">
             Il progetto è promosso da Synthesis3 S.r.l., insieme ai partner
             Amicucci Formazione S.r.l. e Sinergia EPC S.r.l. Ognuno di loro
