@@ -60,6 +60,7 @@
       <div
         class="news_section layout_padding d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
+        <h2 class="title_section mb-4 text-center">Ultime news</h2>
         <div class="card mb-4 mb-md-5 shadow-sm border-0">
           <div class="row g-0">
             <div class="col-md-5">
