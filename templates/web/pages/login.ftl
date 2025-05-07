@@ -67,67 +67,6 @@
       </div>
     </div>
 
-
-    <!--
-    <div class="toast-container position-fixed top-0 end-0 p-3">
-        <div id="error-toast" class="toast bg-danger text-white" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-                <strong class="me-auto">Error</strong>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body" id="toast-message"></div>
-        </div>
-    </div>
-    <div class="cont">
-        <Form class="form sign-in" id="login-form">
-         <input type="hidden" name="redirect" value="/" />
-            <h2>Benvenuto accedi al tuo account cliente</h2>
-            <label>
-                <span>Email</span>
-                <input type="username" name="username" id="username" class="form-control" required />
-            </label>
-            <label>
-                <span>Password</span>
-                <input type="password" name="password" id="password" class="form-control" required />
-            </label>
-             <label>
-    <input type="checkbox" name="rememberMe" value="true" id="rememberMe">Matieni la sessione attiva</input>
- </label>
-            <p class="forgot-pass"><a href="/path/to/forgot-password">Hai dimenticato la password?</a></p>
-            <button type="submit" class="submit btn">Accedi</button>
-        </Form>
-        <div class="sub-cont">
-            <div class="img">
-                <div class="img__text m--up">
-                    <h3>Non hai un account? Invia la tua richiesta!</h3>
-                </div>
-                <div class="img__text m--in">
-                    <h3>Se hai gia un account, esegui la login con le tue credenziali.</h3>
-                </div>
-                <div class="img__btn register">
-                    <span class="m--up register">Registrati</span>
-                    <span class="m--in register">Accedi</span>
-                </div>
-            </div>
-            <div class="form sign-up">
-                <h2>Create your Account</h2>
-                <label>
-                    <span>Name</span>
-                    <input type="text" name="name" class="form-control" required />
-                </label>
-                <label>
-                    <span>Email</span>
-                    <input type="email" name="email" class="form-control" required />
-                </label>
-                <label>
-                    <span>Password</span>
-                    <input type="password" name="password" class="form-control" required />
-                </label>
-                <button type="submit" class="submit btn btn-primary">Sign Up</button>
-            </div>
-        </div>
-    </div>
-    -->
     <!-- Bootstrap JS (Required for Toasts) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
