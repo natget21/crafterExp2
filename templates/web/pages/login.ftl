@@ -2,21 +2,63 @@
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
-<head>
-    <meta charset="utf-8">
-    <title>Login</title>
-    
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="/static-assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static-assets/css/login.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <@crafter.head/>
-</head>
+<#include "/templates/web/fragments/head.ftl">
 <body>
-    <@crafter.body_top/>
+<@crafter.body_top/>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
+                <div class="col-lg-4">
+                    <a href="" class="text-decoration-none">
+                        <img src="/static-assets/assets/ideale_logo.png" height="70px" />
+                        <!-- <span class="h1 text-uppercase text-primary bg-dark px-2">Ideale</span> 
+                        <span class="h1 text-uppercase text-dark bg-primary px-2 ml-n1">Partner</span> -->
+                    </a>
+                </div>
+                <div class="col-lg-4 col-6 text-left">
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Navigation Section --> 
+    <#include "/templates/web/fragments/navigation.ftl">
+    <#include "/templates/web/fragments/static-navigation.ftl">
+    
+    <div class="d-flex justify-content-center">
+      <div class="card client-login-card col-12 col-md-3 p-0">
+        <div
+          class="client-login-header d-flex flex-column justify-content-end"
+        >
+          <h4 class="fw-bold text-white">Cliente</h4>
+          <p class="mb-0 text-white">Usa le tue credenziali per accedere</p>
+        </div>
+        <div class="card-body p-4">
+          <h5 class="mb-3 client-login">Log in</h5>
+          <form>
+            <div class="mb-3">
+              <label for="username" class="form-label"
+                >Username <span class="text-primary">*</span></label
+              >
+              <input type="text" class="form-control" id="username" />
+            </div>
+            <div class="mb-4 position-relative">
+              <label for="password" class="form-label"
+                >Password <span class="text-primary">*</span></label
+              >
+              <input type="password" class="form-control" id="password" />
+              <span class="toggle-password" onclick="togglePassword()"> </span>
+            </div>
+            <button type="submit" class="btn client-login-button w-100">Log in</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <!--
     <div class="toast-container position-fixed top-0 end-0 p-3">
         <div id="error-toast" class="toast bg-danger text-white" role="alert" aria-live="assertive" aria-atomic="true">
             <div class="toast-header">
@@ -42,7 +84,7 @@
     <input type="checkbox" name="rememberMe" value="true" id="rememberMe">Matieni la sessione attiva</input>
  </label>
             <p class="forgot-pass"><a href="/path/to/forgot-password">Hai dimenticato la password?</a></p>
-            <button type="submit" class="submit btn btn-primary">Accedi</button>
+            <button type="submit" class="submit btn">Accedi</button>
         </Form>
         <div class="sub-cont">
             <div class="img">
@@ -75,7 +117,7 @@
             </div>
         </div>
     </div>
-    
+    -->
     <!-- Bootstrap JS (Required for Toasts) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -129,6 +171,8 @@
         });
     </script>
 
+    <#include "/templates/web/fragments/scripts.ftl">
     <@crafter.body_bottom/>
 </body>
 </html>
+
