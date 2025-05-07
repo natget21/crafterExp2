@@ -2,6 +2,8 @@
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
+<#include "/templates/web/fragments/head.ftl">
+<head>
 <head>
     <meta charset="utf-8">
     <title>Login</title>
@@ -15,8 +17,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <@crafter.head/>
 </head>
+</head>
 <body>
-    <@crafter.body_top/>
+<@crafter.body_top/>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
+                <div class="col-lg-4">
+                    <a href="" class="text-decoration-none">
+                        <img src="/static-assets/assets/ideale_logo.png" height="70px" />
+                        <!-- <span class="h1 text-uppercase text-primary bg-dark px-2">Ideale</span> 
+                        <span class="h1 text-uppercase text-dark bg-primary px-2 ml-n1">Partner</span> -->
+                    </a>
+                </div>
+                <div class="col-lg-4 col-6 text-left">
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Navigation Section --> 
+    <#include "/templates/web/fragments/navigation.ftl">
+    <#include "/templates/web/fragments/static-navigation.ftl">
     
         <div class="d-flex justify-content-center">
       <div class="card login-card col-12 col-md-3 p-0">
