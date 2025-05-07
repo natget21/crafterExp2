@@ -61,27 +61,32 @@
     </div>
     <div class="content pb-5 layout_padding col-11 col-md-9 mx-auto">
       <div class="d-flex flex-column flex-md-row">
-        <div class="col-12 col-md-7">
-          <h2 class="title_section">Domande frequenti</h2>
-          <p class="explanation pt-4" for="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quos.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quisquam, quos.Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Quisquam, quos.Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Quisquam, quos.Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Quisquam, quos.
-          </p>
+        <div class="col-12 col-md-7 pl-0">
+          <h2 class="title_section">
+            Hai dei dubbi? Consulta le domande frequenti
+          </h2>
         </div>
       </div>
-      <div class="questions_section layout_padding">
+      <form class="d-flex mt-5" role="search">
+        <input
+          id="faqSearch"
+          class="form-control me-2 rounded"
+          type="search"
+          placeholder="Cerca tra le domande..."
+          aria-label="Search"
+        />
+        <button class="btn btn-primary rounded" type="button">
+          <i class="bi bi-search"></i>
+        </button>
+      </form>
+
+      <div class="layout_padding">
         <h2 class="title_section">Registrazione al portale</h2>
-        <div class="accordion" id="registrationAccordion">
+        <div class="accordion mb-3" id="registrationAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button faq-question collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqOne"
@@ -98,15 +103,23 @@
             >
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 info">
-                  <p class="fs-5 desc">Bianco perche' Napoleone era francese</p>
+                  <p class="fs-5 desc">
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="accordion mb-3" id="spidCie">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button faq-question collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqTwo"
@@ -119,26 +132,28 @@
             <div
               id="faqTwo"
               class="accordion-collapse collapse"
-              data-bs-parent="#registrationAccordion"
+              data-bs-parent="#spidCie"
             >
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 info">
                   <p class="fs-5 desc">
-                    365 perche' Napoleone era francese e Napoleone voleva
-                    imporre il suo calendario
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <h2 class="title_section layout_padding">FAQ - Lato Cliente</h2>
-        <h2 class="title_section faq_title layout_padding">Marketplace</h2>
-        <div class="accordion" id="marketplaceAccordion">
+        <h2 class="title_section layout_padding">Marketplace</h2>
+        <div class="accordion mb-3" id="marketplaceAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button faq-question collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqThree"
@@ -155,15 +170,23 @@
             >
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 info">
-                  <p class="fs-5 desc">Bianco perche' Napoleone era francese</p>
+                  <p class="fs-5 desc">
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="accordion mb-3" id="servizioSelezionato">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button faq-question collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqFour"
@@ -177,22 +200,27 @@
             <div
               id="faqFour"
               class="accordion-collapse collapse"
-              data-bs-parent="#marketplaceAccordion"
+              data-bs-parent="#servizioSelezionato"
             >
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 info">
                   <p class="fs-5 desc">
-                    365 perche' Napoleone era francese e Napoleone voleva
-                    imporre il suo calendario
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
                   </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="accordion mb-3" id="modificaCancellazione">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button faq-question collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqFive"
@@ -206,22 +234,27 @@
             <div
               id="faqFive"
               class="accordion-collapse collapse"
-              data-bs-parent="#marketplaceAccordion"
+              data-bs-parent="#modificaCancellazione"
             >
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 info">
                   <p class="fs-5 desc">
-                    365 perche' Napoleone era francese e Napoleone voleva
-                    imporre il suo calendario
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
                   </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="accordion mb-3" id="datiPersonali">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button faq-question collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqSix"
@@ -234,27 +267,28 @@
             <div
               id="faqSix"
               class="accordion-collapse collapse"
-              data-bs-parent="#marketplaceAccordion"
+              data-bs-parent="#datiPersonali"
             >
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 info">
                   <p class="fs-5 desc">
-                    365 perche' Napoleone era francese e Napoleone voleva
-                    imporre il suo calendario
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <h2 class="title_section faq_title layout_padding">
-          Ricerca dei Servizi
-        </h2>
-        <div class="accordion" id="serviceAccordion">
+        <h2 class="title_section layout_padding">Ricerca dei Servizi</h2>
+        <div class="accordion mb-3" id="serviceAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button faq-question collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqSeven"
@@ -271,15 +305,23 @@
             >
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 info">
-                  <p class="fs-5 desc">Bianco perche' Napoleone era francese</p>
+                  <p class="fs-5 desc">
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="accordion mb-3" id="salvareAggiungere">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button faq-question collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqEight"
@@ -293,13 +335,16 @@
             <div
               id="faqEight"
               class="accordion-collapse collapse"
-              data-bs-parent="#serviceAccordion"
+              data-bs-parent="#salvareAggiungere"
             >
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 info">
                   <p class="fs-5 desc">
-                    365 perche' Napoleone era francese e Napoleone voleva
-                    imporre il suo calendario
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
                   </p>
                 </div>
               </div>
@@ -307,16 +352,13 @@
           </div>
         </div>
       </div>
-      <div class="questions_section layout_padding">
-        <h2 class="title_section layout_padding">FAQ - Lato Partner</h2>
-        <h2 class="title_section faq_title layout_padding">
-          Accreditamento al Catalogo dei Servizi
-        </h2>
-        <div class="accordion" id="accreditationAccordion">
+      <div class="layout_padding">
+        <h2 class="title_section">Accreditamento al Catalogo dei Servizi</h2>
+        <div class="accordion mb-3" id="accreditationAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button faq-question collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqNine"
@@ -333,15 +375,23 @@
             >
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 info">
-                  <p class="fs-5 desc">Bianco perche' Napoleone era francese</p>
+                  <p class="fs-5 desc">
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="accordion mb-3" id="accreditamento">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button faq-question collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqTen"
@@ -355,27 +405,28 @@
             <div
               id="faqTen"
               class="accordion-collapse collapse"
-              data-bs-parent="#accreditationAccordion"
+              data-bs-parent="#accreditamento"
             >
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 info">
                   <p class="fs-5 desc">
-                    365 perche' Napoleone era francese e Napoleone voleva
-                    imporre il suo calendario
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <h2 class="title_section faq_title layout_padding">
-          Gestione delle Richieste
-        </h2>
-        <div class="accordion" id="requestsAccordion">
+        <h2 class="title_section layout_padding">Gestione delle Richieste</h2>
+        <div class="accordion mb-3" id="requestsAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button faq-question collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqEleven"
@@ -393,15 +444,23 @@
             >
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 info">
-                  <p class="fs-5 desc">Bianco perche' Napoleone era francese</p>
+                  <p class="fs-5 desc">
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="accordion mb-3" id="richiestePrenotazioni">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button faq-question collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqTwelve"
@@ -414,13 +473,16 @@
             <div
               id="faqTwelve"
               class="accordion-collapse collapse"
-              data-bs-parent="#requestsAccordion"
+              data-bs-parent="#richiestePrenotazioni"
             >
               <div class="accordion-body row row-gap-5">
                 <div class="col-12 info">
                   <p class="fs-5 desc">
-                    365 perche' Napoleone era francese e Napoleone voleva
-                    imporre il suo calendario
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
                   </p>
                 </div>
               </div>
@@ -429,6 +491,26 @@
         </div>
       </div>
     </div>
+
+    <script>
+      document
+        .getElementById("faqSearch")
+        .addEventListener("input", function () {
+          const searchTerm = this.value.toLowerCase();
+          const questions = document.querySelectorAll(".faq-question");
+
+          questions.forEach((questionBtn) => {
+            const questionText = questionBtn.textContent.toLowerCase();
+            const accordionItem = questionBtn.closest(".accordion-item");
+            if (questionText.includes(searchTerm)) {
+              accordionItem.style.display = "";
+            } else {
+              accordionItem.style.display = "none";
+            }
+          });
+        });
+    </script>
+
 
     
         <!-- Footer Section -->
