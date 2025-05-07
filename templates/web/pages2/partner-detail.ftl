@@ -76,7 +76,7 @@
           data-bs-placement="bottom"
           data-bs-title="Tooltip on bottom"
           style="width: 20px"
-        />
+        /> 2
           <h2 class="title_section">${partnerData.partnerAzienda}</h2>
           <div class="explanation pt-4" for="">
             ${partnerData.partnerLandingIntroduction?no_esc}
