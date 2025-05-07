@@ -73,6 +73,7 @@
     <div class="content pb-5 layout_padding col-11 col-md-9 mx-auto">
       <div class="d-flex flex-column flex-md-row">
         <div class="col-12 col-md-7">
+          <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
           <h2 class="title_section">${partnerData.partnerAzienda}</h2>
           <div class="explanation pt-4" for="">
             ${partnerData.partnerLandingIntroduction?no_esc}
