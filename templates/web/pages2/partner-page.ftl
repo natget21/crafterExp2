@@ -90,7 +90,9 @@
                     </#if>
                   </div>
                   <div class="col-12 col-md-8">
-                    ${partner.partnerAzienda}
+                    <p>
+                      ${partner.partnerAzienda}
+                    </p>
                     <!-- <h3 class="partner_title">
                     </h3>-->
                     
