@@ -1,9 +1,6 @@
   <head>
     <link rel="stylesheet" href="/static-assets/css/home.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=handshake"
-    />
+
   </head>
 
 
@@ -43,7 +40,7 @@
       </div>
 
       <div class="objectives mb-5">
-        <h2 class="title_section sub_title">I nostri obiettivi</h2>
+        <h2 class="title_section">I nostri obiettivi</h2>
         <ul>
           <li>
             <p>
@@ -98,7 +95,8 @@
           Scopri le funzionalità principali
         </p>
         <div class="row justify-content-center mt-3 mb-5">
-          <d            <div
+          <div class="functionality d-flex flex-column align-items-center">
+            <div
               class="func_image_container d-flex justify-content-center align-items-center"
             >
               <img
@@ -155,12 +153,11 @@
             <div
               class="func_image_container d-flex justify-content-center align-items-center"
             >
-              <span
-                style="font-size: 100px; color: #1ea4de"
-                class="material-symbols-outlined"
-              >
-                handshake
-              </span>
+              <img
+                class="func_image w-100 h-100"
+                src="static-assets/assets/collaborazione-avanzata.png"
+                alt=""
+              />
             </div>
             <p class="text-center func_title">
               <strong>Strumenti di collaborazione avanzata </strong>
@@ -185,8 +182,8 @@
           connessioni, competenze e opportunità, al servizio di chi vuole essere
           protagonista del cambiamento.
         </p>
-        <p class="text-center" style="font-size: 18px">
-          <strong> Per scoprire di più, consulta i nostri servizi </strong>
+        <p class="text-center" style="font-size: 25px">
+          Per scoprire di più, consulta i nostri servizi
         </p>
         <div class="d-flex justify-content-center">
           <button
@@ -261,5 +258,4 @@
       </div>
     </div>
 
-
-</div>
+    </div>
