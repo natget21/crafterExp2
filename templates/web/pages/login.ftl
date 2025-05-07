@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <link rel="stylesheet" href="/static-assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static-assets/css/login.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <@crafter.head/>
 </head>
@@ -48,7 +48,7 @@
           class="login-header text-white d-flex flex-column justify-content-end"
         >
           <h4 class="fw-bold">Cliente</h4>
-          <p class="mb-0">Usa le tue credenziali per accedere</p>
+          <p class="mb-0 text-white">Usa le tue credenziali per accedere</p>
         </div>
         <div class="card-body p-4">
           <h5 class="mb-3 login">Log in</h5>
