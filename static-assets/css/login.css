@@ -39,3 +39,9 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+.client-login-button {
+  background-color: #006af5;
+  color: white;
+  border-radius: 7px;
+}
