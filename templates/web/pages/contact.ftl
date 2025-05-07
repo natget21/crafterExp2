@@ -24,19 +24,22 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6">
+            <h2 class="title_section" style="font-size: 30px">
+              Hai domande o richieste?
+            </h2>
             <div
-              class="info-item d-flex flex-column justify-content-center align-items-start gap-4 p-4"
+              class="info-item d-flex flex-column justify-content-center align-items-start gap-4 py-4"
             >
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisque
-                faucibus ex sapien vitae pellentesque sem placerat. In id cursus
-                mi pretium
+              <p class="">
+                Siamo qui per aiutarti! Compila il modulo qui a fianco o
+                utilizza i nostri recapiti qui sotto per metterti in contatto
+                con il nostro team. Ti risponderemo il prima possibile.
               </p>
             </div>
 
             <div class="row 2">
               <div class="col-md-12">
-                <div class="info-item d-flex align-items-center p-3">
+                <div class="info-item d-flex align-items-center py-3">
                   <i class="bi bi-geo-alt flex-shrink-0 me-3 text-primary"></i>
                   <!-- Placeholder for icon -->
                   <p class="mb-0 text-primary">Marche, Italia</p>
@@ -45,7 +48,7 @@
               <!-- End Info Item -->
 
               <div class="col-md-12">
-                <div class="info-item d-flex align-items-center p-3">
+                <div class="info-item d-flex align-items-center py-3">
                   <i class="bi bi-envelope flex-shrink-0 me-3 text-primary"></i>
                   <!-- Placeholder for icon -->
                   <p class="mb-0 text-primary">info@example.com</p>
@@ -54,7 +57,7 @@
               <!-- End Info Item -->
 
               <div class="col-md-12">
-                <div class="info-item d-flex align-items-center p-3">
+                <div class="info-item d-flex align-items-center py-3">
                   <i
                     class="bi bi-telephone flex-shrink-0 me-3 text-primary"
                   ></i>
@@ -123,11 +126,10 @@
               </div>
             </form>
           </div>
-          <!-- End Contact Form -->
         </div>
       </div>
     </section>
-    <!-- End Contact Section -->
+
 
 
     <!-- Footer Section -->
