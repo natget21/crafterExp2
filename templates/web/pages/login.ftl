@@ -37,7 +37,7 @@
         </div>
         <div class="card-body p-4">
           <h5 class="mb-3 client-login">Log in</h5>
-          <form>
+          <form id="login-form">
             <div class="mb-3">
               <label for="username" class="form-label"
                 >Username <span class="text-primary">*</span></label
