@@ -63,3 +63,11 @@
 .info .desc {
   color: var(--primary-active);
 }
+
+.accordion-button{
+    font-size: 18px;
+}
+
+.accordion-body p{
+    font-size: 18px;
+}
