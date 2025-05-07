@@ -17,6 +17,38 @@
 </head>
 <body>
     <@crafter.body_top/>
+    
+        <div class="d-flex justify-content-center">
+      <div class="card login-card col-12 col-md-3">
+        <div
+          class="login-header text-white d-flex flex-column justify-content-end"
+        >
+          <h4 class="fw-bold">Cliente</h4>
+          <p class="mb-0">Usa le tue credenziali per accedere</p>
+        </div>
+        <div class="card-body p-4">
+          <h5 class="mb-3 login">Log in</h5>
+          <form>
+            <div class="mb-3">
+              <label for="username" class="form-label"
+                >Username <span class="text-primary">*</span></label
+              >
+              <input type="text" class="form-control" id="username" />
+            </div>
+            <div class="mb-4 position-relative">
+              <label for="password" class="form-label"
+                >Password <span class="text-primary">*</span></label
+              >
+              <input type="password" class="form-control" id="password" />
+              <span class="toggle-password" onclick="togglePassword()"> </span>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Log in</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    
     <div class="toast-container position-fixed top-0 end-0 p-3">
         <div id="error-toast" class="toast bg-danger text-white" role="alert" aria-live="assertive" aria-atomic="true">
             <div class="toast-header">
