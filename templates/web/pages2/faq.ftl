@@ -61,7 +61,7 @@
     </div>
     <div class="content pb-5 layout_padding col-11 col-md-9 mx-auto">
       <div class="d-flex flex-column flex-md-row">
-        <div class="col-12 col-md-7 pl-0">
+        <div class="">
           <h2 class="title_section">
             Hai dei dubbi? Consulta le domande frequenti
           </h2>
