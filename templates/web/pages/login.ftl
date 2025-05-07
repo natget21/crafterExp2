@@ -84,7 +84,7 @@
     <input type="checkbox" name="rememberMe" value="true" id="rememberMe">Matieni la sessione attiva</input>
  </label>
             <p class="forgot-pass"><a href="/path/to/forgot-password">Hai dimenticato la password?</a></p>
-            <button type="submit" class="submit btn btn-primary">Accedi</button>
+            <button type="submit" class="submit btn">Accedi</button>
         </Form>
         <div class="sub-cont">
             <div class="img">
