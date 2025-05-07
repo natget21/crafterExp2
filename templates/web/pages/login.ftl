@@ -27,16 +27,16 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/fragments/static-navigation.ftl">
     
-        <div class="d-flex justify-content-center">
-      <div class="card login-card col-12 col-md-3 p-0">
+    <div class="d-flex justify-content-center">
+      <div class="card client-login-card col-12 col-md-3">
         <div
-          class="login-header text-white d-flex flex-column justify-content-end"
+          class="client-login-header text-white d-flex flex-column justify-content-end"
         >
           <h4 class="fw-bold">Cliente</h4>
-          <p class="mb-0 text-white">Usa le tue credenziali per accedere</p>
+          <p class="mb-0">Usa le tue credenziali per accedere</p>
         </div>
         <div class="card-body p-4">
-          <h5 class="mb-3 login">Log in</h5>
+          <h5 class="mb-3 client-login">Log in</h5>
           <form>
             <div class="mb-3">
               <label for="username" class="form-label"
@@ -56,6 +56,7 @@
         </div>
       </div>
     </div>
+
 
     
     <div class="toast-container position-fixed top-0 end-0 p-3">
