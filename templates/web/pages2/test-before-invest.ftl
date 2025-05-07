@@ -56,61 +56,76 @@
         </div>
       </div>
       <div
-        class="explanation layout_padding mx-auto d-flex flex-column flex-md-row justify-content-center col-11 col-md-9 px-0"
+        class="layout_padding mx-auto justify-content-center col-11 col-md-9 px-0"
       >
-        <h2 class="title_section pl-3 pl-md-0 col-md-6">Cosa offriamo</h2>
-        <div class="col-md-6">
-          <ul class="list-group">
-            <li class="list-group-item">
-              <strong> Demo: </strong>
-              Accesso a casi d’uso e dimostratori di soluzioni tecnologiche in
-              fase pilota o in laboratori specializzati. Questo servizio aiuta
-              le aziende a esplorare potenziali soluzioni prima di impegnarsi in
-              investimenti significativi, consentendo di valutare l'efficacia e
-              i benefici delle tecnologie.
-            </li>
-            <li class="list-group-item">
-              <strong>
-                Accesso a Infrastrutture e Piattaforme Tecnologiche
-                (as-a-service):
-              </strong>
-              Offerta di un accesso temporaneo a tecnologie avanzate e
-              piattaforme in modalità "as-a-service", permettendo alle aziende
-              di testare infrastrutture e soluzioni in ambienti controllati
-              prima di decidere un'adozione su larga scala.
-            </li>
-            <li class="list-group-item">
-              <strong> Studi di Fattibilità: </strong>
-              Servizi di analisi per valutare la fattibilità e il potenziale di
-              un'idea o progetto, identificando le risorse, le tecnologie
-              necessarie e le eventuali criticità per la sua realizzazione.
-              Questo servizio aiuta a minimizzare i rischi prima di avviare un
-              progetto.
-            </li>
-            <li class="list-group-item">
-              <strong> Proof-of-Concept (PoC): </strong>
-              Progetti che mirano a sviluppare prototipi o dimostratori per
-              verificare la fattibilità di un concetto o di una tecnologia.
-              Questi progetti sono ideali per testare nuove idee e soluzioni
-              prima di passare alla fase di sviluppo completo.
-            </li>
-            <li class="list-group-item">
-              <strong>Test e Validazione:</strong>
-              Progetti di innovazione che permettono di testare, validare e
-              ingegnerizzare soluzioni tecnologiche esistenti, in modo da
-              garantirne l'efficacia e l'affidabilità in contesti industriali
-              reali.
-            </li>
-            <li class="list-group-item">
-              <strong>Progetti di Ricerca e Sviluppo:</strong>
-              Servizi di ricerca industriale o sviluppo sperimentale finalizzati
-              a creare nuovi prodotti, processi o modelli di business. Questo
-              servizio è pensato per supportare le aziende che vogliono
-              investire in innovazione e trasformare idee in soluzioni pratiche.
-            </li>
-          </ul>
-        </div>
+        <h2 class="title_section pl-3 pl-md-0 col-md-6 mb-4">Cosa offriamo</h2>
+        <ul class="mb-4">
+          <li><p>Orientamento e Assessment</p></li>
+          <li><p>Innovation Management</p></li>
+          <li><p>Consulenza Manageriale</p></li>
+          <li><p>Change Management</p></li>
+          <li><p>Social Innovation Management</p></li>
+          <li><p>Consulenza ICT</p></li>
+          <li><p>Engineering</p></li>
+        </ul>
+        <p class="mb-4">
+          <strong> Orientamento e Assessment: </strong>
+          Questo servizio aiuta le aziende a identificare le loro necessità e
+          priorità strategiche. Attraverso una valutazione approfondita, si
+          analizzano le sfide tecnologiche e organizzative per creare un piano
+          d'azione personalizzato che favorisca l'adozione di soluzioni
+          innovative.
+        </p>
+        <p class="mb-4">
+          <strong> Innovation Management </strong>
+          Si tratta di un supporto strategico volto a definire le priorità
+          aziendali in ambito tecnologico e organizzativo. Include attività come
+          lo scouting di tecnologie emergenti, la selezione delle soluzioni più
+          adatte e la gestione di progetti di innovazione. Questo servizio
+          supporta le aziende nel miglioramento continuo dei loro processi,
+          prodotti e servizi attraverso l'adozione di tecnologie
+          all'avanguardia.
+        </p>
+        <p class="mb-4">
+          <strong> Consulenza Manageriale:</strong>Aiuta le aziende a
+          ottimizzare la loro gestione interna, attraverso una guida esperta
+          nella riorganizzazione dei processi aziendali, la gestione delle
+          risorse e la definizione di strategie per affrontare sfide
+          competitive. È indirizzata a migliorare l'efficienza e la produttività
+          complessiva dell'azienda.
+        </p>
+        <p class="mb-4">
+          <strong>Change Management: </strong>Supporta le aziende nel processo
+          di cambiamento organizzativo, aiutando a gestire transizioni
+          complesse, come l'adozione di nuove tecnologie o la riorganizzazione
+          dei processi. Il servizio include la gestione della comunicazione, il
+          coinvolgimento dei dipendenti e il monitoraggio dei risultati.
+        </p>
+        <p class="mb-4">
+          <strong> Social Innovation Management:</strong>Si focalizza sullo
+          sviluppo di soluzioni innovative che abbiano un impatto positivo sulla
+          società, promuovendo la sostenibilità e l'inclusione sociale. Questo
+          tipo di consulenza aiuta le aziende a implementare pratiche
+          responsabili e socialmente orientate, creando valore anche a livello
+          sociale.
+        </p>
+        <p class="mb-4">
+          <strong>Consulenza ICT: </strong>Consulenza focalizzata sulle
+          tecnologie dell'informazione e della comunicazione (ICT), essenziale
+          per le aziende che desiderano ottimizzare la loro infrastruttura
+          tecnologica e migliorare la gestione dei dati e delle informazioni,
+          con l'obiettivo di favorire l'integrazione di soluzioni digitali
+          avanzate.
+        </p>
+        <p class="mb-4">
+          <strong>Engineering: </strong>Servizi tecnici e ingegneristici per
+          progettare, sviluppare e implementare soluzioni tecnologiche avanzate.
+          Questo include attività di progettazione hardware e software, nonché
+          l'ottimizzazione di sistemi e processi industriali attraverso
+          l'adozione di nuove tecnologie.
+        </p>
       </div>
+
     </div>
 
 
