@@ -101,7 +101,7 @@
             >
               <img
                 class="func_image w-100 h-100"
-                src="static-assets/assets/cultura.png"
+                src="static-assets/assets/marketplace-digitale.png"
                 alt=""
               />
             </div>
@@ -119,7 +119,7 @@
             >
               <img
                 class="func_image w-100 h-100"
-                src="static-assets/assets/cultura.png"
+                src="static-assets/assets/matching-intelligente.png"
                 alt=""
               />
             </div>
@@ -137,7 +137,7 @@
             >
               <img
                 class="func_image w-100 h-100"
-                src="static-assets/assets/cultura.png"
+                src="static-assets/assets/percorsi-formativi.png"
                 alt=""
               />
             </div>
@@ -155,7 +155,7 @@
             >
               <img
                 class="func_image w-100 h-100"
-                src="static-assets/assets/cultura.png"
+                src="static-assets/assets/collaborazione-avanzata.png"
                 alt=""
               />
             </div>
