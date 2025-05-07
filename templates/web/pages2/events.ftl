@@ -56,6 +56,7 @@
       </div>
 
       <div class="events layout_padding mx-auto col-11 col-md-9 px-0">
+        <h2 class="title_section mb-4 text-center">Scopri gli ultimi eventi</h2>
         <div class="row g-4">
           <div class="col-12 col-lg-6 pb-5 d-flex justify-content-center">
             <div class="event_container position-relative">
