@@ -267,10 +267,10 @@
     <!-- Scripts -->
     <#include "/templates/web/fragments/scripts.ftl">
 
-    <@crafter.body_bottom/>
     <script>
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
+    <@crafter.body_bottom/>
 </body>
 </html>
