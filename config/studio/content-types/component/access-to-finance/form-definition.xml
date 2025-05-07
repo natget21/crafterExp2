@@ -512,6 +512,49 @@
 				</field>
 				<field>
 					<type>textarea</type>
+					<id>destinatari_t</id>
+					<iceId></iceId>
+					<title>Destinatari</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>rows</name>
+							<value>5</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>100000</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>allowResize</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>textarea</type>
 					<id>descrizionecostoservizio_t</id>
 					<iceId></iceId>
 					<title>descrizione costo servizio</title>
@@ -673,27 +716,22 @@
 					</constraints>
 				</field>
 				<field>
-					<type>textarea</type>
-					<id>destinatari_t</id>
+					<type>dropdown</type>
+					<id>tipologiadifinanziamento_s</id>
 					<iceId></iceId>
-					<title>Destinatari</title>
+					<title>Tipologia di finanziamento</title>
 					<description></description>
 					<defaultValue></defaultValue>
-					<help></help>
+					<help>&lt;p&gt;Specifica quali strumenti di finanziamento vengono trattati&lt;/p&gt;</help>
 					<properties>
 						<property>
-							<name>rows</name>
-							<value>5</value>
-							<type>int</type>
+							<name>datasource</name>
+							<value>tipologiadifinanziamento</value>
+							<type>datasource:item</type>
 						</property>
 						<property>
-							<name>maxlength</name>
-							<value>100000</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>allowResize</name>
-							<value>true</value>
+							<name>emptyvalue</name>
+							<value></value>
 							<type>boolean</type>
 						</property>
 						<property>
@@ -701,10 +739,78 @@
 							<value></value>
 							<type>boolean</type>
 						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>rte</type>
+					<id>serviziinclusi_html</id>
+					<iceId></iceId>
+					<title>Servizi inclusi</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help>&lt;p&gt;Elenco dettagliato delle attivit&amp;agrave; comprese&lt;/p&gt;</help>
+					<properties>
 						<property>
-							<name>escapeContent</name>
+							<name>height</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>autoGrow</name>
 							<value>false</value>
 							<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSpellCheck</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>forceRootBlockPTag</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>forceBRTags</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>supportedChannels</name>
+							<value></value>
+							<type>supportedChannels</type>
+						</property>
+						<property>
+							<name>rteConfiguration</name>
+							<value>generic</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>imageManager</name>
+							<value></value>
+							<type>datasource:image</type>
+						</property>
+						<property>
+							<name>videoManager</name>
+							<value></value>
+							<type>datasource:video</type>
+						</property>
+						<property>
+							<name>audioManager</name>
+							<value></value>
+							<type>datasource:audio</type>
+						</property>
+						<property>
+							<name>fileManager</name>
+							<value></value>
+							<type>datasource:item</type>
 						</property>
 					</properties>
 					<constraints>
@@ -803,6 +909,24 @@
 						<property>
 							<name>componentPath</name>
 							<value>In presenza, Da remoto</value>
+								<type>string</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>simpleTaxonomy</type>
+					<id>tipologiadifinanziamento</id>
+					<title>Tipologia di finanziamento</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;Data Type&quot;,&quot;selected&quot;:false}]</value>
+								<type>dropdown</type>
+						</property>
+						<property>
+							<name>componentPath</name>
+							<value>Bandi Regionali, Fondi Europei, Incentivi Fiscali, Altro</value>
 								<type>string</type>
 						</property>
 					</properties>
