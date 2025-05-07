@@ -58,7 +58,7 @@
     </div>
 
 
-    
+    <!--
     <div class="toast-container position-fixed top-0 end-0 p-3">
         <div id="error-toast" class="toast bg-danger text-white" role="alert" aria-live="assertive" aria-atomic="true">
             <div class="toast-header">
@@ -117,7 +117,7 @@
             </div>
         </div>
     </div>
-    
+    -->
     <!-- Bootstrap JS (Required for Toasts) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
