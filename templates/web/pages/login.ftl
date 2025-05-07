@@ -19,7 +19,7 @@
     <@crafter.body_top/>
     
         <div class="d-flex justify-content-center">
-      <div class="card login-card col-12 col-md-3">
+      <div class="card login-card col-12 col-md-3 p-0">
         <div
           class="login-header text-white d-flex flex-column justify-content-end"
         >
