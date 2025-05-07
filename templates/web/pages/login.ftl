@@ -185,6 +185,8 @@
         });
     </script>
 
+    <#include "/templates/web/fragments/scripts.ftl">
     <@crafter.body_bottom/>
 </body>
 </html>
+
