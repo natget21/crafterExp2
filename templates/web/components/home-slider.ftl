@@ -98,13 +98,12 @@
           Scopri le funzionalità principali
         </p>
         <div class="row justify-content-center mt-3 mb-5">
-          <div class="functionality d-flex flex-column align-items-center">
-            <div
+          <d            <div
               class="func_image_container d-flex justify-content-center align-items-center"
             >
               <img
                 class="func_image w-100 h-100"
-                src="static-assets/assets/cultura.png"
+                src="static-assets/assets/marketplace-digitale.png"
                 alt=""
               />
             </div>
@@ -122,7 +121,7 @@
             >
               <img
                 class="func_image w-100 h-100"
-                src="static-assets/assets/cultura.png"
+                src="static-assets/assets/matching-intelligente.png"
                 alt=""
               />
             </div>
@@ -140,7 +139,7 @@
             >
               <img
                 class="func_image w-100 h-100"
-                src="static-assets/assets/cultura.png"
+                src="static-assets/assets/percorsi-formativi.png"
                 alt=""
               />
             </div>
