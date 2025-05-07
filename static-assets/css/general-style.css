@@ -47,6 +47,10 @@ hr {
   color: var(--primary-active) !important;
 }
 
+.text-dark{
+  color: var(--primary-active) !important;
+}
+
 .layout_padding {
   padding-top: 90px;
 }
