@@ -14,7 +14,7 @@
 <#assign content = siteItemService.getSiteItem(itemUrl)>
 
 
-<div class="row row px-4 px-xl-5">
+<div class="row px-4 px-xl-5 d-none">
     <div class="mb-5 mt-3 mx-3">
       <div class="row align-items-center">
         <!-- Parte sinistra: info -->
