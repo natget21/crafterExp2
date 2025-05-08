@@ -281,7 +281,7 @@
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
-                                                <i class="fas fa-star-half-alt"></i>
+                                                <i class="fas fa-star"></i>
                                                 <i class="far fa-star"></i>
                                             </div>
                                             <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
@@ -295,7 +295,7 @@
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
-                                                <i class="fas fa-star-half-alt"></i>
+                                                <i class="fas fa-star"></i>
                                                 <i class="far fa-star"></i>
                                             </div>
                                             <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
@@ -309,7 +309,7 @@
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
-                                                <i class="fas fa-star-half-alt"></i>
+                                                <i class="fas fa-star"></i>
                                                 <i class="far fa-star"></i>
                                             </div>
                                             <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
@@ -323,7 +323,7 @@
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
-                                                <i class="fas fa-star-half-alt"></i>
+                                                <i class="fas fa-star"></i>
                                                 <i class="far fa-star"></i>
                                             </div>
                                             <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
