@@ -9908,12 +9908,12 @@ a.text-light:focus {
 }
 
 .text-dark {
-  color: #3d464d !important;
+  color: var(--primary-active) !important;
 }
 
 a.text-dark:hover,
 a.text-dark:focus {
-  color: #1b1f22 !important;
+  color: var(--primary-active) !important;
 }
 
 .text-body {
