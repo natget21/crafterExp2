@@ -181,7 +181,7 @@
             <#include "/templates/web/components/category-list.ftl"> 
         </div>
     </div>
-    <div class="container-fluid d-flex justify-content-center">
+    <div class="container-fluid">
         <div class="row px-xl-5">
             <!-- service products -->
 
