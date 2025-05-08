@@ -345,17 +345,13 @@
                                     </div>
                                     <form>
                                         <div class="form-group">
-                                            <label for="message">Your Review *</label>
-                                            <textarea id="message" cols="30" rows="5" class="form-control"></textarea>
-                                        </div>
-                                        <div class="form-group">
                                             <input type="text" class="form-control" id="name" placeholder="Il tuo nome">
                                         </div>
                                         <div class="form-group">
                                             <input type="email" class="form-control" id="email" placeholder="La tua email">
                                         </div>
                                         <div class="form-group">
-                                            <input type="message" class="form-control" id="message" placeholder="Il tuo messaggio">
+                                            <textarea id="message" cols="30" rows="5" class="form-control" placeholder="Il tuo messaggio"></textarea>
                                         </div>
                                         <div class="form-group mb-0">
                                             <input type="submit" value="CONFERMA" style="background-color: var(--secondary-active);" class="btn btn-primary px-3">
