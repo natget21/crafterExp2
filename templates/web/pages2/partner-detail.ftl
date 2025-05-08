@@ -145,11 +145,11 @@
                     </div>
                     <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
                       <p class="category_service_name">Access to Finance</p>
-                      <img class="" src="static-assets/assets/questionmark.png" alt="">
+                      <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Servizi di consulenza finalizzati a facilitare l'accesso a finanziamenti pubblici e privati, tra cui la finanza agevolata, la progettazione di crowdfunding, l'accesso al credito, le misure fiscali e la consulenza in corporate finance.">
                     </div>
                     <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
                       <p class="category_service_name">Consulenza</p>
-                      <img class="" src="static-assets/assets/questionmark.png" alt="">
+                      <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="ServiziServizi progettati per supportare le aziende nel loro percorso di innovazione e crescita, fornendo supporto strategico e operativo su diverse aree come l'orientamento tecnologico, la gestione del cambiamento, l'innovazione sociale e la consulenza ICT e manageriale.">
                     </div>
                   </div>
               </div>
