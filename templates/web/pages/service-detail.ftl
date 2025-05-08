@@ -23,6 +23,8 @@
                 <nav class="breadcrumb bg-light mb-30">
                     <a class="breadcrumb-item" href="index">Home</a>
                     <a class="breadcrumb-item" href="/catalog">Services</a>
+                    <#assign content = siteItemService.getSiteItem(itemUrl)>
+                    <span class="breadcrumb-item active">${content.name_s}</span>
                     <#if servicename?has_content>
                         <span class="breadcrumb-item active">${servicename}</span>
                     <#else>
