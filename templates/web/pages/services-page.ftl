@@ -202,7 +202,7 @@
                         </div>
                     </div> -->
                     
-                        
+                    <!--
                     <#if courseTree?has_content>
                         <@listFilteredItems courseTree />
                     <#else>
@@ -210,6 +210,7 @@
                             <p>Nessun servizio disponibile.</p>
                         </div>
                     </#if>
+                    -->
                     
                     <!-- <div class="col-12">
                         <nav>
