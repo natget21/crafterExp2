@@ -74,27 +74,9 @@
         <h1 class="best_taital text-center dark p-0">Catalogo Servizi</h1>
       </div>
     </div>
-    <#if showItemsFound?? && showItemsFound>
-        <div class="text-center mb-4 pt-5" style="padding-top: 28px !important;">
-            <h2 class="section-title px-5"><span class="px-2 explore bg-white">Esplora le categorie del catalogo</span></h2>
-        </div>
-        <#else>
-        <div class="container-fluid">
-            <div class="row px-xl-5">
-                <div class="col-12">
-                    <nav class="breadcrumb bg-light mb-30">
-                        <a class="breadcrumb-item" href="index">Home</a>
-                        <a class="breadcrumb-item" href="/catalog">Services</a>
-                        <#if servicename?has_content>
-                            <span class="breadcrumb-item active">${servicename}</span>
-                        <#else>
-                            <span class="breadcrumb-item active">Detail</span>
-                        </#if>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </#if>
+    <div class="text-center mb-4 pt-5" style="padding-top: 28px !important;">
+        <h2 class="section-title px-5"><span class="px-2 explore bg-white">Esplora le categorie del catalogo</span></h2>
+    </div>
     <div class="d-flex pt-3">
         <div class="col-3">
         <!-- Tag Start -->
