@@ -65,8 +65,6 @@
             <#if !showItemsFound>
                 <p>No items found in this tree.</p>
             </#if>
-            <#else>
-                <p>No items found in this tree 2.</p>
     </#if>
 
 
