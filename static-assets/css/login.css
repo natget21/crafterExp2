@@ -40,7 +40,7 @@
   transform: translateY(-50%);
 }
 
-.client-login-button, .client-login-button:hover {
+.client-login-button, .client-login-button:hover, .client-login-button:active {
   background-color: #006af5;
   color: white;
   border-radius: 7px;
