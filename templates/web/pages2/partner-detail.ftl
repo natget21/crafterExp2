@@ -141,9 +141,9 @@
                   <div class="category_services row row-gap-5">
                     <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
                       <p class="category_service_name">Test Before Invest</p>
-                      <span data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
-                        <img class="" src="static-assets/assets/questionmark.png" alt="">
+                      <span>
                       </span>
+                      <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
                       <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip in alto">
                         Hover me
                       </button>
