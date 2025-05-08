@@ -213,8 +213,8 @@
                 </div>
             </div>
         </div>
-        <div class="row px-xl-5">
-            <div class="col">
+        <div class="row pl-4 pl-xl-5 w-75">
+            <div class="">
                 <div class="bg-light p-30">
                   <ul class="nav nav-tabs mb-4">
                     <li class="nav-item">
