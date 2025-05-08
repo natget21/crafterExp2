@@ -331,7 +331,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h4 class="mb-4">Leave a review</h4>
+                                    <h4 class="mb-4">Scrivi una recensione</h4>
                                     <small>Your email address will not be published. Required fields are marked *</small>
                                     <div class="d-flex my-3">
                                         <p class="mb-0 mr-2">Your Rating * :</p>
@@ -349,15 +349,16 @@
                                             <textarea id="message" cols="30" rows="5" class="form-control"></textarea>
                                         </div>
                                         <div class="form-group">
-                                            <label for="name">Your Name *</label>
-                                            <input type="text" class="form-control" id="name">
+                                            <input type="text" class="form-control" id="name" placeholder="Il tuo nome">
                                         </div>
                                         <div class="form-group">
-                                            <label for="email">Your Email *</label>
-                                            <input type="email" class="form-control" id="email">
+                                            <input type="email" class="form-control" id="email" placeholder="La tua email">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="message" class="form-control" id="message" placeholder="Il tuo messaggio">
                                         </div>
                                         <div class="form-group mb-0">
-                                            <input type="submit" value="Leave Your Review" class="btn btn-primary px-3">
+                                            <input type="submit" value="CONFERMA" class="btn btn-primary px-3">
                                         </div>
                                     </form>
                                 </div>
