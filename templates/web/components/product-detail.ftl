@@ -15,7 +15,7 @@
 
 
 <div class="row px-xl-5">
-    <div class="container my-5">
+    <div class="my-5 mx-3">
       <div class="row align-items-center">
         <!-- Parte sinistra: info -->
         <div class="col-md-8 d-flex">
