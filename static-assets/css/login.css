@@ -41,7 +41,7 @@
 }
 
 .client-login-button, .client-login-button:hover, .client-login-button:active {
-  background-color: #006af5;
+  background-color: #006af5 !important;
   color: white;
   border-radius: 7px;
   border: none;
