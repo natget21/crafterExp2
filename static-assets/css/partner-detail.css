@@ -77,7 +77,7 @@
 }
 
 .tooltip .tooltip-inner {
-  /* background-color: var(--secondary-active);  */
+  background-color: var(--secondary-active);
   color: #fff; /* Colore del testo */
   text-align: left; /* Allineamento testo a sinistra */
   max-width: 200px; /* (opzionale) Limita larghezza */
