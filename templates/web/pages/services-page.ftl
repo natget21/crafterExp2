@@ -21,12 +21,6 @@
     <#macro listFilteredItems(tree)>
         <#if tree.childItems?has_content>
             <#list tree.childItems as item>
-            <#if item?? && (item?size > 0)>
-                    <#list item?keys as key>
-                      <strong>${key}</strong> : ${item[key]}<br>
-                    </#list>
-            </#if>
-
                 <#if item.isFolder()>
                     <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
                     <#if childTree?has_content>
