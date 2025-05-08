@@ -346,11 +346,11 @@
                                     <div class="d-flex my-3">
                                         <div id="stars" class="text-primary">
                                             <!-- Stelle cliccabili -->
-                                            <i class="far fa-star" data-index="1"></i>
-                                            <i class="far fa-star" data-index="2"></i>
-                                            <i class="far fa-star" data-index="3"></i>
-                                            <i class="far fa-star" data-index="4"></i>
-                                            <i class="far fa-star" data-index="5"></i>
+                                            <i class="far fa-star" style="cursor: pointer;" data-index="1"></i>
+                                            <i class="far fa-star" style="cursor: pointer;" data-index="2"></i>
+                                            <i class="far fa-star" style="cursor: pointer;" data-index="3"></i>
+                                            <i class="far fa-star" style="cursor: pointer;" data-index="4"></i>
+                                            <i class="far fa-star" style="cursor: pointer;" data-index="5"></i>
                                         </div>
                                     </div>
                                 
