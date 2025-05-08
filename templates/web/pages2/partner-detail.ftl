@@ -141,11 +141,11 @@
                   <div class="category_services row row-gap-5">
                     <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
                       <p class="category_service_name">Test Before Invest</p>
-                      <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Servizi che permettono alle aziende di esplorare e testare nuove tecnologie e soluzioni prima di effettuare investimenti, attraverso dimostrazioni pratiche, studi di fattibilità, proof-of-concept, test e validazione di soluzioni.">
+                      <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="left" title="Servizi che permettono alle aziende di esplorare e testare nuove tecnologie e soluzioni prima di effettuare investimenti, attraverso dimostrazioni pratiche, studi di fattibilità, proof-of-concept, test e validazione di soluzioni.">
                     </div>
                     <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
                       <p class="category_service_name">Access to Finance</p>
-                      <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Servizi di consulenza finalizzati a facilitare l'accesso a finanziamenti pubblici e privati, tra cui la finanza agevolata, la progettazione di crowdfunding, l'accesso al credito, le misure fiscali e la consulenza in corporate finance.">
+                      <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="right" title="Servizi di consulenza finalizzati a facilitare l'accesso a finanziamenti pubblici e privati, tra cui la finanza agevolata, la progettazione di crowdfunding, l'accesso al credito, le misure fiscali e la consulenza in corporate finance.">
                     </div>
                     <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
                       <p class="category_service_name">Consulenza</p>
