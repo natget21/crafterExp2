@@ -15,12 +15,10 @@
     <#assign query = RequestParameters.query?default("") />
     <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 3) />
 
-    <#macro listFilteredItems(tree)>
-        <#-- Usa una variabile globale per sapere se abbiamo trovato almeno un item valido -->
-        <#if showItemsFound?? == false>
-            <#assign showItemsFound = false>
-        </#if>
+    <#-- Prima della macro, inizializza showItemsFound come variabile globale -->
+    <#global showItemsFound = false>
     
+    <#macro listFilteredItems(tree)>
         <#if tree.childItems?has_content>
             <#list tree.childItems as item>
                 <#if item.isFolder()>
@@ -52,20 +50,20 @@
                         <div class="col-12 pb-1">
                             <#include "/templates/web/items/service-template.ftl" />
                         </div>
-                        <#assign showItemsFound = true>
+                        <#global showItemsFound = true>
                     </#if>
                 </#if>
             </#list>
         </#if>
     </#macro>
-    showItemsFound: ${showItemsFound}
-    <#-- Dopo la chiamata alla macro, controlla se è stato mostrato almeno un item -->
+    
     <#if tree??>
         <@listFilteredItems tree />
-            <#if !showItemsFound>
-                <p>No items found in this tree.</p>
-            </#if>
+        <#if !showItemsFound>
+            <p>No items found in this tree.</p>
+        </#if>
     </#if>
+
 
 
     
