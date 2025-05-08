@@ -272,7 +272,7 @@
                         </div>
                         <div class="tab-pane fade" id="tab-pane-3">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-6" style="overflow: scroll; height: 360px;">
                                     <div class="media mb-4">
                                         <img src="static-assets/img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1 rounded-5" style="width: 45px;">
                                         <div class="media-body">
