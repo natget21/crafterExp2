@@ -15,7 +15,7 @@
 
 
 <div class="row row px-4 px-xl-5">
-    <div class="my-5 mx-3">
+    <div class="mb-5 mt-3 mx-3">
       <div class="row align-items-center">
         <!-- Parte sinistra: info -->
         <h6 class="fw-bold mb-1" style="color: var(--primary-active);">${content.name_s}</h6>
