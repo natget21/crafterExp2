@@ -89,6 +89,7 @@
 
             <div class="col-lg-7 h-auto mb-30">
                 <div class="h-100 p-30">
+                <!--
                     <h3 id="productName">${title}</h3>
                     <div class="d-flex mb-3">
                         
@@ -153,7 +154,7 @@
                                 <label class="custom-control-label" for="color-5">Green</label>
                             </div>
                         </form>
-                    </div>
+                    </div>-->
                     <div class="d-flex align-items-center mb-4 pt-2">
                         <div class="input-group quantity mr-3" style="width: 130px;">
                             <div class="input-group-btn">
