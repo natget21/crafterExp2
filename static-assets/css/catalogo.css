@@ -47,4 +47,8 @@
   background: var(--primary-active);
 }
 
-
+.desc-title {
+  color: var(--secondary-active) !important;
+  font-weight: 600 !important;
+  font-size: 19px;
+}
