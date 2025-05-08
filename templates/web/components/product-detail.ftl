@@ -218,13 +218,13 @@
                 <div class="bg-light">
                   <ul class="nav nav-tabs mb-4">
                     <li class="nav-item">
-                      <a class="nav-link active" data-bs-toggle="tab" href="#tab-pane-1">Description</a>
+                      <a class="nav-link active" data-bs-toggle="tab" href="#tab-pane-1">Descrizione</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" href="#tab-pane-2">Information</a>
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-pane-2">Informazioni</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" href="#tab-pane-3">Reviews (0)</a>
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-pane-3">Recensioni</a>
                     </li>
                   </ul>
                     <div class="tab-content">
