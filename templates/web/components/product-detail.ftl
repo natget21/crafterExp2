@@ -351,8 +351,8 @@
                                                 <i class="far fa-star"></i>
                                             </div>
                                         </div>
-                                        <div class="form-group mb-0">
-                                            <input type="submit" value="CONFERMA" style="background-color: var(--secondary-active);" class="btn btn-primary px-3">
+                                        <div class="form-group mb-0 d-flex justify-content-end">
+                                            <input type="submit" value="CONFERMA" style="background-color: var(--secondary-active);" class="btn btn-primary px-3 rounded">
                                         </div>
                                     </form>
                                 </div>
