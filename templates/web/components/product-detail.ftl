@@ -18,7 +18,7 @@
     <div class="my-5 mx-3">
       <div class="row align-items-center">
         <!-- Parte sinistra: info -->
-        <h6 class="fw-bold mb-1">Nome del servizio</h6>
+        <h6 class="fw-bold mb-1" style="color: var(--primary-active);">${content.name_s}</h6>
         <small class="text-muted d-block mb-2">Codice prodotto</small>
         <div class="col-md-8 d-flex">
           <!-- Immagine -->
@@ -28,7 +28,6 @@
           <div>
           
             <#if content?? && content?has_content>
-              <h2>${content.name_s}</h2>
               <p>${content.costo_s}</p>
             <#else>
               <p>No content found for internal-name: ${itemUrl}</p>
