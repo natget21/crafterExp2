@@ -83,9 +83,18 @@
   max-width: 200px; /* (opzionale) Limita larghezza */
 }
 
-.tooltip .arrow::before {
+.tooltip.bs-tooltip-bottom .arrow::before {
   border-bottom-color: var(--secondary-active);
-  border-left-color: var(--secondary-active);
-  border-right-color: var(--secondary-active);
+}
+
+.tooltip.bs-tooltip-top .arrow::before {
   border-top-color: var(--secondary-active);
+}
+
+.tooltip.bs-tooltip-left .arrow::before {
+  border-left-color: var(--secondary-active);
+}
+
+.tooltip.bs-tooltip-right .arrow::before {
+  border-right-color: var(--secondary-active);
 }
