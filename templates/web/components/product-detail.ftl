@@ -48,9 +48,9 @@
         <!-- Parte destra: quantità + bottone -->
         <div class="col-md-4 d-flex flex-column align-items-end">
           <div class="d-flex align-items-center mb-3">
-            <button style="height:16px;" class="btn btn-secondary btn-sm me-2 d-flex align-items-center">-</button>
+            <button style="height: 16px; width: 20px;" class="btn btn-secondary btn-sm me-2 d-flex align-items-center justify-content-center">-</button>
             <span class="text-dark">1</span>
-            <button style="height:16px;" class="btn btn-secondary btn-sm ms-2 d-flex align-items-center">+</button>
+            <button style="height: 16px; width: 20px;" class="btn btn-secondary btn-sm ms-2 d-flex align-items-center justify-content-center">+</button>
           </div>
           <button class="btn btn-secondary text-white rounded-pill px-4">AGGIUNGI AL CARRELLO</button>
         </div>
