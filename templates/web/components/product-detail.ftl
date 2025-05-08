@@ -18,7 +18,7 @@
     <div class="mb-5 mt-3 mx-3">
       <div class="row align-items-center pr-4">
         <!-- Parte sinistra: info -->
-        <h6 class="fw-bold mb-1" style="color: var(--primary-active);">${conten.name_s}</h6>
+        <h6 class="fw-bold mb-1" style="color: var(--primary-active);">${content.name_s}</h6>
         <small class="text-muted d-block mb-2">Codice prodotto</small>
         <div class="col-md-8 d-flex">
           <!-- Immagine -->
