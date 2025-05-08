@@ -202,7 +202,7 @@
                         </div>
                     </div> -->
                     
-                    <#if courseTree??>
+                    <#if courseTree?has_content>
                         <@listFilteredItems courseTree />
                     <#else>
                         <div class="col-12">
