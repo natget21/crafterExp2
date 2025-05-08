@@ -358,7 +358,7 @@
                                             <input type="message" class="form-control" id="message" placeholder="Il tuo messaggio">
                                         </div>
                                         <div class="form-group mb-0">
-                                            <input type="submit" value="CONFERMA" class="btn btn-primary px-3">
+                                            <input type="submit" value="CONFERMA" style="background-color: var(--secondary-active);" class="btn btn-primary px-3">
                                         </div>
                                     </form>
                                 </div>
