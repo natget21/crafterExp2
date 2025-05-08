@@ -23,7 +23,7 @@
             <#list tree.childItems as item>
             <#if item?? && (item?size > 0)>
                     <#list item?keys as key>
-                      <strong>${key}</strong> : ${partner[key]}<br>
+                      <strong>${key}</strong> : ${item[key]}<br>
                     </#list>
             </#if>
 
