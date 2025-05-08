@@ -352,7 +352,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group mb-0 d-flex justify-content-end">
-                                            <input type="submit" value="CONFERMA" style="background-color: var(--secondary-active);" class="btn btn-primary px-3 rounded">
+                                            <input type="submit" value="CONFERMA" style="background-color: var(--secondary-active);" class="btn btn-primary px-3 rounded border-none">
                                         </div>
                                     </form>
                                 </div>
