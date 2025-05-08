@@ -64,7 +64,7 @@
         <div class="row px-xl-5">
             <div class="col-lg-5 mb-30">
                 <div id="product-carousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner bg-light">
+                    <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img class="w-100 h-100" src="/static-assets/img/default/product-default.png" alt="Image">
                         </div>
@@ -88,7 +88,7 @@
             </div>
 
             <div class="col-lg-7 h-auto mb-30">
-                <div class="h-100 bg-light p-30">
+                <div class="h-100 p-30">
                     <h3 id="productName">${title}</h3>
                     <div class="d-flex mb-3">
                         
@@ -215,7 +215,7 @@
         </div>
         <div class="row pl-4 px-xl-5 w-100">
             <div class="">
-                <div class="bg-light pb-5">
+                <div class="pb-5">
                   <ul class="nav nav-tabs mb-4">
                     <li class="nav-item">
                       <a class="nav-link active" data-bs-toggle="tab" href="#tab-pane-1">Descrizione</a>
