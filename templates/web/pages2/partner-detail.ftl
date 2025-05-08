@@ -141,13 +141,7 @@
                   <div class="category_services row row-gap-5">
                     <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
                       <p class="category_service_name">Test Before Invest</p>
-                      <span>
-                      </span>
                       <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
-                      <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip in alto">
-                        Hover me
-                      </button>
-
                     </div>
                     <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
                       <p class="category_service_name">Access to Finance</p>
@@ -263,12 +257,14 @@
 
     <script>
       document.addEventListener('DOMContentLoaded', function () {
-        const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-        tooltipTriggerList.forEach(function (tooltipTriggerEl) {
-          new bootstrap.Tooltip(tooltipTriggerEl);
+        const el = document.querySelector('[data-bs-toggle="tooltip"]');
+        new bootstrap.Tooltip(el, {
+          placement: 'bottom',
+          fallbackPlacements: [] // Nessun fallback
         });
       });
     </script>
+
 
     <@crafter.body_bottom/>
 </body>
