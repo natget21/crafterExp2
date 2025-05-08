@@ -234,7 +234,10 @@
                         </div>
                         <div class="tab-pane fade" id="tab-pane-2">
                             <h4 class="mb-3">Additional Information</h4>
-                            <pre>${content.properties?string}</pre>
+                            <#list content?keys as prop>
+                                ${prop} = ${content.get(prop)}
+                            </#list>  
+
 
 
 
