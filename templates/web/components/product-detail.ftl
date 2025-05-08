@@ -234,7 +234,7 @@
                         </div>
                         <div class="tab-pane fade" id="tab-pane-2">
                             <h4 class="mb-3">Additional Information</h4>
-                            ${content.name_s}
+                            ${content.getItem()}
                             <#if content?? && (content?size > 0)>
                               <#list content?keys as key>
                                 <strong>${key}</strong> : ${content[key]}<br>
