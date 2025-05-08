@@ -213,7 +213,7 @@
                 </div>
             </div>
         </div>
-        <div class="row pl-4 pl-xl-5 w-75">
+        <div class="row pl-4 px-xl-5 w-100">
             <div class="">
                 <div class="bg-light">
                   <ul class="nav nav-tabs mb-4">
