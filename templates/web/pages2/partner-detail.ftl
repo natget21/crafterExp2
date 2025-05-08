@@ -149,7 +149,7 @@
                     </div>
                     <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
                       <p class="category_service_name">Consulenza</p>
-                      <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="ServiziServizi progettati per supportare le aziende nel loro percorso di innovazione e crescita, fornendo supporto strategico e operativo su diverse aree come l'orientamento tecnologico, la gestione del cambiamento, l'innovazione sociale e la consulenza ICT e manageriale.">
+                      <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Servizi progettati per supportare le aziende nel loro percorso di innovazione e crescita, fornendo supporto strategico e operativo su diverse aree come l'orientamento tecnologico, la gestione del cambiamento, l'innovazione sociale e la consulenza ICT e manageriale.">
                     </div>
                   </div>
               </div>
@@ -257,10 +257,12 @@
 
     <script>
       document.addEventListener('DOMContentLoaded', function () {
-        const el = document.querySelector('[data-bs-toggle="tooltip"]');
-        new bootstrap.Tooltip(el, {
+        const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+          new bootstrap.Tooltip(tooltipTriggerEl, {
           placement: 'bottom',
           fallbackPlacements: [] // Nessun fallback
+        });
         });
       });
     </script>
