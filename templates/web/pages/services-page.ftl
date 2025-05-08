@@ -58,7 +58,7 @@
             </#list>
         </#if>
     </#macro>
-    
+    showItemsFound: ${showItemsFound}
     <#-- Dopo la chiamata alla macro, controlla se è stato mostrato almeno un item -->
     <#if tree??>
         <@listFilteredItems tree />
