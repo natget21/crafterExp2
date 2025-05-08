@@ -263,7 +263,7 @@
               placement: 'bottom',
               fallbackPlacements: [] // Nessun fallback
           });
-        tooltipTriggerEl.addEventListener('shown.bs.tooltip', function () {
+        tooltipTriggerEl.addEventListener('hover', function () {
             console.log('ELEMENTI CARICATI:', tooltipTriggerEl);
         });
 
