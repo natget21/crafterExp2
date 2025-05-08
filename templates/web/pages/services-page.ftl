@@ -178,7 +178,15 @@
                 <!-- Tag End -->
         </div>
         <div class="col-9">
-            <#include "/templates/web/components/category-list.ftl"> 
+            <#include "/templates/web/components/category-list.ftl">
+            <#if courseTree?has_content>
+                <@listFilteredItems courseTree />
+            </#if>
+            <#if showItemsFound?? && !showItemsFound>
+                <div class="col-12">
+                    <p class="text-center">Nessun servizio disponibile.</p>
+                </div>
+            </#if>
         </div>
     </div>
     <div class="container-fluid">
@@ -215,14 +223,7 @@
                         </div>
                     </div> -->
                     
-                    <#if courseTree?has_content>
-                        <@listFilteredItems courseTree />
-                    </#if>
-                    <#if showItemsFound?? && !showItemsFound>
-                        <div class="col-12">
-                            <p class="text-center">Nessun servizio disponibile.</p>
-                        </div>
-                    </#if>
+
                     
                     <!-- <div class="col-12">
                         <nav>
