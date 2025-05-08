@@ -255,7 +255,7 @@
                             <p>Dolore magna est eirmod sanctus dolor, amet diam et eirmod et ipsum. Amet dolore tempor consetetur sed lorem dolor sit lorem tempor. Gubergren amet amet labore sadipscing clita clita diam clita. Sea amet et sed ipsum lorem elitr et, amet et labore voluptua sit rebum. Ea erat sed et diam takimata sed justo. Magna takimata justo et amet magna et.</p>
                         </div>
                         <div class="tab-pane fade" id="tab-pane-2">
-                            <#include "product-detail-desc-finance.ftl">
+                            <#include "product-detail-desc-consulenza.ftl">
                         </div>
                         <div class="tab-pane fade" id="tab-pane-3">
                             <div class="row">
