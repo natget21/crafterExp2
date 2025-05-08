@@ -59,9 +59,9 @@
     
     <#if tree??>
         <@listFilteredItems tree />
-        <#if !showItemsFound>
-            <p>No items found in this tree.</p>
-        </#if>
+    </#if>
+    <#if !showItemsFound>
+        <p>No items found in this tree.</p>
     </#if>
 
 
