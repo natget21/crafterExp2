@@ -1,422 +1,108 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#assign title = RequestParameters.n?default("") />
-<#assign price = RequestParameters.p?default("") />
-<#assign gdpr = (RequestParameters.g?default("false") == "true") />
-<#assign privacy = (RequestParameters.pri?default("false") == "true") />
-<#assign productId = RequestParameters.pid?default("") />
-<#assign cup = RequestParameters.cup?default("") />
-<#assign agevolazione = RequestParameters.agev?default("") />
-<#assign itemUrl = RequestParameters.item?default("") />
-<#assign partnerId = RequestParameters.partnerId?default("") />
-
-
-<#assign content = siteItemService.getSiteItem(itemUrl)>
-
-
-<div class="row mx-4 mx-xl-5">
-    <div class="mb-5 mt-3 mx-3">
-      <div class="row align-items-center pr-4">
-        <!-- Parte sinistra: info -->
-        <h6 class="fw-bold mb-1" style="color: var(--primary-active);">${content.name_s}</h6>
-        <small class="text-muted d-block mb-2">Codice prodotto</small>
-        <div class="col-md-8 d-flex">
-          <!-- Immagine -->
-          <img src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="Servizio" class="me-3" style="width:180px; height:100px;">
-          
-          <!-- Testo -->
-          <div>
-          
-            <#if content?? && content?has_content>
-              <p>${content.costo_s}</p>
-            <#else>
-              <p>No content found for internal-name: ${itemUrl}</p>
-            </#if>
-            <p class="text-primary fw-bold mb-2" style="font-size: 0.85rem;">DESCRIZIONE PRODOTTO</p>
-            <p class="text-primary" style="font-size: 0.85rem;">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
-            </p>
-            <div class="mt-2">
-              <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
-              <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
-              <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
-              <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
-            </div>
-          </div>
-        </div>
-    
-        <!-- Parte destra: quantità + bottone -->
-        <div class="col-md-4 d-flex flex-column align-items-end">
-          <div class="input-group quantity d-flex align-items-center mb-3 justify-content-end">
-            <button id="decrease" style="height: 16px; width: 20px;" class="btn btn-secondary btn-sm me-2 d-flex align-items-center justify-content-center">-</button>
-            <span style="width: 50px; text-align: center;" id="quantity" class="text-dark">1</span>
-            <button id="increase" style="height: 16px; width: 20px;" class="btn btn-secondary btn-sm ms-2 d-flex align-items-center justify-content-center">+</button>
-          </div>
-          <button class="btn btn-secondary text-white rounded-pill px-4">AGGIUNGI AL CARRELLO</button>
-        </div>
-
-        <script>
-          const quantitySpan = document.getElementById('quantity');
-          const increaseBtn = document.getElementById('increase');
-          const decreaseBtn = document.getElementById('decrease');
-        
-          let quantity = 1;
-        
-          increaseBtn.addEventListener('click', () => {
-            quantity++;
-            quantitySpan.textContent = quantity;
-          });
-        
-          decreaseBtn.addEventListener('click', () => {
-            if (quantity > 1) {
-              quantity--;
-              quantitySpan.textContent = quantity;
-            }
-          });
-        </script>
-
+<div class="container mt-5">
+  <form>
+    <div class="row mb-5">
+      <div class="col-md-3">
+        <label class="desc-title form-label fw-bold">Sottocategoria</label>
+        <div>Categorie</div>
+      </div>
+      <div class="col-md-3">
+        <label class="desc-title form-label fw-bold">Codice Interno</label>
+        <div>00000000</div>
       </div>
     </div>
-</div>
 
-
-
-<div class="container-fluid pb-5 d-none">
-        <div class="row px-xl-5">
-            <div class="col-lg-5 mb-30">
-                <div id="product-carousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="w-100 h-100" src="/static-assets/img/default/product-default.png" alt="Image">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="w-100 h-100" src="/static-assets/img/default/product-default.png" alt="Image">
-                        </div>
-                        <!--<div class="carousel-item">
-                            <img class="w-100 h-100" src="static-assets/img/product-3.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="w-100 h-100" src="static-assets/img/product-4.jpg" alt="Image">
-                        </div>-->
-                    </div>
-                    <a class="carousel-control-prev" href="#product-carousel" data-slide="prev">
-                        <i class="fa fa-2x fa-angle-left text-dark"></i>
-                    </a>
-                    <a class="carousel-control-next" href="#product-carousel" data-slide="next">
-                        <i class="fa fa-2x fa-angle-right text-dark"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-lg-7 h-auto mb-30">
-                <div class="h-100 p-30">
-                <!--
-                    <h3 id="productName">${title}</h3>
-                    <div class="d-flex mb-3">
-                        
-                        <small class="pt-1" id="productCode">${productId}</small>
-                        <small class="pt-1" style="visibility: hidden" id="agevolazione">${agevolazione}</small>
-                        <small class="pt-1" style="visibility: hidden" id="itemUrl">${itemUrl}</small>
-                        <small class="pt-1" style="visibility: hidden" id="partnerId">${partnerId}</small>
-                    </div>
-                    <div class="d-flex mb-3">
-                        <small class="pt-1">CUP : </small> <small class="pt-1" id="cup">${cup}</small>
-                    </div>
-                    <h3 class="font-weight-semi-bold mb-4" id="productPrice">EUR ${price}</h3>
-                    <p class="mb-4">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit
-                        clita ea. Sanc ipsum et, labore clita lorem magna duo dolor no sea
-                        Nonumy</p>
-                    <div class="d-flex mb-3">
-                        <strong class="text-dark mr-3">Sizes:</strong>
-                        <form>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" id="size-1" name="size">
-                                <label class="custom-control-label" for="size-1">XS</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" id="size-2" name="size">
-                                <label class="custom-control-label" for="size-2">S</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" id="size-3" name="size">
-                                <label class="custom-control-label" for="size-3">M</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" id="size-4" name="size">
-                                <label class="custom-control-label" for="size-4">L</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" id="size-5" name="size">
-                                <label class="custom-control-label" for="size-5">XL</label>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="d-flex mb-4">
-                        <strong class="text-dark mr-3">Colors:</strong>
-                        <form>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" id="color-1" name="color">
-                                <label class="custom-control-label" for="color-1">Black</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" id="color-2" name="color">
-                                <label class="custom-control-label" for="color-2">White</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" id="color-3" name="color">
-                                <label class="custom-control-label" for="color-3">Red</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" id="color-4" name="color">
-                                <label class="custom-control-label" for="color-4">Blue</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" id="color-5" name="color">
-                                <label class="custom-control-label" for="color-5">Green</label>
-                            </div>
-                        </form>
-                    </div>-->
-                    <div class="d-flex align-items-center mb-4 pt-2">
-                        <div class="input-group quantity mr-3" style="width: 130px;">
-                            <div class="input-group-btn">
-                                <button class="btn btn-primary btn-minus">
-                                    <i class="fa fa-minus"></i>
-                                </button>
-                            </div>
-                            <input type="text" class="form-control bg-secondary border-0 text-center" id="productQty" value="1">
-                            <div class="input-group-btn">
-                                <button class="btn btn-primary btn-plus">
-                                    <i class="fa fa-plus"></i>
-                                </button>
-                            </div>
-                        </div>
-                        </div>
-                            <div class="d-flex align-items-center mb-4 pt-2">
-                            
-                                <#if privacy>
-                                    <div class="form-check mb-2">
-                                        <input type="checkbox" id="termsCheckbox" class="form-check-input">
-                                        <label for="termsCheckbox" class="form-check-label">I accept the <a href="/privacy#tac" target="_blank">Terms and Conditions</a></label>
-                                    </div>
-                                </#if>
-                                </div>
-                                <div class="d-flex align-items-center mb-4 pt-2">
-                                <#if gdpr>
-                                    <div class="form-check">
-                                        <input type="checkbox" id="gdprCheckbox" class="form-check-input">
-                                        <label for="gdprCheckbox" class="form-check-label">
-                                            I accept the 
-                                            <a href="/privacy#gdpr" target="_blank">GDPR Privacy Policy</a>
-                                        </label>
-                                    </div>
-                                </#if>
-                            
-                        </div>
-                        
-                        <button id="add-order" class="btn btn-primary px-3" disabled><i class="fa fa-shopping-cart mr-1"></i> Order Item </button>
-                    </div>
-                    <!--<div class="d-flex pt-2">
-                        <strong class="text-dark mr-2">Share on:</strong>
-                        <div class="d-inline-flex">
-                            <a class="text-dark px-2" href="">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a class="text-dark px-2" href="">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a class="text-dark px-2" href="">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a class="text-dark px-2" href="">
-                                <i class="fab fa-pinterest"></i>
-                            </a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
+    <div class="row mb-5">
+      <div class="col-md-3">
+        <label class="desc-title form-label fw-bold">Nome</label>
+        <div>Nome</div>
+      </div>
+      <div class="col-md-3">
+        <label class="desc-title form-label fw-bold">Obiettivo</label>
+        <div>Descrizione obiettivo</div>
+      </div>
+      <div class="col-md-6">
+        <label class="desc-title form-label fw-bold">Descrizione</label>
+        <div
+          style="
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          "
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliquaLorem
+          ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliquaLorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua
         </div>
-        <div class="row pl-4 px-xl-5 w-100">
-            <div class="">
-                <div class="pb-5">
-                  <ul class="nav nav-tabs mb-4">
-                    <li class="nav-item">
-                      <a class="nav-link active" data-bs-toggle="tab" href="#tab-pane-1">Descrizione</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" href="#tab-pane-2">Informazioni</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" href="#tab-pane-3">Recensioni</a>
-                    </li>
-                  </ul>
-                    <div class="tab-content">
-                        <div class="tab-pane fade show active" id="tab-pane-1">
-                            <p>Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et, lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.</p>
-                            <p>Dolore magna est eirmod sanctus dolor, amet diam et eirmod et ipsum. Amet dolore tempor consetetur sed lorem dolor sit lorem tempor. Gubergren amet amet labore sadipscing clita clita diam clita. Sea amet et sed ipsum lorem elitr et, amet et labore voluptua sit rebum. Ea erat sed et diam takimata sed justo. Magna takimata justo et amet magna et.</p>
-                        </div>
-                        <div class="tab-pane fade" id="tab-pane-2">
-                            <h4 class="mb-3">Additional Information</h4>
-
-
-
-
-
-
-                            <p>Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et, lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.</p>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item px-0">
-                                            Sit erat duo lorem duo ea consetetur, et eirmod takimata.
-                                        </li>
-                                        <li class="list-group-item px-0">
-                                            Amet kasd gubergren sit sanctus et lorem eos sadipscing at.
-                                        </li>
-                                        <li class="list-group-item px-0">
-                                            Duo amet accusam eirmod nonumy stet et et stet eirmod.
-                                        </li>
-                                        <li class="list-group-item px-0">
-                                            Takimata ea clita labore amet ipsum erat justo voluptua. Nonumy.
-                                        </li>
-                                      </ul> 
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item px-0">
-                                            Sit erat duo lorem duo ea consetetur, et eirmod takimata.
-                                        </li>
-                                        <li class="list-group-item px-0">
-                                            Amet kasd gubergren sit sanctus et lorem eos sadipscing at.
-                                        </li>
-                                        <li class="list-group-item px-0">
-                                            Duo amet accusam eirmod nonumy stet et et stet eirmod.
-                                        </li>
-                                        <li class="list-group-item px-0">
-                                            Takimata ea clita labore amet ipsum erat justo voluptua. Nonumy.
-                                        </li>
-                                      </ul> 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-pane-3">
-                            <div class="row">
-                                <div class="col-md-6 reviews-list" style="overflow: scroll; height: 360px;">
-                                    <div class="media mb-4">
-                                        <img src="static-assets/img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1 rounded-5" style="width: 45px;">
-                                        <div class="media-body">
-                                            <h6 class="text-dark">John Doe<small class="ml-4" style="color:grey;"> 01 Jan 2045 </small></h6>
-                                            <div class="text-primary mb-2">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="far fa-star"></i>
-                                            </div>
-                                            <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
-                                        </div>
-                                    </div>
-                                    <div class="media mb-4">
-                                        <img src="static-assets/img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1 rounded-5" style="width: 45px;">
-                                        <div class="media-body">
-                                            <h6 class="text-dark">Mario Rossi<small class="ml-4" style="color:grey;"> 01 Jan 2045 </small></h6>
-                                            <div class="text-primary mb-2">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="far fa-star"></i>
-                                            </div>
-                                            <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
-                                        </div>
-                                    </div>
-                                    <div class="media mb-4">
-                                        <img src="static-assets/img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1 rounded-5" style="width: 45px;">
-                                        <div class="media-body">
-                                            <h6 class="text-dark">Mario Rossi<small class="ml-4" style="color:grey;"> 01 Jan 2045 </small></h6>
-                                            <div class="text-primary mb-2">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="far fa-star"></i>
-                                            </div>
-                                            <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
-                                        </div>
-                                    </div>
-                                    <div class="media mb-4">
-                                        <img src="static-assets/img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1 rounded-5" style="width: 45px;">
-                                        <div class="media-body">
-                                            <h6 class="text-dark">Mario Rossi<small class="ml-4" style="color:grey;"> 01 Jan 2045 </small></h6>
-                                            <div class="text-primary mb-2">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="far fa-star"></i>
-                                            </div>
-                                            <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h4 class="mb-4 text-dark">Scrivi una recensione</h4>
-                                <form id="reviewForm">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Il tuo nome">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="email" placeholder="La tua email">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea id="message" cols="30" rows="5" class="form-control" placeholder="Il tuo messaggio"></textarea>
-                                    </div>
-                                    
-                                    <div class="d-flex my-3">
-                                        <div id="stars" class="text-primary">
-                                            <!-- Stelle cliccabili -->
-                                            <i class="far fa-star" style="cursor: pointer;" data-index="1"></i>
-                                            <i class="far fa-star" style="cursor: pointer;" data-index="2"></i>
-                                            <i class="far fa-star" style="cursor: pointer;" data-index="3"></i>
-                                            <i class="far fa-star" style="cursor: pointer;" data-index="4"></i>
-                                            <i class="far fa-star" style="cursor: pointer;" data-index="5"></i>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="form-group mb-0 d-flex justify-content-end">
-                                        <input type="submit" value="CONFERMA" style="background-color: var(--secondary-active); border:none;" class="btn btn-primary px-3 rounded">
-                                    </div>
-                                </form>
-                                <script>
-                                    const stars = document.querySelectorAll('#stars i');
-                                    let selectedStars = 0;
-                                
-                                    stars.forEach(star => {
-                                        star.addEventListener('click', () => {
-                                            selectedStars = parseInt(star.getAttribute('data-index'));
-                                            // Aggiorna visualmente le stelle
-                                            stars.forEach((s, index) => {
-                                                s.classList.remove('fas', 'far');
-                                                s.classList.add(index < selectedStars ? 'fas' : 'far');
-                                            });
-                                
-                                            // Salva il valore nel localStorage
-                                            localStorage.setItem('rating', selectedStars);
-                                        });
-                                    });
-                                
-                                    document.getElementById('reviewForm').addEventListener('submit', function(e) {
-                                        e.preventDefault(); // Previene il submit per test
-                                        console.log('Recensione salvata con', selectedStars, 'stelle');
-                                        // Qui puoi anche salvare nome, email e messaggio se vuoi
-                                    });
-                                </script>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+
+    <div class="row mb-5">
+      <div class="col-md-3">
+        <label class="desc-title form-label fw-bold"
+          >Modalità di erogazione</label
+        >
+        <div>Modalità</div>
+      </div>
+      <div class="col-md-3">
+        <label class="desc-title form-label fw-bold">Destinatari</label>
+        <div>Destinatari</div>
+      </div>
+      <div class="col-md-3">
+        <label class="desc-title form-label fw-bold">Durata totale</label>
+        <div>00</div>
+      </div>
+      <div class="col-md-3">
+        <label class="desc-title form-label fw-bold">Durata sessione</label>
+        <div>00</div>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-md-3">
+        <label class="desc-title form-label fw-bold">Partecipanti</label>
+        <div>Min: 00 - Max: 00</div>
+      </div>
+      <div class="col-md-3">
+        <label class="desc-title form-label fw-bold">Costo orario</label>
+        <div>€€€</div>
+      </div>
+      <div class="col-md-3">
+        <label class="desc-title form-label fw-bold">Tipologia costo</label>
+        <div>€€€</div>
+      </div>
+      <div class="col-md-3">
+        <label class="desc-title form-label fw-bold">Extra costo</label>
+        <div>€€€</div>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-md-3">
+        <label class="desc-title form-label fw-bold">Partecipanti</label>
+        <div>Min: 00 - Max: 00</div>
+      </div>
+      <div class="col-md-3 form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="agevolazione"
+        />
+        <label class="text-dark form-check-label" for="agevolazione">
+          Agevolazione possibile
+        </label>
+      </div>
+    </div>
+
+    <div class="mb-5">
+      <label class="desc-title form-label fw-bold">CUP</label>
+      <div>CUP</div>
+    </div>
+  </form>
+</div>
