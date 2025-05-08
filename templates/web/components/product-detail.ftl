@@ -60,7 +60,7 @@
 
 
 
-<div class="container-fluid pb-5 d-none">
+<div class="container-fluid pb-5">
         <div class="row px-xl-5">
             <div class="col-lg-5 mb-30">
                 <div id="product-carousel" class="carousel slide" data-ride="carousel">
