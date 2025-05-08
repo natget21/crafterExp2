@@ -331,18 +331,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h4 class="mb-4">Scrivi una recensione</h4>
-                                    <small>Your email address will not be published. Required fields are marked *</small>
-                                    <div class="d-flex my-3">
-                                        <p class="mb-0 mr-2">Your Rating * :</p>
-                                        <div class="text-primary">
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                        </div>
-                                    </div>
+                                    <h4 class="mb-4 text-dark">Scrivi una recensione</h4>
                                     <form>
                                         <div class="form-group">
                                             <input type="text" class="form-control" id="name" placeholder="Il tuo nome">
@@ -352,6 +341,15 @@
                                         </div>
                                         <div class="form-group">
                                             <textarea id="message" cols="30" rows="5" class="form-control" placeholder="Il tuo messaggio"></textarea>
+                                        </div>
+                                        <div class="d-flex my-3">
+                                            <div class="text-primary">
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </div>
                                         </div>
                                         <div class="form-group mb-0">
                                             <input type="submit" value="CONFERMA" style="background-color: var(--secondary-active);" class="btn btn-primary px-3">
