@@ -260,7 +260,7 @@
         const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
         tooltipTriggerList.forEach(function (tooltipTriggerEl) {
           new bootstrap.Tooltip(tooltipTriggerEl, {
-              placement: 'right',
+              placement: 'left',
               fallbackPlacements: [] // Nessun fallback
           });
         tooltipTriggerEl.addEventListener('click', function () {
