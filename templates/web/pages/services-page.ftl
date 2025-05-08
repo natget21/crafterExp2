@@ -58,6 +58,9 @@
     </#macro>
     
     
+    <#if tree??>
+        <@listFilteredItems tree />
+    </#if>
 
 
 
