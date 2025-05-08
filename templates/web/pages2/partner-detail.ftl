@@ -265,6 +265,7 @@
           });
         tooltipTriggerEl.addEventListener('click', function () {
             console.log('ELEMENTI CARICATI:', tooltipTriggerEl);
+            debugger
         });
 
         });
