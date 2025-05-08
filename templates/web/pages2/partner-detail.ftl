@@ -258,11 +258,12 @@
     <script>
       document.addEventListener('DOMContentLoaded', function () {
         const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        console.log('ELEMENTI CARICATI')
         tooltipTriggerList.forEach(function (tooltipTriggerEl) {
           new bootstrap.Tooltip(tooltipTriggerEl, {
-          placement: 'bottom',
-          fallbackPlacements: [] // Nessun fallback
-        });
+              placement: 'bottom',
+              fallbackPlacements: [] // Nessun fallback
+          });
         });
       });
     </script>
