@@ -215,7 +215,7 @@
         </div>
         <div class="row pl-4 px-xl-5 w-100">
             <div class="">
-                <div class="bg-light">
+                <div class="bg-light pb-5">
                   <ul class="nav nav-tabs mb-4">
                     <li class="nav-item">
                       <a class="nav-link active" data-bs-toggle="tab" href="#tab-pane-1">Descrizione</a>
