@@ -180,7 +180,7 @@
         <div class="col-9">
         <#if showItemsFound?? && !showItemsFound>
             <#include "/templates/web/components/category-list.ftl"> 
-            </#else>
+            <#else>
                 <#if courseTree?has_content>
                     <@listFilteredItems courseTree />
                 </#if>
