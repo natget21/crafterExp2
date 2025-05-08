@@ -47,19 +47,6 @@
     
         <!-- Parte destra: quantità + bottone -->
         <div class="col-md-4 d-flex flex-column align-items-end">
-        <div class="input-group quantity mr-3" style="width: 130px;">
-            <div class="input-group-btn">
-                <button style="height: 16px; width: 20px;"  class="btn btn-secondary btn-sm me-2 d-flex align-items-center justify-content-center">
-                    -
-                </button>
-            </div>
-            <input type="text" class="form-control bg-secondary border-0 text-center" id="productQty" value="1">
-            <div class="input-group-btn">
-                <button style="height: 16px; width: 20px;"  class="btn btn-secondary btn-sm me-2 d-flex align-items-center justify-content-center">
-                    +
-                </button>
-            </div>
-        </div>
           <div class="input-group quantity d-flex align-items-center mb-3">
             <button style="height: 16px; width: 20px;" class="btn btn-secondary btn-sm me-2 d-flex align-items-center justify-content-center">-</button>
             <span class="text-dark">1</span>
