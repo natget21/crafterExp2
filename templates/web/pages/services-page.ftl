@@ -61,6 +61,7 @@
     
     <#-- Dopo la chiamata alla macro, controlla se è stato mostrato almeno un item -->
     <#if tree??>
+        tree esiste
         <@listFilteredItems tree />
         <#if !showItemsFound>
             <p>No items found in this tree.</p>
