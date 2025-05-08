@@ -234,9 +234,9 @@
                         </div>
                         <div class="tab-pane fade" id="tab-pane-2">
                             <h4 class="mb-3">Additional Information</h4>
-                            <#if content?? && content.getProperties()??>
-                                <#list content.getProperties()?keys as key>
-                                  ${key}: ${content.getProperties()[key]}<br/>
+                            <#if content?? && content.properties??>
+                                <#list content.properties?keys as key>
+                                  ${key}: ${content.properties[key]}<br/>
                                 </#list>
                             </#if>
 
