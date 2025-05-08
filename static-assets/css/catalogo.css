@@ -24,7 +24,27 @@
 .explore{
     color: var(--primary-active);
     font-weight: 100;
+}
 
+.reviews-list::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+  height: 10px;
+}
+
+.reviews-list::-webkit-scrollbar-track {
+  background: transparent;
+  height: 10px;
+  border-radius: 4px;
+}
+
+.reviews-list::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+.reviews-list::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-active);
 }
 
 
