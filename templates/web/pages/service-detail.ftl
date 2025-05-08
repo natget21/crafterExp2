@@ -54,6 +54,7 @@
     </div>
    
     <#include "/templates/web/components/product-detail.ftl"> 
+    <#include "/templates/web/components/product-detail-desc-finance.ftl"> 
     <!-- <#include "/templates/web/components/product-carousel.ftl"> -->
     
     <#include "/templates/web/fragments/footer.ftl">
