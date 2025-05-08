@@ -82,3 +82,7 @@
   text-align: left; /* Allineamento testo a sinistra */
   max-width: 200px; /* (opzionale) Limita larghezza */
 }
+
+.tooltip .arrow {
+  background-color: var(--secondary-active);
+}
