@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 
-<div class="container mt-5">
+<div class="mt-5">
   <form>
     <div class="row mb-5">
       <div class="col-md-3">
