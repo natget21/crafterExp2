@@ -26,7 +26,7 @@
           <div>
           
             <#if content?? && content?has_content>
-              <h1>${content.name_s}</h1>
+              <h2>${content.name_s}</h2>
               <p>${content.costo_s}</p>
             <#else>
               <p>No content found for internal-name: ${itemUrl}</p>
