@@ -51,6 +51,7 @@
 
 .category_service_name{
     color: var(--secondary-active);
+    text-align: left;
 }
 
 .category_service img{
