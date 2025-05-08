@@ -62,7 +62,11 @@
     <#-- Dopo la chiamata alla macro, controlla se è stato mostrato almeno un item -->
     <#if tree??>
         <@listFilteredItems tree />
-            <p>No items found in this tree.</p>
+            <#if !showItemsFound>
+                <p>No items found in this tree.</p>
+            </#if>
+            <#else>
+                <p>No items found in this tree 2.</p>
     </#if>
 
 
