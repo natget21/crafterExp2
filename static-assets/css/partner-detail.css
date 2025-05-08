@@ -85,4 +85,7 @@
 
 .tooltip .arrow::before {
   border-bottom-color: var(--secondary-active);
+  border-left-color: var(--secondary-active);
+  border-right-color: var(--secondary-active);
+  border-top-color: var(--secondary-active);
 }
