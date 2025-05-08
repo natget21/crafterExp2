@@ -83,6 +83,6 @@
   max-width: 200px; /* (opzionale) Limita larghezza */
 }
 
-.tooltip .arrow {
+.tooltip .arrow::before {
   border-bottom-color: var(--secondary-active);
 }
