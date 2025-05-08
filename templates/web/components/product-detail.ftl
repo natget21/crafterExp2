@@ -18,6 +18,8 @@
     <div class="my-5 mx-3">
       <div class="row align-items-center">
         <!-- Parte sinistra: info -->
+        <h6 class="fw-bold mb-1">Nome del servizio</h6>
+        <small class="text-muted d-block mb-2">Codice prodotto</small>
         <div class="col-md-8 d-flex">
           <!-- Immagine -->
           <img src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="Servizio" class="me-3" style="width:180px; height:100px;">
@@ -31,9 +33,6 @@
             <#else>
               <p>No content found for internal-name: ${itemUrl}</p>
             </#if>
-          
-            <h6 class="fw-bold mb-1">Nome del servizio</h6>
-            <small class="text-muted d-block mb-2">Codice prodotto</small>
             <p class="text-primary fw-bold mb-2" style="font-size: 0.85rem;">DESCRIZIONE PRODOTTO</p>
             <p class="text-primary" style="font-size: 0.85rem;">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
