@@ -57,12 +57,7 @@
         </#if>
     </#macro>
     
-    <#if tree??>
-        <@listFilteredItems tree />
-    </#if>
-    <#if !showItemsFound>
-        <p>No items found in this tree.</p>
-    </#if>
+    
 
 
 
