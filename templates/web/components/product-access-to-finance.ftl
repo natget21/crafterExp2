@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <#assign product = siteItemService.getSiteItem(itemUrl)>
-NOME: ${product.codiceprodotto_s}
+NOME: ${product.partnerId_s}
 
 
 
