@@ -84,8 +84,7 @@
       const usernameInput = document.getElementById('username');
       const passwordInput = document.getElementById('password');
       const loginButton = document.getElementById('client-login-button');
-      console.log('usernameInput: ', usernameInput,'passwordInput: ', passwordInput, 'loginButton: ', loginButton);
-    
+
       const initialState = {
         username: '',
         password: ''
@@ -94,6 +93,7 @@
       function updateButtonState() {
         const currentUsername = usernameInput.value.trim();
         const currentPassword = passwordInput.value.trim();
+        console.log('UPDATE');
     
         const bothFilled = currentUsername !== '' && currentPassword !== '';
         const changed =
