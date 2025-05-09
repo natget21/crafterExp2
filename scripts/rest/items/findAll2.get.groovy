@@ -33,41 +33,41 @@
 // 1. Walk the services folder
 def tree = siteItemService.getSiteTree("/site/components/services", 1)
 
-def loadComponent(path) {
-  def ci = siteItemService.getSiteItem(path)
-  if (!ci) return null
+// def loadComponent(path) {
+//   def ci = siteItemService.getSiteItem(path)
+//   if (!ci) return null
 
-  def result = [:]
-  // Scalar fields
-  ["name_s","rootId","internal-name","objectGroupId","costo_s","localId"].each { f ->
-    result[f] = ci.queryValue(f) ?: ""
-  }
-  // Handle lists of primitive fields if needed...
+//   def result = [:]
+//   // Scalar fields
+//   ["name_s","rootId","internal-name","objectGroupId","costo_s","localId"].each { f ->
+//     result[f] = ci.queryValue(f) ?: ""
+//   }
+//   // Handle lists of primitive fields if needed...
   
-  // Recursive object field: subcategory_o
-  result.subcategory_o = [
-    item: ci.queryValues("subcategory_o/item").collect { itemNode ->
-      def includePath = itemNode.queryValue("include")
-      [
-        include: includePath,
-        component: loadComponent(includePath),      // recursion
-        value:     itemNode.queryValue("value"),
-        disableFlattening: itemNode.queryValue("disableFlattening"),
-        key:       itemNode.queryValue("key")
-      ]
-    }
-  ]
-  return result
-}
+//   // Recursive object field: subcategory_o
+//   result.subcategory_o = [
+//     item: ci.queryValues("subcategory_o/item").collect { itemNode ->
+//       def includePath = itemNode.queryValue("include")
+//       [
+//         include: includePath,
+//         component: loadComponent(includePath),      // recursion
+//         value:     itemNode.queryValue("value"),
+//         disableFlattening: itemNode.queryValue("disableFlattening"),
+//         key:       itemNode.queryValue("key")
+//       ]
+//     }
+//   ]
+//   return result
+// }
 
-// 2. Load and map each component recursively
-def items = tree.childItems.collect { child ->
-  loadComponent(child.path)
-}
+// // 2. Load and map each component recursively
+// def items = tree.childItems.collect { child ->
+//   loadComponent(child.path)
+// }
 
 // 3. Return as JSON
 return [
   status:     200,
   itemsFound: items.size(),
-  items:      items
+  items:      tree
 ]
