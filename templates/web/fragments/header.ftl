@@ -41,7 +41,7 @@
                 <a href="/login" class="btn btn-primary text-uppercase px-4" id="login-btn">Accedi/Registrati</a>
                 <a href="javascript:void(0);" class="btn btn-primary text-uppercase px-4" id="logout-btn" style="display:none" onclick="logout()">Logout</a>
             </div>
-        </div>
         -->            
+        </div>
     </div>
 </header>
