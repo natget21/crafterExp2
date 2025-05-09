@@ -107,6 +107,10 @@
                     localStorage.setItem('crafterVadinToken', data.access_token);
                     if(data.access_token)
                         window.location.href = '/';
+                    else{
+                        toastMessage.textContent = 'Inserisci le credenziali corrette.';
+                        errorToast.show();
+                    }
                 } else {
                     console.log(data,"data")
                     toastMessage.textContent = data.message;
