@@ -45,6 +45,8 @@ document.addEventListener('DOMContentLoaded', function () {
         // document.getElementById('static-nav').style.display = 'none';
         // document.getElementById('add-order').style.display = 'inline-block';
         
+        // Se l'access token esiste alloral'utente é loggato come cliente
+        
         if(user.access_token) {
             hide('login-btn');
             show('logout-btn');
@@ -53,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
             show('default-nav');
             hide('static-nav');
             show('add-order');
+            hide('signup-btn');
         } else {
             show('login-btn');
             hide('logout-btn');
@@ -61,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
             hide('default-nav');
             show('static-nav');
             hide('add-order');
+            show('signup-btn');
         }
         
         
@@ -81,6 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
         hide('default-nav');
         show('static-nav');
         hide('add-order');
+        show('signup-btn');
     }
 
     document.getElementById('logout-btn').addEventListener('click', function (event) {
