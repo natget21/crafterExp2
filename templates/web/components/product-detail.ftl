@@ -29,7 +29,6 @@
           
             <#if content?? && content?has_content>
               <p>${content.costo_s}</p>
-              <p>${content.subcategory_o}</p>
             <#else>
               <p>No content found for internal-name: ${itemUrl}</p>
             </#if>
