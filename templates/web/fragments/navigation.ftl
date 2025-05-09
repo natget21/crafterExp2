@@ -97,7 +97,7 @@
                                     <a href="/partner-signup" class="nav-item nav-link sublink <#if currentUrl?starts_with("/partner-signup")>active</#if>">Partner</a>
                                 </div>
                             </div>
-                            <div class="nav-item dropdown">
+                            <div id="login-btn" class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ACCEDI <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu  rounded-0 border-0 m-0">
                                     <a href="/login" class="nav-item nav-link sublink <#if currentUrl?starts_with("/login")>active</#if>">Cliente</a>
@@ -105,6 +105,7 @@
                                     <a href="/hub-manager" class="nav-item nav-link sublink <#if currentUrl?starts_with("/hub-manager")>active</#if>">Hub Manager</a>
                                 </div>
                             </div>
+                            <a href="javascript:void(0);" id="logout-btn" class="nav-link" onclick="logout()">LOGOUT CLIENTE</a>
                             <!-- <a href="" class="btn px-0">
                                 <i class="fas fa-heart text-primary"></i>
                                 <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
