@@ -13,6 +13,7 @@
 
 <#assign content = siteItemService.getSiteItem(itemUrl)>
 
+<#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
 
 <div class="row mx-4 mx-xl-5">
     <div class="mb-5 mt-3 mx-3">
@@ -30,6 +31,7 @@
             <#if content?? && content?has_content>
               <p>${content.costo_s}</p>
               <p>${content.name_s}</p>
+              <p>${subcategoryData.name_s}</p>
               <p>${itemUrl}</p>
             <#else>
               <p>No content found for internal-name: ${itemUrl}</p>
