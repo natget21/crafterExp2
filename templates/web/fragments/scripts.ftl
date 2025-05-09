@@ -21,7 +21,6 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     const user = localStorage.getItem('crafterVadinUser');
-    console.log('USER: ', user);
     console.log(document.getElementById('catalog-btn'),"catalog-btn")
     
     
@@ -44,6 +43,8 @@ document.addEventListener('DOMContentLoaded', function () {
         // document.getElementById('default-nav').style.display = 'inline-block';
         // document.getElementById('static-nav').style.display = 'none';
         // document.getElementById('add-order').style.display = 'inline-block';
+        
+        console.log('USER: ', user.access_token);
         
         hide('login-btn');
         show('logout-btn');
