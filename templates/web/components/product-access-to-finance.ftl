@@ -1,11 +1,12 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+<#assign product = siteItemService.getSiteItem(itemUrl)>
 NOME: ${product.name_s}
 
-NOME: ${contentModel.name_s}
 
-<#if contentModel?? && (contentModel?size > 0)>
-    <#list contentModel?keys as key>
-      <strong>${key}</strong> : ${contentModel[key]}<br>
+
+<#if product?? && (product?size > 0)>
+    <#list product?keys as key>
+      <strong>${key}</strong> : ${product[key]}<br>
     </#list>
 </#if>
