@@ -89,7 +89,9 @@
             let email = document.getElementById("username").value;
             let password = document.getElementById("password").value;
             const toastMessage = document.getElementById('toast-message');
-            const errorToast = new bootstrap.Toast(document.getElementById('error-toast'));
+            const errorToast = new bootstrap.Toast(document.getElementById('error-toast'),{
+              delay: 3000
+            });
         
             fetch('https://api.shortcut.uno/v1/Ideale-client/login', {
                 method: 'POST',
@@ -118,7 +120,7 @@
                 }
             })
             .catch(error => {
-                toastMessage.textContent = 'An error occurred. Please try again.';
+                toastMessage.textContent = 'É avvenuto un errore, riprova piú tardi.';
                 errorToast.show();
             });
         });
