@@ -31,7 +31,7 @@
             <#if content?? && content?has_content>
               <p>${content.costo_s}</p>
               <p>${content.name_s}</p>
-              <p>${subcategoryData.name_s}</p>
+              <p>${subcategoryData}</p>
               <p>${itemUrl}</p>
             <#else>
               <p>No content found for internal-name: ${itemUrl}</p>
