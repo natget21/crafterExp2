@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/access-to-finance</content-type>
+	<display-template>/templates/web/pages2/product-finance.ftl</display-template>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b059</objectGroupId>
+	<objectId>b05984ec-dc30-a280-ee8e-5b9ab317e6e5</objectId>
+	<file-name>product.xml</file-name>
+	<folder-name/>
+	<internal-name>product-finance</internal-name>
+	<partnerId_s/>
+	<productid_s/>
+	<codiceprodotto_s/>
+	<name_s>product-finance</name_s>
+	<costodelservizio_s/>
+	<cup_s/>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</key>
+	<value>demo</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<modalitdierogazione_s/>
+	<tipologiadifinanziamento_s/>
+	<destinatari_t/>
+	<durata_t/>
+	<areageografica_t/>
+	<descrizionecostoservizio_t/>
+	<agevolazione_b>false</agevolazione_b>
+	<locandina_s/>
+	<obiettivo_html>&lt;p&gt;Visualizzazione del prodotto access to finance&lt;/p&gt;</obiettivo_html>
+	<descrizione_html>&lt;p&gt;Visualizzazione del prodotto access to finance&lt;/p&gt;</descrizione_html>
+	<serviziinclusi_html/>
+	<createdDate>2025-05-09T08:55:38.375Z</createdDate>
+	<createdDate_dt>2025-05-09T08:55:38.375Z</createdDate_dt>
+	<lastModifiedDate>2025-05-09T08:55:38.375Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-09T08:55:38.375Z</lastModifiedDate_dt>
+</component>
