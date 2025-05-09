@@ -61,7 +61,7 @@
               <input type="password" class="form-control" id="password" />
               <span class="toggle-password" onclick="togglePassword()"> </span>
             </div>
-            <button id="client-login-button" type="submit" class="btn client-login-button w-100 text-white">Log in</button>
+            <button id="client-login-button" type="submit" class="btn client-login-button w-100 text-white" disabled>Log in</button>
           </form>
         </div>
       </div>
