@@ -61,7 +61,7 @@
               <input type="password" class="form-control" id="password" />
               <span class="toggle-password" onclick="togglePassword()"> </span>
             </div>
-            <button type="submit" class="btn client-login-button w-100 text-white">Log in</button>
+            <button id="client-login-button" type="submit" class="btn client-login-button w-100 text-white">Log in</button>
           </form>
         </div>
       </div>
@@ -80,6 +80,32 @@
     </script> 
     
   
+    <script>
+      const usernameInput = document.getElementById('username');
+      const passwordInput = document.getElementById('password');
+      const loginButton = document.getElementById('client-login-button');
+    
+      const initialState = {
+        username: '',
+        password: ''
+      };
+    
+      function updateButtonState() {
+        const currentUsername = usernameInput.value.trim();
+        const currentPassword = passwordInput.value.trim();
+    
+        const bothFilled = currentUsername !== '' && currentPassword !== '';
+        const changed =
+          currentUsername !== initialState.username ||
+          currentPassword !== initialState.password;
+    
+        loginButton.disabled = !(bothFilled && changed);
+      }
+    
+      usernameInput.addEventListener('input', updateButtonState);
+      passwordInput.addEventListener('input', updateButtonState);
+    </script>
+
     
     
     <script>
