@@ -339,7 +339,7 @@
                                     </div>
                                     
                                     <div class="d-flex my-3">
-                                        <div id="stars" class="text-primary">
+                                        <div id="stars" class="text-primary" style="user-select:none;">
                                             <!-- Stelle cliccabili -->
                                             <i class="far fa-star" style="cursor: pointer;" data-index="1"></i>
                                             <i class="far fa-star" style="cursor: pointer;" data-index="2"></i>
