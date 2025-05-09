@@ -68,6 +68,6 @@ def tree = siteItemService.getSiteTree("/site/components/services", 1)
 // 3. Return as JSON
 return [
   status:     200,
-  itemsFound: items.size(),
+//   itemsFound: items.size(),
   items:      tree
 ]
