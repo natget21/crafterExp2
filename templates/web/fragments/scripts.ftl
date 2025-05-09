@@ -20,7 +20,8 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    const user = localStorage.getItem('crafterVadinUser');
+    const userJson = localStorage.getItem('crafterVadinUser');
+    const user = JSON.parse(userJson);
     console.log(document.getElementById('catalog-btn'),"catalog-btn")
     
     
@@ -44,15 +45,24 @@ document.addEventListener('DOMContentLoaded', function () {
         // document.getElementById('static-nav').style.display = 'none';
         // document.getElementById('add-order').style.display = 'inline-block';
         
-        console.log('USER: ', JSON.parse(user).access_token);
+        if(user.access_token) {
+            hide('login-btn');
+            show('logout-btn');
+            show('order-btn');
+            show('catalog-btn');
+            show('default-nav');
+            hide('static-nav');
+            show('add-order');
+        } else {
+            show('login-btn');
+            hide('logout-btn');
+            hide('order-btn');
+            hide('catalog-btn');
+            hide('default-nav');
+            show('static-nav');
+            hide('add-order');
+        }
         
-        hide('login-btn');
-        show('logout-btn');
-        show('order-btn');
-        show('catalog-btn');
-        show('default-nav');
-        hide('static-nav');
-        show('add-order');
         
         
     }else{
