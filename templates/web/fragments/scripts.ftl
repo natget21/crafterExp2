@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // document.getElementById('static-nav').style.display = 'none';
         // document.getElementById('add-order').style.display = 'inline-block';
         
-        console.log('USER: ', user.access_token);
+        console.log('USER: ', JSON.stringify(user).access_token);
         
         hide('login-btn');
         show('logout-btn');
