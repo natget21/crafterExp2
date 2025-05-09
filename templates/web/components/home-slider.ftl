@@ -24,7 +24,7 @@
     >
       <div class="explanation layout_padding mb-5">
         <h2 class="title_section text-center">
-          INNOVATION DIGITAL ECOSYSTEM AND AUGEMENTED LEARNING
+          INNOVATION DIGITAL ECOSYSTEM AND AUGMENTED LEARNING
         </h2>
         <p>
           IDEALE è un progetto strategico nato per costruire un ecosistema
