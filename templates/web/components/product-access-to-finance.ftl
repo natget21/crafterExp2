@@ -1,3 +1,3 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-Test
+NOME: ${product.name_s}
