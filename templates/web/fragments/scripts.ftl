@@ -21,6 +21,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     const user = localStorage.getItem('crafterVadinUser');
+    console.log('USER: ', user);
     console.log(document.getElementById('catalog-btn'),"catalog-btn")
     
     
