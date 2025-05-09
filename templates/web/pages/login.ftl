@@ -84,6 +84,7 @@
       const usernameInput = document.getElementById('username');
       const passwordInput = document.getElementById('password');
       const loginButton = document.getElementById('client-login-button');
+      console.log('usernameInput: ', usernameInput,'passwordInput: ', passwordInput, 'loginButton: ', loginButton);
     
       const initialState = {
         username: '',
