@@ -31,7 +31,7 @@
 
 
 // 1. Walk the services folder
-def tree = siteItemService.getSiteTree("/site/components/services", 2)
+def tree = siteItemService.getSiteTree("/site/components/services", 3)
 
 // def loadComponent(path) {
 //   def ci = siteItemService.getSiteItem(path)
