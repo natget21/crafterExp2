@@ -100,14 +100,16 @@ def items = tree.collect { item ->
 //     }
 // }.flatten()
 
-def elementToMap = { element ->
+def elementToMap(element) {
     def map = [:]
-    element.elements().each { child ->
+    def children = element.elements()
+
+    children.each { child ->
         def name = child.name
         def value = child.getTextTrim()
-        def children = child.elements()
+        def childElements = child.elements()
 
-        if (children && !children.isEmpty()) {
+        if (childElements && !childElements.isEmpty()) {
             map[name] = elementToMap(child)
         } else {
             map[name] = value
