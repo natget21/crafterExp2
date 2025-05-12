@@ -19,9 +19,9 @@
     <folder-name/>
     <internal-name>LAST À À</internal-name>
     <name_s>last à À</name_s>
-    <serviziinclusi_html>{En=&lt;p&gt;&lt;br&gt;&lt;/p&gt;}</serviziinclusi_html>
-    <obiettivo_html>{En=&lt;p&gt;&lt;!--StartFragment--&gt;&lt;!--EndFragment--&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="color: #0451a5;"&gt;À hello&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;}</obiettivo_html>
-    <descrizione_html>{En=&lt;p&gt;hello&lt;/p&gt;}</descrizione_html>
+    <serviziinclusi_html>&lt;p&gt;a&lt;/p&gt;</serviziinclusi_html>
+    <obiettivo_html>&lt;p&gt;a&lt;/p&gt;</obiettivo_html>
+    <descrizione_html>&lt;p&gt;a&lt;/p&gt;</descrizione_html>
     <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
     <codiceprodotto_s>test4</codiceprodotto_s>
     <productid_s>PRO_134ec2a9</productid_s>
@@ -30,10 +30,10 @@
    <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-6.xml</include>
    <disableFlattening>false</disableFlattening>
    </item></subcategory_o>
-    <createdDate>2025-05-12T09:18:14.479Z</createdDate>
-    <createdDate_dt>2025-05-12T09:18:14.479Z</createdDate_dt>
-    <lastModifiedDate>2025-05-12T09:18:14.479Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-05-12T09:18:14.479Z</lastModifiedDate_dt>
+    <createdDate>2025-05-12T09:26:39.477Z</createdDate>
+    <createdDate_dt>2025-05-12T09:26:39.477Z</createdDate_dt>
+    <lastModifiedDate>2025-05-12T09:26:39.477Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-05-12T09:26:39.477Z</lastModifiedDate_dt>
     <localId>/site/components/services/access-to-finance/finanza-agevolata-ed-europrogettazione/980c33fe-935a-4058-acce-288cdd3eb9ab.xml</localId>
     <rootId>ideale:/site/components/services/access-to-finance/finanza-agevolata-ed-europrogettazione/980c33fe-935a-4058-acce-288cdd3eb9ab.xml</rootId>
     <destinatari_t>dddd</destinatari_t>
@@ -42,8 +42,8 @@
     <costodelservizio_s>hhh</costodelservizio_s>
     <descrizionecostoservizio_t>iiii</descrizionecostoservizio_t>
     <cup_s>jjjjj</cup_s>
-    <createdDate>2025-05-12T09:26:39.477Z</createdDate>
-    <createdDate_dt>2025-05-12T09:26:39.477Z</createdDate_dt>
-    <lastModifiedDate>2025-05-12T09:26:39.477Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-05-12T09:26:39.477Z</lastModifiedDate_dt>
+    <createdDate>2025-05-12T09:29:25.923Z</createdDate>
+    <createdDate_dt>2025-05-12T09:29:25.923Z</createdDate_dt>
+    <lastModifiedDate>2025-05-12T09:29:25.923Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-05-12T09:29:25.923Z</lastModifiedDate_dt>
 </component>
