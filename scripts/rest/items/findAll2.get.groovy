@@ -82,12 +82,17 @@
 
 
 def tree = siteItemService.getSiteTree("/site/components/services", 3)
-def items = tree.flatMap { node -> 
-    node?.component?.findAll { it.name_s && it.rootId } // Assuming components are inside a 'component' field
+
+def items = tree.findAll { item -> 
+    item.component?.name_s && item.component?.rootId  // Check for name_s and rootId in nested 'component'
 }.collect { item -> 
-    item // Return the component itself
+    item.component // Return only the component object
 }
 
+// Print items to verify the response
+println items
+
+// Return the result
 return [
     status: 200,
     itemsFound: items.size(),
