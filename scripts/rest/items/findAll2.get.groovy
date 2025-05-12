@@ -81,13 +81,23 @@ def items = tree.collect { item ->
     item.childItems?.item?.collect { childItem -> childItem.children ?: [] }
 }.flatten()
 
-def itemsAll = items.collect { item ->
-    item.children?.collect { childItem -> {
-        def new_item = childItem.descriptorDom
-        new_item["localId"] = childItem.url
-        return new_item
+// def itemsAll = items.collect { item ->
+//     item.children?.collect { childItem -> {
+//         def new_item = childItem.descriptorDom
+//         new_item["localId"] = childItem.url
+//         return new_item
         
-    } }
+//     } }
+// }.flatten()
+
+def itemsAll = items.collect { item ->
+    item.children?.collect { childItem ->
+        return [
+            descriptorDom: childItem.descriptorDom,
+            localId     : childItem.url,
+            rootId     : "ideale:"+childItem.url
+        ]
+    }
 }.flatten()
 
 // Return the result
