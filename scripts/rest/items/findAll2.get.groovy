@@ -92,21 +92,25 @@ def findNonFolderItems(node) {
     }
     
     // If there are children, recursively check them
-    if (node.children) {
+    if (node.children && node.children.size() > 0) {
         node.children.each { child ->
-            items.addAll(findNonFolderItems(child))
+            items.addAll(findNonFolderItems(child)) // Recursively find non-folder children
         }
     }
     
     return items
 }
 
-// Assuming your tree starts with a top-level "items" array
+// Assuming your tree structure is like the one in the sample you provided, starting with `items`
 def allItems = []
+
+// Traverse each top-level item in the tree
 tree.items.each { item ->
-    allItems.addAll(findNonFolderItems(item.item)) // Assuming item.item holds the structure
+    // Assuming that the 'item' field is the entry point to the tree structure
+    allItems.addAll(findNonFolderItems(item.item)) // Passing 'item.item' as the root node
 }
 
+// Return the list of non-folder items found
 return [
     status: 200,
     itemsFound: allItems.size(),
