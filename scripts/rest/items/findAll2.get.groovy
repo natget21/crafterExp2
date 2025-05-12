@@ -125,7 +125,7 @@ def itemsAll = items.collect { item ->
         def descriptorComponent = childItem.descriptorDom?.component
         def componentMap = descriptorComponent ? elementToMap(descriptorComponent) : [:]
         componentMap["localId"] = childItem.url
-        componentMap["rootId"] = childItem.root
+        componentMap["rootId"] = "ideale:"+childItem.url
         return componentMap
     }
 }.flatten()
