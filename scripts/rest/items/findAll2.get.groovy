@@ -104,7 +104,7 @@ def elementToMap = { element ->
     def map = [:]
     element.elements().each { child ->
         def name = child.name
-        def value = child.textTrim()
+        def value = child.getTextTrim()
         def children = child.elements()
 
         if (children && !children.isEmpty()) {
@@ -115,6 +115,7 @@ def elementToMap = { element ->
     }
     return map
 }
+
 
 
 def itemsAll = items.collect { item ->
