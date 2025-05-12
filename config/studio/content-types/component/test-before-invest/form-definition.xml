@@ -706,7 +706,7 @@
 				</datasource>
 				<datasource>
 					<type>simpleTaxonomy</type>
-					<id>tbi_name</id>
+					<id>tbi_names</id>
 					<title>tbi_name</title>
 					<interface>item</interface>
 					<properties>
