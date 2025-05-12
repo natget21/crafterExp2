@@ -8,8 +8,17 @@
     <objectId>493f1a5d-588e-4b4b-8a61-b740f2be24b7</objectId>
     <file-name>493f1a5d-588e-4b4b-8a61-b740f2be24b7.xml</file-name>
     <folder-name/>
+    <internal-name>TEST È À</internal-name>
+    <content-type>/component/access-to-finance</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>493f</objectGroupId>
+    <objectId>493f1a5d-588e-4b4b-8a61-b740f2be24b7</objectId>
+    <file-name>493f1a5d-588e-4b4b-8a61-b740f2be24b7.xml</file-name>
+    <folder-name/>
     <internal-name>TEST</internal-name>
-    <name_s>TEST</name_s>
+    <name_s>TEST è à</name_s>
     <serviziinclusi_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</serviziinclusi_html>
     <obiettivo_html>&lt;p&gt;èèèè&amp;nbsp;&lt;b&gt;aaaa &lt;/b&gt;&lt;i style=""&gt;ffff&lt;/i&gt;&lt;/p&gt;</obiettivo_html>
     <descrizione_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</descrizione_html>
@@ -25,4 +34,10 @@
     <createdDate_dt>2025-05-12T13:28:48.453Z</createdDate_dt>
     <lastModifiedDate>2025-05-12T13:28:48.453Z</lastModifiedDate>
     <lastModifiedDate_dt>2025-05-12T13:28:48.453Z</lastModifiedDate_dt>
+    <localId>/site/components/services/access-to-finance/finanza-agevolata-ed-europrogettazione/493f1a5d-588e-4b4b-8a61-b740f2be24b7.xml</localId>
+    <rootId>ideale:/site/components/services/access-to-finance/finanza-agevolata-ed-europrogettazione/493f1a5d-588e-4b4b-8a61-b740f2be24b7.xml</rootId>
+    <createdDate>2025-05-12T13:29:39.325Z</createdDate>
+    <createdDate_dt>2025-05-12T13:29:39.325Z</createdDate_dt>
+    <lastModifiedDate>2025-05-12T13:29:39.325Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-05-12T13:29:39.325Z</lastModifiedDate_dt>
 </component>
