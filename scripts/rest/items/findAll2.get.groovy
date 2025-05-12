@@ -68,7 +68,7 @@
 // 3. Return as JSON
 
 
-def tree = siteItemService.getSiteTree("/site/components/services", 3)
+def tree = siteItemService.getSiteTree("/site/components/services", 4)
 
 // def items = tree.findAll { item -> item}.collect { item -> item.childItems.item}
 // def items = tree.collect { item -> item.childItems.item}
