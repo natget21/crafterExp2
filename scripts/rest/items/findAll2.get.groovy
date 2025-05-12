@@ -93,7 +93,7 @@ def items = tree.collect { item ->
 def itemsAll = items.collect { item ->
     item.children?.collect { childItem ->
         return {
-            childItem.descriptorDom,
+            ...childItem.descriptorDom,
             localId     : childItem.url,
             rootId     : "ideale:"+childItem.url
         }
