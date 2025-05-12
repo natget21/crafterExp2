@@ -8,7 +8,7 @@
     <objectId>980c33fe-935a-4058-acce-288cdd3eb9ab</objectId>
     <file-name>980c33fe-935a-4058-acce-288cdd3eb9ab.xml</file-name>
     <folder-name/>
-    <internal-name>LAST À À</internal-name>
+    <internal-name>LAST À À B</internal-name>
     <content-type>/component/access-to-finance</content-type>
     <display-template/>
     <no-template-required>true</no-template-required>
@@ -18,7 +18,7 @@
     <file-name>980c33fe-935a-4058-acce-288cdd3eb9ab.xml</file-name>
     <folder-name/>
     <internal-name>LAST À À</internal-name>
-    <name_s>last à À</name_s>
+    <name_s>last à À b</name_s>
     <serviziinclusi_html>&lt;p&gt;a&lt;/p&gt;</serviziinclusi_html>
     <obiettivo_html>&lt;p&gt;a&lt;/p&gt;</obiettivo_html>
     <descrizione_html>&lt;p&gt;a&lt;/p&gt;</descrizione_html>
@@ -30,10 +30,10 @@
    <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-6.xml</include>
    <disableFlattening>false</disableFlattening>
    </item></subcategory_o>
-    <createdDate>2025-05-12T09:26:39.477Z</createdDate>
-    <createdDate_dt>2025-05-12T09:26:39.477Z</createdDate_dt>
-    <lastModifiedDate>2025-05-12T09:26:39.477Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-05-12T09:26:39.477Z</lastModifiedDate_dt>
+    <createdDate>2025-05-12T09:29:25.923Z</createdDate>
+    <createdDate_dt>2025-05-12T09:29:25.923Z</createdDate_dt>
+    <lastModifiedDate>2025-05-12T09:29:25.923Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-05-12T09:29:25.923Z</lastModifiedDate_dt>
     <localId>/site/components/services/access-to-finance/finanza-agevolata-ed-europrogettazione/980c33fe-935a-4058-acce-288cdd3eb9ab.xml</localId>
     <rootId>ideale:/site/components/services/access-to-finance/finanza-agevolata-ed-europrogettazione/980c33fe-935a-4058-acce-288cdd3eb9ab.xml</rootId>
     <destinatari_t>dddd</destinatari_t>
@@ -42,8 +42,8 @@
     <costodelservizio_s>hhh</costodelservizio_s>
     <descrizionecostoservizio_t>iiii</descrizionecostoservizio_t>
     <cup_s>jjjjj</cup_s>
-    <createdDate>2025-05-12T09:29:25.923Z</createdDate>
-    <createdDate_dt>2025-05-12T09:29:25.923Z</createdDate_dt>
-    <lastModifiedDate>2025-05-12T09:29:25.923Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-05-12T09:29:25.923Z</lastModifiedDate_dt>
+    <createdDate>2025-05-12T09:42:06.911Z</createdDate>
+    <createdDate_dt>2025-05-12T09:42:06.911Z</createdDate_dt>
+    <lastModifiedDate>2025-05-12T09:42:06.911Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-05-12T09:42:06.911Z</lastModifiedDate_dt>
 </component>
