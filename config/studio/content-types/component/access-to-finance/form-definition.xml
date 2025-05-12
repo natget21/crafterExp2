@@ -1070,7 +1070,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value>In presenza, Da remoto</value>
+							<value>In presenza,Da remoto</value>
 								<type>string</type>
 						</property>
 					</properties>
@@ -1088,7 +1088,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value>Bandi Regionali, Fondi Europei, Incentivi Fiscali, Altro</value>
+							<value>Bandi Regionali,Fondi Europei,Incentivi Fiscali,Altro</value>
 								<type>string</type>
 						</property>
 					</properties>
