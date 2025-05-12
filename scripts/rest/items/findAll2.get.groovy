@@ -102,11 +102,10 @@ def items = tree.collect { item ->
 
 def itemsAll = items.collect { item ->
     item.children?.collect { childItem ->
-        def flatItem = [:]
-        flatItem.putAll(childItem.descriptorDom?.component ?: [:])  // Flatten 'component'
-        flatItem["localId"] = childItem.url
-        flatItem["rootId"] = childItem.root
-        return flatItem
+        def componentMap = childItem.descriptorDom?.component?.asMap() ?: [:]  // Convert to map
+        componentMap["localId"] = childItem.url
+        componentMap["rootId"] = childItem.root
+        return componentMap
     }
 }.flatten()
 
