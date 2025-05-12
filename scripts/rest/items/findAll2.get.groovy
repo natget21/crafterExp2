@@ -92,11 +92,11 @@ def items = tree.collect { item ->
 
 def itemsAll = items.collect { item ->
     item.children?.collect { childItem ->
-        return [
+        return {
             childItem.descriptorDom,
             localId     : childItem.url,
             rootId     : "ideale:"+childItem.url
-        ]
+        }
     }
 }.flatten()
 
