@@ -83,7 +83,7 @@
 
 def tree = siteItemService.getSiteTree("/site/components/services", 3)
 
-def items = tree.findAll { item -> item.name_s && item.rootId}.collect { item -> item}
+def items = tree.findAll { item -> item}.collect { item -> item}
 
 return [
     status: 200,
