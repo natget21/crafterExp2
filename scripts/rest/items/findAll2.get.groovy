@@ -31,7 +31,7 @@
 
 
 // 1. Walk the services folder
-def tree = siteItemService.getSiteTree("/site/components/services", 3)
+
 
 // def loadComponent(path) {
 //   def ci = siteItemService.getSiteItem(path)
@@ -66,8 +66,27 @@ def tree = siteItemService.getSiteTree("/site/components/services", 3)
 // }
 
 // 3. Return as JSON
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def tree = siteItemService.getSiteTree("/site/components/services", 3)
+
+def items = tree.findAll { item -> item.name_s && item.rootId}.collect { item -> item}
+
 return [
-  status:     200,
-//   itemsFound: items.size(),
-  items:      tree
+    status: 200,
+    itemsFound: items.size(),
+    items: items
 ]
