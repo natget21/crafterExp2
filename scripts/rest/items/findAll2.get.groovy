@@ -81,9 +81,13 @@ def items = tree.collect { item ->
     item.childItems?.item?.collect { childItem -> childItem.children ?: [] }
 }.flatten()
 
+def itemsAll = items.collect { item ->
+    item.children?.collect { childItem -> childItem }
+}.flatten()
+
 // Return the result
 return [
     status: 200,
-    itemsFound: items.size(),
-    items: items
+    itemsFound: itemsAll.size(),
+    items: itemsAll
 ]
