@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>35b0</objectGroupId>
+	<objectId>35b06a8e-75cc-1963-ddc3-57f3adf0b9ae</objectId>
+	<items item-list="true">	<item>	<key>Document 1</key>
+	<value>1</value>
+	</item>	<item>	<key>Document 2</key>
+	<value>2</value>
+	</item></items>
+	<internal-name>documents</internal-name>
+	<file-name>documents.xml</file-name>
+	<folder-name/>
+	<createdDate>2025-05-12T16:19:56.398Z</createdDate>
+	<createdDate_dt>2025-05-12T16:19:56.398Z</createdDate_dt>
+	<lastModifiedDate>2025-05-12T16:19:56.398Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-12T16:19:56.398Z</lastModifiedDate_dt>
+</component>
