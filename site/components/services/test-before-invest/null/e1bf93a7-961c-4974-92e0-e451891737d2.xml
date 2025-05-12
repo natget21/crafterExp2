@@ -9,6 +9,15 @@
     <file-name>e1bf93a7-961c-4974-92e0-e451891737d2.xml</file-name>
     <folder-name/>
     <internal-name>TEST</internal-name>
+    <content-type>/component/test-before-invest</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>e1bf</objectGroupId>
+    <objectId>e1bf93a7-961c-4974-92e0-e451891737d2</objectId>
+    <file-name>e1bf93a7-961c-4974-92e0-e451891737d2.xml</file-name>
+    <folder-name/>
+    <internal-name>TEST</internal-name>
     <name_s>test</name_s>
     <test_s>Cyber Security</test_s>
     <document_s>1</document_s>
@@ -18,4 +27,15 @@
     <createdDate_dt>2025-05-12T19:42:55.813Z</createdDate_dt>
     <lastModifiedDate>2025-05-12T19:42:55.813Z</lastModifiedDate>
     <lastModifiedDate_dt>2025-05-12T19:42:55.813Z</lastModifiedDate_dt>
+    <localId>/site/components/services/test-before-invest/null/e1bf93a7-961c-4974-92e0-e451891737d2.xml</localId>
+    <rootId>ideale:/site/components/services/test-before-invest/null/e1bf93a7-961c-4974-92e0-e451891737d2.xml</rootId>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-15.xml</key>
+   <value>progetti</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-15.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <createdDate>2025-05-12T19:44:12.571Z</createdDate>
+    <createdDate_dt>2025-05-12T19:44:12.571Z</createdDate_dt>
+    <lastModifiedDate>2025-05-12T19:44:12.571Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-05-12T19:44:12.571Z</lastModifiedDate_dt>
 </component>
