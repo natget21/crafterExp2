@@ -100,9 +100,27 @@ def items = tree.collect { item ->
 //     }
 // }.flatten()
 
+def elementToMap = { element ->
+    def map = [:]
+    element.elements().each { child ->
+        def name = child.name
+        def value = child.textTrim()
+        def children = child.elements()
+
+        if (children && !children.isEmpty()) {
+            map[name] = elementToMap(child)
+        } else {
+            map[name] = value
+        }
+    }
+    return map
+}
+
+
 def itemsAll = items.collect { item ->
     item.children?.collect { childItem ->
-        def componentMap = childItem.descriptorDom?.component?.asMap() ?: [:]  // Convert to map
+        def descriptorComponent = childItem.descriptorDom?.component
+        def componentMap = descriptorComponent ? elementToMap(descriptorComponent) : [:]
         componentMap["localId"] = childItem.url
         componentMap["rootId"] = childItem.root
         return componentMap
