@@ -552,7 +552,7 @@
 					<properties>
 						<property>
 							<name>datasource</name>
-							<value>tbi_name</value>
+							<value>tbi_names</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
