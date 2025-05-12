@@ -83,10 +83,32 @@
 
 def tree = siteItemService.getSiteTree("/site/components/services", 3)
 
-def items = tree.findAll { item -> item}.collect { item -> item}
+def findNonFolderItems(node) {
+    def items = []
+    
+    // Check if the current node is not a folder
+    if (node.folder == false) {
+        items.add(node)
+    }
+    
+    // If there are children, recursively check them
+    if (node.children) {
+        node.children.each { child ->
+            items.addAll(findNonFolderItems(child))
+        }
+    }
+    
+    return items
+}
+
+// Assuming your tree starts with a top-level "items" array
+def allItems = []
+tree.items.each { item ->
+    allItems.addAll(findNonFolderItems(item.item)) // Assuming item.item holds the structure
+}
 
 return [
     status: 200,
-    itemsFound: items.size(),
-    items: items
+    itemsFound: allItems.size(),
+    items: allItems
 ]
