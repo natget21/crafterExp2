@@ -86,7 +86,7 @@ def itemsAll = items.collect { item ->
             def new_item = childItem.descriptorDom
             //new_item.localId = childItem.url
             //new_item.rootId = "ideale:"+childItem.url
-            return new_item?.component
+            return ...new_item
         } 
     }
 }.flatten()
