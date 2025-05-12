@@ -71,7 +71,11 @@
 def tree = siteItemService.getSiteTree("/site/components/services", 3)
 
 // def items = tree.findAll { item -> item}.collect { item -> item.childItems.item}
-def items = tree.collect { item -> item.childItems.item}
+// def items = tree.collect { item -> item.childItems.item}
+
+def items = tree.collectMany { item ->
+    item.childItems?.item?.collect { childItem -> childItem.children ?: [] }.flatten()
+}
 
 // Return the result
 return [
