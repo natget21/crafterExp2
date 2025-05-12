@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/access-to-finance</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>980c</objectGroupId>
+    <objectId>980c33fe-935a-4058-acce-288cdd3eb9ab</objectId>
+    <file-name>980c33fe-935a-4058-acce-288cdd3eb9ab.xml</file-name>
+    <folder-name/>
+    <internal-name>LAST À À</internal-name>
+    <name_s>last à À</name_s>
+    <serviziinclusi_html>{En=&lt;p&gt;&lt;br&gt;&lt;/p&gt;}</serviziinclusi_html>
+    <obiettivo_html>{En=&lt;p&gt;&lt;!--StartFragment--&gt;&lt;!--EndFragment--&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="color: #0451a5;"&gt;À hello&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;}</obiettivo_html>
+    <descrizione_html>{En=&lt;p&gt;hello&lt;/p&gt;}</descrizione_html>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <codiceprodotto_s>test4</codiceprodotto_s>
+    <productid_s>PRO_134ec2a9</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-6.xml</key>
+   <value>finanza-agevolata-ed-europrogettazione</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-6.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <createdDate>2025-05-12T09:07:51.295Z</createdDate>
+    <createdDate_dt>2025-05-12T09:07:51.295Z</createdDate_dt>
+    <lastModifiedDate>2025-05-12T09:07:51.295Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-05-12T09:07:51.295Z</lastModifiedDate_dt>
+</component>
