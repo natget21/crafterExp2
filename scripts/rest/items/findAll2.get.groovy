@@ -84,8 +84,8 @@ def items = tree.collect { item ->
 def itemsAll = items.collect { item ->
     item.children?.collect { childItem -> {
             def new_item = childItem.descriptorDom.component
-            new_item.localId = childItem.url
-            new_item.rootId = "ideale:"+childItem.url
+            //new_item.localId = childItem.url
+            //new_item.rootId = "ideale:"+childItem.url
             return new_item
         } 
     }
