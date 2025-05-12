@@ -82,7 +82,12 @@ def items = tree.collect { item ->
 }.flatten()
 
 def itemsAll = items.collect { item ->
-    item.children?.collect { childItem -> childItem.descriptorDom }
+    item.children?.collect { childItem -> {
+        def new_item = childItem.descriptorDom
+        new_item["localId"] = childItem.url
+        return new_item
+        
+    } }
 }.flatten()
 
 // Return the result
