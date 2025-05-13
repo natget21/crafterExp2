@@ -47,7 +47,7 @@ hr {
   color: var(--primary-active) !important;
 }
 
-.text-dark{
+.text-dark {
   color: var(--primary-active) !important;
 }
 
@@ -209,7 +209,7 @@ label.form-label {
   border-top: 0 !important;
   border-left: 0 !important;
   border-right: 0 !important;
-  color: var(--primary) !important;
+  /* color: var(--primary) !important; */
 }
 
 .nav-tabs .nav-item .nav-link.active,
@@ -222,7 +222,7 @@ label.form-label {
   border-right: 0 !important;
   border-bottom: 3px solid var(--primary);
   font-weight: 500 !important;
-  color: var(--primary-active) !important;
+  color: var(--primary) !important;
 }
 
 .bg-primary {
