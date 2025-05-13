@@ -100,7 +100,7 @@
             const toastMessage = document.getElementById('toast-message');
             const errorToast = new bootstrap.Toast(document.getElementById('error-toast'));
         
-            fetch('https://api.shortcut.uno/v1/Ideale-client/login', {
+            fetch('https://api.s3innovation.it/v1/Ideale-client/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
