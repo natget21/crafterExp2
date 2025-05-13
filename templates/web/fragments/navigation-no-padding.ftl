@@ -83,7 +83,6 @@
                                     <a href="/test-before-invest" class="nav-item nav-link sublink <#if currentUrl?starts_with("/test-before-invest")>active</#if>">Test before invest</a>
                                 </div>
                             </div>
-                            <a href="/networking/products" class="nav-item nav-link <#if currentUrl?starts_with("/networking/products")>active</#if>">PRODOTTI</a>
                             <a href="/event" class="nav-item nav-link">EVENTI</a>
                             <a href="/news" class="nav-item nav-link">NEWS</a>
                             <a href="/faq" class="nav-item nav-link">FAQ</a>
