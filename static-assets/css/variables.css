@@ -1,9 +1,9 @@
 :root {
-  --primary: #3e9a36;
-  --primary-active: #74b952;
+  --primary: #74b952;
+  --primary-active: #3e9a36;
   --primary-box-shadow: 0 0 0 0.2rem #74b95288;
-  --secondary: #c5cb34;
-  --secondary-active: #cdcc32;
+  --secondary: #cdcc32;
+  --secondary-active: #c5cb34;
   --secondary-box-shadow: 0 0 0 0.2rem #cdcd3283;
   --disabled: #333333;
   --blue: #007bff;
