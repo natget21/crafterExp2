@@ -69,6 +69,17 @@
           </p>
         </div>
       </div>
+      <ul class="nav nav-tabs mb-4">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="tab" href="#tab-pane-1">Descrizione</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-pane-2">Informazioni</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-pane-3">Recensioni</a>
+        </li>
+      </ul>
       <div
         class="layout_padding partners_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
