@@ -11,6 +11,10 @@
   font-size: 26px;
 }
 
+.nav-link {
+  color: #6c757d;
+}
+
 @media (max-width: 768px) {
   .partner_logo_container {
     display: flex;
