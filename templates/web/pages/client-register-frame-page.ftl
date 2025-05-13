@@ -27,7 +27,7 @@
     </header>
     
 
-    <iframe id="partnerFrame" src="https://ideale.shortcut.uno/signup-client-company?orgId=67ac78b641f3e43f93473810" width="100%" height="750px" frameborder="0"></iframe>
+    <iframe id="partnerFrame" src="https://innova.s3innovation.it/signup-client-company?orgId=68225356b40eed046fea171a" width="100%" height="750px" frameborder="0"></iframe>
     
     
 
