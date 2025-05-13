@@ -71,13 +71,13 @@
       </div>
       <ul class="nav nav-tabs mb-4 mx-auto col-11 col-md-9 px-0">
         <li class="nav-item">
-          <a class="nav-link active" data-bs-toggle="tab" href="#tab-pane-1">Descrizione</a>
+          <a class="nav-link active" data-bs-toggle="tab" href="#tab-pane-1">Partner pubblici</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-pane-2">Informazioni</a>
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-pane-2">Grandi imprese</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-pane-3">Recensioni</a>
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-pane-3">PMI</a>
         </li>
       </ul>
       <div
