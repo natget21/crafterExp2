@@ -1,10 +1,10 @@
 :root {
-  --primary: #62388e;
-  --primary-active: #242a55;
-  --primary-box-shadow: 0 0 0 0.2rem #242a5589;
-  --secondary: #25a4dd;
-  --secondary-active: #32509f;
-  --secondary-box-shadow: 0 0 0 0.2rem #32519f84;
+  --primary: #3e9a36;
+  --primary-active: #c4cb35;
+  --primary-box-shadow: 0 0 0 0.2rem #c3cb3587;
+  --secondary: #c4cb35;
+  --secondary-active: #cdcc32;
+  --secondary-box-shadow: 0 0 0 0.2rem #cdcd3285;
   --disabled: #333333;
   --blue: #007bff;
   --indigo: #6610f2;
