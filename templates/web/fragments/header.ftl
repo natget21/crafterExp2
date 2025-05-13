@@ -4,7 +4,7 @@
         <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
             <div class="col-lg-4">
                 <a href="" class="text-decoration-none">
-                    <img src="/static-assets/assets/ideale_logo.png" height="70px" />
+                    <img src="/static-assets/assets/innova_logo.png" height="70px" />
                     <!-- <span class="h1 text-uppercase text-primary bg-dark px-2">Ideale</span> -->
                     <!-- <span class="h1 text-uppercase text-dark bg-primary px-2 ml-n1">Managment</span> -->
                 </a>
