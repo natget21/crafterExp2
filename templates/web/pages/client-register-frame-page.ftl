@@ -27,7 +27,7 @@
     </header>
     
 
-    <iframe id="partnerFrame" src="https://innova.s3innovation.it/signup-client-company?orgId=68225356b40eed046fea171a" width="100%" height="750px" frameborder="0"></iframe>
+    <iframe id="partnerFrame" src="https://dashboard.s3innovation.it/signup-client-company?orgId=68225356b40eed046fea171a" width="100%" height="750px" frameborder="0"></iframe>
     
     
 
