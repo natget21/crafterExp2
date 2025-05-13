@@ -69,7 +69,7 @@
           </p>
         </div>
       </div>
-      <ul class="nav nav-tabs mb-4">
+      <ul class="nav nav-tabs mb-4 mx-auto col-11 col-md-9 px-0">
         <li class="nav-item">
           <a class="nav-link active" data-bs-toggle="tab" href="#tab-pane-1">Descrizione</a>
         </li>
