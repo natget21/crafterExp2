@@ -162,20 +162,20 @@
         <div class="col-9">
           <ul class="nav nav-tabs mb-4 d-flex">
             <li class="nav-item col">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a class="nav-link active text-center" aria-current="page" href="#"
                 >Categoria</a
               >
             </li>
             <li class="nav-item col">
-              <a class="nav-link text-muted" href="#">Categoria</a>
+              <a class="nav-link text-muted text-center" href="#">Categoria</a>
             </li>
             <li class="nav-item col">
-              <a class="nav-link text-muted" aria-current="page" href="#"
+              <a class="nav-link text-muted text-center" aria-current="page" href="#"
                 >Categoria</a
               >
             </li>
             <li class="nav-item col">
-              <a class="nav-link text-muted" href="#">Categoria</a>
+              <a class="nav-link text-muted text-center" href="#">Categoria</a>
             </li>
           </ul>
 
