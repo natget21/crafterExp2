@@ -48,11 +48,11 @@
     
     <div class="content pb-5">
       <div class="banner_section banner_project layout_padding">
-        <img class="banner_img" src="/static-assets/assets/progetto.png">
-        <div class="container flex-column align-items-end">
-          <h1 class="best_taital text-center dark p-0">Formazione</h1>
+        <div class="container">
+          <h1 class="best_taital text-center text-white">Il progetto</h1>
+          <div class="box_main"></div>
           <p
-            class="there_text d-flex justify-content-end dark p-0 m-0"
+            class="there_text d-flex justify-content-center text-white pt-0 pt-md-5"
           >
             L’innovazione condivisa per costruire valore
           </p>
@@ -62,50 +62,202 @@
         class="mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
         <div class="marketing_section layout_padding mb-5">
-          <!--
           <h2 class="marketing_title title_section">
+            IDEALE è il punto d'incontro tra tecnologia, innovazione e impatto
+            sociale.
           </h2>
-        -->
           <p>
-            Il progetto InnoVA (Innovating Video Analytics), coordinato
-            dall’Università degli Studi di Palermo, mira a costituire un
-            ecosistema di innovazione digitale specializzato nella video analisi
-            e nella videosorveglianza, al servizio di pubbliche amministrazioni
-            e imprese private.
-          </p>
-          <p>
-            L’hub InnoVA si propone di valorizzare le potenzialità offerte dalle
-            tecnologie di video analytics, rendendole fruibili e accessibili a
-            utenti diversi e in molteplici contesti operativi. Attraverso
-            dimostratori ad hoc, il progetto svilupperà soluzioni su misura per
-            specifiche esigenze, mentre percorsi di affiancamento e formazione
-            accompagneranno gli utilizzatori nell’adozione pratica delle
-            piattaforme proposte, evidenziando al contempo i benefici in termini
-            di efficienza, sicurezza e contenimento dei cost
-          </p>
-          <p class="m-0">
-            Grazie al riconoscimento di “Seal of Excellence” conferito dalla
-            Commissione Europea e al finanziamento del Ministero delle Imprese e
-            del Made in Italy (MIMIT), InnoVA è entrato ufficialmente nella rete
-            nazionale ed europea degli European Digital Innovation Hubs (EDIHs),
-            rafforzando il proprio ruolo di polo strategico per il trasferimento
-            tecnologico e l’innovazione nei settori della mobilità intelligente,
-            del monitoraggio del territorio e della gestione delle
-            infrastrutture critiche.
+            Vogliamo costruire un ecosistema digitale dove imprese, pubbliche
+            amministrazioni e terzo settore collaborano per progettare servizi
+            intelligenti, inclusivi e sostenibili.
           </p>
         </div>
+        <div class="objectives_section">
+          <h2 class="title_section sub_title mb-4">
+            Obiettivi del progetto IDEALE
+          </h2>
+          <div class="objectives row row-gap-5">
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+              <div class="obj d-flex gap-3">
+                <img
+                  class="obj_image"
+                  src="static-assets/assets/turismo.png"
+                  alt=""
+                />
+                <p><strong>Matching</strong></p>
+              </div>
+              <p class="desc">
+                Connettere domanda e offerta in modo intelligente e rapido.
+              </p>
+            </div>
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+              <div class="obj d-flex gap-3">
+                <img
+                  class="obj_image"
+                  src="static-assets/assets/turismo.png"
+                  alt=""
+                />
+                <p><strong>Co-progettazione</strong></p>
+              </div>
+              <p class="desc">
+                Favorire la co-progettazione tra startup, PMI, PA, università e
+                grandi imprese.
+              </p>
+            </div>
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+              <div class="obj d-flex gap-3">
+                <img
+                  class="obj_image"
+                  src="static-assets/assets/turismo.png"
+                  alt=""
+                />
+                <p><strong>Digital Trasformation</strong></p>
+              </div>
+              <p class="desc">
+                Supportare la trasformazione digitale nei settori del turismo,
+                cultura e sociale.
+              </p>
+            </div>
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+              <div class="obj d-flex gap-3">
+                <img
+                  class="obj_image"
+                  src="static-assets/assets/turismo.png"
+                  alt=""
+                />
+                <p><strong>Business models </strong></p>
+              </div>
+              <p class="desc">
+                Promuovere modelli di business sostenibili e collaborativi.
+              </p>
+            </div>
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+              <div class="obj d-flex gap-3">
+                <img
+                  class="obj_image"
+                  src="static-assets/assets/turismo.png"
+                  alt=""
+                />
+                <p><strong>Formazione innovativa </strong></p>
+              </div>
+              <p class="desc">
+                Innovare la formazione con tecnologie immersive e approcci
+                esperienziali.
+              </p>
+            </div>
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+              <div class="obj d-flex gap-3">
+                <img
+                  class="obj_image"
+                  src="static-assets/assets/turismo.png"
+                  alt=""
+                />
+                <p><strong>Certificare le competenze </strong></p>
+              </div>
+              <p class="desc">
+                Misurare e certificare le competenze digitali, anche nella PA.
+              </p>
+            </div>
+          </div>
+        </div>
         <hr />
+        <div class="unicita">
+          <h2 class="title_section sub_title">Cosa rende IDEALE unico?</h2>
+          <p>Una piattaforma progettata per generare valore condiviso:</p>
+          <p>
+            AI e VR per connettere bisogni e soluzioni in modo personalizzato
+          </p>
+          <ul>
+            <li>
+              <p>
+                <strong> AI e VR </strong> per connettere bisogni e soluzioni in
+                modo personalizzato
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Marketplace digitale</strong> per promuovere servizi
+                innovativi
+              </p>
+            </li>
+            <li>
+              <p><strong>Formazione immersiva</strong> e adattiva</p>
+            </li>
+            <li>
+              <p>
+                <strong>Strumenti di collaborazione real-time</strong>, come
+                stanze virtuali e call for procurement
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
       <div
-        class="services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
+        class="layout_padding services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
-        <h2 class="services_section_title title_section">Servizi Offerti</h2>
+        <h2 class="services_section_title title_section">Prodotti e Servizi</h2>
         <p class="services_section_description mb-0 mt-3">
-          Il Polo InnoVA propone un ventaglio integrato di prestazioni
-          finalizzate a sostenere la trasformazione digitale e l’innovazione di
-          imprese e pubbliche amministrazioni:
+          La piattaforma offre un'ampia gamma di prodotti e servizi digitali
+          pensati per facilitare l'adozione di tecnologie innovative, lo
+          sviluppo delle competenze digitali, l'accesso ai finanziamenti e la
+          creazione di reti collaborative tra aziende, startup, istituzioni ed
+          Enti del Terzo settore. L'offerta si suddivide in due aree principali:
         </p>
         <div class="mt-5">
+          <p class="title_section sub_title">Prodotti digitali</p>
+          <div class="accordion" id="productsAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#productOne"
+                  aria-expanded="false"
+                  aria-controls="productOne"
+                >
+                  E-services
+                </button>
+              </h2>
+              <div
+                id="productOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#productsAccordion"
+              >
+                <div class="accordion-body">
+                  Microservizi completi con interfaccia utente, pronti all'uso
+                  per il cliente finale
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#productTwo"
+                  aria-expanded="false"
+                  aria-controls="productTwo"
+                >
+                  API
+                </button>
+              </h2>
+              <div
+                id="productTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#productsAccordion"
+              >
+                <div class="accordion-body">
+                  Interfacce di programmazione senza GUI, per l'integrazione
+                  diretta con altri sistemi
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5">
+          <p class="title_section sub_title">Servizi digitali</p>
           <div class="accordion" id="servicesAccordion">
             <div class="accordion-item">
               <h2 class="accordion-header">
@@ -117,7 +269,7 @@
                   aria-expanded="false"
                   aria-controls="serviceOne"
                 >
-                  Audit Tecnico & Assessment
+                  Test Before Invest
                 </button>
               </h2>
               <div
@@ -126,10 +278,10 @@
                 data-bs-parent="#servicesAccordion"
               >
                 <div class="accordion-body">
-                  Valutazione dello stato dell’arte delle infrastrutture
-                  digitali e dei processi, con l’obiettivo di definire il
-                  livello di maturità tecnologica e individuare le priorità di
-                  intervento.
+                  Servizi che permettono alle aziende di esplorare e testare
+                  nuove tecnologie e soluzioni prima di effettuare investimenti,
+                  attraverso dimostrazioni pratiche, studi di fattibilità,
+                  proof-of-concept, test e validazione di soluzioni.
                 </div>
               </div>
             </div>
@@ -143,7 +295,7 @@
                   aria-expanded="false"
                   aria-controls="serviceTwo"
                 >
-                  Test Before Invest
+                  Consulenza
                 </button>
               </h2>
               <div
@@ -152,9 +304,11 @@
                 data-bs-parent="#servicesAccordion"
               >
                 <div class="accordion-body">
-                  Allestimento di Living Lab e Proof of Concept per verificare
-                  sul campo l’efficacia di soluzioni di video analisi e
-                  videosorveglianza prima di impegnare risorse in investimenti.
+                  Servizi progettati per supportare le aziende nel loro percorso
+                  di innovazione e crescita, fornendo supporto strategico e
+                  operativo su diverse aree come l'orientamento tecnologico, la
+                  gestione del cambiamento, l'innovazione sociale e la
+                  consulenza ICT e manageriale.
                 </div>
               </div>
             </div>
@@ -168,7 +322,7 @@
                   aria-expanded="false"
                   aria-controls="serviceThree"
                 >
-                  Formazione
+                  Skills and Training
                 </button>
               </h2>
               <div
@@ -177,10 +331,10 @@
                 data-bs-parent="#servicesAccordion"
               >
                 <div class="accordion-body">
-                  Percorsi formativi modulabili – da guide online e
-                  video-tutorial a workshop specialistici e master universitari
-                  – per acquisire le competenze necessarie all’utilizzo delle
-                  nuove tecnologie.
+                  Offerta di corsi di formazione standard e personalizzati per
+                  sviluppare competenze in ambito digitale, manageriale e
+                  tecnico, con l'obiettivo di potenziare le capacità delle
+                  risorse umane aziendali in settori strategici.
                 </div>
               </div>
             </div>
@@ -194,7 +348,7 @@
                   aria-expanded="false"
                   aria-controls="serviceFour"
                 >
-                  Consulenza per l’Accesso ai Finanziamenti
+                  Access to Finance
                 </button>
               </h2>
               <div
@@ -203,9 +357,11 @@
                 data-bs-parent="#servicesAccordion"
               >
                 <div class="accordion-body">
-                  Supporto nella ricerca e nella gestione di opportunità di
-                  finanziamento a livello regionale, nazionale ed europeo,
-                  comprensivo di redazione delle domande e rendicontazione.
+                  Servizi di consulenza finalizzati a facilitare l'accesso a
+                  finanziamenti pubblici e privati, tra cui la finanza
+                  agevolata, la progettazione di crowdfunding, l'accesso al
+                  credito, le misure fiscali e la consulenza in corporate
+                  finance.
                 </div>
               </div>
             </div>
@@ -219,8 +375,7 @@
                   aria-expanded="false"
                   aria-controls="serviceFive"
                 >
-                  Consulenza su Innovazione di Processo e di Prodotto,
-                  Networking e Sensibilizzazione
+                  Networking, Ecosystem e Open Innovation
                 </button>
               </h2>
               <div
@@ -229,10 +384,11 @@
                 data-bs-parent="#servicesAccordion"
               >
                 <div class="accordion-body">
-                  Definizione di strategie di innovazione, organizzazione di
-                  eventi e tavoli di lavoro per mettere in rete stakeholder, e
-                  creazione di un repository di best practice per diffondere
-                  casi di successo.
+                  Attività mirate a facilitare il networking tra aziende,
+                  istituzioni e innovatori, promuovendo la creazione di alleanze
+                  strategiche, la diffusione di conoscenze e la partecipazione a
+                  eventi di innovazione aperta come hackathon e incontri di
+                  brokeraggio.
                 </div>
               </div>
             </div>
@@ -240,179 +396,97 @@
         </div>
       </div>
       <div
-        class="layout_padding services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
+        class="layout_padding addressee_section mx-auto col-11 col-md-9 px-0"
       >
-        <h2 class="services_section_title title_section">
-          Tecnologie e Innovazione
-        </h2>
-        <p class="services_section_description mb-0 mt-3">
-          Le soluzioni sviluppate da InnoVa si basano su tecnologie abilitanti
-          di ultima generazione, tra cui:
-        </p>
-        <div class="mt-5">
-          <div class="accordion" id="techsAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#techOne"
-                  aria-expanded="false"
-                  aria-controls="techOne"
-                >
-                  Intelligenza Artificiale & Machine Learning
-                </button>
-              </h2>
-              <div
-                id="techOne"
-                class="accordion-collapse collapse"
-                data-bs-parent="#techsAccordion"
-              >
-                <div class="accordion-body">
-                  Algoritmi avanzati per l’elaborazione di dati visivi e il
-                  riconoscimento automatico.
-                </div>
-              </div>
+        <h2 class="title_section">Destinatari</h2>
+        <div class="row pl-3">
+          <div
+            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
+          >
+            <div class="imageContainer">
+              <img src="/static-assets/assets/imprese.png" alt="" />
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#techTwo"
-                  aria-expanded="false"
-                  aria-controls="techTwo"
-                >
-                  High Performance Computing & Big Data
-                </button>
-              </h2>
-              <div
-                id="techTwo"
-                class="accordion-collapse collapse"
-                data-bs-parent="#techsAccordion"
-              >
-                <div class="accordion-body">
-                  Analisi in tempo reale di flussi video complessi per
-                  applicazioni di sicurezza e monitoraggio.
-                </div>
-              </div>
+            <p class="addressee_text d-flex justify-content-start">Imprese</p>
+          </div>
+          <div
+            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
+          >
+            <div class="imageContainer">
+              <img
+                src="/static-assets/assets/pa.png"
+                alt=""
+                style="width: 100px"
+              />
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#techThree"
-                  aria-expanded="false"
-                  aria-controls="techThree"
-                >
-                  Cloud Computing & Cybersecurity
-                </button>
-              </h2>
-              <div
-                id="techThree"
-                class="accordion-collapse collapse"
-                data-bs-parent="#techsAccordion"
-              >
-                <div class="accordion-body">
-                  Infrastrutture scalabili e sicure per la gestione dei dati e
-                  la protezione delle informazioni sensibili.
-                </div>
-              </div>
+            <p class="addressee_text d-flex justify-content-start">
+              Pubblica Amministrazione
+            </p>
+          </div>
+          <div
+            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
+          >
+            <div class="imageContainer">
+              <img
+                src="/static-assets/assets/terzo-settore.png"
+                alt=""
+                style="width: 90px"
+              />
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#techFour"
-                  aria-expanded="false"
-                  aria-controls="techFour"
-                >
-                  Sistemi di supporto alle decisioni
-                </button>
-              </h2>
-              <div
-                id="techFour"
-                class="accordion-collapse collapse"
-                data-bs-parent="#techsAccordion"
-              >
-                <div class="accordion-body">
-                  Strumenti avanzati per migliorare la governance e l’efficacia
-                  operativa di imprese e amministrazioni.
-                </div>
-              </div>
+            <p class="addressee_text d-flex justify-content-start">
+              Enti del Terzo Settore
+            </p>
+          </div>
+          <div
+            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
+          >
+            <div class="imageContainer">
+              <img
+                src="/static-assets/assets/freelance.png"
+                alt=""
+                style="width: 80px"
+              />
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#techFive"
-                  aria-expanded="false"
-                  aria-controls="techFive"
-                >
-                  Sensori IoT e Computer Vision
-                </button>
-              </h2>
-              <div
-                id="techFive"
-                class="accordion-collapse collapse"
-                data-bs-parent="#techsAccordion"
-              >
-                <div class="accordion-body">
-                  Tecnologie per il monitoraggio avanzato dell’ambiente urbano,
-                  industriale e infrastrutturale.
-                </div>
-              </div>
-            </div>
+            <p class="addressee_text d-flex justify-content-start">
+              Liberi Professionisti
+            </p>
           </div>
         </div>
       </div>
-      <div
-        class="layout_padding d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0 objectives mb-5"
-      >
-        <h2 class="title_section">
-          Un modello collaborativo per l’eccellenza digitale
-        </h2>
-        <p class="mt-3">
-          Il Seal of Excellence InnoVA coordina gli attori chiave del panorama
-          italiano, connettendo competenze, infrastrutture tecnologiche e
-          know-how specializzato al fine di:
-        </p>
-        <ul>
-          <li>
-            <p>
-              Creare un ecosistema di eccellenza nella video analisi e nella
-              videosorveglianza intelligente.
-            </p>
-          </li>
-          <li>
-            <p>
-              Supportare imprese e pubbliche amministrazioni nell’adozione di
-              tecnologie digitali innovative.
-            </p>
-          </li>
-          <li>
-            <p>
-              Stimolare investimenti in soluzioni avanzate per la sicurezza e il
-              monitoraggio del territorio.
-            </p>
-          </li>
-          <li>
-            <p>
-              Favorire la sinergia tra ricerca, industria e istituzioni per
-              rafforzare la competitività e la leadership tecnologica italiana
-            </p>
-          </li>
-        </ul>
+      <div class="layout_padding targets_section mx-auto col-11 col-md-9 px-0">
+        <h2 class="targets_section_title title_section">Settori target</h2>
+        <div class="targets row layout_padding pl-3 gap-3">
+          <div
+            class="target px-0 col-12 col-md-2 d-flex justify-content-start flex-column gap-3"
+          >
+            <div class="imageContainer">
+              <img
+                src="/static-assets/assets/cultura.png"
+                alt=""
+                style="width: 90px"
+              />
+            </div>
+            <p>Cultura</p>
+          </div>
+          <div
+            class="target px-0 col-12 col-md-2 d-flex justify-content-start flex-column gap-3"
+          >
+            <div class="imageContainer">
+              <img src="/static-assets/assets/turismo.png" alt="" />
+            </div>
+            <p>Turismo</p>
+          </div>
+          <div
+            class="target px-0 col-12 col-md-2 d-flex justify-content-start flex-column gap-3"
+          >
+            <div class="imageContainer">
+              <img src="/static-assets/assets/sociale.png" alt="" />
+            </div>
+            <p>Sociale</p>
+          </div>
+        </div>
       </div>
     </div>
+
     
     <!-- Footer Section -->
     <#include "/templates/web/fragments/footer-no-padding.ftl">
