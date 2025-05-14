@@ -73,14 +73,14 @@
           <p>
             L’hub InnoVA si propone di valorizzare le potenzialità offerte dalle tecnologie di video analytics, rendendole fruibili e accessibili a utenti diversi e in molteplici contesti operativi. Attraverso dimostratori ad hoc, il progetto svilupperà soluzioni su misura per specifiche esigenze, mentre percorsi di affiancamento e formazione accompagneranno gli utilizzatori nell’adozione pratica delle piattaforme proposte, evidenziando al contempo i benefici in termini di efficienza, sicurezza e contenimento dei cost
           </p>
-          <p>
+          <p class="m-0">
             Grazie al riconoscimento di “Seal of Excellence” conferito dalla Commissione Europea e al finanziamento del Ministero delle Imprese e del Made in Italy (MIMIT), InnoVA è entrato ufficialmente nella rete nazionale ed europea degli European Digital Innovation Hubs (EDIHs), rafforzando il proprio ruolo di polo strategico per il trasferimento tecnologico e l’innovazione nei settori della mobilità intelligente, del monitoraggio del territorio e della gestione delle infrastrutture critiche.
           </p>
         </div>
         <hr />
       </div>
       <div
-        class="layout_padding services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
+        class="services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
         <h2 class="services_section_title title_section">Prodotti e Servizi</h2>
         <p class="services_section_description mb-0 mt-3">
