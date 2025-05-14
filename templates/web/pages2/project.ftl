@@ -221,6 +221,141 @@
         </div>
       </div>
       <div
+        class="layout_padding services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
+      >
+        <h2 class="services_section_title title_section">
+          Tecnologie e Innovazione
+        </h2>
+        <p class="services_section_description mb-0 mt-3">
+          Le soluzioni sviluppate da InnoVa si basano su tecnologie abilitanti
+          di ultima generazione, tra cui:
+        </p>
+        <div class="mt-5">
+          <div class="accordion" id="techsAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#techOne"
+                  aria-expanded="false"
+                  aria-controls="techOne"
+                >
+                  Intelligenza Artificiale & Machine Learning
+                </button>
+              </h2>
+              <div
+                id="techOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#techsAccordion"
+              >
+                <div class="accordion-body">
+                  Algoritmi avanzati per l’elaborazione di dati visivi e il
+                  riconoscimento automatico.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#techTwo"
+                  aria-expanded="false"
+                  aria-controls="techTwo"
+                >
+                  High Performance Computing & Big Data
+                </button>
+              </h2>
+              <div
+                id="techTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#techsAccordion"
+              >
+                <div class="accordion-body">
+                  Analisi in tempo reale di flussi video complessi per
+                  applicazioni di sicurezza e monitoraggio.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#techThree"
+                  aria-expanded="false"
+                  aria-controls="techThree"
+                >
+                  Cloud Computing & Cybersecurity
+                </button>
+              </h2>
+              <div
+                id="techThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#techsAccordion"
+              >
+                <div class="accordion-body">
+                  Infrastrutture scalabili e sicure per la gestione dei dati e
+                  la protezione delle informazioni sensibili.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#techFour"
+                  aria-expanded="false"
+                  aria-controls="techFour"
+                >
+                  Sistemi di supporto alle decisioni
+                </button>
+              </h2>
+              <div
+                id="techFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#techsAccordion"
+              >
+                <div class="accordion-body">
+                  Strumenti avanzati per migliorare la governance e l’efficacia
+                  operativa di imprese e amministrazioni.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#techFive"
+                  aria-expanded="false"
+                  aria-controls="techFive"
+                >
+                  Sensori IoT e Computer Vision
+                </button>
+              </h2>
+              <div
+                id="techFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#techsAccordion"
+              >
+                <div class="accordion-body">
+                  Tecnologie per il monitoraggio avanzato dell’ambiente urbano,
+                  industriale e infrastrutturale.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
         class="layout_padding addressee_section mx-auto col-11 col-md-9 px-0"
       >
         <h2 class="title_section">Destinatari</h2>
