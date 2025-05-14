@@ -36,7 +36,7 @@
                                 <div class="dropdown-menu  rounded-0 border-0 m-0">
                                     <a href="/services/audit-tecnico" class="nav-item nav-link sublink <#if currentUrl?starts_with("/services/audit-tecnico")>active</#if>">Audit tecnico</a>
                                     <a href="/test-before-invest/formazione" class="nav-item nav-link sublink <#if currentUrl?starts_with("/test-before-invest/formazione")>active</#if>">Formazione</a>
-                                    <a href="/networking" class="nav-item nav-link sublink <#if currentUrl?starts_with("/networking")>active</#if>">Networking</a>
+                                    <a href="/test-before-invest/formazione/consulenza-finanziamenti" class="nav-item nav-link sublink <#if currentUrl?starts_with("/test-before-invest/formazione/consulenza-finanziamenti")>active</#if>">Consulenza su accesso ai finanziamenti</a>
                                     <a href="/skills-training" class="nav-item nav-link sublink <#if currentUrl?starts_with("/skills-training")>active</#if>">Skills & Training</a>
                                     <a href="/test-before-invest" class="nav-item nav-link sublink <#if currentUrl?starts_with("/test-before-invest")>active</#if>">Test before invest</a>
                                 </div>
