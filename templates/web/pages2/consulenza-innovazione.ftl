@@ -50,370 +50,84 @@
 
     
     <div class="content pb-5">
-      <div class="banner_section banner_project layout_padding">
-        <img class="banner_img" src="static-assets/assets/progetto.png">
-        <div class="container flex-column align-items-end">
-          <h1 class="best_taital text-center dark p-0">Formazione</h1>
-          <p
-            class="there_text d-flex justify-content-end dark p-0 m-0"
-          >Consulenza su innovazione tecnologica di processo e di prodotto,networking e sensibilizzazione</p>
+      <div
+        class="banner_section banner_services layout_padding d-flex align-items-center"
+      >
+        <img class="banner_img" src="static-assets/assets/servizi.png" />
+        <div class="container">
+          <h1 class="best_taital text-center dark p-0">
+            Consulenza su innovazione tecnologica di processo e di
+            prodotto,networking e sensibilizzazione
+          </h1>
         </div>
       </div>
       <div
-        class="mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
+        class="layout_padding mx-auto justify-content-center col-11 col-md-9 px-0"
       >
-        <div class="marketing_section layout_padding mb-5">
-          <!--
-          <h2 class="marketing_title title_section">
-          </h2>
-        -->
-          <p>
-            Il progetto InnoVA (Innovating Video Analytics), coordinato
-            dall’Università degli Studi di Palermo, mira a costituire un
-            ecosistema di innovazione digitale specializzato nella video analisi
-            e nella videosorveglianza, al servizio di pubbliche amministrazioni
-            e imprese private.
-          </p>
-          <p>
-            L’hub InnoVA si propone di valorizzare le potenzialità offerte dalle
-            tecnologie di video analytics, rendendole fruibili e accessibili a
-            utenti diversi e in molteplici contesti operativi. Attraverso
-            dimostratori ad hoc, il progetto svilupperà soluzioni su misura per
-            specifiche esigenze, mentre percorsi di affiancamento e formazione
-            accompagneranno gli utilizzatori nell’adozione pratica delle
-            piattaforme proposte, evidenziando al contempo i benefici in termini
-            di efficienza, sicurezza e contenimento dei cost
-          </p>
-          <p class="m-0">
-            Grazie al riconoscimento di “Seal of Excellence” conferito dalla
-            Commissione Europea e al finanziamento del Ministero delle Imprese e
-            del Made in Italy (MIMIT), InnoVA è entrato ufficialmente nella rete
-            nazionale ed europea degli European Digital Innovation Hubs (EDIHs),
-            rafforzando il proprio ruolo di polo strategico per il trasferimento
-            tecnologico e l’innovazione nei settori della mobilità intelligente,
-            del monitoraggio del territorio e della gestione delle
-            infrastrutture critiche.
-          </p>
-        </div>
-        <hr />
-      </div>
-      <div
-        class="services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
-      >
-        <h2 class="services_section_title title_section">Servizi Offerti</h2>
-        <p class="services_section_description mb-0 mt-3">
-          Il Polo InnoVA propone un ventaglio integrato di prestazioni
-          finalizzate a sostenere la trasformazione digitale e l’innovazione di
-          imprese e pubbliche amministrazioni:
-        </p>
-        <div class="mt-5">
-          <div class="accordion" id="servicesAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#serviceOne"
-                  aria-expanded="false"
-                  aria-controls="serviceOne"
-                >
-                  Audit Tecnico & Assessment
-                </button>
-              </h2>
-              <div
-                id="serviceOne"
-                class="accordion-collapse collapse"
-                data-bs-parent="#servicesAccordion"
-              >
-                <div class="accordion-body">
-                  Valutazione dello stato dell’arte delle infrastrutture
-                  digitali e dei processi, con l’obiettivo di definire il
-                  livello di maturità tecnologica e individuare le priorità di
-                  intervento.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#serviceTwo"
-                  aria-expanded="false"
-                  aria-controls="serviceTwo"
-                >
-                  Test Before Invest
-                </button>
-              </h2>
-              <div
-                id="serviceTwo"
-                class="accordion-collapse collapse"
-                data-bs-parent="#servicesAccordion"
-              >
-                <div class="accordion-body">
-                  Allestimento di Living Lab e Proof of Concept per verificare
-                  sul campo l’efficacia di soluzioni di video analisi e
-                  videosorveglianza prima di impegnare risorse in investimenti.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#serviceThree"
-                  aria-expanded="false"
-                  aria-controls="serviceThree"
-                >
-                  Formazione
-                </button>
-              </h2>
-              <div
-                id="serviceThree"
-                class="accordion-collapse collapse"
-                data-bs-parent="#servicesAccordion"
-              >
-                <div class="accordion-body">
-                  Percorsi formativi modulabili – da guide online e
-                  video-tutorial a workshop specialistici e master universitari
-                  – per acquisire le competenze necessarie all’utilizzo delle
-                  nuove tecnologie.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#serviceFour"
-                  aria-expanded="false"
-                  aria-controls="serviceFour"
-                >
-                  Consulenza per l’Accesso ai Finanziamenti
-                </button>
-              </h2>
-              <div
-                id="serviceFour"
-                class="accordion-collapse collapse"
-                data-bs-parent="#servicesAccordion"
-              >
-                <div class="accordion-body">
-                  Supporto nella ricerca e nella gestione di opportunità di
-                  finanziamento a livello regionale, nazionale ed europeo,
-                  comprensivo di redazione delle domande e rendicontazione.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#serviceFive"
-                  aria-expanded="false"
-                  aria-controls="serviceFive"
-                >
-                  Consulenza su Innovazione di Processo e di Prodotto,
-                  Networking e Sensibilizzazione
-                </button>
-              </h2>
-              <div
-                id="serviceFive"
-                class="accordion-collapse collapse"
-                data-bs-parent="#servicesAccordion"
-              >
-                <div class="accordion-body">
-                  Definizione di strategie di innovazione, organizzazione di
-                  eventi e tavoli di lavoro per mettere in rete stakeholder, e
-                  creazione di un repository di best practice per diffondere
-                  casi di successo.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="layout_padding services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
-      >
-        <h2 class="services_section_title title_section">
-          Tecnologie e Innovazione
-        </h2>
-        <p class="services_section_description mb-0 mt-3">
-          Le soluzioni sviluppate da InnoVa si basano su tecnologie abilitanti
-          di ultima generazione, tra cui:
-        </p>
-        <div class="mt-5">
-          <div class="accordion" id="techsAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#techOne"
-                  aria-expanded="false"
-                  aria-controls="techOne"
-                >
-                  Intelligenza Artificiale & Machine Learning
-                </button>
-              </h2>
-              <div
-                id="techOne"
-                class="accordion-collapse collapse"
-                data-bs-parent="#techsAccordion"
-              >
-                <div class="accordion-body">
-                  Algoritmi avanzati per l’elaborazione di dati visivi e il
-                  riconoscimento automatico.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#techTwo"
-                  aria-expanded="false"
-                  aria-controls="techTwo"
-                >
-                  High Performance Computing & Big Data
-                </button>
-              </h2>
-              <div
-                id="techTwo"
-                class="accordion-collapse collapse"
-                data-bs-parent="#techsAccordion"
-              >
-                <div class="accordion-body">
-                  Analisi in tempo reale di flussi video complessi per
-                  applicazioni di sicurezza e monitoraggio.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#techThree"
-                  aria-expanded="false"
-                  aria-controls="techThree"
-                >
-                  Cloud Computing & Cybersecurity
-                </button>
-              </h2>
-              <div
-                id="techThree"
-                class="accordion-collapse collapse"
-                data-bs-parent="#techsAccordion"
-              >
-                <div class="accordion-body">
-                  Infrastrutture scalabili e sicure per la gestione dei dati e
-                  la protezione delle informazioni sensibili.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#techFour"
-                  aria-expanded="false"
-                  aria-controls="techFour"
-                >
-                  Sistemi di supporto alle decisioni
-                </button>
-              </h2>
-              <div
-                id="techFour"
-                class="accordion-collapse collapse"
-                data-bs-parent="#techsAccordion"
-              >
-                <div class="accordion-body">
-                  Strumenti avanzati per migliorare la governance e l’efficacia
-                  operativa di imprese e amministrazioni.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#techFive"
-                  aria-expanded="false"
-                  aria-controls="techFive"
-                >
-                  Sensori IoT e Computer Vision
-                </button>
-              </h2>
-              <div
-                id="techFive"
-                class="accordion-collapse collapse"
-                data-bs-parent="#techsAccordion"
-              >
-                <div class="accordion-body">
-                  Tecnologie per il monitoraggio avanzato dell’ambiente urbano,
-                  industriale e infrastrutturale.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="layout_padding d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0 objectives mb-5"
-      >
-        <h2 class="title_section">
-          Un modello collaborativo per l’eccellenza digitale
-        </h2>
+        <h2 class="title_section pl-3 pl-md-0 col-md-6 mb-4">Cosa offriamo</h2>
         <p class="mt-3">
-          Il Seal of Excellence InnoVA coordina gli attori chiave del panorama
-          italiano, connettendo competenze, infrastrutture tecnologiche e
-          know-how specializzato al fine di:
+          L’attività di consulenza su innovazione tecnologica di prodotto,
+          networking e sensibilizzazione si articola in una serie di servizi e
+          azioni integrate finalizzate a promuovere l’adozione di tecnologie
+          innovative nei processi produttivi e nei prodotti/servizi offerti
+          dalle imprese. Viene fornita consulenza mirata per supportare
+          l’introduzione di soluzioni digitali, favorendo al contempo il
+          networking tra attori dell’ecosistema dell’innovazione. L’attività
+          comprende la creazione di comunità territoriali, il coinvolgimento
+          attivo degli stakeholder e la raccolta di casi di successo, con
+          l’obiettivo di generare consapevolezza, ispirazione e collaborazione.
+          In questo contesto, la sensibilizzazione gioca un ruolo cruciale nel
+          diffondere la cultura dell’innovazione, stimolando nuove sinergie tra
+          pubblico, privato e ricerca.
         </p>
-        <ul>
+        <ul class="mb-4">
           <li>
-            <p>
-              Creare un ecosistema di eccellenza nella video analisi e nella
-              videosorveglianza intelligente.
-            </p>
+            <p>Creazione della Comunità</p>
           </li>
           <li>
-            <p>
-              Supportare imprese e pubbliche amministrazioni nell’adozione di
-              tecnologie digitali innovative.
-            </p>
+            <p>Coinvolgimento degli Stakeholder</p>
           </li>
           <li>
-            <p>
-              Stimolare investimenti in soluzioni avanzate per la sicurezza e il
-              monitoraggio del territorio.
-            </p>
-          </li>
-          <li>
-            <p>
-              Favorire la sinergia tra ricerca, industria e istituzioni per
-              rafforzare la competitività e la leadership tecnologica italiana
-            </p>
+            <p>Creazione Repository casi di successo</p>
           </li>
         </ul>
+        <p class="mb-4">
+          <strong>Creazione della Comunità: </strong>
+          Attività di animazione e facilitazione per la creazione di una
+          community territoriale composta da imprese, enti pubblici, organismi
+          di ricerca e stakeholder interessati all’innovazione digitale. Il
+          servizio promuove l’incontro tra domanda e offerta di tecnologie, lo
+          scambio di esperienze e la condivisione di buone pratiche, anche
+          attraverso l’utilizzo di piattaforme digitali e l’organizzazione di
+          eventi di networking. L’obiettivo è rafforzare le connessioni tra
+          attori dell’ecosistema e favorire la collaborazione su progetti
+          comuni.
+        </p>
+        <p class="mb-4">
+          <strong>Coinvolgimento degli Stakeholder: </strong>
+          Attività mirate al coinvolgimento attivo degli stakeholder rilevanti
+          per ciascun ambito di innovazione, al fine di favorire l’emersione dei
+          bisogni reali e la co-progettazione di soluzioni efficaci. Il servizio
+          prevede incontri, tavoli tematici, workshop partecipativi e
+          interviste, con l’obiettivo di raccogliere input utili alla
+          definizione di strategie di intervento condivise e sostenibili,
+          rafforzando il legame tra innovazione tecnologica e sviluppo del
+          territorio
+        </p>
+        <p class="mb-4">
+          <strong>Creazione Repository casi di successo: </strong>
+          Raccolta, documentazione e pubblicazione di casi di successo relativi
+          all’adozione di tecnologie digitali da parte di imprese ed enti
+          pubblici, supportati dal partenariato INNOVA. Il repository,
+          accessibile online, descrive le soluzioni implementate, i benefici
+          ottenuti, le criticità affrontate e le lezioni apprese. Questo
+          strumento ha la funzione di ispirare altri soggetti, valorizzare i
+          risultati raggiunti, favorire la replicabilità delle buone pratiche e
+          aumentare la visibilità dell’impatto del progetto sul territorio.
+        </p>
       </div>
     </div>
+
     
     
         <!-- Scripts -->
