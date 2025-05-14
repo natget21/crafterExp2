@@ -302,12 +302,12 @@
 						</property>
 						<property>
 							<name>baseRepoPath</name>
-							<value>/site/components/categories</value>
+							<value>/site/components/category</value>
 								<type>string</type>
 						</property>
 						<property>
 							<name>baseBrowsePath</name>
-							<value>/site/components/categories</value>
+							<value>/site/components/category</value>
 								<type>string</type>
 						</property>
 						<property>
