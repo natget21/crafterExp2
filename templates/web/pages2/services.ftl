@@ -273,8 +273,11 @@
         <div
           class="col-12 col-md-6 d-flex justify-content-center w-100 w-md-50"
         >
-          <a download class="btn btn-secondary rounded-5">
+          <a download class="btn btn-secondary rounded-5 d-flex">
             Come accedere ai servizi
+            <span class="material-symbols-outlined" style="margin-left:5px;">
+                download
+            </span>
           </a>
         </div>
       </div>
