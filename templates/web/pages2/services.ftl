@@ -58,6 +58,7 @@
         </div>
       </div>
 
+      
       <div
         class="layout_padding mx-auto justify-content-center col-11 col-md-9 px-0"
       >
@@ -126,7 +127,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/assessment-1.jpg" alt="" />
+          <img src="static-assets/assets/assessment-1.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -157,7 +158,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/test-before-invest-1.jpg" alt="" />
+          <img src="static-assets/assets/test-before-invest-1.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -189,7 +190,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/formazione-1.jpg" alt="" />
+          <img src="static-assets/assets/formazione-1.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -217,7 +218,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
@@ -250,7 +251,7 @@
               </button>
             </div>
           </div>
-          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
       </div>
     </div>
