@@ -52,7 +52,7 @@
       >
         <img class="banner_img" src="static-assets/assets/servizi.png" />
         <div class="container">
-          <h1 class="best_taital text-center text-white p-0">
+          <h1 class="best_taital text-center p-0">
             Test Before Invest
           </h1>
         </div>
