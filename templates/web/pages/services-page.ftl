@@ -160,21 +160,21 @@
                 <!-- Tag End -->
         </div>
         <div class="col-9">
-          <ul class="nav nav-tabs mb-4">
-            <li class="nav-item">
+          <ul class="nav nav-tabs mb-4 d-flex">
+            <li class="nav-item col">
               <a class="nav-link active" aria-current="page" href="#"
                 >Categoria</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item col">
               <a class="nav-link text-muted" href="#">Categoria</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item col">
               <a class="nav-link text-muted" aria-current="page" href="#"
                 >Categoria</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item col">
               <a class="nav-link text-muted" href="#">Categoria</a>
             </li>
           </ul>
