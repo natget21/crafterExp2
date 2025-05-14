@@ -29,13 +29,6 @@
         <p>
             InnoVA è l’hub specializzato in Intelligenza Artificiale, HPC e Computer Vision, al servizio di imprese e pubbliche amministrazioni per affrontare le sfide della videosorveglianza e del monitoraggio intelligente.
         </p>
-        <p>
-          Attraverso una piattaforma digitale avanzata, IDEALE mette in
-          relazione una rete articolata di startup, spin-off, PMI innovative,
-          centri di ricerca e grandi aziende, favorendo processi di
-          co-progettazione e collaborazione virtuale finalizzati ad accelerare
-          la transizione digitale e a generare valore condiviso per i territori.
-        </p>
       </div>
 
       <div class="objectives mb-5">
