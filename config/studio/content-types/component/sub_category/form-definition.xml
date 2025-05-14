@@ -312,7 +312,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/categories</value>
+							<value>/component/categories,/component/category</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
