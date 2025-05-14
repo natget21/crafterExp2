@@ -8,17 +8,17 @@
 	<objectId>7472b512-8d0e-4424-862b-d08cb277ddf3</objectId>
 	<file-name>282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-9.xml</file-name>
 	<folder-name/>
-	<internal-name>misure-fiscali</internal-name>
-	<name_s>Misure fiscali</name_s>
-	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-2.xml</key>
-	<value>ACCESS TO FINANCE</value>
-	<include>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-2.xml</include>
+	<internal-name>2.4 - Living Lab City Barracs</internal-name>
+	<name_s>Living Lab City Barracs</name_s>
+	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-4.xml</key>
+	<value>2 - TEST BEFORE INVEST</value>
+	<include>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-4.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></category_o>
 	<createdDate>2024-11-14T09:02:09.880Z</createdDate>
 	<createdDate_dt>2024-11-14T09:02:09.880Z</createdDate_dt>
-	<lastModifiedDate>2025-04-23T12:15:39.722Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-04-23T12:15:39.722Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-14T10:32:47.678Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-14T10:32:47.678Z</lastModifiedDate_dt>
 	<tags_o/>
 	<requireGDPRAcceptance_b>false</requireGDPRAcceptance_b>
 	<requireprivacyacceptance_b>false</requireprivacyacceptance_b>
