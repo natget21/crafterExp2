@@ -77,13 +77,8 @@
     <div class="text-center mb-4 pt-5" style="padding-top: 28px !important;">
     <#if categoryName?has_content>
         <nav class="breadcrumb bg-light mb-30">
-            <a class="breadcrumb-item" href="index">Home</a>
-            <a class="breadcrumb-item" href="/catalog">Services</a>
-            <#if servicename?has_content>
-                <span class="breadcrumb-item active">${servicename}</span>
-            <#else>
-                <span class="breadcrumb-item active">Detail</span>
-            </#if>
+            <a class="breadcrumb-item" href="/catalog">Catalogo Servizi</a>
+            <span class="breadcrumb-item active">${categoryName}</span>
         </nav>
         <#else>
             <h2 class="section-title px-5"><span class="px-2 explore bg-white">Esplora le categorie del catalogo </span></h2>
