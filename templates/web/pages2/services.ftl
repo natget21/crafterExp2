@@ -259,7 +259,7 @@
           class="col-12 col-md-6 d-flex justify-content-center w-100 w-md-50"
         >
           <a
-            href="assets/catalogo-dei-servizi-innova-ed.1-rev.pdf"
+            href="static-assets/assets/catalogo-dei-servizi-innova-ed.1-rev.pdf"
             download
             class="btn btn-secondary rounded-5"
           >
