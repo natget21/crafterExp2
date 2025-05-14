@@ -23,7 +23,7 @@
       class="content pb-5 mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
     >
       <div class="explanation layout_padding mb-5">
-        <h2 class="title_section text-center">
+        <h2 class="title_section text-center text-uppercase">
             L’innovazione italiana nella video analisi e nella sicurezza intelligente
         </h2>
         <p>
