@@ -37,8 +37,7 @@
                                     <a href="/audit-tecnico" class="nav-item nav-link sublink <#if currentUrl?starts_with("/audit-tecnico")>active</#if>">Audit tecnico</a>
                                     <a href="/formazione" class="nav-item nav-link sublink <#if currentUrl?starts_with("/formazione")>active</#if>">Formazione</a>
                                     <a href="/consulenza-finanziamenti" class="nav-item nav-link sublink <#if currentUrl?starts_with("/consulenza-finanziamenti")>active</#if>">Consulenza su accesso ai finanziamenti</a>
-                                    <a href="/skills-training" class="nav-item nav-link sublink <#if currentUrl?starts_with("/skills-training")>active</#if>">Skills & Training</a>
-                                    <a href="/test-before-invest" class="nav-item nav-link sublink <#if currentUrl?starts_with("/test-before-invest")>active</#if>">Test before invest</a>
+                                    <a href="/consulenza-innovazione" class="nav-item nav-link sublink <#if currentUrl?starts_with("/consulenza-innovazione")>active</#if>">Consulenza su innovazione tecnologica</a>
                                 </div>
                             </div>
                             <a href="/event" class="nav-item nav-link <#if currentUrl?starts_with("/event")>active</#if>">EVENTI</a>
