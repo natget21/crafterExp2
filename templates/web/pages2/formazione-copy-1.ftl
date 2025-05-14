@@ -56,9 +56,7 @@
           <h1 class="best_taital text-center dark p-0">Formazione</h1>
           <p
             class="there_text d-flex justify-content-end dark p-0 m-0"
-          >
-            L’innovazione condivisa per costruire valore
-          </p>
+          >Consulenza su innovazione tecnologica di processo e di prodotto,networking e sensibilizzazione</p>
         </div>
       </div>
       <div
