@@ -163,11 +163,19 @@
           <ul class="nav nav-tabs mb-4">
             <li class="nav-item">
               <a class="nav-link text-muted" aria-current="page" href="#"
-                >Profilo azienda</a
+                >Categoria</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Profilo Personale</a>
+              <a class="nav-link active" href="#">Categoria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" aria-current="page" href="#"
+                >Categoria</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Categoria</a>
             </li>
           </ul>
 
