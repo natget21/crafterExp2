@@ -8,17 +8,17 @@
 	<objectId>de1bac7e-c42e-4508-8a89-087edd94525b</objectId>
 	<file-name>282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-8.xml</file-name>
 	<folder-name/>
-	<internal-name>crowdfunding</internal-name>
-	<name_s>Crowdfunding</name_s>
-	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-2.xml</key>
-	<value>ACCESS TO FINANCE</value>
-	<include>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-2.xml</include>
+	<internal-name>3.3 - Workshop</internal-name>
+	<name_s>Workshop</name_s>
+	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-3.xml</key>
+	<value>3 - FORMAZIONE</value>
+	<include>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-3.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></category_o>
 	<createdDate>2024-11-14T08:57:45.857Z</createdDate>
 	<createdDate_dt>2024-11-14T08:57:45.857Z</createdDate_dt>
-	<lastModifiedDate>2025-04-23T12:12:10.001Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-04-23T12:12:10.001Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-14T10:04:00.514Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-14T10:04:00.514Z</lastModifiedDate_dt>
 	<tags_o/>
 	<requireGDPRAcceptance_b>false</requireGDPRAcceptance_b>
 	<requireprivacyacceptance_b>false</requireprivacyacceptance_b>
