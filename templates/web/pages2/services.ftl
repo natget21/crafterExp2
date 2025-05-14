@@ -32,6 +32,7 @@
     
     <link rel="stylesheet" href="/static-assets/css/general-style.css" />
     <link rel="stylesheet" href="/static-assets/css/services.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=download" />
     
     <@crafter.head/>
 </head>
@@ -264,6 +265,9 @@
             class="btn btn-secondary rounded-5"
           >
             Scarica il catalogo dei servizi
+            <span class="material-symbols-outlined">
+                download
+            </span>
           </a>
         </div>
         <div
