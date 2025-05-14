@@ -90,86 +90,14 @@
                 
                 <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-white pr-3">Filtra per tag</span></h5>
                 <div class="bg-light p-4 mb-30" style="border: 1px solid lightgrey; border-radius: 10px; height: 400px; overflow-y: scroll;">
-                    <form id="filterTagForm">
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" checked id="tag-all" value="all" name="tag">
-                            <label class="custom-control-label" for="tag-all">All Tags</label>
-                            <span style="background-color: var(--primary); border-radius: 100px;" class="badge border font-weight-normal">400</span>
-                        </div>
-                        
-                      <#-- Step 1: Fetch all tags -->
-<#assign itemData = siteItemService.getSiteItem('/site/taxonomy/tags.xml') />
-<#assign allTags = itemData.items.item />
-<#assign tagsFromCategory = [] />
-
-    <#-- Check if category is selected but subcategory is not -->
-    <#if categoryURL?has_content && !subCategoryURL?has_content>
-        <#assign catDataMain = siteItemService.getSiteItem(categoryURL) />
-        <#if catDataMain.isFolder()>
-            <#-- Fetch sub-items if it's a folder -->
-            <#assign subData = siteItemService.getSiteTree(categoryURL, 1) />
-            <#list subData as subItem>
-                <#if subItem.tags_o??>
-                    <#list subItem.tags_o.item as tag>
-                        <#if !(tagsFromCategory?seq_contains(tag))>
-                            <#assign tagsFromCategory = tagsFromCategory + [tag] />
-                        </#if>
-                    </#list>
-                </#if>
-            </#list>
-        <#else>
-            <#-- If not a folder, check for tags directly -->
-            <#if catDataMain.descriptorDom.component.tags_o??>
-                <#assign tagsFromCategory = catDataMain.descriptorDom.component.tags_o.item />
-            </#if>
-        </#if>
-    
-    <#-- Check if both category and subcategory are selected -->
-    <#elseif categoryURL?has_content && subCategoryURL?has_content>
-        <#assign subCatDataMain = siteItemService.getSiteItem(subCategoryURL) />
-        <#if subCatDataMain.isFolder()>
-
-            <#-- Fetch sub-items if it's a folder -->
-            <#assign subItems = siteItemService.getSiteTree(subCategoryURL, 1) />
-            <#list subItems as subItem>
-                <#if subItem.tags_o??>
-                    <#list subItem.tags_o.item as tag>
-                        <#if !(tagsFromCategory?seq_contains(tag))>
-                        <div>${tag}</div>
-                            <#assign tagsFromCategory = tagsFromCategory + [tag] />
-                        </#if>
-                    </#list>
-                </#if>
-            </#list>
-        <#else>
-            <#-- If not a folder, check for tags directly -->
-            <#if subCatDataMain.tags_o??>
-                <#assign tagsFromCategory = subCatDataMain.tags_o.item />
-            </#if>
-        </#if>
-    
-    <#else>
-        <#-- Default to all tags if no category or subcategory is selected -->
-        <#assign tagsFromCategory = allTags />
-    </#if>
-<#-- Step 4: Display the filtered tags -->
-
-    <#list tagsFromCategory as tag>
-          <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id=${tag.key} value="${tag.key}" name="tag">
-                            <label class="custom-control-label" for=${tag.key}>${tag.value?default(tag.value_smv)}</label>
-            </div>
-    </#list>
-                        
                     
-                    </form>
                 </div>
                 <!-- Tag End -->
         </div>
         <div class="col-9">
-        <!--
+        
           <#include "/templates/web/components/category-list.ftl">
-        -->
+        
           <#if categoryName?has_content>
               <ul class="nav nav-tabs mb-4 d-flex">
                 <li class="nav-item col">
