@@ -52,7 +52,9 @@
       >
         <img class="banner_img" src="/static-assets/assets/servizi.png" />
         <div class="container">
-          <h1 class="best_taital text-center dark p-0">Formazione</h1>
+          <h1 class="best_taital text-right dark p-0">
+            Audit tecnico, Valutazione maturità tecnologica (Assessment)
+          </h1>
         </div>
       </div>
       <div
