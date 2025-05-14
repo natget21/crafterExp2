@@ -167,7 +167,9 @@
                 <!-- Tag End -->
         </div>
         <div class="col-9">
+        <!--
           <#include "/templates/web/components/category-list.ftl">
+        -->
           <#if categoryName?has_content>
               <ul class="nav nav-tabs mb-4 d-flex">
                 <li class="nav-item col">
