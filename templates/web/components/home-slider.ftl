@@ -27,11 +27,7 @@
             L’innovazione italiana nella video analisi e nella sicurezza intelligente
         </h2>
         <p>
-          IDEALE è un progetto strategico nato per costruire un ecosistema
-          digitale intelligente, capace di connettere la domanda e l'offerta di
-          innovazione, formazione e nuovi servizi rivolti a imprese, pubbliche
-          amministrazioni e terzo settore, con particolare attenzione ai settori
-          del turismo, della cultura e del sociale
+            InnoVA è l’hub specializzato in Intelligenza Artificiale, HPC e Computer Vision, al servizio di imprese e pubbliche amministrazioni per affrontare le sfide della videosorveglianza e del monitoraggio intelligente.
         </p>
         <p>
           Attraverso una piattaforma digitale avanzata, IDEALE mette in
