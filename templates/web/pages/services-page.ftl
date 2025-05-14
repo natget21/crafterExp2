@@ -75,7 +75,18 @@
       </div>
     </div>
     <div class="text-center mb-4 pt-5" style="padding-top: 28px !important;">
-        <h2 class="section-title px-5"><span class="px-2 explore bg-white">Esplora le categorie del catalogo</span></h2>
+        <h2 class="section-title px-5"><span class="px-2 explore bg-white">Esplora le categorie del catalogo categoryName: ${categoryName}, subcategoryName: ${subCategoryName}</span></h2>
+        <!--
+        <nav class="breadcrumb bg-light mb-30">
+            <a class="breadcrumb-item" href="index">Home</a>
+            <a class="breadcrumb-item" href="/catalog">Services</a>
+            <#if servicename?has_content>
+                <span class="breadcrumb-item active">${servicename}</span>
+            <#else>
+                <span class="breadcrumb-item active">Detail</span>
+            </#if>
+        </nav>
+        -->
     </div>
     <div class="d-flex pt-3">
         <div class="col-3">
