@@ -297,7 +297,7 @@
 						</property>
 						<property>
 							<name>enableSearch</name>
-							<value>false</value>
+							<value>true</value>
 								<type>boolean</type>
 						</property>
 						<property>
@@ -312,7 +312,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/categories,/component/category</value>
+							<value>/component/categories</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
