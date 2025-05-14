@@ -63,18 +63,36 @@
         class="mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
         <div class="marketing_section layout_padding mb-5">
-            <!--
-              <h2 class="marketing_title title_section">
-              </h2>
-            -->
+          <!--
+          <h2 class="marketing_title title_section">
+          </h2>
+        -->
           <p>
-            Il progetto InnoVA (Innovating Video Analytics), coordinato dall’Università degli Studi di Palermo, mira a costituire un ecosistema di innovazione digitale specializzato nella video analisi e nella videosorveglianza, al servizio di pubbliche amministrazioni e imprese private.
+            Il progetto InnoVA (Innovating Video Analytics), coordinato
+            dall’Università degli Studi di Palermo, mira a costituire un
+            ecosistema di innovazione digitale specializzato nella video analisi
+            e nella videosorveglianza, al servizio di pubbliche amministrazioni
+            e imprese private.
           </p>
           <p>
-            L’hub InnoVA si propone di valorizzare le potenzialità offerte dalle tecnologie di video analytics, rendendole fruibili e accessibili a utenti diversi e in molteplici contesti operativi. Attraverso dimostratori ad hoc, il progetto svilupperà soluzioni su misura per specifiche esigenze, mentre percorsi di affiancamento e formazione accompagneranno gli utilizzatori nell’adozione pratica delle piattaforme proposte, evidenziando al contempo i benefici in termini di efficienza, sicurezza e contenimento dei cost
+            L’hub InnoVA si propone di valorizzare le potenzialità offerte dalle
+            tecnologie di video analytics, rendendole fruibili e accessibili a
+            utenti diversi e in molteplici contesti operativi. Attraverso
+            dimostratori ad hoc, il progetto svilupperà soluzioni su misura per
+            specifiche esigenze, mentre percorsi di affiancamento e formazione
+            accompagneranno gli utilizzatori nell’adozione pratica delle
+            piattaforme proposte, evidenziando al contempo i benefici in termini
+            di efficienza, sicurezza e contenimento dei cost
           </p>
           <p class="m-0">
-            Grazie al riconoscimento di “Seal of Excellence” conferito dalla Commissione Europea e al finanziamento del Ministero delle Imprese e del Made in Italy (MIMIT), InnoVA è entrato ufficialmente nella rete nazionale ed europea degli European Digital Innovation Hubs (EDIHs), rafforzando il proprio ruolo di polo strategico per il trasferimento tecnologico e l’innovazione nei settori della mobilità intelligente, del monitoraggio del territorio e della gestione delle infrastrutture critiche.
+            Grazie al riconoscimento di “Seal of Excellence” conferito dalla
+            Commissione Europea e al finanziamento del Ministero delle Imprese e
+            del Made in Italy (MIMIT), InnoVA è entrato ufficialmente nella rete
+            nazionale ed europea degli European Digital Innovation Hubs (EDIHs),
+            rafforzando il proprio ruolo di polo strategico per il trasferimento
+            tecnologico e l’innovazione nei settori della mobilità intelligente,
+            del monitoraggio del territorio e della gestione delle
+            infrastrutture critiche.
           </p>
         </div>
         <hr />
@@ -84,7 +102,9 @@
       >
         <h2 class="services_section_title title_section">Servizi Offerti</h2>
         <p class="services_section_description mb-0 mt-3">
-            Il Polo InnoVA propone un ventaglio integrato di prestazioni finalizzate a sostenere la trasformazione digitale e l’innovazione di imprese e pubbliche amministrazioni:
+          Il Polo InnoVA propone un ventaglio integrato di prestazioni
+          finalizzate a sostenere la trasformazione digitale e l’innovazione di
+          imprese e pubbliche amministrazioni:
         </p>
         <div class="mt-5">
           <div class="accordion" id="servicesAccordion">
@@ -356,78 +376,42 @@
         </div>
       </div>
       <div
-        class="layout_padding addressee_section mx-auto col-11 col-md-9 px-0"
+        class="layout_padding d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0 objectives mb-5"
       >
-        <h2 class="title_section">Destinatari</h2>
-        <div class="row pl-3">
-          <div
-            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
-          >
-            <div class="imageContainer">
-              <img src="/static-assets/assets/imprese.png" alt="" />
-            </div>
-            <p class="addressee_text d-flex justify-content-start">Imprese</p>
-          </div>
-          <div
-            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
-          >
-            <div class="imageContainer">
-              <img src="/static-assets/assets/pa.png" alt="" style="width: 100px" />
-            </div>
-            <p class="addressee_text d-flex justify-content-start">
-              Pubblica Amministrazione
+        <h2 class="title_section">
+          Un modello collaborativo per l’eccellenza digitale
+        </h2>
+        <p class="mt-3">
+          Il Seal of Excellence InnoVA coordina gli attori chiave del panorama
+          italiano, connettendo competenze, infrastrutture tecnologiche e
+          know-how specializzato al fine di:
+        </p>
+        <ul>
+          <li>
+            <p>
+              Creare un ecosistema di eccellenza nella video analisi e nella
+              videosorveglianza intelligente.
             </p>
-          </div>
-          <div
-            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
-          >
-            <div class="imageContainer">
-              <img src="/static-assets/assets/terzo-settore.png" alt="" style="width: 90px" />
-            </div>
-            <p class="addressee_text d-flex justify-content-start">
-              Enti del Terzo Settore
+          </li>
+          <li>
+            <p>
+              Supportare imprese e pubbliche amministrazioni nell’adozione di
+              tecnologie digitali innovative.
             </p>
-          </div>
-          <div
-            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
-          >
-            <div class="imageContainer">
-              <img src="/static-assets/assets/freelance.png" alt="" style="width: 80px" />
-            </div>
-            <p class="addressee_text d-flex justify-content-start">
-              Liberi Professionisti
+          </li>
+          <li>
+            <p>
+              Stimolare investimenti in soluzioni avanzate per la sicurezza e il
+              monitoraggio del territorio.
             </p>
-          </div>
-        </div>
-      </div>
-      <div class="layout_padding targets_section mx-auto col-11 col-md-9 px-0">
-        <h2 class="targets_section_title title_section">Settori target</h2>
-        <div class="targets row layout_padding pl-3 gap-3">
-          <div
-            class="target px-0 col-12 col-md-2 d-flex justify-content-start flex-column gap-3"
-          >
-            <div class="imageContainer">
-              <img src="/static-assets/assets/cultura.png" alt="" style="width: 90px;" />
-            </div>
-            <p>Cultura</p>
-          </div>
-          <div
-            class="target px-0 col-12 col-md-2 d-flex justify-content-start flex-column gap-3"
-          >
-            <div class="imageContainer">
-              <img src="/static-assets/assets/turismo.png" alt="" />
-            </div>
-            <p>Turismo</p>
-          </div>
-          <div
-            class="target px-0 col-12 col-md-2 d-flex justify-content-start flex-column gap-3"
-          >
-            <div class="imageContainer">
-              <img src="/static-assets/assets/sociale.png" alt="" />
-            </div>
-            <p>Sociale</p>
-          </div>
-        </div>
+          </li>
+          <li>
+            <p>
+              Favorire la sinergia tra ricerca, industria e istituzioni per
+              rafforzare la competitività e la leadership tecnologica italiana
+            </p>
+          </li>
+        </ul>
       </div>
     </div>
 
