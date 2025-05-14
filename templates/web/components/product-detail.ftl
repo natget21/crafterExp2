@@ -29,7 +29,9 @@
           <div>
           
             <#if content?? && content?has_content>
-              <p>${content.costo_s}</p>
+                <#if content.costo_s?has_content>
+                  <p>${content.costo_s}</p>
+                </#if>
               <p>${content.name_s}</p>
               <p>${subcategoryData}</p>
               <p>${itemUrl}</p>
