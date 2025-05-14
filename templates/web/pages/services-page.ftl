@@ -160,6 +160,17 @@
                 <!-- Tag End -->
         </div>
         <div class="col-9">
+          <ul class="nav nav-tabs mb-4">
+            <li class="nav-item">
+              <a class="nav-link text-muted" aria-current="page" href="#"
+                >Profilo azienda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Profilo Personale</a>
+            </li>
+          </ul>
+
             <#include "/templates/web/components/category-list.ftl">
             <#if courseTree?has_content>
                 <@listFilteredItems courseTree />
