@@ -160,6 +160,7 @@
                 <!-- Tag End -->
         </div>
         <div class="col-9">
+          <#include "/templates/web/components/category-list.ftl">
           <ul class="nav nav-tabs mb-4 d-flex">
             <li class="nav-item col">
               <a class="nav-link active text-center" aria-current="page" href="#"
@@ -179,7 +180,6 @@
             </li>
           </ul>
 
-            <#include "/templates/web/components/category-list.ftl">
             <#if courseTree?has_content>
                 <@listFilteredItems courseTree />
             </#if>
