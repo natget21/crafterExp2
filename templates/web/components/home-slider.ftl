@@ -29,6 +29,30 @@
         <p>
             InnoVA è l’hub specializzato in Intelligenza Artificiale, HPC e Computer Vision, al servizio di imprese e pubbliche amministrazioni per affrontare le sfide della videosorveglianza e del monitoraggio intelligente.
         </p>
+        <div class="d-flex flex-column flex-md-row gap-3">
+          <div
+            class="col-12 col-md-6 d-flex justify-content-center w-100 w-md-50"
+          >
+            <button
+              style="width: 50%"
+              class="btn btn-secondary rounded-5"
+              onclick="window.location.href='/project'"
+            >
+              Scopri il Progetto
+            </button>
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex justify-content-center w-100 w-md-50"
+          >
+            <button
+              style="width: 50%"
+              class="btn btn-secondary rounded-5"
+              onclick="window.location.href='/services'"
+            >
+              Scopri i Servizi
+            </button>
+          </div>
+        </div>
       </div>
     </div>
     <div class="bg-primary pb-5">
