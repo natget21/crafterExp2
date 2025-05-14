@@ -262,10 +262,10 @@
           <a
             href="static-assets/assets/catalogo-dei-servizi-innova-ed.1-rev.pdf"
             download
-            class="btn btn-secondary rounded-5"
+            class="btn btn-secondary rounded-5 d-flex"
           >
             Scarica il catalogo dei servizi
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined" style="margin-left:5px;">
                 download
             </span>
           </a>
