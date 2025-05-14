@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageaudittecnico</content-type>
+	<display-template>/templates/web/pages2/audit-tecnico.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>bde3</objectGroupId>
+	<objectId>bde3f98b-9eaa-1237-677a-9dae66ac527a</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>audit-tecnico</folder-name>
+	<internal-name>audit-tecnico</internal-name>
+	<navLabel>audit-tecnico</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-05-14T13:11:26.887Z</createdDate>
+	<createdDate_dt>2025-05-14T13:11:26.887Z</createdDate_dt>
+	<lastModifiedDate>2025-05-14T13:11:26.887Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-14T13:11:26.887Z</lastModifiedDate_dt>
+</page>
