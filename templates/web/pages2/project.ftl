@@ -84,11 +84,7 @@
       >
         <h2 class="services_section_title title_section">Servizi Offerti</h2>
         <p class="services_section_description mb-0 mt-3">
-          La piattaforma offre un'ampia gamma di prodotti e servizi digitali
-          pensati per facilitare l'adozione di tecnologie innovative, lo
-          sviluppo delle competenze digitali, l'accesso ai finanziamenti e la
-          creazione di reti collaborative tra aziende, startup, istituzioni ed
-          Enti del Terzo settore. L'offerta si suddivide in due aree principali:
+            Il Polo InnoVA propone un ventaglio integrato di prestazioni finalizzate a sostenere la trasformazione digitale e l’innovazione di imprese e pubbliche amministrazioni:
         </p>
         <div class="mt-5">
           <p class="title_section sub_title">Prodotti digitali</p>
