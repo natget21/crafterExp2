@@ -188,7 +188,7 @@
                 </li>
               </ul>
           </#if>
-
+        <!--
             <#if courseTree?has_content>
                 <@listFilteredItems courseTree />
             </#if>
@@ -197,6 +197,7 @@
                     <p class="text-center">Nessun servizio disponibile.</p>
                 </div>
             </#if>
+        -->
         </div>
     </div>
     <div class="container-fluid">
