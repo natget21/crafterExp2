@@ -52,7 +52,7 @@
       >
         <img class="banner_img" src="static-assets/assets/servizi.png" />
         <div class="container">
-          <h1 class="best_taital text-right dark p-0">
+          <h1 class="best_taital text-right dark p-0" style="font-size:30px;">
             Consulenza su innovazione tecnologica di processo e di
             prodotto,networking e sensibilizzazione
           </h1>
