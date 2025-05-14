@@ -8,8 +8,8 @@
 	<objectId>639eb3ea-ec72-4d11-8998-5489368d32b2</objectId>
 	<file-name>3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-3.xml</file-name>
 	<folder-name/>
-	<internal-name>SKILLS-AND-TRAINING</internal-name>
-	<name_s>SKILLS AND TRAINING</name_s>
+	<internal-name>FORMAZIONE</internal-name>
+	<name_s>FORMAZIONE</name_s>
 	<macro_category_o item-list="true">	<item>	<key>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</key>
 	<value>service</value>
 	<include>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</include>
@@ -17,8 +17,8 @@
 	</item></macro_category_o>
 	<createdDate>2024-11-14T08:50:19.994Z</createdDate>
 	<createdDate_dt>2024-11-14T08:50:19.994Z</createdDate_dt>
-	<lastModifiedDate>2025-01-24T14:08:25.944Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-01-24T14:08:25.944Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-14T07:37:20.428Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-14T07:37:20.428Z</lastModifiedDate_dt>
 	<tags_s/>
 	<image_s/>
 	<description_html/>
