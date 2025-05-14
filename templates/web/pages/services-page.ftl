@@ -76,7 +76,7 @@
     </div>
     <div class="text-center mb-4 pt-5" style="padding-top: 28px !important;">
     <#if categoryName?has_content>
-        <nav class="breadcrumb bg-light mb-30">
+        <nav class="breadcrumb bg-light mb-30" style="padding-left: 15px">
             <a class="breadcrumb-item" href="/catalog">Catalogo Servizi</a>
             <span class="breadcrumb-item active">${categoryName}</span>
         </nav>
