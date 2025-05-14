@@ -87,60 +87,6 @@
             Il Polo InnoVA propone un ventaglio integrato di prestazioni finalizzate a sostenere la trasformazione digitale e l’innovazione di imprese e pubbliche amministrazioni:
         </p>
         <div class="mt-5">
-          <p class="title_section sub_title">Prodotti digitali</p>
-          <div class="accordion" id="productsAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#productOne"
-                  aria-expanded="false"
-                  aria-controls="productOne"
-                >
-                  E-services
-                </button>
-              </h2>
-              <div
-                id="productOne"
-                class="accordion-collapse collapse"
-                data-bs-parent="#productsAccordion"
-              >
-                <div class="accordion-body">
-                  Microservizi completi con interfaccia utente, pronti all'uso
-                  per il cliente finale
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#productTwo"
-                  aria-expanded="false"
-                  aria-controls="productTwo"
-                >
-                  API
-                </button>
-              </h2>
-              <div
-                id="productTwo"
-                class="accordion-collapse collapse"
-                data-bs-parent="#productsAccordion"
-              >
-                <div class="accordion-body">
-                  Interfacce di programmazione senza GUI, per l'integrazione
-                  diretta con altri sistemi
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="mt-5">
-          <p class="title_section sub_title">Servizi digitali</p>
           <div class="accordion" id="servicesAccordion">
             <div class="accordion-item">
               <h2 class="accordion-header">
@@ -152,7 +98,7 @@
                   aria-expanded="false"
                   aria-controls="serviceOne"
                 >
-                  Test Before Invest
+                  Audit Tecnico & Assessment
                 </button>
               </h2>
               <div
@@ -161,10 +107,10 @@
                 data-bs-parent="#servicesAccordion"
               >
                 <div class="accordion-body">
-                  Servizi che permettono alle aziende di esplorare e testare
-                  nuove tecnologie e soluzioni prima di effettuare investimenti,
-                  attraverso dimostrazioni pratiche, studi di fattibilità,
-                  proof-of-concept, test e validazione di soluzioni.
+                  Valutazione dello stato dell’arte delle infrastrutture
+                  digitali e dei processi, con l’obiettivo di definire il
+                  livello di maturità tecnologica e individuare le priorità di
+                  intervento.
                 </div>
               </div>
             </div>
@@ -178,7 +124,7 @@
                   aria-expanded="false"
                   aria-controls="serviceTwo"
                 >
-                  Consulenza
+                  Test Before Invest
                 </button>
               </h2>
               <div
@@ -187,11 +133,9 @@
                 data-bs-parent="#servicesAccordion"
               >
                 <div class="accordion-body">
-                  Servizi progettati per supportare le aziende nel loro percorso
-                  di innovazione e crescita, fornendo supporto strategico e
-                  operativo su diverse aree come l'orientamento tecnologico, la
-                  gestione del cambiamento, l'innovazione sociale e la
-                  consulenza ICT e manageriale.
+                  Allestimento di Living Lab e Proof of Concept per verificare
+                  sul campo l’efficacia di soluzioni di video analisi e
+                  videosorveglianza prima di impegnare risorse in investimenti.
                 </div>
               </div>
             </div>
@@ -205,7 +149,7 @@
                   aria-expanded="false"
                   aria-controls="serviceThree"
                 >
-                  Skills and Training
+                  Formazione
                 </button>
               </h2>
               <div
@@ -214,10 +158,10 @@
                 data-bs-parent="#servicesAccordion"
               >
                 <div class="accordion-body">
-                  Offerta di corsi di formazione standard e personalizzati per
-                  sviluppare competenze in ambito digitale, manageriale e
-                  tecnico, con l'obiettivo di potenziare le capacità delle
-                  risorse umane aziendali in settori strategici.
+                  Percorsi formativi modulabili – da guide online e
+                  video-tutorial a workshop specialistici e master universitari
+                  – per acquisire le competenze necessarie all’utilizzo delle
+                  nuove tecnologie.
                 </div>
               </div>
             </div>
@@ -231,7 +175,7 @@
                   aria-expanded="false"
                   aria-controls="serviceFour"
                 >
-                  Access to Finance
+                  Consulenza per l’Accesso ai Finanziamenti
                 </button>
               </h2>
               <div
@@ -240,11 +184,9 @@
                 data-bs-parent="#servicesAccordion"
               >
                 <div class="accordion-body">
-                  Servizi di consulenza finalizzati a facilitare l'accesso a
-                  finanziamenti pubblici e privati, tra cui la finanza
-                  agevolata, la progettazione di crowdfunding, l'accesso al
-                  credito, le misure fiscali e la consulenza in corporate
-                  finance.
+                  Supporto nella ricerca e nella gestione di opportunità di
+                  finanziamento a livello regionale, nazionale ed europeo,
+                  comprensivo di redazione delle domande e rendicontazione.
                 </div>
               </div>
             </div>
@@ -258,7 +200,8 @@
                   aria-expanded="false"
                   aria-controls="serviceFive"
                 >
-                  Networking, Ecosystem e Open Innovation
+                  Consulenza su Innovazione di Processo e di Prodotto,
+                  Networking e Sensibilizzazione
                 </button>
               </h2>
               <div
@@ -267,17 +210,15 @@
                 data-bs-parent="#servicesAccordion"
               >
                 <div class="accordion-body">
-                  Attività mirate a facilitare il networking tra aziende,
-                  istituzioni e innovatori, promuovendo la creazione di alleanze
-                  strategiche, la diffusione di conoscenze e la partecipazione a
-                  eventi di innovazione aperta come hackathon e incontri di
-                  brokeraggio.
+                  Definizione di strategie di innovazione, organizzazione di
+                  eventi e tavoli di lavoro per mettere in rete stakeholder, e
+                  creazione di un repository di best practice per diffondere
+                  casi di successo.
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
       <div
         class="layout_padding addressee_section mx-auto col-11 col-md-9 px-0"
       >
