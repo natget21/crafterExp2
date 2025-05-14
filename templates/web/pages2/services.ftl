@@ -254,6 +254,26 @@
           <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
         </div>
       </div>
+      <div class="d-flex flex-column flex-md-row gap-3 layout_padding">
+        <div
+          class="col-12 col-md-6 d-flex justify-content-center w-100 w-md-50"
+        >
+          <a
+            href="assets/catalogo-dei-servizi-innova-ed.1-rev.pdf"
+            download
+            class="btn btn-secondary rounded-5"
+          >
+            Scarica il catalogo dei servizi
+          </a>
+        </div>
+        <div
+          class="col-12 col-md-6 d-flex justify-content-center w-100 w-md-50"
+        >
+          <a download class="btn btn-secondary rounded-5">
+            Come accedere ai servizi
+          </a>
+        </div>
+      </div>
     </div>
 
 
