@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageformazione</content-type>
+	<display-template>/templates/web/pages2/formazione.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>29b7</objectGroupId>
+	<objectId>29b730fc-e468-5675-cabb-8487ad5441aa</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>formazione</folder-name>
+	<internal-name>formazione</internal-name>
+	<navLabel>formazione</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-05-14T12:42:13.393Z</createdDate>
+	<createdDate_dt>2025-05-14T12:42:13.393Z</createdDate_dt>
+	<lastModifiedDate>2025-05-14T12:42:13.393Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-14T12:42:13.393Z</lastModifiedDate_dt>
+</page>
