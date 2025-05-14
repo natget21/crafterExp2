@@ -31,7 +31,7 @@
     <link href="/static-assets/css/style.css" rel="stylesheet">
     
     <link rel="stylesheet" href="/static-assets/css/general-style.css" />
-    <link rel="stylesheet" href="/static-assets/css/faq.css" />
+    <link rel="stylesheet" href="/static-assets/css/services.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
@@ -53,7 +53,7 @@
       <div
         class="banner_section banner_services layout_padding d-flex align-items-center"
       >
-        <img class="banner_img" src="static-assets/assets/servizi.png" />
+        <img class="banner_img" src="/static-assets/assets/servizi.png" />
         <div class="container">
           <h1 class="best_taital text-right dark p-0">
             Audit tecnico, Valutazione maturità tecnologica (Assessment)
