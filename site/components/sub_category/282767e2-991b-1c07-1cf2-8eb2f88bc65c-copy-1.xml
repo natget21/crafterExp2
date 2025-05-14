@@ -11,14 +11,14 @@
 	<internal-name>4.1 - Accesso ai finanziamenti</internal-name>
 	<name_s>Accesso ai finanziamenti</name_s>
 	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-1.xml</key>
-	<value>CONSULENZA</value>
+	<value>4 - CONS. SU ACCESSO AI FINANZIAMENTI</value>
 	<include>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-1.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></category_o>
 	<createdDate>2024-11-14T08:53:43.002Z</createdDate>
 	<createdDate_dt>2024-11-14T08:53:43.002Z</createdDate_dt>
-	<lastModifiedDate>2025-05-14T09:12:15.509Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-14T09:12:15.509Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-14T10:44:28.197Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-14T10:44:28.197Z</lastModifiedDate_dt>
 	<tags_o/>
 	<requireGDPRAcceptance_b>false</requireGDPRAcceptance_b>
 	<requireprivacyacceptance_b>false</requireprivacyacceptance_b>
