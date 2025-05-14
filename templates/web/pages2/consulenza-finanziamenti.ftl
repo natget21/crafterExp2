@@ -52,7 +52,7 @@
       >
         <img class="banner_img" src="/static-assets/assets/servizi.png" />
         <div class="container">
-          <h1 class="best_taital text-center dark p-0">
+          <h1 class="best_taital text-right dark p-0">
             Consulenza su accesso ai finanziamenti
           </h1>
         </div>
