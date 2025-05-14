@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageconsulenza-finanziamenti</content-type>
+	<display-template>/templates/web/pages2/consulenza-finanziamenti.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a4cc</objectGroupId>
+	<objectId>a4ccd869-cfdc-2b04-9889-7188708b066a</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>consulenza-finanziamenti</folder-name>
+	<internal-name>consulenza-finanziamenti</internal-name>
+	<navLabel>consulenza-finanziamenti</navLabel>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>0</orderDefault_f>
+	<createdDate>2025-05-14T12:46:15.392Z</createdDate>
+	<createdDate_dt>2025-05-14T12:46:15.392Z</createdDate_dt>
+	<lastModifiedDate>2025-05-14T12:46:15.392Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-14T12:46:15.392Z</lastModifiedDate_dt>
+</page>
