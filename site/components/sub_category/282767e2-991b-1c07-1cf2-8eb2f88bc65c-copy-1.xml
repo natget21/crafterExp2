@@ -8,8 +8,8 @@
 	<objectId>a9bba155-4c9e-4c8b-a202-a8d1fee837a4</objectId>
 	<file-name>282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-1.xml</file-name>
 	<folder-name/>
-	<internal-name>Accesso ai finanziamenti</internal-name>
-	<name_s>4.1 - Accesso ai finanziamenti</name_s>
+	<internal-name>4.1 - Accesso ai finanziamenti</internal-name>
+	<name_s>Accesso ai finanziamenti</name_s>
 	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-1.xml</key>
 	<value>CONSULENZA</value>
 	<include>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-1.xml</include>
@@ -17,8 +17,8 @@
 	</item></category_o>
 	<createdDate>2024-11-14T08:53:43.002Z</createdDate>
 	<createdDate_dt>2024-11-14T08:53:43.002Z</createdDate_dt>
-	<lastModifiedDate>2025-05-14T09:11:24.957Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-14T09:11:24.957Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-14T09:12:15.509Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-14T09:12:15.509Z</lastModifiedDate_dt>
 	<tags_o/>
 	<requireGDPRAcceptance_b>false</requireGDPRAcceptance_b>
 	<requireprivacyacceptance_b>false</requireprivacyacceptance_b>
