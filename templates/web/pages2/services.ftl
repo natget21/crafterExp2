@@ -59,123 +59,200 @@
       </div>
 
       <div
+        class="layout_padding mx-auto justify-content-center col-11 col-md-9 px-0"
+      >
+        <h2 class="title_section pl-3 pl-md-0 col-md-6 mb-4">Cosa offriamo</h2>
+        <p class="mt-3">
+          Il Polo InnoVA propone un’offerta integrata di servizi e soluzioni
+          pensate per accompagnare imprese e Pubbliche Amministrazioni lungo
+          l’intero percorso di innovazione e digitalizzazione. Attraverso
+          strumenti avanzati, iniziative di networking e percorsi formativi,
+          InnoVA facilita:
+        </p>
+        <ul class="mb-4">
+          <li>
+            <p>l’adozione di tecnologie all’avanguardia;</p>
+          </li>
+          <li><p>lo sviluppo delle competenze digitali;</p></li>
+          <li><p>l’accesso a finanziamenti pubblici e privati;</p></li>
+          <li>
+            <p>la creazione di sinergie tra aziende, startup e istituzioni.</p>
+          </li>
+        </ul>
+        <p class="">
+          L’offerta del Polo InnoVA si articola in cinque linee di intervento,
+          concepite per accompagnare le organizzazioni – pubbliche e private –
+          lungo l’intero percorso di innovazione digitale, dalla fase iniziale
+          di assessment fino alla piena adozione delle tecnologie e alla
+          creazione di un vero e proprio ecosistema innovativo.
+        </p>
+      </div>
+      <div
         class="services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
+        <div
+          class="service mt-5 d-flex justify-content-between align-items-center"
+        >
+          <div
+            class="d-flex flex-column align-items-center justify-content-center"
+          >
+            <h3 class="service_title text-center">
+              Audit Tecnico & Assessment
+            </h3>
+            <p class="text-center">
+              Prima di intraprendere qualsiasi percorso di innovazione
+              tecnologica, è indispensabile analizzare in modo approfondito
+              l’infrastruttura digitale e i processi operativi esistenti. Il
+              servizio di Audit Tecnico e Assessment, offerto dal Polo InnoVA,
+              consente di valutare il livello di maturità digitale
+              dell’organizzazione, applicando metodologie consolidate e
+              riferimenti agli standard europei. L’analisi prende in esame
+              l’intero ecosistema digitale – dai sistemi informativi alle reti,
+              dai workflow ai dispositivi – per individuare punti di forza,
+              criticità e potenzialità di miglioramento. Al termine
+              dell’attività, viene restituito un report dettagliato, corredato
+              da una mappa delle priorità e da un piano di intervento
+              personalizzato, pensato per accompagnare l’impresa o l’ente verso
+              un’evoluzione tecnologica strutturata, consapevole e sostenibile.
+            </p>
+            <div
+              class="d-flex flex-grow-1 justify-content-center align-items-end"
+            >
+              <button
+                class="btn btn-secondary read_more rounded-pill"
+                onclick="window.location.href='/test-before-invest'"
+              >
+                Scopri di più
+              </button>
+            </div>
+          </div>
+          <img src="assets/assessment-1.jpg" alt="" />
+        </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
             class="d-flex flex-column align-items-center justify-content-center"
           >
             <h3 class="service_title text-center">Test Before Invest</h3>
             <p class="text-center">
-              Questa categoria permette alle aziende di esplorare soluzioni e
-              tecnologie prima di fare investimenti significativi. Consente di
-              validare idee e concetti tecnologici attraverso attività pratiche
-              e dimostrative che riducono i rischi e migliorano la decisione
-              sugli investimenti.
+              Prima di adottare una nuova tecnologia, è essenziale comprenderne
+              a fondo l’impatto operativo attraverso una sperimentazione in
+              condizioni reali. Per questo motivo, il Polo InnoVA mette a
+              disposizione Living Lab e Proof of Concept, spazi dimostrativi
+              dove è possibile installare, configurare e testare sul campo
+              soluzioni di video analisi e videosorveglianza. Questi ambienti
+              sperimentali permettono di osservare le tecnologie in azione,
+              valutarne le prestazioni, rilevare eventuali criticità e
+              raccogliere dati concreti. L’obiettivo è offrire agli enti e alle
+              imprese strumenti utili per compiere scelte di investimento più
+              informate, sicure e in linea con i reali bisogni operativi.
             </p>
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/test-before-invest'">
+              <button
+                class="btn btn-secondary read_more rounded-pill"
+                onclick="window.location.href='/test-before-invest'"
+              >
                 Scopri di più
               </button>
             </div>
           </div>
-          <img src="static-assets/assets/formazione-1.jpg" alt="" />
+          <img src="assets/test-before-invest-1.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
             class="d-flex flex-column align-items-center justify-content-center"
           >
-            <h3 class="service_title text-center">Consulenza</h3>
+            <h3 class="service_title text-center">Formazione</h3>
             <p class="text-center">
-              Questa categoria fornisce un ampio supporto alle aziende per
-              affrontare sfide strategiche e operazioni aziendali complesse. I
-              servizi di consulenza aiutano le imprese a migliorare
-              l'efficienza, a rispondere alle dinamiche del mercato e a
-              promuovere l’innovazione tecnologica e manageriale.
+              La disponibilità di tecnologie avanzate, da sola, non basta:
+              affinché l’innovazione sia realmente efficace, è necessario
+              accompagnarla con adeguati percorsi di formazione. Il Polo InnoVA
+              propone programmi didattici modulari e flessibili, pensati per
+              rispondere alle esigenze specifiche di enti e imprese. Le modalità
+              di erogazione spaziano da guide online e video-tutorial fruibili
+              in autonomia, a workshop specialistici in presenza, fino a
+              percorsi universitari strutturati come il master in Computer
+              Vision e Intelligenza Artificiale. Ogni attività formativa è
+              progettata per trasferire competenze pratiche e immediatamente
+              applicabili, favorendo un uso consapevole e strategico delle
+              tecnologie introdotte.
             </p>
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/consulenza'">
+              <button
+                class="btn btn-secondary read_more rounded-pill"
+                onclick="window.location.href='/test-before-invest'"
+              >
                 Scopri di più
               </button>
             </div>
           </div>
-          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
-        </div>
-        <div class="service d-flex justify-content-between align-items-center">
-          <div
-            class="d-flex flex-column align-items-center justify-content-center"
-          >
-            <h3 class="service_title text-center">Skills and Training</h3>
-            <p class="text-center">
-              La formazione è un aspetto cruciale per l’aggiornamento delle
-              competenze interne e per rispondere alle sfide di un mercato
-              sempre più competitivo e tecnologicamente avanzato. Questa
-              categoria offre corsi strutturati per sviluppare competenze
-              tecnologiche, manageriali e trasversali.
-            </p>
-            <div
-              class="d-flex flex-grow-1 justify-content-center align-items-end"
-            >
-              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/skills-training'">
-                Scopri di più
-              </button>
-            </div>
-          </div>
-          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
-        </div>
-        <div class="service d-flex justify-content-between align-items-center">
-          <div
-            class="d-flex flex-column align-items-center justify-content-center"
-          >
-            <h3 class="service_title text-center">Access to Finance</h3>
-            <p class="text-center">
-              Questa categoria aiuta le aziende ad accedere a diverse forme di
-              finanziamento, sia pubbliche che private, per finanziare progetti
-              innovativi e di crescita. I servizi offrono consulenza mirata per
-              la gestione di fondi e risorse, rendendo più facile l'accesso a
-              capitali necessari per lo sviluppo.
-            </p>
-            <div
-              class="d-flex flex-grow-1 justify-content-center align-items-end"
-            >
-              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/finance'">
-                Scopri di più
-              </button>
-            </div>
-          </div>
-          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="assets/formazione-1.jpg" alt="" />
         </div>
         <div class="service d-flex justify-content-between align-items-center">
           <div
             class="d-flex flex-column align-items-center justify-content-center"
           >
             <h3 class="service_title text-center">
-              Networking, Ecosystem e Open Innovation
+              Consulenza per l’Accesso ai Finanziamenti
             </h3>
             <p class="text-center">
-              Questa categoria supporta la creazione di connessioni tra aziende,
-              startup, università, istituzioni e investitori, promuovendo la
-              collaborazione e l’innovazione aperta. L'obiettivo è favorire la
-              creazione di ecosistemi dinamici in cui le imprese possano
-              crescere attraverso il confronto e l’interazione con altri attori.
+              Uno degli ostacoli più ricorrenti nel percorso di innovazione è la
+              difficoltà di accedere a risorse economiche adeguate. Per superare
+              questo ostacolo, Il Polo InnoVA offre un servizio di consulenza
+              end-to-end: dalla mappatura delle opportunità di finanziamento
+              (bandi regionali, nazionali ed europei), alla stesura delle
+              proposte progettuali, fino alla rendicontazione delle spese.
             </p>
             <div
               class="d-flex flex-grow-1 justify-content-center align-items-end"
             >
-              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/networking'">
+              <button
+                class="btn btn-secondary read_more rounded-pill"
+                onclick="window.location.href='/consulenza'"
+              >
                 Scopri di più
               </button>
             </div>
           </div>
-          <img src="static-assets/assets/supporto-finanziamenti.jpg" alt="" />
+          <img src="assets/supporto-finanziamenti.jpg" alt="" />
+        </div>
+        <div class="service d-flex justify-content-between align-items-center">
+          <div
+            class="d-flex flex-column align-items-center justify-content-center"
+          >
+            <h3 class="service_title text-center">
+              Consulenza su Innovazione di Processo e di Prodotto, Networking e
+              Sensibilizzazione
+            </h3>
+            <p class="text-center">
+              L’innovazione è un processo collettivo: nasce dallo scambio di
+              idee, dall’ibridazione di competenze e dalla condivisione di
+              esperienze. In quest’ottica, il Polo InnoVA supporta la
+              definizione di strategie di innovazione – sia di processo che di
+              prodotto – e organizza eventi, workshop tematici e tavoli di
+              lavoro, mettendo in rete imprese, centri di ricerca e Pubbliche
+              Amministrazioni. Parallelamente, sarà creato un repository di best
+              practice, in cui storie di successo e casi concreti del progetto
+              InnoVA offriranno spunti di applicazione e ispirazione per nuovi
+              progetti e collaborazioni.
+            </p>
+            <div
+              class="d-flex flex-grow-1 justify-content-center align-items-end"
+            >
+              <button
+                class="btn btn-secondary read_more rounded-pill"
+                onclick="window.location.href='/skills-training'"
+              >
+                Scopri di più
+              </button>
+            </div>
+          </div>
+          <img src="assets/supporto-finanziamenti.jpg" alt="" />
         </div>
       </div>
-
-
     </div>
 
 
