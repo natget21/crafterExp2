@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/category</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5b97</objectGroupId>
+	<objectId>5b97df63-0ca3-212c-3886-d8ec3b729ff7</objectId>
+	<file-name>5b97df63-0ca3-212c-3886-d8ec3b729ff7.xml</file-name>
+	<folder-name/>
+	<internal-name>Assessment</internal-name>
+	<name_s>Audit tecnico - Valutazione maturità tecnologica</name_s>
+	<tags_s/>
+	<tags_o/>
+	<macro_category_o item-list="true">	<item>	<key>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</key>
+	<value>SERVIZI</value>
+	<include>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></macro_category_o>
+	<image_s/>
+	<description_html/>
+	<createdDate>2025-05-14T07:15:54.101Z</createdDate>
+	<createdDate_dt>2025-05-14T07:15:54.101Z</createdDate_dt>
+	<lastModifiedDate>2025-05-14T07:15:54.101Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-14T07:15:54.101Z</lastModifiedDate_dt>
+</component>
