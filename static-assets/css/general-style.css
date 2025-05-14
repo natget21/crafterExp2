@@ -10342,4 +10342,8 @@ footer .btn-primary {
   .service img {
     width: 100%;
   }
+  
+  .best_taital{
+      font-size: 30px;
+  }
 }
