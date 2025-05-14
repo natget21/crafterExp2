@@ -34,7 +34,7 @@
                             <div class="nav-item dropdown">
                                 <a href="/services" class="nav-item nav-link dropdown-toggle">SERVIZI <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu  rounded-0 border-0 m-0">
-                                    <a href="/audit-tecnico" class="nav-item nav-link sublink <#if currentUrl?starts_with("/audit-tecnico")>active</#if>">Audit tecnico</a>
+                                    <a href="/services/audit-tecnico" class="nav-item nav-link sublink <#if currentUrl?starts_with("/services/audit-tecnico")>active</#if>">Audit tecnico</a>
                                     <a href="/finance" class="nav-item nav-link sublink <#if currentUrl?starts_with("/finance")>active</#if>">Finance</a>
                                     <a href="/networking" class="nav-item nav-link sublink <#if currentUrl?starts_with("/networking")>active</#if>">Networking</a>
                                     <a href="/skills-training" class="nav-item nav-link sublink <#if currentUrl?starts_with("/skills-training")>active</#if>">Skills & Training</a>
