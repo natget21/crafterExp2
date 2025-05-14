@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageconsulenza-innovazione</content-type>
+	<display-template>/templates/web/pages2/consulenza-innovazione.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c9ba</objectGroupId>
+	<objectId>c9ba31cc-da10-e674-b6e6-3efadcc66dc0</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>consulenza-innovazione</folder-name>
+	<internal-name>consulenza-innovazione</internal-name>
+	<navLabel>consulenza-innovazione</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-05-14T13:07:16.132Z</createdDate>
+	<createdDate_dt>2025-05-14T13:07:16.132Z</createdDate_dt>
+	<lastModifiedDate>2025-05-14T13:07:16.132Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-14T13:07:16.132Z</lastModifiedDate_dt>
+</page>
