@@ -11,14 +11,14 @@
 	<internal-name>3.1 - Guide online e videotutorial</internal-name>
 	<name_s>Guide online e videotutorial</name_s>
 	<category_o item-list="true">	<item>	<key>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-3.xml</key>
-	<value>FORMAZIONE</value>
+	<value>3 - FORMAZIONE</value>
 	<include>/site/components/category/3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-3.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></category_o>
 	<createdDate>2024-11-14T09:02:31.271Z</createdDate>
 	<createdDate_dt>2024-11-14T09:02:31.271Z</createdDate_dt>
-	<lastModifiedDate>2025-05-14T09:13:39.931Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-14T09:13:39.931Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-14T10:43:09.436Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-14T10:43:09.436Z</lastModifiedDate_dt>
 	<tags_o/>
 	<requireGDPRAcceptance_b>false</requireGDPRAcceptance_b>
 	<requireprivacyacceptance_b>false</requireprivacyacceptance_b>
