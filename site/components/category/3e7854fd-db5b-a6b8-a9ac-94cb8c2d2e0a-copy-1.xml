@@ -9,7 +9,7 @@
 	<file-name>3e7854fd-db5b-a6b8-a9ac-94cb8c2d2e0a-copy-1.xml</file-name>
 	<folder-name/>
 	<internal-name>CONSULENZA</internal-name>
-	<name_s>CONSULENZA</name_s>
+	<name_s>CONSULENZA SU ACCESSO AI FINANZIAMENTI</name_s>
 	<macro_category_o item-list="true">	<item>	<key>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</key>
 	<value>service</value>
 	<include>/site/components/macro_category/374fbd2e-727f-a324-cf65-e02b65d87a48.xml</include>
@@ -17,10 +17,12 @@
 	</item></macro_category_o>
 	<createdDate>2024-11-14T08:45:01.233Z</createdDate>
 	<createdDate_dt>2024-11-14T08:45:01.233Z</createdDate_dt>
-	<lastModifiedDate>2025-01-24T14:07:53.975Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-01-24T14:07:53.975Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-14T07:38:53.206Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-14T07:38:53.206Z</lastModifiedDate_dt>
 	<tags_s/>
-	<description_html>&lt;p&gt;Insieme di servizi di consulenza che forniscono supporto alle imprese nel loro percorso di innovazione e crescita. Questi servizi sono progettati per migliorare la competitivit&amp;agrave; delle aziende, promuovere la digitalizzazione e facilitare l'accesso a tecnologie avanzate e soluzioni innovative&lt;/p&gt;</description_html>
+	<description_html>&lt;p&gt;I servizi di consulenza tecnologica sono&amp;nbsp;progettati per supportare le imprese&amp;nbsp;nell'innovazione di prodotti, processi e servizi,attraverso lo sviluppo, l'adozione e&amp;nbsp;l'integrazione di tecnologie digitali e abilitanti,&amp;nbsp;selezionate per ottimizzare il raggiungimento&amp;nbsp;degli obiettivi aziendali.&lt;/p&gt;
+&lt;p&gt;I servizi di consulenza gestionale e project&amp;nbsp;management si concentrano sulla realizzazione&amp;nbsp;di progetti di ricerca, sviluppo e innovazione.&lt;/p&gt;
+&lt;p&gt;I servizi dedicati all'accesso ai finanziamenti mirano a facilitare l'ottenimento di strumenti di&amp;nbsp;fundraising, sia pubblici, come bandi di finanza&amp;nbsp;agevolata e agevolazioni fiscali, che privati,&amp;nbsp;come il capitale di rischio.&lt;/p&gt;</description_html>
 	<image_s/>
 	<tags_o/>
 </component>
