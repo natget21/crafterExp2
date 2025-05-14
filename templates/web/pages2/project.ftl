@@ -82,7 +82,7 @@
       <div
         class="services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
-        <h2 class="services_section_title title_section">Prodotti e Servizi</h2>
+        <h2 class="services_section_title title_section">Servizi Offerti</h2>
         <p class="services_section_description mb-0 mt-3">
           La piattaforma offre un'ampia gamma di prodotti e servizi digitali
           pensati per facilitare l'adozione di tecnologie innovative, lo
