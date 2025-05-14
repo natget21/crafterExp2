@@ -48,7 +48,7 @@
     
     <div class="content pb-5">
       <div class="banner_section banner_project layout_padding">
-        <img class="banner_img" src="static-assets/assets/progetto.png">
+        <img class="banner_img" src="/static-assets/assets/progetto.png">
         <div class="container flex-column align-items-end">
           <h1 class="best_taital text-center dark p-0">Formazione</h1>
           <p
