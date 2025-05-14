@@ -11,11 +11,11 @@
       <div class="banner_section banner_home layout_padding">
         <img class="banner_img" src="/static-assets/assets/home-banner.png">
         <div class="container flex-column align-items-end">
-          <h1 class="best_taital text-center dark p-0">Ideale</h1>
+          <h1 class="best_taital text-center dark p-0">Innova</h1>
           <p
             class="there_text d-flex justify-content-end dark p-0 m-0"
           >
-            Costruire l'ecosistema digitale dell'innovazione
+            Seal of Excellence
           </p>
         </div>
       </div>
@@ -24,7 +24,7 @@
     >
       <div class="explanation layout_padding mb-5">
         <h2 class="title_section text-center">
-          INNOVATION DIGITAL ECOSYSTEM AND AUGMENTED LEARNING
+            L’innovazione italiana nella video analisi e nella sicurezza intelligente
         </h2>
         <p>
           IDEALE è un progetto strategico nato per costruire un ecosistema
