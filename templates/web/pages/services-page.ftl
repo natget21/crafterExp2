@@ -188,11 +188,7 @@
                 </li>
               </ul>
           </#if>
-            <!--
-            <#if courseTree?has_content>
-                <@listFilteredItems courseTree />
-            </#if>
-            -->
+            
             <#if showItemsFound?? && !showItemsFound>
                 <div class="col-12">
                     <p class="text-center">Nessun servizio disponibile.</p>
