@@ -20,7 +20,7 @@
       <div class="row align-items-center pr-4">
         <!-- Parte sinistra: info -->
         <h6 class="fw-bold mb-1" style="color: var(--primary-active);">${content.name_s}</h6>
-        <small class="text-muted d-block mb-2">Codice prodotto</small>
+        <small class="text-muted d-block mb-2 text-uppercase">Codice prodotto</small>
         <div class="col-md-8 d-flex">
           <!-- Immagine -->
           <img src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="Servizio" class="me-3" style="width:180px; height:100px;">
