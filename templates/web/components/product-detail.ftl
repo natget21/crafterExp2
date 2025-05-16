@@ -33,7 +33,6 @@
                   <p>${content.costo_s}</p>
                 </#if>
               <p>${content.name_s}</p>
-              <p>desc: ${contentModel.descrizione_html}</p>
             <#else>
               <p>No content found for internal-name: ${itemUrl}</p>
             </#if>
