@@ -15,7 +15,13 @@
 
     <!-- Main Content Section -->
     <main>
-        <#include "/templates/web/components/home-slider.ftl"> 
+        <#include "/templates/web/components/home-slider.ftl">
+        
+        <p>----------</p>
+        <p>${contentModel.slider_s}</p>
+        <p>----------</p>
+        
+        
         <!--
         <#include "/templates/web/components/category-list.ftl"> 
         <#include "/templates/web/components/featured-service.ftl"> 
