@@ -6,12 +6,18 @@
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Codice prodotto</label>
         <div>
-            <#if contentModel.as?? && contentModel.as?has_content ></#if>
+            <#if contentModel.codiceprodotto_s?? && contentModel.codiceprodotto_s?has_content >
+                ${contentModel.codiceprodotto_s}
+            </#if>
         </div>
       </div>
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Nome prodotto</label>
-        <div>Nome prodotto</div>
+        <div>
+            <#if contentModel.name_s?? && contentModel.name_s?has_content >
+                ${contentModel.name_s}
+            </#if>
+        </div>
       </div>
       <div class="col-md-6">
         <label class="desc-title form-label fw-bold">Descrizione</label>
@@ -23,12 +29,9 @@
             overflow: hidden;
           "
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliquaLorem
-          ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliquaLorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua
+            <#if contentModel.descrizioneprodotto_t?? && contentModel.descrizioneprodotto_t?has_content >
+                ${contentModel.descrizioneprodotto_t}
+            </#if>
         </div>
       </div>
     </div>
@@ -38,7 +41,11 @@
         <label class="desc-title form-label fw-bold"
           >Costo del servizio</label
         >
-        <div>$ 00000000</div>
+        <div>
+            <#if contentModel.costodelservizio_s?? && contentModel.costodelservizio_s?has_content >
+                ${contentModel.costodelservizio_s}
+            </#if>
+        </div>
       </div>
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold"
@@ -52,12 +59,9 @@
             overflow: hidden;
           "
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliquaLorem
-          ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliquaLorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua
+            <#if contentModel.descrizionecostoservizio_t?? && contentModel.descrizionecostoservizio_t?has_content >
+                ${contentModel.descrizionecostoservizio_t}
+            </#if>
         </div>
       </div>
 
@@ -81,11 +85,19 @@
     <div class="row mb-5">
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">CUP</label>
-        <div>XXXXXXXXXX</div>
+        <div>
+            <#if contentModel.cup_s?? && contentModel.cup_s?has_content >
+                ${contentModel.cup_s}
+            </#if>
+        </div>
       </div>
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Sottocategoria</label>
-        <div>Categoria</div>
+        <div>
+            <#if contentModel.subcategory_o?? && contentModel.subcategory_o?has_content >
+                ${contentModel.subcategory_o}
+            </#if>
+        </div>
       </div>
     </div>
   </form>
