@@ -91,11 +91,10 @@
         </div>
       </div>
     </div>
-
     <div class="row mb-5">
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Partecipanti</label>
-        <div> 
+        <div>
             <#if contentModel.partecipantiMin_s?? && contentModel.partecipantiMin_s?has_content>
                 Min: ${contentModel.partecipantiMin_s}
             </#if>
@@ -106,11 +105,11 @@
       </div>
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Costo unitario</label>
-        <div
+        <div>
             <#if contentModel.costo_s?? && contentModel.costo_s?has_content>
                 ${contentModel.costo_s}
             </#if>
-        div>
+        </div>
       </div>
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Tipologia costo</label>
@@ -118,7 +117,7 @@
             <#if contentModel.tipologiacosto_s?? && contentModel.tipologiacosto_s?has_content>
                 ${contentModel.tipologiacosto_s}
             </#if>
-        <div>
+        </div>
       </div>
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Extra costo</label>
@@ -126,11 +125,17 @@
             <#if contentModel.extra_costo_t?? && contentModel.extra_costo_t?has_content>
                 ${contentModel.extra_costo_t}
             </#if>
-        <div>
+        </div>
       </div>
     </div>
 
     <div class="row mb-5">
+      <div class="col-md-3">
+        <label class="desc-title form-label fw-bold"
+          >Informazioni sul costo</label
+        >
+        <div>Min: 00 - Max: 00</div>
+      </div>
       <div class="col-md-3 form-check">
         <input
           class="form-check-input"
@@ -147,9 +152,9 @@
     <div class="mb-5">
       <label class="desc-title form-label fw-bold">CUP</label>
       <div>
-            <#if contentModel.cup_s?? && contentModel.cup_s?has_content>
-                ${contentModel.cup_s}
-            </#if>
+          <#if contentModel.cup_s?? && contentModel.cup_s?has_content>
+            ${contentModel.cup_s}
+          </#if>
       </div>
     </div>
   </form>
