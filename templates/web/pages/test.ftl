@@ -18,7 +18,7 @@
         <#include "/templates/web/components/home-slider.ftl">
         
         <p>----------</p>
-        <p>${contentModel.slider_s}</p>
+        <p>${contentModel.slidername_s}</p>
         <p>----------</p>
         
         
