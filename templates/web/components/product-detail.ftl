@@ -38,7 +38,9 @@
             </#if>
             <p class="text-primary fw-bold mb-2" style="font-size: 0.85rem;">DESCRIZIONE PRODOTTO</p>
             <p class="text-primary" style="font-size: 0.85rem;">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+                <#if contentModel.informazionisulcosto_html?? && contentModel.informazionisulcosto_html?has_content>
+                  <p>${contentModel.informazionisulcosto_html}</p>
+                </#if>
             </p>
             <div class="mt-2">
               <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
