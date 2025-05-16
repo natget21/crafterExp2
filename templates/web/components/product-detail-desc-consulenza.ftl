@@ -5,7 +5,9 @@
     <div class="row mb-5">
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Codice prodotto</label>
-        <div>00000000</div>
+        <div>
+            <#if contentModel.as?? && contentModel.as?has_content ></#if>
+        </div>
       </div>
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Nome prodotto</label>
