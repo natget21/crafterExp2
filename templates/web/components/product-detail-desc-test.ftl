@@ -6,11 +6,19 @@
     <div class="row mb-5">
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Nome TBI</label>
-        <div>Nome</div>
+        <div>
+            <#if contentModel.name_s?? && contentModel.name_s?has_content>
+                ${contentModel.name_s}
+            </#if>
+        </div>
       </div>
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Tipologia TBI</label>
-        <div>Tipologia</div>
+        <div>
+            <#if contentModel.subcategory_o?? && contentModel.subcategory_o?has_content>
+                ${contentModel.subcategory_o}
+            </#if>
+        </div>
       </div>
       <div class="col-md-6">
         <label class="desc-title form-label fw-bold">Descrizione</label>
@@ -22,12 +30,9 @@
             overflow: hidden;
           "
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliquaLorem
-          ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliquaLorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua
+            <#if contentModel.description_t?? && contentModel.description_t?has_content>
+                ${contentModel.description_t}
+            </#if>
         </div>
       </div>
     </div>
@@ -35,11 +40,19 @@
     <div class="row mb-5">
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Durata</label>
-        <div>000</div>
+        <div>
+            <#if contentModel.duration_s?? && contentModel.duration_s?has_content>
+                ${contentModel.duration_s}
+            </#if>
+        </div>
       </div>
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">costo</label>
-        <div>$$$</div>
+        <div>
+            <#if contentModel.costo_s?? && contentModel.costo_s?has_content>
+                ${contentModel.costo_s}
+            </#if>
+        </div>
       </div>
 
       <div
@@ -62,7 +75,11 @@
     <div class="row mb-5">
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">CUP</label>
-        <div>XXXXXXXXXX</div>
+        <div>
+            <#if contentModel.cup_s?? && contentModel.cup_s?has_content>
+                ${contentModel.cup_s}
+            </#if>
+        </div>
       </div>
     </div>
   </form>
