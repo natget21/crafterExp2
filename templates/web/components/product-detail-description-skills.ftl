@@ -16,7 +16,11 @@
     <div class="row mb-5">
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Nome</label>
-        <div>Nome</div>
+        <div>
+            <#if contentModel.name_s?? && contentModel.name_s?has_content>
+                ${contentModel.name_s}
+            </#if>
+        </div>
       </div>
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Obiettivo</label>
