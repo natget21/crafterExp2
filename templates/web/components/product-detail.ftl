@@ -36,12 +36,12 @@
             <#else>
               <p>No content found for internal-name: ${itemUrl}</p>
             </#if>
-            <p class="text-primary fw-bold mb-2" style="font-size: 0.85rem;">DESCRIZIONE PRODOTTO</p>
-            <p class="text-primary" style="font-size: 0.85rem;">
-                <#if contentModel.informazionisulcosto_html?? && contentModel.informazionisulcosto_html?has_content>
+            <#if contentModel.informazionisulcosto_html?? && contentModel.informazionisulcosto_html?has_content>
+                <p class="text-primary fw-bold mb-2" style="font-size: 0.85rem;">DESCRIZIONE PRODOTTO</p>
+                <p class="text-primary" style="font-size: 0.85rem;">
                   <p>${contentModel.informazionisulcosto_html}</p>
-                </#if>
-            </p>
+                </p>
+            </#if>
             <div class="mt-2">
               <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
               <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
