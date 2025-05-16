@@ -51,7 +51,11 @@
       <div class="banner_section banner_project layout_padding">
         <img class="banner_img" src="static-assets/assets/progetto.png">
         <div class="container flex-column align-items-end">
-          <h1 class="best_taital text-center dark p-0">Visione</h1>
+          <h1 class="best_taital text-center dark p-0">
+            <#if contentModel.titolopagina_s?? && contentModel.titolopagina_s?has_content>
+                ${contentModel.titolopagina_s}
+            </#if>
+          </h1>
           <p
             class="there_text d-flex justify-content-end dark p-0 m-0"
           >
