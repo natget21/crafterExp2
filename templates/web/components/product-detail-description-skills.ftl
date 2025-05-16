@@ -5,11 +5,19 @@
     <div class="row mb-5">
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Sottocategoria</label>
-        <div>Categorie</div>
+        <div>
+            <#if contentModel.subcategory_o?? && contentModel.subcategory_o?has_content>
+                ${contentModel.subcategory_o}
+            </#if>
+        </div>
       </div>
       <div class="col-md-3">
         <label class="desc-title form-label fw-bold">Codice Interno</label>
-        <div>00000000</div>
+        <div>
+            <#if contentModel.codice_s?? && contentModel.codice_s?has_content>
+                ${contentModel.codice_s}
+            </#if>
+        </div>
       </div>
     </div>
 
