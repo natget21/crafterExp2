@@ -134,7 +134,11 @@
         <label class="desc-title form-label fw-bold"
           >Informazioni sul costo</label
         >
-        <div>Min: 00 - Max: 00</div>
+        <div>
+            <#if contentModel.informazionisulcosto_html?? && contentModel.informazionisulcosto_html?has_content>
+                ${contentModel.informazionisulcosto_html}
+            </#if>
+        </div>
       </div>
       <div class="col-md-3 form-check">
         <input
