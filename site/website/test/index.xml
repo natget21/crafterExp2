@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pagetest</content-type>
+	<display-template>/templates/web/pages/test.ftl</display-template>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9ab5</objectGroupId>
+	<objectId>9ab5983a-cd2d-398c-10c3-7f540fd07ccc</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>test</folder-name>
+	<internal-name>test</internal-name>
+	<navLabel>test</navLabel>
+	<slidername_s>test</slidername_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<image_s>/static-assets/img/product-9.jpg</image_s>
+	<description_t>test desc</description_t>
+	<createdDate>2025-05-16T13:26:13.174Z</createdDate>
+	<createdDate_dt>2025-05-16T13:26:13.174Z</createdDate_dt>
+	<lastModifiedDate>2025-05-16T13:26:13.174Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-16T13:26:13.174Z</lastModifiedDate_dt>
+</page>
