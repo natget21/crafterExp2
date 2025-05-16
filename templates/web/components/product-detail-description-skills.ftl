@@ -105,7 +105,7 @@
         </div>
       </div>
       <div class="col-md-3">
-        <label class="desc-title form-label fw-bold">Costo orario</label>
+        <label class="desc-title form-label fw-bold">Costo unitario</label>
         <div
             <#if contentModel.costo_s?? && contentModel.costo_s?has_content>
                 ${contentModel.costo_s}
