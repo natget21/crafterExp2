@@ -123,10 +123,6 @@
     </div>
 
     <div class="row mb-5">
-      <div class="col-md-3">
-        <label class="desc-title form-label fw-bold">Partecipanti</label>
-        <div>Min: 00 - Max: 00</div>
-      </div>
       <div class="col-md-3 form-check">
         <input
           class="form-check-input"
@@ -143,8 +139,8 @@
     <div class="mb-5">
       <label class="desc-title form-label fw-bold">CUP</label>
       <div>
-            <#if contentModel.rivolto_t?? && contentModel.rivolto_t?has_content>
-                ${contentModel.rivolto_t}
+            <#if contentModel.cup_s?? && contentModel.cup_s?has_content>
+                ${contentModel.cup_s}
             </#if>
       </div>
     </div>
