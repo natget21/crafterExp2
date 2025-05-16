@@ -8,24 +8,16 @@
     <!-- Header Section (Logo, Search Bar, etc.) -->
     <#include "/templates/web/fragments/header.ftl">
     
-     <!-- Navigation Section --> 
-    <#include "/templates/web/fragments/navigation.ftl">
-    <#include "/templates/web/fragments/static-navigation.ftl">
 
 
     <!-- Main Content Section -->
     <main>
-        <#include "/templates/web/components/home-slider.ftl">
         
         <p>----------</p>
         <p>${contentModel.slidername_s}</p>
         <p>----------</p>
         
         
-        <!--
-        <#include "/templates/web/components/category-list.ftl"> 
-        <#include "/templates/web/components/featured-service.ftl"> 
-        <#include "/templates/web/components/provider-carousel.ftl"> -->
     </main>
 
     <!-- Footer Section -->
