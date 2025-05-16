@@ -264,11 +264,11 @@
                             </p>
                         </div>
                         <div class="tab-pane fade" id="tab-pane-2">
-                            <!--
                             <#include "product-detail-description-skills.ftl">
+                            <!--
                             <#include "product-detail-desc-consulenza.ftl">
-                            -->
                             <#include "product-detail-desc-test.ftl">
+                            -->
                         </div>
                         <div class="tab-pane fade" id="tab-pane-3">
                             <div class="row">
