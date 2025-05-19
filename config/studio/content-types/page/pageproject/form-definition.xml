@@ -138,8 +138,8 @@
 					</constraints>
 				</field>
 				<field>
-					<type>input</type>
-					<id>titolobanner_s</id>
+					<type>textarea</type>
+					<id>titolobanner_t</id>
 					<iceId></iceId>
 					<title>Titolo banner</title>
 					<description></description>
@@ -147,23 +147,23 @@
 					<help></help>
 					<properties>
 						<property>
-							<name>size</name>
-							<value>50</value>
+							<name>rows</name>
+							<value>5</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>100000</value>
 							<type>int</type>
+						</property>
+						<property>
+							<name>allowResize</name>
+							<value>true</value>
+							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
 							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
 							<type>boolean</type>
 						</property>
 						<property>
@@ -178,16 +178,11 @@
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
 					</constraints>
 				</field>
 				<field>
-					<type>input</type>
-					<id>sottotitolobanner_s</id>
+					<type>textarea</type>
+					<id>sottotitolobanner_t</id>
 					<iceId></iceId>
 					<title>Sottotitolo banner</title>
 					<description></description>
@@ -195,23 +190,23 @@
 					<help></help>
 					<properties>
 						<property>
-							<name>size</name>
-							<value>50</value>
+							<name>rows</name>
+							<value>5</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>100000</value>
 							<type>int</type>
+						</property>
+						<property>
+							<name>allowResize</name>
+							<value>true</value>
+							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
 							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
 							<type>boolean</type>
 						</property>
 						<property>
@@ -225,115 +220,57 @@
 							<name>required</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>input</type>
-					<id>marketingtitle_s</id>
-					<iceId></iceId>
-					<title>Marketing title</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>escapeContent</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>input</type>
-					<id>paragrafomarketing_s</id>
-					<iceId></iceId>
-					<title>Paragrafo marketing</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>escapeContent</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
 						</constraint>
 					</constraints>
 				</field>
 				<field>
 					<type>textarea</type>
-					<id>test_t</id>
+					<id>marketingtitle_s_t</id>
 					<iceId></iceId>
-					<title>test</title>
+					<title>marketingtitle_s</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>rows</name>
+							<value>5</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>100000</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>allowResize</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>textarea</type>
+					<id>paragrafomarketing_t</id>
+					<iceId></iceId>
+					<title>Paragrafo marketing</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
