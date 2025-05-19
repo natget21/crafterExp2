@@ -92,10 +92,16 @@
                 <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
                   <div class="obj d-flex gap-3">
                     <img class="obj_image" src="static-assets/assets/matching.png" alt="" />
-                    <p><strong>${obiettivo.titolo_s}</strong></p>
+                    <p><strong>
+                        <#if obiettivo.titolo_s?? && obiettivo.titolo_s?has_content>
+                            ${obiettivo.titolo_s}
+                        </#if>
+                    </strong></p>
                   </div>
                   <p class="desc">
-                    ${obiettivo.descrizione_t}
+                    <#if obiettivo.descrizione_t?? && obiettivo.descrizione_t?has_content>
+                        ${obiettivo.descrizione_t}
+                    </#if>
                   </p>
                 </div>
             </#list>
