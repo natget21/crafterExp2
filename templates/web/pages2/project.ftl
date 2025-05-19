@@ -148,8 +148,16 @@
         </div>
         <hr />
         <div class="unicita">
-          <h2 class="title_section sub_title">Cosa rende IDEALE unico?</h2>
-          <p>Una piattaforma progettata per generare valore condiviso:</p>
+          <h2 class="title_section sub_title">
+            <#if contentModel.titolounicita_s?? && contentModel.titolounicita_s?has_content>
+                ${contentModel.titolounicita_s}
+            </#if>
+          </h2>
+          <p>
+            <#if contentModel.testounicita_t?? && contentModel.testounicita_t?has_content>
+                ${contentModel.testounicita_t}
+            </#if>
+          </p>
           <ul>
             <li>
               <p>
