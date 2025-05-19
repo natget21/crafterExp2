@@ -82,7 +82,9 @@
         </div>
         <div class="objectives_section">
           <h2 class="title_section sub_title mb-4">
-            Obiettivi del progetto IDEALE
+            <#if contentModel.titoloobiettivi_s?? && contentModel.titoloobiettivi_s?has_content>
+                ${contentModel.titoloobiettivi_s}
+            </#if>
           </h2>
           <div class="objectives row row-gap-5">
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
