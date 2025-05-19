@@ -88,23 +88,24 @@
           </h2>
           <div class="objectives row row-gap-5">
           
-            <#list contentModel.obiettivi_o as obiettivo>
-                <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
-                  <div class="obj d-flex gap-3">
-                    <img class="obj_image" src="static-assets/assets/matching.png" alt="" />
-                    <p><strong>
-                        <#if obiettivo.titolo_s?? && obiettivo.titolo_s?has_content>
-                            ${obiettivo.titolo_s}
-                        </#if>
-                    </strong></p>
-                  </div>
-                  <p class="desc">
-                    <#if obiettivo.descrizione_t?? && obiettivo.descrizione_t?has_content>
-                        ${obiettivo.descrizione_t}
+        <#list contentModel.obiettivi_o as obiettivo>
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+              <div class="obj d-flex gap-3">
+                <img class="obj_image" src="static-assets/assets/matching.png" alt="" />
+                <p><strong>
+                    <#if obiettivo.titolo_s?? && obiettivo.titolo_s?has_content>
+                        ${obiettivo.titolo_s}
                     </#if>
-                  </p>
-                </div>
-            </#list>
+                </strong></p>
+              </div>
+              <p class="desc">
+                <#if obiettivo.descrizione_t?? && obiettivo.descrizione_t?has_content>
+                    ${obiettivo.descrizione_t}
+                </#if>
+              </p>
+            </div>
+        </#list>
+
 
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
               <div class="obj d-flex gap-3">
