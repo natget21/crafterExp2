@@ -87,7 +87,12 @@
             </#if>
           </h2>
           <div class="objectives row row-gap-5">
-          
+<#list contentModel.obiettivi_o as obiettivo>
+  <pre>
+    ${obiettivo?dump}
+  </pre>
+</#list>
+
         <#list contentModel.obiettivi_o as obiettivo>
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
               <div class="obj d-flex gap-3">
