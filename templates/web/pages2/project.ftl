@@ -52,14 +52,16 @@
         <img class="banner_img" src="static-assets/assets/progetto.png">
         <div class="container flex-column align-items-end">
           <h1 class="best_taital text-center dark p-0">
-            <#if contentModel.titolopagina_s?? && contentModel.titolopagina_s?has_content>
-                ${contentModel.titolopagina_s}
+            <#if contentModel.titolobanner_t?? && contentModel.titolobanner_t?has_content>
+                ${contentModel.titolobanner_t}
             </#if>
           </h1>
           <p
             class="there_text d-flex justify-content-end dark p-0 m-0"
           >
-            L’innovazione condivisa per costruire valore
+            <#if contentModel.sottotitolobanner_t?? && contentModel.sottotitolobanner_t?has_content>
+                ${contentModel.sottotitolobanner_t}
+            </#if>
           </p>
         </div>
       </div>
@@ -68,13 +70,14 @@
       >
         <div class="marketing_section layout_padding mb-5">
           <h2 class="marketing_title title_section">
-            IDEALE è il punto d'incontro tra tecnologia, innovazione e impatto
-            sociale.
+            <#if contentModel.marketingtitle_s_t?? && contentModel.marketingtitle_s_t?has_content>
+                ${contentModel.marketingtitle_s_t}
+            </#if>
           </h2>
           <p>
-            Vogliamo costruire un ecosistema digitale dove imprese, pubbliche
-            amministrazioni e terzo settore collaborano per progettare servizi
-            intelligenti, inclusivi e sostenibili.
+            <#if contentModel.paragrafomarketing_t?? && contentModel.paragrafomarketing_t?has_content>
+                ${contentModel.paragrafomarketing_t}
+            </#if>
           </p>
         </div>
         <div class="objectives_section">
