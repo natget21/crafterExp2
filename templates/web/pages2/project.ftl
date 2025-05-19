@@ -92,10 +92,10 @@
                 <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
                   <div class="obj d-flex gap-3">
                     <img class="obj_image" src="static-assets/assets/matching.png" alt="" />
-                    <p><strong>${obiettivo.titolo}</strong></p>
+                    <p><strong>${obiettivo.titolo_s}</strong></p>
                   </div>
                   <p class="desc">
-                    ${obiettivo.descrizione}
+                    ${obiettivo.descrizione_t}
                   </p>
                 </div>
             </#list>
