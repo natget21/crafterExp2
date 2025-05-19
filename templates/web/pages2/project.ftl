@@ -88,9 +88,7 @@
           </h2>
           <div class="objectives row row-gap-5">
 <#list contentModel.obiettivi_o as obiettivo>
-  <pre>
-    ${obiettivo?dump}
-  </pre>
+static-navigation
 </#list>
 
         <#list contentModel.obiettivi_o as obiettivo>
