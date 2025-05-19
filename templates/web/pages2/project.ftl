@@ -87,11 +87,15 @@
             </#if>
           </h2>
           <div class="objectives row row-gap-5">
+              <#list contentModel.obiettivi_o?keys as key>
+              <li>1${key} = ${contentModel.obiettivi_o[key]}</li>
+            </#list>
+
           
 <#list contentModel.obiettivi_o as obiettivo>
   <ul>
     <#list obiettivo?keys as key>
-      <li>${key} = ${obiettivo[key]}</li>
+      <li>2${key} = ${obiettivo[key]}</li>
     </#list>
   </ul>
 </#list>
