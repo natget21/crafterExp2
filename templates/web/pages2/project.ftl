@@ -89,7 +89,7 @@
           <div class="objectives row row-gap-5">
           
             <#if contentModel.obiettivi_o?? && contentModel.obiettivi_o?has_content>
-                ${contentModel.obiettivi_o?dump}
+                ${contentModel.obiettivi_o.titolo_s}
             </#if>
         <#list contentModel.obiettivi_o as obiettivo>
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
