@@ -4,7 +4,7 @@
 	<objectType>page</objectType>
 	<content-type>/page/pageproject</content-type>
 	<imageThumbnail></imageThumbnail>
-	<quickCreate>false</quickCreate>
+	<quickCreate>true</quickCreate>
 	<quickCreatePath></quickCreatePath>
 	<properties>		<property>
 			<name>display-template</name>
