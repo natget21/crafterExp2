@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-04-07T05:09:43.676Z</createdDate>
 	<createdDate_dt>2025-04-07T05:09:43.676Z</createdDate_dt>
-	<lastModifiedDate>2025-05-19T10:26:24.128Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-19T10:26:24.128Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-19T12:36:46.355Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-19T12:36:46.355Z</lastModifiedDate_dt>
 	<titolobanner_t>Visione</titolobanner_t>
 	<sottotitolobanner_t>L’innovazione condivisa per costruire valore</sottotitolobanner_t>
 	<marketingtitle_s_t>IDEALE è il punto d'incontro tra tecnologia, innovazione e impatto sociale.</marketingtitle_s_t>
@@ -41,5 +41,7 @@
 	<descrizione_t>Connettere domanda e offerta in modo intelligente e rapido.</descrizione_t>
 	</item>	<item>	<titolo_s>Co-progettazione</titolo_s>
 	<descrizione_t>Favorire la co-progettazione tra startup, PMI, PA, università e grandi imprese.</descrizione_t>
+	</item>	<item>	<titolo_s>test 2</titolo_s>
+	<descrizione_t>asasas</descrizione_t>
 	</item></obiettivi_o>
 </page>
