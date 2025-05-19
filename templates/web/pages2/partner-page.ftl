@@ -49,11 +49,11 @@
 
     <div class="content pb-5">
       <div
-        class="banner_section banner_partners layout_padding d-flex text-white align-items-center"
+        class="banner_section banner_partners layout_padding d-flex align-items-center"
       >
         <img class="banner_img" src="static-assets/assets/partner.png">
         <div class="container">
-          <h1 class="best_taital text-center dark p-0">Partner</h1>
+          <h1 class="best_taital text-white dark p-0">Partner</h1>
         </div>
       </div>
       <div class="explanation layout_padding mx-auto col-11 col-md-9 px-0">
