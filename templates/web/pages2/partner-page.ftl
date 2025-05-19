@@ -49,7 +49,7 @@
 
     <div class="content pb-5">
       <div
-        class="banner_section banner_partners layout_padding d-flex align-items-center"
+        class="banner_section banner_partners layout_padding d-flex text-white align-items-center"
       >
         <img class="banner_img" src="static-assets/assets/partner.png">
         <div class="container">
