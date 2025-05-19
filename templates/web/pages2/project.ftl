@@ -88,7 +88,7 @@
           </h2>
           <div class="objectives row row-gap-5">
           
-            <#list contentModel.obiettivi as obiettivo>
+            <#list contentModel.obiettivi_o as obiettivo>
                 <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
                   <div class="obj d-flex gap-3">
                     <img class="obj_image" src="static-assets/assets/matching.png" alt="" />
