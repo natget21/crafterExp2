@@ -233,36 +233,6 @@
                 </p>
               </div>
           </#list>
-          <div
-            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
-          >
-            <div class="imageContainer">
-              <img src="/static-assets/assets/pa.png" alt="" style="width: 100px" />
-            </div>
-            <p class="addressee_text d-flex justify-content-start">
-              Pubblica Amministrazione
-            </p>
-          </div>
-          <div
-            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
-          >
-            <div class="imageContainer">
-              <img src="/static-assets/assets/terzo-settore.png" alt="" style="width: 90px" />
-            </div>
-            <p class="addressee_text d-flex justify-content-start">
-              Enti del Terzo Settore
-            </p>
-          </div>
-          <div
-            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
-          >
-            <div class="imageContainer">
-              <img src="/static-assets/assets/freelance.png" alt="" style="width: 80px" />
-            </div>
-            <p class="addressee_text d-flex justify-content-start">
-              Liberi Professionisti
-            </p>
-          </div>
         </div>
       </div>
       <div class="layout_padding targets_section mx-auto col-11 col-md-9 px-0">
