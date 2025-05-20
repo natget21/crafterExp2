@@ -60,37 +60,22 @@
       >
         <h2 class="title_section pl-3 pl-md-0 col-md-6 mb-4">Cosa offriamo</h2>
         <ul class="mb-4">
-          <li><p>Eventi di Brokeraggio</p></li>
-          <li><p>Eventi di Disseminazione ed Exploitation</p></li>
-          <li><p>Hackathon</p></li>
-          <li><p>Location, Coworking & Marketplace</p></li>
+          <#list contentModel.types_o.item  as item>
+            <#if item.title_s?? && item.title_s?has_content>
+                <li><p>${item.title_s}</p></li>
+            </#if>
+          </#list>
         </ul>
-        <p class="mb-4">
-            <strong>Eventi di Brokeraggio: </strong> Organizzazione di
-            eventi che favoriscono il matching tra domanda e offerta di
-            tecnologie, competenze e risorse, creando opportunità di
-            collaborazione tra imprese, investitori e innovatori.
-        </p>
-        <p class="mb-4">
-            <strong>Eventi di Disseminazione ed Exploitation: </strong>
-            Attività di sensibilizzazione e promozione di progetti e
-            innovazioni tramite eventi, pubblicazioni, webinar e social
-            media, con l'obiettivo di far conoscere e diffondere i risultati
-            ottenuti attraverso attività di ricerca e sviluppo.
-        </p>
-        <p class="mb-4">
-            <strong>Hackathon: </strong> Organizzazione di eventi in cui
-            gruppi di innovatori si confrontano per risolvere specifiche
-            sfide tecnologiche, promuovendo la collaborazione e stimolando
-            la co-innovazione tra aziende, istituzioni e sviluppatori.
-        </p>
-        <p class="mb-4">
-            <strong>Location, Coworking & Marketplace: </strong> Offerta di
-            spazi di coworking temporanei per le aziende, incluse le
-            opportunità di testare e integrare nuove tecnologie in ambienti
-            di lavoro condivisi, aumentando la maturità tecnologica e
-            promuovendo la crescita commerciale.
-        </p>
+        <#list contentModel.types_o.item  as item>
+            <p class="mb-4">
+                <#if item.title_s?? && item.title_s?has_content>
+                    <strong> ${item.title_s}: </strong>
+                </#if>
+                <#if item.description_t?? && item.description_t?has_content>
+                    ${item.description_t}
+                </#if>
+            </p>
+        </#list>
       </div>
 
     </div>
