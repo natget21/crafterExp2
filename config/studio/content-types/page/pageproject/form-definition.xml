@@ -722,8 +722,6 @@
 						</property>
 					</properties>
 					<fields>
-					</fields>
-				</field>
 				<field>
 					<type>textarea</type>
 					<id>unicitaitem_t</id>
@@ -766,6 +764,8 @@
 							<type>boolean</type>
 						</constraint>
 					</constraints>
+				</field>
+					</fields>
 				</field>
 			</fields>
 		</section>
