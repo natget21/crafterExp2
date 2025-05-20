@@ -215,7 +215,7 @@
         <h2 class="title_section">Destinatari</h2>
         <div class="row pl-3">
           <#list contentModel.destinatari_o.item  as item>
-              <#assign widthValue = item.nomedestinatario_s.style_s?if_exists?trim>
+              <#assign widthValue = item.style_s?if_exists?trim>
               <div
                 class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
               >
