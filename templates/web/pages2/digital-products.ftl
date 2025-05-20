@@ -80,41 +80,6 @@
               </#if>
             </div>
         </#list>
-        <div
-          class="service mt-5 d-flex justify-content-between align-items-center"
-        >
-          <div
-            class="d-flex flex-column align-items-center justify-content-center"
-          >
-            <h3 class="service_title text-center">E-services</h3>
-            <p class="text-center">
-              Si tratta di microservizi avanzati, facilmente accessibili tramite
-              interfacce utente complete e progettati per rispondere alle
-              esigenze specifiche del cliente finale. Questi servizi sono
-              pensati per essere utilizzati immediatamente, senza necessità di
-              configurazioni complesse, e possono essere integrati facilmente
-              nei processi aziendali per ottimizzare la gestione e le
-              operazioni.
-            </p>
-          </div>
-          <img src="/static-assets/assets/assessment-1.jpg" alt="" />
-        </div>
-        <div class="service d-flex justify-content-between align-items-center">
-          <div
-            class="d-flex flex-column align-items-center justify-content-center"
-          >
-            <h3 class="service_title text-center">API</h3>
-            <p class="text-center">
-              Le API (Application Programming Interface) senza interfaccia
-              grafica sono soluzioni pensate per le aziende che necessitano di
-              integrare sistemi esterni o personalizzati. Queste API permettono
-              una comunicazione diretta tra applicazioni diverse, senza dover
-              gestire una complessa interfaccia utente, facilitando
-              l'automazione e l'efficienza operativa.
-            </p>
-          </div>
-          <img src="/static-assets/assets/test-before-invest-1.jpg" alt="" />
-        </div>
       </div>
     </div>
 
