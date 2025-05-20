@@ -14,10 +14,27 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-04-17T10:44:59.388Z</createdDate>
 	<createdDate_dt>2025-04-17T10:44:59.388Z</createdDate_dt>
-	<lastModifiedDate>2025-05-20T15:15:26.424Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-20T15:15:26.424Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-20T15:18:03.423Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-20T15:18:03.423Z</lastModifiedDate_dt>
 	<servizi_o item-list="true">	<item>	<imagepath_s>/static-assets/assets/formazione-1.jpg</imagepath_s>
 	<titolo_s>Test Before Invest</titolo_s>
 	<descrizione_t>Questa categoria permette alle aziende di esplorare soluzioni e tecnologie prima di fare investimenti significativi. Consente di validare idee e concetti tecnologici attraverso attività pratiche e dimostrative che riducono i rischi e migliorano la decisione sugli investimenti</descrizione_t>
+	<navigateTo_s>/test-before-invest</navigateTo_s>
+	</item>	<item>	<imagepath_s>/static-assets/assets/supporto-finanziamenti.jpg</imagepath_s>
+	<titolo_s>Consulenza</titolo_s>
+	<descrizione_t>Questa categoria fornisce un ampio supporto alle aziende per affrontare sfide strategiche e operazioni aziendali complesse. I servizi di consulenza aiutano le imprese a migliorare l'efficienza, a rispondere alle dinamiche del mercato e a promuovere l’innovazione tecnologica e manageriale.</descrizione_t>
+	<navigateTo_s>/consulenza</navigateTo_s>
+	</item>	<item>	<imagepath_s>/static-assets/assets/supporto-finanziamenti.jpg</imagepath_s>
+	<titolo_s>Skills and Training</titolo_s>
+	<descrizione_t>La formazione è un aspetto cruciale per l’aggiornamento delle competenze interne e per rispondere alle sfide di un mercato sempre più competitivo e tecnologicamente avanzato. Questa categoria offre corsi strutturati per sviluppare competenze tecnologiche, manageriali e trasversali.</descrizione_t>
+	<navigateTo_s>/skills-training</navigateTo_s>
+	</item>	<item>	<imagepath_s>/static-assets/assets/supporto-finanziamenti.jpg</imagepath_s>
+	<titolo_s>Access to Finance</titolo_s>
+	<descrizione_t>Questa categoria aiuta le aziende ad accedere a diverse forme di finanziamento, sia pubbliche che private, per finanziare progetti innovativi e di crescita. I servizi offrono consulenza mirata per la gestione di fondi e risorse, rendendo più facile l'accesso a capitali necessari per lo sviluppo.</descrizione_t>
+	<navigateTo_s>/finance</navigateTo_s>
+	</item>	<item>	<imagepath_s>/static-assets/assets/supporto-finanziamenti.jpg</imagepath_s>
+	<titolo_s>Networking, Ecosystem e Open Innovation</titolo_s>
+	<descrizione_t>Questa categoria supporta la creazione di connessioni tra aziende, startup, università, istituzioni e investitori, promuovendo la collaborazione e l’innovazione aperta. L'obiettivo è favorire la creazione di ecosistemi dinamici in cui le imprese possano crescere attraverso il confronto e l’interazione con altri attori.</descrizione_t>
+	<navigateTo_s>/networking</navigateTo_s>
 	</item></servizi_o>
 </page>
