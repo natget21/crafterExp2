@@ -89,7 +89,9 @@
           <div class="objectives row row-gap-5">
 <#if contentModel.test_o?? && contentModel.test_o?has_content>
     <#if contentModel.test_o.obiettivi_o?? && contentModel.test_o.obiettivi_o?has_content>
+    Obiettivo1
         <#list contentModel.test_o.obiettivi_o as obiettivo>
+    Obiettivo2
             <div>
                 <strong>Obiettivo:</strong>
                   <ul>
