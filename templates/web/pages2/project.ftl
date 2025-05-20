@@ -139,30 +139,36 @@
         <div class="mt-5">
           <p class="title_section sub_title">Prodotti digitali</p>
           <div class="accordion" id="productsAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#productOne"
-                  aria-expanded="false"
-                  aria-controls="productOne"
-                >
-                  E-services
-                </button>
-              </h2>
-              <div
-                id="productOne"
-                class="accordion-collapse collapse"
-                data-bs-parent="#productsAccordion"
-              >
-                <div class="accordion-body">
-                  Microservizi completi con interfaccia utente, pronti all'uso
-                  per il cliente finale
+            <#list contentModel.prodottidigitali_o.item  as item>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <#if item.titolo_s?? && item.titolo_s?has_content>
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#${item.databstarget_s}"
+                      aria-expanded="false"
+                      aria-controls="${item.databstarget_s}"
+                    >
+                      <#if item.titolo_s?? && item.titolo_s?has_content>
+                        ${item.titolo_s}
+                      </#if>
+                    </button>
+                  </h2>
+                  <div
+                    id="${item.databstarget_s}"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#productsAccordion"
+                  >
+                    <div class="accordion-body">
+                      <#if item.descrizione_t?? && item.descrizione_t?has_content>
+                        ${item.descrizione_t}
+                      </#if>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
+            </#list>
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
