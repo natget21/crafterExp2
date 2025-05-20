@@ -101,17 +101,21 @@
 
 </#list>
 <p>.............................................</p>
-
-
-            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
-              <div class="obj d-flex gap-3">
-                <img class="obj_image" src="static-assets/assets/matching.png" alt="" />
-                <p><strong>Matching</strong></p>
-              </div>
-              <p class="desc">
-                Connettere domanda e offerta in modo intelligente e rapido.
-              </p>
-            </div>
+            <#list contentModel.obiettivi_o.item  as item>
+                <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+                  <div class="obj d-flex gap-3">
+                    <#if item.imagepath_s?? && item.imagepath_s?has_content>
+                        <img class="obj_image" src="${item.imagepath_s}" alt="" />
+                    </#if>
+                    <#if item.titolo_s?? && item.titolo_s?has_content>
+                        <p><strong>${item.titolo_s}</strong></p>
+                    </#if>
+                  </div>
+                  <#if item.descrizione_t?? && item.descrizione_t?has_content>
+                        <p class="desc">${item.descrizione_t}</p>
+                  </#if>
+                </div>
+            </#list>
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
               <div class="obj d-flex gap-3">
                 <img class="obj_image" src="static-assets/assets/co-progettazione.png" alt="" />
