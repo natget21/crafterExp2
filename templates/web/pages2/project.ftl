@@ -90,7 +90,7 @@
             <#list contentModel.obiettivi_o as obiettivo>
               <ul>
                 <#list obiettivo?keys as key>
-                  <li>${key} = ${obiettivo[key]}</li>
+                  <li>${obiettivo.child("titolo").text}</li>
                 </#list>
               </ul>
             </#list>
