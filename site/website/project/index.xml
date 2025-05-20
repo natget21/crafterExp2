@@ -14,26 +14,14 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-04-07T05:09:43.676Z</createdDate>
 	<createdDate_dt>2025-04-07T05:09:43.676Z</createdDate_dt>
-	<lastModifiedDate>2025-05-20T13:06:51.540Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-20T13:06:51.540Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-20T13:22:51.436Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-20T13:22:51.436Z</lastModifiedDate_dt>
 	<titolobanner_t>Visione</titolobanner_t>
 	<sottotitolobanner_t>L’innovazione condivisa per costruire valore</sottotitolobanner_t>
 	<marketingtitle_s_t>IDEALE è il punto d'incontro tra tecnologia, innovazione e impatto sociale.</marketingtitle_s_t>
 	<paragrafomarketing_t>Vogliamo costruire un ecosistema digitale dove imprese, pubbliche amministrazioni e terzo settore collaborano per progettare servizi intelligenti, inclusivi e sostenibili.</paragrafomarketing_t>
 	<titoloobiettivi_s>Obiettivi del progetto IDEALE</titoloobiettivi_s>
-	<nomeobiettivo1_s/>
-	<nomeobiettivo2_s/>
-	<nomeobiettivo3_s/>
-	<nomeobiettivo4_s/>
-	<nomeobiettivo5_s/>
-	<nomeobiettivo6_s/>
 	<titolounicita_s>Cosa rende IDEALE unico?</titolounicita_s>
-	<descrizioneobiettivo1_t/>
-	<descrizioneobiettivo2_t/>
-	<descrizioneobiettivo3_t/>
-	<descrizioneobiettivo4_t/>
-	<descrizioneobiettivo5_t/>
-	<descrizioneobiettivo6_t/>
 	<testounicita_t>Una piattaforma progettata per generare valore condiviso:</testounicita_t>
 	<titolosservizi_s/>
 	<descrizioneservizi_t/>
@@ -56,4 +44,6 @@
 	<descrizione_t>Misurare e certificare le competenze digitali, anche nella PA.</descrizione_t>
 	<imagepath_s>static-assets/assets/certificare-le-competenze.png</imagepath_s>
 	</item></obiettivi_o>
+	<listaunicita_o item-list="true">	<item>	<unicitaitem_t>&lt;strong&gt;AI e VR&lt;/strong&gt; per connettere bisogni e soluzioni in modo personalizzato</unicitaitem_t>
+	</item></listaunicita_o>
 </page>
