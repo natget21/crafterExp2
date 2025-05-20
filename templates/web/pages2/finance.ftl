@@ -61,53 +61,22 @@
       >
         <h2 class="title_section pl-3 pl-md-0 col-md-6 mb-4">Cosa offriamo</h2>
         <ul class="mb-4">
-          <li><p>Finanza Agevolata ed Europrogettazione</p></li>
-          <li><p>Accesso al Credito</p></li>
-          <li><p>Crowdfunding</p></li>
-          <li><p>Misure Fiscali</p></li>
-          <li><p>Corporate Finance</p></li>
+          <#list contentModel.types_o.item  as item>
+            <#if item.title_s?? && item.title_s?has_content>
+                <li><p>${item.title_s}</p></li>
+            </#if>
+          </#list>
         </ul>
-        <p class="mb-4">
-            <strong> Finanza Agevolata ed Europrogettazione: </strong> Un
-            servizio altamente specializzato che supporta le aziende nella
-            definizione e preparazione di progetti per accedere a
-            finanziamenti pubblici, nazionali ed europei. Comprende la
-            creazione del concept di progetto, la stesura della
-            documentazione amministrativa, la costruzione di partenariati
-            internazionali, l'analisi dei costi e la gestione delle fasi di
-            rendicontazione, nonché le attività di comunicazione e
-            sfruttamento dei risultati del progetto.
-        </p>
-        <p class="mb-4">
-            <strong> Accesso al Credito: </strong> Consulenza mirata per
-            aiutare le imprese a sviluppare una strategia di finanziamento
-            che si adatti alle loro necessità, incluso il supporto nella
-            preparazione di pitch per investitori, l'assessment finanziario
-            e la preparazione di documentazione per l'accesso a linee di
-            credito private o pubbliche.
-        </p>
-        <p class="mb-4">
-            <strong> Crowdfunding: </strong> Servizi per supportare le
-            aziende nella creazione e gestione di campagne di crowdfunding,
-            un'opzione di finanziamento sempre più popolare per progetti
-            innovativi. Questo servizio include la pianificazione della
-            campagna, la creazione di contenuti e la gestione delle
-            relazioni con i donatori o investitori.
-        </p>
-        <p class="mb-4">
-            <strong> Misure Fiscali: </strong> Consulenza per sfruttare le
-            opportunità fiscali a disposizione delle aziende, inclusi
-            incentivi, agevolazioni e deduzioni fiscali che possono
-            contribuire a ridurre i costi operativi e favorire l'adozione di
-            nuove tecnologie.
-        </p>
-        <p class="mb-4">
-            <strong> Corporate Finance: </strong> Consulenza strategica per
-            la gestione finanziaria aziendale, che include attività come la
-            pianificazione finanziaria, l'analisi delle performance e
-            l'ottimizzazione delle risorse economiche, con l'obiettivo di
-            supportare la crescita e la competitività dell'azienda.
-        </p>
+        <#list contentModel.types_o.item  as item>
+            <p class="mb-4">
+                <#if item.title_s?? && item.title_s?has_content>
+                    <strong> ${item.title_s}: </strong>
+                </#if>
+                <#if item.description_t?? && item.description_t?has_content>
+                    ${item.description_t}
+                </#if>
+            </p>
+        </#list>
       </div>
 
     </div>
