@@ -89,9 +89,7 @@
           <div class="objectives row row-gap-5">
             <#list contentModel.obiettivi_o as obiettivo>
               <ul>
-                <#list obiettivo?keys as key>
                   <li>${obiettivo.child("titolo").text}</li>
-                </#list>
               </ul>
             </#list>
 
