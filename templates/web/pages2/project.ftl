@@ -121,7 +121,7 @@
                 <#if item.unicitaitem_t?? && item.unicitaitem_t?has_content>
                     <li><p>
                         ${item.unicitaitem_t}
-                    </li></p>
+                    </p></li>
                 </#if>
             </#list>
           </ul>
