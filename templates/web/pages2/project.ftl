@@ -119,9 +119,9 @@
           <ul>
             <#list contentModel.listaunicita_o.item  as item>
                 <#if item.unicitaitem_t?? && item.unicitaitem_t?has_content>
-                    <p>
+                    <li><p>
                         ${item.unicitaitem_t}
-                    </p>
+                    </li></p>
                 </#if>
             </#list>
           </ul>
