@@ -61,7 +61,7 @@
         class="services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
         <h3 class="title_section layout_padding">Prodotti digitali:</h3>
-        <#list contentModel.prodottidigitali_o.item  as item>
+        <#list contentModel.prodotti_o.item  as item>
             <div
               class="service mt-5 d-flex justify-content-between align-items-center"
             >
