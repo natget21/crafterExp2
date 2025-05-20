@@ -71,7 +71,7 @@
                 <#if item.titolo_s?? && item.titolo_s?has_content>
                     <h3 class="service_title text-center">${item.titolo_s}</h3>
                 </#if>
-                <#if item.titolo_s?? && item.titolo_s?has_content>
+                <#if item.descrizione_t?? && item.descrizione_t?has_content>
                     <p class="text-center">${item.descrizione_t}</p>
                 </#if>
               </div>
