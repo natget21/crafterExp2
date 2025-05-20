@@ -88,7 +88,7 @@
           </h2>
           <div class="objectives row row-gap-5">
           <#if contentModel.test_o?? && contentModel.test_o?has_content>
-                ${contentModel.test_o?dump}
+                ${contentModel.test_o}
             </#if>
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
               <div class="obj d-flex gap-3">
