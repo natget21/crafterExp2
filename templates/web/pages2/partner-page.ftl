@@ -60,12 +60,9 @@
         <h2 class="title_section mb-3">Partner di progetto</h2>
         <div class="p-0">
           <p class="" for="">
-            Il progetto è promosso da Synthesis3 S.r.l., insieme ai partner
-            Amicucci Formazione S.r.l. e Sinergia EPC S.r.l. Ognuno di loro
-            porta competenze chiave specifiche e complementari al progetto,
-            permettendo di offrire una gamma diversificata e altamente
-            qualificata di soluzioni per le imprese, la pubblica amministrazione
-            e il terzo settore.
+              <#if contentModel.partnerdescrizione_t?? && contentModel.partnerdescrizione_t?has_content>
+                ${contentModel.partnerdescrizione_t}
+              </#if>
           </p>
         </div>
       </div>
