@@ -14,6 +14,11 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-05-02T10:24:13.823Z</createdDate>
 	<createdDate_dt>2025-05-02T10:24:13.823Z</createdDate_dt>
-	<lastModifiedDate>2025-05-02T10:24:13.823Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-02T10:24:13.823Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-20T14:59:12.574Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-20T14:59:12.574Z</lastModifiedDate_dt>
+	<prodotti_o item-list="true">	<item>	<imagepath_s>/static-assets/assets/assessment-1.jpg</imagepath_s>
+	<titolo_s>E-services</titolo_s>
+	</item>	<item>	<imagepath_s>/static-assets/assets/test-before-invest-1.jpg</imagepath_s>
+	<titolo_s>API</titolo_s>
+	</item></prodotti_o>
 </page>
