@@ -87,11 +87,24 @@
             </#if>
           </h2>
           <div class="objectives row row-gap-5">
-            <#list contentModel.obiettivi_o as obiettivo>
-              <ul>
-                  <li>${obiettivo.child("titolo").text}</li>
-              </ul>
-            </#list>
+<#list contentModel.obiettivi_o as obiettivo>
+  <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
+    <div class="obj d-flex gap-3">
+      <img class="obj_image" src="static-assets/assets/matching.png" alt="" />
+      <p><strong>
+        <#if obiettivo.child("titolo")??>
+            ${obiettivo.child("titolo").text}
+        </#if>
+      </strong></p>
+    </div>
+    <p class="desc">
+      <#if obiettivo.child("descrizione")??>
+          ${obiettivo.child("descrizione").text}
+      </#if>
+    </p>
+  </div>
+</#list>
+
 
 
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
