@@ -219,7 +219,7 @@
               <div
                 class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
               >
-                <#if item.imagepath_s?? && item.imagepath_s?has_content && item.stile_s?? && item.stile_s?has_content>
+                <#if item.imagepath_s?? && item.imagepath_s?has_content>
                     <div class="imageContainer">
                       <img src="${item.imagepath_s}" alt="" style="width: ${widthValue?has_content?then(widthValue, '70px')}"  />
                     </div>
