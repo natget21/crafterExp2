@@ -14,6 +14,10 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-04-17T10:44:59.388Z</createdDate>
 	<createdDate_dt>2025-04-17T10:44:59.388Z</createdDate_dt>
-	<lastModifiedDate>2025-04-17T10:44:59.388Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-04-17T10:44:59.388Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-20T15:15:26.424Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-20T15:15:26.424Z</lastModifiedDate_dt>
+	<servizi_o item-list="true">	<item>	<imagepath_s>/static-assets/assets/formazione-1.jpg</imagepath_s>
+	<titolo_s>Test Before Invest</titolo_s>
+	<descrizione_t>Questa categoria permette alle aziende di esplorare soluzioni e tecnologie prima di fare investimenti significativi. Consente di validare idee e concetti tecnologici attraverso attività pratiche e dimostrative che riducono i rischi e migliorano la decisione sugli investimenti</descrizione_t>
+	</item></servizi_o>
 </page>
