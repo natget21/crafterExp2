@@ -117,6 +117,11 @@
             </#if>
           </p>
           <ul>
+            <#list contentModel.listaunicita_o.item  as item>
+                <p>
+                    test:${item.unicitaitem_s}
+                </p>
+            </#list>
             <li>
               <p>
                 <strong> AI e VR </strong> per connettere bisogni e soluzioni in
