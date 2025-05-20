@@ -226,9 +226,7 @@
                 </#if>
                 <p class="addressee_text d-flex justify-content-start">
                     <#if item.nomedestinatario_s?? && item.nomedestinatario_s?has_content>
-                        <p class="addressee_text d-flex justify-content-start">
-                          ${item.nomedestinatario_s}
-                        </p>
+                      ${item.nomedestinatario_s}
                     </#if>
                 </p>
               </div>
