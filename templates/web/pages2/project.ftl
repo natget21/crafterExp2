@@ -89,7 +89,9 @@
           <div class="objectives row row-gap-5">
 <#list contentModel.obiettivi_o as obiettivo>
   <ul>
-    <li>${obiettivo.titolo_s}</li>
+    <#if obiettivo.titolo_s?? && obiettivo.titolo_s?has_content>
+        <li>${obiettivo.titolo_s}</li>
+    </#if>
   </ul>
 </#list>
 
