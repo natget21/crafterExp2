@@ -97,7 +97,10 @@
 
 <p>.............................................</p>
 <#list contentModel.obiettivi_o.item  as item>
-    <p>${item.titolo_s!''}</p>
+    <#list item?keys as key>
+      <strong>${key}</strong> : ${item[key]}<br>
+    </#list>
+
 </#list>
 <p>.............................................</p>
 
