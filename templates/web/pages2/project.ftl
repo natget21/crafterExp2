@@ -90,7 +90,7 @@
 <#list contentModel.obiettivi_o as obiettivo>
   <ul>
     <#if obiettivo.titolo_s?? && obiettivo.titolo_s?has_content>
-        <li>${obiettivo.titolo_s}</li>
+        <li>${obiettivo?node}</li>
     </#if>
   </ul>
 </#list>
