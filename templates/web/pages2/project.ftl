@@ -215,12 +215,13 @@
         <h2 class="title_section">Destinatari</h2>
         <div class="row pl-3">
           <#list contentModel.destinatari_o.item  as item>
+              <#assign widthValue = item.nomedestinatario_s.style_s?if_exists?trim>
               <div
                 class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
               >
                 <#if item.imagepath_s?? && item.imagepath_s?has_content>
                     <div class="imageContainer">
-                      <img src="${item.imagepath_s}" alt="" />
+                      <img src="${item.imagepath_s}" alt="" style="width: ${widthValue?has_content?then(widthValue, 'auto')}"  />
                     </div>
                 </#if>
                 <p class="addressee_text d-flex justify-content-start">
