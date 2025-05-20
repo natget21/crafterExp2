@@ -142,19 +142,20 @@
             <#list contentModel.prodottidigitali_o.item  as item>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <#if item.titolo_s?? && item.titolo_s?has_content>
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#${item.databstarget_s}"
-                      aria-expanded="false"
-                      aria-controls="${item.databstarget_s}"
-                    >
-                      <#if item.titolo_s?? && item.titolo_s?has_content>
-                        ${item.titolo_s}
-                      </#if>
-                    </button>
+                    <#if item.databstarget_s?? && item.databstarget_s?has_content>
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#${item.databstarget_s}"
+                          aria-expanded="false"
+                          aria-controls="${item.databstarget_s}"
+                        >
+                          <#if item.titolo_s?? && item.titolo_s?has_content>
+                            ${item.titolo_s}
+                          </#if>
+                        </button>
+                    </#if>
                   </h2>
                   <div
                     id="${item.databstarget_s}"
