@@ -118,31 +118,12 @@
           </p>
           <ul>
             <#list contentModel.listaunicita_o.item  as item>
-                <p>
-                    test:${item.unicitaitem_t}
-                </p>
+                <#if item.unicitaitem_t?? && item.unicitaitem_t?has_content>
+                    <p>
+                        ${item.unicitaitem_t}
+                    </p>
+                </#if>
             </#list>
-            <li>
-              <p>
-                <strong> AI e VR </strong> per connettere bisogni e soluzioni in
-                modo personalizzato
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Marketplace digitale</strong> per promuovere servizi
-                innovativi
-              </p>
-            </li>
-            <li>
-              <p><strong>Formazione immersiva</strong> e adattiva</p>
-            </li>
-            <li>
-              <p>
-                <strong>Strumenti di collaborazione real-time</strong>, come
-                stanze virtuali e call for procurement
-              </p>
-            </li>
           </ul>
         </div>
       </div>
