@@ -14,6 +14,15 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-04-07T05:14:11.361Z</createdDate>
 	<createdDate_dt>2025-04-07T05:14:11.361Z</createdDate_dt>
-	<lastModifiedDate>2025-04-07T05:14:11.361Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-04-07T05:14:11.361Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-20T15:54:47.637Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-20T15:54:47.637Z</lastModifiedDate_dt>
+	<types_o item-list="true">	<item>	<title_s>Eventi di Brokeraggio</title_s>
+	<description_t>Organizzazione di eventi che favoriscono il matching tra domanda e offerta di tecnologie, competenze e risorse, creando opportunità di collaborazione tra imprese, investitori e innovatori.</description_t>
+	</item>	<item>	<description_t>Attività di sensibilizzazione e promozione di progetti e innovazioni tramite eventi, pubblicazioni, webinar e social media, con l'obiettivo di far conoscere e diffondere i risultati ottenuti attraverso attività di ricerca e sviluppo.</description_t>
+	<title_s>Eventi di Disseminazione ed Exploitation</title_s>
+	</item>	<item>	<description_t>Organizzazione di eventi in cui gruppi di innovatori si confrontano per risolvere specifiche sfide tecnologiche, promuovendo la collaborazione e stimolando la co-innovazione tra aziende, istituzioni e sviluppatori.</description_t>
+	<title_s>Hackathon</title_s>
+	</item>	<item>	<description_t>Offerta di spazi di coworking temporanei per le aziende, incluse le opportunità di testare e integrare nuove tecnologie in ambienti di lavoro condivisi, aumentando la maturità tecnologica e promuovendo la crescita commerciale.</description_t>
+	<title_s>Location, Coworking &amp; Marketplace</title_s>
+	</item></types_o>
 </page>
