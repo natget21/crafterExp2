@@ -86,21 +86,7 @@
                 ${contentModel.titoloobiettivi_s}
             </#if>
           </h2>
-          <div class="objectives row row-gap-5">
-<#list contentModel.obiettivi_o as obiettivo>
-  <ul>
-    <#if obiettivo.titolo_s?? && obiettivo.titolo_s?has_content>
-        <li>${obiettivo.titolo_s}</li>
-    </#if>
-  </ul>
-</#list>
-
-<p>.............................................</p>
-<#list contentModel.obiettivi_o.item  as item>
-    ${item.titolo_s}: ${item.descrizione_t}: ${item.imagepath_s}
-
-</#list>
-<p>.............................................</p>
+          <div class="objectives row row-gap-5"
             <#list contentModel.obiettivi_o.item  as item>
                 <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
                   <div class="obj d-flex gap-3">
@@ -116,54 +102,6 @@
                   </#if>
                 </div>
             </#list>
-            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
-              <div class="obj d-flex gap-3">
-                <img class="obj_image" src="static-assets/assets/co-progettazione.png" alt="" />
-                <p><strong>Co-progettazione</strong></p>
-              </div>
-              <p class="desc">
-                Favorire la co-progettazione tra startup, PMI, PA, università e
-                grandi imprese.
-              </p>
-            </div>
-            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
-              <div class="obj d-flex gap-3">
-                <img class="obj_image" src="static-assets/assets/digital-trasformation.png" alt="" />
-                <p><strong>Digital Trasformation</strong></p>
-              </div>
-              <p class="desc">
-                Supportare la trasformazione digitale nei settori del turismo,
-                cultura e sociale.
-              </p>
-            </div>
-            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
-              <div class="obj d-flex gap-3">
-                <img class="obj_image" src="static-assets/assets/business-model.png" alt="" />
-                <p><strong>Business models </strong></p>
-              </div>
-              <p class="desc">
-                Promuovere modelli di business sostenibili e collaborativi.
-              </p>
-            </div>
-            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
-              <div class="obj d-flex gap-3">
-                <img class="obj_image" src="static-assets/assets/formazione-innovativa.png" alt="" />
-                <p><strong>Formazione innovativa </strong></p>
-              </div>
-              <p class="desc">
-                Innovare la formazione con tecnologie immersive e approcci
-                esperienziali.
-              </p>
-            </div>
-            <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
-              <div class="obj d-flex gap-3">
-                <img class="obj_image" src="static-assets/assets/certificare-le-competenze.png" alt="" />
-                <p><strong>Certificare le competenze </strong></p>
-              </div>
-              <p class="desc">
-                Misurare e certificare le competenze digitali, anche nella PA.
-              </p>
-            </div>
           </div>
         </div>
         <hr />
