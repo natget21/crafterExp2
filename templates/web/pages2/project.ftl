@@ -220,7 +220,7 @@
               >
                 <#if item.imagepath_s?? && item.imagepath_s?has_content>
                     <div class="imageContainer">
-                      <img src="${item.imagepath_s}" alt="" />
+                      <img src="${item.imagepath_s}" alt="" style="width: ${item.nomedestinatario_s.style_s?if_exists!''?trim?then(item.nomedestinatario_s.style_s, 'auto')}" />
                     </div>
                 </#if>
                 <p class="addressee_text d-flex justify-content-start">
