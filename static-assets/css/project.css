@@ -52,7 +52,7 @@
   font-size: 23px;
   color: var(--primary-active);
   width: 170px;
-  word-break: break-word;
+  word-break: auto-phrase;
 }
 
 .imageContainer {
