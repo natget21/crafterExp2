@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-04-07T05:09:43.676Z</createdDate>
 	<createdDate_dt>2025-04-07T05:09:43.676Z</createdDate_dt>
-	<lastModifiedDate>2025-05-20T14:28:50.623Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-20T14:28:50.623Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-20T14:34:15.307Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-20T14:34:15.307Z</lastModifiedDate_dt>
 	<titolobanner_t>Visione</titolobanner_t>
 	<sottotitolobanner_t>L’innovazione condivisa per costruire valore</sottotitolobanner_t>
 	<marketingtitle_s_t>IDEALE è il punto d'incontro tra tecnologia, innovazione e impatto sociale.</marketingtitle_s_t>
@@ -85,4 +85,14 @@
 	<nomedestinatario_s>Liberi Professionisti</nomedestinatario_s>
 	<stile_s>80px</stile_s>
 	</item></destinatari_o>
+	<settoritarget_o item-list="true">	<item>	<imagepath_s>/static-assets/assets/cultura.png</imagepath_s>
+	<nometarget_s>Cultura</nometarget_s>
+	<stile_s>90px</stile_s>
+	</item>	<item>	<imagepath_s>/static-assets/assets/turismo.png</imagepath_s>
+	<nometarget_s>Turismo</nometarget_s>
+	<stile_s/>
+	</item>	<item>	<imagepath_s>/static-assets/assets/sociale.png</imagepath_s>
+	<nometarget_s>Sociale</nometarget_s>
+	<stile_s/>
+	</item></settoritarget_o>
 </page>
