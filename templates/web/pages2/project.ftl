@@ -214,14 +214,24 @@
       >
         <h2 class="title_section">Destinatari</h2>
         <div class="row pl-3">
-          <div
-            class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
-          >
-            <div class="imageContainer">
-              <img src="/static-assets/assets/imprese.png" alt="" />
-            </div>
-            <p class="addressee_text d-flex justify-content-start">Imprese</p>
-          </div>
+          <#list contentModel.servizidigitali_o.item  as item>
+              <div
+                class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
+              >
+                <#if item.imagepath_s?? && item.imagepath_s?has_content>
+                    <div class="imageContainer">
+                      <img src="${item.imagepath_s}" alt="" />
+                    </div>
+                </#if>
+                <p class="addressee_text d-flex justify-content-start">
+                    <#if item.nomedestinatario_s?? && item.nomedestinatario_s?has_content>
+                        <p class="addressee_text d-flex justify-content-start">
+                          ${item.nomedestinatario_s}
+                        </p>
+                    </#if>
+                </p>
+              </div>
+          </#list>
           <div
             class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3"
           >
