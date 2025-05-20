@@ -87,6 +87,9 @@
             </#if>
           </h2>
           <div class="objectives row row-gap-5">
+          <#if contentModel.test_o?? && contentModel.test_o?has_content>
+                ${contentModel.test_o?dump}
+            </#if>
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
               <div class="obj d-flex gap-3">
                 <img class="obj_image" src="static-assets/assets/matching.png" alt="" />
