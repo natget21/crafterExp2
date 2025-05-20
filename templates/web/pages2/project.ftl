@@ -175,6 +175,37 @@
         <div class="mt-5">
           <p class="title_section sub_title">Servizi digitali</p>
           <div class="accordion" id="servicesAccordion">
+            <#list contentModel.servizidigitali_o.item  as item>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <#if item.databstarget_s?? && item.databstarget_s?has_content>
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#${item.databstarget_s}"
+                          aria-expanded="false"
+                          aria-controls="${item.databstarget_s}"
+                        >
+                          <#if item.titolo_s?? && item.titolo_s?has_content>
+                            ${item.titolo_s}
+                          </#if>
+                        </button>
+                    </#if>
+                  </h2>
+                  <div
+                    id="${item.databstarget_s}"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#productsAccordion"
+                  >
+                    <div class="accordion-body">
+                      <#if item.descrizione_t?? && item.descrizione_t?has_content>
+                        ${item.descrizione_t}
+                      </#if>
+                    </div>
+                  </div>
+                </div>
+            </#list>
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
