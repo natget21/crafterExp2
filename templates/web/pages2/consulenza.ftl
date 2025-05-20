@@ -74,12 +74,14 @@
           <li><p>Engineering</p></li>
         </ul>
         <#list contentModel.types_o.item  as item>
-            <#if item.title_s?? && item.title_s?has_content>
-                <strong> ${item.title_s}: </strong>
-            </#if>
-            <#if item.description_t?? && item.description_t?has_content>
-                ${item.description_t}
-            </#if>
+            <p class="mb-4">
+                <#if item.title_s?? && item.title_s?has_content>
+                    <strong> ${item.title_s}: </strong>
+                </#if>
+                <#if item.description_t?? && item.description_t?has_content>
+                    ${item.description_t}
+                </#if>
+            </p>
         </#list>
         <p class="mb-4">
           <strong> Orientamento e Assessment: </strong>
