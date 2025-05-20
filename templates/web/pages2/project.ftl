@@ -196,7 +196,7 @@
                   <div
                     id="${item.databstarget_s}"
                     class="accordion-collapse collapse"
-                    data-bs-parent="#productsAccordion"
+                    data-bs-parent="#servicesAccordion"
                   >
                     <div class="accordion-body">
                       <#if item.descrizione_t?? && item.descrizione_t?has_content>
