@@ -95,9 +95,9 @@
   </ul>
 </#list>
 
-<#list contentModel.obiettivi_o as item>
-    <h1>${item.title}</h1>
+<#list obiettivi_o as item>
     <p>${item.titolo_s}</p>
+    <p>${item.titolo}</p>
 </#list>
 
 
