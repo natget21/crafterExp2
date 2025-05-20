@@ -59,23 +59,25 @@
         class="layout_padding mx-auto justify-content-center col-11 col-md-9 px-0"
       >
         <h2 class="title_section pl-3 pl-md-0 col-md-6 mb-4">Cosa offriamo</h2>
-        <ul class="mb-4">
-          <#list contentModel.types_o.item  as item>
-            <#if item.title_s?? && item.title_s?has_content>
-                <li><p>${item.title_s}</p></li>
-            </#if>
-          </#list>
-        </ul>
-        <#list contentModel.types_o.item  as item>
-            <p class="mb-4">
-                <#if item.title_s?? && item.title_s?has_content>
-                    <strong> ${item.title_s}: </strong>
-                </#if>
-                <#if item.description_t?? && item.description_t?has_content>
-                    ${item.description_t}
-                </#if>
-            </p>
-        </#list>
+        <#if contentModel.types_o?? && contentModel.types_o?has_content>
+            <ul class="mb-4">
+                  <#list contentModel.types_o.item  as item>
+                    <#if item.title_s?? && item.title_s?has_content>
+                        <li><p>${item.title_s}</p></li>
+                    </#if>
+                  </#list>
+            </ul>
+            <#list contentModel.types_o.item  as item>
+                <p class="mb-4">
+                    <#if item.title_s?? && item.title_s?has_content>
+                        <strong> ${item.title_s}: </strong>
+                    </#if>
+                    <#if item.description_t?? && item.description_t?has_content>
+                        ${item.description_t}
+                    </#if>
+                </p>
+            </#list>
+        </#if>
       </div>
     </div>
 
