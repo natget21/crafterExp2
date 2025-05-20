@@ -253,30 +253,6 @@
                 </p>
               </div>
           </#list>
-          <div
-            class="target px-0 col-12 col-md-2 d-flex justify-content-start flex-column gap-3"
-          >
-            <div class="imageContainer">
-              <img src="/static-assets/assets/cultura.png" alt="" style="width: 90px;" />
-            </div>
-            <p>Cultura</p>
-          </div>
-          <div
-            class="target px-0 col-12 col-md-2 d-flex justify-content-start flex-column gap-3"
-          >
-            <div class="imageContainer">
-              <img src="/static-assets/assets/turismo.png" alt="" />
-            </div>
-            <p>Turismo</p>
-          </div>
-          <div
-            class="target px-0 col-12 col-md-2 d-flex justify-content-start flex-column gap-3"
-          >
-            <div class="imageContainer">
-              <img src="/static-assets/assets/sociale.png" alt="" />
-            </div>
-            <p>Sociale</p>
-          </div>
         </div>
       </div>
     </div>
