@@ -130,14 +130,12 @@
       <div
         class="layout_padding services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
-        <h2 class="services_section_title title_section">Prodotti e Servizi</h2>
-        <p class="services_section_description mb-0 mt-3">
-          La piattaforma offre un'ampia gamma di prodotti e servizi digitali
-          pensati per facilitare l'adozione di tecnologie innovative, lo
-          sviluppo delle competenze digitali, l'accesso ai finanziamenti e la
-          creazione di reti collaborative tra aziende, startup, istituzioni ed
-          Enti del Terzo settore. L'offerta si suddivide in due aree principali:
-        </p>
+        <#if contentModel.titolosservizi_s?? && contentModel.titolosservizi_s?has_content>
+            <h2 class="services_section_title title_section">${contentModel.titolosservizi_s}</h2>
+        </#if>
+        <#if contentModel.titolosservizi_s?? && contentModel.titolosservizi_s?has_content>
+            <p class="services_section_description mb-0 mt-3">${contentModel.descrizioneservizi_t}</p>
+        </#if>
         <div class="mt-5">
           <p class="title_section sub_title">Prodotti digitali</p>
           <div class="accordion" id="productsAccordion">
