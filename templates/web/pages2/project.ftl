@@ -96,8 +96,8 @@
 </#list>
 
 <p>.............................................</p>
-<#list contentModel.obiettivi_o as item>
-    <p>${item.titolo_s}</p>
+<#list contentModel.obiettivi_o.item  as item>
+    <p>${item.titolo_s!''}</p>
 </#list>
 <p>.............................................</p>
 
