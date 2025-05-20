@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-04-07T05:09:43.676Z</createdDate>
 	<createdDate_dt>2025-04-07T05:09:43.676Z</createdDate_dt>
-	<lastModifiedDate>2025-05-20T12:52:28.642Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-20T12:52:28.642Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-20T13:06:51.540Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-20T13:06:51.540Z</lastModifiedDate_dt>
 	<titolobanner_t>Visione</titolobanner_t>
 	<sottotitolobanner_t>L’innovazione condivisa per costruire valore</sottotitolobanner_t>
 	<marketingtitle_s_t>IDEALE è il punto d'incontro tra tecnologia, innovazione e impatto sociale.</marketingtitle_s_t>
@@ -46,5 +46,14 @@
 	</item>	<item>	<titolo_s>Digital Trasformation</titolo_s>
 	<descrizione_t>Supportare la trasformazione digitale nei settori del turismo, cultura e sociale.</descrizione_t>
 	<imagepath_s>static-assets/assets/digital-trasformation.png</imagepath_s>
+	</item>	<item>	<titolo_s>Business models</titolo_s>
+	<descrizione_t>Promuovere modelli di business sostenibili e collaborativi.</descrizione_t>
+	<imagepath_s>static-assets/assets/business-model.png</imagepath_s>
+	</item>	<item>	<titolo_s>Formazione innovativa</titolo_s>
+	<descrizione_t>Innovare la formazione con tecnologie immersive e approcci esperienziali.</descrizione_t>
+	<imagepath_s>static-assets/assets/formazione-innovativa.png</imagepath_s>
+	</item>	<item>	<titolo_s>Certificare le competenze</titolo_s>
+	<descrizione_t>Misurare e certificare le competenze digitali, anche nella PA.</descrizione_t>
+	<imagepath_s>static-assets/assets/certificare-le-competenze.png</imagepath_s>
 	</item></obiettivi_o>
 </page>
