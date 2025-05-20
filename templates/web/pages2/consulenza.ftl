@@ -60,6 +60,11 @@
       >
         <h2 class="title_section pl-3 pl-md-0 col-md-6 mb-4">Cosa offriamo</h2>
         <ul class="mb-4">
+          <#list contentModel.types_o.item  as item>
+            <#if item.title_s?? && item.title_s?has_content>
+                <li><p>${item.title_s}</p></li>
+            </#if>
+          </#list>
           <li><p>Orientamento e Assessment</p></li>
           <li><p>Innovation Management</p></li>
           <li><p>Consulenza Manageriale</p></li>
@@ -68,6 +73,14 @@
           <li><p>Consulenza ICT</p></li>
           <li><p>Engineering</p></li>
         </ul>
+        <#list contentModel.types_o.item  as item>
+            <#if item.title_s?? && item.title_s?has_content>
+                <strong> ${item.title_s}: </strong>
+            </#if>
+            <#if item.description_t?? && item.description_t?has_content>
+                ${item.description_t}
+            </#if>
+        </#list>
         <p class="mb-4">
           <strong> Orientamento e Assessment: </strong>
           Questo servizio aiuta le aziende a identificare le loro necessità e
