@@ -61,6 +61,25 @@
         class="services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
         <h3 class="title_section layout_padding">Prodotti digitali:</h3>
+        <#list contentModel.prodottidigitali_o.item  as item>
+            <div
+              class="service mt-5 d-flex justify-content-between align-items-center"
+            >
+              <div
+                class="d-flex flex-column align-items-center justify-content-center"
+              >
+                <#if item.titolo_s?? && item.titolo_s?has_content>
+                    <h3 class="service_title text-center">${item.titolo_s}</h3>
+                </#if>
+                <#if item.titolo_s?? && item.titolo_s?has_content>
+                    <p class="text-center">${item.descrizione_t}</p>
+                </#if>
+              </div>
+              <#if item.imagepath_s?? && item.imagepath_s?has_content>
+                  <img src="${item.imagepath_s}" alt="" />
+              </#if>
+            </div>
+        </#list>
         <div
           class="service mt-5 d-flex justify-content-between align-items-center"
         >
