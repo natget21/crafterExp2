@@ -236,6 +236,23 @@
       <div class="layout_padding targets_section mx-auto col-11 col-md-9 px-0">
         <h2 class="targets_section_title title_section">Settori target</h2>
         <div class="targets row layout_padding pl-3 gap-3">
+          <#list contentModel.settoritarget_o.item  as item>
+              <#assign widthValue = item.stile_s?if_exists?trim>
+              <div
+                class="target px-0 col-12 col-md-2 d-flex justify-content-start flex-column gap-3"
+              >
+                <#if item.imagepath_s?? && item.imagepath_s?has_content>
+                    <div class="imageContainer">
+                      <img src="${item.imagepath_s}" alt="" style="width: ${widthValue?has_content?then(widthValue, '70px')}"  />
+                    </div>
+                </#if>
+                <p class="addressee_text d-flex justify-content-start">
+                    <#if item.nometarget_s?? && item.nometarget_s?has_content>
+                      ${item.nometarget_s}
+                    </#if>
+                </p>
+              </div>
+          </#list>
           <div
             class="target px-0 col-12 col-md-2 d-flex justify-content-start flex-column gap-3"
           >
