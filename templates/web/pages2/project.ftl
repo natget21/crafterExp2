@@ -87,23 +87,14 @@
             </#if>
           </h2>
           <div class="objectives row row-gap-5">
-<#if contentModel.test_o?? && contentModel.test_o?has_content>
-    <#if contentModel.test_o.obiettivi_o?? && contentModel.test_o.obiettivi_o?has_content>
-    Obiettivo1
-        <#list contentModel.test_o.obiettivi_o as obiettivo>
-    Obiettivo2
-            <div>
-                <strong>Obiettivo:</strong>
-                  <ul>
-                    <#list obiettivo?keys as key>
-                      <li>${key} = ${obiettivo[key]}</li>
-                    </#list>
-                  </ul>
+            <#list contentModel.obiettivi_o as obiettivo>
+              <ul>
+                <#list obiettivo?keys as key>
+                  <li>${key} = ${obiettivo[key]}</li>
+                </#list>
+              </ul>
+            </#list>
 
-            </div>
-        </#list>
-    </#if>
-</#if>
 
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
               <div class="obj d-flex gap-3">
