@@ -119,7 +119,7 @@
           <ul>
             <#list contentModel.listaunicita_o.item  as item>
                 <p>
-                    test:${item.unicitaitem_s}
+                    test:${item.unicitaitem_t}
                 </p>
             </#list>
             <li>
