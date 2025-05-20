@@ -74,6 +74,15 @@
                 <#if item.descrizione_t?? && item.descrizione_t?has_content>
                     <p class="text-center">${item.descrizione_t}</p>
                 </#if>
+                <#if item.navigateTo_s?? && item.navigateTo_s?has_content>
+                    <div
+                      class="d-flex flex-grow-1 justify-content-center align-items-end"
+                    >
+                      <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href=${item.navigateTo_s}">
+                        Scopri di più
+                      </button>
+                    </div>
+                </#if>
               </div>
               <#if item.imagepath_s?? && item.imagepath_s?has_content>
                   <img src="${item.imagepath_s}" alt="" />
