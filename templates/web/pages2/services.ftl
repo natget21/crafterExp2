@@ -78,7 +78,7 @@
                     <div
                       class="d-flex flex-grow-1 justify-content-center align-items-end"
                     >
-                      <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href=${item.navigateTo_s}">
+                      <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='${item.navigateTo_s}'">
                         Scopri di più
                       </button>
                     </div>
