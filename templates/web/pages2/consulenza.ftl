@@ -65,13 +65,6 @@
                 <li><p>${item.title_s}</p></li>
             </#if>
           </#list>
-          <li><p>Orientamento e Assessment</p></li>
-          <li><p>Innovation Management</p></li>
-          <li><p>Consulenza Manageriale</p></li>
-          <li><p>Change Management</p></li>
-          <li><p>Social Innovation Management</p></li>
-          <li><p>Consulenza ICT</p></li>
-          <li><p>Engineering</p></li>
         </ul>
         <#list contentModel.types_o.item  as item>
             <p class="mb-4">
