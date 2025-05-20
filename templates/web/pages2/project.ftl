@@ -87,9 +87,22 @@
             </#if>
           </h2>
           <div class="objectives row row-gap-5">
-          <#if contentModel.test_o?? && contentModel.test_o?has_content>
-                ${contentModel.test_o}
-            </#if>
+<#if contentModel.test_o?? && contentModel.test_o?has_content>
+    <#if contentModel.test_o.obiettivi_o?? && contentModel.test_o.obiettivi_o?has_content>
+        <#list contentModel.test_o.obiettivi_o as obiettivo>
+            <div>
+                <strong>Obiettivo:</strong>
+                  <ul>
+                    <#list obiettivo?keys as key>
+                      <li>${key} = ${obiettivo[key]}</li>
+                    </#list>
+                  </ul>
+
+            </div>
+        </#list>
+    </#if>
+</#if>
+
             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
               <div class="obj d-flex gap-3">
                 <img class="obj_image" src="static-assets/assets/matching.png" alt="" />
