@@ -170,30 +170,6 @@
                   </div>
                 </div>
             </#list>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#productTwo"
-                  aria-expanded="false"
-                  aria-controls="productTwo"
-                >
-                  API
-                </button>
-              </h2>
-              <div
-                id="productTwo"
-                class="accordion-collapse collapse"
-                data-bs-parent="#productsAccordion"
-              >
-                <div class="accordion-body">
-                  Interfacce di programmazione senza GUI, per l'integrazione
-                  diretta con altri sistemi
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div class="mt-5">
