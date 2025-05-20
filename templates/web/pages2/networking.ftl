@@ -60,11 +60,13 @@
       >
         <h2 class="title_section pl-3 pl-md-0 col-md-6 mb-4">Cosa offriamo</h2>
         <ul class="mb-4">
-          <#list contentModel.types_o.item  as item>
-            <#if item.title_s?? && item.title_s?has_content>
-                <li><p>${item.title_s}</p></li>
-            </#if>
-          </#list>
+          <#if contentModel.types_o?? && contentModel.types_o?has_content>
+              <#list contentModel.types_o.item  as item>
+                <#if item.title_s?? && item.title_s?has_content>
+                    <li><p>${item.title_s}</p></li>
+                </#if>
+              </#list>
+          </#if>
         </ul>
         <#list contentModel.types_o.item  as item>
             <p class="mb-4">
