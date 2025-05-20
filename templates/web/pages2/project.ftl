@@ -97,9 +97,7 @@
 
 <p>.............................................</p>
 <#list contentModel.obiettivi_o.item  as item>
-    <#list item?keys as key>
-      <strong>${key}</strong> : ${item[key]}<br>
-    </#list>
+    ${item.titolo_s}: ${item.descrizione_t}: ${item.imagepath_s}
 
 </#list>
 <p>.............................................</p>
