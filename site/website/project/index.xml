@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-04-07T05:09:43.676Z</createdDate>
 	<createdDate_dt>2025-04-07T05:09:43.676Z</createdDate_dt>
-	<lastModifiedDate>2025-05-20T13:59:20.628Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-20T13:59:20.628Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-20T14:02:14.038Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-20T14:02:14.038Z</lastModifiedDate_dt>
 	<titolobanner_t>Visione</titolobanner_t>
 	<sottotitolobanner_t>L’innovazione condivisa per costruire valore</sottotitolobanner_t>
 	<marketingtitle_s_t>IDEALE è il punto d'incontro tra tecnologia, innovazione e impatto sociale.</marketingtitle_s_t>
@@ -56,8 +56,20 @@
 	<descrizione_t>Interfacce di programmazione senza GUI, per l'integrazione diretta con altri sistemi</descrizione_t>
 	<databstarget_s>productTwo</databstarget_s>
 	</item></prodottidigitali_o>
-	<servizidigitali_o item-list="true">	<item>	<titolo_s/>
-	<descrizione_t/>
-	<databstarget_s/>
+	<servizidigitali_o item-list="true">	<item>	<titolo_s>Test Before Invest</titolo_s>
+	<descrizione_t>Servizi che permettono alle aziende di esplorare e testare nuove tecnologie e soluzioni prima di effettuare investimenti, attraverso dimostrazioni pratiche, studi di fattibilità, proof-of-concept, test e validazione di soluzioni.</descrizione_t>
+	<databstarget_s>serviceOne</databstarget_s>
+	</item>	<item>	<titolo_s>Consulenza</titolo_s>
+	<descrizione_t>Servizi progettati per supportare le aziende nel loro percorso di innovazione e crescita, fornendo supporto strategico e operativo su diverse aree come l'orientamento tecnologico, la gestione del cambiamento, l'innovazione sociale e la consulenza ICT e manageriale.</descrizione_t>
+	<databstarget_s>serviceTwo</databstarget_s>
+	</item>	<item>	<titolo_s>Skills and Training</titolo_s>
+	<descrizione_t>Offerta di corsi di formazione standard e personalizzati per sviluppare competenze in ambito digitale, manageriale e tecnico, con l'obiettivo di potenziare le capacità delle risorse umane aziendali in settori strategici.</descrizione_t>
+	<databstarget_s>serviceThree</databstarget_s>
+	</item>	<item>	<titolo_s>Access to Finance</titolo_s>
+	<descrizione_t>Servizi di consulenza finalizzati a facilitare l'accesso a finanziamenti pubblici e privati, tra cui la finanza agevolata, la progettazione di crowdfunding, l'accesso al credito, le misure fiscali e la consulenza in corporate finance.</descrizione_t>
+	<databstarget_s>serviceFour</databstarget_s>
+	</item>	<item>	<titolo_s>Networking, Ecosystem e Open Innovation</titolo_s>
+	<descrizione_t>Attività mirate a facilitare il networking tra aziende, istituzioni e innovatori, promuovendo la creazione di alleanze strategiche, la diffusione di conoscenze e la partecipazione a eventi di innovazione aperta come hackathon e incontri di brokeraggio.</descrizione_t>
+	<databstarget_s>serviceFive</databstarget_s>
 	</item></servizidigitali_o>
 </page>
