@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-04-24T13:54:00.589Z</createdDate>
 	<createdDate_dt>2025-04-24T13:54:00.589Z</createdDate_dt>
-	<lastModifiedDate>2025-05-21T10:22:16.799Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-21T10:22:16.799Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-21T10:22:52.801Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-21T10:22:52.801Z</lastModifiedDate_dt>
 	<registrazionefaqs_o item-list="true">	<item>	<titolo_t>Non riesco a registrarmi tramite credenziali, cosa posso fare?</titolo_t>
 	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
 	<id_s>1</id_s>
@@ -53,9 +53,6 @@
 	<gestionedelleRichiestefaqs_o item-list="true">	<item>	<titolo_t>Non riesco a visualizzare tutte le richieste dei clienti, cosa posso fare?</titolo_t>
 	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
 	<id_s>1</id_s>
-	</item>	<item>	<titolo_t>Pippo</titolo_t>
-	<risposta_t>Paoolo</risposta_t>
-	<id_s>21</id_s>
 	</item>	<item>	<titolo_t>Come gestisco le richieste o prenotazioni dei clienti? </titolo_t>
 	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
 	<id_s>2</id_s>
