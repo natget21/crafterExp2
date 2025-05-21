@@ -81,40 +81,47 @@
       </form>
 
       <div class="layout_padding">
-        <h2 class="title_section faq_title">Registrazione al portale</h2>
-        <div class="accordion mb-3" id="registrationAccordion">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button faq-question collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#faqOne"
-                aria-expanded="false"
-                aria-controls="faqOne"
-              >
-                Non riesco a registrarmi tramite credenziali, cosa posso fare?
-              </button>
-            </h2>
-            <div
-              id="faqOne"
-              class="accordion-collapse collapse"
-              data-bs-parent="#registrationAccordion"
-            >
-              <div class="accordion-body row row-gap-5">
-                <div class="col-12 info">
-                  <p class="fs-5 desc">
-                    Clicca qui e inizia a scrivere. Veritatis et quasi
-                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
-                    sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt.
-                  </p>
+          <strong> ${contentModel.registrazionefaqs_o} </strong>
+        <#if contentModel.registrazionefaqs_o?? && contentModel.registrazionefaqs_o?has_content>
+            <h2 class="title_section faq_title">Registrazione al portale</h2>
+            <#list contentModel.types_o.item  as item>
+                <div class="accordion mb-3" id="registrationAccordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button faq-question collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqOne"
+                        aria-expanded="false"
+                        aria-controls="faqOne"
+                      >
+                        Non riesco a registrarmi tramite credenziali, cosa posso fare?
+                      </button>
+                    </h2>
+                    <div
+                      id="faqOne"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#registrationAccordion"
+                    >
+                      <div class="accordion-body row row-gap-5">
+                        <div class="col-12 info">
+                          <p class="fs-5 desc">
+                            Clicca qui e inizia a scrivere. Veritatis et quasi
+                            architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                            voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                            sed quia consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
+            </#list>
+        </#if>
+
+
         <div class="accordion mb-3" id="spidCie">
           <div class="accordion-item">
             <h2 class="accordion-header">
