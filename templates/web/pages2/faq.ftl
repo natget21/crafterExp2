@@ -80,168 +80,288 @@
         </button>
       </form>
 
-      <div class="">
+      <div class="layout_padding">
           <strong> ${contentModel.registrazionefaqs_o} </strong>
         <#if contentModel.registrazionefaqs_o?? && contentModel.registrazionefaqs_o?has_content>
-            <h2 class="title_section faq_title layout_padding">Registrazione al portale</h2>
+            <h2 class="title_section faq_title">Registrazione al portale</h2>
             <#list contentModel.registrazionefaqs_o.item  as item>
-                <#if item.id_s?? && item.id_s?has_content>
-                    <div class="accordion mb-3" id="registration-${item.id_s}">
-                      <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button
-                            class="accordion-button faq-question collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#registration-button-${item.id_s}"
-                            aria-expanded="false"
-                            aria-controls="registration-button-${item.id_s}"
-                          >
-                            <#if item.titolo_t?? && item.titolo_t?has_content>
-                                ${item.titolo_t}
+                <div class="accordion mb-3" id="registrationAccordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button faq-question collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq-${item.id_s}"
+                        aria-expanded="false"
+                        aria-controls="faq-${item.id_s}"
+                      >
+                        <#if item.titolo_t?? && item.titolo_t?has_content>
+                            ${item.titolo_t}
+                        </#if>
+                      </button>
+                    </h2>
+                    <div
+                      id="faq-${item.id_s}"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#registrationAccordion"
+                    >
+                      <div class="accordion-body row row-gap-5">
+                        <div class="col-12 info">
+                          <p class="fs-5 desc">
+                            <#if item.risposta_t?? && item.risposta_t?has_content>
+                                ${item.risposta_t}
                             </#if>
-                          </button>
-                        </h2>
-                        <div
-                          id="registration-button-${item.id_s}"
-                          class="accordion-collapse collapse"
-                          data-bs-parent="#registration-${item.id_s}"
-                        >
-                          <div class="accordion-body row row-gap-5">
-                            <div class="col-12 info">
-                              <p class="fs-5 desc">
-                                <#if item.risposta_t?? && item.risposta_t?has_content>
-                                    ${item.risposta_t}
-                                </#if>
-                              </p>
-                            </div>
-                          </div>
+                          </p>
                         </div>
                       </div>
                     </div>
-                </#if>
+                  </div>
+                </div>
             </#list>
         </#if>
-        <#if contentModel.marketplacefaqs_o?? && contentModel.marketplacefaqs_o?has_content>
-            <h2 class="title_section faq_title layout_padding">Marketplace</h2>
-            <#list contentModel.marketplacefaqs_o.item  as item>
-                <#if item.id_s?? && item.id_s?has_content>
-                    <div class="accordion mb-3" id="marketplace-${item.id_s}">
-                      <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button
-                            class="accordion-button faq-question collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#marketplace-button-${item.id_s}"
-                            aria-expanded="false"
-                            aria-controls="marketplace-button-${item.id_s}"
-                          >
-                            <#if item.titolo_t?? && item.titolo_t?has_content>
-                                ${item.titolo_t}
+        <#if contentModel.registrazionefaqs_o?? && contentModel.registrazionefaqs_o?has_content>
+            <h2 class="title_section faq_title">Marketplace</h2>
+            <#list contentModel.registrazionefaqs_o.item  as item>
+                <div class="accordion mb-3" id="marketplaceAccordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button faq-question collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq-${item.id_s}"
+                        aria-expanded="false"
+                        aria-controls="faq-${item.id_s}"
+                      >
+                        <#if item.titolo_t?? && item.titolo_t?has_content>
+                            ${item.titolo_t}
+                        </#if>
+                      </button>
+                    </h2>
+                    <div
+                      id="faq-${item.id_s}"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#marketplaceAccordion"
+                    >
+                      <div class="accordion-body row row-gap-5">
+                        <div class="col-12 info">
+                          <p class="fs-5 desc">
+                            <#if item.risposta_t?? && item.risposta_t?has_content>
+                                ${item.risposta_t}
                             </#if>
-                          </button>
-                        </h2>
-                        <div
-                          id="marketplace-button-${item.id_s}"
-                          class="accordion-collapse collapse"
-                          data-bs-parent="#marketplace-${item.id_s}"
-                        >
-                          <div class="accordion-body row row-gap-5">
-                            <div class="col-12 info">
-                              <p class="fs-5 desc">
-                                <#if item.risposta_t?? && item.risposta_t?has_content>
-                                    ${item.risposta_t}
-                                </#if>
-                              </p>
-                            </div>
-                          </div>
+                          </p>
                         </div>
                       </div>
                     </div>
-                </#if>
+                  </div>
+                </div>
             </#list>
         </#if>
-        <#if contentModel.ricercaservizifaqs_o?? && contentModel.ricercaservizifaqs_o?has_content>
-            <h2 class="title_section faq_title layout_padding">Ricerca dei Servizi</h2>
-            <#list contentModel.ricercaservizifaqs_o.item  as item>
-                <#if item.id_s?? && item.id_s?has_content>
-                    <div class="accordion mb-3" id="service-${item.id_s}">
-                      <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button
-                            class="accordion-button faq-question collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#service-button-${item.id_s}"
-                            aria-expanded="false"
-                            aria-controls="service-button-${item.id_s}"
-                          >
-                            <#if item.titolo_t?? && item.titolo_t?has_content>
-                                ${item.titolo_t}
-                            </#if>
-                          </button>
-                        </h2>
-                        <div
-                          id="service-button-${item.id_s}"
-                          class="accordion-collapse collapse"
-                          data-bs-parent="#service-${item.id_s}"
-                        >
-                          <div class="accordion-body row row-gap-5">
-                            <div class="col-12 info">
-                              <p class="fs-5 desc">
-                                <#if item.risposta_t?? && item.risposta_t?has_content>
-                                    ${item.risposta_t}
-                                </#if>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                </#if>
-            </#list>
-        </#if>
-        <#if contentModel.accreditamentocatalogofaqs_o?? && contentModel.accreditamentocatalogofaqs_o?has_content>
-            <h2 class="title_section faq_title layout_padding">Accreditamento al Catalogo dei Servizi</h2>
-            <#list contentModel.accreditamentocatalogofaqs_o.item  as item>
-                <#if item.id_s?? && item.id_s?has_content>
-                    <div class="accordion mb-3" id="accreditamento-${item.id_s}">
-                      <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button
-                            class="accordion-button faq-question collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#accreditamento-button-${item.id_s}"
-                            aria-expanded="false"
-                            aria-controls="accreditamento-button-${item.id_s}"
-                          >
-                            <#if item.titolo_t?? && item.titolo_t?has_content>
-                                ${item.titolo_t}
-                            </#if>
-                          </button>
-                        </h2>
-                        <div
-                          id="accreditamento-button-${item.id_s}"
-                          class="accordion-collapse collapse"
-                          data-bs-parent="#accreditamento-${item.id_s}"
-                        >
-                          <div class="accordion-body row row-gap-5">
-                            <div class="col-12 info">
-                              <p class="fs-5 desc">
-                                <#if item.risposta_t?? && item.risposta_t?has_content>
-                                    ${item.risposta_t}
-                                </#if>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                </#if>
-            </#list>
-        </#if>
+        <h2 class="title_section faq_title layout_padding">Marketplace</h2>
+        <div class="accordion mb-3" id="marketplaceAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button faq-question collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqThree"
+                aria-expanded="false"
+                aria-controls="faqThree"
+              >
+                Come funziona il processo di acquisto di un servizio?
+              </button>
+            </h2>
+            <div
+              id="faqThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#marketplaceAccordion"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion mb-3" id="servizioSelezionato">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button faq-question collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqFour"
+                aria-expanded="false"
+                aria-controls="faqFour"
+              >
+                Non riesco a procedere all’acquisto del servizio selezionato,
+                cosa posso fare?
+              </button>
+            </h2>
+            <div
+              id="faqFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#servizioSelezionato"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion mb-3" id="modificaCancellazione">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button faq-question collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqFive"
+                aria-expanded="false"
+                aria-controls="faqFive"
+              >
+                Posso modificare o cancellare una richiesta già inviata al
+                partner?
+              </button>
+            </h2>
+            <div
+              id="faqFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#modificaCancellazione"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion mb-3" id="datiPersonali">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button faq-question collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqSix"
+                aria-expanded="false"
+                aria-controls="faqSix"
+              >
+                I miei dati personali sono al sicuro sulla piattaforma?
+              </button>
+            </h2>
+            <div
+              id="faqSix"
+              class="accordion-collapse collapse"
+              data-bs-parent="#datiPersonali"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="title_section faq_title layout_padding">Ricerca dei Servizi</h2>
+        <div class="accordion mb-3" id="serviceAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button faq-question collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqSeven"
+                aria-expanded="false"
+                aria-controls="faqSeven"
+              >
+                Non riesco a trovare un servizio specifico, come posso cercarlo?
+              </button>
+            </h2>
+            <div
+              id="faqSeven"
+              class="accordion-collapse collapse"
+              data-bs-parent="#serviceAccordion"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion mb-3" id="salvareAggiungere">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button faq-question collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqEight"
+                aria-expanded="false"
+                aria-controls="faqEight"
+              >
+                È possibile salvare o aggiungere ai preferiti un servizio che mi
+                interessa?
+              </button>
+            </h2>
+            <div
+              id="faqEight"
+              class="accordion-collapse collapse"
+              data-bs-parent="#salvareAggiungere"
+            >
+              <div class="accordion-body row row-gap-5">
+                <div class="col-12 info">
+                  <p class="fs-5 desc">
+                    Clicca qui e inizia a scrivere. Veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="layout_padding">
         <h2 class="title_section faq_title">Accreditamento al Catalogo dei Servizi</h2>
         <div class="accordion mb-3" id="accreditationAccordion">
