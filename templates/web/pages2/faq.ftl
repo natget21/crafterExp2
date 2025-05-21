@@ -85,77 +85,81 @@
         <#if contentModel.registrazionefaqs_o?? && contentModel.registrazionefaqs_o?has_content>
             <h2 class="title_section faq_title">Registrazione al portale</h2>
             <#list contentModel.registrazionefaqs_o.item  as item>
-                <div class="accordion mb-3" id="registration-${item.is_s}">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button faq-question collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#registration-button-${item.id_s}"
-                        aria-expanded="false"
-                        aria-controls="registration-button-${item.id_s}"
-                      >
-                        <#if item.titolo_t?? && item.titolo_t?has_content>
-                            ${item.titolo_t}
-                        </#if>
-                      </button>
-                    </h2>
-                    <div
-                      id="registration-button-${item.id_s}"
-                      class="accordion-collapse collapse"
-                      data-bs-parent="#registration-${item.is_s}"
-                    >
-                      <div class="accordion-body row row-gap-5">
-                        <div class="col-12 info">
-                          <p class="fs-5 desc">
-                            <#if item.risposta_t?? && item.risposta_t?has_content>
-                                ${item.risposta_t}
+                <#if item.id_s?? && item.id_s?has_content>
+                    <div class="accordion mb-3" id="registration-${item.id_s}">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#registration-button-${item.id_s}"
+                            aria-expanded="false"
+                            aria-controls="registration-button-${item.id_s}"
+                          >
+                            <#if item.titolo_t?? && item.titolo_t?has_content>
+                                ${item.titolo_t}
                             </#if>
-                          </p>
+                          </button>
+                        </h2>
+                        <div
+                          id="registration-button-${item.id_s}"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#registration-${item.id_s}"
+                        >
+                          <div class="accordion-body row row-gap-5">
+                            <div class="col-12 info">
+                              <p class="fs-5 desc">
+                                <#if item.risposta_t?? && item.risposta_t?has_content>
+                                    ${item.risposta_t}
+                                </#if>
+                              </p>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
+                </#if>
             </#list>
         </#if>
         <#if contentModel.registrazionefaqs_o?? && contentModel.registrazionefaqs_o?has_content>
             <h2 class="title_section faq_title">Marketplace</h2>
             <#list contentModel.registrazionefaqs_o.item  as item>
-                <div class="accordion mb-3" id="marketplaceAccordion">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button faq-question collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq-${item.id_s}"
-                        aria-expanded="false"
-                        aria-controls="faq-${item.id_s}"
-                      >
-                        <#if item.titolo_t?? && item.titolo_t?has_content>
-                            ${item.titolo_t}
-                        </#if>
-                      </button>
-                    </h2>
-                    <div
-                      id="faq-${item.id_s}"
-                      class="accordion-collapse collapse"
-                      data-bs-parent="#marketplaceAccordion"
-                    >
-                      <div class="accordion-body row row-gap-5">
-                        <div class="col-12 info">
-                          <p class="fs-5 desc">
-                            <#if item.risposta_t?? && item.risposta_t?has_content>
-                                ${item.risposta_t}
+                <#if item.id_s?? && item.id_s?has_content>
+                    <div class="accordion mb-3" id="marketplaceAccordion">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq-${item.id_s}"
+                            aria-expanded="false"
+                            aria-controls="faq-${item.id_s}"
+                          >
+                            <#if item.titolo_t?? && item.titolo_t?has_content>
+                                ${item.titolo_t}
                             </#if>
-                          </p>
+                          </button>
+                        </h2>
+                        <div
+                          id="faq-${item.id_s}"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#marketplaceAccordion"
+                        >
+                          <div class="accordion-body row row-gap-5">
+                            <div class="col-12 info">
+                              <p class="fs-5 desc">
+                                <#if item.risposta_t?? && item.risposta_t?has_content>
+                                    ${item.risposta_t}
+                                </#if>
+                              </p>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
+                </#if>
             </#list>
         </#if>
         <h2 class="title_section faq_title layout_padding">Marketplace</h2>
