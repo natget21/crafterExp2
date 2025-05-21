@@ -56,6 +56,10 @@
         </div>
       </div>
     <div class="content layout_padding">
+      <#assign eventId = requestParameters["id"]?first>
+      <#if eventId??>
+      <h1>${eventId}</h1>
+      </#if>
       <div class="news_section mx-auto col-11 col-md-9 px-0">
         <h1 class="title-hero title_section mb-4">
           EDIH Network Summit 2024: Seconda edizione dell'EDIH Network Summit
