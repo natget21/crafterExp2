@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-04-24T13:54:00.589Z</createdDate>
 	<createdDate_dt>2025-04-24T13:54:00.589Z</createdDate_dt>
-	<lastModifiedDate>2025-05-21T09:35:57.465Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-21T09:35:57.465Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-21T09:43:46.452Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-21T09:43:46.452Z</lastModifiedDate_dt>
 	<registrazionefaqs_o item-list="true">	<item>	<titolo_t>Non riesco a registrarmi tramite credenziali, cosa posso fare?</titolo_t>
 	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
 	<id_s>1</id_s>
@@ -23,4 +23,17 @@
 	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
 	<id_s>2</id_s>
 	</item></registrazionefaqs_o>
+	<marketplacefaqs_o item-list="true">	<item>	<titolo_t>Come funziona il processo di acquisto di un servizio?</titolo_t>
+	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
+	<id_s>1</id_s>
+	</item>	<item>	<titolo_t>Non riesco a procedere all’acquisto del servizio selezionato, cosa posso fare?</titolo_t>
+	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
+	<id_s>2</id_s>
+	</item>	<item>	<titolo_t>Posso modificare o cancellare una richiesta già inviata al partner?</titolo_t>
+	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
+	<id_s>3</id_s>
+	</item>	<item>	<titolo_t>I miei dati personali sono al sicuro sulla piattaforma?</titolo_t>
+	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
+	<id_s>4</id_s>
+	</item></marketplacefaqs_o>
 </page>
