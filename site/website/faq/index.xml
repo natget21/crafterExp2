@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-04-24T13:54:00.589Z</createdDate>
 	<createdDate_dt>2025-04-24T13:54:00.589Z</createdDate_dt>
-	<lastModifiedDate>2025-05-21T09:43:46.452Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-21T09:43:46.452Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-21T10:01:45.466Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-21T10:01:45.466Z</lastModifiedDate_dt>
 	<registrazionefaqs_o item-list="true">	<item>	<titolo_t>Non riesco a registrarmi tramite credenziali, cosa posso fare?</titolo_t>
 	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
 	<id_s>1</id_s>
@@ -36,4 +36,25 @@
 	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
 	<id_s>4</id_s>
 	</item></marketplacefaqs_o>
+	<ricercaservizifaqs_o item-list="true">	<item>	<titolo_t>Non riesco a trovare un servizio specifico, come posso cercarlo?</titolo_t>
+	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
+	<id_s>1</id_s>
+	</item>	<item>	<titolo_t>È possibile salvare o aggiungere ai preferiti un servizio che mi interessa?</titolo_t>
+	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
+	<id_s>2</id_s>
+	</item></ricercaservizifaqs_o>
+	<accreditamentocatalogofaqs_o item-list="true">	<item>	<titolo_t>Come faccio ad accreditarmi per offrire determinati servizi?</titolo_t>
+	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
+	<id_s>1</id_s>
+	</item>	<item>	<titolo_t>Ho problemi in fase di accreditamento dei servizi, cosa posso fare?</titolo_t>
+	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
+	<id_s>2</id_s>
+	</item></accreditamentocatalogofaqs_o>
+	<gestionedelleRichiestefaqs_o item-list="true">	<item>	<titolo_t>Non riesco a visualizzare tutte le richieste dei clienti, cosa posso fare?</titolo_t>
+	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
+	<id_s>1</id_s>
+	</item>	<item>	<titolo_t>Come gestisco le richieste o prenotazioni dei clienti? </titolo_t>
+	<risposta_t>Clicca qui e inizia a scrivere. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</risposta_t>
+	<id_s>2</id_s>
+	</item></gestionedelleRichiestefaqs_o>
 </page>
