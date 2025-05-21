@@ -60,31 +60,40 @@
             <h2 class="title_section mb-4 text-center"> ${contentModel.sottotitolo_s}</h2>
         </#if>
         <div class="row g-4">
-          <div class="col-12 col-lg-6 pb-5 d-flex justify-content-center">
-            <div class="event_container position-relative">
-              <div class="image-container">
-                <div class="position-absolute image_overlay w-100">
-                  <h5
-                    class="position-absolute bottom-0 start-0 text-white px-3"
-                  >
-                    VIRTUALIA – Il Futuro digitale che ci attende
-                  </h5>
-                </div>
-                <img
-                  class="position-relative event_image"
-                  src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg"
-                  alt="Event Image"
-                />
-              </div>
-              <div
-                class="position-absolute bottom-0 right-0 w-100 d-flex justify-content-end"
-              >
-                <button class="open_event btn btn-secondary rounded-pill" onclick="window.location.href='/event-detail'">
-                  Leggi
-                </button>
-              </div>
-            </div>
-          </div>
+            <#if contentModel.eventi_o?? && contentModel.eventi_o?has_content>
+                <#list contentModel.eventi_o.item as item>
+                  <div class="col-12 col-lg-6 pb-5 d-flex justify-content-center">
+                    <div class="event_container position-relative">
+                      <div class="image-container">
+                        <div class="position-absolute image_overlay w-100">
+                          <#if item.titolo_t?? && item.titolo_t?has_content>
+                              <h5
+                                class="position-absolute bottom-0 start-0 text-white px-3"
+                              >
+                                ${item.titolo_t}
+                              </h5>
+                          </#if>
+                        </div>
+                        <#if item.imagepath_t?? && item.imagepath_t?has_content>
+                            <img
+                              class="position-relative event_image"
+                              src="${item.imagepath_t}"
+                              alt="Event Image"
+                            />
+                        </#if>
+                      </div>
+                      <div
+                        class="position-absolute bottom-0 right-0 w-100 d-flex justify-content-end"
+                      >
+                        <button class="open_event btn btn-secondary rounded-pill" onclick="window.location.href='/event-detail'">
+                          Leggi
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </#list>
+            </#if>
+
           <div class="col-12 col-lg-6 pb-5 d-flex justify-content-center">
             <div class="event_container position-relative">
               <div class="image-container">
