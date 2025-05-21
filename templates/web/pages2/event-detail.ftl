@@ -62,7 +62,7 @@
       <#assign results = crafter.search("url:/templates/web/pages2/events", 0, 1)>
       <#assign page = results?first>
         <#if event??>
-          <h1>${event.titolo_t}</h1>
+          <h1>ciao${event.titolo_t}</h1>
           <img src="${event.imagepath_t}" />
         <#else>
           <p>Evento non trovato</p>
