@@ -162,6 +162,46 @@
                 </#if>
             </#list>
         </#if>
+        <#if contentModel.ricercaservizifaqs_o?? && contentModel.ricercaservizifaqs_o?has_content>
+            <h2 class="title_section faq_title layout_padding">Ricerca dei Servizi</h2>
+            <#list contentModel.ricercaservizifaqs_o.item  as item>
+                <#if item.id_s?? && item.id_s?has_content>
+                    <div class="accordion mb-3" id="service-${item.id_s}">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#service-button-${item.id_s}"
+                            aria-expanded="false"
+                            aria-controls="service-button-${item.id_s}"
+                          >
+                            <#if item.titolo_t?? && item.titolo_t?has_content>
+                                ${item.titolo_t}
+                            </#if>
+                          </button>
+                        </h2>
+                        <div
+                          id="service-button-${item.id_s}"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#service-${item.id_s}"
+                        >
+                          <div class="accordion-body row row-gap-5">
+                            <div class="col-12 info">
+                              <p class="fs-5 desc">
+                                <#if item.risposta_t?? && item.risposta_t?has_content>
+                                    ${item.risposta_t}
+                                </#if>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </#if>
+            </#list>
+        </#if>
         <h2 class="title_section faq_title layout_padding">Ricerca dei Servizi</h2>
         <div class="accordion mb-3" id="serviceAccordion">
           <div class="accordion-item">
