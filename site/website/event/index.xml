@@ -14,13 +14,15 @@
 	<folder-name>event</folder-name>
 	<createdDate>2025-04-07T12:14:11.044Z</createdDate>
 	<createdDate_dt>2025-04-07T12:14:11.044Z</createdDate_dt>
-	<lastModifiedDate>2025-05-21T07:28:11.895Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-21T07:28:11.895Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-21T07:55:26.622Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-21T07:55:26.622Z</lastModifiedDate_dt>
 	<sottotitolo_s>Scopri gli ultimi eventi</sottotitolo_s>
 	<eventi_o item-list="true">	<item>	<titolo_s>VIRTUALIA – Il Futuro digitale che ci attende</titolo_s>
 	<imagepath_t>https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg</imagepath_t>
 	<titolo_t>VIRTUALIA – Il Futuro digitale che ci attende</titolo_t>
+	<id_s>1</id_s>
 	</item>	<item>	<imagepath_t>https://i.ytimg.com/vi/ry15uBf0aDQ/maxresdefault.jpg</imagepath_t>
 	<titolo_t>Evento all'ogr di Torino</titolo_t>
+	<id_s>2</id_s>
 	</item></eventi_o>
 </page>
