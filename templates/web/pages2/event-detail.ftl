@@ -56,7 +56,7 @@
         </div>
       </div>
     <div class="content layout_padding">
-      <#assign eventId = requestParameters["id"]?first>
+      <#assign eventId = requestParameters["id"]>
       <#if eventId??>
       <h1>${eventId}</h1>
       </#if>
