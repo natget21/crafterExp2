@@ -120,41 +120,6 @@
                 </div>
             </#list>
         </#if>
-
-
-        <div class="accordion mb-3" id="spidCie">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button faq-question collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#faqTwo"
-                aria-expanded="false"
-                aria-controls="faqTwo"
-              >
-                Non riesco ad accedere tramite SPID/CIE, cosa posso fare?
-              </button>
-            </h2>
-            <div
-              id="faqTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#spidCie"
-            >
-              <div class="accordion-body row row-gap-5">
-                <div class="col-12 info">
-                  <p class="fs-5 desc">
-                    Clicca qui e inizia a scrivere. Veritatis et quasi
-                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
-                    sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <h2 class="title_section faq_title layout_padding">Marketplace</h2>
         <div class="accordion mb-3" id="marketplaceAccordion">
           <div class="accordion-item">
