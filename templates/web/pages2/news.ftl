@@ -60,41 +60,53 @@
       <div
         class="news_section layout_padding d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
-        <h2 class="title_section mb-4 text-center">Ultime news</h2>
-        <div class="card mb-4 mb-md-5 shadow-sm border-0">
-          <div class="row g-0">
-            <div class="col-md-5">
-              <img
-                src="https://www.edih4marche.eu/wp-content/uploads/elementor/thumbs/cyber-security-article-r3itn6mf44gxx1olsft3f0jnwfvacf3svkvdgomqvo.jpg"
-                class="img-fluid rounded-start object-fit-cover h-100"
-                alt="AI Matters"
-              />
-            </div>
-            <div class="col-md-7">
-              <div class="card-body d-flex flex-column h-100">
-                <small class="text-muted d-block mb-1">3 Aprile, 2025</small>
-                <h5 class="card-title fw-bold">
-                  Roadshow AI MATTERS: “L’Ai che fa la differenza nel
-                  manifatturiero”
-                </h5>
-                <p class="card-text">
-                  Un'opportunità per conoscere da vicino soluzioni di
-                  intelligenza artificiale dedicate al mondo manifatturiero.
-                  Tappa marchigiana – Jesi, 10 aprile 2024
-                </p>
-                <div
-                  class="flex-grow-1 d-flex align-items-end justify-content-center"
-                >
-                  <a
-                    href="/news-detail"
-                    class="btn btn-secondary btn-sm read_more rounded-pill"
-                    >Scopri di piu'</a
-                  >
+        <#if item.sottotitolo_s?? && item.sottotitolo_s?has_content>
+            <h2 class="title_section mb-4 text-center">${item.sottotitolo_s}</h2>
+        </#if>
+        <#if contentModel.news_o?? && contentModel.news_o?has_content>
+            <#list contentModel.news_o.item as item>
+                <div class="card mb-4 mb-md-5 shadow-sm border-0">
+                  <div class="row g-0">
+                    <div class="col-md-5">
+                        <#if item.imagepath_t?? && item.imagepath_t?has_content>
+                          <img
+                            src="${item.imagepath_t}"
+                            class="img-fluid rounded-start object-fit-cover h-100"
+                            alt="AI Matters"
+                          />
+                        </#if>
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body d-flex flex-column h-100">
+                        <#if item.data_t?? && item.data_t?has_content>
+                            <small class="text-muted d-block mb-1">${item.data_t}</small>
+                        </#if>
+                        <#if item.titolo_t?? && item.titolo_t?has_content>
+                            <h5 class="card-title fw-bold">
+                              ${item.titolo_t}
+                            </h5>
+                        </#if>
+                        <#if item.descrizione_t?? && item.descrizione_t?has_content>
+                            <p class="card-text">
+                                ${item.descrizione_t}
+                            </p>
+                        </#if>
+                        <div
+                          class="flex-grow-1 d-flex align-items-end justify-content-center"
+                        >
+                          <a
+                            href="/news-detail"
+                            class="btn btn-secondary btn-sm read_more rounded-pill"
+                            >Scopri di piu'</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
+            </#list>
+        </#if>
+
         <div class="card mb-4 mb-md-5 shadow-sm border-0">
           <div class="row g-0">
             <div class="col-md-5">
