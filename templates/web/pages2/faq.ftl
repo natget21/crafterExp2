@@ -202,75 +202,46 @@
                 </#if>
             </#list>
         </#if>
-        <h2 class="title_section faq_title layout_padding">Ricerca dei Servizi</h2>
-        <div class="accordion mb-3" id="serviceAccordion">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button faq-question collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#faqSeven"
-                aria-expanded="false"
-                aria-controls="faqSeven"
-              >
-                Non riesco a trovare un servizio specifico, come posso cercarlo?
-              </button>
-            </h2>
-            <div
-              id="faqSeven"
-              class="accordion-collapse collapse"
-              data-bs-parent="#serviceAccordion"
-            >
-              <div class="accordion-body row row-gap-5">
-                <div class="col-12 info">
-                  <p class="fs-5 desc">
-                    Clicca qui e inizia a scrivere. Veritatis et quasi
-                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
-                    sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="accordion mb-3" id="salvareAggiungere">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button faq-question collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#faqEight"
-                aria-expanded="false"
-                aria-controls="faqEight"
-              >
-                È possibile salvare o aggiungere ai preferiti un servizio che mi
-                interessa?
-              </button>
-            </h2>
-            <div
-              id="faqEight"
-              class="accordion-collapse collapse"
-              data-bs-parent="#salvareAggiungere"
-            >
-              <div class="accordion-body row row-gap-5">
-                <div class="col-12 info">
-                  <p class="fs-5 desc">
-                    Clicca qui e inizia a scrivere. Veritatis et quasi
-                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
-                    sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        <#if contentModel.accreditamentocatalogofaqs_o?? && contentModel.accreditamentocatalogofaqs_o?has_content>
+            <h2 class="title_section faq_title layout_padding">Accreditamento al Catalogo dei Servizi</h2>
+            <#list contentModel.accreditamentocatalogofaqs_o.item  as item>
+                <#if item.id_s?? && item.id_s?has_content>
+                    <div class="accordion mb-3" id="accreditamento-${item.id_s}">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#accreditamento-button-${item.id_s}"
+                            aria-expanded="false"
+                            aria-controls="accreditamento-button-${item.id_s}"
+                          >
+                            <#if item.titolo_t?? && item.titolo_t?has_content>
+                                ${item.titolo_t}
+                            </#if>
+                          </button>
+                        </h2>
+                        <div
+                          id="accreditamento-button-${item.id_s}"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accreditamento-${item.id_s}"
+                        >
+                          <div class="accordion-body row row-gap-5">
+                            <div class="col-12 info">
+                              <p class="fs-5 desc">
+                                <#if item.risposta_t?? && item.risposta_t?has_content>
+                                    ${item.risposta_t}
+                                </#if>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </#if>
+            </#list>
+        </#if>
       <div class="layout_padding">
         <h2 class="title_section faq_title">Accreditamento al Catalogo dei Servizi</h2>
         <div class="accordion mb-3" id="accreditationAccordion">
