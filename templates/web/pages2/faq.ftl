@@ -92,9 +92,9 @@
                         class="accordion-button faq-question collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#faqOne"
+                        data-bs-target="#faq-${item.id_s}"
                         aria-expanded="false"
-                        aria-controls="faqOne"
+                        aria-controls="faq-${item.id_s}"
                       >
                         <#if item.titolo_t?? && item.titolo_t?has_content>
                             ${item.titolo_t}
@@ -102,7 +102,7 @@
                       </button>
                     </h2>
                     <div
-                      id="faqOne"
+                      id="faq-${item.id_s}"
                       class="accordion-collapse collapse"
                       data-bs-parent="#registrationAccordion"
                     >
