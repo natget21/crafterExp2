@@ -57,8 +57,22 @@
       </div>
     <div class="content layout_padding">
       <#assign eventId = requestParameters["id"]>
-      <#assign eventsPage = crafter.getContentModel("/templates/web/pages2/events.ftl/index.xml")>
-      <#assign matchingEvent = eventsPage.eventi_o.item?filter(e -> e.id_s == eventId)?first>
+      <#assign results = crafter.search("url:/pages2/events", 0, 1)>
+      <#assign page = results?first>
+
+        <#if page??>
+          <#assign matchingEvent = page.eventi_o.item?filter(e -> e.id_s == eventId)?first>
+        
+          <#if matchingEvent??>
+            <h1>${matchingEvent.titolo_t}</h1>
+            <img src="${matchingEvent.imagepath_t}" alt="event image" />
+          <#else>
+            <p>Evento non trovato nella pagina</p>
+          </#if>
+        <#else>
+          <p>Pagina eventi non trovata</p>
+        </#if>
+
 
       <#if eventId??>
         <h1>${eventId}</h1>
