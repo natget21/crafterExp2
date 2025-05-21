@@ -24,47 +24,54 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6">
-            <h2 class="title_section" style="font-size: 30px">
-              Hai domande o richieste?
-            </h2>
-            <div
-              class="info-item d-flex flex-column justify-content-center align-items-start gap-4 py-4"
-            >
-              <p class="">
-                Siamo qui per aiutarti! Compila il modulo qui a fianco o
-                utilizza i nostri recapiti qui sotto per metterti in contatto
-                con il nostro team. Ti risponderemo il prima possibile.
-              </p>
-            </div>
+            <#if contentModel.sottotitolo_s?? && contentModel.sottotitolo_s?has_content>
+                <h2 class="title_section" style="font-size: 30px">
+                  ${contentModel.sottotitolo_s}
+                </h2>
+            </#if>
+            <#if contentModel.testo_t?? && contentModel.testo_t?has_content>
+                <div
+                  class="info-item d-flex flex-column justify-content-center align-items-start gap-4 py-4"
+                >
+                  <p class="">
+                    ${contentModel.testo_t}
+                  </p>
+                </div>
+            </#if>
 
             <div class="row 2">
-              <div class="col-md-12">
-                <div class="info-item d-flex align-items-center py-3">
-                  <i class="bi bi-geo-alt flex-shrink-0 me-3 text-primary"></i>
-                  <!-- Placeholder for icon -->
-                  <p class="mb-0 text-primary">Marche, Italia</p>
-                </div>
-              </div>
+                <#if contentModel.luogo_s?? && contentModel.luogo_s?has_content>
+                  <div class="col-md-12">
+                    <div class="info-item d-flex align-items-center py-3">
+                      <i class="bi bi-geo-alt flex-shrink-0 me-3 text-primary"></i>
+                      <!-- Placeholder for icon -->
+                      <p class="mb-0 text-primary">${contentModel.luogo_s}</p>
+                    </div>
+                  </div>
+                </#if>
               <!-- End Info Item -->
+                <#if contentModel.email_s?? && contentModel.email_s?has_content>
+                  <div class="col-md-12">
+                    <div class="info-item d-flex align-items-center py-3">
+                      <i class="bi bi-envelope flex-shrink-0 me-3 text-primary"></i>
+                      <!-- Placeholder for icon -->
+                      <p class="mb-0 text-primary">${contentModel.email_s}</p>
+                    </div>
+                  </div>
+                </#if>
 
-              <div class="col-md-12">
-                <div class="info-item d-flex align-items-center py-3">
-                  <i class="bi bi-envelope flex-shrink-0 me-3 text-primary"></i>
-                  <!-- Placeholder for icon -->
-                  <p class="mb-0 text-primary">info@example.com</p>
-                </div>
-              </div>
               <!-- End Info Item -->
-
-              <div class="col-md-12">
-                <div class="info-item d-flex align-items-center py-3">
-                  <i
-                    class="bi bi-telephone flex-shrink-0 me-3 text-primary"
-                  ></i>
-                  <!-- Placeholder for icon -->
-                  <p class="mb-0 text-primary">+39 34567890</p>
-                </div>
-              </div>
+                <#if contentModel.numeroditelefono_s?? && contentModel.numeroditelefono_s?has_content>
+                  <div class="col-md-12">
+                    <div class="info-item d-flex align-items-center py-3">
+                      <i
+                        class="bi bi-telephone flex-shrink-0 me-3 text-primary"
+                      ></i>
+                      <!-- Placeholder for icon -->
+                      <p class="mb-0 text-primary">${contentModel.numeroditelefono_s}</p>
+                    </div>
+                  </div>
+                </#if>
               <!-- End Info Item -->
             </div>
           </div>
