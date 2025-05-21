@@ -57,8 +57,11 @@
       </div>
     <div class="content layout_padding">
       <#assign eventId = requestParameters["id"]>
+      <#assign eventsPage = crafter.getContentModel("/templates/web/pages2/events.ftl/index.xml")>
+      <#assign matchingEvent = eventsPage.eventi_o.item?filter(e -> e.id_s == eventId)?first>
+
       <#if eventId??>
-      <h1>${eventId}</h1>
+        <h1>${eventId}</h1>
       </#if>
       <div class="news_section mx-auto col-11 col-md-9 px-0">
         <h1 class="title-hero title_section mb-4">
