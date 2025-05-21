@@ -122,20 +122,20 @@
                 </#if>
             </#list>
         </#if>
-        <#if contentModel.registrazionefaqs_o?? && contentModel.registrazionefaqs_o?has_content>
+        <#if contentModel.marketplacefaqs_o?? && contentModel.marketplacefaqs_o?has_content>
             <h2 class="title_section faq_title layout_padding">Marketplace</h2>
-            <#list contentModel.registrazionefaqs_o.item  as item>
+            <#list contentModel.marketplacefaqs_o.item  as item>
                 <#if item.id_s?? && item.id_s?has_content>
-                    <div class="accordion mb-3" id="marketplaceAccordion">
+                    <div class="accordion mb-3" id="marketplace-${item.id_s}">
                       <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button
                             class="accordion-button faq-question collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#faq-${item.id_s}"
+                            data-bs-target="#marketplace-button-${item.id_s}"
                             aria-expanded="false"
-                            aria-controls="faq-${item.id_s}"
+                            aria-controls="marketplace-button-${item.id_s}"
                           >
                             <#if item.titolo_t?? && item.titolo_t?has_content>
                                 ${item.titolo_t}
@@ -143,9 +143,9 @@
                           </button>
                         </h2>
                         <div
-                          id="faq-${item.id_s}"
+                          id="marketplace-button-${item.id_s}"
                           class="accordion-collapse collapse"
-                          data-bs-parent="#marketplaceAccordion"
+                          data-bs-parent="#marketplace-${item.id_s}"
                         >
                           <div class="accordion-body row row-gap-5">
                             <div class="col-12 info">
@@ -162,40 +162,6 @@
                 </#if>
             </#list>
         </#if>
-        <h2 class="title_section faq_title layout_padding">Marketplace</h2>
-        <div class="accordion mb-3" id="marketplaceAccordion">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button faq-question collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#faqThree"
-                aria-expanded="false"
-                aria-controls="faqThree"
-              >
-                Come funziona il processo di acquisto di un servizio?
-              </button>
-            </h2>
-            <div
-              id="faqThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#marketplaceAccordion"
-            >
-              <div class="accordion-body row row-gap-5">
-                <div class="col-12 info">
-                  <p class="fs-5 desc">
-                    Clicca qui e inizia a scrivere. Veritatis et quasi
-                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
-                    sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="accordion mb-3" id="servizioSelezionato">
           <div class="accordion-item">
             <h2 class="accordion-header">
