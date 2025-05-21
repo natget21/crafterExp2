@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-04-07T05:07:17.575Z</createdDate>
 	<createdDate_dt>2025-04-07T05:07:17.575Z</createdDate_dt>
-	<lastModifiedDate>2025-05-21T07:00:53.034Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-21T07:00:53.034Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-21T07:02:39.589Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-21T07:02:39.589Z</lastModifiedDate_dt>
 	<types_o item-list="true">	<item>	<title_s>Demo</title_s>
 	<description_t>Accesso a casi d’uso e dimostratori di soluzioni tecnologiche in fase pilota o in laboratori specializzati. Questo servizio aiuta le aziende a esplorare potenziali soluzioni prima di impegnarsi in investimenti significativi, consentendo di valutare l'efficacia e i benefici delle tecnologie.</description_t>
 	</item>	<item>	<description_t>Offerta di un accesso temporaneo a tecnologie avanzate e piattaforme in modalità "as-a-service", permettendo alle aziende di testare infrastrutture e soluzioni in ambienti controllati prima di decidere un'adozione su larga scala.</description_t>
@@ -28,5 +28,7 @@
 	<title_s>Test e Validazione</title_s>
 	</item>	<item>	<description_t>Servizi di ricerca industriale o sviluppo sperimentale finalizzati a creare nuovi prodotti, processi o modelli di business. Questo servizio è pensato per supportare le aziende che vogliono investire in innovazione e trasformare idee in soluzioni pratiche.</description_t>
 	<title_s>Progetti di Ricerca e Sviluppo</title_s>
+	</item>	<item>	<description_t/>
+	<title_s>pippo</title_s>
 	</item></types_o>
 </page>
