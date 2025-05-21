@@ -85,16 +85,16 @@
         <#if contentModel.registrazionefaqs_o?? && contentModel.registrazionefaqs_o?has_content>
             <h2 class="title_section faq_title">Registrazione al portale</h2>
             <#list contentModel.registrazionefaqs_o.item  as item>
-                <div class="accordion mb-3" id="registrationAccordion">
+                <div class="accordion mb-3" id="registration-${item.is_s}">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
                       <button
                         class="accordion-button faq-question collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#faq-${item.id_s}"
+                        data-bs-target="#registration-button-${item.id_s}"
                         aria-expanded="false"
-                        aria-controls="faq-${item.id_s}"
+                        aria-controls="registration-button-${item.id_s}"
                       >
                         <#if item.titolo_t?? && item.titolo_t?has_content>
                             ${item.titolo_t}
@@ -102,9 +102,9 @@
                       </button>
                     </h2>
                     <div
-                      id="faq-${item.id_s}"
+                      id="registration-button-${item.id_s}"
                       class="accordion-collapse collapse"
-                      data-bs-parent="#registrationAccordion"
+                      data-bs-parent="#registration-${item.is_s}"
                     >
                       <div class="accordion-body row row-gap-5">
                         <div class="col-12 info">
