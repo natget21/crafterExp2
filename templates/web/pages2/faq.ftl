@@ -80,10 +80,10 @@
         </button>
       </form>
 
-      <div class="layout_padding">
+      <div class="">
           <strong> ${contentModel.registrazionefaqs_o} </strong>
         <#if contentModel.registrazionefaqs_o?? && contentModel.registrazionefaqs_o?has_content>
-            <h2 class="title_section faq_title">Registrazione al portale</h2>
+            <h2 class="title_section faq_title layout_padding">Registrazione al portale</h2>
             <#list contentModel.registrazionefaqs_o.item  as item>
                 <#if item.id_s?? && item.id_s?has_content>
                     <div class="accordion mb-3" id="registration-${item.id_s}">
@@ -123,7 +123,7 @@
             </#list>
         </#if>
         <#if contentModel.registrazionefaqs_o?? && contentModel.registrazionefaqs_o?has_content>
-            <h2 class="title_section faq_title">Marketplace</h2>
+            <h2 class="title_section faq_title layout_padding">Marketplace</h2>
             <#list contentModel.registrazionefaqs_o.item  as item>
                 <#if item.id_s?? && item.id_s?has_content>
                     <div class="accordion mb-3" id="marketplaceAccordion">
