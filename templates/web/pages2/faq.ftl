@@ -96,7 +96,9 @@
                         aria-expanded="false"
                         aria-controls="faqOne"
                       >
-                        Non riesco a registrarmi tramite credenziali, cosa posso fare?
+                        <#if item.titolo_t?? && item.titolo_t?has_content>
+                            ${item.titolo_t}
+                        </#if>
                       </button>
                     </h2>
                     <div
@@ -107,11 +109,9 @@
                       <div class="accordion-body row row-gap-5">
                         <div class="col-12 info">
                           <p class="fs-5 desc">
-                            Clicca qui e inizia a scrivere. Veritatis et quasi
-                            architecto beatae vitae dicta sunt explicabo nemo enim ipsam
-                            voluptatem quia voluptas sit aspernatur aut odit aut fugit
-                            sed quia consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt.
+                            <#if item.risposta_t?? && item.risposta_t?has_content>
+                                ${item.risposta_t}
+                            </#if>
                           </p>
                         </div>
                       </div>
