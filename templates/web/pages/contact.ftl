@@ -83,7 +83,7 @@
                     type="text"
                     name="name"
                     class="form-control"
-                    placeholder="Your Name"
+                    placeholder="Il tuo Nome"
                     required
                   />
                 </div>
@@ -93,7 +93,7 @@
                     type="email"
                     class="form-control"
                     name="email"
-                    placeholder="Your Email"
+                    placeholder="La tua Email"
                     required
                   />
                 </div>
@@ -113,7 +113,7 @@
                     class="form-control"
                     name="message"
                     rows="6"
-                    placeholder="Message"
+                    placeholder="Messaggio"
                     required
                   ></textarea>
                 </div>
