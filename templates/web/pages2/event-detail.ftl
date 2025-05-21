@@ -57,7 +57,7 @@
       </div>
     <div class="content layout_padding">
       <#assign eventId = requestParameters["id"]>
-      <#assign results = crafter.search("url:/pages2/events", 0, 1)>
+      <#assign results = crafter.search("url:/templates/web/pages2/events", 0, 1)>
       <#assign page = results?first>
 
         <#if page??>
