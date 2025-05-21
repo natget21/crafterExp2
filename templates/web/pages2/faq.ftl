@@ -84,7 +84,7 @@
           <strong> ${contentModel.registrazionefaqs_o} </strong>
         <#if contentModel.registrazionefaqs_o?? && contentModel.registrazionefaqs_o?has_content>
             <h2 class="title_section faq_title">Registrazione al portale</h2>
-            <#list contentModel.types_o.item  as item>
+            <#list contentModel.registrazionefaqs_o.item  as item>
                 <div class="accordion mb-3" id="registrationAccordion">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
