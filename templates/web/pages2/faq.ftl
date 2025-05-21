@@ -242,144 +242,46 @@
                 </#if>
             </#list>
         </#if>
-      <div class="layout_padding">
-        <h2 class="title_section faq_title">Accreditamento al Catalogo dei Servizi</h2>
-        <div class="accordion mb-3" id="accreditationAccordion">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button faq-question collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#faqNine"
-                aria-expanded="false"
-                aria-controls="faqNine"
-              >
-                Come faccio ad accreditarmi per offrire determinati servizi?
-              </button>
-            </h2>
-            <div
-              id="faqNine"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accreditationAccordion"
-            >
-              <div class="accordion-body row row-gap-5">
-                <div class="col-12 info">
-                  <p class="fs-5 desc">
-                    Clicca qui e inizia a scrivere. Veritatis et quasi
-                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
-                    sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="accordion mb-3" id="accreditamento">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button faq-question collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#faqTen"
-                aria-expanded="false"
-                aria-controls="faqTen"
-              >
-                Ho problemi in fase di accreditamento dei servizi, cosa posso
-                fare?
-              </button>
-            </h2>
-            <div
-              id="faqTen"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accreditamento"
-            >
-              <div class="accordion-body row row-gap-5">
-                <div class="col-12 info">
-                  <p class="fs-5 desc">
-                    Clicca qui e inizia a scrivere. Veritatis et quasi
-                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
-                    sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <h2 class="title_section faq_title layout_padding">Gestione delle Richieste</h2>
-        <div class="accordion mb-3" id="requestsAccordion">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button faq-question collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#faqEleven"
-                aria-expanded="false"
-                aria-controls="faqEleven"
-              >
-                Non riesco a visualizzare tutte le richieste dei clienti, cosa
-                posso fare?
-              </button>
-            </h2>
-            <div
-              id="faqEleven"
-              class="accordion-collapse collapse"
-              data-bs-parent="#requestsAccordion"
-            >
-              <div class="accordion-body row row-gap-5">
-                <div class="col-12 info">
-                  <p class="fs-5 desc">
-                    Clicca qui e inizia a scrivere. Veritatis et quasi
-                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
-                    sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="accordion mb-3" id="richiestePrenotazioni">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button faq-question collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#faqTwelve"
-                aria-expanded="false"
-                aria-controls="faqTwelve"
-              >
-                Come gestisco le richieste o prenotazioni dei clienti?
-              </button>
-            </h2>
-            <div
-              id="faqTwelve"
-              class="accordion-collapse collapse"
-              data-bs-parent="#richiestePrenotazioni"
-            >
-              <div class="accordion-body row row-gap-5">
-                <div class="col-12 info">
-                  <p class="fs-5 desc">
-                    Clicca qui e inizia a scrivere. Veritatis et quasi
-                    architecto beatae vitae dicta sunt explicabo nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
-                    sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        <#if contentModel.gestionedelleRichiestefaqs_o?? && contentModel.gestionedelleRichiestefaqs_o?has_content>
+            <h2 class="title_section faq_title layout_padding">Gestione delle Richieste</h2>
+            <#list contentModel.gestionedelleRichiestefaqs_o.item  as item>
+                <#if item.id_s?? && item.id_s?has_content>
+                    <div class="accordion mb-3" id="richieste-${item.id_s}">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#richieste-button-${item.id_s}"
+                            aria-expanded="false"
+                            aria-controls="richieste-button-${item.id_s}"
+                          >
+                            <#if item.titolo_t?? && item.titolo_t?has_content>
+                                ${item.titolo_t}
+                            </#if>
+                          </button>
+                        </h2>
+                        <div
+                          id="richieste-button-${item.id_s}"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#richieste-${item.id_s}"
+                        >
+                          <div class="accordion-body row row-gap-5">
+                            <div class="col-12 info">
+                              <p class="fs-5 desc">
+                                <#if item.risposta_t?? && item.risposta_t?has_content>
+                                    ${item.risposta_t}
+                                </#if>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </#if>
+            </#list>
+        </#if>
     </div>
 
     <script>
