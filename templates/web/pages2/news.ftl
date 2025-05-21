@@ -60,8 +60,8 @@
       <div
         class="news_section layout_padding d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0"
       >
-        <#if item.sottotitolo_s?? && item.sottotitolo_s?has_content>
-            <h2 class="title_section mb-4 text-center">${item.sottotitolo_s}</h2>
+        <#if contentModel.sottotitolo_s?? && contentModel.sottotitolo_s?has_content>
+            <h2 class="title_section mb-4 text-center">${contentModel.sottotitolo_s}</h2>
         </#if>
         <#if contentModel.news_o?? && contentModel.news_o?has_content>
             <#list contentModel.news_o.item as item>
