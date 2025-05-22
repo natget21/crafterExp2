@@ -12,6 +12,7 @@ class EventDetailController {
         def eventId = request.getParameter("id")
         def searchQuery = 'eventi_o.id_s:"' + eventId + '" AND content-type:"/page/pageevents"'
         def results = searchService.search(searchQuery, 0, 1)
+        logger.info("Valore di eventId: ${results}")
 
         if (!results.isEmpty()) {
             def page = results[0].getXml()
