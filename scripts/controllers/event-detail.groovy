@@ -17,8 +17,9 @@ class EventDetailController {
         if (!results.isEmpty()) {
             def page = results[0].getXml()
             def items = page."eventi_o"."item"
-            def matchingEvent = items.find { it."id_s".text() == eventId }
-            model.put("event", matchingEvent)
+            def eventDetail = items.find { it."id_s".text() == eventId }
+            model.put("event", eventDetail)
+            templateModel.eventDetail = eventDetail
         }
 
         return "templates/web/pages2/event-detail.ftl"
