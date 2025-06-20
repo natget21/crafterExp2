@@ -12,18 +12,6 @@
         color: #ffffff;
     }
     
-    .chat-list .chat-img {
-        float: left;
-        width: 48px;
-    }
-    
-    .chat-list .chat-img img {
-        -webkit-border-radius: 50px;
-        -moz-border-radius: 50px;
-        border-radius: 50px;
-        width: 100%;
-    }
-    
     .chat-list .chat-message {
         -webkit-border-radius: 50px;
         -moz-border-radius: 50px;
@@ -40,13 +28,6 @@
         top: 15px;
         width: 0;
         height: 0;
-    }
-    
-    .chat-list .chat-message h5 {
-        margin: 0 0 5px 0;
-        font-weight: 600;
-        line-height: 100%;
-        font-size: .9rem;
     }
     
     .chat-list .chat-message p {
@@ -67,7 +48,7 @@
         border-right: 20px solid #5a99ee;
     }
     
-    .chat-list .out .chat-img {
+    .chat-list .out {
         float: right;
     }
     
