@@ -84,7 +84,7 @@
 
     <div class="card w-25 position-fixed bottom-0 end-0 m-1 d-none" id="chat">
         <div class="card-header d-flex">
-            <button class="btn btn-danger ms-auto" onclick="toggleChat()">
+            <button class="btn-close ms-auto" onclick="toggleChat()">
                 <i class="fa fa-xmark"></i>
             </button>
         </div>
