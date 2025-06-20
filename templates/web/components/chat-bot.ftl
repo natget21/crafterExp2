@@ -130,6 +130,7 @@
             chatMessage.className = 'chat-message';
 
             const p = document.createElement('p');
+            p.className = 'fs-6';
             p.textContent = text;
 
             chatMessage.appendChild(p);
