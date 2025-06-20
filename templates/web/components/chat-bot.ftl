@@ -133,9 +133,22 @@
         
         function addMessage(text, isRobot) {
             const messages = document.getElementById('messages');
-        
+
             const message = document.createElement('li');
             message.className = isRobot ? 'out' : 'in';
+
+            const chatBody = document.createElement('div');
+            chatBody.classList.add('chat-body');
+
+            const chatMessage = document.createElement('div');
+            chatMessage.classList.add('chat-message');
+
+            const p = document.createElement('p');
+            p.textContent = text; 
+
+            chatMessage.appendChild(p);
+            chatBody.appendChild(chatMessage);
+            message.appendChild(chatBody);
             messages.appendChild(message);
         }
         
