@@ -78,7 +78,7 @@
         }
     </style>
 
-    <button class="btn btn-primary position-fixed bottom-0 m-1" onclick="toggleChat()">
+    <button class="btn btn-primary position-fixed bottom-0 m-2" onclick="toggleChat()">
         <i class="fa fa-comments"></i>
     </button>
 
