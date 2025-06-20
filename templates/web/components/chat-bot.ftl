@@ -86,6 +86,9 @@
         border-bottom: 20px solid transparent;
         border-left: 20px solid #fc6d4c;
     }
+    .card {
+        z-index. 999;
+    }
     .card .card-header:first-child {
         -webkit-border-radius: 0.3rem 0.3rem 0 0;
         -moz-border-radius: 0.3rem 0.3rem 0 0;
