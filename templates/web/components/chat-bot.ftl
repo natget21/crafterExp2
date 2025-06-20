@@ -37,14 +37,12 @@
         }
         
         .chat-list .chat-body {
-            margin-left: 20px;
             float: left;
-            width: 70%;
+            width: 90%;
         }
         
         .chat-list .out .chat-body {
             float: right;
-            margin-right: 20px;
             text-align: right;
         }
         
