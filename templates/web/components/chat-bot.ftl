@@ -136,11 +136,7 @@
         
             const message = document.createElement('li');
             message.className = isRobot ? 'out' : 'in';
-            message.innerHTML = `<div class='chat-body'>
-                <div class='chat-message'>
-                    <p>${text}</p>
-                </div>
-            </div>`;
+            message.innerHTML = `<div class='chat-body'><div class='chat-message'><p>${text}</p></div></div>`;
             messages.appendChild(message);
         }
         
