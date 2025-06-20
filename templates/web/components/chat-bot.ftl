@@ -1,173 +1,174 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
+<section>
+    <style>
+        .chat-list {
+            padding: 0;
+            font-size: .8rem;
+        }
+        
+        .chat-list li {
+            margin-bottom: 10px;
+            overflow: auto;
+            color: #ffffff;
+        }
+        
+        .chat-list .chat-message {
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            border-radius: 50px;
+            background: #5a99ee;
+            display: inline-block;
+            padding: 10px 20px;
+            position: relative;
+        }
+        
+        .chat-list .chat-message:before {
+            content: "";
+            position: absolute;
+            top: 15px;
+            width: 0;
+            height: 0;
+        }
+        
+        .chat-list .chat-message p {
+            line-height: 18px;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .chat-list .chat-body {
+            margin-left: 20px;
+            float: left;
+            width: 70%;
+        }
+        
+        .chat-list .in .chat-message:before {
+            left: -12px;
+            border-bottom: 20px solid transparent;
+            border-right: 20px solid #5a99ee;
+        }
+        
+        .chat-list .out {
+            float: right;
+        }
+        
+        .chat-list .out .chat-body {
+            float: right;
+            margin-right: 20px;
+            text-align: right;
+        }
+        
+        .chat-list .out .chat-message {
+            background: #fc6d4c;
+        }
+        
+        .chat-list .out .chat-message:before {
+            right: -12px;
+            border-bottom: 20px solid transparent;
+            border-left: 20px solid #fc6d4c;
+        }
+        #chat {
+            z-index: 999;
+        }
+        .card .card-header:first-child {
+            -webkit-border-radius: 0.3rem 0.3rem 0 0;
+            -moz-border-radius: 0.3rem 0.3rem 0 0;
+            border-radius: 0.3rem 0.3rem 0 0;
+        }
+        .card .card-header {
+            background: #17202b;
+            border: 0;
+            font-size: 1rem;
+            padding: .65rem 1rem;
+            position: relative;
+            font-weight: 600;
+            color: #ffffff;
+        }
+        
+        .card-body {
+            overflow-y: auto;
+            max-height: 400px;
+        }
+        
+        .content{
+            margin-top:40px;    
+        }
+    </style>
 
-<style>
-    .chat-list {
-        padding: 0;
-        font-size: .8rem;
-    }
-    
-    .chat-list li {
-        margin-bottom: 10px;
-        overflow: auto;
-        color: #ffffff;
-    }
-    
-    .chat-list .chat-message {
-        -webkit-border-radius: 50px;
-        -moz-border-radius: 50px;
-        border-radius: 50px;
-        background: #5a99ee;
-        display: inline-block;
-        padding: 10px 20px;
-        position: relative;
-    }
-    
-    .chat-list .chat-message:before {
-        content: "";
-        position: absolute;
-        top: 15px;
-        width: 0;
-        height: 0;
-    }
-    
-    .chat-list .chat-message p {
-        line-height: 18px;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .chat-list .chat-body {
-        margin-left: 20px;
-        float: left;
-        width: 70%;
-    }
-    
-    .chat-list .in .chat-message:before {
-        left: -12px;
-        border-bottom: 20px solid transparent;
-        border-right: 20px solid #5a99ee;
-    }
-    
-    .chat-list .out {
-        float: right;
-    }
-    
-    .chat-list .out .chat-body {
-        float: right;
-        margin-right: 20px;
-        text-align: right;
-    }
-    
-    .chat-list .out .chat-message {
-        background: #fc6d4c;
-    }
-    
-    .chat-list .out .chat-message:before {
-        right: -12px;
-        border-bottom: 20px solid transparent;
-        border-left: 20px solid #fc6d4c;
-    }
-    #chat {
-        z-index: 999;
-    }
-    .card .card-header:first-child {
-        -webkit-border-radius: 0.3rem 0.3rem 0 0;
-        -moz-border-radius: 0.3rem 0.3rem 0 0;
-        border-radius: 0.3rem 0.3rem 0 0;
-    }
-    .card .card-header {
-        background: #17202b;
-        border: 0;
-        font-size: 1rem;
-        padding: .65rem 1rem;
-        position: relative;
-        font-weight: 600;
-        color: #ffffff;
-    }
-    
-    .card-body {
-        overflow-y: auto;
-        max-height: 400px;
-    }
-    
-    .content{
-        margin-top:40px;    
-    }
-</style>
+    <button class="btn btn-primary position-fixed bottom-0 m-1" onclick="toggleChat()">
+        <i class="fa-solid fa-comments"></i>
+    </button>
 
-<button class="btn btn-primary position-fixed bottom-0 m-1" onclick="toggleChat()">
-    <i class="fa-solid fa-comments"></i>
-</button>
-
-<div class="card w-25 position-fixed bottom-0 end-0 m-1" id="chat">
-    <div class="card-header d-flex">
-        <label class="my-auto">Chat</label>
-        <button class="btn btn-danger ms-auto" onclick="toggleChat()">
-            <i class="fa-solid fa-xmark"></i>
-        </button>
-    </div>
-    <div class="card-body">
-        <ul class="chat-list" id="messages"></ul>
-    </div>
-    <div class="input-group p-1">
-        <input type="text" class="form-control" id="user-message">
-        <div class="input-group-append">
-            <button class="btn btn-success" type="button" id="send-button" disabled="true" onclick="sendMessage()">
-                <i class="fa-solid fa-paper-plane"></i>
+    <div class="card w-25 position-fixed bottom-0 end-0 m-1" id="chat">
+        <div class="card-header d-flex">
+            <label class="my-auto">Chat</label>
+            <button class="btn btn-danger ms-auto" onclick="toggleChat()">
+                <i class="fa-solid fa-xmark"></i>
             </button>
         </div>
-    </div>
-</div>
-
-<script>
-    document.getElementById('user-message').addEventListener('input', function() {
-        const sendButton = document.getElementById('send-button');
-        if (getMessage()) sendButton.removeAttribute('disabled');
-        else sendButton.setAttribute('disabled', '');
-    });
-    
-    function toggleChat() {
-        const chat = document.getElementById('chat');
-        chat.classList.toggle('d-none');
-    }
-    
-    function addMessage(text, isRobot) {
-        const messages = document.getElementById('messages');
-    
-        const message = document.createElement('li');
-        message.className = isRobot ? 'out' : 'in';
-        message.innerHTML = `<div class='chat-body'>
-            <div class='chat-message'>
-                <p>${text}</p>
+        <div class="card-body">
+            <ul class="chat-list" id="messages"></ul>
+        </div>
+        <div class="input-group p-1">
+            <input type="text" class="form-control" id="user-message">
+            <div class="input-group-append">
+                <button class="btn btn-success" type="button" id="send-button" disabled="true" onclick="sendMessage()">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
             </div>
-        </div>`;
-        messages.appendChild(message);
-    }
-    
-    function getMessage() {
-        return document.getElementById('user-message').value || '';
-    }
-    
-    function sendMessage() {
-        const message = getMessage();
-        document.getElementById('user-message').value = '';
-        addMessage(message, false);
-        sendRequestToBot(message);
-    }
-    
-    async function sendRequestToBot(message) {
-        let url = 'https://vocalchatbot.deepreality.cloud/custom/semantic_search';
-        url += '?user_message=' + encodeURIComponent(message);
-        const response = await fetch(url, {method: 'POST'});
-    
-        if(!response.ok) {
-          addMessage('Si è verificato un errore.', true);
-          return;
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('user-message').addEventListener('input', function() {
+            const sendButton = document.getElementById('send-button');
+            if (getMessage()) sendButton.removeAttribute('disabled');
+            else sendButton.setAttribute('disabled', '');
+        });
+        
+        function toggleChat() {
+            const chat = document.getElementById('chat');
+            chat.classList.toggle('d-none');
         }
-    
-        const json = await response.json();
-        for(let item of json.items) {
-            addMessage(item.name_s || 'Nessun nome', true);
+        
+        function addMessage(text, isRobot) {
+            const messages = document.getElementById('messages');
+        
+            const message = document.createElement('li');
+            message.className = isRobot ? 'out' : 'in';
+            message.innerHTML = `<div class='chat-body'>
+                <div class='chat-message'>
+                    <p>${text}</p>
+                </div>
+            </div>`;
+            messages.appendChild(message);
         }
-    }
-</script>
+        
+        function getMessage() {
+            return document.getElementById('user-message').value || '';
+        }
+        
+        function sendMessage() {
+            const message = getMessage();
+            document.getElementById('user-message').value = '';
+            addMessage(message, false);
+            sendRequestToBot(message);
+        }
+        
+        async function sendRequestToBot(message) {
+            let url = 'https://vocalchatbot.deepreality.cloud/custom/semantic_search';
+            url += '?user_message=' + encodeURIComponent(message);
+            const response = await fetch(url, {method: 'POST'});
+        
+            if(!response.ok) {
+            addMessage('Si è verificato un errore.', true);
+            return;
+            }
+        
+            const json = await response.json();
+            for(let item of json.items) {
+                addMessage(item.name_s || 'Nessun nome', true);
+            }
+        }
+    </script>
+</section>
