@@ -15,6 +15,7 @@
 
     <!-- Main Content Section -->
     <main>
+        <#include "/templates/web/components/chat-bot.ftl"> 
         <#include "/templates/web/components/home-slider.ftl"> 
         <!--
         <#include "/templates/web/components/category-list.ftl"> 
