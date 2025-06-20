@@ -115,7 +115,7 @@
     <i class="fa-solid fa-comments"></i>
 </button>
 
-<div class="card w-25 position-absolute bottom-0 end-0 m-1" id="chat">
+<div class="card w-25 position-fixed bottom-0 end-0 m-1" id="chat">
     <div class="card-header d-flex">
         <label class="my-auto">Chat</label>
         <button class="btn btn-danger ms-auto" onclick="toggleChat()">
@@ -134,3 +134,56 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.getElementById('user-message').addEventListener('input', function() {
+        const sendButton = document.getElementById('send-button');
+        if (getMessage()) sendButton.removeAttribute('disabled');
+        else sendButton.setAttribute('disabled', '');
+    });
+    
+    function toggleChat() {
+        const chat = document.getElementById('chat');
+        chat.classList.toggle('d-none');
+    }
+    
+    function addMessage(text, isRobot) {
+        const messages = document.getElementById('messages');
+    
+        const message = document.createElement('li');
+        message.className = isRobot ? 'out' : 'in';
+        message.innerHTML = `<div class='chat-body'>
+            <div class='chat-message'>
+                <p>${text}</p>
+            </div>
+        </div>`;
+        messages.appendChild(message);
+    }
+    
+    function getMessage() {
+        return document.getElementById('user-message').value || '';
+    }
+    
+    function sendMessage() {
+        const message = getMessage();
+        document.getElementById('user-message').value = '';
+        addMessage(message, false);
+        sendRequestToBot(message);
+    }
+    
+    async function sendRequestToBot(message) {
+        let url = 'https://vocalchatbot.deepreality.cloud/custom/semantic_search';
+        url += '?user_message=' + encodeURIComponent(message);
+        const response = await fetch(url, {method: 'POST'});
+    
+        if(!response.ok) {
+          addMessage('Si è verificato un errore.', true);
+          return;
+        }
+    
+        const json = await response.json();
+        for(let item of json.items) {
+            addMessage(item.name_s || 'Nessun nome', true);
+        }
+    }
+</script>
