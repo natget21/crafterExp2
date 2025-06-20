@@ -60,7 +60,6 @@
             border-radius: 0.3rem 0.3rem 0 0;
         }
         .card .card-header {
-            background: #17202b;
             border: 0;
             font-size: 1rem;
             padding: .65rem 1rem;
@@ -85,7 +84,6 @@
 
     <div class="card w-25 position-fixed bottom-0 end-0 m-1 d-none" id="chat">
         <div class="card-header d-flex">
-            <label class="my-auto">Chat</label>
             <button class="btn btn-danger ms-auto" onclick="toggleChat()">
                 <i class="fa fa-xmark"></i>
             </button>
