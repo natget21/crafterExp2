@@ -82,14 +82,14 @@
     </style>
 
     <button class="btn btn-primary position-fixed bottom-0 m-1" onclick="toggleChat()">
-        <i class="fa-solid fa-comments"></i>
+        <i class="fa fa-comments"></i>
     </button>
 
     <div class="card w-25 position-fixed bottom-0 end-0 m-1 d-none" id="chat">
         <div class="card-header d-flex">
             <label class="my-auto">Chat</label>
             <button class="btn btn-danger ms-auto" onclick="toggleChat()">
-                <i class="fa-solid fa-xmark"></i>
+                <i class="fa fa-xmark"></i>
             </button>
         </div>
         <div class="card-body">
@@ -99,7 +99,7 @@
             <input type="text" class="form-control" id="user-message">
             <div class="input-group-append">
                 <button class="btn btn-success" type="button" id="send-button" disabled="true" onclick="sendMessage()">
-                    <i class="fa-solid fa-paper-plane"></i>
+                    <i class="fa fa-paper-plane"></i>
                 </button>
             </div>
         </div>
