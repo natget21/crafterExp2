@@ -71,6 +71,11 @@
             color: #ffffff;
         }
         
+        .card-body {
+            height: 400px;
+            overflow: auto;
+        }
+        
         .content{
             margin-top:40px;    
         }
