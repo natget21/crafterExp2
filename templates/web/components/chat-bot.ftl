@@ -141,6 +141,8 @@
         }
 
         function sendMessage() {
+            const sendButton = document.getElementById('send-button');
+            else sendButton.setAttribute('disabled', '');
             const message = getMessage();
             document.getElementById('user-message').value = '';
             addMessage(message, false);
