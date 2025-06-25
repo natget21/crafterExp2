@@ -110,6 +110,8 @@
 
         function toggleChat() {
             window.messages = [];
+            const messages = document.getElementById('messages');
+            while (messages.firstChild) messages.removeChild(messages.firstChild);
             const chat = document.getElementById('chat');
             chat.classList.toggle('d-none');
         }
