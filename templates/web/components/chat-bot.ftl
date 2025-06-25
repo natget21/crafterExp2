@@ -109,11 +109,13 @@
         });
 
         function toggleChat() {
+            window.messages = [];
             const chat = document.getElementById('chat');
             chat.classList.toggle('d-none');
         }
 
         function addMessage(text, isRobot) {
+            window.messages.push(text);
             const messages = document.getElementById('messages');
 
             const message = document.createElement('li');
