@@ -47,7 +47,7 @@
         }
         
         .chat-list .out .chat-message {
-            background: #fc6d4c;
+            background: #b9d2f9;
         }
         
         #chat {
