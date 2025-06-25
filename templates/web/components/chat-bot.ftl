@@ -13,7 +13,7 @@
         }
         
         .chat-list .chat-message {
-            border-radius: 25px;
+            border-radius: 20px;
             background: #d8e5f9;
             display: inline-block;
             padding: 10px 20px;
