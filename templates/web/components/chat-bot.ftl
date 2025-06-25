@@ -155,13 +155,13 @@
             const response = await fetch(url, {method: 'POST'});
 
             if(!response.ok) {
-            addMessage('Si è verificato un errore.', true);
-            return;
+                addMessage('Si è verificato un errore.', true);
+                return;
             }
 
             const json = await response.json();
             for(let item of json.items) {
-                addMessage(item.name_s || 'Nessun nome', true);
+                addMessage(item.name_s + ': ' + item.name_s || 'Nessun nome', true);
             }
         }
     </script>
