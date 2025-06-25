@@ -149,7 +149,7 @@
             sendRequestToBot(message);
         }
 
-        async function sendRequestToBot(title, content) {
+        async function sendRequestToBot(message) {
             let url = 'https://vocalchatbot.deepreality.cloud/custom/semantic_search';
             url += '?user_message=' + encodeURIComponent(message);
             const response = await fetch(url, {method: 'POST'});
