@@ -16,7 +16,7 @@
             -webkit-border-radius: 50px;
             -moz-border-radius: 50px;
             border-radius: 50px;
-            background: #5a99ee;
+            background: #d8e5f9;
             display: inline-block;
             padding: 10px 20px;
             position: relative;
