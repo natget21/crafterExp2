@@ -161,7 +161,7 @@
 
             const json = await response.json();
             for(let item of json.items) {
-                addMessage(item.name_s + ': ' + item.name_s || 'Nessun nome', true);
+                addMessage(item.name_s + ': ' + item.contenuto_t || 'Nessun nome', true);
             }
         }
     </script>
