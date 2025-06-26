@@ -110,6 +110,7 @@
             window.messages = [];
             const messages = document.getElementById('messages');
             while (messages.firstChild) messages.removeChild(messages.firstChild);
+            addMessage("Ciao! In cosa posso aiutarti oggi?", true);
             const chat = document.getElementById('chat');
             chat.classList.toggle('d-none');
         }
