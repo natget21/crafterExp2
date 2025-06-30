@@ -89,6 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
         show('static-nav');
         hide('add-order');
         show('signup-btn');
+        hide('chatBotButton');
     }
 
     document.getElementById('logout-btn').addEventListener('click', function (event) {
