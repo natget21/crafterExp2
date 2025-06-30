@@ -57,6 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
             hide('static-nav');
             show('add-order');
             hide('signup-btn');
+            show('chatBotButton');
         } else {
             show('login-btn');
             hide('logout-btn');
@@ -66,6 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
             show('static-nav');
             hide('add-order');
             show('signup-btn');
+            hide('chatBotButton');
         }
         
         
