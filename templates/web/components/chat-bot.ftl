@@ -98,6 +98,11 @@
 </div>
 
 <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.getElementById('user-message').addEventListener('input', disableSendButton);
+    });
+    
+    
     let timeoutId;
     
     function disableSendButton() {
@@ -105,8 +110,6 @@
         if (getMessage()) sendButton.removeAttribute('disabled');
         else sendButton.setAttribute('disabled', '');
     }
-    
-    document.getElementById('user-message').addEventListener('input', disableSendButton);
     
     function toggleChat() {
         window.messages = [];
