@@ -195,10 +195,10 @@
         answerDiv.id = `boolean-answer-${timestamp}`;
         answerDiv.className = 'row justify-content-center mb-2';
 
-        answerDiv.innerHTML = `
+        answerDiv.innerHTML = "
             <button class="btn btn-primary col-5 m-1" id="yes-${timestamp}">SI</button>
             <button class="btn btn-primary col-5 m-1" id="no-${timestamp}">NO</button>
-        `;
+        ";
 
         container.appendChild(answerDiv);
 
