@@ -3,94 +3,85 @@
 <style>
     .chat-list {
         padding: 0;
-        font-size: .8rem;
+        font-size: 0.8rem;
+        list-style: none;
     }
-    
+
     .chat-list li {
         margin-bottom: 10px;
         overflow: auto;
         color: #ffffff;
     }
-    
-    .chat-list .chat-message {
+
+    .chat-message {
         border-radius: 20px;
         background: #a2c6fc;
         display: inline-block;
         padding: 10px 20px;
         position: relative;
     }
-    
-    .chat-list .chat-message:before {
-        content: "";
-        position: absolute;
-        top: 15px;
-        width: 0;
-        height: 0;
-    }
-    
-    .chat-list .chat-message p {
+
+    .chat-message p {
         line-height: 18px;
         margin: 0;
         padding: 0;
+        font-size: 0.85rem;
     }
-    
-    .chat-list .chat-body {
+
+    .chat-body {
         float: left;
         max-width: 90%;
     }
-    
-    .chat-list .out .chat-body {
+
+    .out .chat-body {
         float: right;
         text-align: left;
     }
-    
-    .chat-list .out .chat-message {
+
+    .out .chat-message {
         background: #77a9fa;
     }
-    
+
     #chat {
         z-index: 999;
     }
-    
-    .card .card-header:first-child {
-        -webkit-border-radius: 0.3rem 0.3rem 0 0;
-        -moz-border-radius: 0.3rem 0.3rem 0 0;
-        border-radius: 0.3rem 0.3rem 0 0;
-    }
+
     .card .card-header {
         border: 0;
         font-size: 1rem;
-        padding: .65rem 1rem;
-        position: relative;
+        padding: 0.65rem 1rem;
         font-weight: 600;
         color: #ffffff;
+        border-radius: 0.3rem 0.3rem 0 0;
     }
-    
+
     .card-body {
         height: 400px;
-        overflow: auto;
+        overflow-y: auto;
     }
-    
-    .content{
-        margin-top:40px;    
+
+    .content {
+        margin-top: 40px;
     }
 </style>
 
-<button id="chatBotButton" class="btn btn-primary position-fixed bottom-0 m-2" onclick="toggleChat()">
+<!-- Chat Toggle Button -->
+<button id="chatBotButton" class="btn btn-primary position-fixed bottom-0 m-2" onclick="toggleChat()" aria-label="Apri chat">
     <i class="fa fa-comments"></i>
 </button>
 
-<div class="card w-25 position-fixed bottom-0 end-0 m-1 d-none" id="chat">
+<!-- Chat Window -->
+<div class="card position-fixed bottom-0 end-0 m-1 d-none" id="chat" style="width: 100%; max-width: 350px;">
     <div class="card-header d-flex">
-        <button class="btn-close ms-auto" onclick="toggleChat()"></button>
+        <button class="btn-close ms-auto" onclick="toggleChat()" aria-label="Chiudi chat"></button>
     </div>
     <div class="card-body">
         <ul class="chat-list" id="messages"></ul>
     </div>
     <div class="input-group p-1">
-        <input type="text" class="form-control" id="user-message">
+        <input type="text" class="form-control" id="user-message" placeholder="Scrivi un messaggio...">
         <div class="input-group-append">
-            <button class="btn btn-success" type="button" id="send-button" disabled="true" onclick="sendMessage()">
+            <button class="btn btn-success" type="button" id="send-button" disabled onclick="sendMessage()" aria-label="Invia messaggio">
                 <i class="fa fa-paper-plane"></i>
             </button>
         </div>
@@ -99,144 +90,140 @@
 
 <script>
     let timeoutId;
-    
-    function disableSendButton() {
+    let inactivityPromptShown = false;
+
+    document.getElementById('user-message').addEventListener('input', toggleSendButton);
+
+    function toggleSendButton() {
         const sendButton = document.getElementById('send-button');
-        if (getMessage()) sendButton.removeAttribute('disabled');
-        else sendButton.setAttribute('disabled', '');
+        sendButton.disabled = !getMessage().trim();
     }
-    
-    document.getElementById('user-message').addEventListener('input', disableSendButton);
-    
+
     function toggleChat() {
-        window.messages = [];
-        const messages = document.getElementById('messages');
-        while (messages.firstChild) messages.removeChild(messages.firstChild);
-        addMessage("Ciao, sono il tuo assistente virtuale", true);
-        addMessage("Come posso esserti utile?", true);
+        resetChat();
         const chat = document.getElementById('chat');
         chat.classList.toggle('d-none');
+        if (!chat.classList.contains('d-none')) {
+            addBotMessages(["Ciao, sono il tuo assistente virtuale", "Come posso esserti utile?"]);
+        }
     }
-    
-    function addMessage(text, isRobot) {
-        window.messages.push(text);
+
+    function resetChat() {
+        clearTimeout(timeoutId);
+        inactivityPromptShown = false;
+        document.getElementById('messages').innerHTML = '';
+        document.getElementById('user-message').disabled = false;
+        document.getElementById('send-button').disabled = true;
+    }
+
+    function addMessage(text, isBot) {
         const messages = document.getElementById('messages');
-    
-        const message = document.createElement('li');
-        message.className = isRobot ? 'out' : 'in';
-    
+        const li = document.createElement('li');
+        li.className = isBot ? 'out' : 'in';
+
         const chatBody = document.createElement('div');
         chatBody.className = 'chat-body';
-    
+
         const chatMessage = document.createElement('div');
         chatMessage.className = 'chat-message';
-    
+
         const p = document.createElement('p');
-        p.style.fontSize = '0.85rem';
         p.textContent = text;
-    
+
         chatMessage.appendChild(p);
         chatBody.appendChild(chatMessage);
-        message.appendChild(chatBody);
-        messages.appendChild(message);
+        li.appendChild(chatBody);
+        messages.appendChild(li);
+
+        messages.scrollTop = messages.scrollHeight;
     }
-    
-    
+
+    function addBotMessages(messages) {
+        messages.forEach(msg => addMessage(msg, true));
+    }
+
     function getMessage() {
         return document.getElementById('user-message').value || '';
     }
-    
+
     async function sendMessage() {
-        const sendButton = document.getElementById('send-button');
-        sendButton.setAttribute('disabled', '');
-        const message = getMessage();
-        document.getElementById('user-message').value = '';
+        const input = document.getElementById('user-message');
+        const message = getMessage().trim();
+        if (!message) return;
+
         addMessage(message, false);
+        input.value = '';
+        toggleSendButton();
         addMessage('Controllo subito...', true);
-        await sendRequestToBot(message);
+        await fetchBotResponse(message);
     }
-    
-    async function sendRequestToBot(message) {
+
+    async function fetchBotResponse(message) {
         startInactivityTimer();
-        let url = 'https://vocalchatbot.deepreality.cloud/custom/semantic_search';
-        url += '?user_message=' + encodeURIComponent(message);
-        const response = await fetch(url, {method: 'POST'});
-    
-        if(!response.ok) {
-            addMessage('Mi dispiace, ma in questo momento non sono in grado di elaborare la tua richiesta.', true);
-            return;
+        try {
+            const url = `https://vocalchatbot.deepreality.cloud/custom/semantic_search?user_message=${encodeURIComponent(message)}`;
+            const response = await fetch(url, { method: 'POST' });
+
+            if (!response.ok) {
+                throw new Error('API error');
+            }
+
+            const json = await response.json();
+            addMessage(json.answer, true);
+        } catch (err) {
+            addMessage('Mi dispiace, non riesco a elaborare la richiesta in questo momento.', true);
         }
-    
-        const json = await response.json();
-        const answer = json.answer;
-        handleAnswer(answer);
-    
-        addMessage(json.answer, true);
     }
-    
-    function handleAnswer(answer) {
-        console.log(answer);
-    }
-    
+
     function startInactivityTimer() {
         clearTimeout(timeoutId);
+        inactivityPromptShown = false;
+
         timeoutId = setTimeout(() => {
-            addMessage('Hai ancora bisogno di me?', true);
-            hadleDecisionButtons();
-        }, 60 * 1000); 
+            if (!inactivityPromptShown) {
+                inactivityPromptShown = true;
+                addMessage('Hai ancora bisogno di me?', true);
+                showYesNoButtons();
+            }
+        }, 60000);
     }
-    
-    function hadleDecisionButtons() {
+
+    function showYesNoButtons() {
         const container = document.getElementById('messages');
-    
         const answerDiv = document.createElement('div');
-        const now = Date.now();
-        answerDiv.id = `boolean-answer-${now}`;
+        const timestamp = Date.now();
+        answerDiv.id = `boolean-answer-${timestamp}`;
         answerDiv.className = 'row justify-content-center mb-2';
-    
-        const yesButton = document.createElement('button');
-        yesButton.id = `boolean-answer-yes-${now}`;
-        yesButton.className = 'btn btn-primary col-5 m-1';
-        yesButton.textContent = 'SI';
-        yesButton.onclick = function() {
-            sayYes(now); 
-        };
-    
-        const noButton = document.createElement('button');
-        noButton.id = `boolean-answer-no-${now}`;
-        noButton.className = 'btn btn-primary col-5 m-1';
-        noButton.textContent = 'NO';
-        noButton.onclick = function() {
-            sayNo(now);
-        };
-    
-        answerDiv.appendChild(yesButton);
-        answerDiv.appendChild(noButton);
-    
+
+        answerDiv.innerHTML = `
+            <button class="btn btn-primary col-5 m-1" id="yes-${timestamp}">SI</button>
+            <button class="btn btn-primary col-5 m-1" id="no-${timestamp}">NO</button>
+        `;
+
         container.appendChild(answerDiv);
+
+        document.getElementById(`yes-${timestamp}`).onclick = () => handleYes(timestamp);
+        document.getElementById(`no-${timestamp}`).onclick = () => handleNo(timestamp);
     }
-    
-    function sayYes(now) {
+
+    function handleYes(timestamp) {
+        disableButtons(timestamp);
         addMessage('Come posso esserti utile?', true);
-        const yesButton = document.getElementById(`boolean-answer-yes-${now}`);
-        yesButton.setAttribute('disabled', '');
-        const noButton = document.getElementById(`boolean-answer-no-${now}`);
-        noButton.setAttribute('disabled', '');
+        startInactivityTimer();
     }
-    
-    function sayNo(now) {
-        const yesButton = document.getElementById(`boolean-answer-yes-${now}`);
-        yesButton.setAttribute('disabled', '');
-        const noButton = document.getElementById(`boolean-answer-no-${now}`);
-        noButton.setAttribute('disabled', '');
-    
-        const userMessage = document.getElementById('user-message')
-        userMessage.setAttribute('disabled', '');
-    
-        addMessage('Grazie', true);
-        addMessage('Spero di esserti stato utile', true);
-        addMessage('Prima di andar via perfavore, chiudi la chat utilizzando il bottone in alto', true);
-    
+
+    function handleNo(timestamp) {
+        disableButtons(timestamp);
+        document.getElementById('user-message').disabled = true;
+        addBotMessages([
+            'Grazie',
+            'Spero di esserti stato utile',
+            'Prima di andar via perfavore, chiudi la chat utilizzando il bottone in alto'
+        ]);
+    }
+
+    function disableButtons(timestamp) {
+        document.getElementById(`yes-${timestamp}`).disabled = true;
+        document.getElementById(`no-${timestamp}`).disabled = true;
     }
 </script>
-
