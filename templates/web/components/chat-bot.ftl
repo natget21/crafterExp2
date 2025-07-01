@@ -191,11 +191,11 @@
     
         const answerDiv = document.createElement('div');
         const now = Date.now();
-        answerDiv.id = `boolean-answer-${now}`;
+        answerDiv.id = 'boolean-answer-' + now;
         answerDiv.className = 'row justify-content-center mb-2';
     
         const yesButton = document.createElement('button');
-        yesButton.id = `boolean-answer-yes-${now}`;
+        yesButton.id = "boolean-answer-yes-" + now;
         yesButton.className = 'btn btn-primary col-5 m-1';
         yesButton.textContent = 'SI';
         yesButton.onclick = function() {
@@ -203,7 +203,7 @@
         };
     
         const noButton = document.createElement('button');
-        noButton.id = `boolean-answer-no-${now}`;
+        noButton.id = 'boolean-answer-no-' + now;
         noButton.className = 'btn btn-primary col-5 m-1';
         noButton.textContent = 'NO';
         noButton.onclick = function() {
@@ -218,16 +218,16 @@
     
     function sayYes(now) {
         addMessage('Come posso esserti utile?', true);
-        const yesButton = document.getElementById(`boolean-answer-yes-${now}`);
+        const yesButton = document.getElementById('boolean-answer-yes-' + now);
         yesButton.setAttribute('disabled', '');
-        const noButton = document.getElementById(`boolean-answer-no-${now}`);
+        const noButton = document.getElementById('boolean-answer-no-' + now);
         noButton.setAttribute('disabled', '');
     }
     
     function sayNo(now) {
-        const yesButton = document.getElementById(`boolean-answer-yes-${now}`);
+        const yesButton = document.getElementById('boolean-answer-yes-' + now);
         yesButton.setAttribute('disabled', '');
-        const noButton = document.getElementById(`boolean-answer-no-${now}`);
+        const noButton = document.getElementById('boolean-answer-no-' + now);
         noButton.setAttribute('disabled', '');
     
         const userMessage = document.getElementById('user-message')
