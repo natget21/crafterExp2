@@ -112,7 +112,7 @@
     }
     
     function toggleChat() {
-        window.messages = [];
+        window.messages = '';
         const messages = document.getElementById('messages');
         while (messages.firstChild) messages.removeChild(messages.firstChild);
         addMessage("Ciao, sono il tuo assistente virtuale", true);
@@ -122,7 +122,6 @@
     }
     
     function addMessage(text, isRobot) {
-        window.messages.push(text);
         const messages = document.getElementById('messages');
     
         const message = document.createElement('li');
@@ -144,6 +143,37 @@
         messages.appendChild(message);
     }
     
+    function addCourseMessage(course) {
+        let show = false;
+        const messages = document.getElementById('messages');
+    
+        const message = document.createElement('li');
+        message.className = 'out';
+    
+        const chatBody = document.createElement('div');
+        chatBody.className = 'chat-body';
+    
+        const chatMessage = document.createElement('div');
+        chatMessage.className = 'chat-message';
+    
+        const ul = document.createElement('ul');
+        ul.style.paddingLeft = '0px';
+    
+        for (const [key, value] of Object.entries(course)) {
+            if(key === 'introduction' || key === 'conclusion') continue;
+            show = true;
+            const li = document.createElement('li');
+            li.innerHTML = '<strong>'+ key + '</strong>' + value;
+            ul.appendChild(li);
+        }
+        if(show) {
+            chatMessage.appendChild(ul);
+            chatBody.appendChild(chatMessage);
+            message.appendChild(chatBody);
+            messages.appendChild(message);
+        }
+    }
+    
     
     function getMessage() {
         return document.getElementById('user-message').value || '';
@@ -156,6 +186,7 @@
         document.getElementById('user-message').value = '';
         addMessage(message, false);
         addMessage('Controllo subito...', true);
+        window.messages += ' ' + message;
         await sendRequestToBot(message);
     }
     
@@ -172,13 +203,34 @@
     
         const json = await response.json();
         const answer = json.answer;
-        handleAnswer(answer);
+        window.messages += ' ' + answer;
+        const handledAnswer = handleAnswer(answer);
     
-        addMessage(json.answer, true);
+        addMessage(handledAnswer.introduction, true);
+        addCourseMessage(handledAnswer);
+        if(handledAnswer.conclusion !== handledAnswer.introduction) addMessage(handledAnswer.conclusion, true);
     }
     
     function handleAnswer(answer) {
         console.log(answer);
+    
+        const dict = {};
+        const rows = answer.trim().split('\n');
+        dict['introduction'] = rows[0].trim();
+        dict['conclusion'] = rows[rows.length - 1].trim();
+    
+        const regex = /\*\*(.+?)\*\*\s*(.*?)\n/g;
+        let match;
+    
+        while ((match = regex.exec(answer)) !== null) {
+            const keyword = match[1].trim();
+            let text = match[2].trim();
+            if(text.startsWith(':')) text = text.substring(1);
+            dict[keyword] = text;
+        }
+    
+        console.log(dict);
+        return dict;
     }
     
     function startInactivityTimer() {
