@@ -134,7 +134,6 @@
         chatMessage.className = 'chat-message';
     
         const p = document.createElement('p');
-        p.className = 'text-white';
         p.style.fontSize = '0.85rem';
         p.textContent = text;
     
@@ -158,6 +157,9 @@
         chatMessage.className = 'chat-message';
     
         const ul = document.createElement('ul');
+        ul.style.fontSize = '1.1em';
+        ul.style.textAlign = 'justify';
+        ul.style.lineBreak = 'anywhere';
         ul.style.paddingLeft = '0px';
     
         for (const [key, value] of Object.entries(course)) {
