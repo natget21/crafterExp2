@@ -229,6 +229,10 @@
         while ((match = regex.exec(answer)) !== null) {
             const keyword = match[1].trim();
             let text = match[2].trim();
+    
+            text = convertLink(text);
+            console.log(text);
+    
             if(text.startsWith(':')) text = text.substring(1);
             dict[keyword] = text;
         }
@@ -295,7 +299,11 @@
         addMessage('Grazie', true);
         addMessage('Spero di esserti stato utile', true);
         addMessage('Prima di andar via perfavore, chiudi la chat utilizzando il bottone in alto', true);
+    }
     
+    function convertLink(answer) {
+      const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+      return answer.replace(regex, '<a target="_blank" href="$2">$1</a>');
     }
 </script>
 
