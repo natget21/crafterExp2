@@ -134,6 +134,7 @@
         chatMessage.className = 'chat-message';
     
         const p = document.createElement('p');
+        p.className = 'text-white';
         p.style.fontSize = '0.85rem';
         p.textContent = text;
     
