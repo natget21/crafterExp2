@@ -311,7 +311,7 @@
     
     async function storeChat(messages) {
         const userString = localStorage.getItem('crafterVadinUser');
-        if (!userString) return;
+        if (!userString || !messages) return;
         const user = JSON.parse(userString);
         console.log('USER', user);
         const url = 'https://api.shortcut.uno/v1/Ideale/storeChatBot';
