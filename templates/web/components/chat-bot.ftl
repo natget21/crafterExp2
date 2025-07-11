@@ -310,6 +310,10 @@
     }
     
     async function storeChat(messages) {
+        const userString = localStorage.getItem('crafterVadinUser');
+        if (!userString) return;
+        const user = JSON.parse(userString);
+        console.log('USER', user);
         const url = 'https://api.shortcut.uno/v1/Ideale/storeChatBot';
         const headers = {
             'Accept': 'application/json',
@@ -323,7 +327,7 @@
             organizationId: "67ac78b641f3e43f93473810"
         })
         const response = await fetch(url, { method: 'POST', headers, body });
-        console.log('Store Chat', response);
+        console.log('TEST', response);
     }
 </script>
 
