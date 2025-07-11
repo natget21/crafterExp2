@@ -29,24 +29,24 @@
    </item></subcategory_o>
     <crafterSite>ideale</crafterSite>
     <crafterPublishedDate>2025-04-23T15:39:42.814126480Z</crafterPublishedDate>
-    <modalita_t>1 esperienza formativa suddivisa in 3 moduli: Maestranze, Performer, Spettatore.</modalita_t>
+    <modalita_t/>
     <id>ideale:/site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/fb7134be-d5d9-462e-8928-75d5209b050f.xml</id>
     <productid_s>PRO_cb98a283</productid_s>
-    <createdDate_dt>2025-04-28T13:34:17.236Z</createdDate_dt>
+    <createdDate_dt>2025-07-11T10:50:04.129Z</createdDate_dt>
     <crafterPublishedDate_dt>2025-04-23T15:39:42.814126480Z</crafterPublishedDate_dt>
     <partnerId_s>67fce234f647a63da899d027</partnerId_s>
-    <lastModifiedDate>2025-04-28T13:34:17.236Z</lastModifiedDate>
-    <createdDate>2025-04-28T13:34:17.236Z</createdDate>
-    <lastModifiedDate_dt>2025-04-28T13:34:17.236Z</lastModifiedDate_dt>
+    <lastModifiedDate>2025-07-11T10:50:04.129Z</lastModifiedDate>
+    <createdDate>2025-07-11T10:50:04.129Z</createdDate>
+    <lastModifiedDate_dt>2025-07-11T10:50:04.129Z</lastModifiedDate_dt>
     <obiettivo_t>Il tour ? declinabile ? su richiesta - in diverse versioni con obiettivi differenziati: - Distribuzione culturale e avvicinamento delle nuove generazioni al mondo del teatro; - Promozione territoriale, valorizzando luoghi iconici e il patrimonio storico-artistico della citt?; - Comunicazione dell?associazione culturale di riferimento, attraverso un?esperienza coinvolgente e innovativa; - Attrazione turistica, proponendo un?esperienza interattiva che pu? essere fruita anche da visitatori e scuole in modalit? remota (dal sito web dell?associazione culturale) o in loco durante i momenti di attesa (prima dell?evento).</obiettivo_t>
     <inheritsFrom_smv>[/crafter-level-descriptor.level.xml, /site/crafter-level-descriptor.level.xml, /site/components/crafter-level-descriptor.level.xml, /site/components/services/crafter-level-descriptor.level.xml, /site/components/services/skills-and-training/crafter-level-descriptor.level.xml, /site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/crafter-level-descriptor.level.xml]</inheritsFrom_smv>
     <obiettivo_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</obiettivo_html>
-    <descrizione_html>&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;L’esperienza è articolata in tre sezioni esplorative – Area Maestranze (quinte e sartoria), Area Performer (palco e sala prove) e Area Spettatori (platea) – che illustrano i ruoli e le dinamiche dietro le quinte, sul palco e in platea. Ogni sezione è accompagnata da quiz, contenuti interattivi, poesie narrative, e include la scoperta simbolica di uno spartito tratto da un'opera lirica.&lt;/p&gt;&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;Il tour è declinabile – su richiesta - in diverse versioni con obiettivi differenziati:&lt;/p&gt;&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;&lt;ul&gt;&lt;li&gt;Distribuzione culturale e avvicinamento delle nuove generazioni al mondo del teatro;&lt;/li&gt;&lt;li&gt;Promozione territoriale, valorizzando luoghi iconici e il patrimonio storico-artistico della città;&lt;/li&gt;&lt;li&gt;Comunicazione dell’associazione culturale di riferimento, attraverso un’esperienza coinvolgente e innovativa;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;&lt;/p&gt;&lt;p&gt;&lt;!--StartFragment--&gt;&lt;!--EndFragment--&gt;&lt;/p&gt;&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;&lt;span&gt;Attrazione turistica, proponendo un’esperienza interattiva che può essere fruita anche da visitatori e scuole in modalità remota (dal sito web dell’associazione culturale) o in loco durante i momenti di attesa (prima dell’evento).&lt;/span&gt;&lt;/p&gt;</descrizione_html>
+    <descrizione_html>&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;L’esperienza è articolata in tre sezioni esplorative – Area Maestranze (quinte e sartoria), Area Performer (palco e sala prove) e Area Spettatori (platea) – che illustrano i ruoli e le dinamiche dietro le quinte, sul palco e in platea. Ogni sezione è accompagnata da quiz, contenuti interattivi, poesie narrative, e include la scoperta simbolica di uno spartito tratto da un'opera lirica.&lt;/p&gt;&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;Il tour è declinabile – su richiesta - in diverse versioni con obiettivi differenziati:&lt;/p&gt;&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Distribuzione culturale e avvicinamento delle nuove generazioni al mondo del teatro;&lt;/li&gt;&lt;li&gt;Promozione territoriale, valorizzando luoghi iconici e il patrimonio storico-artistico della città;&lt;/li&gt;&lt;li&gt;Comunicazione dell’associazione culturale di riferimento, attraverso un’esperienza coinvolgente e innovativa;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;&lt;/p&gt;&lt;p&gt;&lt;!--StartFragment--&gt;&lt;!--EndFragment--&gt;&lt;/p&gt;&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;&lt;span&gt;Attrazione turistica, proponendo un’esperienza interattiva che può essere fruita anche da visitatori e scuole in modalità remota (dal sito web dell’associazione culturale) o in loco durante i momenti di attesa (prima dell’evento).&lt;/span&gt;&lt;/p&gt;</descrizione_html>
     <informazionisulcosto_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</informazionisulcosto_html>
     <codice_s>VR-EDU-001</codice_s>
     <costo_s>0,00</costo_s>
-    <createdDate>2025-07-11T10:50:04.129Z</createdDate>
-    <createdDate_dt>2025-07-11T10:50:04.129Z</createdDate_dt>
-    <lastModifiedDate>2025-07-11T10:50:04.129Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-07-11T10:50:04.129Z</lastModifiedDate_dt>
+    <createdDate>2025-07-11T10:50:37.521Z</createdDate>
+    <createdDate_dt>2025-07-11T10:50:37.521Z</createdDate_dt>
+    <lastModifiedDate>2025-07-11T10:50:37.521Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-07-11T10:50:37.521Z</lastModifiedDate_dt>
 </component>
