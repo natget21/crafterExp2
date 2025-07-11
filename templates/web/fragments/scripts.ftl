@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     
     if (user) {
+        console.log(user);
         // document.getElementById('login-btn').style.display = 'none';
         // document.getElementById('logout-btn').style.display = 'inline-block';
         // document.getElementById('order-btn').style.display = 'inline-block';
