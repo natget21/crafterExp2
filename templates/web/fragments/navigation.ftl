@@ -105,7 +105,7 @@
                                     <a href="/hub-manager" class="nav-item nav-link sublink <#if currentUrl?starts_with("/hub-manager")>active</#if>">Hub Manager</a>
                                 </div>
                             </div>
-                            <a href="javascript:void(0);" id="logout-btn" class="nav-link" onclick="logout()">LOGOUT CLIENTE (TEST)</a>
+                            <a href="javascript:void(0);" id="logout-btn" class="nav-link" onclick="logout()">LOGOUT CLIENTE</a>
                             <!-- <a href="" class="btn px-0">
                                 <i class="fas fa-heart text-primary"></i>
                                 <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
