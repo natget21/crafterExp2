@@ -112,8 +112,9 @@
     }
     
     function toggleChat() {
-        if(window.messages) {
-            storeChat(window.messages);
+        const allMessages = window.messages || '';
+        if(allMessages) {
+            storeChat(allMessages);
         }
         window.messages = '';
         const messages = document.getElementById('messages');
