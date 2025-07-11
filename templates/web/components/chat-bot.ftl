@@ -76,6 +76,10 @@
     }
 </style>
 
+<button class="btn btn-primary position-fixed top-0 m-2" onclick="storeChat()">
+    TEST
+</button>
+
 <button class="btn btn-primary position-fixed bottom-0 m-2" onclick="toggleChat()">
     <i class="fa fa-comments"></i>
 </button>
@@ -304,6 +308,23 @@
     function convertLink(answer) {
       const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
       return answer.replace(regex, '<a target="_blank" href="$2">$1</a>');
+    }
+    
+    async function storeChat() {
+        const url = 'https://api.shortcut.uno/v1/Ideale/storeChatBot';
+        const headers = {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmdhbml6YXRpb25JZCI6IjY3YWM3OGI2NDFmM2U0M2Y5MzQ3MzgxMCIsInVzZXJfbmFtZSI6Intsb2dpblJvbGU9bnVsbCwgaWQ9Njc4NDYwZTM1MDlhYzM0NjRkNmI2MjEwLCB1c2VybmFtZT1wcm9qZWN0LmNhZ2VAZ21haWwuY29tLCBkZXZpY2VUeXBlPW51bGwsIGRldmljZU5hbWU9bnVsbCwgc2Vzc2lvbklkPW51bGwsIHByb2plY3RJZD02ODY1MmM1MTFmN2Y2NDcyYTY3MGU0YTIsIG9yZ2FuaXphdGlvbklkPTY3YWM3OGI2NDFmM2U0M2Y5MzQ3MzgxMCwgcmVzdHJpY3Rpb25zPXtvcmdhbml6YXRpb25JZD02N2FjNzhiNjQxZjNlNDNmOTM0NzM4MTAsIGRvbWFpbnM9W2h0dHA6Ly81MS42OC4xNzMuMjAxLCBodHRwczovL2RlbW8uc2hvcnRjdXQudW5vLCBodHRwOi8vZGVtby5zaG9ydGN1dC51bm8sIGh0dHBzOi8vaWRlYWxlLnNob3J0Y3V0LnVubywgaHR0cDovL2lkZWFsZS5zaG9ydGN1dC51bm8sIGh0dHA6Ly81MS42OC4xNzMuMjAxOjgwODAsIGh0dHA6Ly81MS42OC4xNzMuMjAxOjkwODEsIGh0dHA6Ly9sb2NhbGhvc3Q6NTAwMCwgaHR0cDovL2xvY2FsaG9zdCwgMTcyLjIxLjAuMSwgbG9jYWxob3N0OjUwMDAsIGxvY2FsaG9zdDo4MDgwLCBsb2NhbGhvc3Q6OTA4MCwgaWRlYWxlLnNob3J0Y3V0LnVubywgNTEuNjguMTczLjIwMSwgNTEuNjguMTczLjIwMTo4MDgwLCA1MS42OC4xNzMuMjAxOjkwODEsIGxvY2FsaG9zdDo1MTczLCBkZW1vLnNob3J0Y3V0LnVubywgaHR0cHM6Ly9hcGkuc2hvcnRjdXQudW5vLCBodHRwOi8vNTEuNjguMTczLjIwMSwgaHR0cDovLzEyNy4wLjAuMSwgYXBpLnNob3J0Y3V0LnVubywgaHR0cHM6Ly9hcGkuc2hvcnRjdXQudW5vLCBsb2NhbGhvc3QsIDEyNy4wLjAuMV19LCBlbmFibGVkPXRydWUsIGFjY291bnROb25FeHBpcmVkPXRydWUsIGNyZWRlbnRpYWxzTm9uRXhwaXJlZD10cnVlLCBhY2NvdW50Tm9uTG9ja2VkPXRydWUsIGF1dGhvcml0aWVzPVt7YXV0aG9yaXR5PUdBVEVXQVlfU0VSVkVSU0lERX1dfSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJyZXN0cmljdGlvbnMiOnsib3JnYW5pemF0aW9uSWQiOiI2N2FjNzhiNjQxZjNlNDNmOTM0NzM4MTAiLCJkb21haW5zIjpbImh0dHA6Ly81MS42OC4xNzMuMjAxIiwiaHR0cHM6Ly9kZW1vLnNob3J0Y3V0LnVubyIsImh0dHA6Ly9kZW1vLnNob3J0Y3V0LnVubyIsImh0dHBzOi8vaWRlYWxlLnNob3J0Y3V0LnVubyIsImh0dHA6Ly9pZGVhbGUuc2hvcnRjdXQudW5vIiwiaHR0cDovLzUxLjY4LjE3My4yMDE6ODA4MCIsImh0dHA6Ly81MS42OC4xNzMuMjAxOjkwODEiLCJodHRwOi8vbG9jYWxob3N0OjUwMDAiLCJodHRwOi8vbG9jYWxob3N0IiwiMTcyLjIxLjAuMSIsImxvY2FsaG9zdDo1MDAwIiwibG9jYWxob3N0OjgwODAiLCJsb2NhbGhvc3Q6OTA4MCIsImlkZWFsZS5zaG9ydGN1dC51bm8iLCI1MS42OC4xNzMuMjAxIiwiNTEuNjguMTczLjIwMTo4MDgwIiwiNTEuNjguMTczLjIwMTo5MDgxIiwibG9jYWxob3N0OjUxNzMiLCJkZW1vLnNob3J0Y3V0LnVubyIsImh0dHBzOi8vYXBpLnNob3J0Y3V0LnVubyIsImh0dHA6Ly81MS42OC4xNzMuMjAxIiwiaHR0cDovLzEyNy4wLjAuMSIsImFwaS5zaG9ydGN1dC51bm8iLCJodHRwczovL2FwaS5zaG9ydGN1dC51bm8iLCJsb2NhbGhvc3QiLCIxMjcuMC4wLjEiXX0sIl9pZCI6IjY3ODQ2MGUzNTA5YWMzNDY0ZDZiNjIxMCIsInByb2plY3RJZCI6IjY4NjUyYzUxMWY3ZjY0NzJhNjcwZTRhMiIsImF1dGhvcml0aWVzIjpbIkdBVEVXQVlfU0VSVkVSU0lERSJdLCJqdGkiOiI0ZTNhMDIzMy1mZDA3LTQ4ZjktOWFjOC1mNTI0ZmZlMWVjZjAiLCJjbGllbnRfaWQiOiJJZGVhbGVfUHJvamVjdF8tX1NlcnZlcl9TaWRlLTE3NTE0NjA5NDUzNjQifQ.2lqDPUNC1-wAXZFdSFqtoR67jm8sAWqGLRb2U1Cduvk',
+            'Origin': 'http://localhost:5000'
+        };
+        const body = JSON.stringify({
+            clientId: "67ae767f5456b36b1e6f3988",
+            botChatContext: "pippo",
+            organizationId: "67ac78b641f3e43f93473810"
+        })
+        const response = await fetch(url, { method: 'POST', headers, body });
+        console.log('TEST', response);
     }
 </script>
 
