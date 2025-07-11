@@ -22,7 +22,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const userJson = localStorage.getItem('crafterVadinUser');
     const user = JSON.parse(userJson);
-    console.log('USER: ', user);
+    
     console.log(document.getElementById('catalog-btn'),"catalog-btn")
     
     
