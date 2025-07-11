@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>b8d3</objectGroupId>
+    <objectId>b8d3527e-a886-4176-8bab-7aa1ec1e5bd2</objectId>
+    <file-name>b8d3527e-a886-4176-8bab-7aa1ec1e5bd2.xml</file-name>
+    <folder-name/>
+    <internal-name>LINGUAGGIO INCLUSIVO DI GENERE</internal-name>
+    <name_s>Linguaggio inclusivo di genere</name_s>
+    <obiettivo_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</obiettivo_html>
+    <descrizione_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</descrizione_html>
+    <partnerId_s>67fce2daf647a63da899d029</partnerId_s>
+    <codice_s>ELEARNING-LINGUAGGIO_INCLUSIVO_DI_GENERE</codice_s>
+    <informazionisulcosto_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</informazionisulcosto_html>
+    <productid_s>PRO_31e14ff4</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+   <value>formazione-a-catalogo-tecnica-e-manageriale</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <createdDate>2025-07-11T13:48:13.968Z</createdDate>
+    <createdDate_dt>2025-07-11T13:48:13.968Z</createdDate_dt>
+    <lastModifiedDate>2025-07-11T13:48:13.968Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-07-11T13:48:13.968Z</lastModifiedDate_dt>
+</component>
