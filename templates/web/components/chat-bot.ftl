@@ -116,6 +116,9 @@
     }
     
     function toggleChat() {
+        if(window.messages) {
+            storeChat(window.messages);
+        }
         window.messages = '';
         const messages = document.getElementById('messages');
         while (messages.firstChild) messages.removeChild(messages.firstChild);
@@ -310,7 +313,7 @@
       return answer.replace(regex, '<a target="_blank" href="$2">$1</a>');
     }
     
-    async function storeChat() {
+    async function storeChat(messages) {
         const url = 'https://api.shortcut.uno/v1/Ideale/storeChatBot';
         const headers = {
             'Accept': 'application/json',
@@ -320,11 +323,11 @@
         };
         const body = JSON.stringify({
             clientId: "67ae767f5456b36b1e6f3988",
-            botChatContext: "pippo",
+            botChatContext: messages,
             organizationId: "67ac78b641f3e43f93473810"
         })
         const response = await fetch(url, { method: 'POST', headers, body });
-        console.log('TEST', response);
+        console.log('Store Chat', response);
     }
 </script>
 
