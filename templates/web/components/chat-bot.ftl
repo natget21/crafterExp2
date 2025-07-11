@@ -322,7 +322,7 @@
             'Origin': 'http://localhost:5000'
         };
         const body = JSON.stringify({
-            clientId: "67ae767f5456b36b1e6f3988",
+            clientId: user._id,
             botChatContext: messages,
             organizationId: "67ac78b641f3e43f93473810"
         })
