@@ -76,6 +76,14 @@
     }
 </style>
 
+<button class="btn btn-primary position-fixed bottom-0 m-2">
+    <#list .globals?keys as key>
+        ${key}
+    </#list>
+</button>
+
+
+
 <button class="btn btn-primary position-fixed bottom-0 m-2" onclick="toggleChat()">
     <i class="fa fa-comments"></i>
 </button>
