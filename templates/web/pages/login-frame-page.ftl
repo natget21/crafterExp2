@@ -44,6 +44,7 @@
             let isRegister = false;
     
             button.addEventListener("click", function () {
+                alert("Ok")
                 if (isRegister) {
                     iframe.src = "https://ideale.shortcut.uno/provider-login?orgId=67ac78b641f3e43f93473810&themeStyle=light";
                     button.textContent = "Register";
