@@ -58,18 +58,18 @@
     </div>
 
 
-
+<!--
 <div class="row mx-4 mx-xl-5">
     <div class="mb-5 mt-3 mx-3">
       <div class="row align-items-center pr-4">
-        <!-- Parte sinistra: info -->
+        
         <h6 class="fw-bold mb-1" style="color: var(--primary-active);">${content.name_s}</h6>
         <small class="text-muted d-block mb-2 text-uppercase">Codice prodotto</small>
         <div class="col-md-8 d-flex">
-          <!-- Immagine -->
+       
           <img src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="Servizio" class="me-3" style="width:180px; height:100px;">
           
-          <!-- Testo -->
+      
           <div>
           
             <#if content?? && content?has_content>
@@ -95,7 +95,6 @@
           </div>
         </div>
     
-        <!-- Parte destra: quantità + bottone -->
         <div class="col-md-4 d-flex flex-column align-items-end">
           <div class="input-group quantity d-flex align-items-center mb-3 justify-content-end">
             <button id="decrease" style="height: 16px; width: 20px;" class="btn btn-secondary btn-sm me-2 d-flex align-items-center justify-content-center">-</button>
@@ -104,7 +103,7 @@
           </div>
           <button class="btn btn-secondary text-white rounded-pill px-4">AGGIUNGI AL CARRELLO</button>
         </div>
-
+-->
         <script>
           const quantitySpan = document.getElementById('quantity');
           const increaseBtn = document.getElementById('increase');
