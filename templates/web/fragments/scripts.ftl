@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
         if(user.access_token) {
             hide('login-btn');
-            show('logout-btn');
+            show('reserved-area');
             show('order-btn');
             show('catalog-btn');
             show('default-nav');
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
             show('chatBotButton');
         } else {
             show('login-btn');
-            hide('logout-btn');
+            hide('reserved-area');
             hide('order-btn');
             hide('catalog-btn');
             hide('default-nav');
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // document.getElementById('add-order').style.display = 'none';
         
         show('login-btn');
-        hide('logout-btn');
+        hide('reserved-area');
         hide('order-btn');
         hide('catalog-btn');
         hide('default-nav');
