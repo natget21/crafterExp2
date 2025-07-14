@@ -63,32 +63,4 @@
     </div>
   </div>
 
-
-
-
-
-
-
-
-
-
-  <div class="row align-items-center flex-column flex-md-row gap-3">
-    <!-- Immagine -->
-    <div class="col-auto p-0">
-      <img style="height: 100px" src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="Servizio">
-    </div>
-
-    <!-- Testo -->
-    <div class="col p-0">
-      <h5 class="mb-1 fw-semibold">${contentModel.name_s?default("")}</h5>
-      <p data-tags="${tagsStr}" style="max-width: 280px; max-height: 20px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="mb-0 text-muted">EUR ${contentModel.costo_s?default("0")}</p>
-    </div>
-
-    <!-- Bottone -->
-    <div class="col-auto p-0">
-      <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
-        SCOPRI DI PIÙ
-      </a>
-    </div>
-  </div>
 </div>
