@@ -25,7 +25,7 @@
     <div class="row mb-3">
       <div class="col-md-1">
         <div class="bg-secondary text-white d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
-            <img src="" alt="Servizio" class="me-3" style="width:180px; height:100px;">
+            <img src="${image}" alt="Servizio" class="me-3" style="width:180px; height:100px;">
         </div>
       </div>
       <div class="col-md-11">
