@@ -50,6 +50,12 @@
           <strong>Agevolazione</strong>: ${serviceFacilitation}
         </p>
       </div>
+      
+      <ul>
+        <#list contentModel?keys as key>
+          <li><strong>${key}</strong>: ${contentModel[key]}</li>
+        </#list>
+    </ul>
 
       <!-- Pulsanti -->
       <div class="text-end mt-auto">
