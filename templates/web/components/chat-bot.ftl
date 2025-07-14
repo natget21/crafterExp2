@@ -76,11 +76,11 @@
     }
 </style>
 
-<button class="btn btn-primary position-fixed bottom-0 m-2 d-block" onclick="toggleChat()">
+<button class="btn btn-primary position-fixed bottom-0 m-2 d-block" style="z-index: 999;" onclick="toggleChat()">
     <i class="fa fa-comments"></i>
 </button>
 
-<div class="card w-25 position-fixed bottom-0 end-0 m-1 d-none" style="z-index: 999;" id="chat">
+<div class="card w-25 position-fixed bottom-0 end-0 m-1 d-none" id="chat">
     <div class="card-header d-flex">
         <button class="btn-close ms-auto" onclick="toggleChat()"></button>
     </div>
