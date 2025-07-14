@@ -24,7 +24,7 @@
   <div class="container border rounded p-4 shadow-sm">
     <div class="row mb-3">
       <div class="col-md-1">
-        <div class="bg-secondary text-white d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+        <div class="d-flex align-items-center justify-content-center">
             <img src="${image}" alt="Servizio" class="me-3" style="width:180px; height:100px;">
         </div>
       </div>
