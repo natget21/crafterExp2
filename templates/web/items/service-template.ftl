@@ -56,17 +56,12 @@
         <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
           SCOPRI DI PIÙ
         </a>
-        <a onclick="test(${contentModel})" class="btn btn-secondary rounded-pill text-white px-4">
+        <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
           <i class="fa fa-cart-plus"></i>
+          ${contentModel}
         </a>
       </div>
     </div>
   </div>
 </div>
 
-<script>
-    function test(item) {
-        //const contentModel = ${item?json};
-        console.log("ContentModel:", item);
-    }
-</script>
