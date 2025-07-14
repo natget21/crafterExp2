@@ -43,10 +43,10 @@
                 </p>
             </#if>
             <div class="mt-2">
-              <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
-              <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
-              <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
-              <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG</span>
+              <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG1</span>
+              <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG2</span>
+              <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG3</span>
+              <span class="me-2 text-primary" style="font-size: 0.75rem;">TAG4</span>
             </div>
           </div>
         </div>
