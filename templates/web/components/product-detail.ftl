@@ -22,10 +22,10 @@
 
 
     <div class="container row mx-auto">
-      <h4 class="text-primary">Onboarding immersivo per la fase di scarico</h4>
-      <p class="text-muted small">Codice: VR-ONB-002</p>
+      <h4 class="text-primary">${name}</h4>
+      <p class="text-muted small">Codice: ${code}</p>
       <div class="col-2">
-        <img src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" style="width: 100%;" />
+        <img src="${image}" style="width: 100%;" />
       </div>
       <div class="col-10">
         <dl class="row">
