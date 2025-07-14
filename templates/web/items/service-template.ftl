@@ -66,7 +66,7 @@
 
 <script>
     function test(item) {
-        const contentModel = ${item?json};
+        //const contentModel = ${item?json};
         console.log("ContentModel:", contentModel);
     }
 </script>
