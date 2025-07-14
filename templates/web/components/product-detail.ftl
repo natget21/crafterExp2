@@ -25,7 +25,13 @@
 <#assign facilitation = (RequestParameters.agev?default("false") == "true")?string("Possibile", "Non Possibile") />
 <#assign cup = RequestParameters.cup?default("Nessun CUP") />
 
-
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="/prodotti">Prodotti</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Onboarding VR</li>
+    </ol>
+  </nav>
 
     <div class="container row mx-auto">
       <h4 class="text-primary">${name}</h4>
