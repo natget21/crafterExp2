@@ -48,7 +48,7 @@
     </div>
     
     <!-- Parte destra: quantità + bottone -->
-    <div class="col-md-4 d-flex flex-column align-items-end">
+    <div class="d-flex flex-column align-items-end">
       <div class="input-group quantity d-flex align-items-center mb-3 justify-content-end">
         <button id="decrease" style="height: 16px; width: 20px;" class="btn btn-secondary btn-sm me-2 d-flex align-items-center justify-content-center">-</button>
         <span style="width: 50px; text-align: center;" id="quantity" class="text-dark">1</span>
