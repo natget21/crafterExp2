@@ -15,6 +15,46 @@
 
 <#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
 
+
+
+  <div class="container border rounded p-4 shadow-sm">
+    <div class="row mb-3">
+      <div class="col-md-1">
+        <div class="bg-secondary text-white d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+          IMG
+        </div>
+      </div>
+      <div class="col-md-11">
+        <h5 class="fw-bold text-primary">Titolo</h5>
+        <p class="text-muted">Codice</p>
+      </div>
+    </div>
+
+    <p>Descrizione</p>
+
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <p><strong>Costo:</strong> Costo</p>
+        <p class="text-muted">
+          <strong>Note:</strong> Note
+        </p>
+        <p><strong>Agevolazione:</strong> Agevolazione</p>
+        <p><strong>CUP:</strong> Cup</p>
+      </div>
+      <div class="col-md-6 d-flex align-items-end justify-content-end">
+        <div class="d-flex align-items-center">
+          <label for="quantita" class="me-2 fw-bold text-primary">Quantità:</label>
+          <input type="number" id="quantita" class="form-control me-2" value="1" min="1" style="width: 70px;">
+          <button class="btn btn-outline-dark">
+            <i class="bi bi-cart-plus"></i> Aggiungi al carrello
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 <div class="row mx-4 mx-xl-5">
     <div class="mb-5 mt-3 mx-3">
       <div class="row align-items-center pr-4">
