@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
             hide('static-nav');
             show('add-order');
             hide('signup-btn');
-            show('chatBotButton');
+            // show('chatBotButton');
         } else {
             show('login-btn');
             hide('reserved-area');
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
             show('static-nav');
             hide('add-order');
             show('signup-btn');
-            hide('chatBotButton');
+            // hide('chatBotButton');
         }
         
         
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
         show('static-nav');
         hide('add-order');
         show('signup-btn');
-        hide('chatBotButton');
+        // hide('chatBotButton');
     }
 
     document.getElementById('logout-btn').addEventListener('click', function (event) {
