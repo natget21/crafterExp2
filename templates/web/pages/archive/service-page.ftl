@@ -8,6 +8,7 @@
 
     <!-- Header Section (Logo, Search Bar, etc.) -->
     <#include "/templates/web/fragments/header.ftl">
+    <#include "/templates/web/components/chat-bot.ftl"> 
     
      <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation-no-padding.ftl">
