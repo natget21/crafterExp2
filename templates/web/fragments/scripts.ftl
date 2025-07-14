@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
             hide('static-nav');
             show('add-order');
             hide('signup-btn');
-            // show('chatBotButton');
+            show('chatBotButton');
         } else {
             show('login-btn');
             hide('reserved-area');
