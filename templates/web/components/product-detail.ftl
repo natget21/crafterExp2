@@ -22,7 +22,7 @@
 <#assign description = contentModel.description_t?default("Nessuna descrizione") />
 <#assign price = RequestParameters.p?default("Nessuna descrizione") />
 <#assign notes = contentModel.notes_t?default("Nessuna nota") />
-<#assign facilitation = RequestParameters.agev?default(false)?string("Possibile", "Non possibile") />
+<#assign facilitation = RequestParameters.agev?default(false) />
 <#assign cup = RequestParameters.cup?default("Nessun CUP") />
 
 
