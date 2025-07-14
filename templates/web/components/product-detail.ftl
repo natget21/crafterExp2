@@ -21,7 +21,7 @@
 
 
 
-    <div class="container row">
+    <div class="container row mx-auto">
       <h4 class="text-primary">Onboarding immersivo per la fase di scarico</h4>
       <p class="text-muted small">Codice: VR-ONB-002</p>
       <div class="col-2">
