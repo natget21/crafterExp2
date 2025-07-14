@@ -93,6 +93,6 @@
 
 <script>
 function test() {
-    console.log(${contentModel}));
+    console.log(${contentModel});
 }
 </script>
