@@ -31,7 +31,7 @@
   <div class="row g-3">
     <!-- Immagine -->
     <div class="col-md-auto">
-      <img src="${serviceImage}" alt="Servizio" style="height: 100px; object-fit: cover;">
+      <img src="${serviceImage}" alt="Servizio ${serviceName}" style="height: 100px; object-fit: cover;">
     </div>
 
     <!-- Testo + bottone -->
@@ -42,10 +42,11 @@
         </h4>
 
         <p data-tags="${tagsStr}"
-           class="mb-2 text-muted small"
+           class="mb-2 text-muted medium"
            style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
            ${serviceDescription}
-        <p class="mb-4">
+       </p>
+        <p class="mb-2 text-muted small">
           <strong>Agevolazione</strong>: ${serviceFacilitation}
         </p>
       </div>
