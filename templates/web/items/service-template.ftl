@@ -31,7 +31,7 @@
   <div class="row g-3">
     <!-- Immagine -->
     <div class="col-md-auto">
-      <img src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="Servizio" style="height: 100px; object-fit: cover;">
+      <img src="${serviceImage}" alt="Servizio" style="height: 100px; object-fit: cover;">
     </div>
 
     <!-- Testo + bottone -->
