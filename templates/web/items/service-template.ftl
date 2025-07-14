@@ -65,7 +65,6 @@
 </div>
 
 <script>
-    function test(item) {
-        
-    }
+  const contentModel = ${contentModel?json};
+  console.log("ContentModel:", contentModel);
 </script>
