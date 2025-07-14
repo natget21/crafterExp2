@@ -129,7 +129,7 @@
 </div>
 
 
-
+<!--
 <div class="container-fluid pb-5 d-none">
         <div class="row px-xl-5">
             <div class="col-lg-5 mb-30">
@@ -147,6 +147,7 @@
                         <div class="carousel-item">
                             <img class="w-100 h-100" src="static-assets/img/product-4.jpg" alt="Image">
                         </div>-->
+                        <!--
                     </div>
                     <a class="carousel-control-prev" href="#product-carousel" data-slide="prev">
                         <i class="fa fa-2x fa-angle-left text-dark"></i>
@@ -225,6 +226,7 @@
                             </div>
                         </form>
                     </div>-->
+                    <!--
                     <div class="d-flex align-items-center mb-4 pt-2">
                         <div class="input-group quantity mr-3" style="width: 130px;">
                             <div class="input-group-btn">
@@ -281,6 +283,7 @@
                             </a>
                         </div>
                     </div> -->
+                    <!--
                 </div>
             </div>
         </div>
@@ -311,6 +314,7 @@
                             <#include "product-detail-description-skills.ftl">
                             <#include "product-detail-desc-test.ftl">
                             -->
+                            <!--
                             <#include "product-detail-desc-consulenza.ftl">
                         </div>
                         <div class="tab-pane fade" id="tab-pane-3">
@@ -389,6 +393,7 @@
                                     <div class="d-flex my-3">
                                         <div id="stars" class="text-primary" style="user-select:none;">
                                             <!-- Stelle cliccabili -->
+                                            <!--
                                             <i class="far fa-star" style="cursor: pointer;" data-index="1"></i>
                                             <i class="far fa-star" style="cursor: pointer;" data-index="2"></i>
                                             <i class="far fa-star" style="cursor: pointer;" data-index="3"></i>
@@ -435,3 +440,4 @@
             </div>
         </div>
     </div>
+    -->
