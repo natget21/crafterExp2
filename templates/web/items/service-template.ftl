@@ -90,7 +90,7 @@
 </div>
 
 <script>
-function test() {
-    alert("ok");
+function test(item) {
+    console.log("test", item);
 }
 </script>
