@@ -12,6 +12,11 @@
 "&pri=" + subcategoryData.requireprivacyacceptance_b?default(false)?string("true", "false")+
 "&item="+contentModel.storeUrl?url?default('')/>
 
+<#assign serviceName = contentModel.name_s?default('Senza nome') />
+<#assign serviceDescription = contentModel.descrizione_s?default('Nessuna descrizione') />
+<#assign serviceImage = contentModel.image?default('https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg') />
+<#assign serviceFacilitation = contentModel.agevolazione_b?default(false)?string("Possibile", "Non possibile") />
+
 <#assign tags = []>
   <#if subcategoryData.tags_o??>
     <#assign tags = subcategoryData.tags_o.item?default([]) />
@@ -23,10 +28,6 @@
 </#if>
 <div class="container my-4">
 
-    <button onclick="test()">
-        test
-    </button>
-
   <div class="row g-3">
     <!-- Immagine -->
     <div class="col-md-auto">
@@ -37,15 +38,15 @@
     <div class="col d-flex flex-column justify-content-between">
       <div>
         <h4 class="mb-1 fw-semibold">
-          Titolo
+          ${serviceName}
         </h4>
 
         <p data-tags="${tagsStr}"
            class="mb-2 text-muted small"
            style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
-           Descrizione
+           ${serviceDescription}
         <p class="mb-4">
-          <strong>Agevolazione</strong>: Possibile
+          <strong>Agevolazione</strong>: ${serviceFacilitation}
         </p>
       </div>
 
@@ -90,9 +91,3 @@
     </div>
   </div>
 </div>
-
-<script>
-function test() {
-    console.log(${contentModel});
-}
-</script>
