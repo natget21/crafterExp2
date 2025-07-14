@@ -21,41 +21,31 @@
 
 
 
-  <div class="container border rounded p-4 shadow-sm">
-    <div class="row mb-3">
-      <div class="col-md-1">
-        <div class="d-flex align-items-center justify-content-center">
-            <img src="${image}" alt="Servizio" class="me-3" style="width:180px; height:100px;">
-        </div>
+    <div class="container row">
+      <h4 class="text-primary">Onboarding immersivo per la fase di scarico</h4>
+      <p class="text-muted small">Codice: VR-ONB-002</p>
+      <div class="col-2">
+        <img src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" style="width: 100%;" />
       </div>
-      <div class="col-md-11">
-        <h5 class="fw-bold text-primary">${name}</h5>
-        <p class="text-muted">Codice</p>
-      </div>
-    </div>
-
-    <p>Descrizione</p>
-
-    <div class="row mt-4">
-      <div class="col-md-6">
-        <p><strong>Costo:</strong> Costo</p>
-        <p class="text-muted">
-          <strong>Note:</strong> Note
-        </p>
-        <p><strong>Agevolazione:</strong> Agevolazione</p>
-        <p><strong>CUP:</strong> Cup</p>
-      </div>
-      <div class="col-md-6 d-flex align-items-end justify-content-end">
-        <div class="d-flex align-items-center">
-          <label for="quantita" class="me-2 fw-bold text-primary">Quantità:</label>
-          <input type="number" id="quantita" class="form-control me-2" value="1" min="1" style="width: 70px;">
-          <button class="btn btn-outline-dark">
-            <i class="bi bi-cart-plus"></i> Aggiungi al carrello
-          </button>
-        </div>
+      <div class="col-10">
+        <dl class="row">
+          <dt class="col-sm-2 text-primary fw-bold">Descrizione</dt>
+          <dd class="col-sm-10">Esperienza formativa in realtà virtuale (VR) per nuovi operatori assegnati alla fase di scarico e controllo qualità di una linea
+            produttiva in uno stabilimento industriale. Il percorso guida l'utente in modo interattivo e immersivo attraverso ambienti a 360°,
+            esercizi pratici, quiz e video tutorial, permettendo di familiarizzare con attrezzature, procedure operative e controlli di qualità.</dd>
+          <dt class="col-sm-2 text-primary fw-bold">Codice</dt>
+          <dd class="col-sm-10">VR-ONB-002</dd>
+          <dt class="col-sm-2 text-primary fw-bold">Costo</dt>
+          <dd class="col-sm-10">10 euro</dd>
+          <dt class="col-sm-2 text-primary fw-bold">Note</dt>
+          <dd class="col-sm-10">Una nota notevole</dd>
+          <dt class="col-sm-2 text-primary fw-bold">Agevolazione</dt>
+          <dd class="col-sm-10">Stecina</dd>
+          <dt class="col-sm-2 text-primary fw-bold">CUP</dt>
+          <dd class="col-sm-10">Ogni tanto</dd>
+        </dl>
       </div>
     </div>
-  </div>
 
 
 
