@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/test-before-invest</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>17f1</objectGroupId>
+    <objectId>17f129b8-2e3f-4189-822a-889c8f12e88c</objectId>
+    <file-name>17f129b8-2e3f-4189-822a-889c8f12e88c.xml</file-name>
+    <folder-name/>
+    <internal-name>TEST LAST2</internal-name>
+    <name_s>test Last2</name_s>
+    <test_s>Cyber Security</test_s>
+    <agevolazione_b>true</agevolazione_b>
+    <document_s>1</document_s>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <description_t>test Last2</description_t>
+    <costo_s>2</costo_s>
+    <cup_s>2</cup_s>
+    <productid_s>PRO_8be863f1</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-15.xml</key>
+   <value>progetti</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-15.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <duration_s>2</duration_s>
+    <createdDate>2025-07-14T07:52:20.761Z</createdDate>
+    <createdDate_dt>2025-07-14T07:52:20.761Z</createdDate_dt>
+    <lastModifiedDate>2025-07-14T07:52:20.761Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-07-14T07:52:20.761Z</lastModifiedDate_dt>
+</component>
