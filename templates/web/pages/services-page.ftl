@@ -5,9 +5,9 @@
 <#include "/templates/web/fragments/head.ftl">
 <body>
     <@crafter.body_top/>
-    <#include "/templates/web/components/chat-bot.ftl"> 
     <#include "/templates/web/fragments/header.ftl">
     <#include "/templates/web/fragments/navigation.ftl">
+    <#include "/templates/web/components/chat-bot.ftl"> 
     
     
     <#assign categoryName = RequestParameters.category?default("") />
