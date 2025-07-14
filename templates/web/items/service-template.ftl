@@ -23,7 +23,9 @@
 </#if>
 <div class="container my-4">
 
-    <button onclick="test(${contentModel})">test</button>
+    <button onclick="test(${contentModel})">
+        ${contentModel}
+    </button>
 
   <div class="row g-3">
     <!-- Immagine -->
