@@ -23,7 +23,7 @@
 </#if>
 <div class="container my-4">
 
-    <button onclick="alert("ok")">test</button>
+    <button onclick="test()">test</button>
 
   <div class="row g-3">
     <!-- Immagine -->
@@ -88,3 +88,9 @@
     </div>
   </div>
 </div>
+
+<script>
+function test() {
+    alert("ok");
+}
+</script>
