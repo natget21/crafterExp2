@@ -24,7 +24,7 @@
 <div class="container my-4">
 
     <button onclick="test(${contentModel})">
-        ${contentModel}
+        {{JSON.strigify(${contentModel})}}
     </button>
 
   <div class="row g-3">
