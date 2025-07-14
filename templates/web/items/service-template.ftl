@@ -23,8 +23,8 @@
 </#if>
 <div class="container my-4">
 
-    <button onclick="test(${contentModel})">
-        {{JSON.strigify(${contentModel})}}
+    <button onclick="test()">
+        test
     </button>
 
   <div class="row g-3">
@@ -92,7 +92,7 @@
 </div>
 
 <script>
-function test(item) {
-    console.log("test", item);
+function test() {
+    console.log(${contentModel}));
 }
 </script>
