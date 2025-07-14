@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/access-to-finance</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>b922</objectGroupId>
+    <objectId>b9224a33-2464-4632-9219-ed19ebb16676</objectId>
+    <file-name>b9224a33-2464-4632-9219-ed19ebb16676.xml</file-name>
+    <folder-name/>
+    <internal-name>TEST LAST</internal-name>
+    <name_s>test Last</name_s>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <destinatari_t>test</destinatari_t>
+    <durata_t>test</durata_t>
+    <costodelservizio_s>test</costodelservizio_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-8.xml</key>
+   <value>crowdfunding</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-8.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <serviziinclusi_html>&lt;p&gt;test&lt;/p&gt;</serviziinclusi_html>
+    <agevolazione_b>true</agevolazione_b>
+    <obiettivo_html>&lt;p&gt;test&lt;/p&gt;</obiettivo_html>
+    <descrizione_html>&lt;p&gt;test&lt;/p&gt;</descrizione_html>
+    <areageografica_t>test</areageografica_t>
+    <codiceprodotto_s>222</codiceprodotto_s>
+    <descrizionecostoservizio_t>test</descrizionecostoservizio_t>
+    <cup_s>62100</cup_s>
+    <productid_s>PRO_7118728a</productid_s>
+    <createdDate>2025-07-14T07:53:15.628Z</createdDate>
+    <createdDate_dt>2025-07-14T07:53:15.628Z</createdDate_dt>
+    <lastModifiedDate>2025-07-14T07:53:15.628Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-07-14T07:53:15.628Z</lastModifiedDate_dt>
+</component>
