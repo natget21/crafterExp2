@@ -66,6 +66,6 @@
 
 <script>
     function test(item) {
-        console.log("item", item);
+        
     }
 </script>
