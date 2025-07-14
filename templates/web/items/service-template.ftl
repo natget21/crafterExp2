@@ -56,7 +56,7 @@
         <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
           SCOPRI DI PIÙ
         </a>
-        <a onclick="test(${contentModel?json})" class="btn btn-secondary rounded-pill text-white px-4">
+        <a onclick="test(${contentModel})" class="btn btn-secondary rounded-pill text-white px-4">
           <i class="fa fa-cart-plus"></i>
         </a>
       </div>
