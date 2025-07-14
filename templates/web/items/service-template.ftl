@@ -42,7 +42,7 @@
         </h4>
 
         <p data-tags="${tagsStr}"
-           class="mb-2 text-muted medium"
+           class="mb-2 text-muted small"
            style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
            ${serviceDescription}
        </p>
