@@ -15,6 +15,8 @@
 
 <#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
 
+
+<#assign image = contentModel.image?default("https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg") />
 <#assign name = contentModel.name_s?default("Nessun nome") />
 
 
