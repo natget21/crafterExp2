@@ -51,11 +51,7 @@
         </p>
       </div>
       
-      <ul>
-        <#list contentModel.item?keys as key>
-          <li><strong>${key}</strong>: ${contentModel[key]}</li>
-        </#list>
-    </ul>
+      <div>${contentModel.item.toString()}</div>
 
       <!-- Pulsanti -->
       <div class="text-end mt-auto">
