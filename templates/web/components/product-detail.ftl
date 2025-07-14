@@ -15,17 +15,19 @@
 
 <#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
 
+<#assign name = contentModel.name_s?default("Nessun nome") />
+
 
 
   <div class="container border rounded p-4 shadow-sm">
     <div class="row mb-3">
       <div class="col-md-1">
         <div class="bg-secondary text-white d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
-          IMG
+            <img src="" alt="Servizio" class="me-3" style="width:180px; height:100px;">
         </div>
       </div>
       <div class="col-md-11">
-        <h5 class="fw-bold text-primary">Titolo</h5>
+        <h5 class="fw-bold text-primary">${name}</h5>
         <p class="text-muted">Codice</p>
       </div>
     </div>
