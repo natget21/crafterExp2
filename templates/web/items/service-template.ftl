@@ -52,7 +52,7 @@
       </div>
       
       <ul>
-        <#list contentModel?keys as key>
+        <#list contentModel.item?keys as key>
           <li><strong>${key}</strong>: ${contentModel[key]}</li>
         </#list>
     </ul>
