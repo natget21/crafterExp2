@@ -16,11 +16,14 @@
 <#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
 
 
-<#assign name = contentModel.name_s?default("Nessun nome") />
-<#assign code = contentModel.code_s?default("Nessun codice") />
+<#assign name = RequestParameters.n?default("Nessun nome") />
+<#assign code = RequestParameters.pid?default("Nessun codice") />
 <#assign image = contentModel.image?default("https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg") />
 <#assign description = contentModel.description_t?default("Nessuna descrizione") />
-<#assign price = contentModel.description_t?default("Nessuna descrizione") />
+<#assign price = RequestParameters.p?default("Nessuna descrizione") />
+<#assign description = contentModel.notes_t?default("Nessuna nota") />
+<#assign facilitation = RequestParameters.agev?default("") />
+<#assign cup = RequestParameters.cup?default("Nessun CUP") />
 
 
 
@@ -35,7 +38,7 @@
           <dt class="col-sm-2 text-primary fw-bold">Descrizione</dt>
           <dd class="col-sm-10">${description}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Costo</dt>
-          <dd class="col-sm-10">${cost}</dd>
+          <dd class="col-sm-10">${price}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Note</dt>
           <dd class="col-sm-10">${notes}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Agevolazione</dt>
