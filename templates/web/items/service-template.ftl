@@ -50,8 +50,6 @@
           <strong>Agevolazione</strong>: ${serviceFacilitation}
         </p>
       </div>
-      
-      <div>${contentModel.item.toString()}</div>
 
       <!-- Pulsanti -->
       <div class="text-end mt-auto">
