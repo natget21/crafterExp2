@@ -21,24 +21,69 @@
 <#else>
  <#assign tagsStr = tags?map(t -> t.key)?join(",")>
 </#if>
-    <div class="container my-4">
-      <div class="row align-items-center flex-column flex-md-row gap-3">
-        <!-- Immagine -->
-        <div class="col-auto p-0">
-          <img style="height: 100px" src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="Servizio">
-        </div>
-    
-        <!-- Testo -->
-        <div class="col p-0">
-          <h5 class="mb-1 fw-semibold">${contentModel.name_s?default("")}</h5>
-          <p data-tags="${tagsStr}" style="max-width: 280px; max-height: 20px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="mb-0 text-muted">EUR ${contentModel.costo_s?default("0")}</p>
-        </div>
-    
-        <!-- Bottone -->
-        <div class="col-auto p-0">
-          <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
-            SCOPRI DI PIÙ
-          </a>
-        </div>
+<div class="container my-4">
+
+
+  <div class="row g-3">
+    <!-- Immagine -->
+    <div class="col-md-auto">
+      <img src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="Servizio" style="height: 100px; object-fit: cover;">
+    </div>
+
+    <!-- Testo + bottone -->
+    <div class="col d-flex flex-column justify-content-between">
+      <div>
+        <h4 class="mb-1 fw-semibold">
+          Titolo
+        </h4>
+
+        <p data-tags="${tagsStr}"
+           class="mb-2 text-muted small"
+           style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
+           Descrizione
+        <p class="mb-4">
+          <strong>Agevolazione</strong>: Possibile
+        </p>
+      </div>
+
+      <!-- Pulsanti -->
+      <div class="text-end mt-auto">
+        <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
+          SCOPRI DI PIÙ
+        </a>
+        <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
+          <i class="fa fa-comments"></i>
+        </a>
       </div>
     </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <div class="row align-items-center flex-column flex-md-row gap-3">
+    <!-- Immagine -->
+    <div class="col-auto p-0">
+      <img style="height: 100px" src="https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg" alt="Servizio">
+    </div>
+
+    <!-- Testo -->
+    <div class="col p-0">
+      <h5 class="mb-1 fw-semibold">${contentModel.name_s?default("")}</h5>
+      <p data-tags="${tagsStr}" style="max-width: 280px; max-height: 20px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="mb-0 text-muted">EUR ${contentModel.costo_s?default("0")}</p>
+    </div>
+
+    <!-- Bottone -->
+    <div class="col-auto p-0">
+      <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
+        SCOPRI DI PIÙ
+      </a>
+    </div>
+  </div>
+</div>
