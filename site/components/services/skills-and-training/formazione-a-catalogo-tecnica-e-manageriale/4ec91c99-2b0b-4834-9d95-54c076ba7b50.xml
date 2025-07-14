@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>4ec9</objectGroupId>
+    <objectId>4ec91c99-2b0b-4834-9d95-54c076ba7b50</objectId>
+    <file-name>4ec91c99-2b0b-4834-9d95-54c076ba7b50.xml</file-name>
+    <folder-name/>
+    <internal-name>TEST LAST4</internal-name>
+    <name_s>test Last4</name_s>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <codice_s>test</codice_s>
+    <durata_s>test4</durata_s>
+    <informazionisulcosto_html>&lt;p&gt;test4&lt;/p&gt;</informazionisulcosto_html>
+    <rivolto_t>test4</rivolto_t>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+   <value>formazione-a-catalogo-tecnica-e-manageriale</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <extra_costo_t>test4</extra_costo_t>
+    <duratasessione_s>test4</duratasessione_s>
+    <modalita_t>test4</modalita_t>
+    <agevolazione_b>true</agevolazione_b>
+    <obiettivo_html>&lt;p&gt;test4&lt;/p&gt;</obiettivo_html>
+    <descrizione_html>&lt;p&gt;test4&lt;/p&gt;</descrizione_html>
+    <partecipantiMin_s>test4</partecipantiMin_s>
+    <cup_s>test4</cup_s>
+    <productid_s>PRO_3536b402</productid_s>
+    <maxpartecipanti_s>test4</maxpartecipanti_s>
+    <createdDate>2025-07-14T07:54:57.047Z</createdDate>
+    <createdDate_dt>2025-07-14T07:54:57.047Z</createdDate_dt>
+    <lastModifiedDate>2025-07-14T07:54:57.047Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-07-14T07:54:57.047Z</lastModifiedDate_dt>
+</component>
