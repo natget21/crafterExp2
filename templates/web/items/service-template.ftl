@@ -57,7 +57,7 @@
           SCOPRI DI PIÙ
         </a>
         <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
-          <i class="fa-cart-plus"></i>
+          <i class="fa fa-cart-plus"></i>
         </a>
       </div>
     </div>
