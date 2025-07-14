@@ -30,19 +30,15 @@
       <div class="col-10">
         <dl class="row">
           <dt class="col-sm-2 text-primary fw-bold">Descrizione</dt>
-          <dd class="col-sm-10">Esperienza formativa in realtà virtuale (VR) per nuovi operatori assegnati alla fase di scarico e controllo qualità di una linea
-            produttiva in uno stabilimento industriale. Il percorso guida l'utente in modo interattivo e immersivo attraverso ambienti a 360°,
-            esercizi pratici, quiz e video tutorial, permettendo di familiarizzare con attrezzature, procedure operative e controlli di qualità.</dd>
-          <dt class="col-sm-2 text-primary fw-bold">Codice</dt>
-          <dd class="col-sm-10">VR-ONB-002</dd>
+          <dd class="col-sm-10">${description}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Costo</dt>
-          <dd class="col-sm-10">10 euro</dd>
+          <dd class="col-sm-10">${cost}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Note</dt>
-          <dd class="col-sm-10">Una nota notevole</dd>
+          <dd class="col-sm-10">${notes}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Agevolazione</dt>
-          <dd class="col-sm-10">Stecina</dd>
+          <dd class="col-sm-10">${facilitation}</dd>
           <dt class="col-sm-2 text-primary fw-bold">CUP</dt>
-          <dd class="col-sm-10">Ogni tanto</dd>
+          <dd class="col-sm-10">${cup}</dd>
         </dl>
       </div>
     </div>
