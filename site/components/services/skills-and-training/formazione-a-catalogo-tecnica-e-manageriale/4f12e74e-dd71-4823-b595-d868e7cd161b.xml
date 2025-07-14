@@ -8,14 +8,23 @@
     <objectId>4f12e74e-dd71-4823-b595-d868e7cd161b</objectId>
     <file-name>4f12e74e-dd71-4823-b595-d868e7cd161b.xml</file-name>
     <folder-name/>
+    <internal-name>B</internal-name>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>4f12</objectGroupId>
+    <objectId>4f12e74e-dd71-4823-b595-d868e7cd161b</objectId>
+    <file-name>4f12e74e-dd71-4823-b595-d868e7cd161b.xml</file-name>
+    <folder-name/>
     <internal-name>A</internal-name>
-    <name_s>a</name_s>
+    <name_s>b</name_s>
     <modalita_t>test</modalita_t>
-    <obiettivo_html>{En=&lt;blockquote style=""&gt;&lt;p&gt;hello&lt;/p&gt;&lt;/blockquote&gt;}</obiettivo_html>
-    <descrizione_html>{En=&lt;p&gt;&lt;b style="color: rgb(255, 235, 238);"&gt;hi&lt;/b&gt;&lt;/p&gt;}</descrizione_html>
+    <obiettivo_html>&lt;p&gt;{En=&lt;/p&gt;&lt;blockquote style=""&gt;&lt;p&gt;hello&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;}&lt;/p&gt;</obiettivo_html>
+    <descrizione_html>&lt;p&gt;{En=&lt;/p&gt;&lt;p&gt;&lt;b style="color: rgb(255, 235, 238);"&gt;hi&lt;/b&gt;&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;</descrizione_html>
     <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
-    <codice_s>a</codice_s>
-    <informazionisulcosto_html>{En=&lt;p&gt;&lt;br&gt;&lt;/p&gt;}</informazionisulcosto_html>
+    <codice_s>b</codice_s>
+    <informazionisulcosto_html>&lt;p&gt;{En=&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;</informazionisulcosto_html>
     <productid_s>PRO_7d53040a</productid_s>
    <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
    <value>formazione-a-catalogo-tecnica-e-manageriale</value>
@@ -26,4 +35,10 @@
     <createdDate_dt>2025-05-09T06:48:02.520Z</createdDate_dt>
     <lastModifiedDate>2025-05-09T06:48:02.520Z</lastModifiedDate>
     <lastModifiedDate_dt>2025-05-09T06:48:02.520Z</lastModifiedDate_dt>
+    <localId>/site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/4f12e74e-dd71-4823-b595-d868e7cd161b.xml</localId>
+    <rootId>ideale:/site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/4f12e74e-dd71-4823-b595-d868e7cd161b.xml</rootId>
+    <createdDate>2025-07-14T07:50:42.723Z</createdDate>
+    <createdDate_dt>2025-07-14T07:50:42.723Z</createdDate_dt>
+    <lastModifiedDate>2025-07-14T07:50:42.723Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-07-14T07:50:42.723Z</lastModifiedDate_dt>
 </component>
