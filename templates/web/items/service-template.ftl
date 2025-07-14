@@ -58,7 +58,7 @@
         </a>
         <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
           <i class="fa fa-cart-plus"></i>
-          ${contentModel}
+          ${contentModel?json}
         </a>
       </div>
     </div>
