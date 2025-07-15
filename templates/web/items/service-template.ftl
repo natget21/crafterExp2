@@ -13,7 +13,7 @@
 "&item="+contentModel.storeUrl?url?default('')/>
 
 <#assign serviceName = contentModel.name_s?default('Senza nome') />
-<#assign serviceDescription = contentModel.descrizione_s?default('Nessuna descrizione') />
+<#assign serviceDescription = contentModel.descrizione_t?default('Nessuna descrizione') />
 <#assign serviceImage = contentModel.image_s?default('https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg') />
 <#assign serviceFacilitation = contentModel.agevolazione_b?default(false)?string("Possibile", "Non possibile") />
 
