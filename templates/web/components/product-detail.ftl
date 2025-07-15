@@ -1,12 +1,12 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#assign title = RequestParameters.n?default("") />
-<#assign price = RequestParameters.p?default("") />
-<#assign gdpr = (RequestParameters.g?default("false") == "true") />
-<#assign privacy = (RequestParameters.pri?default("false") == "true") />
+<#assign name = RequestParameters.name?default("") />
+<#assign price = RequestParameters.price?default(0) />
+<#assign gdpr = (RequestParameters.gdpr?default("false") == "true") />
+<#assign privacy = (RequestParameters.privacy?default("false") == "true") />
 <#assign productId = RequestParameters.pid?default("") />
 <#assign cup = RequestParameters.cup?default("") />
-<#assign agevolazione = RequestParameters.agev?default("") />
+<#assign facilitation = RequestParameters.facilitation?default(false)?string("Possibile", "Non Possibile") />
 <#assign itemUrl = RequestParameters.item?default("") />
 <#assign partnerId = RequestParameters.partnerId?default("") />
 
@@ -15,14 +15,12 @@
 <#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
   
 
-<#assign name = RequestParameters.n?default("Nessun nome") />
 <#assign code = RequestParameters.pid?default("Nessun codice") />
-<#assign image = contentModel.image?default("https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg") />
-<#assign description = contentModel.contenuto_t?default("Nessuna descrizione") />
-<#assign price = RequestParameters.p?default(0) />
+<#assign image = RequestParameters.image?default("https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg") />
+<#assign description = RequestParameters.description?default("Nessuna descrizione") />
+
 <#assign notes = contentModel.notes_t?default("Nessuna nota") />
-<#assign facilitation = (RequestParameters.agev?default("false") == "true")?string("Possibile", "Non Possibile") />
-<#assign cup = RequestParameters.cup?default("Nessun CUP") />
+
 
     <div class="container row mx-auto">
       <h4 class="text-primary">${name}</h4>
