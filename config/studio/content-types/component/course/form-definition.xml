@@ -486,7 +486,7 @@
 					<iceId></iceId>
 					<title>contenuto</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>Nessun Contenuto</defaultValue>
 					<help></help>
 					<properties>
 						<property>
