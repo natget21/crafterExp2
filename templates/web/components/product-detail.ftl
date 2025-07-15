@@ -9,12 +9,6 @@
 <#assign facilitation = RequestParameters.facilitation?default(false)?string("Possibile", "Non Possibile") />
 <#assign itemUrl = RequestParameters.item?default("") />
 <#assign partnerId = RequestParameters.partnerId?default("") />
-
-
-<#assign content = siteItemService.getSiteItem(itemUrl)>
-<#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
-  
-
 <#assign code = RequestParameters.pid?default("Nessun codice") />
 <#assign image = RequestParameters.image?default("https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg") />
 <#assign description = RequestParameters.description?default("Nessuna descrizione") />
@@ -22,6 +16,9 @@
 <#assign notes = RequestParameters.notes?default("Nessuna nota") />
 
 
+<#assign content = siteItemService.getSiteItem(itemUrl)>
+<#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
+  
     <div class="container row mx-auto">
       <h4 class="text-primary">${name}</h4>
       <p class="text-muted small">Codice: ${code}</p>
