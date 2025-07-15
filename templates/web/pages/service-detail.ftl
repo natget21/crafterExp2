@@ -47,7 +47,7 @@
         }
     </style>
     
-    <nav aria-label="breadcrumb">
+    <nav aria-label="breadcrumb mb-3">
         <ol class="breadcrumb">
           <li class="breadcrumb-item ms-2"><a href="/">Home</a></li>
           <li class="breadcrumb-item"><a href="/catalog">Servizi</a></li>
