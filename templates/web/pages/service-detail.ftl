@@ -16,7 +16,7 @@
         <h1 class="best_taital text-center dark p-0">Catalogo Servizi</h1>
       </div>
     </div>
-
+    <!--
      <div class="container-fluid">
         <div class="row px-xl-4">
             <div class="col-12">
@@ -32,6 +32,7 @@
             </div>
         </div>
     </div>
+    -->
 
     
     <div class="toast-container position-fixed top-0 end-0 p-3">
