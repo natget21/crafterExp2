@@ -19,7 +19,7 @@
 <#assign name = RequestParameters.n?default("Nessun nome") />
 <#assign code = RequestParameters.pid?default("Nessun codice") />
 <#assign image = contentModel.image?default("https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg") />
-<#assign description = contentModel.description_t?default("Nessuna descrizione") />
+<#assign description = contentModel.contenuto_t?default("Nessuna descrizione") />
 <#assign price = RequestParameters.p?default(0) />
 <#assign notes = contentModel.notes_t?default("Nessuna nota") />
 <#assign facilitation = (RequestParameters.agev?default("false") == "true")?string("Possibile", "Non Possibile") />
