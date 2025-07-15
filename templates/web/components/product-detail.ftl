@@ -25,25 +25,6 @@
 <#assign facilitation = (RequestParameters.agev?default("false") == "true")?string("Possibile", "Non Possibile") />
 <#assign cup = RequestParameters.cup?default("Nessun CUP") />
 
-    <style>
-        .breadcrumb {
-          font-size: 0.875rem;
-        }
-        .breadcrumb-item + .breadcrumb-item::before {
-          content: ">";
-          color: #6c757d; 
-          padding: 0 0.5rem;
-        }
-    </style>
-
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item ms-2"><a href="/">Home</a></li>
-      <li class="breadcrumb-item"><a href="/catalog">Servizi</a></li>
-      <li class="breadcrumb-item active" aria-current="page">${name}</li>
-    </ol>
-  </nav>
-
     <div class="container row mx-auto">
       <h4 class="text-primary">${name}</h4>
       <p class="text-muted small">Codice: ${code}</p>
