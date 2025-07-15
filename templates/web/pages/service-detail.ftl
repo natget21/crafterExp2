@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#assign name = RequestParameters.n?default("Nessun nome") />
+<#assign name = RequestParameters.name?default("Nessun nome") />
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}" >
