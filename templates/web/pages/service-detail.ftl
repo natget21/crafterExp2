@@ -1,5 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+<#assign name = RequestParameters.n?default("Nessun nome") />
+
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}" >
 <#include "/templates/web/fragments/head.ftl">
@@ -24,7 +26,7 @@
                     <a class="breadcrumb-item" href="index">Home</a>
                     <a class="breadcrumb-item" href="/catalog">Services</a>
                     <#if servicename?has_content>
-                        <span class="breadcrumb-item active">${name}</span>
+                        <span class="breadcrumb-item active">${servicename}</span>
                     <#else>
                         <span class="breadcrumb-item active">Detail</span>
                     </#if>
@@ -49,7 +51,7 @@
         <ol class="breadcrumb">
           <li class="breadcrumb-item ms-2"><a href="/">Home</a></li>
           <li class="breadcrumb-item"><a href="/catalog">Servizi</a></li>
-          <li class="breadcrumb-item active" aria-current="page">${servicename}</li>
+          <li class="breadcrumb-item active" aria-current="page">${name}</li>
         </ol>
     </nav>
 
