@@ -1,8 +1,0 @@
-.breadcrumb {
-  font-size: 0.875rem;
-}
-.breadcrumb-item + .breadcrumb-item::before {
-  content: ">";
-  color: #6c757d; 
-  padding: 0 0.5rem;
-}
