@@ -11,7 +11,7 @@
 "&gdpr=" + subcategoryData.requireGDPRAcceptance_b?default(false)?string("true", "false") +
 "&privacy=" + subcategoryData.requireprivacyacceptance_b?default(false)?string("true", "false") +
 "&notes=" + contentModel.notes_t?default('') +
-"&description=" + contentModel.contenuto_t?default('') +
+"&description=" + contentModel.contenuto_t?default('Nessuna Descrizione') +
 "&image=" + contentModel.image_s?default('') +
 "&item="+contentModel.storeUrl?url?default('')/>
 
