@@ -20,6 +20,10 @@
 <#assign serviceImage = contentModel.image_s?default('https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg') />
 <#assign serviceFacilitation = contentModel.agevolazione_b?default(false)?string("Possibile", "Non possibile") />
 
+<script>
+    alert("ok")
+</script>
+
 <#assign tags = []>
   <#if subcategoryData.tags_o??>
     <#assign tags = subcategoryData.tags_o.item?default([]) />
