@@ -56,7 +56,7 @@
 
       <!-- Pulsanti -->
       <div class="text-end mt-auto">
-        <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
+        <a href="${serviceLink.toString()}" class="btn btn-secondary rounded-pill text-white px-4">
           SCOPRI DI PIÙ
         </a>
         <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
