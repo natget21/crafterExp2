@@ -21,7 +21,7 @@
 <#assign serviceFacilitation = contentModel.agevolazione_b?default(false)?string("Possibile", "Non possibile") />
 
 <script>
-  var description = "${description}";
+  var description = "${serviceDescription}";
   console.log("test", description);
 </script>
 
