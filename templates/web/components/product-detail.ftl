@@ -13,7 +13,6 @@
 
 <#assign content = siteItemService.getSiteItem(itemUrl)>
 <#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
-<#assign contentModel = siteItemService.getSiteItem(item.storeUrl) />
   
 
 <#assign name = RequestParameters.n?default("Nessun nome") />
