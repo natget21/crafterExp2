@@ -5,7 +5,7 @@
 <#assign gdpr = (RequestParameters.gdpr?default("false") == "true") />
 <#assign privacy = (RequestParameters.privacy?default("false") == "true") />
 <#assign code = RequestParameters.pid?default("Nessun codice") />
-<#assign cup = RequestParameters.cup?default("") />
+<#assign cup = RequestParameters.cup?default("Nessuna CUP") />
 <#assign facilitation = (RequestParameters.facilitation?default("false") == "true")?string("Possibile", "Non Possibile") />
 <#assign itemUrl = RequestParameters.item?default("") />
 <#assign partnerId = RequestParameters.partnerId?default("") />
