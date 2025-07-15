@@ -11,7 +11,7 @@
 "&gdpr=" + subcategoryData.requireGDPRAcceptance_b?default(false)?string("true", "false") +
 "&privacy=" + subcategoryData.requireprivacyacceptance_b?default(false)?string("true", "false") +
 "&notes=" + contentModel.notes_t?default('Nessuna Nota') +
-"&description=" + contentModel.descrizione_html?default('Nessuna Descrizione') +
+"&description=" + contentModel.descrizione?default('Nessuna Descrizione') +
 "&image=" + contentModel.image_s?default('https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg') +
 "&item="+contentModel.storeUrl?url?default('')/>
 
