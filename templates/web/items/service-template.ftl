@@ -9,7 +9,10 @@
 "&cup=" + contentModel.cup_s?default('') +
 "&facilitation=" + contentModel.agevolazione_b?default(false)?string("true", "false") +
 "&gdpr=" + subcategoryData.requireGDPRAcceptance_b?default(false)?string("true", "false") +
-"&privacy=" + subcategoryData.requireprivacyacceptance_b?default(false)?string("true", "false")+
+"&privacy=" + subcategoryData.requireprivacyacceptance_b?default(false)?string("true", "false") +
+"&notes=" + contentModel.notes_t?default('') +
+"&description=" + contentModel.contenuto_t?default('') +
+"&image=" + contentModel.image_s?default('') +
 "&item="+contentModel.storeUrl?url?default('')/>
 
 <#assign serviceName = contentModel.name_s?default('Senza nome') />
