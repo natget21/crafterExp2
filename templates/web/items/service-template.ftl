@@ -11,7 +11,7 @@
 "&gdpr=" + subcategoryData.requireGDPRAcceptance_b?default(false)?string("true", "false") +
 "&privacy=" + subcategoryData.requireprivacyacceptance_b?default(false)?string("true", "false") +
 "&notes=" + contentModel.notes_t?default('Nessuna Nota') +
-"&description=" + contentModel.descrizione_html?default('Nessuna Descrizione') +
+"&description=" + contentModel.descrizione_html.toString()?default('Nessuna Descrizione') +
 "&image=" + contentModel.image_s?default('https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg') +
 "&item="+contentModel.storeUrl?url?default('')/>
 
@@ -56,7 +56,7 @@
 
       <!-- Pulsanti -->
       <div class="text-end mt-auto">
-        <a href="${serviceLink.toString()}" class="btn btn-secondary rounded-pill text-white px-4">
+        <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
           SCOPRI DI PIÙ
         </a>
         <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
