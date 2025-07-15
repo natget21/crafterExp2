@@ -19,7 +19,7 @@
 <#assign image = RequestParameters.image?default("https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg") />
 <#assign description = RequestParameters.description?default("Nessuna descrizione") />
 
-<#assign notes = contentModel.notes_t?default("Nessuna nota") />
+<#assign notes = RequestParameters.notes?default("Nessuna nota") />
 
 
     <div class="container row mx-auto">
