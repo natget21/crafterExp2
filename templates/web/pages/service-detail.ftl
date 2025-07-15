@@ -24,7 +24,7 @@
                     <a class="breadcrumb-item" href="index">Home</a>
                     <a class="breadcrumb-item" href="/catalog">Services</a>
                     <#if servicename?has_content>
-                        <span class="breadcrumb-item active">${servicename}</span>
+                        <span class="breadcrumb-item active">${name}</span>
                     <#else>
                         <span class="breadcrumb-item active">Detail</span>
                     </#if>
