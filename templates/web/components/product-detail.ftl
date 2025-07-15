@@ -13,7 +13,6 @@
 <#assign description = RequestParameters.description?default("Nessuna descrizione") />
 <#assign notes = RequestParameters.notes?default("Nessuna nota") />
 
-
 <#assign content = siteItemService.getSiteItem(itemUrl)>
 <#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
   
