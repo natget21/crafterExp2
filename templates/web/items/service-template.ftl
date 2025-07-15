@@ -4,15 +4,15 @@
 
 <#assign serviceLink = "/detail?service=" + contentModel.queryValue('internal-name')?url +
 "&price=" + contentModel.costo_s?default('0') +
-"&name=" + contentModel.name_s?default('') +
-"&pid=" + contentModel.productid_s?default('') +
-"&cup=" + contentModel.cup_s?default('') +
+"&name=" + contentModel.name_s?default('Nessun Nome') +
+"&pid=" + contentModel.productid_s?default('Nessun Codice') +
+"&cup=" + contentModel.cup_s?default('Nessun CUP') +
 "&facilitation=" + contentModel.agevolazione_b?default(false)?string("true", "false") +
 "&gdpr=" + subcategoryData.requireGDPRAcceptance_b?default(false)?string("true", "false") +
 "&privacy=" + subcategoryData.requireprivacyacceptance_b?default(false)?string("true", "false") +
-"&notes=" + contentModel.notes_t?default('') +
+"&notes=" + contentModel.notes_t?default('Nessuna Nota') +
 "&description=" + contentModel.contenuto_t?default('Nessuna Descrizione') +
-"&image=" + contentModel.image_s?default('') +
+"&image=" + contentModel.image_s?default('https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg') +
 "&item="+contentModel.storeUrl?url?default('')/>
 
 <#assign serviceName = contentModel.name_s?default('Senza nome') />
