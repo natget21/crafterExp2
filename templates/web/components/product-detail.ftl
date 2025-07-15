@@ -6,12 +6,11 @@
 <#assign privacy = (RequestParameters.privacy?default("false") == "true") />
 <#assign code = RequestParameters.pid?default("Nessun codice") />
 <#assign cup = RequestParameters.cup?default("") />
-<#assign facilitation = RequestParameters.facilitation?default(false)?string("Possibile", "Non Possibile") />
+<#assign facilitation = (RequestParameters.facilitation?default("false") == "true")?string("Possibile", "Non Possibile") />
 <#assign itemUrl = RequestParameters.item?default("") />
 <#assign partnerId = RequestParameters.partnerId?default("") />
 <#assign image = RequestParameters.image?default("https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg") />
 <#assign description = RequestParameters.description?default("Nessuna descrizione") />
-
 <#assign notes = RequestParameters.notes?default("Nessuna nota") />
 
 
