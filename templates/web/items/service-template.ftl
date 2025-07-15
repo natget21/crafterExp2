@@ -3,13 +3,13 @@
 <#assign subcategoryData = siteItemService.getSiteItem(contentModel.subcategory_o.item[0].key)>
 
 <#assign serviceLink = "/detail?service=" + contentModel.queryValue('internal-name')?url +
-"&p=" + contentModel.costo_s?default('0') +
-"&n=" + contentModel.name_s?default('') +
+"&price=" + contentModel.costo_s?default('0') +
+"&name=" + contentModel.name_s?default('') +
 "&pid=" + contentModel.productid_s?default('') +
 "&cup=" + contentModel.cup_s?default('') +
-"&agev=" + contentModel.agevolazione_b?default(false)?string("true", "false") +
-"&g=" + subcategoryData.requireGDPRAcceptance_b?default(false)?string("true", "false") +
-"&pri=" + subcategoryData.requireprivacyacceptance_b?default(false)?string("true", "false")+
+"&facilitation=" + contentModel.agevolazione_b?default(false)?string("true", "false") +
+"&gdpr=" + subcategoryData.requireGDPRAcceptance_b?default(false)?string("true", "false") +
+"&privacy=" + subcategoryData.requireprivacyacceptance_b?default(false)?string("true", "false")+
 "&item="+contentModel.storeUrl?url?default('')/>
 
 <#assign serviceName = contentModel.name_s?default('Senza nome') />
