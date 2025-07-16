@@ -47,7 +47,7 @@
     <div class="col d-flex flex-column justify-content-between">
       <div>
         <h4 class="mb-1 fw-semibold">
-          ${serviceName}: ${serviceId}
+          ${serviceName}
         </h4>
 
         <p data-tags="${tagsStr}"
