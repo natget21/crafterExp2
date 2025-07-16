@@ -81,7 +81,7 @@
     <#if categoryName?has_content>
         <nav class="breadcrumb bg-light mb-30" style="padding-left: 15px">
             <a class="breadcrumb-item" href="/catalog">Catalogo Servizi</a>
-            <span class="breadcrumb-item active">${categoryName}sssss</span>
+            <span class="breadcrumb-item active">${categoryName}</span>
         </nav>
         <#else>
             <h2 class="section-title px-5"><span class="px-2 explore bg-white">Esplora le categorie del catalogo </span></h2>
@@ -172,7 +172,7 @@
         </div>
         <div class="col-9">
         
-          <#include "/templates/web/components/category-list.ftl">
+          <!--<#include "/templates/web/components/category-list.ftl">-->
         
           <#if categoryName?has_content>
               <ul class="nav nav-tabs mb-4 d-flex">
