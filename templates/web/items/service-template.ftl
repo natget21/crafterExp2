@@ -15,6 +15,7 @@
 "&image=" + contentModel.image_s?default('https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg') +
 "&item="+contentModel.storeUrl?url?default('')/>
 
+<#assign serviceId = contentModel.objectId?default('ID') />
 <#assign serviceName = contentModel.name_s?default('Senza nome') />
 <#assign serviceDescription = contentModel.contenuto_t?default('Nessuna descrizione') />
 <#assign serviceImage = contentModel.image_s?default('https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg') />
@@ -46,7 +47,7 @@
     <div class="col d-flex flex-column justify-content-between">
       <div>
         <h4 class="mb-1 fw-semibold">
-          ${serviceName}
+          ${serviceName}: ${serviceId}
         </h4>
 
         <p data-tags="${tagsStr}"
