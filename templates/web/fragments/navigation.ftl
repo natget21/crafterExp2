@@ -112,9 +112,11 @@
                                     <a href="/catalog" class="nav-item nav-link sublink <#if currentUrl?starts_with("/catolog")>active</#if>">
                                         Catalogo
                                     </a>
-                                    <a href="/" class="nav-item nav-link sublink <#if currentUrl?starts_with("/")>active</#if>">
+                                    <!--
+                                    <a href="buildMyOrderLink()" class="nav-item nav-link sublink <#if currentUrl?starts_with("/")>active</#if>">
                                         I tuoi ordini
                                     </a>
+                                    -->
                                     <a href="/" class="nav-item nav-link sublink <#if currentUrl?starts_with("/")>active</#if>">
                                         Impostazioni
                                     </a>
@@ -138,3 +140,9 @@
             </div>
         </div>
     </div>
+    
+    <script>
+        function buildMyOrderLink() {
+            return "/home";
+        }
+    </script>
