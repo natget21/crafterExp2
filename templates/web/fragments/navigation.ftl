@@ -112,7 +112,7 @@
                                     <a href="/catalog" class="nav-item nav-link sublink <#if currentUrl?starts_with("/catolog")>active</#if>">
                                         Catalogo
                                     </a>
-                                    <a href="buildMyOrderLink()" class="nav-item nav-link sublink <#if currentUrl?starts_with("/")>active</#if>">
+                                    <a id="myOrdersLink" class="nav-item nav-link sublink <#if currentUrl?starts_with("/")>active</#if>">
                                         I tuoi ordini
                                     </a>
                                     <!--
@@ -142,7 +142,8 @@
     </div>
     
     <script>
-        function buildMyOrderLink() {
+        function buildMyOrdersLink() {
             return "/home";
         }
+        document.getElementById("myOrdersLink").href = buildMyOrdersLink();
     </script>
