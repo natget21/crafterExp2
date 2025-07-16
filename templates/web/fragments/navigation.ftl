@@ -143,7 +143,7 @@
     
     <script>
         function buildMyOrdersLink() {
-            const user = localStorage.getItem("crafterVadinUser");
+            const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
             if(!user) return "";
             console.log("user", user);
             return "/web/ideale-client-dash?token=" + user.access_token;
