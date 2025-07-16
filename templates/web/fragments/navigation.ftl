@@ -143,7 +143,9 @@
     
     <script>
         function buildMyOrdersLink() {
-            return "/home";
+            const user = localStorage.getItem("crafterVadinUser");
+            if(!user) return "";
+            return "/web/ideale-client-dash?token=" + user.access_token;
         }
         document.getElementById("myOrdersLink").href = buildMyOrdersLink();
     </script>
