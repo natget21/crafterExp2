@@ -84,7 +84,7 @@
             <span class="breadcrumb-item active">${categoryName}</span>
         </nav>
         <#else>
-            <h2 class="section-title px-5"><span class="px-2 explore bg-white">Esplora le categorie del catalogo </span></h2>
+            <!--<h2 class="section-title px-5"><span class="px-2 explore bg-white">Esplora le categorie del catalogo </span></h2>-->
     </#if>
    
     </div>
