@@ -145,7 +145,7 @@
         function buildMyOrdersLink() {
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
             if(!user) return "";
-            return "/v1/web/ideale-client-dash?token=" + user.access_token;
+            return "https://ideale.shortcut.uno/ideale-client-dash?token=" + user.access_token;
         }
         document.getElementById("myOrdersLink").href = buildMyOrdersLink();
     </script>
