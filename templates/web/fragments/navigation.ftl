@@ -120,7 +120,7 @@
                                         Impostazioni
                                     </a>
                                     -->
-                                    <a id="logout-btn" href="javascript:void(0);" class="nav-item nav-link sublink">
+                                    <a id="logout-btn" href="javascript:void(0);" class="nav-item nav-link sublink" onclick="logout()">
                                         Esci
                                     </a>
                                 </div>
@@ -149,12 +149,14 @@
         }
         document.getElementById("myOrdersLink").href = buildMyOrdersLink();
         
-        function buildLogoutLink() {
-            const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
-            if(!user) return "";
-            const redirect = "";
+        async function logout() {
+            const redirect = "https://ideale.shortcut.uno/login";
             const orgId = "67ac78b641f3e43f93473810";
-            return "https://api.shortcut.uno/v1/system/logout?redirect=" + redirect + "?orgId=" + orgId + "&themeStyle=light";
+            const url = "https://api.shortcut.uno/v1/system/logout?redirect=" + redirect + "?orgId=" + orgId + "&themeStyle=light";
+            
+            const response = await fetch(url, {
+              method: 'GET',
+              credentials: 'include'
+            });
         }
-        document.getElementById("logout-btn").href = buildLogoutLink();
     </script>
