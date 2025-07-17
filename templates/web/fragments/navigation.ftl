@@ -120,7 +120,7 @@
                                         Impostazioni
                                     </a>
                                     -->
-                                    <a id="logout-btn" href="javascript:void(0);" class="nav-item nav-link sublink" onclick="logout()">
+                                    <a id="logout-btn" href="javascript:void(0);" class="nav-item nav-link sublink">
                                         Esci
                                     </a>
                                 </div>
@@ -148,4 +148,13 @@
             return "https://ideale.shortcut.uno/ideale-client-dash?token=" + user.access_token;
         }
         document.getElementById("myOrdersLink").href = buildMyOrdersLink();
+        
+        function buildLogoutLink() {
+            const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
+            if(!user) return "";
+            const redirect = "";
+            const orgId = "";
+            return "https://api.shortcut.uno/v1/system/logout?redirect=" + redirect + "?orgId=" + orgId + "&themeStyle=light";
+        }
+        document.getElementById("logout-btn").href = buildLogoutLink();
     </script>
