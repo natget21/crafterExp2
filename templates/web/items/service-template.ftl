@@ -16,7 +16,7 @@
 "&item="+contentModel.storeUrl?url?default('')/>
 
 <#assign serviceId = contentModel.objectId?default('ID') />
-<#assign serviceLink = "/detail?service=" + serviceId; />
+<#assign serviceLink = "/detail?service=" + serviceId />
 <#assign serviceName = contentModel.name_s?default('Senza nome') />
 <#assign serviceDescription = contentModel.contenuto_t?default('Nessuna descrizione') />
 <#assign serviceImage = contentModel.image_s?default('https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg') />
