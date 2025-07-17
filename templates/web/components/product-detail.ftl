@@ -21,7 +21,7 @@
 
     <div class="container row mx-auto">
       <h4 class="text-primary">${course.name_s}</h4>
-      <p class="text-muted small">Codice: ${course.codice_s}}</p>
+      <p class="text-muted small">Codice: ${course.codice_s}?default("-----")</p>
       <div class="col-2">
         <img src="${image}" style="width: 100%;" />
       </div>
