@@ -14,7 +14,7 @@
 <#assign notes = RequestParameters.notes?default("Nessuna nota") />
 
 <#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
-<#assign id = RequestParameters.service />
+<#assign id = RequestParameters.id />
 
 <#assign course_1 = siteItemService.getSiteItem(itemUrl) />
 <#assign course_2 = modelContent.getContent(itemUrl) />
