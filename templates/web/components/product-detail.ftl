@@ -7,7 +7,7 @@
 <#assign code = RequestParameters.pid?default("Nessun codice") />
 <#assign cup = RequestParameters.cup?default("Nessuna CUP") />
 <#assign facilitation = (RequestParameters.facilitation?default("false") == "true")?string("Possibile", "Non Possibile") />
-<#assign itemUrl = RequestParameters.item?default("") />
+<#assign itemUrl = RequestParameters.item />
 <#assign partnerId = RequestParameters.partnerId?default("") />
 <#assign image = RequestParameters.image?default("https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg") />
 <#assign description = RequestParameters.description?default("Nessuna descrizione") />
@@ -16,6 +16,9 @@
 <#assign content = siteItemService.getSiteItem(itemUrl)>
 <#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
 <#assign id = RequestParameters.service />
+
+<#assign targetItem = contentModel.getContent("/site/components/mio-oggetto.xml") />
+
   
     <div class="container row mx-auto">
         <h5>${itemUrl}</h5>
