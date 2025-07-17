@@ -4,9 +4,8 @@ class ProductDetailController extends AbstractContentController {
 
     @Override
     Map handleRequest() {
-        log.info("✅ Controller DUMMY eseguito!")
         def model = [:]
-        model['dummy'] = "Controller attivo 🎉"
+        model['dummy'] = "Funziona! 🎉"
         return model
     }
 }
