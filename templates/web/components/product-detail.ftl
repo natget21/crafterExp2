@@ -13,12 +13,14 @@
 <#assign description = RequestParameters.description?default("Nessuna descrizione") />
 <#assign notes = RequestParameters.notes?default("Nessuna nota") />
 
-<#assign content = siteItemService.getSiteItem(itemUrl)>
 <#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
 <#assign id = RequestParameters.service />
 
+<#assign course_1 = siteItemService.getSiteItem(itemUrl) />
+<#assign course_2 = modelContent.getContent(itemUrl) />
+
     <div class="container row mx-auto">
-        <p>${dummy}</p>
+        <p>Dummy: ${dummy}</p>
       <h4 class="text-primary">${name}</h4>
       <p class="text-muted small">Codice: ${code} - ${id}</p>
       <div class="col-2">
