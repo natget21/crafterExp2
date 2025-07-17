@@ -15,10 +15,11 @@
 
 <#assign content = siteItemService.getSiteItem(itemUrl)>
 <#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
+<#assign id = RequestParameters.service />
   
     <div class="container row mx-auto">
       <h4 class="text-primary">${name}</h4>
-      <p class="text-muted small">Codice: ${code}</p>
+      <p class="text-muted small">Codice: ${code} - ${id}</p>
       <div class="col-2">
         <img src="${image}" style="width: 100%;" />
       </div>
