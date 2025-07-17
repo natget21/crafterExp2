@@ -14,15 +14,11 @@
 <#assign notes = RequestParameters.notes?default("Nessuna nota") />
 
 <#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
-<!--<#assign id = RequestParameters.id />-->
 
-<#assign course_1 = siteItemService.getSiteItem(itemUrl) />
-<!--<#assign course_2 = modelContent.getContent(itemUrl) />-->
+<#assign course = siteItemService.getSiteItem(itemUrl) />
 
     <div class="container row mx-auto">
-        <p>Dummy: ${course_1.name_s}</p>
-        <p>URL: ${itemUrl}</p>
-      <h4 class="text-primary">${name}</h4>
+      <h4 class="text-primary">${course.name_s}</h4>
       <p class="text-muted small">Codice: ${code}}</p>
       <div class="col-2">
         <img src="${image}" style="width: 100%;" />
