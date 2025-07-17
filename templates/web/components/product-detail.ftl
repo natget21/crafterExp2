@@ -27,6 +27,8 @@
       </div>
       <div class="col-10">
         <dl class="row">
+          <dt class="col-sm-2 text-primary fw-bold">Obiettivo</dt>
+          <dd class="col-sm-10">${course.obiettivo_html}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Descrizione</dt>
           <dd class="col-sm-10">${course.descrizione_html}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Costo</dt>
@@ -35,8 +37,6 @@
           <dd class="col-sm-10">${notes}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Agevolazione</dt>
           <dd class="col-sm-10">${(course.agevolazione_b?default("false") == "true")?string("Possibile", "Non Possibile")}</dd>
-          <dt class="col-sm-2 text-primary fw-bold">CUP</dt>
-          <dd class="col-sm-10">${cup}</dd>
         </dl>
       </div>
     </div>
