@@ -17,7 +17,8 @@
 <#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
 <#assign id = RequestParameters.service />
 
-<#assign item = siteItemService.getSiteItemById(itemUrl) />
+<#assign url = RequestParameters.item />
+<#assign item = contentModel.getContent(url) />
 
   
     <div class="container row mx-auto">
