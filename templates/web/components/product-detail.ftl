@@ -28,7 +28,7 @@
       <div class="col-10">
         <dl class="row">
           <dt class="col-sm-2 text-primary fw-bold">Descrizione</dt>
-          <dd class="col-sm-10">${course.description_t}</dd>
+          <dd class="col-sm-10">${course.description_html}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Costo</dt>
           <dd class="col-sm-10">${price}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Note</dt>
