@@ -30,7 +30,7 @@
           <dt class="col-sm-2 text-primary fw-bold">Descrizione</dt>
           <dd class="col-sm-10">${course.description_html}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Costo</dt>
-          <dd class="col-sm-10">${price}</dd>
+          <dd class="col-sm-10">${course.costo_s}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Note</dt>
           <dd class="col-sm-10">${notes}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Agevolazione</dt>
