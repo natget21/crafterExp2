@@ -21,6 +21,7 @@
 
     <div class="container row mx-auto">
         <p>Dummy: ${dummy}</p>
+        <p>URL: ${itemUrl}</p>
       <h4 class="text-primary">${name}</h4>
       <p class="text-muted small">Codice: ${code} - ${id}</p>
       <div class="col-2">
