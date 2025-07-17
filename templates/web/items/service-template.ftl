@@ -2,6 +2,7 @@
 
 <#assign subcategoryData = siteItemService.getSiteItem(contentModel.subcategory_o.item[0].key)>
 
+<!--
 <#assign serviceLink = "/detail?service=" + contentModel.queryValue('internal-name')?url +
 "&price=" + contentModel.costo_s?default('0') +
 "&name=" + contentModel.name_s?default('Nessun Nome') +
@@ -14,7 +15,9 @@
 "&description=" + contentModel.contenuto_t?default('Nessuna Descrizione') +
 "&image=" + contentModel.image_s?default('https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg') +
 "&item="+contentModel.storeUrl?url?default('')/>
+-->
 
+<#assign serviceLink = "/detail?url=" + contentModel.storeUrl />
 <#assign serviceId = contentModel.objectId?default('ID') />
 <#assign serviceName = contentModel.name_s?default('Senza nome') />
 <#assign serviceDescription = contentModel.contenuto_t?default('Nessuna descrizione') />
