@@ -153,7 +153,7 @@
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
             if(!user) return "";
             const redirect = "";
-            const orgId = "";
+            const orgId = "67ac78b641f3e43f93473810";
             return "https://api.shortcut.uno/v1/system/logout?redirect=" + redirect + "?orgId=" + orgId + "&themeStyle=light";
         }
         document.getElementById("logout-btn").href = buildLogoutLink();
