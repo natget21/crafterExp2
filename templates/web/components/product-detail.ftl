@@ -34,7 +34,7 @@
           <dt class="col-sm-2 text-primary fw-bold">Note</dt>
           <dd class="col-sm-10">${notes}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Agevolazione</dt>
-          <dd class="col-sm-10">${course.agevolazione_b?then("yes", "no")}}</dd>
+          <dd class="col-sm-10">${(course.agevolazione_b == "true")?then("yes", "no")}</dd>
           <dt class="col-sm-2 text-primary fw-bold">CUP</dt>
           <dd class="col-sm-10">${cup}</dd>
         </dl>
