@@ -33,6 +33,8 @@
           <dd class="col-sm-10">${course.costo_s?default("0,00")}€</dd>
           <dt class="col-sm-2 text-primary fw-bold">Agevolazione</dt>
           <dd class="col-sm-10">${(course.agevolazione_b?default("false") == "true")?string("Possibile", "Non Possibile")}</dd>
+        <dt class="col-sm-2 text-primary fw-bold">CUP</dt>
+          <dd class="col-sm-10">${course.cup_s?default("Nessun CUP")}€</dd>
         </dl>
       </div>
     </div>
