@@ -1,6 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#assign name = RequestParameters.name?default("Nessun nome") />
+<#assign storeUrl = RequestParameters.url />
+<#assign course = siteItemService.getSiteItem(storeUrl) />
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}" >
@@ -51,7 +52,7 @@
         <ol class="breadcrumb">
           <li class="breadcrumb-item ms-2"><a href="/">Home</a></li>
           <li class="breadcrumb-item"><a href="/catalog">Servizi</a></li>
-          <li class="breadcrumb-item active" aria-current="page">${name}</li>
+          <li class="breadcrumb-item active" aria-current="page">${course.name_s?default("Nessun nome")}</li>
         </ol>
     </nav>
 
