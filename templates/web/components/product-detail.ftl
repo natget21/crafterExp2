@@ -27,8 +27,6 @@
       </div>
       <div class="col-10">
         <dl class="row">
-          <dt class="col-sm-2 text-primary fw-bold">Obiettivo</dt>
-          <dd class="col-sm-10">${course.obiettivo_html}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Descrizione</dt>
           <dd class="col-sm-10">${course.descrizione_html}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Costo</dt>
