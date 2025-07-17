@@ -20,7 +20,7 @@
 <!--<#assign course_2 = modelContent.getContent(itemUrl) />-->
 
     <div class="container row mx-auto">
-        <p>Dummy: ${contentModel.dummy} ${course_1.name_s}</p>
+        <p>Dummy: ${course_1.name_s}</p>
         <p>URL: ${itemUrl}</p>
       <h4 class="text-primary">${name}</h4>
       <p class="text-muted small">Codice: ${code}}</p>
