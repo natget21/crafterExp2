@@ -18,7 +18,7 @@
 <#assign id = RequestParameters.service />
 
     <div class="container row mx-auto">
-        <p>${dummy!''}</p>
+        <p>${dummy}</p>
       <h4 class="text-primary">${name}</h4>
       <p class="text-muted small">Codice: ${code} - ${id}</p>
       <div class="col-2">
