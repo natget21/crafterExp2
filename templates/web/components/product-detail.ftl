@@ -1,5 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+<!--
 <#assign name = RequestParameters.name?default("") />
 <#assign price = RequestParameters.price?default(0) />
 <#assign gdpr = (RequestParameters.gdpr?default("false") == "true") />
@@ -12,10 +13,11 @@
 <#assign image = RequestParameters.image?default("https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg") />
 <#assign description = RequestParameters.description?default("Nessuna descrizione") />
 <#assign notes = RequestParameters.notes?default("Nessuna nota") />
-
 <#assign subcategoryData = siteItemService.getSiteItem(content.subcategory_o)>
+-->
 
-<#assign course = siteItemService.getSiteItem(itemUrl) />
+<#assign storeUrl = RequestParameters.url />
+<#assign course = siteItemService.getSiteItem(storeUrl) />
 
     <div class="container row mx-auto">
       <h4 class="text-primary">${course.name_s}</h4>
