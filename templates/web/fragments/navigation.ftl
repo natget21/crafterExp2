@@ -120,7 +120,7 @@
                                         Impostazioni
                                     </a>
                                     -->
-                                    <a id="logout-btn" href="javascript:void(0);" class="nav-item nav-link sublink" onclick="logout()">
+                                    <a id="logout-btn-test" href="javascript:void(0);" class="nav-item nav-link sublink" onclick="logout()">
                                         Esci
                                     </a>
                                 </div>
