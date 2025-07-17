@@ -120,8 +120,8 @@
                                         Impostazioni
                                     </a>
                                     -->
-                                    <a id="logout-btn-test" href="javascript:void(0);" class="nav-item nav-link sublink" onclick="logout()">
-                                        Escii
+                                    <a id="logout-btn-test" href="javascript:void(0);" class="nav-item nav-link sublink" onclick="newLogout()">
+                                        Esci
                                     </a>
                                 </div>
                             </div>
@@ -149,7 +149,7 @@
         }
         document.getElementById("myOrdersLink").href = buildMyOrdersLink();
         
-        async function logout() {
+        async function newLogout() {
             alert("logout")
             const redirect = "https://ideale.shortcut.uno/login";
             const orgId = "67ac78b641f3e43f93473810";
