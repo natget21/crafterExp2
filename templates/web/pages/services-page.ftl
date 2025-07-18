@@ -8,15 +8,7 @@
     <#include "/templates/web/fragments/header.ftl">
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/components/chat-bot.ftl"> 
-    
-    <script>
-        const user = JSON.parse(localStorage.getItem("crafterVadinUser") || '');
-        console.log("user", user)
-        if(!user) {
-            window.location.href = '/';
-        }
-    </script>
-    
+    <#include "/templates/web/components/auth-controller.ftl" />
     
     <#assign categoryName = RequestParameters.category?default("") />
     <#assign categoryURL = RequestParameters.categoryURL?default("") />
