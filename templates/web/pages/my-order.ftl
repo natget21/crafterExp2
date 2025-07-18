@@ -14,7 +14,15 @@
     <main>
         Hello World
     </main>
-
+    
+    <script>/*
+        function buildMyOrdersLink() {
+            const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
+            if(!user) return "";
+            return "https://ideale.shortcut.uno/ideale-client-dash?token=" + user.access_token;
+        }
+        document.getElementById("myOrdersLink").href = buildMyOrdersLink();*/
+    </script>
     <#include "/templates/web/fragments/footer.ftl">
     <#include "/templates/web/fragments/scripts.ftl">
     <@crafter.body_bottom/>
