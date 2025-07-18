@@ -17,7 +17,8 @@
     <script>
         function buildIframeLink() {
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
-        }
+            return 'https://ideale.shortcut.uno/ideale-client-dash?token=' + user.access_token;
+        }   
         
     </script>
 
