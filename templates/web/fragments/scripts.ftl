@@ -11,7 +11,7 @@
         window.location.href = "/services?query=" + encodeURIComponent(query);
     }
     
-    function logout(){
+    function old_logout(){
         localStorage.removeItem('crafterVadinUser');
         localStorage.removeItem('crafterVadinToken');
         
