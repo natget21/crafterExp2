@@ -9,6 +9,10 @@
     <#include "/templates/web/fragments/navigation.ftl">
     <#include "/templates/web/components/chat-bot.ftl"> 
     
+    <script>
+        alert("Ok")
+    </script>
+    
     
     <#assign categoryName = RequestParameters.category?default("") />
     <#assign categoryURL = RequestParameters.categoryURL?default("") />
