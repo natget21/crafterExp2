@@ -11,7 +11,7 @@
     <#include "/templates/web/fragments/static-navigation.ftl">
 
     <main>
-        <iframe id="myIframe" width="100%" height="100%" style="border: 5px solid black;"></iframe>
+        <iframe id="myIframe" width="100%" height="100%"></iframe>
     </main>
     
     <script>
@@ -19,7 +19,7 @@
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
             return 'https://ideale.shortcut.uno/ideale-client-dash?token=' + user.access_token;
         }   
-        
+        document.getElementById("myIframe").src = buildIframeLink();
     </script>
 
     <#include "/templates/web/fragments/footer.ftl">
