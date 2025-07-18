@@ -10,7 +10,7 @@
     <#include "/templates/web/components/chat-bot.ftl"> 
     
     <script>
-        alert("Ok")
+        const user = JSON.parse()
     </script>
     
     
