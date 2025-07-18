@@ -1,8 +1,6 @@
 <script>
-alert("ok")
-    const user = JSON.parse(localStorage.getItem("crafterVadinUser") || '');
-    console.log("user", user)
-    if(!user) {
-        window.location.href = '/';
-    }
+    const userData = localStorage.getItem("crafterVadinUser");
+    let user = null;
+    if (userData) { user = JSON.parse(userData); }
+    if (!user) { window.location.href = '/'; }
 </script>
