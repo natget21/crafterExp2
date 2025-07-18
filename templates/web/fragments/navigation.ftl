@@ -150,7 +150,6 @@
         document.getElementById("myOrdersLink").href = buildMyOrdersLink();
         
         async function newLogout() {
-            alert("logout")
             const redirect = "https://ideale.shortcut.uno/login";
             const orgId = "67ac78b641f3e43f93473810";
             const url = "https://api.shortcut.uno/v1/system/logout?redirect=" + redirect + "?orgId=" + orgId + "&themeStyle=light";
