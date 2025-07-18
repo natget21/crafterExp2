@@ -150,17 +150,19 @@
         document.getElementById("myOrdersLink").href = buildMyOrdersLink();
         
         async function logout(){
+            const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
             localStorage.removeItem('crafterVadinUser');
             localStorage.removeItem('crafterVadinToken');
             
-            const redirect = "https://demo.shortcut.uno";
-            const url = "https://api.shortcut.uno/v1/system/logout?redirect=" + redirect;
-            /*
+            const url = 'https://api.shortcut.uno/v1/system/extLogout';
+            
             const response = await fetch(url, {
-              method: 'GET',
-              credentials: 'include'
+                method: 'POST',
+                headers: {
+                    'Authorization': `Bearer ${user.access_token}`
+                }
             });
-            */
+            
             window.location.href = '/';
         }
     
