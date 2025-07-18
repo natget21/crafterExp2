@@ -11,7 +11,7 @@
     <#include "/templates/web/fragments/static-navigation.ftl">
 
     <main>
-        <iframe id="myIframe" width="100%" height="100%"></iframe>
+        <iframe id="myIframe" width="100%" height="40em"></iframe>
     </main>
     
     <script>
