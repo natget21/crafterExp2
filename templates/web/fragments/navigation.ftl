@@ -112,7 +112,7 @@
                                     <a href="/catalog" class="nav-item nav-link sublink <#if currentUrl?starts_with("/catolog")>active</#if>">
                                         Catalogo
                                     </a>
-                                    <a id="myOrdersLink" class="nav-item nav-link sublink <#if currentUrl?starts_with("/")>active</#if>">
+                                    <a href="/my-order" id="myOrdersLink" class="nav-item nav-link sublink <#if currentUrl?starts_with("/")>active</#if>">
                                         I tuoi ordini
                                     </a>
                                     <!--
@@ -142,20 +142,12 @@
     </div>
     
     <script>
-        function buildMyOrdersLink() {
-            const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
-            if(!user) return "";
-            return "https://ideale.shortcut.uno/ideale-client-dash?token=" + user.access_token;
-        }
-        document.getElementById("myOrdersLink").href = buildMyOrdersLink();
-        
         async function logout(){
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
             localStorage.removeItem('crafterVadinUser');
             localStorage.removeItem('crafterVadinToken');
             
             const url = 'https://api.shortcut.uno/v1/system/extLogout';
-            
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
