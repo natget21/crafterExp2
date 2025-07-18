@@ -11,10 +11,13 @@
     <#include "/templates/web/fragments/static-navigation.ftl">
 
     <main>
-        Hello World
+        <iframe id="myIframe" width="100%" height="100%" style="border: 5px solid black;"></iframe>
     </main>
     
     <script>
+        function buildIframeLink() {
+            const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
+        }
         
     </script>
 
