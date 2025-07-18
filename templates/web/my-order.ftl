@@ -5,6 +5,7 @@
 <#include "/templates/web/fragments/head.ftl">
 <body>
 <@crafter.body_top/>
+    <#include "/templates/web/controllers/auth.ftl">
     <#include "/templates/web/fragments/header.ftl">
     
     <#include "/templates/web/fragments/navigation.ftl">
