@@ -12,7 +12,7 @@
     <script>
         const user = JSON.parse(localStorage.getItem("crafterVadinUser") || '');
         console.log("user", user)
-        if(!user.access_token) {
+        if(!user) {
             window.location.href = '/';
         }
     </script>
