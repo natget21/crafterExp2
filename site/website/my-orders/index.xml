@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/my-order</content-type>
+	<display-template>/templates/web/pages/my-order.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>7e04</objectGroupId>
+	<objectId>7e047e3e-d821-8223-acae-07630f106e31</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>my-orders</folder-name>
+	<internal-name> my-orders</internal-name>
+	<navLabel> my-orders</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-07-18T13:31:19.417Z</createdDate>
+	<createdDate_dt>2025-07-18T13:31:19.417Z</createdDate_dt>
+	<lastModifiedDate>2025-07-18T13:31:19.417Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-07-18T13:31:19.417Z</lastModifiedDate_dt>
+</page>
