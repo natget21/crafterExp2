@@ -14,7 +14,16 @@
     function logout(){
         localStorage.removeItem('crafterVadinUser');
         localStorage.removeItem('crafterVadinToken');
-        window.location.href = '/';
+        
+        const redirect = "https://demo.shortcut.uno";
+        const url = "https://api.shortcut.uno/v1/system/logout?redirect=" + redirect;
+        
+        const response = await fetch(url, {
+          method: 'GET',
+          credentials: 'include'
+        });
+        
+        // window.location.href = '/';
     }
 </script>
 
