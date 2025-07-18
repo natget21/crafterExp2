@@ -161,7 +161,7 @@
               credentials: 'include'
             });
             
-            // window.location.href = '/';
+            window.location.href = '/';
         }
     
         async function newLogout() {
