@@ -149,7 +149,7 @@
         }
         document.getElementById("myOrdersLink").href = buildMyOrdersLink();
         
-        function logout(){
+        async function logout(){
             localStorage.removeItem('crafterVadinUser');
             localStorage.removeItem('crafterVadinToken');
             
