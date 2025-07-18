@@ -10,7 +10,10 @@
     <#include "/templates/web/components/chat-bot.ftl"> 
     
     <script>
-        const user = JSON.parse()
+        const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
+        if(!user.access_token) {
+            window.location.href = '/';
+        }
     </script>
     
     
