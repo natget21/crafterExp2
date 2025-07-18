@@ -15,6 +15,7 @@
     </main>
     
     <script>
+        
     </script>
 
     <#include "/templates/web/fragments/footer.ftl">
