@@ -149,6 +149,21 @@
         }
         document.getElementById("myOrdersLink").href = buildMyOrdersLink();
         
+        function logout(){
+            localStorage.removeItem('crafterVadinUser');
+            localStorage.removeItem('crafterVadinToken');
+            
+            const redirect = "https://demo.shortcut.uno";
+            const url = "https://api.shortcut.uno/v1/system/logout?redirect=" + redirect;
+            
+            const response = await fetch(url, {
+              method: 'GET',
+              credentials: 'include'
+            });
+            
+            // window.location.href = '/';
+        }
+    
         async function newLogout() {
             const redirect = "https://ideale.shortcut.uno/login";
             const orgId = "67ac78b641f3e43f93473810";
