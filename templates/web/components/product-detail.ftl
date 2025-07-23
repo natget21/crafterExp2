@@ -116,6 +116,7 @@
           });
           
   async function makeOrder() {
+    const user = JSON.parse(localStorage.getItem('crafterVadinUser'));
     const body = {
       'productCode': '${course.codice_s!""}',
       'cup': '${course.cup_s!""}',
@@ -124,7 +125,7 @@
       'partnerId': '${course.partnerId_s!""}',
       'productQty': quantity,
       'productPrice': '${course.costo_s!"0"}',
-      'clientId': '',
+      'clientId': user._id,
       'itemUrl': ''
     };
 
