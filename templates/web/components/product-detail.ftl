@@ -118,14 +118,14 @@
           async function makeOrder() {
             const body = {
               'productCode': `${course.codice_s}`,
-              'cup': 'Stringa',
-              'agevolazione': true,
-              'productName': 'Stringa',
-              'clientId': 'Stringa',
-              'partnerId': 'Stringa',
-              'productQty': 'Stringa',
-              'productPrice': 'Stringa',
-              'itemUrl': 'Stringa'
+              'cup': `${course.cup_s}`,
+              'agevolazione': `${course.agevolazione_b}` === 'true',
+              'productName': `${course.name_s}`,
+              'clientId': ``,
+              'partnerId': ``,
+              'productQty': quantity,
+              'productPrice': `${course.costo_s}`,
+              'itemUrl': ``,
             };
             console.log(body)
           }
