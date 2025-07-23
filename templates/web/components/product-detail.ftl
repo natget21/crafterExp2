@@ -115,22 +115,29 @@
             }
           });
           
-  async function makeOrder() {
-    const user = JSON.parse(localStorage.getItem('crafterVadinUser'));
-    const body = {
-      'productCode': '${course.codice_s!""}',
-      'cup': '${course.cup_s!""}',
-      'agevolazione': ${course.agevolazione_b!"false"},
-      'productName': '${course.name_s!""}',
-      'partnerId': '${course.partnerId_s!""}',
-      'productQty': '' + quantity,
-      'productPrice': '${course.costo_s!"0"}',
-      'clientId': user._id,
-      'itemUrl': '${storeUrl!""}'
-    };
-
-    console.log(body);
-  }
+          async function makeOrder() {
+            const user = JSON.parse(localStorage.getItem('crafterVadinUser'));
+            const body = {
+              'productCode': '${course.codice_s!""}',
+              'cup': '${course.cup_s!""}',
+              'agevolazione': ${course.agevolazione_b!"false"},
+              'productName': '${course.name_s!""}',
+              'partnerId': '${course.partnerId_s!""}',
+              'productQty': '' + quantity,
+              'productPrice': '${course.costo_s!"0"}',
+              'clientId': user._id,
+              'itemUrl': '${storeUrl!""}'
+            };
+            const url = 'https://api.shortcut.uno/v1/Ideale-request/request';
+            const response = await fetch(url, {
+              method: 'POST',
+              headers: {
+                'Authorization': 'Bearer ' + user.access_token,
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify(body)
+            });
+          }
         </script>
 
       </div>
