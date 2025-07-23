@@ -121,10 +121,10 @@
       'cup': '${course.cup_s!""}',
       'agevolazione': ${course.agevolazione_b!"false"},
       'productName': '${course.name_s!""}',
-      'clientId': '',
       'partnerId': '${course.partnerId_s!""}',
-      'productQty': '',
+      'productQty': quantity,
       'productPrice': '${course.costo_s!"0"}',
+      'clientId': '',
       'itemUrl': ''
     };
 
