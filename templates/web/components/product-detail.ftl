@@ -123,7 +123,7 @@
               'productName': `${course.name_s}`,
               'clientId': ``,
               'partnerId': ``,
-              'productQty': quantity,
+              'productQty': '',
               'productPrice': `${course.costo_s}`,
               'itemUrl': ``,
             };
