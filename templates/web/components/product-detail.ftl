@@ -119,7 +119,7 @@
             const body = {
               'productCode': `${course.codice_s}`,
               'cup': `${course.cup_s}`,
-              'agevolazione': `${course.agevolazione_b?default('false')}` === 'true',
+              'agevolazione': `${course.agevolazione_b?default('false')}`,
               'productName': `${course.name_s}`,
               'clientId': ``,
               'partnerId': ``,
