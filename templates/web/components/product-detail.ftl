@@ -119,13 +119,8 @@
             const body = {
               'productCode': `${course.codice_s}`,
               'cup': `${course.cup_s}`,
-              //'agevolazione': `${course.agevolazione_b}`,
-              //'productName': `${course.name_s}`,
-              //'clientId': ``,
-              //'partnerId': ``,
-              //'productQty': '',
-              //'productPrice': `${course.costo_s}`,
-              //'itemUrl': ``,
+              'agevolazione': `${course.agevolazione_b}`,
+
             };
             console.log(body)
           }
