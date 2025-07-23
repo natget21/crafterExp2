@@ -121,11 +121,11 @@
       'cup': '${course.cup_s!""}',
       'agevolazione': ${course.agevolazione_b!"false"},
       'productName': '${course.name_s!""}',
-      'clientId': '${course.clientId!""}',
-      'partnerId': '${course.partnerId!""}',
-      'productQty': '${course.productQty!"1"}',
+      'clientId': '',
+      'partnerId': '${course.partnerId_s!""}',
+      'productQty': '',
       'productPrice': '${course.costo_s!"0"}',
-      'itemUrl': '${course.itemUrl!""}'
+      'itemUrl': ''
     };
 
     console.log(body);
