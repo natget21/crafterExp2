@@ -117,7 +117,7 @@
           
           async function makeOrder() {
             const body = {
-              'productCode': ${course.codice_s},
+              'productCode': ${course.codice_s.toString()},
               'cup': 'Stringa',
               'agevolazione': true,
               'productName': 'Stringa',
