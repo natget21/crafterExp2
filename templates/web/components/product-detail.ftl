@@ -114,6 +114,10 @@
               quantitySpan.textContent = quantity;
             }
           });
+          
+          async function makeOrder() {
+              alert("ficus");
+          }
         </script>
 
       </div>
