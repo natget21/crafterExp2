@@ -126,7 +126,7 @@
       'productQty': quantity,
       'productPrice': '${course.costo_s!"0"}',
       'clientId': user._id,
-      'itemUrl': ''
+      'itemUrl': '${storeUrl!""}'
     };
 
     console.log(body);
