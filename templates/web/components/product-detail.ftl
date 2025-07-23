@@ -1,4 +1,4 @@
-<#import "/templates/system/common/crafter.ftl" as crafter />
+;<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!--
 <#assign name = RequestParameters.name?default("") />
