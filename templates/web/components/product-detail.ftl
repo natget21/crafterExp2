@@ -119,7 +119,8 @@
             const body = {
               'productCode': `${course.codice_s}`,
               'cup': `${course.cup_s}`,
-              'agevolazione': `${course.agevolazione_b}`
+
+              'itemUrl': ``,
             };
             console.log(body)
           }
