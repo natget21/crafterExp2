@@ -115,15 +115,20 @@
             }
           });
           
-          async function makeOrder() {
-            const body = {
-              'productCode': `${course.codice_s}`,
-              'cup': `${course.cup_s}`
-
-
-            };
-            console.log(body)
-          }
+async function makeOrder() {
+  const body = {
+    'productCode': `${course.codice_s}`,
+    'cup': `${course.cup_s}`,
+    'agevolazione': `${course.agevolazione_b}`,
+    'productName': `${course.name_s}`,
+    'clientId': ``,
+    'partnerId': ``,
+    'productQty': '',
+    'productPrice': `${course.costo_s}`,
+    'itemUrl': ``
+  };
+  console.log(body);
+}
         </script>
 
       </div>
