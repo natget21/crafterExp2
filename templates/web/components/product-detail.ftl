@@ -123,7 +123,7 @@
       'agevolazione': ${course.agevolazione_b!"false"},
       'productName': '${course.name_s!""}',
       'partnerId': '${course.partnerId_s!""}',
-      'productQty': quantity,
+      'productQty': '' + quantity,
       'productPrice': '${course.costo_s!"0"}',
       'clientId': user._id,
       'itemUrl': '${storeUrl!""}'
