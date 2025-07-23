@@ -115,21 +115,21 @@
             }
           });
           
-async function makeOrder() {
-  const body = {
-    'productCode': course.codice_s || '',
-    'cup': course.cup_s || '',
-    'agevolazione': course.agevolazione_b ?? false, // usa false se null o undefined
-    'productName': course.name_s || '',
-    'clientId': course.clientId || '',
-    'partnerId': course.partnerId || '',
-    'productQty': course.productQty || '1',
-    'productPrice': course.costo_s || '0',
-    'itemUrl': course.itemUrl || ''
-  };
+  async function makeOrder() {
+    const body = {
+      'productCode': '${course.codice_s!""}',
+      'cup': '${course.cup_s!""}',
+      'agevolazione': ${course.agevolazione_b?c?string("true", "false")},
+      'productName': '${course.name_s!""}',
+      'clientId': '${course.clientId!""}',
+      'partnerId': '${course.partnerId!""}',
+      'productQty': '${course.productQty!"1"}',
+      'productPrice': '${course.costo_s!"0"}',
+      'itemUrl': '${course.itemUrl!""}'
+    };
 
-  console.log(body);
-}
+    console.log(body);
+  }
         </script>
 
       </div>
