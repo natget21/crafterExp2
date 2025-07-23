@@ -118,7 +118,7 @@
 async function makeOrder() {
   const body = {
     'productCode': `${course.codice_s}`,
-    'cup': `${course.cup_s}`,
+    //'cup': `${course.cup_s}`,
     'agevolazione': `${course.agevolazione_b}`,
     'productName': `${course.name_s}`,
     'clientId': ``,
