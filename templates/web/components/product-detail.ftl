@@ -116,7 +116,18 @@
           });
           
           async function makeOrder() {
-              alert("ficus");
+            const body = {
+              'productCode': 'Stringa',
+              'cup': 'Stringa',
+              'agevolazione': true,
+              'productName': 'Stringa',
+              'clientId': 'Stringa',
+              'partnerId': 'Stringa',
+              'productQty': 'Stringa',
+              'productPrice': 'Stringa',
+              'itemUrl': 'Stringa'
+            };
+            console.log(body)
           }
         </script>
 
