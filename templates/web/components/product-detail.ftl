@@ -119,12 +119,6 @@
             const body = {
               'productCode': `${course.codice_s}`,
               'cup': `${course.cup_s}`,
-              
-                'productName': `${course.name_s}`,
-              'clientId': ``,
-              'partnerId': ``,
-              'productQty': '',
-              'productPrice': `${course.costo_s}`,
               'itemUrl': ``,
 
             };
