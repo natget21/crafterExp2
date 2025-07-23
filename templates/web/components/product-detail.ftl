@@ -119,7 +119,7 @@
     const body = {
       'productCode': '${course.codice_s!""}',
       'cup': '${course.cup_s!""}',
-      'agevolazione': ${course.agevolazione_b?c?string("true", "false")},
+      'agevolazione': ${course.agevolazione_b!"false"},
       'productName': '${course.name_s!""}',
       'clientId': '${course.clientId!""}',
       'partnerId': '${course.partnerId!""}',
