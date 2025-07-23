@@ -119,7 +119,7 @@
             const body = {
               'productCode': `${course.codice_s}`,
               'cup': `${course.cup_s}`,
-              'itemUrl': ``,
+
 
             };
             console.log(body)
