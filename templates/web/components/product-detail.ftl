@@ -18,6 +18,7 @@
 
 <#assign storeUrl = RequestParameters.url />
 <#assign course = siteItemService.getSiteItem(storeUrl) />
+<#assign handleQuantity = course.quantity?default(false) />
 
     <div class="container row mx-auto">
       <h4 class="text-primary">${course.name_s?default("Nessun nome")}</h4>
