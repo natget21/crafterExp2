@@ -14,7 +14,7 @@
         <h5 class="card-title text-success">Ordine confermato!</h5>
         <p class="card-text text-center">
           Il tuo ordine è stato inviato correttamente.  
-          <br>Per maggiori informazioni, <a href="https://esempio.com/dettagli-ordine" class="link-primary">clicca qui</a>.
+          <br>Per maggiori informazioni, <a href="/my-orders" class="link-primary">clicca qui</a>.
         </p>
       </div>
     </div>
