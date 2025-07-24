@@ -9,7 +9,7 @@
     <#include "/templates/web/fragments/header.ftl">
     <#include "/templates/web/fragments/navigation.ftl">
     
-    <div class="card text-center shadow-sm my-5" style="max-width: 500px; margin: auto;">
+    <div class="card text-center shadow-sm my-5">
       <div class="card-body">
         <h5 class="card-title text-success">Ordine confermato!</h5>
         <p class="card-text">
