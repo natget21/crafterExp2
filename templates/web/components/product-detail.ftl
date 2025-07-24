@@ -41,11 +41,14 @@
     
     <!-- Parte destra: quantità + bottone -->
     <div class="d-flex flex-column align-items-end me-5 mb-3">
-      <div class="input-group quantity d-flex align-items-center mb-3 justify-content-end">
-        <button id="decrease" style="height: 16px; width: 20px;" class="btn btn-secondary btn-sm me-2 d-flex align-items-center justify-content-center">-</button>
-        <span style="width: 50px; text-align: center;" id="quantity" class="text-dark">1</span>
-        <button id="increase" style="height: 16px; width: 20px;" class="btn btn-secondary btn-sm ms-2 d-flex align-items-center justify-content-center">+</button>
-      </div>
+        <#if course.quantity>
+          <div class="input-group quantity d-flex align-items-center mb-3 justify-content-end">
+            <button id="decrease" style="height: 16px; width: 20px;" class="btn btn-secondary btn-sm me-2 d-flex align-items-center justify-content-center">-</button>
+            <span style="width: 50px; text-align: center;" id="quantity" class="text-dark">1</span>
+            <button id="increase" style="height: 16px; width: 20px;" class="btn btn-secondary btn-sm ms-2 d-flex align-items-center justify-content-center">+</button>
+          </div>
+        </#if>
+      
       <button class="btn btn-secondary text-white rounded-pill px-4" onclick="makeOrder()">ORDINA</button>
     </div>
 
