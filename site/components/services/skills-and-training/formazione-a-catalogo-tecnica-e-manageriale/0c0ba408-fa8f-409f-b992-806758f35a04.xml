@@ -1,57 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-    <content-type>/component/skills-and-training</content-type>
-    <display-template/>
-    <no-template-required>true</no-template-required>
-    <merge-strategy>inherit-levels</merge-strategy>
-    <objectGroupId>0c0b</objectGroupId>
-    <objectId>0c0ba408-fa8f-409f-b992-806758f35a04</objectId>
-    <file-name>0c0ba408-fa8f-409f-b992-806758f35a04.xml</file-name>
-    <folder-name/>
-    <internal-name>ONBOARDING IMMERSIVO PER LA FASE DI SCARICO</internal-name>
-    <name_s>Onboarding immersivo per la fase di scarico</name_s>
-    <obiettivo_html>&lt;p&gt;
-
-&lt;/p&gt;
- 
-  
-  &lt;p style="mso-element:frame;mso-element-frame-hspace:7.05pt;
-  mso-element-wrap:around;mso-element-anchor-horizontal:margin;mso-element-top:
-  34.8pt;mso-height-rule:exactly"&gt;Esperienza formativa in realtà virtuale (VR)
-  per nuovi operatori assegnati alla fase di scarico e controllo qualità di una
-  linea produttiva in uno stabilimento industriale. Il percorso guida l’utente
-  in modo interattivo e immersivo attraverso ambienti a 360°, esercizi pratici,
-  quiz e video tutorial, permettendo di familiarizzare con attrezzature,
-  procedure operative e controlli di qualità.&lt;/p&gt;
-  &lt;p style="mso-element:frame;mso-element-frame-hspace:7.05pt;
-  mso-element-wrap:around;mso-element-anchor-horizontal:margin;mso-element-top:
-  34.8pt;mso-height-rule:exactly"&gt;L’esperienza si sviluppa lungo cinque fasi
-  operative chiave:&lt;/p&gt;
-  &lt;p style=""&gt;&lt;ol&gt;&lt;li&gt;Carrello e navetta di scarico&lt;/li&gt;&lt;li&gt;Rulliere e gestione degli scarti&lt;/li&gt;&lt;li&gt;Gestione e smaltimento dei martiri&lt;/li&gt;&lt;li&gt;Uso del cono girapezzi e sua taratura&lt;/li&gt;&lt;li&gt;Controllo qualità manuale e automatico&lt;/li&gt;&lt;/ol&gt;&lt;!--[if !supportLists]--&gt;&lt;/p&gt;
-  
-  
-  
-  
-  &lt;p style="mso-element:frame;mso-element-frame-hspace:7.05pt;
-  mso-element-wrap:around;mso-element-anchor-horizontal:margin;mso-element-top:
-  34.8pt;mso-height-rule:exactly"&gt;&lt;span style="mso-spacerun:yes"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
-  
- 
-
-
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;
-
-
-
-
-&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+	<content-type>/component/skills-and-training</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0c0b</objectGroupId>
+	<objectId>0c0ba408-fa8f-409f-b992-806758f35a04</objectId>
+	<file-name>0c0ba408-fa8f-409f-b992-806758f35a04.xml</file-name>
+	<folder-name/>
+	<internal-name>ONBOARDING IMMERSIVO PER LA FASE DI SCARICO</internal-name>
+	<name_s>Onboarding immersivo per la fase di scarico</name_s>
+	<obiettivo_html>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-horizontal: margin; mso-element-top: 34.8pt; mso-height-rule: exactly;"&gt;Esperienza formativa in realt&amp;agrave; virtuale (VR) per nuovi operatori assegnati alla fase di scarico e controllo qualit&amp;agrave; di una linea produttiva in uno stabilimento industriale. Il percorso guida l&amp;rsquo;utente in modo interattivo e immersivo attraverso ambienti a 360&amp;deg;, esercizi pratici, quiz e video tutorial, permettendo di familiarizzare con attrezzature, procedure operative e controlli di qualit&amp;agrave;.&lt;/p&gt;
+&lt;p style="mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-horizontal: margin; mso-element-top: 34.8pt; mso-height-rule: exactly;"&gt;L&amp;rsquo;esperienza si sviluppa lungo cinque fasi operative chiave:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Carrello e navetta di scarico&lt;/li&gt;
+&lt;li&gt;Rulliere e gestione degli scarti&lt;/li&gt;
+&lt;li&gt;Gestione e smaltimento dei martiri&lt;/li&gt;
+&lt;li&gt;Uso del cono girapezzi e sua taratura&lt;/li&gt;
+&lt;li&gt;Controllo qualit&amp;agrave; manuale e automatico&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- [if !supportLists]--&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-horizontal: margin; mso-element-top: 34.8pt; mso-height-rule: exactly;"&gt;&lt;span style="mso-spacerun: yes;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;!-- [if gte mso 9]&gt;&lt;xml&gt;
  &lt;o:OfficeDocumentSettings&gt;
   &lt;o:AllowPNG/&gt;
  &lt;/o:OfficeDocumentSettings&gt;
-&lt;/xml&gt;&lt;![endif]--&gt;
-
-
-&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;/xml&gt;&lt;![endif]--&gt; &lt;!-- [if gte mso 9]&gt;&lt;xml&gt;
  &lt;w:WordDocument&gt;
   &lt;w:View&gt;Normal&lt;/w:View&gt;
   &lt;w:Zoom&gt;0&lt;/w:Zoom&gt;
@@ -91,7 +69,7 @@
    &lt;m:intLim m:val="subSup"/&gt;
    &lt;m:naryLim m:val="undOvr"/&gt;
   &lt;/m:mathPr&gt;&lt;/w:WordDocument&gt;
-&lt;/xml&gt;&lt;![endif]--&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;&lt;!-- [if gte mso 9]&gt;&lt;xml&gt;
  &lt;w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376"&gt;
@@ -670,9 +648,7 @@
   &lt;w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/&gt;
  &lt;/w:LatentStyles&gt;
-&lt;/xml&gt;&lt;![endif]--&gt;
-
-&lt;!--[if gte mso 10]&gt;
+&lt;/xml&gt;&lt;![endif]--&gt; &lt;!-- [if gte mso 10]&gt;
 &lt;style&gt;
  /* Style Definitions */
  table.MsoNormalTable
@@ -699,32 +675,27 @@
 	mso-ligatures:standardcontextual;
 	mso-fareast-language:EN-US;}
 &lt;/style&gt;
-&lt;![endif]--&gt;
-
-
-
-&lt;!--StartFragment--&gt;
-
-
-
-&lt;span style=""&gt;Ogni fase include attività interattive, contenuti
-visivi/audio e quiz per verificare la comprensione.&amp;nbsp;&lt;/span&gt;&lt;!--EndFragment--&gt;&lt;/p&gt;</obiettivo_html>
-    <descrizione_html>&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;L’esperienza si sviluppa lungo cinque fasi operative chiave:&lt;/p&gt;&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;&lt;/p&gt;&lt;ol style=""&gt;&lt;li&gt;Carrello e navetta di scarico&lt;/li&gt;&lt;li&gt;Rulliere e gestione degli scarti&lt;/li&gt;&lt;li&gt;Gestione e smaltimento dei martiri&lt;/li&gt;&lt;li&gt;Uso del cono girapezzi e sua taratura&lt;/li&gt;&lt;li&gt;Controllo qualità manuale e automatico&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;&lt;/p&gt;&lt;p&gt;&lt;!--StartFragment--&gt;&lt;!--EndFragment--&gt;&lt;/p&gt;&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;&lt;span&gt;Ogni fase include attività interattive, contenuti visivi/audio e quiz per verificare la comprensione.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</descrizione_html>
-    <partnerId_s>67fce234f647a63da899d027</partnerId_s>
-    <codice_s>VR-ONB-002</codice_s>
-    <informazionisulcosto_html>&lt;p&gt;
-
-
-
-
-&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;![endif]--&gt; &lt;!--StartFragment--&gt; &lt;span&gt;Ogni fase include attivit&amp;agrave; interattive, contenuti visivi/audio e quiz per verificare la comprensione.&amp;nbsp;&lt;/span&gt;&lt;!--EndFragment--&gt;&lt;/p&gt;</obiettivo_html>
+	<descrizione_html>&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;L&amp;rsquo;esperienza si sviluppa lungo cinque fasi operative chiave:&lt;/p&gt;
+&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Carrello e navetta di scarico&lt;/li&gt;
+&lt;li&gt;Rulliere e gestione degli scarti&lt;/li&gt;
+&lt;li&gt;Gestione e smaltimento dei martiri&lt;/li&gt;
+&lt;li&gt;Uso del cono girapezzi e sua taratura&lt;/li&gt;
+&lt;li&gt;Controllo qualit&amp;agrave; manuale e automatico&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;!--StartFragment--&gt;&lt;!--EndFragment--&gt;&lt;/p&gt;
+&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;Ogni fase include attivit&amp;agrave; interattive, contenuti visivi/audio e quiz per verificare la comprensione.&amp;nbsp;&lt;/p&gt;</descrizione_html>
+	<partnerId_s>67fce234f647a63da899d027</partnerId_s>
+	<codice_s>VR-ONB-002</codice_s>
+	<informazionisulcosto_html>&lt;p&gt;&lt;!-- [if gte mso 9]&gt;&lt;xml&gt;
  &lt;o:OfficeDocumentSettings&gt;
   &lt;o:AllowPNG/&gt;
  &lt;/o:OfficeDocumentSettings&gt;
-&lt;/xml&gt;&lt;![endif]--&gt;
-
-
-&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;/xml&gt;&lt;![endif]--&gt; &lt;!-- [if gte mso 9]&gt;&lt;xml&gt;
  &lt;w:WordDocument&gt;
   &lt;w:View&gt;Normal&lt;/w:View&gt;
   &lt;w:Zoom&gt;0&lt;/w:Zoom&gt;
@@ -764,7 +735,7 @@ visivi/audio e quiz per verificare la comprensione.&amp;nbsp;&lt;/span&gt;&lt;!-
    &lt;m:intLim m:val="subSup"/&gt;
    &lt;m:naryLim m:val="undOvr"/&gt;
   &lt;/m:mathPr&gt;&lt;/w:WordDocument&gt;
-&lt;/xml&gt;&lt;![endif]--&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;&lt;!-- [if gte mso 9]&gt;&lt;xml&gt;
  &lt;w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376"&gt;
@@ -1343,9 +1314,7 @@ visivi/audio e quiz per verificare la comprensione.&amp;nbsp;&lt;/span&gt;&lt;!-
   &lt;w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/&gt;
  &lt;/w:LatentStyles&gt;
-&lt;/xml&gt;&lt;![endif]--&gt;
-
-&lt;!--[if gte mso 10]&gt;
+&lt;/xml&gt;&lt;![endif]--&gt; &lt;!-- [if gte mso 10]&gt;
 &lt;style&gt;
  /* Style Definitions */
  table.MsoNormalTable
@@ -1372,24 +1341,28 @@ visivi/audio e quiz per verificare la comprensione.&amp;nbsp;&lt;/span&gt;&lt;!-
 	mso-ligatures:standardcontextual;
 	mso-fareast-language:EN-US;}
 &lt;/style&gt;
-&lt;![endif]--&gt;
-
-
-
-&lt;!--StartFragment--&gt;&lt;span style=""&gt;Il
-prezzo varia in base al grado di personalizzazione richiesto (riprese VR,
-grafiche, quiz, narrazione vocale, produzione video), numero di scene, e
-integrazione con piattaforme LMS. Disponibili versioni base e soluzioni su
-misura per reparti specifici.&lt;/span&gt;&lt;!--EndFragment--&gt;&lt;/p&gt;</informazionisulcosto_html>
-    <costo_s>0,00</costo_s>
-    <productid_s>PRO_22ac772b</productid_s>
-   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
-   <value>formazione-a-catalogo-tecnica-e-manageriale</value>
-   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
-   <disableFlattening>false</disableFlattening>
-   </item></subcategory_o>
-    <createdDate>2025-07-11T10:48:10.621Z</createdDate>
-    <createdDate_dt>2025-07-11T10:48:10.621Z</createdDate_dt>
-    <lastModifiedDate>2025-07-11T10:48:10.621Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-07-11T10:48:10.621Z</lastModifiedDate_dt>
+&lt;![endif]--&gt; &lt;!--StartFragment--&gt;&lt;span&gt;Il prezzo varia in base al grado di personalizzazione richiesto (riprese VR, grafiche, quiz, narrazione vocale, produzione video), numero di scene, e integrazione con piattaforme LMS. Disponibili versioni base e soluzioni su misura per reparti specifici.&lt;/span&gt;&lt;!--EndFragment--&gt;&lt;/p&gt;</informazionisulcosto_html>
+	<costo_s>0,00</costo_s>
+	<productid_s>PRO_22ac772b</productid_s>
+	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+	<value>formazione-a-catalogo-tecnica-e-manageriale</value>
+	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></subcategory_o>
+	<createdDate>2025-07-11T10:48:10.621Z</createdDate>
+	<createdDate_dt>2025-07-11T10:48:10.621Z</createdDate_dt>
+	<lastModifiedDate>2025-07-24T09:30:00.584Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-07-24T09:30:00.584Z</lastModifiedDate_dt>
+	<durata_s/>
+	<duratasessione_s/>
+	<partecipantiMin_s/>
+	<maxpartecipanti_s/>
+	<cup_s/>
+	<modalita_t/>
+	<rivolto_t/>
+	<extra_costo_t/>
+	<tipologiacosto_s/>
+	<agevolazione_b>false</agevolazione_b>
+	<quantity_b>true</quantity_b>
+	<image_s/>
 </component>
