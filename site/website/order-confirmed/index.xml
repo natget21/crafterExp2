@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/pageorder-confirmed</content-type>
+	<display-template>/templates/web/pages/order-confirmed.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>fe42</objectGroupId>
+	<objectId>fe4225f6-1a02-5e78-37df-9c3c4dceec65</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>order-confirmed</folder-name>
+	<internal-name>order-confirmed</internal-name>
+	<navLabel>order-confirmed</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-07-24T07:41:41.349Z</createdDate>
+	<createdDate_dt>2025-07-24T07:41:41.349Z</createdDate_dt>
+	<lastModifiedDate>2025-07-24T07:41:41.349Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-07-24T07:41:41.349Z</lastModifiedDate_dt>
+</page>
