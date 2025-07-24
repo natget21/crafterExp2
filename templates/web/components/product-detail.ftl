@@ -138,6 +138,9 @@
               },
               body: JSON.stringify(body)
             });
+            if (response.ok) {
+                window.location.href = '/order-confirmed';
+            }
           }
         </script>
 
