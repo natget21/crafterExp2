@@ -135,7 +135,7 @@
                     localStorage.setItem('crafterVadinUser', JSON.stringify(data));
                     localStorage.setItem('crafterVadinToken', data.access_token);
                     if(data.access_token)
-                        window.location.href = '/my-orders';
+                        window.location.href = '/catalog';
                     else{
                         toastMessage.textContent = 'Inserisci le credenziali corrette.';
                         errorToast.show();
