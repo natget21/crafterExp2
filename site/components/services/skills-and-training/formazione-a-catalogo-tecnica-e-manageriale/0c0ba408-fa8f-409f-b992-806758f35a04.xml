@@ -1351,8 +1351,8 @@
 	</item></subcategory_o>
 	<createdDate>2025-07-11T10:48:10.621Z</createdDate>
 	<createdDate_dt>2025-07-11T10:48:10.621Z</createdDate_dt>
-	<lastModifiedDate>2025-07-24T09:39:03.188Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-07-24T09:39:03.188Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-07-24T09:40:28.522Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-07-24T09:40:28.522Z</lastModifiedDate_dt>
 	<durata_s/>
 	<duratasessione_s/>
 	<partecipantiMin_s/>
@@ -1364,5 +1364,5 @@
 	<tipologiacosto_s/>
 	<agevolazione_b>true</agevolazione_b>
 	<quantity_b>true</quantity_b>
-	<image_s/>
+	<image_s>/static-assets/uploads/onboarding.jpg</image_s>
 </component>
