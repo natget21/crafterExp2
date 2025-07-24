@@ -11,5 +11,5 @@ def response = httpClient.execute(httpGet)
 def responseBody = EntityUtils.toString(response.getEntity())
 def partnerList = new JsonSlurper().parseText(responseBody)
 
-templateModel.partnerList = partnerList
+templateModel.partnerList = []
 
