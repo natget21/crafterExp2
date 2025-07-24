@@ -23,10 +23,10 @@
     <div class="container row mx-auto">
       <h4 class="text-primary">${course.name_s?default("Nessun nome")}</h4>
       <p class="text-muted small">Codice: ${course.codice_s?default("-----")}</p>
-      <div class="col-2">
+      <div class="col-sm-3 col-12">
         <img src="${course.image_s?default("https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg")}" style="width: 100%;" />
       </div>
-      <div class="col-10">
+      <div class="col-sm-9 col-12">
         <dl class="row">
           <dt class="col-sm-2 text-primary fw-bold">Descrizione</dt>
           <dd class="col-sm-10">${course.descrizione_html?default("Nessun descrizione")}</dd>
