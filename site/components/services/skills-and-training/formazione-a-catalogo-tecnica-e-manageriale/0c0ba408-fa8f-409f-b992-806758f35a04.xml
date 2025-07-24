@@ -675,7 +675,7 @@
 	mso-ligatures:standardcontextual;
 	mso-fareast-language:EN-US;}
 &lt;/style&gt;
-&lt;![endif]--&gt; &lt;!--StartFragment--&gt; &lt;span&gt;Ogni fase include attivit&amp;agrave; interattive, contenuti visivi/audio e quiz per verificare la comprensione.&amp;nbsp;&lt;/span&gt;&lt;!--EndFragment--&gt;&lt;/p&gt;</obiettivo_html>
+&lt;![endif]--&gt; &lt;!--StartFragment--&gt; Ogni fase include attivit&amp;agrave; interattive, contenuti visivi/audio e quiz per verificare la comprensione.&amp;nbsp;&lt;!--EndFragment--&gt;&lt;/p&gt;</obiettivo_html>
 	<descrizione_html>&lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;L&amp;rsquo;esperienza si sviluppa lungo cinque fasi operative chiave:&lt;/p&gt;
 &lt;p style="color: rgba(24, 39, 57, 0.94); text-align: start;"&gt;&amp;nbsp;&lt;/p&gt;
 &lt;ol&gt;
@@ -1341,7 +1341,7 @@
 	mso-ligatures:standardcontextual;
 	mso-fareast-language:EN-US;}
 &lt;/style&gt;
-&lt;![endif]--&gt; &lt;!--StartFragment--&gt;&lt;span&gt;Il prezzo varia in base al grado di personalizzazione richiesto (riprese VR, grafiche, quiz, narrazione vocale, produzione video), numero di scene, e integrazione con piattaforme LMS. Disponibili versioni base e soluzioni su misura per reparti specifici.&lt;/span&gt;&lt;!--EndFragment--&gt;&lt;/p&gt;</informazionisulcosto_html>
+&lt;![endif]--&gt; &lt;!--StartFragment--&gt;Il prezzo varia in base al grado di personalizzazione richiesto (riprese VR, grafiche, quiz, narrazione vocale, produzione video), numero di scene, e integrazione con piattaforme LMS. Disponibili versioni base e soluzioni su misura per reparti specifici.&lt;!--EndFragment--&gt;&lt;/p&gt;</informazionisulcosto_html>
 	<costo_s>0,00</costo_s>
 	<productid_s>PRO_22ac772b</productid_s>
 	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
@@ -1351,8 +1351,8 @@
 	</item></subcategory_o>
 	<createdDate>2025-07-11T10:48:10.621Z</createdDate>
 	<createdDate_dt>2025-07-11T10:48:10.621Z</createdDate_dt>
-	<lastModifiedDate>2025-07-24T09:30:00.584Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-07-24T09:30:00.584Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-07-24T09:32:41.545Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-07-24T09:32:41.545Z</lastModifiedDate_dt>
 	<durata_s/>
 	<duratasessione_s/>
 	<partecipantiMin_s/>
@@ -1362,7 +1362,7 @@
 	<rivolto_t/>
 	<extra_costo_t/>
 	<tipologiacosto_s/>
-	<agevolazione_b>false</agevolazione_b>
+	<agevolazione_b>true</agevolazione_b>
 	<quantity_b>true</quantity_b>
 	<image_s/>
 </component>
