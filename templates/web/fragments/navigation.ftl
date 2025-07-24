@@ -46,6 +46,7 @@
                             <a href="/news" class="nav-item nav-link <#if currentUrl?starts_with("/news")>active</#if>">NEWS</a>
                             <a href="/faq" class="nav-item nav-link">FAQ</a>
                             <a href="/contact" class="nav-item nav-link <#if currentUrl?starts_with("/contact")>active</#if>">CONTATTI</a>
+                            <!--
                             <div id="catalog-btn" class="nav-item dropdown">
                                 <a href="/catalog" class="nav-item nav-link dropdown-toggle">CATALOGO <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu  rounded-0 border-0 m-0">
@@ -86,6 +87,7 @@
                                         </#if>
                                 </div>
                             </div>
+                            -->
                             
                         </div>
                         <div class="navbar-nav ml-auto py-0 d-flex">
