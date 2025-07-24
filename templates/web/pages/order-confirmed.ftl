@@ -13,7 +13,7 @@
       <div class="card-body">
         <h5 class="card-title text-success">Ordine confermato!</h5>
         <p class="card-text">
-          Il tuo ordine è stato piazzato correttamente.  
+          Il tuo ordine è stato inviato correttamente.  
           <br>Per maggiori informazioni, <a href="https://esempio.com/dettagli-ordine" class="link-primary">clicca qui</a>.
         </p>
       </div>
