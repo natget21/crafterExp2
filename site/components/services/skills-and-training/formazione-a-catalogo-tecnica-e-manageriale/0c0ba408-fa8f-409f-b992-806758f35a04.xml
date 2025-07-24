@@ -1351,13 +1351,13 @@
 	</item></subcategory_o>
 	<createdDate>2025-07-11T10:48:10.621Z</createdDate>
 	<createdDate_dt>2025-07-11T10:48:10.621Z</createdDate_dt>
-	<lastModifiedDate>2025-07-24T09:32:41.545Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-07-24T09:32:41.545Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-07-24T09:39:03.188Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-07-24T09:39:03.188Z</lastModifiedDate_dt>
 	<durata_s/>
 	<duratasessione_s/>
 	<partecipantiMin_s/>
 	<maxpartecipanti_s/>
-	<cup_s/>
+	<cup_s>123</cup_s>
 	<modalita_t/>
 	<rivolto_t/>
 	<extra_costo_t/>
