@@ -62,7 +62,7 @@
     
         <div class="service mt-5 d-flex justify-content-between align-items-center">
           <div class="d-flex flex-column align-items-center justify-content-center">
-                <h3 class="service_title text-center">Test Before Invest</h3>
+                <h3 class="service_title text-center">Test before invest</h3>
                 <p class="text-center">Questa categoria permette alle aziende di esplorare soluzioni e tecnologie prima di fare investimenti significativi. Consente di validare idee e concetti tecnologici attraverso attività pratiche e dimostrative che riducono i rischi e migliorano la decisione sugli investimenti</p>
                 <div class="d-flex flex-grow-1 justify-content-center align-items-end">
                   <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/test-before-invest'">
@@ -101,7 +101,7 @@
         
         <div class="service mt-5 d-flex justify-content-between align-items-center">
           <div class="d-flex flex-column align-items-center justify-content-center">
-                <h3 class="service_title text-center">Access to Finance</h3>
+                <h3 class="service_title text-center">Access to finance</h3>
                 <p class="text-center">Questa categoria aiuta le aziende ad accedere a diverse forme di finanziamento, sia pubbliche che private, per finanziare progetti innovativi e di crescita. I servizi offrono consulenza mirata per la gestione di fondi e risorse, rendendo più facile l'accesso a capitali necessari per lo sviluppo.</p>
                 <div class="d-flex flex-grow-1 justify-content-center align-items-end">
                   <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/finance'">
@@ -114,7 +114,7 @@
         
         <div class="service mt-5 d-flex justify-content-between align-items-center">
           <div class="d-flex flex-column align-items-center justify-content-center">
-                <h3 class="service_title text-center">Networking & Open Innovation</h3>
+                <h3 class="service_title text-center">Networking & Open innovation</h3>
                 <p class="text-center">Questa categoria supporta la creazione di connessioni tra aziende, startup, università, istituzioni e investitori, promuovendo la collaborazione e l’innovazione aperta. L'obiettivo è favorire la creazione di ecosistemi dinamici in cui le imprese possano crescere attraverso il confronto e l’interazione con altri attori.</p>
                 <div class="d-flex flex-grow-1 justify-content-center align-items-end">
                   <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/networking'">
