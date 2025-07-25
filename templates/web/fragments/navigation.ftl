@@ -144,12 +144,14 @@
     </div>
     
     <script>
-        const iframe = document.getElementById('partnerFrame');
-        if(iframe) {
-            iframe.addEventListener('load', () => {
-                const iframeTitle = iframe.contentDocument.title;
-                alert(iframeTitle);
-            });
+        window.onload = function() {
+            const iframe = document.getElementById('partnerFrame');
+            if(iframe) {
+                iframe.addEventListener('load', () => {
+                    const iframeTitle = iframe.contentDocument.title;
+                    alert(iframeTitle);
+                });
+            }
         }
         
         async function logout(){
