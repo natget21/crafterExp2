@@ -144,7 +144,7 @@
     </div>
     
     <script>
-        const iframe = document.getElementById('partnerFrame');
+        const iframe = document.getElementById('crafterCMSPreviewIframe');
         iframe.addEventListener('load', () => {
           try {
             const iframeTitle = iframe.contentDocument.title;
