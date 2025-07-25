@@ -145,13 +145,15 @@
     
     <script>
         window.onload = function() {
-            const iframe = document.getElementById('partnerFrame');
-            if(iframe) {
-                iframe.addEventListener('load', () => {
-                    const iframeTitle = iframe.contentDocument.title;
-                    alert(iframeTitle);
-                });
-            }
+            setTimeout(() => {
+                const iframe = document.getElementById('partnerFrame');
+                if(iframe) {
+                    iframe.addEventListener('load', () => {
+                        const iframeTitle = iframe.contentDocument.title;
+                        alert(iframeTitle);
+                    });
+                }
+            }, 5000)
         }
         
         async function logout(){
