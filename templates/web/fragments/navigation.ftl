@@ -148,7 +148,6 @@ window.onload = function () {
   setTimeout(() => {
     const iframe = document.getElementById('partnerFrame');
     if (iframe) {
-      alert("ok")
       const readIframeTitle = () => {
         try {
           const iframeTitle = iframe.contentDocument.title;
@@ -167,7 +166,7 @@ window.onload = function () {
         iframe.addEventListener('load', readIframeTitle);
       }
     }
-  }, 5000);
+  }, 10000);
 };
         
         async function logout(){
