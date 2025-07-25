@@ -144,17 +144,31 @@
     </div>
     
     <script>
-        window.onload = function() {
-            setTimeout(() => {
-                const iframe = document.getElementById('partnerFrame');
-                if(iframe) {
-                    iframe.addEventListener('load', () => {
-                        const iframeTitle = iframe.contentDocument.title;
-                        alert(iframeTitle);
-                    });
-                }
-            }, 5000)
+window.onload = function () {
+  setTimeout(() => {
+    const iframe = document.getElementById('partnerFrame');
+    if (iframe) {
+      // Funzione per leggere il titolo
+      const readIframeTitle = () => {
+        try {
+          const iframeTitle = iframe.contentDocument.title;
+          alert(iframeTitle);
+        } catch (error) {
+          console.error('Errore nell\'accesso al contenuto dell\'iframe:', error);
         }
+      };
+
+      // Se l'iframe è già caricato
+      const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+      if (iframeDoc && iframeDoc.readyState === 'complete') {
+        readIframeTitle();
+      } else {
+        // Altrimenti, attendi l'evento load
+        iframe.addEventListener('load', readIframeTitle);
+      }
+    }
+  }, 5000);
+};
         
         async function logout(){
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
