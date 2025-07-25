@@ -147,12 +147,8 @@
         const iframe = document.getElementById('crafterCMSPreviewIframe');
         if(iframe) {
             iframe.addEventListener('load', () => {
-              try {
                 const iframeTitle = iframe.contentDocument.title;
                 alert(iframeTitle);
-              } catch (error) {
-                console.error('Impossibile accedere al contenuto dell\'iframe:', error);
-              }
             });
         }
         
