@@ -148,7 +148,7 @@
         iframe.addEventListener('load', () => {
           try {
             const iframeTitle = iframe.contentDocument.title;
-            console.log('Titolo dell\'iframe:', iframeTitle);
+            alert(iframeTitle);
           } catch (error) {
             console.error('Impossibile accedere al contenuto dell\'iframe:', error);
           }
