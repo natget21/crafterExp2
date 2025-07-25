@@ -69,7 +69,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <#if partnerData.partnerCompanyLogoUrl??>
-                            <img src="${partnerData.partnerCompanyLogoUrl}" alt="${partnerData.partnerAzienda}" class="img-fluid">
+                            <img src="${partnerData.partnerCompanyLogoUrl?default("")}" alt="${partnerData.partnerAzienda?default("")}" class="img-fluid">
                         </#if>
                     </div>
                     <div class="col-md-8">
