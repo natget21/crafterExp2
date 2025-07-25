@@ -144,6 +144,16 @@
     </div>
     
     <script>
+        const iframe = document.getElementById('partnerFrame');
+        iframe.addEventListener('load', () => {
+          try {
+            const iframeTitle = iframe.contentDocument.title;
+            console.log('Titolo dell\'iframe:', iframeTitle);
+          } catch (error) {
+            console.error('Impossibile accedere al contenuto dell\'iframe:', error);
+          }
+        });
+        
         async function logout(){
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
             localStorage.removeItem('crafterVadinUser');
