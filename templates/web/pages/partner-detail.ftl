@@ -73,18 +73,18 @@
                         </#if>
                     </div>
                     <div class="col-md-8">
-                        <h2>${partnerData.partnerLandingTitle}</h2>
-                        <div>${partnerData.partnerLandingIntroduction?no_esc}</div>
-                        <div>${partnerData.partnerLandingContent?no_esc}</div>
+                        <h2>${partnerData.partnerLandingTitle?default("")}</h2>
+                        <div>${partnerData.partnerLandingIntroduction?no_esc?default("")}</div>
+                        <div>${partnerData.partnerLandingContent?no_esc?default("")}</div>
                         <ul class="list-unstyled mt-3">
-                            <li><strong>Contact:</strong> ${partnerData.partnerContatto}</li>
-                            <li><strong>Email:</strong> ${partnerData.partnerContactEmail}</li>
-                            <li><strong>Phone:</strong> ${partnerData.partnerTelephone}</li>
-                            <li><strong>Region:</strong> ${partnerData.partnerRegione}</li>
-                            <li><strong>Country:</strong> ${partnerData.partnerNazione}</li>
-                            <li><strong>Sector:</strong> ${partnerData.partnerSettore}</li>
-                            <li><strong>Staff Size:</strong> ${partnerData.partnerStaffSize}</li>
-                            <li><strong>Status:</strong> ${partnerData.partnerStatus}</li>
+                            <li><strong>Contact:</strong> ${partnerData.partnerContatto?default("")}</li>
+                            <li><strong>Email:</strong> ${partnerData.partnerContactEmail?default("")}</li>
+                            <li><strong>Phone:</strong> ${partnerData.partnerTelephone?default("")}</li>
+                            <li><strong>Region:</strong> ${partnerData.partnerRegione?default("")}</li>
+                            <li><strong>Country:</strong> ${partnerData.partnerNazione?default("")}</li>
+                            <li><strong>Sector:</strong> ${partnerData.partnerSettore?default("")}</li>
+                            <li><strong>Staff Size:</strong> ${partnerData.partnerStaffSize?default("")}</li>
+                            <li><strong>Status:</strong> ${partnerData.partnerStatus?default("")}</li>
                         </ul>
                     </div>
                 </div>
