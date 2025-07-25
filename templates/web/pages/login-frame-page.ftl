@@ -40,8 +40,7 @@
             const iframe = document.getElementById("partnerFrame");
             
              iframe.addEventListener('load', function() {
-                const iframeTitle = iframe.contentWindow.document.title;
-                alert(iframeTitle);
+                console.log(iframe)
              })
             
             console.log("here")
