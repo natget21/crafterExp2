@@ -39,6 +39,10 @@
             const button = document.getElementById("toggle-btn");
             const iframe = document.getElementById("partnerFrame");
             
+             iframe.addEventListener('load', function() {
+                 alert("loading")
+             })
+            
             console.log("here")
     
             let isRegister = false;
