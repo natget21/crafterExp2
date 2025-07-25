@@ -148,7 +148,7 @@ window.onload = function () {
   setTimeout(() => {
     const iframe = document.getElementById('partnerFrame');
     if (iframe) {
-      // Funzione per leggere il titolo
+      alert("ok")
       const readIframeTitle = () => {
         try {
           const iframeTitle = iframe.contentDocument.title;
