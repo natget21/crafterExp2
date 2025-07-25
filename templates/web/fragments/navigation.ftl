@@ -125,6 +125,7 @@
                                     <a id="logout-btn-test" href="javascript:void(0);" class="nav-item nav-link sublink" onclick="logout()">
                                         Esci
                                     </a>
+                                    <button onclick="test()">test</button>
                                 </div>
                             </div>
                             <!--<a href="javascript:void(0);" id="logout-btn" class="nav-link" onclick="logout()">AREA RISERVATA</a>-->
@@ -144,7 +145,9 @@
     </div>
     
     <script>
-
+        async function test() {
+            alert("Okl")
+        }
         async function logout(){
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
             localStorage.removeItem('crafterVadinUser');
