@@ -122,5 +122,5 @@
     </div>
     
     <script>
-        alert("ik")
+        document.getElementById('')
     </script>
