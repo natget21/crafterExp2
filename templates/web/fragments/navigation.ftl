@@ -145,9 +145,6 @@
     </div>
     
     <script>
-        async function test() {
-            alert("Okl")
-        }
         async function logout(){
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
             localStorage.removeItem('crafterVadinUser');
