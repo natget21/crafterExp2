@@ -102,7 +102,7 @@
     
 })(jQuery);
 
-console.log("Global script attahced!");
+console.log("Global script attached!");
 window.addEventListener('message', (event) => {
     const receivedRoute = event.data;
     console.log("Messaggio ricevuto e accettato dall'iframe. Nuova rotta: "+ receivedRoute);
