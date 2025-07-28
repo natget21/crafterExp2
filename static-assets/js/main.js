@@ -107,5 +107,5 @@ window.addEventListener('message', (event) => {
     const receivedRoute = event.data;
     console.log("Messaggio ricevuto e accettato dall'iframe. Nuova rotta: "+ receivedRoute);
 
-}
+});
 
