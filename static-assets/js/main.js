@@ -102,17 +102,8 @@
     
 })(jQuery);
 
+console.log("Global script attahced!");
 window.addEventListener('message', (event) => {
-    const allowedOrigins = [
-        'https://ideale.shortcut.uno', 
-        'http://localhost:8080'
-    ];
-
-    if (!allowedOrigins.includes(event.origin)) {
-        console.warn(`Messaggio da origine non permessa ignorato: ${event.origin}`);
-        return;
-    }
-    
     const receivedRoute = event.data;
     console.log("Messaggio ricevuto e accettato dall'iframe. Nuova rotta: "+ receivedRoute);
 
