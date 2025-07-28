@@ -105,7 +105,7 @@
 console.log("Global script attached!");
 window.addEventListener('message', (event) => {
     const receivedRoute = event.data;
-    alert(receivedRoute);
+    alert(receivedRoute + '');
 
 });
 
