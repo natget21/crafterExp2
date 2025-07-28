@@ -113,7 +113,7 @@ window.addEventListener('message', (event) => {
     } else {
         const auth = document.getElementById('authenticationBlock');
         auth.classList.remove('d-none');
-        auth.classList.add('d-none');
+        auth.classList.add('d-flex');
     }
 });
 
