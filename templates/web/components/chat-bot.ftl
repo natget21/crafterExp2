@@ -164,7 +164,7 @@ function addLink(link) {
     a.className = 'text-white';
     a.style.fontSize = '0.85rem';
     a.textContent = 'Clicca qui per maggiori info';
-    a.href = link;
+    a.href = 'https://demo.shortcut.uno/detail?url=' + link;
     a.target = '_blank';
 
     chatMessage.appendChild(a);
