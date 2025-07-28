@@ -108,9 +108,10 @@ window.addEventListener('message', (event) => {
     console.log('Socket Message', receivedRoute);
     if(receivedRoute === 'ideale-providers-dash') {
         const auth = document.getElementById('authenticationBlock');
-        auth.class = 'd-none';
+        auth.classList.add('d-none');
     } else {
-        
+        const auth = document.getElementById('authenticationBlock');
+        auth.classList.remove('d-none');
     }
 });
 
