@@ -108,7 +108,9 @@ window.addEventListener('message', (event) => {
     console.log('Socket Message', receivedRoute);
     const authRoots = ['ideale-providers-dash', 'members-view']
     if(authRoots.includes(receivedRoute)) {
-        localStorage.setItem('auth', true);
+        const authBlock = document.getElementById('authenticationBlock');
+        authBlock.classList.remove('d-flex');
+        authBlock.classList.add('d-none');
     } else {
         localStorage.setItem('auth', false);
     }
