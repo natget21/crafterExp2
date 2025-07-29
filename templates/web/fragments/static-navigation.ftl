@@ -15,7 +15,7 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse" >
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="/index" class="nav-item nav-link <#if currentUrl?starts_with("/index")>active</#if>"><i class="fa fa-home mt-1"></i> HOME</a>
+                            <a href="/index" class="nav-item nav-link <#if currentUrl?starts_with("/index")>active</#if>"><i class="fa fa-home mt-1"></i> HaaaOME</a>
                             
                             <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">VISIONE</a>
                         
