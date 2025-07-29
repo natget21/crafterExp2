@@ -145,7 +145,6 @@
     
     <script>
         async function logout(){
-            localStorage.setItem('auth', false);
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
             localStorage.removeItem('crafterVadinUser');
             localStorage.removeItem('crafterVadinToken');
