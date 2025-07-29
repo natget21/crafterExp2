@@ -107,6 +107,7 @@ window.addEventListener('message', (event) => {
     const receivedRoute = event.data;
     console.log('Socket Message', receivedRoute);
     const authBlock = document.getElementById('authenticationBlock');
+    console.log('Auth Block', authBlock);
     const authRoots = ['ideale-providers-dash', 'members-view']
     if(authRoots.includes(receivedRoute)) {
         authBlock.classList.add('d-none');
