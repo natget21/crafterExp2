@@ -145,7 +145,7 @@
     
     <script>
         
-        if(localStorage.getItem('auth')) {
+        if(localStorage.getItem('auth') === 'true') {
             const auth = document.getElementById('authenticationBlock');
             auth.classList.remove('d-flex');
             auth.classList.add('d-none');
