@@ -109,6 +109,8 @@ window.addEventListener('message', (event) => {
     const authRoots = ['ideale-providers-dash', 'members-view']
     if(authRoots.includes(receivedRoute)) {
         localStorage.setItem('auth', true);
+    } else {
+        localStorage.setItem('auth', true);
     }
 });
 
