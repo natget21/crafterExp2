@@ -61,7 +61,7 @@
     <div class="content pb-5 layout_padding col-11 col-md-9 mx-auto">
       <div class="d-flex flex-column flex-md-row">
         <div class="col-12 col-md-7">
-          <h2 class="title_section">${partnerData.partnerAzienda}</h2>
+          <h3 class="title_section">${partnerData.partnerAzienda}</h3>
           <div class="text-justified fs-5 fw-normal" for="">
             ${partnerData.partnerLandingIntroduction?no_esc}
             ${partnerData.partnerLandingContent?no_esc}
