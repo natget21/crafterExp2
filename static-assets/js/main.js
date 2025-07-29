@@ -110,7 +110,7 @@ window.addEventListener('message', (event) => {
     if(authRoots.includes(receivedRoute)) {
         localStorage.setItem('auth', true);
     } else {
-        localStorage.setItem('auth', true);
+        localStorage.setItem('auth', false);
     }
 });
 
