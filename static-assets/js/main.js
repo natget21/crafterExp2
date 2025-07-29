@@ -112,7 +112,8 @@ window.addEventListener('message', (event) => {
         authBlock.classList.remove('d-flex');
         authBlock.classList.add('d-none');
     } else {
-        localStorage.setItem('auth', false);
+        authBlock.classList.add('d-flex');
+        authBlock.classList.remove('d-none');
     }
 });
 
