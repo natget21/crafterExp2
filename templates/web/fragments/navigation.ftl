@@ -125,7 +125,6 @@
                                     <a id="logout-btn-test" href="javascript:void(0);" class="nav-item nav-link sublink" onclick="logout()">
                                         Esci
                                     </a>
-                                    <button onclick="test()">test</button>
                                 </div>
                             </div>
                             <!--<a href="javascript:void(0);" id="logout-btn" class="nav-link" onclick="logout()">AREA RISERVATA</a>-->
