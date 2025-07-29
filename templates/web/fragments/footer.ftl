@@ -73,13 +73,3 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
 </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            if (localStorage.getItem('auth')) {
-                const authBlock = document.getElementById('authenticationBlock');
-                authBlock.classList.remove('d-flex');
-                authBlock.classList.add('d-none');
-            }
-        });
-    </script>
