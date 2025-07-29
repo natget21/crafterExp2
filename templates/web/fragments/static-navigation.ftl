@@ -122,5 +122,10 @@
     </div>
     
     <script>
-        document.getElementById('')
+                
+        if(localStorage.getItem('auth') === 'true') {
+            const authBlock = document.getElementById('authenticationBlock');
+            authBlock.classList.remove('d-flex');
+            authBlock.classList.add('d-none');
+        }
     </script>
