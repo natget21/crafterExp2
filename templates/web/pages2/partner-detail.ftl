@@ -103,19 +103,19 @@
                   <p class="fs-6 desc">${partnerData.partnerAzienda}</p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-8">
-                  <p class="text-muted mb-1">Partita IVA</p>
+                  <p class="fs-5 text-muted mb-1">Partita IVA</p>
                   <p class="fs-6 desc">${partnerData.partnerPiva}</p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                  <p class="text-muted mb-1">Indirizzo</p>
+                  <p class="fs-5 text-muted mb-1">Indirizzo</p>
                   <p class="fs-6 desc">${partnerData.partnerNazione}</p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                  <p class="text-muted mb-1">Email</p>
+                  <p class="fs-5 text-muted mb-1">Email</p>
                   <p class="fs-6 desc">${partnerData.partnerContactEmail}</p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                  <p class="text-muted mb-1">Telefono</p>
+                  <p class="fs-5 text-muted mb-1">Telefono</p>
                   <p class="fs-6 desc">${partnerData.partnerTelephone}</p>
                 </div>
               </div>
