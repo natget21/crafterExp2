@@ -106,7 +106,8 @@ console.log("Global script attached!");
 window.addEventListener('message', (event) => {
     const receivedRoute = event.data;
     console.log('Socket Message', receivedRoute);
-    if(receivedRoute === 'ideale-providers-dash') {
+    const authRoots = ['ideale-providers-dash', 'members-view']
+    if(authRoots.includes(receivedRoute)) {
         const auth = document.getElementById('authenticationBlock');
         auth.classList.remove('d-flex');
         auth.classList.add('d-none');
