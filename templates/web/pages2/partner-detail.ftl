@@ -75,176 +75,150 @@
           />
         </div>
       </div>
-      <div class="layout_padding">
-        <div class="accordion" id="productsAccordion">
-        
-        <div class="accordion-item rounded-3 shadow-sm">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed fw-semibold"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#productOne"
-              aria-expanded="false"
-              aria-controls="productOne"
-            >
-              Scheda informativa
-            </button>
-          </h2>
-          <div
-            id="productOne"
-            class="accordion-collapse collapse"
-            data-bs-parent="#productsAccordion"
-          >
-            <div class="accordion-body px-4 py-3">
-              <div class="row g-4">
-                <div class="col-12 col-md-6 col-lg-4">
-                  <p class="fs-5 text-muted mb-1">Ragione sociale</p>
-                  <p class="fs-6 desc">${partnerData.partnerAzienda}</p>
-                </div>
-                <div class="col-12 col-md-6 col-lg-8">
-                  <p class="fs-5 text-muted mb-1">Partita IVA</p>
-                  <p class="fs-6 desc">${partnerData.partnerPiva}</p>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                  <p class="fs-5 text-muted mb-1">Indirizzo</p>
-                  <p class="fs-6 desc">${partnerData.partnerNazione}</p>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                  <p class="fs-5 text-muted mb-1">Email</p>
-                  <p class="fs-6 desc">${partnerData.partnerContactEmail}</p>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                  <p class="fs-5 text-muted mb-1">Telefono</p>
-                  <p class="fs-6 desc">${partnerData.partnerTelephone}</p>
-                </div>
-              </div>
+  
+  
+  <style>
+  .desc {
+    text-align: justify;
+  }
+</style>
+
+<div class="layout_padding">
+  <div class="accordion" id="productsAccordion">
+    
+    <!-- Scheda informativa -->
+    <div class="accordion-item rounded-3 shadow-sm">
+      <h2 class="accordion-header">
+        <button
+          class="accordion-button collapsed fs-6 fw-bold"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#productOne"
+          aria-expanded="false"
+          aria-controls="productOne"
+        >
+          Scheda informativa
+        </button>
+      </h2>
+      <div
+        id="productOne"
+        class="accordion-collapse collapse"
+        data-bs-parent="#productsAccordion"
+      >
+        <div class="accordion-body px-4 py-3">
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+              <p class="fs-5 text-muted mb-1">Ragione sociale</p>
+              <p class="fs-6 desc">${partnerData.partnerAzienda}</p>
             </div>
-          </div>
-        </div>
-        
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#productOne"
-                aria-expanded="false"
-                aria-controls="productOne"
-              >
-                Scheda informativa
-              </button>
-            </h2>
-            <div
-              id="productOne"
-              class="accordion-collapse collapse"
-              data-bs-parent="#productsAccordion"
-            >
-              <div class="accordion-body row row-gap-5">
-                <div class="col-12 col-lg-4 info">
-                  <p class="text-primary">Ragione sociale</p>
-                  <p class="fs-5 desc">${partnerData.partnerAzienda}</p>
-                </div>
-                <div class="col-12 col-lg-8 info">
-                  <p class="text-primary">Partita IVA</p>
-                  <p class="fs-5 desc">${partnerData.partnerPiva}</p>
-                </div>
-                <div class="col-12 col-lg-4 info">
-                  <p class="text-primary">Indirizzo</p>
-                  <p class="fs-5 desc">${partnerData.partnerNazione}</p>
-                </div>
-                <div class="col-12 col-lg-4 info">
-                  <p class="text-primary">Email</p>
-                  <p class="fs-5 desc">${partnerData.partnerContactEmail}</p>
-                </div>
-                <div class="col-12 col-lg-4 info">
-                  <p class="text-primary">Telefono</p>
-                  <p class="fs-5 desc">${partnerData.partnerTelephone}</p>
-                </div>
-              </div>
+            <div class="col-12 col-md-6 col-lg-8">
+              <p class="fs-5 text-muted mb-1">Partita IVA</p>
+              <p class="fs-6 desc">${partnerData.partnerPiva}</p>
             </div>
-          </div>
-          
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#productCategories"
-                aria-expanded="false"
-                aria-controls="productCategories"
-              >
-                Categorie Servizi
-              </button>
-            </h2>
-            <div
-              id="productCategories"
-              class="accordion-collapse collapse"
-              data-bs-parent="#productsAccordion"
-            >
-              <div class="accordion-body row row-gap-5 p-5">
-                  <div class="category_services row row-gap-5">
-                    <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
-                      <p class="category_service_name">Test Before Invest</p>
-                      <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Servizi che permettono alle aziende di esplorare e testare nuove tecnologie e soluzioni prima di effettuare investimenti, attraverso dimostrazioni pratiche, studi di fattibilità, proof-of-concept, test e validazione di soluzioni.">
-                    </div>
-                    <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
-                      <p class="category_service_name">Access to Finance</p>
-                      <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Servizi di consulenza finalizzati a facilitare l'accesso a finanziamenti pubblici e privati, tra cui la finanza agevolata, la progettazione di crowdfunding, l'accesso al credito, le misure fiscali e la consulenza in corporate finance.">
-                    </div>
-                    <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
-                      <p class="category_service_name">Consulenza</p>
-                      <img class="" src="static-assets/assets/questionmark.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Servizi progettati per supportare le aziende nel loro percorso di innovazione e crescita, fornendo supporto strategico e operativo su diverse aree come l'orientamento tecnologico, la gestione del cambiamento, l'innovazione sociale e la consulenza ICT e manageriale.">
-                    </div>
-                  </div>
-              </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <p class="fs-5 text-muted mb-1">Indirizzo</p>
+              <p class="fs-6 desc">${partnerData.partnerNazione}</p>
             </div>
-          </div>
-          
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#productTwo"
-                aria-expanded="false"
-                aria-controls="productTwo"
-              >
-                Documentazione
-              </button>
-            </h2>
-            <div
-              id="productTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#productsAccordion"
-            >
-              <div class="accordion-body row row-gap-5">
-                <#list partnerData.partnerLandingImagesAssetsUrlList as mediaUrl>
-                  <div class="attachment col-12 col-md-4">
-                    <p
-                      class="name_attachment d-flex justify-content-center justify-content-md-start"
-                    >
-                      Allegato-${mediaUrl_index + 1}
-                    </p>
-                    <div
-                      class="buttons justify-content-center justify-content-md-start d-flex gap-3"
-                    >
-                      <a href="${mediaUrl}?download=true" download><i class="bi bi-download"></i></a>
-                      <a href="${mediaUrl}" target="_blank" rel="noopener noreferrer">
-                        <i class="bi bi-eye"></i>
-                      </a>
-                    </div>
-                  </div>
-                </#list>
-              </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <p class="fs-5 text-muted mb-1">Email</p>
+              <p class="fs-6 desc">${partnerData.partnerContactEmail}</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <p class="fs-5 text-muted mb-1">Telefono</p>
+              <p class="fs-6 desc">${partnerData.partnerTelephone}</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Categorie Servizi -->
+    <div class="accordion-item rounded-3 shadow-sm">
+      <h2 class="accordion-header">
+        <button
+          class="accordion-button collapsed fs-6 fw-bold"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#productCategories"
+          aria-expanded="false"
+          aria-controls="productCategories"
+        >
+          Categorie Servizi
+        </button>
+      </h2>
+      <div
+        id="productCategories"
+        class="accordion-collapse collapse"
+        data-bs-parent="#productsAccordion"
+      >
+        <div class="accordion-body px-4 py-4">
+          <div class="category_services row g-4">
+            <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
+              <p class="category_service_name">Test Before Invest</p>
+              <img src="static-assets/assets/questionmark.png" alt=""
+                data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="Servizi che permettono alle aziende di esplorare e testare nuove tecnologie e soluzioni prima di effettuare investimenti, attraverso dimostrazioni pratiche, studi di fattibilità, proof-of-concept, test e validazione di soluzioni.">
+            </div>
+            <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
+              <p class="category_service_name">Access to Finance</p>
+              <img src="static-assets/assets/questionmark.png" alt=""
+                data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="Servizi di consulenza finalizzati a facilitare l'accesso a finanziamenti pubblici e privati, tra cui la finanza agevolata, la progettazione di crowdfunding, l'accesso al credito, le misure fiscali e la consulenza in corporate finance.">
+            </div>
+            <div class="category_service col-12 col-md-6 col-lg-4 d-flex gap-3">
+              <p class="category_service_name">Consulenza</p>
+              <img src="static-assets/assets/questionmark.png" alt=""
+                data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="Servizi progettati per supportare le aziende nel loro percorso di innovazione e crescita, fornendo supporto strategico e operativo su diverse aree come l'orientamento tecnologico, la gestione del cambiamento, l'innovazione sociale e la consulenza ICT e manageriale.">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Documentazione -->
+    <div class="accordion-item rounded-3 shadow-sm">
+      <h2 class="accordion-header">
+        <button
+          class="accordion-button collapsed fs-6 fw-bold"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#productTwo"
+          aria-expanded="false"
+          aria-controls="productTwo"
+        >
+          Documentazione
+        </button>
+      </h2>
+      <div
+        id="productTwo"
+        class="accordion-collapse collapse"
+        data-bs-parent="#productsAccordion"
+      >
+        <div class="accordion-body row g-4 px-4 py-3">
+          <#list partnerData.partnerLandingImagesAssetsUrlList as mediaUrl>
+            <div class="attachment col-12 col-md-4">
+              <p class="name_attachment d-flex justify-content-center justify-content-md-start">
+                Allegato-${mediaUrl_index + 1}
+              </p>
+              <div class="buttons d-flex gap-3 justify-content-center justify-content-md-start">
+                <a href="${mediaUrl}?download=true" download>
+                  <i class="bi bi-download"></i>
+                </a>
+                <a href="${mediaUrl}" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-eye"></i>
+                </a>
+              </div>
+            </div>
+          </#list>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  
 
     <div class="bg-primary pb-5">
       <div
