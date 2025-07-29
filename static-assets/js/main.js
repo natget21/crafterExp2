@@ -108,7 +108,7 @@ window.addEventListener('message', (event) => {
     console.log('Socket Message', receivedRoute);
     const authBlock1 = document.getElementById('authenticationBlock1');
     const authBlock2 = document.getElementById('authenticationBlock2');
-
+    if(!authBlock1 || !authBlock2) return;
     const authRoots = ['ideale-providers-dash', 'members-view']
     if(authRoots.includes(receivedRoute)) {
         authBlock1.classList.remove('d-flex');
