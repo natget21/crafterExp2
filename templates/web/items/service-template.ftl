@@ -58,7 +58,7 @@
            style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
            ${serviceDescription}
        </p>
-       <#if contentModel.company_s?default('') !== ''>
+       <#if contentModel.company_s?default("") !== "">
         <p class="mb-2 text-muted small">
           <strong>Azienda</strong>: ${contentModel.company_s}
         </p>
