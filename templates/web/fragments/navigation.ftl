@@ -149,6 +149,7 @@
                 const authBlock = document.getElementById('authenticationBlock');
                 console.log(authBlock)
                 authBlock.classList.remove('d-flex');
+                authBlock.classList.remove('d-flex');
                 authBlock.classList.add('d-none');
             }
         });
