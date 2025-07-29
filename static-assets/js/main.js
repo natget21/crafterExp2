@@ -117,6 +117,7 @@ window.addEventListener('message', (event) => {
         authBlock2.classList.remove('d-flex');
         authBlock2.classList.add('d-none');
     } else {
+        alert("non ok")
         authBlock1.classList.remove('d-none');
         authBlock1.classList.add('d-flex');
         authBlock2.classList.remove('d-flex');
