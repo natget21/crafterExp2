@@ -90,7 +90,7 @@
                             -->
                             
                         </div>
-                        <div class="navbar-nav ml-auto py-0 d-flex">
+                        <div id='authenticationBlock' class="navbar-nav ml-auto py-0 d-flex">
                         
                             <div class="nav-item dropdown" id="signup-btn">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">REGISTRATI <i class="fa fa-angle-down mt-1"></i></a>
