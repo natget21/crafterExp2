@@ -112,8 +112,8 @@ window.addEventListener('message', (event) => {
         authBlock.classList.remove('d-flex');
         authBlock.classList.add('d-none');
     } else {
-        authBlock.classList.add('d-flex');
         authBlock.classList.remove('d-none');
+        authBlock.classList.add('d-flex');
     }
 });
 
