@@ -106,20 +106,20 @@ console.log("Global script attached!");
 window.addEventListener('message', (event) => {
     const receivedRoute = event.data;
     console.log('Socket Message', receivedRoute);
-    // const authBlock1 = document.getElementById('authenticationBlock1');
+    const authBlock1 = document.getElementById('authenticationBlock1');
     const authBlock2 = document.getElementById('authenticationBlock2');
 
     const authRoots = ['ideale-providers-dash', 'members-view']
     if(authRoots.includes(receivedRoute)) {
-        // authBlock1.classList.remove('d-flex');
-        // authBlock1.classList.add('d-none');
+        authBlock1.classList.remove('d-flex');
+        authBlock1.classList.add('d-none');
         authBlock2.classList.remove('d-flex');
         authBlock2.classList.add('d-none');
     } else {
-        // authBlock1.classList.remove('d-none');
-        // authBlock1.classList.add('d-flex');
-        authBlock2.classList.remove('d-flex');
-        authBlock2.classList.add('d-none');
+        authBlock1.classList.remove('d-none');
+        authBlock1.classList.add('d-flex');
+        authBlock2.classList.remove('d-none');
+        authBlock2.classList.add('d-flex');
     }
 });
 
