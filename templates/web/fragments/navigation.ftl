@@ -146,7 +146,6 @@
     <script>
         console.log('TESTTT', localStorage.getItem('auth'))
         if (localStorage.getItem('auth')) {
-        alert("ok")
             const authBlock = document.getElementById('authenticationBlock');
             authBlock.classList.remove('d-flex');
             authBlock.classList.add('d-none');
