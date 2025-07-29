@@ -62,7 +62,7 @@
       <div class="d-flex flex-column flex-md-row">
         <div class="col-12 col-md-7">
           <h2 class="title_section">${partnerData.partnerAzienda}</h2>
-          <div class="explanation pt-4" for="">
+          <div class="text-justified fs-5 fw-normal" for="">
             ${partnerData.partnerLandingIntroduction?no_esc}
             ${partnerData.partnerLandingContent?no_esc}
           </div>
