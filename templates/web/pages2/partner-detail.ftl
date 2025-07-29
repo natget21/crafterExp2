@@ -79,49 +79,49 @@
         <div class="accordion" id="productsAccordion">
         
         <div class="accordion-item rounded-3 shadow-sm">
-  <h2 class="accordion-header">
-    <button
-      class="accordion-button collapsed fw-semibold"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#productOne"
-      aria-expanded="false"
-      aria-controls="productOne"
-    >
-      Scheda informativa
-    </button>
-  </h2>
-  <div
-    id="productOne"
-    class="accordion-collapse collapse"
-    data-bs-parent="#productsAccordion"
-  >
-    <div class="accordion-body px-4 py-3">
-      <div class="row g-4">
-        <div class="col-12 col-md-6 col-lg-4">
-          <p class="text-muted mb-1">Ragione sociale</p>
-          <p class="fs-6 desc">${partnerData.partnerAzienda}</p>
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-semibold"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#productOne"
+              aria-expanded="false"
+              aria-controls="productOne"
+            >
+              Scheda informativa
+            </button>
+          </h2>
+          <div
+            id="productOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#productsAccordion"
+          >
+            <div class="accordion-body px-4 py-3">
+              <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <p class="fs-5 text-muted mb-1">Ragione sociale</p>
+                  <p class="fs-6 desc">${partnerData.partnerAzienda}</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-8">
+                  <p class="text-muted mb-1">Partita IVA</p>
+                  <p class="fs-6 desc">${partnerData.partnerPiva}</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <p class="text-muted mb-1">Indirizzo</p>
+                  <p class="fs-6 desc">${partnerData.partnerNazione}</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <p class="text-muted mb-1">Email</p>
+                  <p class="fs-6 desc">${partnerData.partnerContactEmail}</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <p class="text-muted mb-1">Telefono</p>
+                  <p class="fs-6 desc">${partnerData.partnerTelephone}</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-8">
-          <p class="text-muted mb-1">Partita IVA</p>
-          <p class="fs-6 desc">${partnerData.partnerPiva}</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <p class="text-muted mb-1">Indirizzo</p>
-          <p class="fs-6 desc">${partnerData.partnerNazione}</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <p class="text-muted mb-1">Email</p>
-          <p class="fs-6 desc">${partnerData.partnerContactEmail}</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <p class="text-muted mb-1">Telefono</p>
-          <p class="fs-6 desc">${partnerData.partnerTelephone}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
         
           <div class="accordion-item">
             <h2 class="accordion-header">
