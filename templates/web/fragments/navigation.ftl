@@ -144,13 +144,6 @@
     </div>
     
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            if (localStorage.getItem('auth')) {
-                const authBlock = document.getElementById('authenticationBlock');
-                authBlock.classList = ['d-none']
-            }
-        });
-
         async function logout(){
             localStorage.setItem('auth', false);
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
