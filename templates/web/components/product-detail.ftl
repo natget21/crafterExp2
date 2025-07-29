@@ -41,7 +41,7 @@
     </div>
     
     <!-- Parte destra: quantità + bottone -->
-    <div class="d-flex flex-column align-items-end me-5 mb-3">
+    <div id="orderHandler" class="d-flex flex-column align-items-end me-5 mb-3">
         <#if handleQuantity>
           <div class="input-group quantity d-flex align-items-center mb-3 justify-content-end">
             <button id="decrease" style="height: 16px; width: 20px;" class="btn btn-secondary btn-sm me-2 d-flex align-items-center justify-content-center">-</button>
@@ -101,6 +101,15 @@
         </div>
 -->
         <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const user = JSON.parse(localStorage.getItem('crafterVadinUser'));
+            if(!user) {
+                const orderHandler = document.getElementById("orderHandler");
+                orderHandler.classList.add('d-none');
+            }
+        });
+            
+        
           const quantitySpan = document.getElementById('quantity');
           const increaseBtn = document.getElementById('increase');
           const decreaseBtn = document.getElementById('decrease');
