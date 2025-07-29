@@ -95,7 +95,7 @@
                             
                             
                         </div>
-                        <div id="authenticationBlock" class="navbar-nav ml-auto py-0">
+                        <div id="authenticationBlock2" class="navbar-nav ml-auto py-0">
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">REGISTRATI <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu  rounded-0 border-0 m-0">
