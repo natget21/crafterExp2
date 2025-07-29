@@ -19,19 +19,24 @@
 	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></subcategory_o>
-	<partner_o item-list="true">	<item>	<key>/site/components/providers/e8c9ecf4-adc8-aa52-25ec-e56df33bcbae.xml</key>
-	<value>DIH CONFARTIGIANATO IMPRESE MARCHE</value>
-	<include>/site/components/providers/e8c9ecf4-adc8-aa52-25ec-e56df33bcbae.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></partner_o>
 	<extra_costo_t>a partecipante.</extra_costo_t>
 	<modalita_t>Online.</modalita_t>
-	<obiettivo_t>il corso ha l’obiettivo di esplorare una serie di soluzioni e casi duso di intelligenza artificiale per le micro, piccole e medie imprese sia nei servizi che nella manifattura. Spazierà quindi da applicazioni in ambito di gestione dei documenti fino alla gestione e generazione di contenuti più evoluti come immagini, video e suoni. Fornirà sia un quadro generale della tecnologia e delle sue potenzialità che una serie di conoscenze pratiche per lutilizzo da parte dei singoli individui e delle aziende.\r\n</obiettivo_t>
-	<contenuto_t>limpatto e le potenzialità dellAI per le piccole e medie imprese - ruolo delle macchine e ruolo delle persone - casi duso nella gestione documentale - casi duso nella generazione di contenuti- altri casi duso più evoluti- come si scrive alle macchine - come generare immagini, video e suoni - cosa sta per arrivare ancora? uno sguardo al futuro - alcune esercitazioni: EscapeGPT, Prompting Challenge - consigli per percorsi di adozione e sperimentazione</contenuto_t>
 	<rivolto_t>Imprenditori di MPMI, creativi, Designer, Grafici, Content Marketing Specialist.\r\n</rivolto_t>
 	<image_s/>
 	<createdDate>2024-12-02T14:52:54.441Z</createdDate>
 	<createdDate_dt>2024-12-02T14:52:54.441Z</createdDate_dt>
-	<lastModifiedDate>2024-12-02T14:54:48.667Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-12-02T14:54:48.667Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-07-29T07:58:38.274Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-07-29T07:58:38.274Z</lastModifiedDate_dt>
+	<productid_s/>
+	<codice_s/>
+	<duratasessione_s/>
+	<partecipantiMin_s/>
+	<cup_s/>
+	<company_s>Test Azienda</company_s>
+	<tipologiacosto_s/>
+	<agevolazione_b>false</agevolazione_b>
+	<quantity_b>false</quantity_b>
+	<obiettivo_html/>
+	<descrizione_html/>
+	<informazionisulcosto_html/>
 </component>
