@@ -111,6 +111,7 @@ window.addEventListener('message', (event) => {
     console.log('Auth Block', authBlock);
     const authRoots = ['ideale-providers-dash', 'members-view']
     if(authRoots.includes(receivedRoute)) {
+        alert("ok")
         authBlock1.classList.remove('d-flex');
         authBlock1.classList.add('d-none');
         authBlock2.classList.remove('d-flex');
