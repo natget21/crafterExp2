@@ -110,8 +110,10 @@ window.addEventListener('message', (event) => {
     console.log('Auth Block', authBlock);
     const authRoots = ['ideale-providers-dash', 'members-view']
     if(authRoots.includes(receivedRoute)) {
+        authBlock.classList.remove('d-flex');
         authBlock.classList.add('d-none');
     } else {
+        authBlock.classList.remove('d-none');
         authBlock.classList.add('d-flex');
     }
 });
