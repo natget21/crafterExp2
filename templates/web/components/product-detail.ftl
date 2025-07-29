@@ -105,6 +105,7 @@
             const user = JSON.parse(localStorage.getItem('crafterVadinUser'));
             if(!user) {
                 const orderHandler = document.getElementById("orderHandler");
+                orderHandler.classList.remove('d-flex');
                 orderHandler.classList.add('d-none');
             }
         });
