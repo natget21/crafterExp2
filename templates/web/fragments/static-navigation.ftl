@@ -124,7 +124,6 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             if (localStorage.getItem('auth')) {
-            alert("Ok")
                 const authBlock = document.getElementById('authenticationBlock');
                 authBlock.classList.remove('d-flex');
                 authBlock.classList.add('d-none');
