@@ -203,7 +203,7 @@
               </p>
               <div class="buttons d-flex gap-3 justify-content-center justify-content-md-start">
                 <a href="${mediaUrl}?download=true" download>
-                  <i class="bi bi-download"></i>
+                  <i class="fs-5 bi bi-download"></i>
                 </a>
                 <a href="${mediaUrl}" target="_blank" rel="noopener noreferrer">
                   <i class="fs-5 bi bi-eye"></i>
