@@ -206,7 +206,7 @@
                   <i class="bi bi-download"></i>
                 </a>
                 <a href="${mediaUrl}" target="_blank" rel="noopener noreferrer">
-                  <i class="fs-4 bi bi-eye"></i>
+                  <i class="fs-5 bi bi-eye"></i>
                 </a>
               </div>
             </div>
