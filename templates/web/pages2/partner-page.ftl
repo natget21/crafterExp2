@@ -97,7 +97,7 @@
                       ?replace("(?i)<(?!/?p\\b)[^>]*>", "<p>", "r")
                       ?replace("(?i)</p>\\s*<p>", "</p><br><p>", "r")
                     >
-                    ${cleanedIntro}
+                    <label class="text-justified fs-5 fw-normal font-monospace">${cleanedIntro}</label>
                 
                     <div
                       class="d-flex flex-grow-1 justify-content-end align-items-end mt-3"
