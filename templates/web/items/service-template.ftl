@@ -59,6 +59,9 @@
            ${serviceDescription}
        </p>
         <p class="mb-2 text-muted small">
+          <strong>Azienda</strong>: ${contentModel.company_s?default("-----")}
+        </p>
+        <p class="mb-2 text-muted small">
           <strong>Agevolazione</strong>: ${serviceFacilitation}
         </p>
       </div>
