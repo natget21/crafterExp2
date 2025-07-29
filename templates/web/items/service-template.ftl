@@ -23,6 +23,7 @@
 <#assign serviceDescription = contentModel.contenuto_t?default('Nessuna descrizione') />
 <#assign serviceImage = contentModel.image_s?default('https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg') />
 <#assign serviceFacilitation = contentModel.agevolazione_b?default(false)?string("Possibile", "Non possibile") />
+<#assign company = contentModel.company_s?default('') />
 
 <script>
   var description = "${serviceDescription}";
@@ -58,7 +59,7 @@
            style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
            ${serviceDescription}
        </p>
-       <#if contentModel.company_s?default("") !== "">
+       <#if company>
         <p class="mb-2 text-muted small">
           <strong>Azienda</strong>: ${contentModel.company_s}
         </p>
