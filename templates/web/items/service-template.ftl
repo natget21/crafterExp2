@@ -60,9 +60,9 @@
            ${serviceDescription}
        </p>
        <#if company != ''>
-        <p class="mb-2 text-muted small">
-          <strong>Azienda</strong>: ${company}
-        </p>
+            <p class="mb-2 text-muted small">
+              <strong>Azienda</strong>: ${company}
+            </p>
         </#if>
         <p class="mb-2 text-muted small">
           <strong>Agevolazione</strong>: ${serviceFacilitation}
