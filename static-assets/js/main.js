@@ -108,13 +108,7 @@ window.addEventListener('message', (event) => {
     console.log('Socket Message', receivedRoute);
     const authRoots = ['ideale-providers-dash', 'members-view']
     if(authRoots.includes(receivedRoute)) {
-        const auth = document.getElementById('authenticationBlock');
-        auth.classList.remove('d-flex');
-        auth.classList.add('d-none');
-    } else {
-        const auth = document.getElementById('authenticationBlock');
-        auth.classList.remove('d-none');
-        auth.classList.add('d-flex');
+        localStorage.setItem('auth', true);
     }
 });
 
