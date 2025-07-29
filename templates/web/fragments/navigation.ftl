@@ -146,7 +146,9 @@
     <script>
         
         if(localStorage.getItem('auth')) {
-            document.getElementById('');
+            const auth = document.getElementById('');
+            auth.classList.remove('d-flex');
+            auth.classList.add('d-none');
         }
         async function logout(){
             localStorage.setItem('auth', false);
