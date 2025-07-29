@@ -146,9 +146,9 @@
     <script>
         
         if(localStorage.getItem('auth') === 'true') {
-            const auth = document.getElementById('authenticationBlock');
-            auth.classList.remove('d-flex');
-            auth.classList.add('d-none');
+            const authBlock = document.getElementById('authenticationBlock');
+            authBlock.classList.remove('d-flex');
+            authBlock.classList.add('d-none');
         }
         async function logout(){
             localStorage.setItem('auth', false);
