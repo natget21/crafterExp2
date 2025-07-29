@@ -122,7 +122,7 @@
     </div>
     
     <script>
-                
+        console.log('TESTTT', localStorage.getItem('auth'))
         if(localStorage.getItem('auth') === 'true') {
             const authBlock = document.getElementById('authenticationBlock');
             authBlock.classList.remove('d-flex');
