@@ -147,10 +147,8 @@
         document.addEventListener('DOMContentLoaded', function () {
             if (localStorage.getItem('auth')) {
                 const authBlock = document.getElementById('authenticationBlock');
-                if (authBlock) {
-                    authBlock.classList.remove('d-flex');
-                    authBlock.classList.add('d-none');
-                }
+                authBlock.classList.remove('d-flex');
+                authBlock.classList.add('d-none');
             }
         });
 
