@@ -62,7 +62,7 @@
         <p class="mb-2 text-muted small">
           <strong>Azienda</strong>: ${contentModel.company_s}
         </p>
-        <#if>
+        </#if>
         <p class="mb-2 text-muted small">
           <strong>Agevolazione</strong>: ${serviceFacilitation}
         </p>
