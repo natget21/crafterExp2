@@ -83,7 +83,7 @@
   }
 </style>
 
-<div class="layout_padding">
+<div class="layout_padding mb-3">
   <div class="accordion" id="productsAccordion">
     
     <!-- Scheda informativa -->
