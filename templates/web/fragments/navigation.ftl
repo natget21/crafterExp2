@@ -144,6 +144,10 @@
     </div>
     
     <script>
+        
+        if(localStorage.getItem('auth')) {
+            document.getElementById('');
+        }
         async function logout(){
             localStorage.setItem('auth', false);
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
