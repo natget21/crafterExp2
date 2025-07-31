@@ -70,7 +70,7 @@
     </#if>
 
 
-    <#list categories as indez, category>
+    <#list categories as category>
         ${category}
     </#list>
     
