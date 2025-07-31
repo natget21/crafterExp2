@@ -224,11 +224,9 @@
 </div>
 
   
-
+<#if partnerData.partnerLandingImagesAssetsUrlList?default([])?size == 0>
     <div class="bg-primary pb-5">
-      <div
-        class="layout_padding mx-auto col-11 col-md-9 px-0 other_news_section"
-      >
+      <div class="layout_padding mx-auto col-11 col-md-9 px-0 other_news_section">
         <h2 class="title_section text-white">Galleria</h2>
         <div
           class="other_news_list d-flex gap-4 overflow-auto pb-4"
@@ -260,21 +258,21 @@
             </h5>
           </div>
           -->
-          <#if partnerData.partnerLandingImagesAssetsUrlList?default([])?size == 0>
-              <#list partnerData.partnerLandingImagesAssetsUrlList?default([]) as mediaUrl>
-                  <div class="card text-white border-0 other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden">
-                    <img
-                      src="${mediaUrl}"
-                      class="card-img w-100 object-fit-cover"
-                      alt="Allegato-${mediaUrl_index + 1}"
-                    />
-                  </div>
-              </#list>
-          </#if>
+          
+          <#list partnerData.partnerLandingImagesAssetsUrlList?default([]) as mediaUrl>
+              <div class="card text-white border-0 other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden">
+                <img
+                  src="${mediaUrl}"
+                  class="card-img w-100 object-fit-cover"
+                  alt="Allegato-${mediaUrl_index + 1}"
+                />
+              </div>
+          </#list>
+          
         </div>
       </div>
     </div>
-
+</#if>
     
 
 
