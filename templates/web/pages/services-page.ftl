@@ -69,9 +69,10 @@
         <@listFilteredItems tree />
     </#if>
 
-
-<#list categoriesTree.item() as key, category>
-  <p>${category}</p>
+<#if categoriesTree?has_content>
+<#list categories.childItems as categoryItem>
+    <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
+                                                
 </#list>
     
     
