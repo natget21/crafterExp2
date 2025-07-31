@@ -207,9 +207,10 @@
             Se già sai cosa ti interessa utilizza il menù a sinistra per selezionare il tipo di prodotto o servizio che stai cercando, altrimenti puoi chiedere al
             nostro assistente virtuale che sarà felice di aiutarti.
           </label>
+          
           <#if categoryName?has_content>
             <span class="badge bg-primary me-2">
-              Filtro: Categoria A
+              Filtro: ${categoryName}
               <button type="button" class="btn-close btn-close-white btn-sm ms-2" aria-label="Rimuovi filtro"></button>
             </span>
           </#if>
