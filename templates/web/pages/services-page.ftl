@@ -92,6 +92,9 @@
         </#if>
         
         <@listCourses courses />
+        <#if courseCounter == 0>
+            Nessun servizio disponibile.
+        </#if>
 
     </div>
     
