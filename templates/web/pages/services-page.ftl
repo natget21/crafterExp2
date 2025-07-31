@@ -203,7 +203,7 @@
             Se già sai cosa ti interessa utilizza il menù a sinistra per selezionare il tipo di prodotto o servizio che stai cercando, altrimenti puoi chiedere al
             nostro assistente virtuale che sarà felice di aiutarti.
           </label>
-        
+            <!--
           <#if categoryName?has_content>
               <ul class="nav nav-tabs mb-4 d-flex">
                 <li class="nav-item col">
@@ -224,6 +224,7 @@
                 </li>
               </ul>
           </#if>
+          -->
             <#if courseTree?has_content>
                 <@listFilteredItems courseTree />
             </#if>
