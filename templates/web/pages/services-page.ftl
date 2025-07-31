@@ -10,7 +10,7 @@
     <#include "/templates/web/fragments/static-navigation.ftl">
     <#include "/templates/web/components/chat-bot.ftl"> 
     
-    <#assign category = RequestParameters.category?default("") />
+    <#assign filterByCategory = RequestParameters.category?default("") />
     <#assign courses = siteItemService.getSiteTree('/site/components/services', 3) />
     
     <#assign categories = siteItemService.getSiteTree('/site/components/category', 1)>
@@ -60,9 +60,9 @@
             nostro assistente virtuale che sarà felice di aiutarti.
         </label>
           
-        <#if category?has_content>
+        <#if filterByCategory?has_content>
             <span class="badge bg-primary me-2 my-auto d-flex p-2" style="width: min-content;">
-              <span class="d-block my-auto">Filtro per Categoria: ${category}</span>
+              <span class="d-block my-auto">Filtro per Categoria: ${filterByCategory}</span>
               <a href="/catalog" type="button" class="btn-close btn-close-white btn-sm ms-2" aria-label="Rimuovi filtro"></a>
             </span>
         </#if>
