@@ -30,7 +30,7 @@
                     <#assign course = siteItemService.getSiteItem(item.storeUrl) />
                     
                     <#if item.storeUrl?contains(filterByCategory?lower_case?replace(" ", "-"))>
-                        <#assign counter = counter + 1 />
+                        <#assign courseCounter = courseCounter + 1 />
                         <#assign contentModel = course />
                         <div class="col-12 pb-1">
                             <#include "/templates/web/items/service-template.ftl" />
@@ -44,7 +44,7 @@
     <div class="banner_section banner_catalogo layout_padding d-flex align-items-center">
       <img class="banner_img" src="static-assets/assets/catalogo.png">
       <div class="container">
-        <h1 class="best_taital text-center dark p-0">Catalogo Servizi (${counter})</h1>
+        <h1 class="best_taital text-center dark p-0">Catalogo Servizi (${courseCounter})</h1>
       </div>
     </div>
     
