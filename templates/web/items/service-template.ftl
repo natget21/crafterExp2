@@ -8,6 +8,6 @@
 <#assign company = contentModel.company_s?default("Non specificata") />
 
 <div class="container my-4">
- 
+    hello
 </div>
 
