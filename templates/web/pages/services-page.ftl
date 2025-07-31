@@ -67,7 +67,13 @@
             </span>
         </#if>
         
-        <#include "/templates/web/items/service-template.ftl"> 
+        
+        <#if courses?has_content>
+            <#list courses.childItems as courseItem>
+                <#assign course = siteItemService.getSiteItem(course.storeUrl) />
+            </#list>
+        </#if>
+        
     </div>
     
     <#include "/templates/web/fragments/footer.ftl">
