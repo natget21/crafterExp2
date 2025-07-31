@@ -26,7 +26,11 @@
                         <@listCourses childTree />
                     </#if>
                 <#else>
-                <p>Hello</p>
+                    <#assign course = siteItemService.getSiteItem(item.storeUrl) />
+                    <#assign contentModel = course />
+                    <div class="col-12 pb-1">
+                        <#include "/templates/web/items/service-template.ftl" />
+                    </div>
                 </#if>
             </#list>
         </#if>
