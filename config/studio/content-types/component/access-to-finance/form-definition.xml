@@ -237,7 +237,7 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>codiceprodotto_s</id>
+					<id>codice_s</id>
 					<iceId></iceId>
 					<title>Codice interno</title>
 					<description></description>
