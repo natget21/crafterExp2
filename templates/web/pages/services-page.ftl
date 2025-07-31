@@ -28,6 +28,7 @@
                 <#else>
                     <#assign course = siteItemService.getSiteItem(item.storeUrl) />
                     <#assign contentModel = course />
+                    <p>${item.storeUrl}</p>
                     <div class="col-12 pb-1">
                         <#include "/templates/web/items/service-template.ftl" />
                     </div>
