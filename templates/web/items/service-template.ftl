@@ -9,6 +9,9 @@
 
 <div class="container my-4">
     <div class="row">
+        <div class="col-md-auto">
+            <img src="${image}" alt="Servizio ${name}" style="height: 100px; object-fit: cover;">
+        </div>
     </div>
 </div>
 
