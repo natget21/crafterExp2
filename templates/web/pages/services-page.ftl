@@ -80,7 +80,7 @@
     <#if categoryName?has_content>
         <nav class="breadcrumb bg-light mb-30" style="padding-left: 15px">
             <a class="breadcrumb-item" href="/catalog">Catalogo Servizi</a>
-            <span class="breadcrumb-item active">${categoryName}</span>
+            <!--<span class="breadcrumb-item active">${categoryName}</span>-->
         </nav>
         <#else>
             <!--<h2 class="section-title px-5"><span class="px-2 explore bg-white">Esplora le categorie del catalogo </span></h2>-->
@@ -207,39 +207,23 @@
             Se già sai cosa ti interessa utilizza il menù a sinistra per selezionare il tipo di prodotto o servizio che stai cercando, altrimenti puoi chiedere al
             nostro assistente virtuale che sarà felice di aiutarti.
           </label>
-            <!--
+            
           <#if categoryName?has_content>
-              <ul class="nav nav-tabs mb-4 d-flex">
-                <li class="nav-item col">
-                  <a class="nav-link active text-center" aria-current="page" href="#"
-                    >Categoria</a
-                  >
-                </li>
-                <li class="nav-item col">
-                  <a class="nav-link text-muted text-center" href="#">Categoria</a>
-                </li>
-                <li class="nav-item col">
-                  <a class="nav-link text-muted text-center" aria-current="page" href="#"
-                    >Categoria</a
-                  >
-                </li>
-                <li class="nav-item col">
-                  <a class="nav-link text-muted text-center" href="#">Categoria</a>
-                </li>
-              </ul>
+            
           </#if>
-          -->
+          
             <#if courseTree?has_content>
                 <@listFilteredItems courseTree />
             </#if>
 
             <#if showItemsFound?? && !showItemsFound>
                 <div class="col-12">
-                    <p class="text-center">Nessun servizio disponibile.</p>
+                    <p class="text-center mt-3">Nessun servizio disponibile.</p>
                 </div>
             </#if>
         </div>
     </div>
+    
     <div class="container-fluid">
         <div class="row px-xl-5">
             <!-- service products -->
