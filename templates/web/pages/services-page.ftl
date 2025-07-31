@@ -74,6 +74,12 @@
         <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
         <#assign categoryName = category.queryValue("internal-name")?default("") />
         <p>${categoryName}</p>
+        <#assign relatedSubCategories = subCategories.childItems?filter(subCategory -> (
+            siteItemService.getSiteItem(subCategory.storeUrl)?has_content && 
+            siteItemService.getSiteItem(subCategory.storeUrl).category_o?has_content && 
+            siteItemService.getSiteItem(subCategory.storeUrl).category_o.item[0]?has_content && 
+            siteItemService.getSiteItem(subCategory.storeUrl).category_o.item[0].key == category.storeUrl)
+        ) /> 
     </#list>
 </#if>
     
