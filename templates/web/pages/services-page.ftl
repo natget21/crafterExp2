@@ -72,25 +72,25 @@
                 </#if>
             </div>
         </div>
-    </div>
-    <div class="col-9">
-        <label class="text-muted">
-            Benvenuto nel nostro catalogo.
-            Se già sai cosa ti interessa utilizza il menù a sinistra per selezionare il tipo di prodotto o servizio che stai cercando, altrimenti puoi chiedere al
-            nostro assistente virtuale che sarà felice di aiutarti.
-        </label>
-          
-        <#if filterByCategory?has_content>
-            <span class="badge bg-primary me-2 my-auto d-flex p-2 mb-3" style="width: min-content;">
-              <span class="d-block my-auto">Filtro per Categoria: ${filterByCategory}</span>
-              <a href="/catalog" type="button" class="btn-close btn-close-white btn-sm ms-2" aria-label="Rimuovi filtro"></a>
-            </span>
-        </#if>
-        
-        <@listCourses courses />
-        <#if courseCounter == 0>
-            <span class="d-block mt-3">Nessun servizio disponibile.</span>
-        </#if>
+        <div class="col-9">
+            <label class="text-muted">
+                Benvenuto nel nostro catalogo.
+                Se già sai cosa ti interessa utilizza il menù a sinistra per selezionare il tipo di prodotto o servizio che stai cercando, altrimenti puoi chiedere al
+                nostro assistente virtuale che sarà felice di aiutarti.
+            </label>
+              
+            <#if filterByCategory?has_content>
+                <span class="badge bg-primary me-2 my-auto d-flex p-2 mb-3" style="width: min-content;">
+                  <span class="d-block my-auto">Filtro per Categoria: ${filterByCategory}</span>
+                  <a href="/catalog" type="button" class="btn-close btn-close-white btn-sm ms-2" aria-label="Rimuovi filtro"></a>
+                </span>
+            </#if>
+            
+            <@listCourses courses />
+            <#if courseCounter == 0>
+                <span class="d-block mt-3">Nessun servizio disponibile.</span>
+            </#if>
+        </div>
     </div>
     
     <#include "/templates/web/fragments/footer.ftl">
