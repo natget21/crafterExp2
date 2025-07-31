@@ -29,7 +29,7 @@
       <div class="col-sm-9 col-12">
         <dl class="row">
           <dt class="col-sm-2 text-primary fw-bold">Descrizione</dt>
-          <dd class="col-sm-10">${course.obiettivo_html?default("Nessun descrizione")}</dd>
+          <dd class="col-sm-10">${course.descrizione_html?default("Nessun descrizione")}</dd>
           <dt class="col-sm-2 text-primary fw-bold">Costo</dt>
           <dd class="col-sm-10">${course.costo_s?default("0,00")}€</dd>
           <dt class="col-sm-2 text-primary fw-bold">Agevolazione</dt>
