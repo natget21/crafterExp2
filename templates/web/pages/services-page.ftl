@@ -72,6 +72,7 @@
 <#if categories?has_content>
     <#list categories.childItems as categoryItem>
         <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
+        <p>${category}</p>
     </#list>
 </#if>
     
