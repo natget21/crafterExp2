@@ -27,9 +27,8 @@
                     </#if>
                 <#else>
                     <#assign course = siteItemService.getSiteItem(item.storeUrl) />
-                    <#assign contentModel = course />
                     <div class="col-12 pb-1">
-                        hello
+                        
                     </div>
                 </#if>
             </#list>
