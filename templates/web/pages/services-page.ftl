@@ -72,7 +72,8 @@
 <#if categories?has_content>
     <#list categories.childItems as categoryItem>
         <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
-        <p>${category.name}</p>
+        <#assign categoryName = category.queryValue("internal-name")?url?default("") />
+        <p>${categoryName}</p>
     </#list>
 </#if>
     
