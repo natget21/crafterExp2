@@ -260,15 +260,17 @@
             </h5>
           </div>
           -->
-          <#list partnerData.partnerLandingImagesAssetsUrlList?default([]) as mediaUrl>
-              <div class="card text-white border-0 other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden">
-                <img
-                  src="${mediaUrl}"
-                  class="card-img w-100 object-fit-cover"
-                  alt="Allegato-${mediaUrl_index + 1}"
-                />
-              </div>
-          </#list>
+          <#if partnerData.partnerLandingImagesAssetsUrlList?default([])?size != 0>
+              <#list partnerData.partnerLandingImagesAssetsUrlList?default([]) as mediaUrl>
+                  <div class="card text-white border-0 other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden">
+                    <img
+                      src="${mediaUrl}"
+                      class="card-img w-100 object-fit-cover"
+                      alt="Allegato-${mediaUrl_index + 1}"
+                    />
+                  </div>
+              </#list>
+          </#if>
         </div>
       </div>
     </div>
