@@ -96,7 +96,7 @@
             <#list categories.childItems as categoryItem>
                 <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
                 <#assign categoryName = category.queryValue("internal-name")?default("") />
-                <h5>${categoryName}</h5>
+                <h5 class="mt-2">${categoryName}:</h5>
                 <#assign relatedSubCategories = subCategories.childItems?filter(subCategory -> (
                     siteItemService.getSiteItem(subCategory.storeUrl)?has_content && 
                     siteItemService.getSiteItem(subCategory.storeUrl).category_o?has_content && 
