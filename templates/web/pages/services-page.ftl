@@ -207,7 +207,6 @@
             Se già sai cosa ti interessa utilizza il menù a sinistra per selezionare il tipo di prodotto o servizio che stai cercando, altrimenti puoi chiedere al
             nostro assistente virtuale che sarà felice di aiutarti.
           </label>
-            ${categoryName}
           <#if categoryName?has_content>
             <span class="badge bg-primary me-2">
               Filtro: Categoria A
