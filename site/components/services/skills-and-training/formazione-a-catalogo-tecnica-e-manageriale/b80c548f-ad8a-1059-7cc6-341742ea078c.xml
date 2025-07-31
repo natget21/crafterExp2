@@ -1,37 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/skills-and-training</content-type>
-	<display-template/>
-	<no-template-required>true</no-template-required>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>b80c</objectGroupId>
-	<objectId>b80c548f-ad8a-1059-7cc6-341742ea078c</objectId>
-	<file-name>b80c548f-ad8a-1059-7cc6-341742ea078c.xml</file-name>
-	<folder-name/>
-	<internal-name>CORSO SU COMMESSA DIGITAL INNOVATION HUB MARCHE</internal-name>
-	<name_s>CORSO SU COMMESSA DIGITAL INNOVATION HUB MARCHE</name_s>
-	<partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
-	<costo_s>Da definire per ogni singolo corso</costo_s>
-	<durata_s>Da definire per ogni singolo corso (max 24 ore)</durata_s>
-	<maxpartecipanti_s>15</maxpartecipanti_s>
-	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
-	<value>Formazione a catalogo tecnica e manageriale</value>
-	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></subcategory_o>
-	<partner_o item-list="true">	<item>	<key>/site/components/providers/d31dce1a-2c4d-80ad-45d8-aab97f0b81f2.xml</key>
-	<value>DIGITAL INNOVATION HUB MARCHE</value>
-	<include>/site/components/providers/d31dce1a-2c4d-80ad-45d8-aab97f0b81f2.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></partner_o>
-	<extra_costo_t/>
-	<modalita_t>In presenza o da remoto in base alla richiesta dellazienda</modalita_t>
-	<obiettivo_t>L’obiettivo è quello di sviluppare corsi di formazione per l’aggiornamento e la riqualificazione delle competenze aziendali nell’ambito della transizione digitale.\r\nAttraverso una puntuale analisi dei bisogni dellimpresa, MADE offre la possibilità di realizzare dei corsi su commessa che offrono un’opportunità unica di acquisire competenze e conoscenze su misura per le diverse esigenze professionali. Questi corsi si distinguono per la loro flessibilità e adattabilità. I contenuti, le modalità di erogazione e i tempi sono definiti in base all’esigenze di un’azienda e ai rispettivi obiettivi.</obiettivo_t>
-	<contenuto_t>Da definire in base alle esigenze dellimpresa.</contenuto_t>
-	<rivolto_t>Da definire con limpresa</rivolto_t>
-	<image_s/>
-	<createdDate>2024-12-02T15:35:08.097Z</createdDate>
-	<createdDate_dt>2024-12-02T15:35:08.097Z</createdDate_dt>
-	<lastModifiedDate>2024-12-02T15:35:08.097Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-12-02T15:35:08.097Z</lastModifiedDate_dt>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>b80c</objectGroupId>
+    <objectId>b80c548f-ad8a-1059-7cc6-341742ea078c</objectId>
+    <file-name>b80c548f-ad8a-1059-7cc6-341742ea078c.xml</file-name>
+    <folder-name/>
+    <internal-name>CORSO SU COMMESSA DIGITAL INNOVATION HUB MARCHE</internal-name>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>b80c</objectGroupId>
+    <objectId>b80c548f-ad8a-1059-7cc6-341742ea078c</objectId>
+    <file-name>b80c548f-ad8a-1059-7cc6-341742ea078c.xml</file-name>
+    <folder-name/>
+    <internal-name>CORSO SU COMMESSA DIGITAL INNOVATION HUB MARCHE</internal-name>
+    <name_s>CORSO SU COMMESSA DIGITAL INNOVATION HUB MARCHE</name_s>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <costo_s>Da definire per ogni singolo corso</costo_s>
+    <durata_s>Da definire per ogni singolo corso (max 24 ore)</durata_s>
+    <maxpartecipanti_s>15</maxpartecipanti_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+   <value>Formazione a catalogo tecnica e manageriale</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <partner_o>{item={key=/site/components/providers/d31dce1a-2c4d-80ad-45d8-aab97f0b81f2.xml, value=DIGITAL INNOVATION HUB MARCHE, include=/site/components/providers/d31dce1a-2c4d-80ad-45d8-aab97f0b81f2.xml, disableFlattening=false}}</partner_o>
+    <extra_costo_t/>
+    <modalita_t>In presenza o da remoto in base alla richiesta dellazienda</modalita_t>
+    <obiettivo_t>L’obiettivo è quello di sviluppare corsi di formazione per l’aggiornamento e la riqualificazione delle competenze aziendali nell’ambito della transizione digitale.\r\nAttraverso una puntuale analisi dei bisogni dellimpresa, MADE offre la possibilità di realizzare dei corsi su commessa che offrono un’opportunità unica di acquisire competenze e conoscenze su misura per le diverse esigenze professionali. Questi corsi si distinguono per la loro flessibilità e adattabilità. I contenuti, le modalità di erogazione e i tempi sono definiti in base all’esigenze di un’azienda e ai rispettivi obiettivi.</obiettivo_t>
+    <contenuto_t>Da definire in base alle esigenze dellimpresa.</contenuto_t>
+    <rivolto_t>Da definire con limpresa</rivolto_t>
+    <image_s/>
+    <createdDate>2024-12-02T15:35:08.097Z</createdDate>
+    <createdDate_dt>2024-12-02T15:35:08.097Z</createdDate_dt>
+    <lastModifiedDate>2024-12-02T15:35:08.097Z</lastModifiedDate>
+    <lastModifiedDate_dt>2024-12-02T15:35:08.097Z</lastModifiedDate_dt>
+    <localId>/site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/b80c548f-ad8a-1059-7cc6-341742ea078c.xml</localId>
+    <rootId>ideale:/site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/b80c548f-ad8a-1059-7cc6-341742ea078c.xml</rootId>
+    <productid_s>PRO_18a0f3b5</productid_s>
+    <obiettivo_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</obiettivo_html>
+    <descrizione_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</descrizione_html>
+    <informazionisulcosto_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</informazionisulcosto_html>
+    <createdDate>2025-07-31T07:43:15.399Z</createdDate>
+    <createdDate_dt>2025-07-31T07:43:15.399Z</createdDate_dt>
+    <lastModifiedDate>2025-07-31T07:43:15.399Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-07-31T07:43:15.399Z</lastModifiedDate_dt>
 </component>
