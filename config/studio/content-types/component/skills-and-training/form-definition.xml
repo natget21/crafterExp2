@@ -1159,7 +1159,7 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>descrizione_s</id>
+					<id>descrizione_t</id>
 					<iceId></iceId>
 					<title>Descrizione Breve</title>
 					<description></description>
