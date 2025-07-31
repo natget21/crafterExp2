@@ -1,35 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/test-before-invest</content-type>
-	<display-template/>
-	<no-template-required>true</no-template-required>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>c2de</objectGroupId>
-	<objectId>c2de3a2f-28f0-cca6-0e45-3bc876d54671</objectId>
-	<file-name>c2de3a2f-28f0-cca6-0e45-3bc876d54671.xml</file-name>
-	<folder-name/>
-	<internal-name>AI PER DIAGNOSI E PREDIZIONE</internal-name>
-	<name_s>AI PER DIAGNOSI E PREDIZIONE</name_s>
-	<partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
-	<duration_s>15 giorni</duration_s>
-	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</key>
-	<value>DEMO</value>
-	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></subcategory_o>
-	<partners_o item-list="true">	<item>	<key>/site/components/providers/8365ac34-5a79-1dd7-4162-1ff7ef3fa30e.xml</key>
-	<value>UNIVERSITA POLITECNICA DELLE MARCHE</value>
-	<include>/site/components/providers/8365ac34-5a79-1dd7-4162-1ff7ef3fa30e.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></partners_o>
-	<description_t>analisi descrittiva, diagnostica, predittiva o prescrittiva di dati di produzione e di vendita, AI per la manutenzione predittiva e ottimizzazione dei processi,</description_t>
-	<image_s/>
-	<createdDate>2024-12-03T08:48:19.840Z</createdDate>
-	<createdDate_dt>2024-12-03T08:48:19.840Z</createdDate_dt>
-	<lastModifiedDate>2025-03-20T03:58:35.813Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-03-20T03:58:35.813Z</lastModifiedDate_dt>
-	<productid_s>AI_2025_001</productid_s>
-	<cud_s>123</cud_s>
-	<agevolazione_b>true</agevolazione_b>
-	<costo_s>200</costo_s>
+    <content-type>/component/test-before-invest</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>c2de</objectGroupId>
+    <objectId>c2de3a2f-28f0-cca6-0e45-3bc876d54671</objectId>
+    <file-name>c2de3a2f-28f0-cca6-0e45-3bc876d54671.xml</file-name>
+    <folder-name/>
+    <internal-name>AI PER DIAGNOSI E PREDIZIONE</internal-name>
+    <content-type>/component/test-before-invest</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>c2de</objectGroupId>
+    <objectId>c2de3a2f-28f0-cca6-0e45-3bc876d54671</objectId>
+    <file-name>c2de3a2f-28f0-cca6-0e45-3bc876d54671.xml</file-name>
+    <folder-name/>
+    <internal-name>AI PER DIAGNOSI E PREDIZIONE</internal-name>
+    <name_s>AI PER DIAGNOSI E PREDIZIONE</name_s>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <duration_s>15 giorni</duration_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</key>
+   <value>DEMO</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-13.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <partners_o>{item={key=/site/components/providers/8365ac34-5a79-1dd7-4162-1ff7ef3fa30e.xml, value=UNIVERSITA POLITECNICA DELLE MARCHE, include=/site/components/providers/8365ac34-5a79-1dd7-4162-1ff7ef3fa30e.xml, disableFlattening=false}}</partners_o>
+    <description_t>analisi descrittiva, diagnostica, predittiva o prescrittiva di dati di produzione e di vendita, AI per la manutenzione predittiva e ottimizzazione dei processi</description_t>
+    <image_s/>
+    <createdDate>2024-12-03T08:48:19.840Z</createdDate>
+    <createdDate_dt>2024-12-03T08:48:19.840Z</createdDate_dt>
+    <lastModifiedDate>2025-03-20T03:58:35.813Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-03-20T03:58:35.813Z</lastModifiedDate_dt>
+    <productid_s>AI_2025_001</productid_s>
+    <cud_s>123</cud_s>
+    <agevolazione_b>false</agevolazione_b>
+    <costo_s>200</costo_s>
+    <localId>/site/components/services/test-before-invest/demo/c2de3a2f-28f0-cca6-0e45-3bc876d54671.xml</localId>
+    <rootId>ideale:/site/components/services/test-before-invest/demo/c2de3a2f-28f0-cca6-0e45-3bc876d54671.xml</rootId>
+    <createdDate>2025-07-31T07:44:35.872Z</createdDate>
+    <createdDate_dt>2025-07-31T07:44:35.872Z</createdDate_dt>
+    <lastModifiedDate>2025-07-31T07:44:35.872Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-07-31T07:44:35.872Z</lastModifiedDate_dt>
 </component>
