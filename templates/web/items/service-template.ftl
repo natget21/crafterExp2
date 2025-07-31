@@ -1,47 +1,14 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#assign subcategoryData = siteItemService.getSiteItem(contentModel.subcategory_o.item[0].key)>
-
-<!--
-<#assign serviceLink = "/detail?service=" + contentModel.queryValue('internal-name')?url +
-"&price=" + contentModel.costo_s?default('0') +
-"&name=" + contentModel.name_s?default('Nessun Nome') +
-"&pid=" + contentModel.productid_s?default('Nessun Codice') +
-"&cup=" + contentModel.cup_s?default('Nessun CUP') +
-"&facilitation=" + contentModel.agevolazione_b?default(false)?string("true", "false") +
-"&gdpr=" + subcategoryData.requireGDPRAcceptance_b?default(false)?string("true", "false") +
-"&privacy=" + subcategoryData.requireprivacyacceptance_b?default(false)?string("true", "false") +
-"&notes=" + contentModel.notes_t?default('Nessuna Nota') +
-"&description=" + contentModel.contenuto_t?default('Nessuna Descrizione') +
-"&image=" + contentModel.image_s?default('https://dante-edih.clustersmile.it/wp-content/uploads/2024/06/Immagine-JPEG-1.jpeg') +
-"&item="+contentModel.storeUrl?url?default('')/>
--->
-
 <#assign serviceLink = "/detail?url=" + contentModel.storeUrl />
-<#assign serviceId = contentModel.objectId?default('ID') />
-<#assign serviceName = contentModel.name_s?default('Senza nome') />
-<#assign serviceDescription = contentModel.contenuto_t?default('Nessuna descrizione') />
-<#assign serviceImage = contentModel.image_s?default('https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg') />
+<#assign serviceName = contentModel.name_s?default("Nessun nome") />
+<#assign serviceDescription = contentModel.contenuto_t?default("Nessuna descrizione.") />
+<#assign serviceImage = contentModel.image_s?default("https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg") />
 <#assign serviceFacilitation = contentModel.agevolazione_b?default(false)?string("Possibile", "Non possibile") />
-<#assign company = contentModel.company_s?default('') />
+<#assign company = contentModel.company_s?default("Nessuna azienda") />
 
-<script>
-  var description = "${serviceDescription}";
-  console.log("test", description);
-</script>
-
-<#assign tags = []>
-  <#if subcategoryData.tags_o??>
-    <#assign tags = subcategoryData.tags_o.item?default([]) />
-</#if>
-    <#if (tags?size = 0)>
-    <#assign tagsStr = "">
-<#else>
- <#assign tagsStr = tags?map(t -> t.key)?join(",")>
-</#if>
 <div class="container my-4">
-
-  <div class="row g-3">
+  <div class="row">
     <!-- Immagine -->
     <div class="col-md-auto">
       <img src="${serviceImage}" alt="Servizio ${serviceName}" style="height: 100px; object-fit: cover;">
@@ -69,17 +36,12 @@
         </p>
       </div>
 
-      <!-- Pulsanti -->
       <div class="text-end mt-auto">
         <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
           SCOPRI DI PIÙ
         </a>
-        <!--
-        <a href="${serviceLink}" class="btn btn-secondary rounded-pill text-white px-4">
-          <i class="fa fa-cart-plus"></i>
-        </a>
-        -->
       </div>
+      
     </div>
   </div>
 </div>
