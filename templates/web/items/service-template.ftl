@@ -15,6 +15,9 @@
         
         <div class="col d-flex flex-column justify-content-between">
             <h4 class="mb-1 fw-semibold">${name}</h4>
+            <p class="mb-2 text-muted small" style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
+                ${description}
+            </p>
         </div>
     </div>
 </div>
