@@ -260,7 +260,7 @@
             </h5>
           </div>
           -->
-          <#if partnerData.partnerLandingImagesAssetsUrlList?default([])?size != 0>
+          <#if partnerData.partnerLandingImagesAssetsUrlList?default([])?size == 0>
               <#list partnerData.partnerLandingImagesAssetsUrlList?default([]) as mediaUrl>
                   <div class="card text-white border-0 other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden">
                     <img
