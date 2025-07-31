@@ -27,6 +27,13 @@
                 <strong>Agevolazione</strong>: ${facilitation}
             </p>
         </div>
+        
+        <div class="text-end mt-auto">
+            <a href="${link}" class="btn btn-secondary rounded-pill text-white px-4">
+              SCOPRI DI PIÙ
+            </a>
+        </div>
+        
     </div>
 </div>
 
