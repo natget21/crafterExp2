@@ -66,6 +66,8 @@
               <a href="/catalog" type="button" class="btn-close btn-close-white btn-sm ms-2" aria-label="Rimuovi filtro"></a>
             </span>
         </#if>
+        
+        
     </div>
     
     <#include "/templates/web/fragments/footer.ftl">
