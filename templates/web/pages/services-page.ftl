@@ -24,10 +24,7 @@
         <#-- Prima della macro, inizializza showItemsFound come variabile globale -->
     <#global showItemsFound = true>
 
-    
-    <#if tree??>
-        <@listFilteredItems tree />
-    </#if>
+
     
     <div class="banner_section banner_catalogo layout_padding d-flex align-items-center">
       <img class="banner_img" src="static-assets/assets/catalogo.png">
