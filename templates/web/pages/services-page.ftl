@@ -36,9 +36,6 @@
         </#if>
     </#macro>
     
-    <@listCourses courses />
-
-
     <div class="banner_section banner_catalogo layout_padding d-flex align-items-center">
       <img class="banner_img" src="static-assets/assets/catalogo.png">
       <div class="container">
@@ -89,15 +86,8 @@
             </span>
         </#if>
         
-        
-        <#if courses?has_content>
-            <#list courses.childItems as courseItem>
-                <#assign course = siteItemService.getSiteItem(courseItem.storeUrl) />
-                <#assign courseName = course.queryValue("name_s")?default("Nessun nome") />
-                <p>${course}</p>
-            </#list>
-        </#if>
-        
+        <@listCourses courses />
+
     </div>
     
     <#include "/templates/web/fragments/footer.ftl">
