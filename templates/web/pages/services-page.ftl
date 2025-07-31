@@ -28,7 +28,7 @@
                 <#else>
                     <#assign course = siteItemService.getSiteItem(item.storeUrl) />
                     
-                    <#if filterByCategory?lower_case?replace(" ", "-")?contains(item.storeUrl)>
+                    <#if item.storeUrl?contains(filterByCategory?lower_case?replace(" ", "-"))>
                         <#assign contentModel = course />
                         <div class="col-12 pb-1">
                             <#include "/templates/web/items/service-template.ftl" />
