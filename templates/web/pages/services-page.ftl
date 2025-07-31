@@ -71,6 +71,7 @@
         <#if courses?has_content>
             <#list courses.childItems as courseItem>
                 <#assign course = siteItemService.getSiteItem(courseItem.storeUrl) />
+                <#assign courseName = course.queryValue("name_s")?default("") />
                 <p>${course.name_s}</b>
             </#list>
         </#if>
