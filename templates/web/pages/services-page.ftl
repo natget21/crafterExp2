@@ -11,7 +11,7 @@
     <#include "/templates/web/components/chat-bot.ftl"> 
     
     <#assign filterByCategory = RequestParameters.category?default("") />
-    <#assign courses = siteItemService.getSiteTree('/site/components/services', 1) />
+    <#assign courses = siteItemService.getSiteTree('/site/components/services', 3) />
     
     <#assign categories = siteItemService.getSiteTree('/site/components/category', 1)>
     <#assign subCategories = siteItemService.getSiteTree('/site/components/sub_category', 1)>
