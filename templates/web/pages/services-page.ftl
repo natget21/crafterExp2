@@ -71,7 +71,7 @@
 
 
 <#list categoriesTree as key, category>
-  <p>${key}: ${category.item}</p>
+  <p>${key}: ${category}</p>
 </#list>
     
     
