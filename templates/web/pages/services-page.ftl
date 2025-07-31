@@ -67,7 +67,7 @@
             </span>
         </#if>
         
-        
+        <#include "/templates/web/items/"> 
     </div>
     
     <#include "/templates/web/fragments/footer.ftl">
