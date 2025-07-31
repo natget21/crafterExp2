@@ -112,7 +112,8 @@
     <div class="d-flex pt-3">
         <div class="col-3">
         <!-- Tag Start -->
-                
+                <script>
+                /*
                 <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-white pr-3">Filtra per tag</span></h5>
                 <div class="bg-light p-4 mb-30" style="border: 1px solid lightgrey; border-radius: 10px; height: 400px; overflow-y: scroll;">
                     <form id="filterTagForm">
@@ -189,6 +190,8 @@
                                     
                     </form>
                 </div>
+                */
+                </script>
                 <!-- Tag End -->
         </div>
         <div class="col-9">
