@@ -210,7 +210,7 @@
           
           <#if categoryName?has_content>
             <span class="badge bg-primary me-2 my-auto d-flex">
-              <span class="d-block my-auto">Filtro: ${categoryName}</span>
+              <span class="d-block my-auto">Filtro per Categoria: ${categoryName}</span>
               <button type="button" class="btn-close btn-close-white btn-sm ms-2" aria-label="Rimuovi filtro"></button>
             </span>
           </#if>
