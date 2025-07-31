@@ -80,7 +80,7 @@
             siteItemService.getSiteItem(subCategory.storeUrl).category_o.item[0]?has_content && 
             siteItemService.getSiteItem(subCategory.storeUrl).category_o.item[0].key == category.storeUrl)
         ) /> 
-        <#list relatedSubCategories.childItems as subCategoryItem>
+        <#list relatedSubCategories as subCategoryItem>
             <#assign subCategory = siteItemService.getSiteItem(subCategoryItem.storeUrl) />
             <#assign subCategoryName = subCategory.queryValue("name_s")?default("") />
             <p class="ms-2">${subCategoryName}</p>
