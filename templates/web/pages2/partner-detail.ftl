@@ -212,7 +212,9 @@
             </div>
           </#list>
           <#if partnerData.partnerLandingImagesAssetsUrlList?default([])?size == 0>
-            <p>No</p>
+            <div class="attachment col-12 col-md-4">
+                Nessun allegato presente.
+            </div>
           </#if>
         </div>
       </div>
