@@ -31,6 +31,8 @@
             </#list>
         </#if>
     </#macro>
+    
+    <@listCourses courses />
 
 
     <div class="banner_section banner_catalogo layout_padding d-flex align-items-center">
