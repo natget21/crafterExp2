@@ -10,6 +10,7 @@
     <#include "/templates/web/fragments/static-navigation.ftl">
     <#include "/templates/web/components/chat-bot.ftl"> 
     
+    <#assign filterCategory = RequestParameters.category?default("") />
     <#assign categoryName = RequestParameters.category?default("") />
     <#assign categoryURL = RequestParameters.categoryURL?default("") />
     <#assign subCategoryName = RequestParameters.subCategory?default("") />
