@@ -224,7 +224,7 @@
 </div>
 
   
-<#if partnerData.partnerLandingImagesAssetsUrlList?default([])?size == 0>
+<#if partnerData.partnerLandingImagesAssetsUrlList?default([])?size != 0>
     <div class="bg-primary pb-5">
       <div class="layout_padding mx-auto col-11 col-md-9 px-0 other_news_section">
         <h2 class="title_section text-white">Galleria</h2>
