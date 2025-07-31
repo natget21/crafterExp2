@@ -68,30 +68,8 @@
     <#if tree??>
         <@listFilteredItems tree />
     </#if>
-
-<#if categories?has_content>
-    <#list categories.childItems as categoryItem>
-        <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
-        <#assign categoryName = category.queryValue("internal-name")?default("") />
-        <p>- ${categoryName}</p>
-        <#assign relatedSubCategories = subCategories.childItems?filter(subCategory -> (
-            siteItemService.getSiteItem(subCategory.storeUrl)?has_content && 
-            siteItemService.getSiteItem(subCategory.storeUrl).category_o?has_content && 
-            siteItemService.getSiteItem(subCategory.storeUrl).category_o.item[0]?has_content && 
-            siteItemService.getSiteItem(subCategory.storeUrl).category_o.item[0].key == category.storeUrl)
-        ) /> 
-        <#list relatedSubCategories as subCategoryItem>
-            <#assign subCategory = siteItemService.getSiteItem(subCategoryItem.storeUrl) />
-            <#assign subCategoryName = subCategory.queryValue("name_s")?default("") />
-            <p class="ms-3">- ${subCategoryName}</p>
-        </#list>
-    </#list>
-</#if>
     
-    
-    <div
-      class="banner_section banner_catalogo layout_padding d-flex align-items-center"
-    >
+    <div class="banner_section banner_catalogo layout_padding d-flex align-items-center">
       <img class="banner_img" src="static-assets/assets/catalogo.png">
       <div class="container">
         <h1 class="best_taital text-center dark p-0">Catalogo Servizi</h1>
