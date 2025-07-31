@@ -210,6 +210,9 @@
                 </a>
               </div>
             </div>
+            <#if mediaUrl.length == 0>
+                <p>No</p>
+            </#if>
           </#list>
         </div>
       </div>
