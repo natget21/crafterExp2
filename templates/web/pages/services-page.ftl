@@ -15,6 +15,7 @@
     
     <#assign categories = siteItemService.getSiteTree('/site/components/category', 1)>
     <#assign subCategories = siteItemService.getSiteTree('/site/components/sub_category', 1)>
+    <#assign courseCounter = 0 />
     
     
     <#macro listCourses(tree)>
@@ -29,6 +30,7 @@
                     <#assign course = siteItemService.getSiteItem(item.storeUrl) />
                     
                     <#if item.storeUrl?contains(filterByCategory?lower_case?replace(" ", "-"))>
+                        <#assign counter = counter + 1 />
                         <#assign contentModel = course />
                         <div class="col-12 pb-1">
                             <#include "/templates/web/items/service-template.ftl" />
