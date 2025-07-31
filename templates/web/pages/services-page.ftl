@@ -21,49 +21,6 @@
     <#assign categories = siteItemService.getSiteTree('/site/components/category', 1)>
     <#assign subCategories = siteItemService.getSiteTree('/site/components/sub_category', 1)>
 
-    <#-- Prima della macro, inizializza showItemsFound come variabile globale -->
-    <#global showItemsFound = false>
-    
-    <#macro listFilteredItems(tree)>
-        <#if tree.childItems?has_content>
-            <#list tree.childItems as item>
-                <#if item.isFolder()>
-                    <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
-                    <#if childTree?has_content>
-                        <@listFilteredItems childTree />
-                    </#if>
-                <#else>
-                    <#assign displayItem = false>
-                    <#if query?has_content>
-                        <#if item.queryValue('name_s')?lower_case?contains(query?lower_case)>
-                            <#assign displayItem = true>
-                        </#if>
-                    <#elseif categoryName?has_content && !subCategoryName?has_content>
-                        <#if item.storeUrl?lower_case?contains(categoryName?lower_case)>
-                            <#assign displayItem = true>
-                        </#if>
-                    <#elseif categoryName?has_content && subCategoryName?has_content>
-                        <#if item.storeUrl?lower_case?contains(subCategoryName?lower_case)>
-                            <#assign displayItem = true>
-                        </#if>
-                    <#else>
-                        <#assign displayItem = true>
-                    </#if>
-    
-                    <#if displayItem>
-                        <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
-                        <#assign contentModel = itemData />
-                        <div class="col-12 pb-1">
-                            <#include "/templates/web/items/service-template.ftl" />
-                        </div>
-                        <#global showItemsFound = true>
-                    </#if>
-                </#if>
-            </#list>
-        </#if>
-    </#macro>
-    
-    
     
     
     <#if tree??>
