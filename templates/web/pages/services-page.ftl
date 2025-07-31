@@ -83,7 +83,7 @@
         <#list relatedSubCategories.childItems as subCategoryItem>
             <#assign subCategory = siteItemService.getSiteItem(subCategoryItem.storeUrl) />
             <#assign subCategoryName = subCategory.queryValue("internal-name")?default("") />
-            <p>${subCategoryName}</p>
+            <p class="ms-2">${subCategoryName}</p>
         </#list>
     </#list>
 </#if>
