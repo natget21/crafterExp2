@@ -92,7 +92,7 @@
         <!-- Tag Start -->
         
         <h4 class="text-center bg-primary text-white">TAGS</h6>
-        <hr class="my-0" />
+        <hr class="my-0 p-0" />
         <div class="p-2" >
             <#if categories?has_content>
                 <#list categories.childItems as categoryItem>
