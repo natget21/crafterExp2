@@ -265,11 +265,8 @@
                 <img
                   src="${mediaUrl}"
                   class="card-img w-100 object-fit-cover"
-                  alt="Deep Tech"
+                  alt="Allegato-${mediaUrl_index + 1}"
                 />
-                <h5 class="card-title" style="position: relative; top: 10px">
-                  Immagine
-                </h5>
               </div>
           </#list>
         </div>
