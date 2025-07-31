@@ -21,7 +21,9 @@
     <#assign categories = siteItemService.getSiteTree('/site/components/category', 1)>
     <#assign subCategories = siteItemService.getSiteTree('/site/components/sub_category', 1)>
 
-    
+        <#-- Prima della macro, inizializza showItemsFound come variabile globale -->
+    <#global showItemsFound = true>
+
     
     <#if tree??>
         <@listFilteredItems tree />
