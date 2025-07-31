@@ -211,7 +211,7 @@
           <#if categoryName?has_content>
             <span class="badge bg-primary me-2 my-auto d-flex" style="width: min-content;">
               <span class="d-block my-auto">Filtro per Categoria: ${categoryName}</span>
-              <button type="button" class="btn-close text-.danger btn-sm ms-2" aria-label="Rimuovi filtro"></button>
+              <button type="button" class="btn-close text-danger btn-sm ms-2" aria-label="Rimuovi filtro"></button>
             </span>
           </#if>
           
