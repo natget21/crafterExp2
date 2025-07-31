@@ -70,7 +70,7 @@
     </#if>
 
 
-<#list categoriesTree.item as key, category>
+<#list categoriesTree.item() as category>
   <p>${category}</p>
 </#list>
     
