@@ -82,7 +82,7 @@
         ) /> 
         <#list relatedSubCategories.childItems as subCategoryItem>
             <#assign subCategory = siteItemService.getSiteItem(subCategoryItem.storeUrl) />
-            <#assign subCategoryName = subCategory.queryValue("internal-name")?default("") />
+            <#assign subCategoryName = subCategory.queryValue("name_s")?default("") />
             <p class="ms-2">${subCategoryName}</p>
         </#list>
     </#list>
