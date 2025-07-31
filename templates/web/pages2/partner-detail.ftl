@@ -224,7 +224,7 @@
 </div>
 
   
-<!-- GALLERIA
+
     <div class="bg-primary pb-5">
       <div
         class="layout_padding mx-auto col-11 col-md-9 px-0 other_news_section"
@@ -234,6 +234,7 @@
           class="other_news_list d-flex gap-4 overflow-auto pb-4"
           style="height: 510px"
         >
+        <!--
           <div
             class="card text-white border-0 other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden"
           >
@@ -258,6 +259,7 @@
               Deep tech: secondo bando del programma D2XCEL Scaling
             </h5>
           </div>
+          -->
           <div
             class="card text-white border-0 other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden"
           >
@@ -273,7 +275,7 @@
         </div>
       </div>
     </div>
--->
+
     
 
 
