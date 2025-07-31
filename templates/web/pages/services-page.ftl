@@ -209,7 +209,7 @@
           </label>
           
           <#if categoryName?has_content>
-            <div class="badge bg-primary me-2 my-auto">
+            <div class="badge bg-primary me-2 my-auto d-flex">
               <p>Filtro: ${categoryName}</p>
               <button type="button" class="btn-close btn-close-white btn-sm ms-2" aria-label="Rimuovi filtro"></button>
             </div>
