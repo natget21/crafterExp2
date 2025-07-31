@@ -91,7 +91,7 @@
         <div class="col-3 border bg-danger p-0" style="border-radius: 10px; overflow: hidden;">
         <!-- Tag Start -->
         
-        <h4 class="text-center bg-primary w-100">TAGS</h6>
+        <h4 class="text-center bg-primary text-white">TAGS</h6>
         <hr class="my-0" />
         <#if categories?has_content>
             <#list categories.childItems as categoryItem>
