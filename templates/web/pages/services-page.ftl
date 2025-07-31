@@ -60,7 +60,7 @@
             nostro assistente virtuale che sarà felice di aiutarti.
         </label>
           
-        <#if filterCategory?has_content>
+        <#if category?has_content>
             <span class="badge bg-primary me-2 my-auto d-flex p-2" style="width: min-content;">
               <span class="d-block my-auto">Filtro per Categoria: ${filterCategory}</span>
               <a href="/catalog" type="button" class="btn-close btn-close-white btn-sm ms-2" aria-label="Rimuovi filtro"></a>
