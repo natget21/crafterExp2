@@ -23,7 +23,7 @@
                 <#if item.isFolder()>
                     <#assign childTree = siteItemService.getSiteTree(item.storeUrl, 1) />
                     <#if childTree?has_content>
-                        <@listFilteredItems childTree />
+                        <@listCourses childTree />
                     </#if>
                 <#else>
                     <#assign displayItem = false>
