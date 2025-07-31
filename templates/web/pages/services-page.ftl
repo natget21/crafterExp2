@@ -63,12 +63,16 @@
     </#macro>
     
     
+    
+    
     <#if tree??>
         <@listFilteredItems tree />
     </#if>
 
 
-
+    <#list categories as category>
+        ${category}
+    </#list>
     
     
     <div
