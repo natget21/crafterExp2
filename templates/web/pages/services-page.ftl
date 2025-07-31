@@ -10,13 +10,8 @@
     <#include "/templates/web/fragments/static-navigation.ftl">
     <#include "/templates/web/components/chat-bot.ftl"> 
     
-    <#assign filterCategory = RequestParameters.category?default("") />
-    <#assign categoryName = RequestParameters.category?default("") />
-    <#assign categoryURL = RequestParameters.categoryURL?default("") />
-    <#assign subCategoryName = RequestParameters.subCategory?default("") />
-    <#assign subCategoryURL = RequestParameters.subCategoryURL?default("") />
-    <#assign query = RequestParameters.query?default("") />
-    <#assign courseTree = siteItemService.getSiteTree('/site/components/services', 3) />
+    <#assign category = RequestParameters.category?default("") />
+    <#assign courses = siteItemService.getSiteTree('/site/components/services', 3) />
     
     <#assign categories = siteItemService.getSiteTree('/site/components/category', 1)>
     <#assign subCategories = siteItemService.getSiteTree('/site/components/sub_category', 1)>
