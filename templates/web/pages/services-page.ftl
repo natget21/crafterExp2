@@ -93,7 +93,7 @@
         
         <h4 class="text-center bg-primary text-white">TAGS</h6>
         <hr class="my-0" />
-        <div>
+        <div class="p-2" >
             <#if categories?has_content>
                 <#list categories.childItems as categoryItem>
                     <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
