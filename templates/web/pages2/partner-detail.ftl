@@ -63,8 +63,8 @@
         <div class="col-12 col-md-7">
           <h3 class="title_section">${partnerData.partnerAzienda}</h3>
           <div class="text-justified fs-5 fw-normal" for="">
-            ${partnerData.partnerLandingIntroduction?no_esc}
-            ${partnerData.partnerLandingContent?no_esc}
+            ${partnerData.partnerLandingIntroduction?default("Nessuna introduzione")?no_esc}
+            ${partnerData.partnerLandingContent?default("Nessun contenuto")?no_esc}
           </div>
         </div>
         <div class="col-12 col-md-5">
