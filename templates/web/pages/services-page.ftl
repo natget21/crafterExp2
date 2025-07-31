@@ -27,11 +27,13 @@
                     </#if>
                 <#else>
                     <#assign course = siteItemService.getSiteItem(item.storeUrl) />
-                    <#assign contentModel = course />
-                    <p>${filterByCategory?lower_case?replace(" ", "-")}</p>
-                    <div class="col-12 pb-1">
-                        <#include "/templates/web/items/service-template.ftl" />
-                    </div>
+                    
+                    <#if ${filterByCategory?lower_case?replace(" ", "-")}?in(item.storeUrl)>
+                        <#assign contentModel = course />
+                        <div class="col-12 pb-1">
+                            <#include "/templates/web/items/service-template.ftl" />
+                        </div>
+                    </#if>
                 </#if>
             </#list>
         </#if>
