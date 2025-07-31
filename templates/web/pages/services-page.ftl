@@ -72,7 +72,7 @@
             <#list courses.childItems as courseItem>
                 <#assign course = siteItemService.getSiteItem(courseItem.storeUrl) />
                 <#assign courseName = course.queryValue("name_s")?default("Nessun nome") />
-                <p>${courseName}</p>
+                <p>${course}</p>
             </#list>
         </#if>
         
