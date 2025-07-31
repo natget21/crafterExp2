@@ -70,9 +70,9 @@
     </#if>
 
 
-    <#list categories as category>
-        ${category}
-    </#list>
+<#list categoriesTree as key, category>
+  <p>${key}: ${category.title}</p>
+</#list>
     
     
     <div
