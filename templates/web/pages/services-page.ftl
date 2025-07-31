@@ -17,7 +17,7 @@
     <#assign subCategories = siteItemService.getSiteTree('/site/components/sub_category', 1)>
     
     
-    <#macro listCourses(courses)>
+    <#macro listCourses(tree)>
         <#if tree.childItems?has_content>
             <#list tree.childItems as item>
                 <#if item.isFolder()>
