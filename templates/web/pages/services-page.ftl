@@ -94,7 +94,6 @@
         <#if courseCounter == 0>
             <span class="d-block mt-3">Nessun servizio disponibile.</span>
         </#if>
-
     </div>
     
     <#include "/templates/web/fragments/footer.ftl">
