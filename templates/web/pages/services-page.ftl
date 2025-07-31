@@ -52,29 +52,28 @@
     </div>
     <div class="d-flex pt-3">
         <div class="col-3 border p-0 m-2 w-100 h-100" style="border-radius: 10px; overflow: hidden;">
-        
-        <!-- Tag Start -->
-        <h4 class="text-center bg-primary text-white m-0 p-1">TAGS</h6>
-        <hr class="my-0 p-0" />
-        <div class="p-2" >
-            <#if categories?has_content>
-                <#list categories.childItems as categoryItem>
-                    <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
-                    <#assign categoryName = category.queryValue("internal-name")?default("") />
-                    <h5 class="mt-2">${categoryName}:</h5>
-                    <#assign relatedSubCategories = subCategories.childItems?filter(subCategory -> (
-                        siteItemService.getSiteItem(subCategory.storeUrl)?has_content && 
-                        siteItemService.getSiteItem(subCategory.storeUrl).category_o?has_content && 
-                        siteItemService.getSiteItem(subCategory.storeUrl).category_o.item[0]?has_content && 
-                        siteItemService.getSiteItem(subCategory.storeUrl).category_o.item[0].key == category.storeUrl)
-                    ) /> 
-                    <#list relatedSubCategories as subCategoryItem>
-                        <#assign subCategory = siteItemService.getSiteItem(subCategoryItem.storeUrl) />
-                        <#assign subCategoryName = subCategory.queryValue("name_s")?default("") />
-                        <a href="/catalog?category=${subCategoryName}" class="d-block ms-3">- ${subCategoryName}</a>
+            <h4 class="text-center bg-primary text-white m-0 p-1">TAGS</h6>
+            <hr class="my-0 p-0" />
+            <div class="p-2" >
+                <#if categories?has_content>
+                    <#list categories.childItems as categoryItem>
+                        <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
+                        <#assign categoryName = category.queryValue("internal-name")?default("") />
+                        <h5 class="mt-2">${categoryName}:</h5>
+                        <#assign relatedSubCategories = subCategories.childItems?filter(subCategory -> (
+                            siteItemService.getSiteItem(subCategory.storeUrl)?has_content && 
+                            siteItemService.getSiteItem(subCategory.storeUrl).category_o?has_content && 
+                            siteItemService.getSiteItem(subCategory.storeUrl).category_o.item[0]?has_content && 
+                            siteItemService.getSiteItem(subCategory.storeUrl).category_o.item[0].key == category.storeUrl)
+                        ) /> 
+                        <#list relatedSubCategories as subCategoryItem>
+                            <#assign subCategory = siteItemService.getSiteItem(subCategoryItem.storeUrl) />
+                            <#assign subCategoryName = subCategory.queryValue("name_s")?default("") />
+                            <a href="/catalog?category=${subCategoryName}" class="d-block ms-3">- ${subCategoryName}</a>
+                        </#list>
                     </#list>
-                </#list>
-            </#if>
+                </#if>
+            </div>
         </div>
     </div>
     <div class="col-9">
