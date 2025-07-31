@@ -210,10 +210,10 @@
                 </a>
               </div>
             </div>
-            <#if mediaUrl.length == 0>
-                <p>No</p>
-            </#if>
           </#list>
+          <#if partnerData.partnerLandingImagesAssetsUrlList?default([]).length == 0>
+            <p>No</p>
+          </#if>
         </div>
       </div>
     </div>
