@@ -88,7 +88,7 @@
    
     </div>
     <div class="d-flex pt-3">
-        <div class="col-3 border bg-danger p-0" style="border-radius: 10px; overflow: hidden">
+        <div class="col-3 border bg-danger p-0" style="border-radius: 10px; overflow: hidden;">
         <!-- Tag Start -->
         
         <h4 class="text-center bg-primary w-100">TAGS</h6>
