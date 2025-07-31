@@ -106,7 +106,7 @@
                 <#list relatedSubCategories as subCategoryItem>
                     <#assign subCategory = siteItemService.getSiteItem(subCategoryItem.storeUrl) />
                     <#assign subCategoryName = subCategory.queryValue("name_s")?default("") />
-                    <p class="ms-3">- ${subCategoryName}</p>
+                    <a href="/catalog" class="ms-3">- ${subCategoryName}</a>
                 </#list>
             </#list>
         </#if>
