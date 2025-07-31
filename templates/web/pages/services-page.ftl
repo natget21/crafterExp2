@@ -91,7 +91,7 @@
         <div class="col-3">
         <!-- Tag Start -->
         
-        
+        <h4>TAGS</h6>
         <#if categories?has_content>
             <#list categories.childItems as categoryItem>
                 <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
