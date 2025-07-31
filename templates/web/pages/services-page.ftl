@@ -73,7 +73,7 @@
     <#list categories.childItems as categoryItem>
         <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
         <#assign categoryName = category.queryValue("internal-name")?default("") />
-        <p>${categoryName}</p>
+        <p>- ${categoryName}</p>
         <#assign relatedSubCategories = subCategories.childItems?filter(subCategory -> (
             siteItemService.getSiteItem(subCategory.storeUrl)?has_content && 
             siteItemService.getSiteItem(subCategory.storeUrl).category_o?has_content && 
@@ -83,7 +83,7 @@
         <#list relatedSubCategories as subCategoryItem>
             <#assign subCategory = siteItemService.getSiteItem(subCategoryItem.storeUrl) />
             <#assign subCategoryName = subCategory.queryValue("name_s")?default("") />
-            <p class="ms-2">${subCategoryName}</p>
+            <p class="ms-3">- ${subCategoryName}</p>
         </#list>
     </#list>
 </#if>
