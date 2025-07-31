@@ -93,7 +93,7 @@
         
         <@listCourses courses />
         <#if courseCounter == 0>
-            Nessun servizio disponibile.
+            <span class="d-block mt-3">Nessun servizio disponibile.</span>
         </#if>
 
     </div>
