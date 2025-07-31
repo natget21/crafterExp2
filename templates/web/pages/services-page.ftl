@@ -92,6 +92,7 @@
         <!-- Tag Start -->
         
         <h4>TAGS</h6>
+        <hr />
         <#if categories?has_content>
             <#list categories.childItems as categoryItem>
                 <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
