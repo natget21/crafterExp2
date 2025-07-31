@@ -70,7 +70,7 @@
         
         <#if courses?has_content>
             <#list courses.childItems as courseItem>
-                <#assign course = siteItemService.getSiteItem(course.storeUrl) />
+                <#assign course = siteItemService.getSiteItem(courseItem.storeUrl) />
             </#list>
         </#if>
         
