@@ -88,11 +88,11 @@
    
     </div>
     <div class="d-flex pt-3">
-        <div class="col-3">
+        <div class="col-3 border bg-danger">
         <!-- Tag Start -->
         
         <h4>TAGS</h6>
-        <hr class="my-0 mt-2" />
+        <hr class="my-0" />
         <#if categories?has_content>
             <#list categories.childItems as categoryItem>
                 <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
