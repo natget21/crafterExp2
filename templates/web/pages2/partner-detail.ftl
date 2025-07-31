@@ -211,7 +211,7 @@
               </div>
             </div>
           </#list>
-          <#if partnerData.partnerLandingImagesAssetsUrlList?default([]).length == 0>
+          <#if partnerData.partnerLandingImagesAssetsUrlList?default([])?size == 0>
             <p>No</p>
           </#if>
         </div>
