@@ -69,8 +69,8 @@
         </div>
         <div class="col-12 col-md-5">
           <img
-            src="${partnerData.partnerCompanyLogoUrl?no_esc}"
-            alt="${partnerData.partnerAzienda?no_esc}"
+            src="${partnerData.partnerCompanyLogoUrl?default("")?no_esc}"
+            alt="${partnerData.partnerAzienda?default("")?no_esc}"
             class="logo"
           />
         </div>
@@ -109,23 +109,23 @@
           <div class="row g-4">
             <div class="col-12 col-md-6 col-lg-4">
               <p class="fs-6 text-muted mb-1">Ragione sociale</p>
-              <p class="fs-6 desc">${partnerData.partnerAzienda}</p>
+              <p class="fs-6 desc">${partnerData.partnerAzienda?default("-----")}</p>
             </div>
             <div class="col-12 col-md-6 col-lg-8">
               <p class="fs-6 text-muted mb-1">Partita IVA</p>
-              <p class="fs-6 desc">${partnerData.partnerPiva}</p>
+              <p class="fs-6 desc">${partnerData.partnerPiva?default("-----")}</p>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <p class="fs-6 text-muted mb-1">Indirizzo</p>
-              <p class="fs-6 desc">${partnerData.partnerNazione}</p>
+              <p class="fs-6 desc">${partnerData.partnerNazione?default("-----")}</p>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <p class="fs-6 text-muted mb-1">Email</p>
-              <p class="fs-6 desc">${partnerData.partnerContactEmail}</p>
+              <p class="fs-6 desc">${partnerData.partnerContactEmail?default("-----")}</p>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <p class="fs-6 text-muted mb-1">Telefono</p>
-              <p class="fs-6 desc">${partnerData.partnerTelephone}</p>
+              <p class="fs-6 desc">${partnerData.partnerTelephone?default("-----")}</p>
             </div>
           </div>
         </div>
@@ -196,7 +196,7 @@
         data-bs-parent="#productsAccordion"
       >
         <div class="accordion-body row g-4 px-4 py-3">
-          <#list partnerData.partnerLandingImagesAssetsUrlList as mediaUrl>
+          <#list partnerData.partnerLandingImagesAssetsUrlList?default([]) as mediaUrl>
             <div class="attachment col-12 col-md-4">
               <p class="name_attachment d-flex justify-content-center justify-content-md-start">
                 Allegato-${mediaUrl_index + 1}
