@@ -18,6 +18,11 @@
             <p class="mb-2 text-muted small" style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
                 ${description}
             </p>
+                   
+            <p class="mb-2 text-muted small">
+              <strong>Azienda</strong>: ${company}
+            </p>
+    
         </div>
     </div>
 </div>
