@@ -26,31 +26,7 @@
                         <@listCourses childTree />
                     </#if>
                 <#else>
-                    <#assign displayItem = false>
-                    <#if query?has_content>
-                        <#if item.queryValue('name_s')?lower_case?contains(query?lower_case)>
-                            <#assign displayItem = true>
-                        </#if>
-                    <#elseif categoryName?has_content && !subCategoryName?has_content>
-                        <#if item.storeUrl?lower_case?contains(categoryName?lower_case)>
-                            <#assign displayItem = true>
-                        </#if>
-                    <#elseif categoryName?has_content && subCategoryName?has_content>
-                        <#if item.storeUrl?lower_case?contains(subCategoryName?lower_case)>
-                            <#assign displayItem = true>
-                        </#if>
-                    <#else>
-                        <#assign displayItem = true>
-                    </#if>
-    
-                    <#if displayItem>
-                        <#assign itemData = siteItemService.getSiteItem(item.storeUrl) />
-                        <#assign contentModel = itemData />
-                        <div class="col-12 pb-1">
-                            <#include "/templates/web/items/service-template.ftl" />
-                        </div>
-                        <#global showItemsFound = true>
-                    </#if>
+                <p>Hello</p>
                 </#if>
             </#list>
         </#if>
