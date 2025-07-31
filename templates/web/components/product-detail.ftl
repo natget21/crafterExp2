@@ -22,7 +22,7 @@
 
     <div class="container row mx-auto">
       <h4 class="text-primary">${course.name_s?default("Nessun nome")}</h4>
-      <p class="text-muted small">Codice: ${course.codice_s?default("-----")}</p>
+      <p class="text-muted small">Codice: ${course.codiceprodotto_s?default("")}${course.codice_s?default("")}</p>
       <div class="col-sm-3 col-12">
         <img src="${course.image_s?default("https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg")}" style="width: 100%;" />
       </div>
