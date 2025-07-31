@@ -260,18 +260,18 @@
             </h5>
           </div>
           -->
-          <div
-            class="card text-white border-0 other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden"
-          >
-            <img
-              src="https://www.ip4fvg.it/wp-content/uploads/2024/11/Deep-tech-sostenibile-680x459.png"
-              class="card-img w-100 object-fit-cover"
-              alt="Deep Tech"
-            />
-            <h5 class="card-title" style="position: relative; top: 10px">
-              Deep tech: secondo bando del programma D2XCEL Scaling
-            </h5>
-          </div>
+          <#list partnerData.partnerLandingImagesAssetsUrlList?default([]) as mediaUrl>
+              <div class="card text-white border-0 other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden">
+                <img
+                  src="https://www.ip4fvg.it/wp-content/uploads/2024/11/Deep-tech-sostenibile-680x459.png"
+                  class="card-img w-100 object-fit-cover"
+                  alt="Deep Tech"
+                />
+                <h5 class="card-title" style="position: relative; top: 10px">
+                  Immagine
+                </h5>
+              </div>
+          </#list>
         </div>
       </div>
     </div>
