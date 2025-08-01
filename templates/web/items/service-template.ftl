@@ -21,7 +21,7 @@
                    
             <p class="mb-2 text-muted small d-flex">
               <strong>Azienda</strong>
-              <span id="${partnerId}" class="ms-1">Ciao</span>
+              <span id="${partnerId}" class="ms-1"></span>
             </p>
     
             <p class="mb-2 text-muted small d-flex">
@@ -41,10 +41,11 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", async function() {
-        const p = document.getElementById("${partnerId}");
-        const strong = p.querySelector("strong");
-        const textNode = document.createTextNode(": ciao");
-        strong.parentNode.insertBefore(textNode, strong.nextSibling);
+        const span = document.getElementById("${partnerId}");
+        if(span) {
+            span.innerText = "ciaoo";
+        }
+        
     });
 </script>
 
