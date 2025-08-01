@@ -20,11 +20,11 @@
             </p>
                    
             <p class="mb-2 text-muted small">
-              <strong>Azienda</strong>: ${company}
+              <strong>Azienda</strong>: <p>${company}</p>
             </p>
     
             <p class="mb-2 text-muted small">
-                <strong>Agevolazione</strong>: ${facilitation}
+                <strong>Agevolazione</strong>: <p>${facilitation}</p>
             </p>
         </div>
         
