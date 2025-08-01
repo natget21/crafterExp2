@@ -48,6 +48,7 @@
             "Authorization": "Bearer " + token,
         };
         const response = await fetch(url, { method: 'GET', headers });
+        console.log(response);
     });
 </script>
 
