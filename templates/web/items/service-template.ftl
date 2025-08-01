@@ -42,10 +42,8 @@
 <script>
     document.addEventListener("DOMContentLoaded", async function() {
         const span = document.getElementById("${partnerId}");
-        if(span) {
-            span.innerText = "ciaoo";
-        }
-        
+        fetch('https://api.example.com/data')
+        span.innerText = "ciaoo";
     });
 </script>
 
