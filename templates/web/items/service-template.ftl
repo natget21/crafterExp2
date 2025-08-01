@@ -20,7 +20,7 @@
             </p>
                    
             <p id="${partnerId}" class="mb-2 text-muted small">
-              <strong>Azienda</strong>: ${partnerId}
+              <strong>Azienda</strong>
             </p>
     
             <p class="mb-2 text-muted small">
