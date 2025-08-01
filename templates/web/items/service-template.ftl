@@ -19,7 +19,7 @@
                 ${description}
             </p>
                    
-            <p id="" class="mb-2 text-muted small">
+            <p id="${partnerId}" class="mb-2 text-muted small">
               <strong>Azienda</strong>: ${partnerId}
             </p>
     
@@ -36,4 +36,11 @@
         
     </div>
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const p = document.getElementById("${partnerId}");
+      console.log(p);
+    });
+</script>
 
