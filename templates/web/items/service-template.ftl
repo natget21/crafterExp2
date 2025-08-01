@@ -24,7 +24,7 @@
             </p>
     
             <p class="mb-2 text-muted small">
-                <strong>Agevolazione</strong>: <p>${facilitation}</p>
+                <strong>Agevolazione</strong>: ${facilitation}
             </p>
         </div>
         
