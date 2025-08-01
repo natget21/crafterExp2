@@ -24,8 +24,9 @@
               <span id="${partnerId}" class="ms-1">Ciao</span>
             </p>
     
-            <p class="mb-2 text-muted small">
-                <strong>Agevolazione</strong>: ${facilitation}
+            <p class="mb-2 text-muted small d-flex">
+                <strong>Agevolazione</strong>
+                <span class="ms-1">${facilitation}</span>
             </p>
         </div>
         
