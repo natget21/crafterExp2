@@ -38,9 +38,11 @@
 </div>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const p = document.getElementById("${partnerId}");
-      console.log(p);
+    document.addEventListener("DOMContentLoaded", async function() {
+        const p = document.getElementById("${partnerId}");
+        const strong = p.querySelector("strong");
+        const textNode = document.createTextNode(": ciao");
+        strong.parentNode.insertBefore(textNode, strong.nextSibling);
     });
 </script>
 
