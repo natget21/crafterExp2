@@ -19,7 +19,7 @@
                 ${description}
             </p>
                    
-            <p class="mb-2 text-muted small">
+            <p class="mb-2 text-muted small d-flex">
               <strong>Azienda</strong>
               <label id="${partnerId}">Ciao</label>
             </p>
