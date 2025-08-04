@@ -32,7 +32,7 @@
                             CATALOGO
                         </a>
      
-                        <span id="not-authenticated-area" class="d-flex" style="visibility: hidden;">
+                        <div id="not-authenticated-area" class="d-flex" style="visibility: hidden;">
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-item nav-link dropdown-toggle">
                                     REGISTRATI <i class="fa fa-angle-down mt-1 ms-1"></i>
@@ -53,9 +53,9 @@
                                     <a href="/hub-manager" class="nav-item nav-link sublink py-2">Hub Manager</a>
                                 </div>
                             </div>
-                        </span>
+                        </div>
                         
-                        <div id="authenticated-area" class="nav-item dropdown ms-auto">
+                        <div id="authenticated-area" class="nav-item dropdown ms-auto" style="visibility: hidden;">
                             <a href="#" class="nav-item nav-link dropdown-toggle">
                                 AREA RISERVATA <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
