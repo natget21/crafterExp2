@@ -51,9 +51,6 @@
     });
     
     async function loadPartner() {
-        document.getElementById("partner-title").textContent = "Partner Not Found";
-        document.getElementById("partner-info").style.display = "none";
-    
         const url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${partnerId}";
         const headers = { "Authorization": "Bearer ${token}" };
         const response = await fetch(url, { method: 'GET', headers });
@@ -74,6 +71,8 @@
                 document.getElementById("partner-staff-size").textContent = partner.partnerStaffSize || "";
                 document.getElementById("partner-status").textContent = partner.partnerStatus || "";
             }
+        } else {
+
         }
     }
 </script>
