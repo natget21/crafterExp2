@@ -140,7 +140,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const partenersLinkContainer = document.getElementById("partners-link-list");
-            if(partenersLinkContainer) { this.loadPartners(partenersLinkContainer); }
+            if(partenersLinkContainer) { loadPartners(partenersLinkContainer); }
         });
         
         async function loadPartners(container) {
