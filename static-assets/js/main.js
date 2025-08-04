@@ -112,8 +112,8 @@ window.addEventListener('message', (event) => {
     const authRoots = ['ideale-providers-dash', 'members-view'];
     const user = localStorage.getItem("crafterVadinUser");
     if(authRoots.includes(receivedRoute) || user) {
-        authenticatedArea.classList.remove("d-none");
-        notAuthenticatedArea.classList.add("d-none");
+        authenticatedArea.style.visibility = "visible";
+        notAuthenticatedArea.style.visibility = "hidden";
     } else {
         authenticatedArea.classList.add("d-none");
         notAuthenticatedArea.classList.remove("d-none");
