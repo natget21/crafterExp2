@@ -8,7 +8,6 @@
     <#include "/templates/web/controllers/auth.ftl">
     <#include "/templates/web/fragments/header.ftl">
     <#include "/templates/web/fragments/navigation.ftl">
-    <#include "/templates/web/fragments/static-navigation.ftl">
 
     <main>
         <iframe id="myIframe" width="100%" height="750px"></iframe>
