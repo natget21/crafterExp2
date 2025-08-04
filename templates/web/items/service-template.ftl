@@ -47,9 +47,11 @@
         const url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${partnerId}";
         const headers = { "Authorization": "Bearer " + token };
         const response = await fetch(url, { method: 'GET', headers });
-        console.log(response);
-        if(!response.ok) { span.innerText = "${partnerId}"; }
-        else { span.innerText = "Nome azienda" }
+        if(response.ok) {
+            const partner = await response.json();
+            span.innerText = parter.partnerAzienda;
+        }
+        else { span.innerText = "${partnerId}"; }
         
     });
 </script>
