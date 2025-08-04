@@ -106,8 +106,8 @@ console.log("Global script attached!");
 window.addEventListener('message', (event) => {
     const receivedRoute = event.data;
     console.log('Socket Message', receivedRoute);
-    const authBlock1 = document.getElementById('authenticationBlock1');
-    const authBlock2 = document.getElementById('authenticationBlock2');
+    const notAuthenticatedArea = document.getElementById('not-authenticated-area');
+    const authenticatedArea = document.getElementById('authenticated-area');
     if(!authBlock1 || !authBlock2) return;
     const authRoots = ['ideale-providers-dash', 'members-view']
     if(authRoots.includes(receivedRoute)) {
