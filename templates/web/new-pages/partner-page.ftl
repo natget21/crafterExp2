@@ -15,6 +15,10 @@
             </div>
         </div>
         
+        <div class="container">
+            <h1 id="partner-title" class="best_taital text-center text-white p-0">Loading...</h1>
+        </div>
+        
         <div class="container" id="partner-info">
             <div class="container mt-5">
                 <div class="row">
@@ -48,5 +52,26 @@
 </html>
 
 <script>
-
+    document.addEventListener("DOMContentLoaded", async function () {
+        const partenersLinkContainer = document.getElementById("partners-link-list");
+        if(partenersLinkContainer) { await loadPartners(partenersLinkContainer); }
+    });
+    
+    async function loadPartners(container) {
+        localStorage.setItem("loading-partners", true);
+        const url = "https://api.shortcut.uno/v1/Ideale-partner/getAllPartners";
+        const headers = { "Authorization": "Bearer ${token}" };        
+        const response = await fetch(url, { method: 'GET', headers });
+        if(response.ok) {
+            const partners = await response.json() ?? [];
+            console.log("Partners", partners);
+            for(let partner of partners) {
+                const link = document.createElement("a");
+                link.href = "/partner-page?id=" + partner.id;
+                link.textContent = partner.partnerAzienda;
+                link.className = "nav-item nav-link sublink py-2";
+                container.appendChild(link);
+            }
+        }
+    }
 </script>
