@@ -24,11 +24,13 @@
     <link href="/static-assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
+    <link href="/static-assets/css/style.css" rel="stylesheet">
     <link href="/static-assets/css/general-style.css" rel="stylesheet">
     <link rel="stylesheet" href="/static-assets/css/contacts.css" />
     <link rel="stylesheet" href="/static-assets/css/catalogo.css" />
     <link rel="stylesheet" href="/static-assets/css/login.css">
     <link rel="stylesheet" href="/static-assets/css/project.css" />
+    <link rel="stylesheet" href="/static-assets/css/partner.css" />
     
     <@crafter.head/>
 </head>
