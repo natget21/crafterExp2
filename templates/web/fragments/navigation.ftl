@@ -32,7 +32,7 @@
                             CATALOGO
                         </a>
      
-                        <div id="not-authenticated-area" class="ms-auto">
+                        <div id="not-authenticated-area" class="ms-auto d-none">
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-item nav-link dropdown-toggle">
                                     REGISTRATI <i class="fa fa-angle-down mt-1 ms-1"></i>
@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         
-                        <div id="authenticated-area" class="nav-item dropdown ms-auto">
+                        <div id="authenticated-area" class="nav-item dropdown ms-auto d-none">
                             <a href="#" class="nav-item nav-link dropdown-toggle">
                                 AREA RISERVATA <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
