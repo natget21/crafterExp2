@@ -32,7 +32,7 @@
                             CATALOGO
                         </a>
      
-                        <div id="not-authenticated-area" style="display: none;">
+                        <div id="not-authenticated-area" style="display: none; position: absolute; right: 0;">
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-item nav-link dropdown-toggle">
                                     REGISTRATI <i class="fa fa-angle-down mt-1 ms-1"></i>
