@@ -74,13 +74,10 @@
 
     
 <script>
+    let loadedPartner = 0;
     document.addEventListener("DOMContentLoaded", async function () {
         const partenersLinkContainer = document.getElementById("partners-link-list");
-        if(localStorage.getItem("loading-partners")) { return; }
-        if(partenersLinkContainer) { 
-            await loadPartners(partenersLinkContainer); 
-            localStorage.setItem("loading-partners", false);
-        }
+        if(partenersLinkContainer) { await loadPartners(partenersLinkContainer); }
     });
     
     async function loadPartners(container) {
@@ -97,6 +94,7 @@
                 link.textContent = partner.partnerAzienda;
                 link.className = "nav-item nav-link sublink py-2";
                 container.appendChild(link);
+                loadedPartner += 1;
             }
         }
     }
