@@ -112,11 +112,11 @@ window.addEventListener('message', (event) => {
     const authRoots = ['ideale-providers-dash', 'members-view'];
     const user = localStorage.getItem("crafterVadinUser");
     if(authRoots.includes(receivedRoute) || user) {
-        authenticatedArea.remove("d-none");
-        notAuthenticatedArea.add("d-none");
+        authenticatedArea.classList.remove("d-none");
+        notAuthenticatedArea.classList.add("d-none");
     } else {
-        authenticatedArea.add("d-none");
-        notAuthenticatedArea.remove("d-none");
+        authenticatedArea.classList.add("d-none");
+        notAuthenticatedArea.classList.remove("d-none");
     }
 });
 
