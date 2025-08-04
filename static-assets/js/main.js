@@ -108,13 +108,12 @@ window.addEventListener('message', (event) => {
     console.log('Socket Message', receivedRoute);
     const notAuthenticatedArea = document.getElementById('not-authenticated-area');
     const authenticatedArea = document.getElementById('authenticated-area');
-    if(!authBlock1 || !authBlock2) return;
-    const authRoots = ['ideale-providers-dash', 'members-view']
-    if(authRoots.includes(receivedRoute)) {
-        authBlock1.classList.remove('d-flex');
-        authBlock1.classList.add('d-none');
-        authBlock2.classList.remove('d-flex');
-        authBlock2.classList.add('d-none');
+    if(!notAuthenticatedArea || !authenticatedArea) { return; }
+    const authRoots = ['ideale-providers-dash', 'members-view'];
+    const user = null;
+    if(authRoots.includes(receivedRoute) || user) {
+        authenticatedArea.remove("d-none");
+        notAuthenticatedArea.add("d-none");
     } else {
         authBlock1.classList.remove('d-none');
         authBlock1.classList.add('d-flex');
