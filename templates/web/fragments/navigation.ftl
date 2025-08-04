@@ -32,7 +32,7 @@
                             CATALOGO
                         </a>
      
-                        <div id="not-authenticated-area" class="ms-auto d-flex" style="visibility: hidden;">
+                        <div id="not-authenticated-area" class="d-flex" style="visibility: hidden;">
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-item nav-link dropdown-toggle">
                                     REGISTRATI <i class="fa fa-angle-down mt-1 ms-1"></i>
