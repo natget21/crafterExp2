@@ -28,7 +28,7 @@
                             <div id="partners-link-list" class="dropdown-menu  rounded-0 border-0 m-0"></div>
                         </div>
                         
-                        <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/catalog")>active</#if>">
+                        <a href="/catalog" class="nav-item nav-link <#if currentUrl?starts_with("/catalog")>active</#if>">
                             CATALOGO
                         </a>
      
