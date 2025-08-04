@@ -113,3 +113,28 @@
         </div>
     </div>
     
+    <script>
+    
+        document.addEventListener("DOMContentLoaded", async function () {
+            const partenersLinkContainer = document.getElementById("partners-link-list");
+            if(partenersLinkContainer) { await loadPartners(partenersLinkContainer); }
+        });
+        
+        async function loadPartners(container) {
+            const url = "https://api.shortcut.uno/v1/Ideale-partner/getAllPartners";
+            const headers = { "Authorization": "Bearer ${token}" };        
+            const response = await fetch(url, { method: 'GET', headers });
+            if(response.ok) {
+                const partners = await response.json() ?? [];
+                for(let partner of partners) {
+                    const link = document.createElement("a");
+                    link.href = "/partners?id=" + partner.id;
+                    link.textContent = partner.partnerAzienda;
+                    link.className = "nav-item nav-link sublink py-2";
+                    container.appendChild(link);
+                }
+            }
+        }
+        
+    </script>
+    
