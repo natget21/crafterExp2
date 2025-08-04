@@ -116,7 +116,7 @@ window.addEventListener('message', (event) => {
         notAuthenticatedArea.style.display = "none";
     } else {
         authenticatedArea.style.display = "none";
-        notAuthenticatedArea.style.visibility = "flex";
+        notAuthenticatedArea.style.display = "flex";
     }
 });
 
