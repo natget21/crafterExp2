@@ -11,17 +11,18 @@
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                        <div class="navbar-nav mr-auto py-0">
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto py-0">
+                        <a href="/index" class="nav-item nav-link <#if currentUrl?starts_with("/index")>active</#if>">
+                            <i class="fa fa-home mt-1 me-1"></i>HOME
+                        </a>
                         
-                            <a href="/index" class="nav-item nav-link <#if currentUrl?starts_with("/index")>active</#if>"><i class="fa fa-home mt-1"></i> HOME</a>
+                        <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">VISIONE</a>
                             
-                            <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">VISIONE</a>
-                            
-                            <div class="nav-item dropdown">
-                                <a href="/partners-page" class="nav-item nav-link dropdown-toggle">PARTNER <i class="fa fa-angle-down mt-1"></i></a>
-                                <div id="partners-link-list" class="dropdown-menu  rounded-0 border-0 m-0"></div>
-                            </div>
+                        <div class="nav-item dropdown">
+                            <a href="/partners-page" class="nav-item nav-link dropdown-toggle">PARTNER <i class="fa fa-angle-down mt-1"></i></a>
+                            <div id="partners-link-list" class="dropdown-menu  rounded-0 border-0 m-0"></div>
+                        </div>
                         
                             <div class="nav-item dropdown">
                                 <a href="/services" class="nav-item nav-link dropdown-toggle">SERVIZI <i class="fa fa-angle-down mt-1"></i></a>
