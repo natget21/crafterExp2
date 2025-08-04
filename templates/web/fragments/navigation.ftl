@@ -143,7 +143,7 @@
             const link = document.createElement("a");
             link.href = "/partners?id=" + 10;
             link.className = "nav-item nav-link sublink";
-            link.textContent = "Consulenza";
+            link.textContent = "Test partener";
             partenersLinkContainer.appendChild(link);
           }
         });
