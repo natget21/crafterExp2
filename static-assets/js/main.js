@@ -115,8 +115,8 @@ window.addEventListener('message', (event) => {
         authenticatedArea.style.visibility = "visible";
         notAuthenticatedArea.style.visibility = "hidden";
     } else {
-        authenticatedArea.classList.add("d-none");
-        notAuthenticatedArea.classList.remove("d-none");
+        authenticatedArea.style.visibility = "hidden";
+        notAuthenticatedArea.style.visibility = "visible";
     }
 });
 
