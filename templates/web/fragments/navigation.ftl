@@ -17,10 +17,14 @@
                             <i class="fa fa-home mt-1 me-2"></i>HOME
                         </a>
                         
-                        <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">VISIONE</a>
+                        <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">
+                            VISIONE
+                        </a>
                             
                         <div class="nav-item dropdown">
-                            <a href="/partners-page" class="nav-item nav-link dropdown-toggle">PARTNER <i class="fa fa-angle-down mt-1"></i></a>
+                            <a href="/partners-page" class="nav-item nav-link dropdown-toggle">
+                                PARTNER<i class="fa fa-angle-down mt-1 ms-1"></i>
+                            </a>
                             <div id="partners-link-list" class="dropdown-menu  rounded-0 border-0 m-0"></div>
                         </div>
                         
