@@ -57,6 +57,7 @@
         if(response.ok) {
             const partner = await response.json();
             if(partner) {
+                document.getElementById("partner-info").style.display = "block";
                 document.getElementById("partner-title").textContent = partner.partnerAzienda || "";
                 document.getElementById("partner-logo").src = partner.partnerCompanyLogoUrl || "";
                 document.getElementById("partner-landing-title").textContent = partner.partnerLandingTitle || "";
