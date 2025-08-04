@@ -141,7 +141,7 @@
           const partenersLinkContainer = document.getElementById("partners-link-list");
           if(partenersLinkContainer) {
             const link = document.createElement("a");
-            link.href = "/consulenza";
+            link.href = "/partners?id=" + 10;
             link.className = "nav-item nav-link sublink";
             link.textContent = "Consulenza";
             partenersLinkContainer.appendChild(link);
