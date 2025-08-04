@@ -56,7 +56,7 @@
         const response = await fetch(url, { method: 'GET', headers });
         if(response.ok) {
             const partner = await response.json();
-            console.log(partner);
+            alert("ok1")
             if(partner) {
                 document.getElementById("partner-title").textContent = partner.partnerAzienda || "";
                 document.getElementById("partner-logo").src = partner.partnerCompanyLogoUrl || "";
@@ -76,6 +76,7 @@
                 document.getElementById("partner-info").style.display = "none";
             }
         } else {
+            alert("ok2")
             document.getElementById("partner-title").textContent = "Partner Not Found";
             document.getElementById("partner-info").style.display = "none";
         }
