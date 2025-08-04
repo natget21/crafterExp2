@@ -110,7 +110,7 @@ window.addEventListener('message', (event) => {
     const authenticatedArea = document.getElementById('authenticated-area');
     if(!notAuthenticatedArea || !authenticatedArea) { return; }
     const authRoots = ['ideale-providers-dash', 'members-view'];
-    const user = null;
+    const user = localStorage.getItem("crafterVadinUser");
     if(authRoots.includes(receivedRoute) || user) {
         authenticatedArea.remove("d-none");
         notAuthenticatedArea.add("d-none");
