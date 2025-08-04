@@ -139,18 +139,20 @@
     
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-          const partenersLinkContainer = document.getElementById("partners-link-list");
-          if(partenersLinkContainer) {
-            const token = "";        const url = "https://api.shortcut.uno/v1/Ideale-partner/findOne/${partnerId}";
-            const headers = { "Authorization": "Bearer " + token };        
+            const partenersLinkContainer = document.getElementById("partners-link-list");
+            if(partenersLinkContainer) { loadPartners(partenersLinkContainer); }
+        });
+        
+        async loadPartners(container) {
+            const url = "https://api.shortcut.uno/v1/Ideale-partner/";
+            const headers = { "Authorization": "Bearer " + ${token} };        
             const response = await fetch(url, { method: 'GET', headers });
             const link = document.createElement("a");
             link.href = "/partners?id=" + 10;
             link.textContent = "Test partner";
             link.className = "nav-item nav-link sublink";
             partenersLinkContainer.appendChild(link);
-          }
-        });
+        }
         
         async function logout(){
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
