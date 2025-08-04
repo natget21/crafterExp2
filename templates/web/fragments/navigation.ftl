@@ -69,8 +69,9 @@
                                     ACCEDI <i class="fa fa-angle-down mt-1 ms-1"></i>
                                 </a>
                                 <div class="dropdown-menu rounded-0 border-0 m-0">
-                                    <a href="/my-orders" class="nav-item nav-link sublink py-2">I tuoi ordini</a>
-                                    <a href="javascript:void(0);" onclick="logout()" class="nav-item nav-link sublink py-2">Esci</a>
+                                    <a href="/login" class="nav-item nav-link sublink py-2">Cliente</a>
+                                    <a href="/partner-login" class="nav-item nav-link sublink py-2">Partner</a>
+                                    <a href="/partner-login" class="nav-item nav-link sublink py-2">Hub Manager</a>
                                 </div>
                             </div>
                         </div>
