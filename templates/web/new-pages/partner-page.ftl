@@ -63,7 +63,7 @@
         if(response.ok) {
             const partner = await response.json();
             document.getElementById("partner-title").textContent = partner.partnerAzienda || "Partner";
-
+            document.getElementById("partner-logo").src = partner.partnerCompanyLogoUrl || "";
 
             document.getElementById("partner-landing-title").textContent = partner.partnerLandingTitle || "";
             document.getElementById("partner-landing-introduction").innerHTML = partner.partnerLandingIntroduction || "";
