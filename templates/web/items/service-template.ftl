@@ -21,7 +21,7 @@
                    
             <p class="mb-2 text-muted small d-flex">
               <strong>Azienda</strong>
-              <span id="${partnerId}" class="ms-1"></span>
+              <span class="${partnerId}" class="ms-1"></span>
             </p>
     
             <p class="mb-2 text-muted small d-flex">
