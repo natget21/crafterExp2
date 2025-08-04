@@ -61,15 +61,8 @@
         const headers = { "Authorization": "Bearer ${token}" };        
         const response = await fetch(url, { method: 'GET', headers });
         if(response.ok) {
-            const partners = await response.json() ?? [];
-            console.log("Partners", partners);
-            for(let partner of partners) {
-                const link = document.createElement("a");
-                link.href = "/partner-page?id=" + partner.id;
-                link.textContent = partner.partnerAzienda;
-                link.className = "nav-item nav-link sublink py-2";
-                container.appendChild(link);
-            }
+            const partners = await response.json();
+            
         }
     }
 </script>
