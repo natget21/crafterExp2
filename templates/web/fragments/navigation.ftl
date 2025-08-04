@@ -57,7 +57,10 @@
                             <a href="#" class="nav-item nav-link dropdown-toggle">
                                 AREA RISERVATA <i class="fa fa-angle-down mt-1">
                             </a>
-                            <div class="dropdown-menu rounded-0 border-0 m-0"></div>
+                            <div class="dropdown-menu rounded-0 border-0 m-0">
+                                <a href="/my-orders" class="nav-item nav-link sublink py-2">I tuoi ordini</a>
+                                <a href="javascript:void(0);" onclick="logout()" class="nav-item nav-link sublink py-2">Esci</a>
+                            </div>
                         </div>
                     
                         <div  class="nav-item dropdown d-none">
@@ -66,7 +69,7 @@
                                 <a href="/my-orders" class="nav-item nav-link sublink <#if currentUrl?starts_with("/")>active</#if>">
                                     I tuoi ordini
                                 </a>
-                                <a id="logout-btn-test" href="javascript:void(0);" class="nav-item nav-link sublink" onclick="logout()">
+                                <a id="logout-btn-test" href="javascript:void(0);" class="nav-item nav-link sublink" >
                                     Esci
                                 </a>
                             </div>
