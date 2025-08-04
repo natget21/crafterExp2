@@ -138,8 +138,16 @@
     
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-          document.getElementById("partners-link-list")
+          const partenersLinkContainer = document.getElementById("partners-link-list");
+          if(partenersLinkContainer) {
+            const link = document.createElement("a");
+            link.href = "/consulenza";
+            link.className = "nav-item nav-link sublink";
+            link.textContent = "Consulenza";
+            partenersLinkContainer.appendChild(link);
+          }
         });
+        
         async function logout(){
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
             localStorage.removeItem('crafterVadinUser');
