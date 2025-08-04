@@ -1,5 +1,5 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
-<#assign id = RequestParameters.url />
+<#assign id = RequestParameters.id />
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
