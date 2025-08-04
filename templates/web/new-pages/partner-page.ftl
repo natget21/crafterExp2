@@ -1,4 +1,5 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
+<#assign id = RequestParameters.url />
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
@@ -8,7 +9,7 @@
         <#include "/templates/web/fragments/header.ftl">
         <#include "/templates/web/fragments/navigation.ftl">
         
-        <h5>Hello World!!</h5>
+        <h5>${id}</h5>
         
         <#include "/templates/web/fragments/footer.ftl">
         <#include "/templates/web/fragments/scripts.ftl">
