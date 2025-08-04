@@ -115,10 +115,8 @@ window.addEventListener('message', (event) => {
         authenticatedArea.remove("d-none");
         notAuthenticatedArea.add("d-none");
     } else {
-        authBlock1.classList.remove('d-none');
-        authBlock1.classList.add('d-flex');
-        authBlock2.classList.remove('d-none');
-        authBlock2.classList.add('d-flex');
+        authenticatedArea.add("d-none");
+        notAuthenticatedArea.remove("d-none");
     }
 });
 
