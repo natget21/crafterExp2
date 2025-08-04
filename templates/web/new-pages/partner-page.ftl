@@ -55,7 +55,8 @@
         const headers = { "Authorization": "Bearer ${token}" };
         const response = await fetch(url, { method: 'GET', headers });
         if(response.ok) {
-            const partner = await response.json() ?? {};
+            const partner = await response.json();
+            console.log(partner);
             if(partner) {
                 document.getElementById("partner-title").textContent = partner.partnerAzienda || "";
                 document.getElementById("partner-logo").src = partner.partnerCompanyLogoUrl || "";
