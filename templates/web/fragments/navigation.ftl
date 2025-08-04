@@ -76,7 +76,7 @@
 <script>
     document.addEventListener("DOMContentLoaded", async function () {
         const partenersLinkContainer = document.getElementById("partners-link-list");
-        if(partenersLinkContainer) { await loadPartners(partenersLinkContainer); }
+        if(partenersLinkContainer && !(partenersLinkContainer.children.length)) { await loadPartners(partenersLinkContainer); }
     });
     
     async function loadPartners(container) {
