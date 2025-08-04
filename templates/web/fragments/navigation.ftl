@@ -85,6 +85,7 @@
         const response = await fetch(url, { method: 'GET', headers });
         if(response.ok) {
             const partners = await response.json() ?? [];
+            console.log("Partners", partners);
             for(let partner of partners) {
                 const link = document.createElement("a");
                 link.href = "/partners?id=" + partner.id;
