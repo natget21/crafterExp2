@@ -57,12 +57,14 @@
     });
     
     async function loadPartner() {
-        const url = "https://api.shortcut.uno/v1/Ideale-partner/getAllPartners";
-        const headers = { "Authorization": "Bearer ${token}" };        
+        const url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${partnerId}";
+        const headers = { "Authorization": "Bearer ${token}" };
         const response = await fetch(url, { method: 'GET', headers });
         if(response.ok) {
-            const partners = await response.json();
+            const partner = await response.json();
             
+        } else {
+            document.getElementById("partner-title").textContent = "Partner Not Found";
         }
     }
 </script>
