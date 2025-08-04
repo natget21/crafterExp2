@@ -14,6 +14,9 @@
                 <img class="banner_img" src="static-assets/assets/partner.png">
                 <h1 class="best_taital text-center dark p-0">Partner</h1>
             </div>
+        </div>
+        
+        <div class="container">
             <h1 id="partner-title" class="best_taital text-center text-white p-0"></h1>
         </div>
         
