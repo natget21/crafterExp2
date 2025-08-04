@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <#assign link = "/detail?url=" + contentModel.storeUrl />
-<#assign id = contentModel.id_s?default("") />
+<#assign id = contentModel.productid_s?default("") />
 <#assign name = contentModel.name_s?default("Nessun nome") />
 <#assign description = contentModel.descrizione_t?default("Nessuna descrizione.") />
 <#assign image = contentModel.image_s?default("https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg") />
