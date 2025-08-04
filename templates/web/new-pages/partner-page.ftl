@@ -29,7 +29,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <#if partner.partnerCompanyLogoUrl??>
-                                <img src="${partnerData.partnerCompanyLogoUrl?default("")}" alt="${partnerData.partnerAzienda?default("")}" class="img-fluid">
+                                <img src="${partner.partnerCompanyLogoUrl?default("")}" alt="${partner.partnerAzienda?default("")}" class="img-fluid">
                             </#if>
                         </div>
                         <div class="col-md-8">
