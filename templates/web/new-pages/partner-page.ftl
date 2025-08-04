@@ -59,11 +59,9 @@
             if(partner) {
                 document.getElementById("partner-title").textContent = partner.partnerAzienda || "";
                 document.getElementById("partner-logo").src = partner.partnerCompanyLogoUrl || "";
-    
                 document.getElementById("partner-landing-title").textContent = partner.partnerLandingTitle || "";
                 document.getElementById("partner-landing-introduction").innerHTML = partner.partnerLandingIntroduction || "";
                 document.getElementById("partner-landing-content").innerHTML = partner.partnerLandingContent || "";
-        
                 document.getElementById("partner-contact").textContent = partner.partnerContatto || "";
                 document.getElementById("partner-email").textContent = partner.partnerContactEmail || "";
                 document.getElementById("partner-phone").textContent = partner.partnerTelephone || "";
