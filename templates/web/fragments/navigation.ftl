@@ -74,7 +74,6 @@
 
     
 <script>
-    let loadedPartners = 0;
     document.addEventListener("DOMContentLoaded", async function () {
         const partenersLinkContainer = document.getElementById("partners-link-list");
         if(partenersLinkContainer) { await loadPartners(partenersLinkContainer); }
@@ -94,8 +93,6 @@
                 link.textContent = partner.partnerAzienda;
                 link.className = "nav-item nav-link sublink py-2";
                 container.appendChild(link);
-                loadedPartners += 1;
-                alert(loadedPartners);
             }
         }
     }
