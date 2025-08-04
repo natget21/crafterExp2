@@ -147,8 +147,8 @@
                 const partners = await response.json() ?? [];
                 for(let partner of partners) {
                     const link = document.createElement("a");
-                    link.href = "/partners?id=" + 10;
-                    link.textContent = "Test partner";
+                    link.href = "/partners?id=" + partner.id;
+                    link.textContent = partner.partnerAzienda;
                     link.className = "nav-item nav-link sublink py-2";
                     container.appendChild(link);
                 }
