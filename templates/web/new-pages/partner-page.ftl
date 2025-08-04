@@ -26,7 +26,7 @@
                         <div id="partner-landing-introduction"></div>
                         <div id="partner-landing-content"></div>
                         <ul class="list-unstyled mt-3">
-                            <li><strong>Contact:</strong> <span id="partner-contact">aaa</span></li>
+                            <li><strong>Contact:</strong> <span id="partner-contact"></span></li>
                             <li><strong>Email:</strong> <span id="partner-email"></span></li>
                             <li><strong>Phone:</strong> <span id="partner-phone"></span></li>
                             <li><strong>Region:</strong> <span id="partner-region"></span></li>
