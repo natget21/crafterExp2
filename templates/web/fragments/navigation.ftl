@@ -32,7 +32,7 @@
                             CATALOGO
                         </a>
      
-                        <div class="navbar-nav ml-auto py-0">
+                        <div class="ml-auto">
                         
                             <div id="not-authenticated-area" class="d-none">
                                 <div class="nav-item dropdown">
