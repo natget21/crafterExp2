@@ -25,7 +25,7 @@
                             <a href="/partners-page" class="nav-item nav-link dropdown-toggle">
                                 PARTNER <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
-                            <div id="partners-link-list" class="dropdown-menu  rounded-0 border-0 m-0"></div>
+                            <div id="partners-link-list" class="dropdown-menu rounded-0 border-0 m-0"></div>
                         </div>
                         
                         <a href="/catalog" class="nav-item nav-link <#if currentUrl?starts_with("/catalog")>active</#if>">
@@ -51,6 +51,13 @@
                                         <a href="/hub-manager" class="nav-item nav-link sublink <#if currentUrl?starts_with("/hub-manager")>active</#if>">Hub Manager</a>
                                     </div>
                                 </div>
+                            </div>
+                            
+                            <div class="nav-item dropdown">
+                                <a href="/partners-page" class="nav-item nav-link dropdown-toggle">
+                                    PARTNER <i class="fa fa-angle-down mt-1 ms-1"></i>
+                                </a>
+                                <div id="partners-link-list" class="dropdown-menu rounded-0 border-0 m-0"></div>
                             </div>
                         
                             <div id="authenticated-area" class="nav-item dropdown d-none">
