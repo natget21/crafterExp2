@@ -142,7 +142,7 @@
           if(partenersLinkContainer) {
             const link = document.createElement("a");
             link.href = "/partners?id=" + 10;
-            link.textContent = "Test partener";
+            link.textContent = "Test partner";
             link.className = "nav-item nav-link sublink";
             partenersLinkContainer.appendChild(link);
           }
