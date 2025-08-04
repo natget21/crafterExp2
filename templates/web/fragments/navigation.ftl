@@ -71,7 +71,7 @@
                                 <div class="dropdown-menu rounded-0 border-0 m-0">
                                     <a href="/login" class="nav-item nav-link sublink py-2">Cliente</a>
                                     <a href="/partner-login" class="nav-item nav-link sublink py-2">Partner</a>
-                                    <a href="/partner-login" class="nav-item nav-link sublink py-2">Hub Manager</a>
+                                    <a href="/hub-manager" class="nav-item nav-link sublink py-2">Hub Manager</a>
                                 </div>
                             </div>
                         </div>
