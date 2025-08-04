@@ -143,12 +143,16 @@
             const url = "https://api.shortcut.uno/v1/Ideale-partner/getAllPartners";
             const headers = { "Authorization": "Bearer ${token}" };        
             const response = await fetch(url, { method: 'GET', headers });
-            console.log(response);
-            const link = document.createElement("a");
-            link.href = "/partners?id=" + 10;
-            link.textContent = "Test partner";
-            link.className = "nav-item nav-link sublink";
-            container.appendChild(link);
+            if(response.ok) {
+                const partners = res.body ?? [];
+                for(let partner of partners) {
+                    const link = document.createElement("a");
+                    link.href = "/partners?id=" + 10;
+                    link.textContent = "Test partner";
+                    link.className = "nav-item nav-link sublink";
+                    container.appendChild(link);
+                }
+            }
         }
         
         document.addEventListener("DOMContentLoaded", function () {
