@@ -57,7 +57,7 @@
                             <a href="/partners-page" class="nav-item nav-link dropdown-toggle">
                                 PARTNER <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
-                            <div id="partners-link-list" class="dropdown-menu rounded-0 border-0 m-0"></div>
+                            <div class="dropdown-menu rounded-0 border-0 m-0"></div>
                         </div>
                     
                         <div id="authenticated-area" class="nav-item dropdown d-none">
