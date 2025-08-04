@@ -142,8 +142,8 @@
           if(partenersLinkContainer) {
             const link = document.createElement("a");
             link.href = "/partners?id=" + 10;
-            link.className = "nav-item nav-link sublink";
             link.textContent = "Test partener";
+            link.className = "nav-item nav-link sublink";
             partenersLinkContainer.appendChild(link);
           }
         });
