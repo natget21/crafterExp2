@@ -55,7 +55,7 @@
                         
                         <div id="authenticated-area" class="nav-item dropdown">
                             <a href="#" class="nav-item nav-link dropdown-toggle">
-                                PARTNER <i class="fa fa-angle-down mt-1 ms-1"></i>
+                                AREA RISERVATA <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
                             <div class="dropdown-menu rounded-0 border-0 m-0">
                                 <a href="/my-orders" class="nav-item nav-link sublink py-2">I tuoi ordini</a>
