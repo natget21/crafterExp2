@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         
-                        <div id="authenticated-area" class="nav-item dropdown" style="display: none;">
+                        <div id="authenticated-area" class="nav-item dropdown" style="display: none; position: absolute; right: 0;">
                             <a href="#" class="nav-item nav-link dropdown-toggle">
                                 AREA RISERVATA <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
