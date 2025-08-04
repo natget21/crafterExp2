@@ -34,7 +34,7 @@
      
     
                         
-                        <div id="not-authenticated-area" class="d-none">
+                        <div id="" class="d-none">
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">REGISTRATI <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu  rounded-0 border-0 m-0">
@@ -53,7 +53,7 @@
                             </div>
                         </div>
                         
-                        <div>
+                        <div id="not-authenticated-area ms-auto">
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-item nav-link dropdown-toggle">
                                     REGISTRATI <i class="fa fa-angle-down mt-1 ms-1"></i>
