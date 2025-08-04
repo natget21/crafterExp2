@@ -10,7 +10,7 @@
         <#include "/templates/web/fragments/navigation.ftl">
         
         <div class="container">
-            <h1 id="partner-title" class="best_taital text-center text-white p-0">Loading...</h1>
+            <h1 id="partner-title" class="best_taital text-center text-white p-0"></h1>
         </div>
         
         <div class="container" id="partner-info">
@@ -71,9 +71,6 @@
                 document.getElementById("partner-staff-size").textContent = partner.partnerStaffSize || "";
                 document.getElementById("partner-status").textContent = partner.partnerStatus || "";
             }
-        } else {
-            document.getElementById("partner-title")?.textContent = "Partner Not Found";
-            document.getElementById("partner-info")?.style.display = "none";
         }
     }
 </script>
