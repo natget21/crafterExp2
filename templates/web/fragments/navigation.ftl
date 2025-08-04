@@ -52,7 +52,7 @@
                             <div id="authenticated-area" class="nav-item dropdown d-none">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> AREA RISERVATA <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu  rounded-0 border-0 m-0">
-                                    <a href="/my-orders" id="myOrdersLink" class="nav-item nav-link sublink <#if currentUrl?starts_with("/")>active</#if>">
+                                    <a href="/my-orders" class="nav-item nav-link sublink <#if currentUrl?starts_with("/")>active</#if>">
                                         I tuoi ordini
                                     </a>
                                     <a id="logout-btn-test" href="javascript:void(0);" class="nav-item nav-link sublink" onclick="logout()">
