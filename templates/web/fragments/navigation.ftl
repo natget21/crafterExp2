@@ -32,7 +32,7 @@
                             CATALOGO
                         </a>
      
-                        <div id="not-authenticated-area" class="ms-auto d-none">
+                        <span id="not-authenticated-area" class="d-none">
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-item nav-link dropdown-toggle">
                                     REGISTRATI <i class="fa fa-angle-down mt-1 ms-1"></i>
@@ -53,7 +53,7 @@
                                     <a href="/hub-manager" class="nav-item nav-link sublink py-2">Hub Manager</a>
                                 </div>
                             </div>
-                        </div>
+                        </span>
                         
                         <div id="authenticated-area" class="nav-item dropdown ms-auto d-none">
                             <a href="#" class="nav-item nav-link dropdown-toggle">
