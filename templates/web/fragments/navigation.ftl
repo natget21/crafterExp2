@@ -76,12 +76,15 @@
 <script>
     document.addEventListener("DOMContentLoaded", async function () {
         const partenersLinkContainer = document.getElementById("partners-link-list");
-        if(localStorage.getItem("loading")) { return; }
-        if(partenersLinkContainer) { await loadPartners(partenersLinkContainer); }
+        if(localStorage.getItem("loadingPartners")) { return; }
+        if(partenersLinkContainer) { 
+            await loadPartners(partenersLinkContainer); 
+            localStorage.setItem("loadingPartners", false);
+        }
     });
     
     async function loadPartners(container) {
-        localStorage.setItem("loading", true);
+        localStorage.setItem("loadingPartners", true);
         const url = "https://api.shortcut.uno/v1/Ideale-partner/getAllPartners";
         const headers = { "Authorization": "Bearer ${token}" };        
         const response = await fetch(url, { method: 'GET', headers });
