@@ -75,12 +75,13 @@
     
 <script>
     document.addEventListener("DOMContentLoaded", async function () {
-        localStorage.setItem("loading", true);
+        
         const partenersLinkContainer = document.getElementById("partners-link-list");
         if(partenersLinkContainer) { await loadPartners(partenersLinkContainer); }
     });
     
     async function loadPartners(container) {
+        localStorage.setItem("loading", true);
         const url = "https://api.shortcut.uno/v1/Ideale-partner/getAllPartners";
         const headers = { "Authorization": "Bearer ${token}" };        
         const response = await fetch(url, { method: 'GET', headers });
