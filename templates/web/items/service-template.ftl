@@ -49,7 +49,7 @@
         const response = await fetch(url, { method: 'GET', headers });
         if(response.ok) {
             const partner = await response.json();
-            span.innerText = partner.partnerAzienda;
+            span.innerText = partner.partnerAzienda ?? "${partnerId}";
         }
         else { span.innerText = "${partnerId}"; }
         
