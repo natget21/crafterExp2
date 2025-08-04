@@ -46,3 +46,7 @@
         <@crafter.body_bottom/>
     </body>
 </html>
+
+<script>
+
+</script>
