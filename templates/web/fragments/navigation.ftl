@@ -138,11 +138,6 @@
     </div>
     
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const partenersLinkContainer = document.getElementById("partners-link-list");
-            if(partenersLinkContainer) { loadPartners(partenersLinkContainer); }
-        });
-        
         async function loadPartners(container) {
             const url = "https://api.shortcut.uno/v1/Ideale-partner/getAllPartners";
             const headers = { "Authorization": "Bearer " + ${token} };        
@@ -154,6 +149,10 @@
             link.className = "nav-item nav-link sublink";
             container.appendChild(link);
         }
+        document.addEventListener("DOMContentLoaded", function () {
+            const partenersLinkContainer = document.getElementById("partners-link-list");
+            if(partenersLinkContainer) { loadPartners(partenersLinkContainer); }
+        });
         
         async function logout(){
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
