@@ -51,12 +51,14 @@
     });
     
     async function loadPartner() {
+        document.getElementById("partner-title").textContent = "Partner Not Found";
+        document.getElementById("partner-info").style.display = "none";
+    
         const url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${partnerId}";
         const headers = { "Authorization": "Bearer ${token}" };
         const response = await fetch(url, { method: 'GET', headers });
         if(response.ok) {
             const partner = await response.json();
-            alert("ok1")
             if(partner) {
                 document.getElementById("partner-title").textContent = partner.partnerAzienda || "";
                 document.getElementById("partner-logo").src = partner.partnerCompanyLogoUrl || "";
@@ -71,14 +73,7 @@
                 document.getElementById("partner-sector").textContent = partner.partnerSettore || "";
                 document.getElementById("partner-staff-size").textContent = partner.partnerStaffSize || "";
                 document.getElementById("partner-status").textContent = partner.partnerStatus || "";
-            } else {
-                document.getElementById("partner-title").textContent = "Partner Not Found";
-                document.getElementById("partner-info").style.display = "none";
             }
-        } else {
-            alert("ok2")
-            document.getElementById("partner-title").textContent = "Partner Not Found";
-            document.getElementById("partner-info").style.display = "none";
         }
     }
 </script>
