@@ -53,7 +53,7 @@
                             </div>
                         </div>
                         
-                        <div id="not-authenticated-area ms-auto">
+                        <div id="not-authenticated-area" class="ms-auto">
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-item nav-link dropdown-toggle">
                                     REGISTRATI <i class="fa fa-angle-down mt-1 ms-1"></i>
