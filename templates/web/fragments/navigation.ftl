@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         
-                        <div id="authenticated-area" class="nav-item dropdown ms-auto" style="visibility: hidden;">
+                        <div id="authenticated-area" class="nav-item dropdown" style="visibility: hidden;">
                             <a href="#" class="nav-item nav-link dropdown-toggle">
                                 AREA RISERVATA <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
