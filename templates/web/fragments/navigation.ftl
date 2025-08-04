@@ -28,25 +28,27 @@
                             <div id="partners-link-list" class="dropdown-menu  rounded-0 border-0 m-0"></div>
                         </div>
      
-                        <div id="authenticationBlock" class="navbar-nav ml-auto py-0">
+                        <div class="navbar-nav ml-auto py-0">
                         
-                            <div class="nav-item dropdown" id="signup-btn">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">REGISTRATI <i class="fa fa-angle-down mt-1"></i></a>
-                                <div class="dropdown-menu  rounded-0 border-0 m-0">
-                                    <a href="/client-signup" class="nav-item nav-link sublink <#if currentUrl?starts_with("/client-signup")>active</#if>">Cliente</a>
-                                    <a href="/partner-signup" class="nav-item nav-link sublink <#if currentUrl?starts_with("/partner-signup")>active</#if>">Partner</a>
+                            <div id="authentication-area">
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">REGISTRATI <i class="fa fa-angle-down mt-1"></i></a>
+                                    <div class="dropdown-menu  rounded-0 border-0 m-0">
+                                        <a href="/client-signup" class="nav-item nav-link sublink <#if currentUrl?starts_with("/client-signup")>active</#if>">Cliente</a>
+                                        <a href="/partner-signup" class="nav-item nav-link sublink <#if currentUrl?starts_with("/partner-signup")>active</#if>">Partner</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ACCEDI <i class="fa fa-angle-down mt-1"></i></a>
+                                    <div class="dropdown-menu  rounded-0 border-0 m-0">
+                                        <a href="/login" class="nav-item nav-link sublink <#if currentUrl?starts_with("/login")>active</#if>">Cliente</a>
+                                        <a href="/partner-login" class="nav-item nav-link sublink <#if currentUrl?starts_with("/partner-login")>active</#if>">Partner</a>
+                                        <a href="/hub-manager" class="nav-item nav-link sublink <#if currentUrl?starts_with("/hub-manager")>active</#if>">Hub Manager</a>
+                                    </div>
                                 </div>
                             </div>
-                            
-                            <div id="login-btn" class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ACCEDI <i class="fa fa-angle-down mt-1"></i></a>
-                                <div class="dropdown-menu  rounded-0 border-0 m-0">
-                                    <a href="/login" class="nav-item nav-link sublink <#if currentUrl?starts_with("/login")>active</#if>">Cliente</a>
-                                    <a href="/partner-login" class="nav-item nav-link sublink <#if currentUrl?starts_with("/partner-login")>active</#if>">Partner</a>
-                                    <a href="/hub-manager" class="nav-item nav-link sublink <#if currentUrl?starts_with("/hub-manager")>active</#if>">Hub Manager</a>
-                                </div>
-                            </div>
-                            
+                        
                             <div id="reserved-area" class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> AREA RISERVATA <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu  rounded-0 border-0 m-0">
@@ -61,6 +63,7 @@
                                     </a>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
