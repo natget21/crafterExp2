@@ -22,7 +22,7 @@
                             <div class="nav-item dropdown">
                                 <a href="/partner" class="nav-item nav-link dropdown-toggle">PARTNER <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu  rounded-0 border-0 m-0">
-                                    <a href="/consulenza" class="nav-item nav-link sublink <#if currentUrl?starts_with("/consulenza")>active</#if>">Consulenza</a>
+                                    <a href="/consulenza" class="nav-item nav-link sublink">Consulenza</a>
                                 </div>
                             </div>
                         
