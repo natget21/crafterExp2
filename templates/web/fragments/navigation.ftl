@@ -144,7 +144,7 @@
             const headers = { "Authorization": "Bearer ${token}" };        
             const response = await fetch(url, { method: 'GET', headers });
             if(response.ok) {
-                const partners = res.body ?? [];
+                const partners = response.body ?? [];
                 for(let partner of partners) {
                     const link = document.createElement("a");
                     link.href = "/partners?id=" + 10;
