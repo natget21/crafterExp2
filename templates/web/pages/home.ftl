@@ -10,7 +10,6 @@
     
      <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
-    <#include "/templates/web/fragments/static-navigation.ftl">
 
 
     <!-- Main Content Section -->
