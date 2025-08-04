@@ -9,12 +9,6 @@
         <#include "/templates/web/fragments/header.ftl">
         <#include "/templates/web/fragments/navigation.ftl">
         
-        <div class="content pb-5">
-            <div class="banner_section banner_partners layout_padding d-flex align-items-center">
-               <h1 class="best_taital text-center text-white p-0">Partners</h1>
-            </div>
-        </div>
-        
         <div class="container">
             <h1 id="partner-title" class="best_taital text-center text-white p-0">Loading...</h1>
         </div>
