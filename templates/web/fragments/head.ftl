@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="/static-assets/css/contacts.css" />
     <link rel="stylesheet" href="/static-assets/css/catalogo.css" />
     <link rel="stylesheet" href="/static-assets/css/login.css">
+    <link rel="stylesheet" href="/static-assets/css/project.css" />
     
     <@crafter.head/>
 </head>
