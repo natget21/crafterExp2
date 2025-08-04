@@ -149,7 +149,7 @@
                     const link = document.createElement("a");
                     link.href = "/partners?id=" + 10;
                     link.textContent = "Test partner";
-                    link.className = "nav-item nav-link sublink py-0 my-1";
+                    link.className = "nav-item nav-link sublink py-2";
                     container.appendChild(link);
                 }
             }
