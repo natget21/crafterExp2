@@ -10,6 +10,10 @@
         <#include "/templates/web/fragments/navigation.ftl">
         
         <div class="container">
+            <div class="banner_section banner_partners layout_padding d-flex align-items-center">
+                <img class="banner_img" src="static-assets/assets/partner.png">
+                <h1 class="best_taital text-center dark p-0">Partner</h1>
+            </div>
             <h1 id="partner-title" class="best_taital text-center text-white p-0"></h1>
         </div>
         
