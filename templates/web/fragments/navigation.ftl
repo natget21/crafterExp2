@@ -149,6 +149,7 @@
             link.className = "nav-item nav-link sublink";
             container.appendChild(link);
         }
+        
         document.addEventListener("DOMContentLoaded", function () {
             const partenersLinkContainer = document.getElementById("partners-link-list");
             if(partenersLinkContainer) { loadPartners(partenersLinkContainer); }
