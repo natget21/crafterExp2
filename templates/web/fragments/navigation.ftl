@@ -2,47 +2,49 @@
 <#assign currentUrl = request.requestURI?default("") />
 
 <div class="container-fluid bg-dark2">
-    <div class="row px-xl-5" style="border-bottom: 1px solid black;"
+    <div class="row px-xl-5" style="border-bottom: 1px solid black;">
         <div class="col-lg-9">
             <nav class="navbar navbar-expand-lg navbar-dark py-3 py-lg-0 px-0">
-                <a href="" class="text-decoration-none d-block d-lg-none">
+                <a href="/" class="text-decoration-none d-block d-lg-none">
                     <img src="/static-assets/assets/ideale_logo.png" height="70px" />
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav mr-auto py-0">
+
+                <div class="collapse navbar-collapse justify-content-between w-100" id="navbarCollapse">
+                    
+                    <!-- Sezione sinistra -->
+                    <div class="navbar-nav py-0">
                         <a href="/index" class="nav-item nav-link <#if currentUrl?starts_with("/index")>active</#if>">
                             <i class="fa fa-home mt-1 me-2"></i> HOME
                         </a>
-                        
                         <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">
                             VISIONE
                         </a>
-                            
                         <div class="nav-item dropdown">
                             <a href="/partners-page" class="nav-item nav-link dropdown-toggle">
                                 PARTNER <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
                             <div id="partners-link-list" class="dropdown-menu rounded-0 border-0 m-0"></div>
                         </div>
-                        
                         <a href="/catalog" class="nav-item nav-link <#if currentUrl?starts_with("/catalog")>active</#if>">
                             CATALOGO
                         </a>
-     
-                        <div id="not-authenticated-area" class="ms-auto d-flex" style="visibility: hidden;">
-                            <div class="nav-item dropdown">
+                    </div>
+
+                    <!-- Sezione destra (auth) -->
+                    <div class="d-flex align-items-center">
+                        <div id="not-authenticated-area" class="d-flex" style="visibility: hidden;">
+                            <div class="nav-item dropdown me-3">
                                 <a href="#" class="nav-item nav-link dropdown-toggle">
                                     REGISTRATI <i class="fa fa-angle-down mt-1 ms-1"></i>
                                 </a>
                                 <div class="dropdown-menu rounded-0 border-0 m-0">
                                     <a href="/client-signup" class="nav-item nav-link sublink py-2">Cliente</a>
-                                    <a href="/partner-signup;" class="nav-item nav-link sublink py-2">Partner</a>
+                                    <a href="/partner-signup" class="nav-item nav-link sublink py-2">Partner</a>
                                 </div>
                             </div>
-                            
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-item nav-link dropdown-toggle">
                                     ACCEDI <i class="fa fa-angle-down mt-1 ms-1"></i>
@@ -54,8 +56,8 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        <div id="authenticated-area" class="nav-item dropdown ms-auto" style="visibility: hidden;">
+
+                        <div id="authenticated-area" class="nav-item dropdown ms-3" style="visibility: hidden;">
                             <a href="#" class="nav-item nav-link dropdown-toggle">
                                 AREA RISERVATA <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
@@ -64,13 +66,14 @@
                                 <a href="javascript:void(0);" onclick="logout()" class="nav-item nav-link sublink py-2">Esci</a>
                             </div>
                         </div>
- 
                     </div>
+
                 </div>
             </nav>
         </div>
     </div>
 </div>
+
     
 <script>
     document.addEventListener("DOMContentLoaded", async function () {
