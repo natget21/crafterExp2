@@ -139,7 +139,7 @@
     <script>
         async function loadPartners(token, container) {
             const url = "https://api.shortcut.uno/v1/Ideale-partner/getAllPartners";
-            const headers = { "Authorization: Bearer ${token}" };        
+            const headers = { "Authorization: Bearer " + token };        
             const response = await fetch(url, { method: 'GET', headers });
             console.log(response);
             const link = document.createElement("a");
