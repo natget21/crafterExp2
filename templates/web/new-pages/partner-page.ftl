@@ -72,7 +72,8 @@
                 document.getElementById("partner-status").textContent = partner.partnerStatus || "";
             }
         } else {
-
+            document.getElementById("partner-title")?.textContent = "Partner Not Found";
+            document.getElementById("partner-info")?.style.display = "none";
         }
     }
 </script>
