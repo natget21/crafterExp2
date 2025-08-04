@@ -75,8 +75,9 @@
     
 <script>
     document.addEventListener("DOMContentLoaded", async function () {
+        localStorage.setItem("loading", true);
         const partenersLinkContainer = document.getElementById("partners-link-list");
-        if(partenersLinkContainer && !(partenersLinkContainer.children.length)) { await loadPartners(partenersLinkContainer); }
+        if(partenersLinkContainer) { await loadPartners(partenersLinkContainer); }
     });
     
     async function loadPartners(container) {
