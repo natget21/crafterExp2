@@ -21,7 +21,7 @@
                             
                             <div class="nav-item dropdown">
                                 <a href="/partner" class="nav-item nav-link dropdown-toggle">PARTNER <i class="fa fa-angle-down mt-1"></i></a>
-                                <div id="partner-list" class="dropdown-menu  rounded-0 border-0 m-0">
+                                <div id="partners-link-list" class="dropdown-menu  rounded-0 border-0 m-0">
                                     <a href="/consulenza" class="nav-item nav-link sublink">Consulenza</a>
                                 </div>
                             </div>
@@ -139,6 +139,9 @@
     </div>
     
     <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          document.getElementById("partners-link-list")
+        });
         async function logout(){
             const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
             localStorage.removeItem('crafterVadinUser');
