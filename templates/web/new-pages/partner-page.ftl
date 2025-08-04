@@ -19,7 +19,7 @@
             <h1 id="partner-title" class="best_taital text-center text-white p-0">Loading...</h1>
         </div>
         
-        <div class="container" id="partner-info" style="display: none;">
+        <div class="container" id="partner-info">
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-md-4">
