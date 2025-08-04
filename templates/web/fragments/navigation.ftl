@@ -137,7 +137,7 @@
     </div>
     
     <script>
-        async function loadPartners(token, container) {
+        async function loadPartners(container) {
             const url = "https://api.shortcut.uno/v1/Ideale-partner/getAllPartners";
             const headers = { "Authorization": "Bearer ${token}" };        
             const response = await fetch(url, { method: 'GET', headers });
@@ -151,7 +151,7 @@
         
         document.addEventListener("DOMContentLoaded", function () {
             const partenersLinkContainer = document.getElementById("partners-link-list");
-            if(partenersLinkContainer) { loadPartners(token, partenersLinkContainer); }
+            if(partenersLinkContainer) { loadPartners(partenersLinkContainer); }
         });
         
         async function logout(){
