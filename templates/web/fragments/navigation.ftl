@@ -53,15 +53,15 @@
                             </div>
                         </div>
                         
-                        <div class="nav-item dropdown">
-                            <a href="/partners-page" class="nav-item nav-link dropdown-toggle">
-                                PARTNER <i class="fa fa-angle-down mt-1 ms-1"></i>
+                        <div id="authenticated-area" class="nav-item dropdown">
+                            <a href="#" class="nav-item nav-link dropdown-toggle">
+                                AREA RISERVATA <i class="fa fa-angle-down mt-1">
                             </a>
                             <div class="dropdown-menu rounded-0 border-0 m-0"></div>
                         </div>
                     
-                        <div id="authenticated-area" class="nav-item dropdown d-none">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> AREA RISERVATA <i class="fa fa-angle-down mt-1"></i></a>
+                        <div  class="nav-item dropdown d-none">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> </i></a>
                             <div class="dropdown-menu  rounded-0 border-0 m-0">
                                 <a href="/my-orders" class="nav-item nav-link sublink <#if currentUrl?starts_with("/")>active</#if>">
                                     I tuoi ordini
