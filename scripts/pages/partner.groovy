@@ -9,7 +9,7 @@ def token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmdhbml6YXRpb25JZCI6IjY3YW
 
 def client = HttpClients.createDefault()
 def request = new HttpGet(url)
-request.setHeader("Authorization", "Bearer ${token}")
+
 def response = client.execute(request)
 def partner = new JsonSlurper().parseText(EntityUtils.toString(response.getEntity()))
 
