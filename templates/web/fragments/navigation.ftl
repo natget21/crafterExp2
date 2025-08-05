@@ -39,6 +39,7 @@
                                         <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
                                         <#assign categoryName = category.queryValue("internal-name")?default("") />
                                         <a href="#" class="nav-item nav-link sublink py-2">${categoryName}</a>
+                                        <script>console.log(${category})</script>
                                     </#list>
                                 </#if>
                             </div>
