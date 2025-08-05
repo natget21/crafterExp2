@@ -13,7 +13,7 @@ def request = new HttpGet(url)
 request.setHeader("Accept", "application/json")
 request.setHeader("Content-Type", "application/json")
 request.setHeader("Authorization", "Bearer ${token}")
-request.setHeader("Origin", "http://localhost:5000")
+request.setHeader("Origin", "https://api.shortcut.uno")
 
 def response = client.execute(request)
 def responseString = EntityUtils.toString(response.getEntity())
