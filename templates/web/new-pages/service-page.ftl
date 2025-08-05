@@ -12,7 +12,7 @@
  
         <#if category?has_content>
             <#assign categoryName = category.queryValue("descrizione")?default("") />
-            <h5>${categoryName}</h5>
+            <h5>${category}</h5>
         <#else>
             <h5>404</h5>
         </#if>
