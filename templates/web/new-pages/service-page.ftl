@@ -11,14 +11,14 @@
         
         <#assign category = siteItemService.getSiteItem(storeUrl) />
         <#if category?has_content>
-            <#assign name = category.queryValue("name_s")?default("Nessun nome fornito") />
+            <#assign name = category.queryValue("name_s")?default("") />
             <div class="banner_section banner_services layout_padding d-flex align-items-center">
                 <img class="banner_img" src="static-assets/assets/servizi.png">
                 <div class="container">
                   <h1 class="best_taital text-center text-white p-0 dark">${name}</h1>
                 </div>
             </div>
-            <#assign description = category.queryValue("description_html")?default("Nessuna descrizione HTML fornita") />
+            <#assign description = category.queryValue("description_html")?default("") />
             <div class="container">${description}</div>
         <#else>
             <div class="banner_section banner_services layout_padding d-flex align-items-center">
