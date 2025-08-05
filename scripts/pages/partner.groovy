@@ -16,8 +16,8 @@ request.setHeader("Authorization", "Bearer ${token}")
 
 
 def response = client.execute(request)
-def partnerString = EntityUtils.toString(response.getEntity())
-def partnerJson = new JsonSlurper().parseText(partnerString)
+def responseString = EntityUtils.toString(response.getEntity())
+def responseJson = new JsonSlurper().parseText(partnerString)
 
 templateModel.test = partnerString
 
