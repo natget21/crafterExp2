@@ -11,7 +11,7 @@
         
         <#assign category = siteItemService.getSiteItem(storeUrl) />
         <#if category?has_content>
-            <#assign name = category.queryValue("name")?default("Nessun nome fornito") />
+            <#assign name = category.queryValue("name_s")?default("Nessun nome fornito") />
             <div class="banner_section banner_services layout_padding d-flex align-items-center">
                 <img class="banner_img" src="static-assets/assets/servizi.png">
                 <div class="container">
