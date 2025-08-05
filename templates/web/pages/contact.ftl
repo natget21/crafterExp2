@@ -2,19 +2,14 @@
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
-<#include "/templates/web/fragments/head.ftl">
-<body>
-<@crafter.body_top/>
-    <!-- Header Section (Logo, Search Bar, etc.) -->
-    <#include "/templates/web/fragments/header.ftl">
-    
-     <!-- Navigation Section --> 
-    <#include "/templates/web/fragments/navigation.ftl">
-    <#include "/templates/web/fragments/static-navigation.ftl">
-
-    <div
-      class="banner_section banner_contacts layout_padding d-flex align-items-center"
-    >
+    <#include "/templates/web/fragments/head.ftl">
+    <body>
+        <@crafter.body_top/>
+        <#include "/templates/web/fragments/header.ftl">
+        <#include "/templates/web/fragments/navigation.ftl">
+ 
+        
+    <div class="banner_section banner_contacts layout_padding d-flex align-items-center">
       <img class="banner_img" src="static-assets/assets/contatti.png">
       <div class="container">
         <h1 class="best_taital text-center text-white p-0 dark">Contattaci</h1>
@@ -30,12 +25,8 @@
                 </h2>
             </#if>
             <#if contentModel.testo_t?? && contentModel.testo_t?has_content>
-                <div
-                  class="info-item d-flex flex-column justify-content-center align-items-start gap-4 py-4"
-                >
-                  <p class="">
-                    ${contentModel.testo_t}
-                  </p>
+                <div class="info-item d-flex flex-column justify-content-center align-items-start gap-4 py-4">
+                  <p>${contentModel.testo_t}</p>
                 </div>
             </#if>
 
@@ -77,42 +68,19 @@
           </div>
 
           <div class="col-lg-6">
-            <form
-              action="forms/contact.php"
-              method="post"
-              role="form"
-              class="php-email-form p-4"
-            >
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form p-4">
               <!-- Replace action with your endpoint -->
               <div class="row gy-4">
                 <div class="col-md-12">
-                  <input
-                    type="text"
-                    name="name"
-                    class="form-control"
-                    placeholder="Il tuo Nome"
-                    required
-                  />
+                  <input type="text" name="name" class="form-control" placeholder="Il tuo Nome" required />
                 </div>
 
                 <div class="col-md-12">
-                  <input
-                    type="email"
-                    class="form-control"
-                    name="email"
-                    placeholder="La tua Email"
-                    required
-                  />
+                  <input type="email" class="form-control" name="email" placeholder="La tua Email" required />
                 </div>
 
                 <div class="col-md-12">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="6"
-                    placeholder="Messaggio"
-                    required
-                  ></textarea>
+                  <textarea class="form-control" name="message" rows="6" placeholder="Messaggio" required />
                 </div>
 
                 <div class="col-md-12 text-end">
@@ -126,14 +94,9 @@
         </div>
       </div>
     </section>
-
-
-
-    <!-- Footer Section -->
-    <#include "/templates/web/fragments/footer.ftl">
-
-    <!-- Scripts -->
-    <#include "/templates/web/fragments/scripts.ftl">
-    <@crafter.body_bottom/>
-</body>
+        
+        <#include "/templates/web/fragments/footer.ftl">
+        <#include "/templates/web/fragments/scripts.ftl">
+        <@crafter.body_bottom/>
+    </body>
 </html>
