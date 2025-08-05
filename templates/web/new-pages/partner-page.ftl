@@ -47,34 +47,3 @@
         <@crafter.body_bottom/>
     </body>
 </html>
-
-<script>
-    document.addEventListener("DOMContentLoaded", async function () {
-        // await loadPartner();
-    });
-    
-    async function loadPartner() {
-        const url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${partnerId}";
-        const headers = { "Authorization": "Bearer ${token}" };
-        const response = await fetch(url, { method: 'GET', headers });
-        if(response.ok) {
-            const partner = await response.json();
-            if(partner) {
-                document.getElementById("partner-info").style.display = "block";
-                // document.getElementById("partner-title").textContent = partner.partnerAzienda || "";
-                document.getElementById("partner-logo").src = partner.partnerCompanyLogoUrl || "";
-                document.getElementById("partner-landing-title").textContent = partner.partnerLandingTitle || "";
-                document.getElementById("partner-landing-introduction").innerHTML = partner.partnerLandingIntroduction || "";
-                document.getElementById("partner-landing-content").innerHTML = partner.partnerLandingContent || "";
-                document.getElementById("partner-contact").textContent = partner.partnerContatto || "";
-                document.getElementById("partner-email").textContent = partner.partnerContactEmail || "";
-                document.getElementById("partner-phone").textContent = partner.partnerTelephone || "";
-                document.getElementById("partner-region").textContent = partner.partnerRegione || "";
-                document.getElementById("partner-country").textContent = partner.partnerNazione || "";
-                document.getElementById("partner-sector").textContent = partner.partnerSettore || "";
-                document.getElementById("partner-staff-size").textContent = partner.partnerStaffSize || "";
-                document.getElementById("partner-status").textContent = partner.partnerStatus || "";
-            }
-        }
-    }
-</script>
