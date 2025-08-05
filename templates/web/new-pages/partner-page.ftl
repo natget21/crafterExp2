@@ -1,5 +1,4 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
-<#assign partnerId = RequestParameters.id />
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
@@ -12,7 +11,7 @@
         <div class="banner_section banner_partners layout_padding d-flex align-items-center">
             <img class="banner_img" src="static-assets/assets/partner.png">
             <div class="container">
-              <h1 class="best_taital text-center dark p-0">Partner</h1>
+              <h1 class="best_taital text-center dark p-0">${partner.partnerAzienda}</h1>
             </div>
         </div>
         
