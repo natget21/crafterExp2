@@ -40,9 +40,9 @@
                                         <label class="text-justified fs-5 fw-normal">${cleanedIntro}</label>
                     
                                         <div class="d-flex flex-grow-1 justify-content-end align-items-end mt-3">
-                                            <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/partner-detail?id=${partner.id}'">
+                                            <a href="/partner-view?id=${partner.id}" class="btn btn-secondary read_more rounded-pill">
                                                 Scopri di più
-                                            </button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
