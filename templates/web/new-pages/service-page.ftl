@@ -9,9 +9,8 @@
         <#include "/templates/web/fragments/header.ftl">
         <#include "/templates/web/fragments/navigation.ftl">
         
-        
-        <#if siteItemService.getSiteItem(storeUrl) != null>
-            <#assign category = siteItemService.getSiteItem(storeUrl) />
+        <#assign category = siteItemService.getSiteItem(storeUrl) />
+        <#if category?has_content>
             <#assign name = category.queryValue("internal-name")?default("Nessun nome fornito") />
             <div class="banner_section banner_services layout_padding d-flex align-items-center">
                 <img class="banner_img" src="static-assets/assets/servizi.png">
