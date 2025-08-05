@@ -11,7 +11,7 @@
         <#include "/templates/web/fragments/navigation.ftl">
  
         
-        <h5>${category}</h5>
+        <h5>${category.description}</h5>
         
         <#include "/templates/web/fragments/footer.ftl">
         <#include "/templates/web/fragments/scripts.ftl">
