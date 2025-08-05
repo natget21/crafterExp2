@@ -47,6 +47,22 @@
                         <a href="/catalog" class="nav-item nav-link <#if currentUrl?starts_with("/catalog")>active</#if>">
                             CATALOGO
                         </a>
+                        
+                        <a href="/" class="nav-item nav-link <#if currentUrl?starts_with("/")>active</#if>">
+                            EVENTI
+                        </a>
+                        
+                        <a href="/" class="nav-item nav-link <#if currentUrl?starts_with("/")>active</#if>">
+                            NEWS
+                        </a>
+                        
+                        <a href="/" class="nav-item nav-link <#if currentUrl?starts_with("/")>active</#if>">
+                            FAQ
+                        </a>
+                        
+                        <a href="/" class="nav-item nav-link <#if currentUrl?starts_with("/")>active</#if>">
+                            CONTATTI
+                        </a>
      
                         <div id="not-authenticated-area" style="display: none; position: absolute; right: 0;">
                             <div class="nav-item dropdown">
