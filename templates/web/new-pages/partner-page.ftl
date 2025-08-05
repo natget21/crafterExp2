@@ -67,6 +67,41 @@
                     </div>
                 </div>
                 
+                
+                <!-- Documentazione -->
+                <div class="accordion-item rounded-3 shadow-sm">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fs-6 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#productTwo" aria-expanded="false" aria-controls="productTwo">
+                            Documentazione
+                        </button>
+                    </h2>
+                    <div id="productTwo" class="accordion-collapse collapse" data-bs-parent="#productsAccordion">
+                        <div class="accordion-body row g-4 px-4 py-3">
+                            <#list partner.partnerLandingImagesAssetsUrlList?default([]) as mediaUrl>
+                                <div class="attachment col-12 col-md-4">
+                                  <p class="name_attachment d-flex justify-content-center justify-content-md-start">
+                                    Allegato-${mediaUrl_index + 1}
+                                  </p>
+                                  <div class="buttons d-flex gap-3 justify-content-center justify-content-md-start">
+                                    <a href="${mediaUrl}?download=true" download>
+                                      <i class="fs-5 bi bi-download"></i>
+                                    </a>
+                                    <a href="${mediaUrl}" target="_blank" rel="noopener noreferrer">
+                                      <i class="fs-5 bi bi-eye"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                            </#list>
+                            <#if partnerData.partnerLandingImagesAssetsUrlList?default([])?size == 0>
+                                <div class="attachment col-12 col-md-4">
+                                    Nessun allegato presente.
+                                </div>
+                            </#if>
+                        </div>
+                    </div>
+                </div>
+                
+                
             </div>
         </div>
         <#include "/templates/web/fragments/footer.ftl">
