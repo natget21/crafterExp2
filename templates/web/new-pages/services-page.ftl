@@ -24,7 +24,7 @@
                     <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
                     <#assign name = category.queryValue("name_s")?default("") />
                     <#assign description = category.queryValue("description_t")?default("") />
-                    <#assign image = category.queryValue("image_s")?default("https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg") />
+                    <#assign image = category.queryValue("image_s")?default("") />
                     <div class="service mt-5 d-flex justify-content-between align-items-center">
                         <div class="d-flex flex-column align-items-center justify-content-center">
                             <h3 class="service_title text-center">${name}</h3>
