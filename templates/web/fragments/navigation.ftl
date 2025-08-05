@@ -34,7 +34,7 @@
                                 SERVIZI <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
                             <div class="dropdown-menu rounded-0 border-0 m-0">
-                                <a href="#" class="nav-item nav-link sublink py-2">test</a>
+                                <a href="#" class="nav-item nav-link sublink py-2">${services}</a>
                             </div>
                         </div>
                         
