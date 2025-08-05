@@ -8,7 +8,7 @@
         <#include "/templates/web/fragments/header.ftl">
         <#include "/templates/web/fragments/navigation.ftl">
         
-        <p>${partner}</p>
+        <p>${test}</p>
         
         <div class="banner_section banner_partners layout_padding d-flex align-items-center">
             <img class="banner_img" src="static-assets/assets/partner.png">
