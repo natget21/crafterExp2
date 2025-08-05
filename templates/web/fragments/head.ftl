@@ -16,14 +16,15 @@
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Libraries Stylesheet -->
     <link href="/static-assets/lib/animate/animate.min.css" rel="stylesheet">
     <link href="/static-assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
+    <!-- Customized Stylesheet -->
     <link href="/static-assets/css/style.css" rel="stylesheet">
     <link href="/static-assets/css/general-style.css" rel="stylesheet">
     <link rel="stylesheet" href="/static-assets/css/contacts.css" />
