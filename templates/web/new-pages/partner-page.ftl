@@ -16,7 +16,7 @@
             </div>
         </div>
         
-        <h5>${partner}</h5>
+        <h5>${partner.partnerAzienda}</h5>
       
         <div class="container" id="partner-info" style="display: none">
             <div class="container mt-5">
