@@ -23,7 +23,7 @@
                         </a>
                             
                         <div class="nav-item dropdown">
-                            <a href="/partners-page" class="nav-item nav-link dropdown-toggle">
+                            <a href="/partners-view" class="nav-item nav-link dropdown-toggle">
                                 PARTNER <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
                             <div id="partners-link-list" class="dropdown-menu rounded-0 border-0 m-0"></div>
@@ -105,7 +105,7 @@
             console.log("Partners", partners);
             for(let partner of partners) {
                 const link = document.createElement("a");
-                link.href = "/partner-page?id=" + partner.id;
+                link.href = "/partner-view?id=" + partner.id;
                 link.textContent = partner.partnerAzienda;
                 link.className = "nav-item nav-link sublink py-2";
                 container.appendChild(link);
