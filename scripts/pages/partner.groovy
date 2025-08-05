@@ -12,7 +12,7 @@ def client = HttpClients.createDefault()
 def request = new HttpGet(url)
 request.setHeader("Accept", "application/json")
 request.setHeader("Content-Type", "application/json")
-request.setHeader("Origin", "https://api.shortcut.uno")
+request.setHeader("Origin", "https://demo.shortcut.uno")
 request.setHeader("Authorization", "Bearer ${token}")
 
 def response = client.execute(request)
