@@ -9,63 +9,61 @@
         <#include "/templates/web/fragments/navigation.ftl">
  
         
-    <div class="content pb-5">
-      <div class="banner_section banner_services layout_padding d-flex align-items-center">
-        <img class="banner_img" src="static-assets/assets/news.png">
-        <div class="container">
-          <h1 class="best_taital text-center text-white p-0 dark">News</h1>
-        </div>
-      </div>
-      <div class="news_section layout_padding d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0">
-        <#if contentModel.sottotitolo_s?? && contentModel.sottotitolo_s?has_content>
-            <h2 class="title_section mb-4 text-center">${contentModel.sottotitolo_s}</h2>
-        </#if>
-        <#if contentModel.news_o?? && contentModel.news_o?has_content>
-            <#list contentModel.news_o.item as item>
+        <div class="content pb-5">
+          <div class="banner_section banner_services layout_padding d-flex align-items-center">
+            <img class="banner_img" src="static-assets/assets/news.png">
+            <div class="container">
+              <h1 class="best_taital text-center text-white p-0 dark">News</h1>
+            </div>
+          </div>
+        
+          <div class="news_section layout_padding d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0">
+            <#if contentModel.sottotitolo_s?? && contentModel.sottotitolo_s?has_content>
+              <h2 class="title_section mb-4 text-center">
+                ${contentModel.sottotitolo_s}
+              </h2>
+            </#if>
+        
+            <#if contentModel.news_o?? && contentModel.news_o?has_content>
+              <#list contentModel.news_o.item as item>
                 <div class="card mb-4 mb-md-5 shadow-sm border-0">
                   <div class="row g-0">
                     <div class="col-md-5">
-                        <#if item.imagepath_t?? && item.imagepath_t?has_content>
-                          <img
-                            src="${item.imagepath_t}"
-                            class="img-fluid rounded-start object-fit-cover h-100"
-                            alt="AI Matters"
-                          />
-                        </#if>
+                      <#if item.imagepath_t?? && item.imagepath_t?has_content>
+                        <img src="${item.imagepath_t}" class="img-fluid rounded-start object-fit-cover h-100" alt="AI Matters" />
+                      </#if>
                     </div>
                     <div class="col-md-7">
                       <div class="card-body d-flex flex-column h-100">
                         <#if item.data_t?? && item.data_t?has_content>
-                            <small class="text-muted d-block mb-1">${item.data_t}</small>
+                          <small class="text-muted d-block mb-1">
+                            ${item.data_t}
+                          </small>
                         </#if>
                         <#if item.titolo_t?? && item.titolo_t?has_content>
-                            <h5 class="card-title fw-bold">
-                              ${item.titolo_t}
-                            </h5>
+                          <h5 class="card-title fw-bold">
+                            ${item.titolo_t}
+                          </h5>
                         </#if>
                         <#if item.descrizione_t?? && item.descrizione_t?has_content>
-                            <p class="card-text">
-                                ${item.descrizione_t}
-                            </p>
+                          <p class="card-text">
+                            ${item.descrizione_t}
+                          </p>
                         </#if>
-                        <div
-                          class="flex-grow-1 d-flex align-items-end justify-content-center"
-                        >
-                          <a
-                            href="/news-detail"
-                            class="btn btn-secondary btn-sm read_more rounded-pill"
-                            >Scopri di piu'</a
-                          >
+                        <div class="flex-grow-1 d-flex align-items-end justify-content-center">
+                          <a href="/news-detail" class="btn btn-secondary btn-sm read_more rounded-pill">
+                            Scopri di più
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-            </#list>
-        </#if>
-      </div>
-    </div>
-        
+              </#list>
+            </#if>
+          </div>
+        </div>
+
         <#include "/templates/web/fragments/footer.ftl">
         <#include "/templates/web/fragments/scripts.ftl">
         <@crafter.body_bottom/>
