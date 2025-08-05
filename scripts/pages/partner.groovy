@@ -5,3 +5,4 @@ import groovy.json.JsonSlurper
 
 
 def id = params.id
+def url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${partnerId}"
