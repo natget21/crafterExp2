@@ -12,7 +12,7 @@
         <#assign category = siteItemService.getSiteItem(storeUrl) />
         <#if category?has_content>
             <#assign name = category.queryValue("internal-name")?default("") />
-            <#assign description = category.queryValue("description")?default("Vuoto") />
+            <#assign description = category.queryValue("description_html")?default("Vuoto") />
             <h5>${name}:</h5>
             <div>${description}</div>
         <#else>
