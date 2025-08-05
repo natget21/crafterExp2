@@ -11,8 +11,8 @@
         <#include "/templates/web/fragments/navigation.ftl">
  
         <#if category?has_content>
-            <#assign categoryName = category.queryValue("internal-name")?default("") />
-            <h5>${categoryName}</h5>
+            <#assign name = category.queryValue("internal-name")?default("") />
+            <h5>${name}</h5>
         <#else>
             <h5>404</h5>
         </#if>
