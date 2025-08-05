@@ -19,20 +19,24 @@
           </div>
     
         <div class="services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0 mb-4">
-        
-            <div class="service mt-5 d-flex justify-content-between align-items-center">
-              <div class="d-flex flex-column align-items-center justify-content-center">
-                    <h3 class="service_title text-center">Test before invest</h3>
-                    <p class="text-center">Questa categoria permette alle aziende di esplorare soluzioni e tecnologie prima di fare investimenti significativi. Consente di validare idee e concetti tecnologici attraverso attività pratiche e dimostrative che riducono i rischi e migliorano la decisione sugli investimenti</p>
-                    <div class="d-flex flex-grow-1 justify-content-center align-items-end">
-                      <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/test-before-invest'">
-                        Scopri di più
-                      </button>
+            <#if categories?has_content>
+                <#list categories.childItems as categoryItem>
+                    <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
+                    <#assign categoryName = category.queryValue("name_s")?default("") />
+                    <div class="service mt-5 d-flex justify-content-between align-items-center">
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                            <h3 class="service_title text-center">Test before invest</h3>
+                            <p class="text-center">Questa categoria permette alle aziende di esplorare soluzioni e tecnologie prima di fare investimenti significativi. Consente di validare idee e concetti tecnologici attraverso attività pratiche e dimostrative che riducono i rischi e migliorano la decisione sugli investimenti</p>
+                            <div class="d-flex flex-grow-1 justify-content-center align-items-end">
+                              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/test-before-invest'">
+                                Scopri di più
+                              </button>
+                            </div>
+                        </div>
+                        <img src="/static-assets/assets/formazione-1.jpg" alt="">
                     </div>
-              </div>
-              <img src="/static-assets/assets/formazione-1.jpg" alt="">
-            </div>
-            
+                </#list>
+            </#if>
         </div>
         
         <#include "/templates/web/fragments/footer.ftl">
