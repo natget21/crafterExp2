@@ -12,8 +12,8 @@ def client = HttpClients.createDefault()
 def request = new HttpGet(url)
 
 def response = client.execute(request)
-def entity = EntityUtils.toString(response.getEntity())
-def partner = new JsonSlurper().parseText(entity)
+def partnerString = EntityUtils.toString(response.getEntity())
+def partnerJson = new JsonSlurper().parseText(entity)
 
 templateModel.partner = partner
 templateModel.test = "Hello"
