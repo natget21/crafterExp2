@@ -25,7 +25,13 @@
                 ${partner.partnerLandingContent?default("Nessun contenuto")}
               </div>
             </div>
-
+            <div class="col-12 col-md-5">
+              <img
+                src="${partner.partnerCompanyLogoUrl?default("")?no_esc}"
+                alt="${partner.partnerAzienda?default("")?no_esc}"
+                class="logo"
+              />
+            </div>
           </div>
         </div>
  
