@@ -27,14 +27,14 @@
                     <div id="partner-landing-introduction"></div>
                     <div id="partner-landing-content"></div>
                     <ul class="list-unstyled mt-3">
-                        <li><strong>Contact:</strong> Partner Contact</li>
-                        <li><strong>Email:</strong> Partner Email</li>
-                        <li><strong>Phone:</strong> Partner Phone</li>
-                        <li><strong>Region:</strong> Partner Region</li>
-                        <li><strong>Country:</strong> Partner Country</li>
-                        <li><strong>Sector:</strong> Partner Sector</li>
-                        <li><strong>Staff Size:</strong> Partner Staff Size</li>
-                        <li><strong>Status:</strong> Partner Status</li>
+                        <li><strong class="me-1">Contact:</strong>${partner.}</li>
+                        <li><strong class="me-1">Email:</strong> Partner Email</li>
+                        <li><strong class="me-1">Phone:</strong> Partner Phone</li>
+                        <li><strong class="me-1">Region:</strong> Partner Region</li>
+                        <li><strong class="me-1">Country:</strong> Partner Country</li>
+                        <li><strong class="me-1">Sector:</strong> Partner Sector</li>
+                        <li><strong class="me-1">Staff Size:</strong> Partner Staff Size</li>
+                        <li><strong class="me-1">Status:</strong> Partner Status</li>
                     </ul>
                 </div>
             </div>
