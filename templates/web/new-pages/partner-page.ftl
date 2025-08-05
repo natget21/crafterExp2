@@ -22,7 +22,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <#list partner.partnerLandingImagesAssetsUrlList as image>
-                            <img src="${image}" class="img-fluid" alt="${partner.partnerAzienda}">
+                            <img src="${image}" class="img-fluid mb-1" alt="${partner.partnerAzienda}">
                         </#list>
                     </div>
                     <div class="col-md-8">
