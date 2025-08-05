@@ -20,4 +20,5 @@ def responseString = EntityUtils.toString(response.getEntity())
 def responseJson = new JsonSlurper().parseText(responseString)
 
 templateModel.test = responseString
+templateModel.partner = responseJson
 
