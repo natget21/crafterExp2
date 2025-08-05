@@ -13,7 +13,7 @@
             <img class="banner_img" src="static-assets/assets/servizi.png">
             <div class="container">
               <h1 class="best_taital text-center text-white p-0 dark">
-                Servizi Digitali
+                Servizi e Prodotti
               </h1>
             </div>
           </div>
