@@ -15,14 +15,6 @@
                   <h1 class="best_taital text-center dark p-0">Partners</h1>
                 </div>
             </div>
-            <div class="explanation layout_padding mx-auto col-11 col-md-9 px-0">
-                <h2 class="title_section mb-3">Partner di progetto</h2>
-                <div class="p-0">
-                    <#if contentModel.partnerdescrizione_t?? && contentModel.partnerdescrizione_t?has_content>
-                        <p>${contentModel.partnerdescrizione_t}</p>
-                    </#if>
-                </div>
-            </div>
             <div class="layout_padding partners_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0">
                 <div class="row row-gap-5">
                     <#list partners as partner>
