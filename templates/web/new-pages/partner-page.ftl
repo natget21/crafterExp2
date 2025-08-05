@@ -9,21 +9,15 @@
         <#include "/templates/web/fragments/header.ftl">
         <#include "/templates/web/fragments/navigation.ftl">
         
-        <h5>${test}</h5>
-        
         <div class="banner_section banner_partners layout_padding d-flex align-items-center">
             <img class="banner_img" src="static-assets/assets/partner.png">
             <div class="container">
               <h1 class="best_taital text-center dark p-0">Partner</h1>
             </div>
         </div>
-      
-        <!--
-        <div class="container">
-            <h1 id="partner-title" class="best_taital text-center text-white p-0"></h1>
-        </div>
-        -->
         
+        <h5>${partner.partnerId}</h5>
+      
         <div class="container" id="partner-info" style="display: none">
             <div class="container mt-5">
                 <div class="row">
