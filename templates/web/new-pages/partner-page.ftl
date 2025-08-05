@@ -16,30 +16,30 @@
             </div>
         </div>
         
-        <div class="container" id="partner-info" style="display: none">
-            <div class="container mt-5">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img id="partner-logo" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-md-8">
-                        <h2 id="partner-landing-title"></h2>
-                        <div id="partner-landing-introduction"></div>
-                        <div id="partner-landing-content"></div>
-                        <ul class="list-unstyled mt-3">
-                            <li><strong>Contact:</strong> <span id="partner-contact"></span></li>
-                            <li><strong>Email:</strong> <span id="partner-email"></span></li>
-                            <li><strong>Phone:</strong> <span id="partner-phone"></span></li>
-                            <li><strong>Region:</strong> <span id="partner-region"></span></li>
-                            <li><strong>Country:</strong> <span id="partner-country"></span></li>
-                            <li><strong>Sector:</strong> <span id="partner-sector"></span></li>
-                            <li><strong>Staff Size:</strong> <span id="partner-staff-size"></span></li>
-                            <li><strong>Status:</strong> <span id="partner-status"></span></li>
-                        </ul>
-                    </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <img id="partner-logo" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h2 id="partner-landing-title"></h2>
+                    <div id="partner-landing-introduction"></div>
+                    <div id="partner-landing-content"></div>
+                    <ul class="list-unstyled mt-3">
+                        <li><strong>Contact:</strong> <span id="partner-contact"></span></li>
+                        <li><strong>Email:</strong> <span id="partner-email"></span></li>
+                        <li><strong>Phone:</strong> <span id="partner-phone"></span></li>
+                        <li><strong>Region:</strong> <span id="partner-region"></span></li>
+                        <li><strong>Country:</strong> <span id="partner-country"></span></li>
+                        <li><strong>Sector:</strong> <span id="partner-sector"></span></li>
+                        <li><strong>Staff Size:</strong> <span id="partner-staff-size"></span></li>
+                        <li><strong>Status:</strong> <span id="partner-status"></span></li>
+                    </ul>
                 </div>
             </div>
         </div>
+       
 
 
         <#include "/templates/web/fragments/footer.ftl">
