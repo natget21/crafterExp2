@@ -31,7 +31,7 @@
                         
                         <div class="nav-item dropdown">
                             <a href="/services-view" class="nav-item nav-link dropdown-toggle">
-                                SERVIZI <i class="fa fa-angle-down mt-1 ms-1"></i>
+                                SERVIZI e PRODOTTI <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
                             <div class="dropdown-menu rounded-0 border-0 m-0">
                                 <#if categories?has_content>
