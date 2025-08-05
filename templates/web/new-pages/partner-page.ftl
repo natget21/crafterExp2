@@ -32,6 +32,43 @@
   
         <div class="layout_padding mb-3">
             <div class="accordion" id="productsAccordion">
+                <!-- Scheda informativa -->
+                <div class="accordion-item rounded-3 shadow-sm">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fs-6 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#productOne" aria-expanded="false" aria-controls="productOne">
+                          Scheda informativa
+                        </button>
+                    </h2>
+                    <div id="productOne" class="accordion-collapse collapse" data-bs-parent="#productsAccordion">
+                        <div class="accordion-body px-4 py-3">
+                            <div class="row g-4">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                  <p class="fs-6 text-muted mb-1">Ragione sociale</p>
+                                  <p class="fs-6 desc">${partnerData.partnerAzienda?default("-----")}</p>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-8">
+                                  <p class="fs-6 text-muted mb-1">Partita IVA</p>
+                                  <p class="fs-6 desc">${partnerData.partnerPiva?default("-----")}</p>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                  <p class="fs-6 text-muted mb-1">Indirizzo</p>
+                                  <p class="fs-6 desc">${partnerData.partnerNazione?default("-----")}</p>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                  <p class="fs-6 text-muted mb-1">Email</p>
+                                  <p class="fs-6 desc">${partnerData.partnerContactEmail?default("-----")}</p>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                  <p class="fs-6 text-muted mb-1">Telefono</p>
+                                  <p class="fs-6 desc">${partnerData.partnerTelephone?default("-----")}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
             </div>
         </div>
 
