@@ -12,7 +12,7 @@ def client = HttpClients.createDefault()
 def request = new HttpGet(url)
 request.setHeader("Accept", "application/json")
 request.setHeader("Content-Type", "application/json")
-request.setHeader("Authorization", "Bearer ${token}")
+// request.setHeader("Authorization", "Bearer ${token}")
 
 def response = client.execute(request)
 def responseString = EntityUtils.toString(response.getEntity())
