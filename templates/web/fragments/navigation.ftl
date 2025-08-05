@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 <#assign currentUrl = request.requestURI?default("") />
-<#assign services = siteItemService.getSiteTree('/site/components/services', 3) />
+<#assign categories = siteItemService.getSiteTree('/site/components/category', 1)>
 
 <div class="container-fluid bg-dark2">
     <div class="row px-xl-5" style="border-bottom: 1px solid black;"
@@ -34,7 +34,8 @@
                                 SERVIZI <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
                             <div class="dropdown-menu rounded-0 border-0 m-0">
-     
+                                <#list categories as category>
+                                </#list>
                                 <a href="#" class="nav-item nav-link sublink py-2">${services}</a>
                             </div>
                         </div>
