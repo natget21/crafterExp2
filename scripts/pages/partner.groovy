@@ -5,10 +5,11 @@ import groovy.json.JsonSlurper
 
 def id = params.id
 def url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${partnerId}"
+def token = ""
 
 def client = HttpClients.createDefault()
 def request = new HttpGet(url)
-request.setHeader("Authorization", "Bearer ${bearerToken}")
+request.setHeader("Authorization", "Bearer ${token}")
 def response = client.execute(request)
 def partner = new JsonSlurper().parseText(EntityUtils.toString(response.getEntity()))
 
