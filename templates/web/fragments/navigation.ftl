@@ -32,7 +32,9 @@
                             <a href="/services" class="nav-item nav-link dropdown-toggle">
                                 SERVIZI <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
-                            <div id="partners-link-list" class="dropdown-menu rounded-0 border-0 m-0"></div>
+                            <div class="dropdown-menu rounded-0 border-0 m-0">
+                                <a href="#" class="nav-item nav-link sublink py-2">test</a>
+                            </div>
                         </div>
                         
                         <a href="/catalog" class="nav-item nav-link <#if currentUrl?starts_with("/catalog")>active</#if>">
