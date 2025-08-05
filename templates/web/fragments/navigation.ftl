@@ -37,7 +37,7 @@
                                 <#if categories?has_content>
                                     <#list categories.childItems as categoryItem>
                                         <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
-                                        <#assign categoryName = category.queryValue("internal-name")?default("") />
+                                        <#assign categoryName = category.queryValue("name")?default("") />
                                         <a href="/service-page?id=${category.storeName}" class="nav-item nav-link sublink py-2">${categoryName}</a>
                                     </#list>
                                 </#if>
