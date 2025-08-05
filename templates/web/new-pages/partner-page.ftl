@@ -110,7 +110,7 @@
                     <div class="other_news_list d-flex gap-4 overflow-auto pb-4" style="height: 510px">
                       <#list partner.partnerLandingImagesAssetsUrlList?default([]) as mediaUrl>
                           <div class="card text-white border-0 other_news_item col-12 col-md-9 col-lg-8 col-xl-6 p-0 overflow-hidden">
-                            <img src="${mediaUrl}" class="card-img w-100 h-100 object-fit-cover" alt="Allegato-${mediaUrl_index + 1}" />
+                            <img src="${mediaUrl}" class="card-img object-fit-cover" alt="Allegato-${mediaUrl_index + 1}" />
                           </div>
                       </#list>
                     </div>
