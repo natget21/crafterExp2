@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-5">
-          <img src="${partner.partnerCompanyLogoUrl?default("")}" alt="${partner.partnerAzienda?default("")}" class="logo w-100 d-block my-auto" />
+          <img src="${partner.partnerCompanyLogoUrl?default("")}" alt="${partner.partnerAzienda?default("")}" class="logo w-100" />
         </div>
       </div>
     </div>
