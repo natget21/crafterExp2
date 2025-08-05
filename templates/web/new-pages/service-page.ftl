@@ -12,8 +12,8 @@
         <#assign category = siteItemService.getSiteItem(storeUrl) />
         <#if category?has_content>
             <#assign name = category.queryValue("internal-name")?default("") />
-            <#assign description = category.queryValue("description")?default("") />
-            <h5>${name}: ${storeUrl}</h5>
+            <#assign description = category.queryValue("description")?default("Vuoto") />
+            <h5>${name}:</h5>
             <div>${description}</div>
         <#else>
             <h5>404</h5>
