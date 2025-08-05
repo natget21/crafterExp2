@@ -17,7 +17,16 @@
         </div>
         
         <div class="content pb-5 layout_padding col-11 col-md-9 mx-auto">
+          <div class="row d-flex flex-column flex-md-row">
 
+            <div class="col-12 col-md-5">
+              <img
+                src="${partner.partnerCompanyLogoUrl?default("")?no_esc}"
+                alt="${partner.partnerAzienda?default("")?no_esc}"
+                class="logo"
+              />
+            </div>
+          </div>
         </div>
  
 
