@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/service</content-type>
+	<display-template>/templates/web/new-pages/service-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8303</objectGroupId>
+	<objectId>8303ecba-db58-2056-7469-dbbb44c56804</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>service-page</folder-name>
+	<internal-name>service</internal-name>
+	<navLabel>service</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-08-05T09:17:27.647Z</createdDate>
+	<createdDate_dt>2025-08-05T09:17:27.647Z</createdDate_dt>
+	<lastModifiedDate>2025-08-05T09:17:27.647Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-08-05T09:17:27.647Z</lastModifiedDate_dt>
+</page>
