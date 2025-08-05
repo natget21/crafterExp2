@@ -27,14 +27,14 @@
                         <p>Siamo qui per aiutarti! Compila il modulo qui a fianco o utilizza i nostri recapiti qui sotto per metterti in contatto con il nostro team. Ti risponderemo il prima possibile.</p>
                     </div>
 
-            <div class="row 2">
+                <div class="row 2">
             
-              <div class="col-md-12">
-                <div class="info-item d-flex align-items-center py-3">
-                  <i class="bi bi-geo-alt flex-shrink-0 me-3 text-primary"></i>
-                  <p class="mb-0 text-primary">Marche, Italia</p>
-                </div>
-              </div>
+                    <div class="col-md-12">
+                        <div class="info-item d-flex align-items-center py-3">
+                            <i class="bi bi-geo-alt flex-shrink-0 me-3 text-primary"></i>
+                            <p class="mb-0 text-primary">Marche, Italia</p>
+                        </div>
+                    </div>
 
               <div class="col-md-12">
                 <div class="info-item d-flex align-items-center py-3">
