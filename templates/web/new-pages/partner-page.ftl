@@ -74,7 +74,22 @@
 
 
 
-
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+              new bootstrap.Tooltip(tooltipTriggerEl, {
+                  placement: 'bottom',
+                  fallbackPlacements: []
+              });
+            tooltipTriggerEl.addEventListener('click', function () {
+                console.log('ELEMENTI CARICATI:', tooltipTriggerEl);
+                debugger
+            });
+    
+            });
+          });
+        </script>
         
        
         <#include "/templates/web/fragments/footer.ftl">
