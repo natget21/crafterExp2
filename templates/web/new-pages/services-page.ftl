@@ -47,7 +47,7 @@
             tooltipTriggerList.forEach(function (tooltipTriggerEl) {
               new bootstrap.Tooltip(tooltipTriggerEl, {
                   placement: 'bottom',
-                  fallbackPlacements: [] // Nessun fallback
+                  fallbackPlacements: []
               });
             tooltipTriggerEl.addEventListener('click', function () {
                 console.log('ELEMENTI CARICATI:', tooltipTriggerEl);
