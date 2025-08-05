@@ -1,5 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 <#assign currentUrl = request.requestURI?default("") />
+<#assign services = siteItemService.getSiteTree('/site/components/services', 3) />
 
 <div class="container-fluid bg-dark2">
     <div class="row px-xl-5" style="border-bottom: 1px solid black;"
