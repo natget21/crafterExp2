@@ -10,7 +10,7 @@ def token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmdhbml6YXRpb25JZCI6IjY3YW
 
 def client = HttpClients.createDefault()
 def request = new HttpGet(url)
-request.setHeader("Authorization", "Bearer ${token}")
+//request.setHeader("Authorization", "Bearer ${token}")
 // request.setHeader("Accept", "application/json")
 
 def response = client.execute(request)
