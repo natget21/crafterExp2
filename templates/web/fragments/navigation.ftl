@@ -34,9 +34,13 @@
                                 SERVIZI <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
                             <div class="dropdown-menu rounded-0 border-0 m-0">
-                                <#list categories as category>
-                                </#list>
-                                <a href="#" class="nav-item nav-link sublink py-2">${services}</a>
+                                <#if categories?has_content>
+                                    <#list categories.childItems as categoryItem>
+                                        <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
+                                        <#assign categoryName = category.queryValue("internal-name")?default("") />
+                                        <a href="#" class="nav-item nav-link sublink py-2">${categoryName}</a>
+                                    </#list>
+                                </#if>
                             </div>
                         </div>
                         
