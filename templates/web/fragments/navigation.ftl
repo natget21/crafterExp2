@@ -48,19 +48,19 @@
                             CATALOGO
                         </a>
                         
-                        <a href="/" class="nav-item nav-link <#if currentUrl?starts_with("/")>active</#if>">
+                        <a href="/event" class="nav-item nav-link <#if currentUrl?starts_with("/event")>active</#if>">
                             EVENTI
                         </a>
                         
-                        <a href="/" class="nav-item nav-link <#if currentUrl?starts_with("/")>active</#if>">
+                        <a href="/news" class="nav-item nav-link <#if currentUrl?starts_with("/news")>active</#if>">
                             NEWS
                         </a>
                         
-                        <a href="/" class="nav-item nav-link <#if currentUrl?starts_with("/")>active</#if>">
+                        <a href="/faq" class="nav-item nav-link <#if currentUrl?starts_with("/faq")>active</#if>">
                             FAQ
                         </a>
                         
-                        <a href="/" class="nav-item nav-link <#if currentUrl?starts_with("/")>active</#if>">
+                        <a href="/contact" class="nav-item nav-link <#if currentUrl?starts_with("/contact")>active</#if>">
                             CONTATTI
                         </a>
      
