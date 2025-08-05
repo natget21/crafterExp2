@@ -16,7 +16,9 @@
             </div>
         </div>
         
-        <h3 class="title_section">${partner.partnerAzienda}</h3>
+        <div class="content pb-5 layout_padding col-11 col-md-9 mx-auto">
+
+        </div>
  
 
 
