@@ -104,7 +104,7 @@
 
 console.log("Global script attached!");
 window.addEventListener('message', (event) => {
-    const receivedRoute = event.data;
+    const receivedRoute = event;
     console.log('Socket Message', receivedRoute);
     const notAuthenticatedArea = document.getElementById('not-authenticated-area');
     const authenticatedArea = document.getElementById('authenticated-area');
