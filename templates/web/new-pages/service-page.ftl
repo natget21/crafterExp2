@@ -14,7 +14,7 @@
             <#assign categoryName = category.queryValue("internal-name")?default("") />
             <h5>${categoryName}</h5>
         <#else>
-        
+            <h5>404</h5>
         </#if>
         
         <#include "/templates/web/fragments/footer.ftl">
