@@ -3,13 +3,13 @@ import org.apache.http.impl.client.HttpClients
 import org.apache.http.util.EntityUtils
 import groovy.json.JsonSlurper
 
-def partnerId = params.id
-def apiUrl = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${partnerId}"
+def id = params.id
+def url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${partnerId}"
 
-def httpClient = HttpClients.createDefault()
-def httpGet = new HttpGet(apiUrl)
-def response = httpClient.execute(httpGet)
-def responseBody = EntityUtils.toString(response.getEntity())
-def partner = new JsonSlurper().parseText(responseBody)
+def client = HttpClients.createDefault()
+def request = new HttpGet(url)
+request.setHeader("Authorization", "Bearer ${bearerToken}")
+def response = client.execute(request)
+def partner = new JsonSlurper().parseText(EntityUtils.toString(response.getEntity()))
 
 templateModel.partner = partner
