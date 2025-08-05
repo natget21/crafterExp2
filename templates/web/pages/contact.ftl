@@ -17,19 +17,15 @@
     </div>
     
     <section id="contact" class="contact mt-5 mb-5">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-6">
-            <#if contentModel.sottotitolo_s?? && contentModel.sottotitolo_s?has_content>
-                <h2 class="title_section" style="font-size: 30px">
-                  ${contentModel.sottotitolo_s}
-                </h2>
-            </#if>
-            <#if contentModel.testo_t?? && contentModel.testo_t?has_content>
-                <div class="info-item d-flex flex-column justify-content-center align-items-start gap-4 py-4">
-                  <p>${contentModel.testo_t}</p>
-                </div>
-            </#if>
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-6">
+                    <h2 class="title_section" style="font-size: 30px">
+                        Hai domande o richieste?
+                    </h2>
+                    <div class="info-item d-flex flex-column justify-content-center align-items-start gap-4 py-4">
+                        <p>Siamo qui per aiutarti! Compila il modulo qui a fianco o utilizza i nostri recapiti qui sotto per metterti in contatto con il nostro team. Ti risponderemo il prima possibile.</p>
+                    </div>
 
             <div class="row 2">
             
