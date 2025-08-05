@@ -15,7 +15,7 @@
         </div>
         
         <div class="container">
-            <#if partnerData?has_content>
+            <#if partner?has_content>
                 <h1 class="best_taital text-center text-white p-0">${partnerData.partnerAzienda}</h1>
             <#else>
                 <h1 class="best_taital text-center text-white p-0">Partner Not Found</h1>
