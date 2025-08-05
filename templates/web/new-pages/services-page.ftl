@@ -30,9 +30,9 @@
                             <h3 class="service_title text-center">${name}</h3>
                             <p class="text-center">${description}</p>
                             <div class="d-flex flex-grow-1 justify-content-center align-items-end">
-                              <button class="btn btn-secondary read_more rounded-pill" onclick="window.location.href='/test-before-invest'">
+                              <a class="btn btn-secondary read_more rounded-pill">
                                 Scopri di più
-                              </button>
+                              </a>
                             </div>
                         </div>
                         <img src="/static-assets/assets/formazione-1.jpg" alt="">
