@@ -30,7 +30,7 @@
           </div>
         </div>
   
-        <div class="layout_padding mb-3">
+        <div class="container mb-3">
             <div class="accordion" id="productsAccordion">
                 <!-- Scheda informativa -->
                 <div class="accordion-item rounded-3 shadow-sm">
