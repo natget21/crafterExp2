@@ -69,7 +69,6 @@
 
           <div class="col-lg-6">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form p-4">
-              <!-- Replace action with your endpoint -->
               <div class="row gy-4">
                 <div class="col-md-12">
                   <input type="text" name="name" class="form-control" placeholder="Il tuo Nome" required />
@@ -88,9 +87,11 @@
                     INVIA MESSAGGIO
                   </button>
                 </div>
+                
               </div>
             </form>
           </div>
+          
         </div>
       </div>
     </section>
