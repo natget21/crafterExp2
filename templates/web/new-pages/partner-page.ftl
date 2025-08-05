@@ -15,8 +15,6 @@
               <h1 class="best_taital text-center dark p-0">Partner</h1>
             </div>
         </div>
-        
-        <h5>${partner}</h5>
       
         <div class="container" id="partner-info" style="display: none">
             <div class="container mt-5">
@@ -53,6 +51,7 @@
 <script>
     document.addEventListener("DOMContentLoaded", async function () {
         await loadPartner();
+        console.log("DEBUG", test)
     });
     
     async function loadPartner() {
