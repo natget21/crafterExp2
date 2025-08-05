@@ -92,7 +92,7 @@
                                   </div>
                                 </div>
                             </#list>
-                            <#if partnerData.partnerLandingImagesAssetsUrlList?default([])?size == 0>
+                            <#if partner.partnerLandingImagesAssetsUrlList?default([])?size == 0>
                                 <div class="attachment col-12 col-md-4">
                                     Nessun allegato presente.
                                 </div>
