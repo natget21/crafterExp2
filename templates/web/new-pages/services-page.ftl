@@ -35,7 +35,7 @@
                               </a>
                             </div>
                         </div>
-                        <img src="/static-assets/assets/formazione-1.jpg" alt="">
+                        <img src="${image}" alt="${name}">
                     </div>
                 </#list>
             </#if>
