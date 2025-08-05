@@ -102,17 +102,15 @@
     
 })(jQuery);
 
-console.log("Global script attached1!");
+console.log("Global script attached!");
 window.addEventListener('message', (event) => {
-    console.log("Global script attached2!");
     const receivedRoute = event.data;
     console.log('Socket Message', receivedRoute);
     const notAuthenticatedArea = document.getElementById('not-authenticated-area');
     const authenticatedArea = document.getElementById('authenticated-area');
     if(!notAuthenticatedArea || !authenticatedArea) { return; }
-    const authRoots = ['ideale-providers-dash', 'members-view'];
     const user = localStorage.getItem("crafterVadinUser");
-    if(authRoots.includes(receivedRoute) || user) {
+    if(user) {
         authenticatedArea.style.display = "block";
         notAuthenticatedArea.style.display = "none";
     } else {
