@@ -18,7 +18,7 @@
             </div>
           </div>
     
-        <div class="services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0 mb-3">
+        <div class="services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0 mb-4">
         
             <div class="service mt-5 d-flex justify-content-between align-items-center">
               <div class="d-flex flex-column align-items-center justify-content-center">
