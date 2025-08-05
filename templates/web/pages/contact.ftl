@@ -32,39 +32,28 @@
             </#if>
 
             <div class="row 2">
-                <#if contentModel.luogo_s?? && contentModel.luogo_s?has_content>
-                  <div class="col-md-12">
-                    <div class="info-item d-flex align-items-center py-3">
-                      <i class="bi bi-geo-alt flex-shrink-0 me-3 text-primary"></i>
-                      <!-- Placeholder for icon -->
-                      <p class="mb-0 text-primary">${contentModel.luogo_s}</p>
-                    </div>
-                  </div>
-                </#if>
-              <!-- End Info Item -->
-                <#if contentModel.email_s?? && contentModel.email_s?has_content>
-                  <div class="col-md-12">
-                    <div class="info-item d-flex align-items-center py-3">
-                      <i class="bi bi-envelope flex-shrink-0 me-3 text-primary"></i>
-                      <!-- Placeholder for icon -->
-                      <p class="mb-0 text-primary">${contentModel.email_s}</p>
-                    </div>
-                  </div>
-                </#if>
+            
+              <div class="col-md-12">
+                <div class="info-item d-flex align-items-center py-3">
+                  <i class="bi bi-geo-alt flex-shrink-0 me-3 text-primary"></i>
+                  <p class="mb-0 text-primary">Marche, Italia</p>
+                </div>
+              </div>
 
-              <!-- End Info Item -->
-                <#if contentModel.numeroditelefono_s?? && contentModel.numeroditelefono_s?has_content>
-                  <div class="col-md-12">
-                    <div class="info-item d-flex align-items-center py-3">
-                      <i
-                        class="bi bi-telephone flex-shrink-0 me-3 text-primary"
-                      ></i>
-                      <!-- Placeholder for icon -->
-                      <p class="mb-0 text-primary">${contentModel.numeroditelefono_s}</p>
-                    </div>
-                  </div>
-                </#if>
-              <!-- End Info Item -->
+              <div class="col-md-12">
+                <div class="info-item d-flex align-items-center py-3">
+                  <i class="bi bi-envelope flex-shrink-0 me-3 text-primary"></i>
+                  <p class="mb-0 text-primary">info@example.com</p>
+                </div>
+              </div>
+      
+              <div class="col-md-12">
+                <div class="info-item d-flex align-items-center py-3">
+                  <i class="bi bi-telephone flex-shrink-0 me-3 text-primary"></i>
+                  <p class="mb-0 text-primary">+39 3456789</p>
+                </div>
+              </div>
+
             </div>
           </div>
 
