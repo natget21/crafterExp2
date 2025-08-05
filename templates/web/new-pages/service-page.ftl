@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 <#assign storeUrl = "/site/components/category/" + RequestParameters.id />
-<#assign category = />
+<#assign category = siteItemService.getSiteItem(storeUrl) />
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
@@ -11,7 +11,7 @@
         <#include "/templates/web/fragments/navigation.ftl">
  
         
-        <h5>${storeUrl}</h5>
+        <h5>${category}</h5>
         
         <#include "/templates/web/fragments/footer.ftl">
         <#include "/templates/web/fragments/scripts.ftl">
