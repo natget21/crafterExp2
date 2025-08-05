@@ -14,7 +14,8 @@
             <#assign name = category.queryValue("internal-name")?default("") />
             <#assign description = category.queryValue("description")?default("") />
             <h5>${name}</h5>
-            ${description}
+            <div>${description}</div>
+            
         <#else>
             <h5>404</h5>
         </#if>
