@@ -14,8 +14,8 @@ request.setHeader("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
 // request.setHeader("Accept", "application/json")
 
 def response = client.execute(request)
-def partnerString = EntityUtils.toString(response.getEntity())
-def partnerJson = new JsonSlurper().parseText(partnerString)
+// def partnerString = EntityUtils.toString(response.getEntity())
+// def partnerJson = new JsonSlurper().parseText(partnerString)
 
 templateModel.test = response.getStatusLine().getStatusCode()
 
