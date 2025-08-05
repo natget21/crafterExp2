@@ -17,5 +17,5 @@ def response = client.execute(request)
 def partnerString = EntityUtils.toString(response.getEntity())
 def partnerJson = new JsonSlurper().parseText(partnerString)
 
-templateModel.partner = partnerString
+templateModel.test = partnerString
 
