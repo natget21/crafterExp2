@@ -21,7 +21,9 @@
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="${partner.partnerLandingImagesAssetsUrlList[0]}" class="img-fluid" alt="${partner.partnerAzienda}">
+                        <#list partner.partnerLandingImagesAssetsUrlList as image>
+                            <img src="${image}" class="img-fluid" alt="${partner.partnerAzienda}">
+                        </#list>
                     </div>
                     <div class="col-md-8">
                         <h2 id="partner-landing-title"></h2>
