@@ -16,7 +16,6 @@
             </div>
         </div>
         
-
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-4">
@@ -27,14 +26,14 @@
                     <div id="partner-landing-introduction"></div>
                     <div id="partner-landing-content"></div>
                     <ul class="list-unstyled mt-3">
-                        <li><strong>Contact:</strong> <span id="partner-contact"></span></li>
-                        <li><strong>Email:</strong> <span id="partner-email"></span></li>
-                        <li><strong>Phone:</strong> <span id="partner-phone"></span></li>
-                        <li><strong>Region:</strong> <span id="partner-region"></span></li>
-                        <li><strong>Country:</strong> <span id="partner-country"></span></li>
-                        <li><strong>Sector:</strong> <span id="partner-sector"></span></li>
-                        <li><strong>Staff Size:</strong> <span id="partner-staff-size"></span></li>
-                        <li><strong>Status:</strong> <span id="partner-status"></span></li>
+                        <li><strong>Contact:</strong> Partner Contact</li>
+                        <li><strong>Email:</strong> Partner Email</li>
+                        <li><strong>Phone:</strong> Partner Phone</li>
+                        <li><strong>Region:</strong> Partner Region</li>
+                        <li><strong>Country:</strong> Partner Country</li>
+                        <li><strong>Sector:</strong> Partner Sector</li>
+                        <li><strong>Staff Size:</strong> Partner Staff Size</li>
+                        <li><strong>Status:</strong> Partner Status</li>
                     </ul>
                 </div>
             </div>
