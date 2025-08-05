@@ -1,6 +1,5 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 <#assign storeUrl = "/site/components/category/" + RequestParameters.id />
-<#assign category = siteItemService.getSiteItem(storeUrl) />
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
@@ -9,7 +8,8 @@
         <@crafter.body_top/>
         <#include "/templates/web/fragments/header.ftl">
         <#include "/templates/web/fragments/navigation.ftl">
- 
+        
+        <#assign category = siteItemService.getSiteItem(storeUrl) />
         <#if category?has_content>
             <#assign name = category.queryValue("internal-name")?default("") />
             <#assign description = category.queryValue("description")?default("") />
