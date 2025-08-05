@@ -79,7 +79,7 @@
                     </h2>
                     <div id="productTwo" class="accordion-collapse collapse" data-bs-parent="#productsAccordion">
                         <div class="accordion-body row g-4 px-4 py-3">
-                            <#list partner.partnerLandingImagesAssetsUrlList?default([]) as mediaUrl>
+                            <#list partner.partnerLandingDocAssetsUrlList?default([]) as mediaUrl>
                                 <div class="attachment col-12 col-md-4">
                                   <p class="name_attachment d-flex justify-content-center justify-content-md-start">
                                     Allegato-${mediaUrl_index + 1}
@@ -94,7 +94,7 @@
                                   </div>
                                 </div>
                             </#list>
-                            <#if partner.partnerLandingImagesAssetsUrlList?default([])?size == 0>
+                            <#if partner.partnerLandingDocAssetsUrlList?default([])?size == 0>
                                 <div class="attachment col-12 col-md-4">
                                     Nessun allegato presente.
                                 </div>
