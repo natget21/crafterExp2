@@ -41,6 +41,23 @@
             </#if>
         </div>
         
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+              new bootstrap.Tooltip(tooltipTriggerEl, {
+                  placement: 'bottom',
+                  fallbackPlacements: [] // Nessun fallback
+              });
+            tooltipTriggerEl.addEventListener('click', function () {
+                console.log('ELEMENTI CARICATI:', tooltipTriggerEl);
+                debugger
+            });
+    
+            });
+          });
+        </script>
+        
         <#include "/templates/web/fragments/footer.ftl">
         <#include "/templates/web/fragments/scripts.ftl">
         <@crafter.body_bottom/>
