@@ -44,7 +44,7 @@
             <div class="banner_section banner_partners layout_padding d-flex align-items-center">
                 <img class="banner_img" src="static-assets/assets/partner.png">
                 <div class="container">
-                  <h1 class="best_taital text-center dark p-0">Partner non trovata!</h1>
+                  <h1 class="best_taital text-center dark p-0">Partner non trovato!</h1>
                 </div>
             </div>
         </#if>
