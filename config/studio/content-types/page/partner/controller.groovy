@@ -11,5 +11,3 @@ contentLifecycleParams.applicationContext = applicationContext;
 
 def controller = new CommonLifecycleApi(contentLifecycleParams);
 controller.execute();
-
-templateModel.test = "partnerData"
