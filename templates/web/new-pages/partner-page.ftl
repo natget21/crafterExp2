@@ -51,7 +51,7 @@
 <script>
     document.addEventListener("DOMContentLoaded", async function () {
         await loadPartner();
-        console.log("DEBUG", test)
+        console.log("DEBUG", ${test})
     });
     
     async function loadPartner() {
