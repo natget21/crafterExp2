@@ -30,7 +30,7 @@
                         </div>
                         
                         <div class="nav-item dropdown">
-                            <a href="/services-page" class="nav-item nav-link dropdown-toggle">
+                            <a href="/services-view" class="nav-item nav-link dropdown-toggle">
                                 SERVIZI <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
                             <div class="dropdown-menu rounded-0 border-0 m-0">
@@ -38,7 +38,7 @@
                                     <#list categories.childItems as categoryItem>
                                         <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
                                         <#assign categoryName = category.queryValue("name_s")?default("") />
-                                        <a href="/service-page?id=${category.storeName}" class="nav-item nav-link sublink py-2">${categoryName}</a>
+                                        <a href="/service-view?id=${category.storeName}" class="nav-item nav-link sublink py-2">${categoryName}</a>
                                     </#list>
                                 </#if>
                             </div>
