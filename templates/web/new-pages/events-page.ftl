@@ -9,7 +9,20 @@
         <#include "/templates/web/fragments/navigation.ftl">
  
         
-        <h5>Hello World!</h5>
+        <div class="container py-5">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="card h-100 shadow-sm">
+                <img src="https://source.unsplash.com/600x300/?rooftop,party" class="card-img-top" alt="Notte d’Estate in Terrazza">
+                <div class="card-body">
+                  <h5 class="card-title">Notte d’Estate in Terrazza</h5>
+                  <p class="card-text">
+                    Una serata elegante sotto le stelle con degustazione di vini, finger food e musica jazz dal vivo in terrazza.
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div>
         
         <#include "/templates/web/fragments/footer.ftl">
         <#include "/templates/web/fragments/scripts.ftl">
