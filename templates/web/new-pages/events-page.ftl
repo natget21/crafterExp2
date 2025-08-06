@@ -18,7 +18,8 @@
         <div class="container mb-5">
             <div class="row g-4">
                 <#assign events = siteItemService.getSiteTree('/site/components/events', 1)>
-                <#list events as event>
+                <#list events.childItems as child>
+                    <#assign event = siteItemService.getSiteItem(child.storeUrl) />
                     <#assign name = "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" />
                     <#assign description = "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" />
                     <#assign image = "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" />
