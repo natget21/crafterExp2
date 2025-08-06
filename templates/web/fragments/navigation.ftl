@@ -95,7 +95,7 @@
                             </a>
                             <div class="dropdown-menu rounded-0 border-0 m-0">
                                 <a href="/my-orders" class="nav-item nav-link sublink py-2">I tuoi ordini</a>
-                                <a href="javascript:void(0);" onclick="logout()" class="nav-item nav-link sublink py-2">Esci</a>
+                                <a id="logout-link" href="javascript:void(0);" onclick="logout()" class="nav-item nav-link sublink py-2">Esci</a>
                             </div>
                         </div>
                     </div>
@@ -135,9 +135,6 @@
     
     async function logout(){
         const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
-        localStorage.removeItem('crafterVadinUser');
-        localStorage.removeItem('crafterVadinToken');
-        
         const url = 'https://api.shortcut.uno/v1/system/extLogout';
         const response = await fetch(url, {
             method: 'POST',
@@ -145,6 +142,8 @@
                 'Authorization': 'Bearer ' + user.access_token
             }
         });
+        localStorage.removeItem('crafterVadinUser');
+        localStorage.removeItem('crafterVadinToken');
         
         window.location.href = '/';
     }
