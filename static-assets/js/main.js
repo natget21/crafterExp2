@@ -114,22 +114,14 @@ window.addEventListener("message", (event) => {
     }
     if(loggedIn) {
         const user = {
-            access_token: "",
-            refresh_token: "",
-            token_type: "",
-            scope: "",
-            jti: "",
-            sessionId: "",
+            access_token: "Dummy",
             organizationId: "",
-            projectId: "",
-            authorities: [],
-            restrictions: {
-                domains: []
-            },
-            _id: "Dummy"
+            projectId: ""
         };
         localStorage.setItem("crafterVadinUser", JSON.stringify(user));
         checkAuth();
+    } else {
+        
     }
 });
 
