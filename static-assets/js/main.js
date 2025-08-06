@@ -132,7 +132,6 @@ window.addEventListener("message", (event) => {
 
 document.addEventListener("DOMContentLoaded", () => {
     checkAuth();
-    checkIsPartnerOrHubManager();
 });
 
 function checkAuth() {
