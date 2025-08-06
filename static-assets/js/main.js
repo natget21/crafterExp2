@@ -128,7 +128,7 @@ window.addEventListener("message", (event) => {
             },
             _id: "Dummy"
         };
-        localStorage.setItem("crafterVadinUser", user);
+        localStorage.setItem("crafterVadinUser", JSON.stringify(user));
         checkAuth();
     }
 });
