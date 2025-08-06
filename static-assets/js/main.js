@@ -107,11 +107,11 @@ console.log("Global script attached!");
 window.addEventListener("message", (event) => {
     const eventData = event.data;
     let loggedIn = false;
-    if(eventData) {
-        const jsonData = JSON.parse(eventData);
-        console.log('Socket Message', jsonData);
-        loggedIn = jsonData.status === 'loggedIn';
-    }
+    
+    const jsonData = JSON.parse(eventData);
+    console.log('Socket Message', jsonData);
+    loggedIn = jsonData.status === 'loggedIn';
+    
     if(loggedIn) {
         const user = {
             access_token: "",
