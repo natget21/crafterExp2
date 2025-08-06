@@ -48,7 +48,7 @@
                             CATALOGO
                         </a>
                         
-                        <a href="/event" class="nav-item nav-link <#if currentUrl?starts_with("/event")>active</#if>">
+                        <a href="/events-view" class="nav-item nav-link <#if currentUrl?starts_with("/event")>active</#if>">
                             EVENTI
                         </a>
                         
