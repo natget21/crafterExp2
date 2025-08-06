@@ -64,7 +64,7 @@
                             CONTATTI
                         </a>
                         
-                        <div class="navbar-nav ml-auto py-0">
+                        <div class="navbar-nav ms-auto py-0">
                             <div id="not-authenticated-area" style="display: none;">
                                 <div class="nav-item dropdown">
                                     <a href="#" class="nav-item nav-link dropdown-toggle">
