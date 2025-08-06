@@ -132,6 +132,7 @@ window.addEventListener("message", (event) => {
 
 document.addEventListener("DOMContentLoaded", () => {
     checkAuth();
+    checkIsPartnerOrHubManager();
 });
 
 function checkAuth() {
@@ -144,6 +145,15 @@ function checkAuth() {
     } else {
         authenticatedArea.style.display = "none";
         notAuthenticatedArea.style.display = "flex";
+    }
+}
+
+function checkIsPartnerOrHubManager() {
+    const userData = localStorage.getItem("crafterVadinUser");
+    const user = JSON.parse(userData);
+    if(!user.access_token) {
+        const logoutLink = document.getElementById("logout-link");
+        logoutLink.style.display = "none";
     }
 }
 
