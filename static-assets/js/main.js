@@ -137,23 +137,21 @@ document.addEventListener("DOMContentLoaded", () => {
 function checkAuth() {
     const notAuthenticatedArea = document.getElementById("not-authenticated-area");
     const authenticatedArea = document.getElementById("authenticated-area");
-    const user = localStorage.getItem("crafterVadinUser");
-    if(user) {
+    const userData = localStorage.getItem("crafterVadinUser");
+    if(userData) {
+        const user = JSON.parse(userData);
         authenticatedArea.style.display = "block";
         notAuthenticatedArea.style.display = "none";
-        checkIsPartnerOrHubManager();
+        checkIsPartnerOrHubManager(user);
     } else {
         authenticatedArea.style.display = "none";
         notAuthenticatedArea.style.display = "flex";
     }
 }
 
-function checkIsPartnerOrHubManager() {
-    const userData = localStorage.getItem("crafterVadinUser");
-    const user = JSON.parse(userData);
-    if(!user.access_token) {
-        const logoutLink = document.getElementById("logout-link");
-        logoutLink.style.display = "none";
-    }
+function checkIsPartnerOrHubManager(user) {
+    const logoutLink = document.getElementById("logout-link");
+    if(user.access_token) { logoutLink.style.display = "block"; } 
+    else { logoutLink.style.display = "none"; }
 }
 
