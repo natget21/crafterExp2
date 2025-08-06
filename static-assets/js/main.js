@@ -123,8 +123,8 @@ window.addEventListener("message", (event) => {
         const userData = localStorage.getItem("crafterVadinUser");
         const user = JSON.parse(userData);
         if(!user.access_token) {
-            localStorage.removeItem('crafterVadinUser');
-            localStorage.removeItem('crafterVadinToken');
+            localStorage.removeItem("crafterVadinUser");
+            localStorage.removeItem("crafterVadinToken");
         }
     }
     checkAuth();
