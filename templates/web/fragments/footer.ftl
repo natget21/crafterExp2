@@ -62,7 +62,7 @@
         <div class="row border-top mx-xl-5 py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
             <div class="col-md-6 px-xl-0">
                 <p class="mb-md-0 text-center text-md-left text-secondary">
-                    &copy; <a class="text-primary" href="#">Domain</a>. Tutti i diritti riservati.
+                    &copy; <a class="text-primary" href="#">Ideale</a>. Tutti i diritti riservati.
                 </p>
             </div>
             <div class="col-md-6 px-xl-0 text-center text-md-right">
