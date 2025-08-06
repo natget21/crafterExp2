@@ -52,7 +52,7 @@
                             EVENTI
                         </a>
                         
-                        <a href="/news" class="nav-item nav-link <#if currentUrl?starts_with("/news")>active</#if>">
+                        <a href="/articles-view" class="nav-item nav-link <#if currentUrl?starts_with("/news")>active</#if>">
                             NEWS
                         </a>
                         
