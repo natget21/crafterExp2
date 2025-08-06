@@ -23,11 +23,11 @@
                 <#assign image = "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" />
                 <div class="col-md-4">
                     <div class="card h-100 shadow-sm">
-                        <img src="${image}" class="card-img-top" alt="Notte d’Estate in Terrazza">
+                        <img src="${image}" class="card-img-top" alt="${name}">
                         <div class="card-body">
-                            <h5 class="text-primary text-uppercase">Notte d’Estate in Terrazza</h5>
+                            <h5 class="text-primary text-uppercase">${name}</h5>
                             <p class="card-text small text-body-secondary">
-                                Una serata elegante sotto le stelle con degustazione di vini, finger food e musica jazz dal vivo in terrazza.
+                                ${description}
                             </p>
                         </div>
                     </div>
