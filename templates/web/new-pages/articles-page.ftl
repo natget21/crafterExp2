@@ -21,6 +21,7 @@
                 <#assign article = siteItemService.getSiteItem(child.storeUrl) />
                 <#assign title = article.title_s?default("Nessun titolo") />
                 <#assign description = article.description_t?default("Nessuna descrizione") />
+                <#assign date = article.date_dt?default("01/01/2000") />
                 <#assign image = article.image_s?default("https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg") />
                 <div class="row g-0 border-bottom py-1">
                     <div class="col-md-5">
@@ -28,6 +29,7 @@
                     </div>
                     <div class="col-md-7">
                         <div class="card-body d-flex flex-column h-100">
+                            <small class="text-muted d-block mb-1">${date}</small>
                             <h5 class="card-title fw-bold">${title}</h5>
                             <p class="card-text">${description}</p>
                         </div>
