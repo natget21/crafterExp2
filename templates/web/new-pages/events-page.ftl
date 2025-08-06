@@ -20,16 +20,16 @@
                 <#assign events = siteItemService.getSiteTree('/site/components/events', 1)>
                 <#list events.childItems as child>
                     <#assign event = siteItemService.getSiteItem(child.storeUrl) />
-                    <#assign name = event.title_s?default("Nessun titolo") />
+                    <#assign title = event.title_s?default("Nessun titolo") />
                     <#assign description = event.description_t?default("Nessuna descrizione") />
                     <#assign image = event.image_s?default("https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg") />
                     <div class="col-md-5">
-                        <img src="" class="img-fluid rounded-start object-fit-cover h-100" alt="">
+                        <img src="${image}" class="img-fluid rounded-start object-fit-cover h-100" alt="${title}">
                     </div>
                     <div class="col-md-7">
                         <div class="card-body d-flex flex-column h-100">
-                            <h5 class="card-title fw-bold"></h5>
-                            <p class="card-text"></p>
+                            <h5 class="card-title fw-bold">${title}</h5>
+                            <p class="card-text">${description}</p>
                         </div>
                     </div>
                 </#list>
