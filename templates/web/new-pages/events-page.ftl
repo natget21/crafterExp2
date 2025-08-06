@@ -22,7 +22,7 @@
                     <#assign event = siteItemService.getSiteItem(child.storeUrl) />
                     <#assign name = event.title_s?default("Nessun titolo") />
                     <#assign description = event.description_t?default("Nessuna descrizione") />
-                    <#assign image = "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" />
+                    <#assign image = event.image_s?default("https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg") />
                     <div class="col-md-4">
                         <div class="card h-100 shadow-sm">
                             <img src="${image}" class="card-img-top" alt="${name}">
