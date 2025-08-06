@@ -17,22 +17,23 @@
  
         <div class="container mb-5">
             <div class="row g-4">
-                
-                <#assign name = "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" />
-                <#assign description = "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" />
-                <#assign image = "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" />
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm">
-                        <img src="${image}" class="card-img-top" alt="${name}">
-                        <div class="card-body">
-                            <h5 class="text-primary text-uppercase">${name}</h5>
-                            <p class="card-text small text-body-secondary">
-                                ${description}
-                            </p>
+                <#assign events = siteItemService.getSiteTree('/site/components/events', 1)>
+                <#list events as event>
+                    <#assign name = "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" />
+                    <#assign description = "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" />
+                    <#assign image = "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" />
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="${image}" class="card-img-top" alt="${name}">
+                            <div class="card-body">
+                                <h5 class="text-primary text-uppercase">${name}</h5>
+                                <p class="card-text small text-body-secondary">
+                                    ${description}
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
- 
+                </#list>
             </div>
         </div>
         
