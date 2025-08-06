@@ -47,7 +47,7 @@
       </div>
     </div>
     <div class="d-flex pt-3">
-        <div class="col-3 border p-0 m-2 w-100 h-100" style="border-radius: 10px; overflow: hidden;">
+        <div class="col-3 border p-0 w-100 h-100" style="border-radius: 10px; overflow: hidden;">
             <h4 class="text-center bg-primary text-white m-0 p-1">TAGS</h6>
             <hr class="my-0 p-0" />
             <div class="p-2" >
