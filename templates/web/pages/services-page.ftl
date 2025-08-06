@@ -46,7 +46,7 @@
         <h1 class="best_taital text-center dark p-0">Catalogo Servizi</h1>
       </div>
     </div>
-    <div class="d-flex pt-3">
+    <div class="d-flex p-1 mt-3">
         <div class="col-3 border p-0 w-100 h-100" style="border-radius: 10px; overflow: hidden;">
             <h4 class="text-center bg-primary text-white m-0 p-1">TAGS</h6>
             <hr class="my-0 p-0" />
