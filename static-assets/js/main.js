@@ -114,7 +114,19 @@ window.addEventListener("message", (event) => {
     }
     if(loggedIn) {
         const user = {
-            "id": 10
+            access_token: "",
+            refresh_token: "",
+            token_type: "",
+            scope: "",
+            jti: "",
+            sessionId: "",
+            organizationId: "",
+            projectId: "",
+            authorities: [],
+            restrictions: {
+                domains: []
+            },
+            _id: ""
         };
         localStorage.setItem("crafterVadinUser", user);
         checkAuth();
