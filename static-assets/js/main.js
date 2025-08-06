@@ -112,8 +112,8 @@ window.addEventListener('message', (event) => {
         loggedIn = jsonData.status === 'loggedIn';
     }
     
-    const notAuthenticatedArea = document.getElementById('not-authenticated-area');
-    const authenticatedArea = document.getElementById('authenticated-area');
+    const notAuthenticatedArea = document.getElementById("not-authenticated-area");
+    const authenticatedArea = document.getElementById("authenticated-area");
     const user = localStorage.getItem("crafterVadinUser");
     if(loggedIn || user) {
         authenticatedArea.style.display = "block";
