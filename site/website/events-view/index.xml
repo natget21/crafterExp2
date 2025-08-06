@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/events</content-type>
+	<display-template>/templates/web/new-pages/events-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8b8a</objectGroupId>
+	<objectId>8b8a4068-4cc3-4fb6-c51e-b3b0306dc3d2</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>events-view</folder-name>
+	<internal-name>events</internal-name>
+	<navLabel>events</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-08-06T12:32:36.164Z</createdDate>
+	<createdDate_dt>2025-08-06T12:32:36.164Z</createdDate_dt>
+	<lastModifiedDate>2025-08-06T12:32:36.164Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-08-06T12:32:36.164Z</lastModifiedDate_dt>
+</page>
