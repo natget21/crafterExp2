@@ -112,20 +112,20 @@ window.addEventListener("message", (event) => {
         console.log('Socket Message', jsonData);
         loggedIn = jsonData.status === 'loggedIn';
     }
-    
-    const notAuthenticatedArea = document.getElementById("not-authenticated-area");
-    const authenticatedArea = document.getElementById("authenticated-area");
-    const user = localStorage.getItem("crafterVadinUser");
-    if(loggedIn || user) {
-        authenticatedArea.style.display = "block";
-        notAuthenticatedArea.style.display = "none";
-    } else {
-        authenticatedArea.style.display = "none";
-        notAuthenticatedArea.style.display = "flex";
+    if(loggedIn) {
+        const user = {
+            
+        };
+        localStorage.setItem("crafterVadinUser", user);
+        checkAuth();
     }
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+    checkAuth();
+});
+
+function checkAuth() {
     const notAuthenticatedArea = document.getElementById("not-authenticated-area");
     const authenticatedArea = document.getElementById("authenticated-area");
     const user = localStorage.getItem("crafterVadinUser");
@@ -136,5 +136,5 @@ document.addEventListener("DOMContentLoaded", () => {
         authenticatedArea.style.display = "none";
         notAuthenticatedArea.style.display = "flex";
     }
-});
+}
 
