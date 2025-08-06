@@ -126,7 +126,7 @@ window.addEventListener("message", (event) => {
             restrictions: {
                 domains: []
             },
-            _id: ""
+            _id: "Dummy"
         };
         localStorage.setItem("crafterVadinUser", user);
         checkAuth();
