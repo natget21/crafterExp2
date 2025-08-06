@@ -103,7 +103,8 @@
 })(jQuery);
 
 console.log("Global script attached!");
-window.addEventListener('message', (event) => {
+
+window.addEventListener("message", (event) => {
     const data = event.data;
     let loggedIn = false;
     if(data) {
@@ -116,6 +117,19 @@ window.addEventListener('message', (event) => {
     const authenticatedArea = document.getElementById("authenticated-area");
     const user = localStorage.getItem("crafterVadinUser");
     if(loggedIn || user) {
+        authenticatedArea.style.display = "block";
+        notAuthenticatedArea.style.display = "none";
+    } else {
+        authenticatedArea.style.display = "none";
+        notAuthenticatedArea.style.display = "flex";
+    }
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const notAuthenticatedArea = document.getElementById("not-authenticated-area");
+    const authenticatedArea = document.getElementById("authenticated-area");
+    const user = localStorage.getItem("crafterVadinUser");
+    if(user) {
         authenticatedArea.style.display = "block";
         notAuthenticatedArea.style.display = "none";
     } else {
