@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/articles</content-type>
+	<display-template>/templates/web/new-pages/articles-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9bf4</objectGroupId>
+	<objectId>9bf42ad2-4384-6d91-43ec-1626d96da9e8</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>articles-view</folder-name>
+	<internal-name>articles</internal-name>
+	<navLabel>articles</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-08-06T13:19:58.233Z</createdDate>
+	<createdDate_dt>2025-08-06T13:19:58.233Z</createdDate_dt>
+	<lastModifiedDate>2025-08-06T13:19:58.233Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-08-06T13:19:58.233Z</lastModifiedDate_dt>
+</page>
