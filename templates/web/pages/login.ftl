@@ -25,7 +25,6 @@
     
     <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
-    <#include "/templates/web/fragments/static-navigation.ftl">
     
     <div class="toast-container position-fixed top-0 end-0 p-3">
         <div id="error-toast" class="toast bg-danger text-white" role="alert" aria-live="assertive" aria-atomic="true">
