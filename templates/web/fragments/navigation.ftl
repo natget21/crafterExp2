@@ -63,44 +63,45 @@
                         <a href="/contact" class="nav-item nav-link <#if currentUrl?starts_with("/contact")>active</#if>">
                             CONTATTI
                         </a>
-                        
-                        <div class="navbar-nav ms-auto py-0">
-                            <div id="not-authenticated-area" style="display: none;">
-                                <div class="nav-item dropdown">
-                                    <a href="#" class="nav-item nav-link dropdown-toggle">
-                                        REGISTRATI <i class="fa fa-angle-down mt-1 ms-1"></i>
-                                    </a>
-                                    <div class="dropdown-menu rounded-0 border-0 m-0">
-                                        <a href="/client-signup" class="nav-item nav-link sublink py-2">Cliente</a>
-                                        <a href="/partner-signup;" class="nav-item nav-link sublink py-2">Partner</a>
-                                    </div>
-                                </div>
-                                
-                                <div class="nav-item dropdown">
-                                    <a href="#" class="nav-item nav-link dropdown-toggle">
-                                        ACCEDI <i class="fa fa-angle-down mt-1 ms-1"></i>
-                                    </a>
-                                    <div class="dropdown-menu rounded-0 border-0 m-0">
-                                        <a href="/login" class="nav-item nav-link sublink py-2">Cliente</a>
-                                        <a href="/partner-login" class="nav-item nav-link sublink py-2">Partner</a>
-                                        <a href="/hub-manager" class="nav-item nav-link sublink py-2">Hub Manager</a>
-                                    </div>
+                    </div>
+                    
+                    <div class="navbar-nav ms-auto py-0">
+                        <div id="not-authenticated-area" style="display: none;">
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-item nav-link dropdown-toggle">
+                                    REGISTRATI <i class="fa fa-angle-down mt-1 ms-1"></i>
+                                </a>
+                                <div class="dropdown-menu rounded-0 border-0 m-0">
+                                    <a href="/client-signup" class="nav-item nav-link sublink py-2">Cliente</a>
+                                    <a href="/partner-signup;" class="nav-item nav-link sublink py-2">Partner</a>
                                 </div>
                             </div>
                             
-                            <div id="authenticated-area" class="nav-item dropdown" style="display: none;">
+                            <div class="nav-item dropdown">
                                 <a href="#" class="nav-item nav-link dropdown-toggle">
-                                    AREA RISERVATA <i class="fa fa-angle-down mt-1 ms-1"></i>
+                                    ACCEDI <i class="fa fa-angle-down mt-1 ms-1"></i>
                                 </a>
                                 <div class="dropdown-menu rounded-0 border-0 m-0">
-                                    <a href="/my-orders" class="nav-item nav-link sublink py-2">I tuoi ordini</a>
-                                    <a href="javascript:void(0);" onclick="logout()" class="nav-item nav-link sublink py-2">Esci</a>
+                                    <a href="/login" class="nav-item nav-link sublink py-2">Cliente</a>
+                                    <a href="/partner-login" class="nav-item nav-link sublink py-2">Partner</a>
+                                    <a href="/hub-manager" class="nav-item nav-link sublink py-2">Hub Manager</a>
                                 </div>
                             </div>
                         </div>
+                        
+                        <div id="authenticated-area" class="nav-item dropdown" style="display: none;">
+                            <a href="#" class="nav-item nav-link dropdown-toggle">
+                                AREA RISERVATA <i class="fa fa-angle-down mt-1 ms-1"></i>
+                            </a>
+                            <div class="dropdown-menu rounded-0 border-0 m-0">
+                                <a href="/my-orders" class="nav-item nav-link sublink py-2">I tuoi ordini</a>
+                                <a href="javascript:void(0);" onclick="logout()" class="nav-item nav-link sublink py-2">Esci</a>
+                            </div>
+                        </div>
+                    </div>
 
  
-                    </div>
+                   
                 </div>
             </nav>
         </div>
