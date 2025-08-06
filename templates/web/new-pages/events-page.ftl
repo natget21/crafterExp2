@@ -18,6 +18,8 @@
         <div class="container mb-5">
             <div class="row g-4">
                 
+                <#assign name = "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" />
+                <#assign description = "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" />
                 <#assign image = "https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" />
                 <div class="col-md-4">
                     <div class="card h-100 shadow-sm">
