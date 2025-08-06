@@ -16,7 +16,7 @@
         </div>
  
         <div class="container mb-5">
-            <div class="row g-4">
+            <div class="row g-0 border">
                 <#assign events = siteItemService.getSiteTree('/site/components/events', 1)>
                 <#list events.childItems as child>
                     <#assign event = siteItemService.getSiteItem(child.storeUrl) />
