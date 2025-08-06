@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/event_type</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2968</objectGroupId>
+	<objectId>2968f51c-baef-a614-2f35-421746b319d6</objectId>
+	<internal-name>Notte d’Estate in Terrazza</internal-name>
+	<title_s>Notte d’Estate in Terrazza</title_s>
+	<file-name>2968f51c-baef-a614-2f35-421746b319d6.xml</file-name>
+	<folder-name/>
+	<description_t>Una serata elegante sotto le stelle, con degustazione di vini locali, finger food gourmet e musica jazz dal vivo. La terrazza panoramica sarà allestita con luci soffuse e tavoli condivisi per favorire l’incontro e la convivialità.</description_t>
+	<image_s/>
+	<createdDate>2025-08-06T12:27:17.560Z</createdDate>
+	<createdDate_dt>2025-08-06T12:27:17.560Z</createdDate_dt>
+	<lastModifiedDate>2025-08-06T12:27:17.560Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-08-06T12:27:17.560Z</lastModifiedDate_dt>
+</component>
