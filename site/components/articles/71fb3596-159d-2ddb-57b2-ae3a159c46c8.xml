@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/article_type</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>71fb</objectGroupId>
+	<objectId>71fb3596-159d-2ddb-57b2-ae3a159c46c8</objectId>
+	<file-name>71fb3596-159d-2ddb-57b2-ae3a159c46c8.xml</file-name>
+	<folder-name/>
+	<internal-name>1</internal-name>
+	<title_s>Nuova Terrazza Panoramica Apre in Centro</title_s>
+	<description_t>È stata inaugurata oggi la nuova terrazza panoramica in Piazza Duomo, con vista a 360° sulla città. L'accesso sarà gratuito per tutto il mese di agosto e ospiterà eventi serali, degustazioni e concerti.</description_t>
+	<image_s/>
+	<createdDate>2025-08-06T13:14:42.293Z</createdDate>
+	<createdDate_dt>2025-08-06T13:14:42.293Z</createdDate_dt>
+	<lastModifiedDate>2025-08-06T13:14:42.293Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-08-06T13:14:42.293Z</lastModifiedDate_dt>
+	<date_dt>2025-08-05T22:00:00.000Z</date_dt>
+	<date_dt_tz>Europe/Rome</date_dt_tz>
+</component>
