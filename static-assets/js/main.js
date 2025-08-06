@@ -104,13 +104,18 @@
 
 console.log("Global script attached!");
 window.addEventListener('message', (event) => {
-    const receivedRoute = event.data;
-    console.log('Socket Message', receivedRoute);
+    const data = event.data;
+    let loggedIn = false;
+    if(data) {
+        const jsonData = JSON.parse(data);
+        console.log('Socket Message', jsonData);
+        loggedIn = jsonData.status === 'loggedIn';
+    }
+    
     const notAuthenticatedArea = document.getElementById('not-authenticated-area');
     const authenticatedArea = document.getElementById('authenticated-area');
-    if(!notAuthenticatedArea || !authenticatedArea) { return; }
     const user = localStorage.getItem("crafterVadinUser");
-    if(user) {
+    if(loggedIn || user) {
         authenticatedArea.style.display = "block";
         notAuthenticatedArea.style.display = "none";
     } else {
