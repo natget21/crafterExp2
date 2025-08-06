@@ -1,4 +1,4 @@
-<footer style="position: relative; bottom: 0; width: 100%;">
+<footer class="mt-5" style="position: relative; bottom: 0; width: 100%;">
     <!-- Footer Start -->
     <div class="container-fluid text-secondary">
         <!--
