@@ -305,13 +305,8 @@
 
 
     
-        <!-- Footer Section -->
-    <#include "/templates/web/fragments/footer-no-padding.ftl">
-
-    
-        <!-- Scripts -->
-    <#include "/templates/web/fragments/scripts.ftl">
-
-    <@crafter.body_bottom/>
-</body>
+        <#include "/templates/web/fragments/footer.ftl">
+        <#include "/templates/web/fragments/scripts.ftl">
+        <@crafter.body_bottom/>
+    </body>
 </html>
