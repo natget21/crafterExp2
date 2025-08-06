@@ -65,7 +65,7 @@
                     &copy; <a class="text-primary" href="#">Domain</a>. Tutti i diritti riservati.
                 </p>
             </div>
-            <div class="col-md-6 px-xl-0 text-center text-md-right">
+            <div class="col-md-6 px-xl-0 text-center text-md-right py-4">
                 <img class="img-fluid" src="img/payments.png" alt="">
             </div>
         </div>
