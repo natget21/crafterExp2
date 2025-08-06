@@ -28,7 +28,6 @@
     
     <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
-    <#include "/templates/web/fragments/static-navigation.ftl">
     
 
     <iframe id="partnerFrame" src="https://ideale.shortcut.uno/account-login?themeStyle=light&headerTitle=InnovationManager&switchMode=Ok" width="100%" height="750px" frameborder="0"></iframe>
