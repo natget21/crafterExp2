@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/event_type</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8149</objectGroupId>
+	<objectId>8149924d-9cf3-46b8-7533-83ed215117d9</objectId>
+	<file-name>8149924d-9cf3-46b8-7533-83ed215117d9.xml</file-name>
+	<folder-name/>
+	<internal-name>2</internal-name>
+	<title_s>Retro Gaming Day</title_s>
+	<description_t>Un’intera giornata dedicata agli amanti del vintage videoludico! Tornei con console anni '80-'90 (NES, SNES, SEGA), area arcade con cabinati originali, cosplay a tema e workshop su storia e collezionismo del retrogaming.</description_t>
+	<image_s/>
+	<createdDate>2025-08-06T12:29:48.954Z</createdDate>
+	<createdDate_dt>2025-08-06T12:29:48.954Z</createdDate_dt>
+	<lastModifiedDate>2025-08-06T12:29:48.954Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-08-06T12:29:48.954Z</lastModifiedDate_dt>
+</component>
