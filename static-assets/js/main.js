@@ -115,8 +115,8 @@ window.addEventListener("message", (event) => {
     if(loggedIn) {
         const user = {
             access_token: "",
-            organizationId: "",
-            projectId: ""
+            organizationId:"67ac78b641f3e43f93473810",
+            projectId:"68626fe9b307486bc6b5276b"
         };
         localStorage.setItem("crafterVadinUser", JSON.stringify(user));
     } else {
