@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/article_type</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5bca</objectGroupId>
+	<objectId>5bca5cca-9aec-63db-c115-36be00e9194f</objectId>
+	<file-name>5bca5cca-9aec-63db-c115-36be00e9194f.xml</file-name>
+	<folder-name/>
+	<internal-name>2</internal-name>
+	<title_s>Torna il Festival del Videogioco Retrò</title_s>
+	<description_t>Dal 10 al 12 agosto, il Centro Fieristico ospiterà il Festival del Videogioco Retrò. Oltre 100 postazioni arcade, tornei a tema, mercatini vintage e ospiti dal mondo del gaming anni ’80-’90.</description_t>
+	<image_s/>
+	<date_dt>2025-08-07T22:00:00.000Z</date_dt>
+	<createdDate>2025-08-06T13:15:58.380Z</createdDate>
+	<createdDate_dt>2025-08-06T13:15:58.380Z</createdDate_dt>
+	<lastModifiedDate>2025-08-06T13:15:58.380Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-08-06T13:15:58.380Z</lastModifiedDate_dt>
+	<date_dt_tz>Europe/Rome</date_dt_tz>
+</component>
