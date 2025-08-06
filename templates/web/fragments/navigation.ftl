@@ -94,7 +94,7 @@
                                 AREA RISERVATA <i class="fa fa-angle-down mt-1 ms-1"></i>
                             </a>
                             <div class="dropdown-menu rounded-0 border-0 m-0">
-                                <a href="/my-orders" class="nav-item nav-link sublink py-2">I tuoi ordini</a>
+                                <a href="/my-orders" class="nav-item nav-link sublink py-2">Dashboard</a>
                                 <a id="logout-link" href="javascript:void(0);" onclick="logout()" class="nav-item nav-link sublink py-2">Esci</a>
                             </div>
                         </div>
