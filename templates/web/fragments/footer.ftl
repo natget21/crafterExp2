@@ -1,13 +1,14 @@
 <footer>
     <!-- Footer Start -->
     <div class="container-fluid text-secondary pt-5">
+        <!--
         <div class="row px-xl-5 pt-5">
             <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
                 <h5 class="text-secondary text-uppercase mb-4">Rimani in contatto</h5>
                 <p class="mb-4">Siamo sempre a disposizione. Scrivici o vieni a trovarci:</p>
                 <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Marche, Italia</p>
                 <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>innovation@synthesis3.it</p>
-                <!--<p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+39 345 67890</p>-->
+                <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+39 345 67890</p>
             </div>
             <div class="col-lg-8 col-md-12">
                 <div class="row">
@@ -19,7 +20,7 @@
                             <a class="text-secondary mb-2" href="/project"><i class="fa fa-angle-right mr-2"></i>Il progetto</a>
                             <a class="text-secondary mb-2" href="/services"><i class="fa fa-angle-right mr-2"></i>Servizi</a>
                             <a class="text-secondary mb-2" href="/contact"><i class="fa fa-angle-right mr-2"></i>Contatti</a>
-                            <!--<a class="text-secondary" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>-->
+                            <a class="text-secondary" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
                         </div>
                     </div>
                     <div class="col-md-4 mb-5">
@@ -28,9 +29,9 @@
                             <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Login client</a>
                             <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Login partner</a>
                             <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Login Hub manager</a>
-                            <!--<a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
+                            <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
                             <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
-                            <a class="text-secondary" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>-->
+                            <a class="text-secondary" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
                         </div>
                     </div>
                     <div class="col-md-4 mb-5">
@@ -44,18 +45,20 @@
                                 </div>
                             </div>
                         </form>
-                        <!--<h6 class="text-secondary text-uppercase mt-4 mb-3">Follow Us</h6>
+                        <h6 class="text-secondary text-uppercase mt-4 mb-3">Follow Us</h6>
                         <div class="d-flex">
                             <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
                             <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
                         </div>
-                        -->
+                        
                     </div>
                 </div>
             </div>
         </div>
+        -->
+        
         <div class="row border-top mx-xl-5 py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
             <div class="col-md-6 px-xl-0">
                 <p class="mb-md-0 text-center text-md-left text-secondary">
