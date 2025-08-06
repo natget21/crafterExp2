@@ -114,7 +114,7 @@ window.addEventListener("message", (event) => {
     }
     if(loggedIn) {
         const user = {
-            access_token: "Dummy",
+            access_token: "",
             organizationId: "",
             projectId: ""
         };
