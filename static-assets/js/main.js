@@ -114,7 +114,7 @@ window.addEventListener("message", (event) => {
     }
     if(loggedIn) {
         const user = {
-            
+            "id": 10
         };
         localStorage.setItem("crafterVadinUser", user);
         checkAuth();
