@@ -142,6 +142,7 @@ function checkAuth() {
     if(user) {
         authenticatedArea.style.display = "block";
         notAuthenticatedArea.style.display = "none";
+        checkIsPartnerOrHubManager();
     } else {
         authenticatedArea.style.display = "none";
         notAuthenticatedArea.style.display = "flex";
