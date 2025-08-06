@@ -28,7 +28,7 @@
                     </div>
                     <div class="col-md-7">
                         <div class="card-body d-flex flex-column h-100">
-                            <h5 class="card-title fw-bold">${title}</h5>
+                            <h5 class="card-title fw-bold text-primary">${title}</h5>
                             <p class="card-text">${description}</p>
                         </div>
                     </div>
