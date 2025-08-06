@@ -142,14 +142,14 @@ function checkAuth() {
         const user = JSON.parse(userData);
         authenticatedArea.style.display = "block";
         notAuthenticatedArea.style.display = "none";
-        checkIsPartnerOrHubManager(user);
+        handleLogoutLink(user);
     } else {
         authenticatedArea.style.display = "none";
         notAuthenticatedArea.style.display = "flex";
     }
 }
 
-function checkIsPartnerOrHubManager(user) {
+function handleLogoutLink(user) {
     const logoutLink = document.getElementById("logout-link");
     if(user.access_token) { logoutLink.style.display = "block"; } 
     else { logoutLink.style.display = "none"; }
