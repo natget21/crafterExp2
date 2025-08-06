@@ -24,7 +24,7 @@
                         <img src="${image}" class="card-img-top" alt="Notte d’Estate in Terrazza">
                         <div class="card-body">
                             <h5 class="card-title text-primary">Notte d’Estate in Terrazza</h5>
-                            <p class="card-text medium text-body-secondary">
+                            <p class="card-text small text-body-secondary">
                                 Una serata elegante sotto le stelle con degustazione di vini, finger food e musica jazz dal vivo in terrazza.
                             </p>
                         </div>
