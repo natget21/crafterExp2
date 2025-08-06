@@ -119,7 +119,6 @@ window.addEventListener("message", (event) => {
             projectId: ""
         };
         localStorage.setItem("crafterVadinUser", JSON.stringify(user));
-        checkAuth();
     } else {
         const userData = localStorage.getItem("crafterVadinUser");
         const user = JSON.parse(userData);
@@ -127,6 +126,7 @@ window.addEventListener("message", (event) => {
             localStorage.setItem("crafterVadinUser", "");
         }
     }
+    checkAuth();
 });
 
 document.addEventListener("DOMContentLoaded", () => {
