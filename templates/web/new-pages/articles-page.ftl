@@ -16,7 +16,7 @@
         </div>
  
         <div class="container mb-5">
-            <#assign events = siteItemService.getSiteTree('/site/components/events', 1)>
+            <#assign events = siteItemService.getSiteTree('/site/components/articles', 1)>
             <#list events.childItems as child>
                 <#assign event = siteItemService.getSiteItem(child.storeUrl) />
                 <#assign title = event.title_s?default("Nessun titolo") />
