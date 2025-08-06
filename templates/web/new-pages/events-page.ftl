@@ -22,7 +22,7 @@
                 <#assign title = event.title_s?default("Nessun titolo") />
                 <#assign description = event.description_t?default("Nessuna descrizione") />
                 <#assign image = event.image_s?default("https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg") />
-                <div class="row g-0 border-bottom mt-1">
+                <div class="row g-0 border-bottom py-1">
                     <div class="col-md-5">
                         <img src="${image}" class="img-fluid rounded-start object-fit-cover h-100" alt="${title}">
                     </div>
