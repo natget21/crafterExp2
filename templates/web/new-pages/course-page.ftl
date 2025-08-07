@@ -65,6 +65,62 @@
         </#if>
         
         
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
+                if(!user) {
+                    const orderHandler = document.getElementById("orderHandler");
+                    orderHandler.classList.remove("d-flex");
+                    orderHandler.classList.add("d-none");
+                }
+            });
+            
+          const quantitySpan = document.getElementById('quantity');
+          const increaseBtn = document.getElementById('increase');
+          const decreaseBtn = document.getElementById('decrease');
+          let quantity = 1;
+        
+          increaseBtn.addEventListener("click", () => {
+            quantity++;
+            quantitySpan.textContent = quantity;
+          });
+        
+          decreaseBtn.addEventListener("click", () => {
+            if (quantity > 1) {
+              quantity--;
+              quantitySpan.textContent = quantity;
+            }
+          });
+          
+          async function makeOrder() {
+            const user = JSON.parse(localStorage.getItem('crafterVadinUser'));
+            const body = {
+              'productCode': '${course.codice_s!""}',
+              'cup': '${course.cup_s!""}',
+              'agevolazione': ${course.agevolazione_b?default(false)?string("true", "false")},
+              'productName': '${course.name_s!""}',
+              'partnerId': '${course.partnerId_s!""}',
+              'productQty': '' + quantity,
+              'productPrice': '${course.costo_s!"0"}',
+              'clientId': user._id,
+              'itemUrl': '${storeUrl!""}'
+            };
+            const url = 'https://api.shortcut.uno/v1/Ideale-request/request';
+            const response = await fetch(url, {
+              method: 'POST',
+              headers: {
+                "Authorization": "Bearer ${token}",
+                "Content-Type": 'application/json'
+              },
+              body: JSON.stringify(body)
+            });
+            if (response.ok) {
+                window.location.href = '/order-confirmed';
+            }
+          }
+        </script>
+        
         <#include "/templates/web/fragments/footer.ftl">
         <#include "/templates/web/fragments/scripts.ftl">
         <@crafter.body_bottom/>
