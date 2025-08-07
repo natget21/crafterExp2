@@ -106,7 +106,7 @@
               'clientId': user._id,
               'itemUrl': '${storeUrl!""}'
             };
-            const url = 'https://api.shortcut.uno/v1/Ideale-request/request';
+            const url = "https://api.shortcut.uno/v1/Ideale-request/request";
             const response = await fetch(url, {
               method: 'POST',
               headers: {
