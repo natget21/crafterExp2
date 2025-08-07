@@ -10,7 +10,7 @@
         <#include "/templates/web/fragments/navigation.ftl">
         
         <#assign course = siteItemService.getSiteItem(storeUrl) />
-        <#if course>
+        <#if course?has_content>
             <h5>${storeUrl}</h5>
         <#else>
             <h5>Nessun corso trovato.</h5>
