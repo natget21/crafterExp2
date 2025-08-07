@@ -64,7 +64,7 @@
             <#assign passwordRecoverUrl = passwordRecoverUrl + "className=com.jopSdk.modules.organization_ideale_marketplace.models.IdealeClientCompany&" />
             <#assign passwordRecoverUrl = passwordRecoverUrl + "passwordFieldName=aziendaPassword&" />
             <#assign passwordRecoverUrl = passwordRecoverUrl + "userIdentifierFieldName=aziendaContactEmail" />
-            <a href="${passwordRecoverUrl}" target="_blank">test</a>
+            <a href="${passwordRecoverUrl}" target="_blank">Password dimenticata?</a>
             <button id="client-login-button" type="submit" class="btn client-login-button w-100 text-white" disabled>Log in</button>
           </form>
         </div>
