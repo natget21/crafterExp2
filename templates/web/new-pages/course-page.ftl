@@ -11,7 +11,7 @@
         
         <#assign course = siteItemService.getSiteItem(storeUrl) />
         <#if course?has_content>
-            <h5>${storeUrl}</h5>
+            <h5>${course}</h5>
         <#else>
             <h5>Nessun corso trovato.</h5>
         </#if>
