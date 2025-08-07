@@ -60,6 +60,11 @@
               <input type="password" class="form-control" id="password" />
               <span class="toggle-password" onclick="togglePassword()"> </span>
             </div>
+            <#assign passwordRecoverUrl = "http://localhost:5000/v1/web/forgot-password?" />
+            <#assign passwordRecoverUrl = passwordRecoverUrl + "className=com.jopSdk.modules.organization_ideale_marketplace.models.IdealeClientCompany&" />
+            <#assign passwordRecoverUrl = passwordRecoverUrl + "passwordFieldName=aziendaPassword&" />
+            <#assign passwordRecoverUrl = passwordRecoverUrl + "userIdentifierFieldName=aziendaContactEmail" />
+            <a href="${passwordRecoverUrl}"></a>
             <button id="client-login-button" type="submit" class="btn client-login-button w-100 text-white" disabled>Log in</button>
           </form>
         </div>
