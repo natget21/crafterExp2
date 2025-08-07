@@ -16,6 +16,8 @@
             <#else>
                 <h5>Nessun corso trovato.</h5>
             </#if>
+        <#else>
+            <h5>Nessun corso trovato.</h5>
         </#if>
         
         
