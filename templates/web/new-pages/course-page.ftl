@@ -1,4 +1,5 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
+<#assign storeUrl = "/site/components/category/" + RequestParameters.id />
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
