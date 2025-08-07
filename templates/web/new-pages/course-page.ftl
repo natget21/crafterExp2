@@ -9,8 +9,13 @@
         <#include "/templates/web/fragments/header.ftl">
         <#include "/templates/web/fragments/navigation.ftl">
         
-        <#assign course = siteItemService.getItem()
-        <h5>${storeUrl}</h5>
+        <#assign course = siteItemService.getSiteItem(storeUrl) />
+        <#if course>
+            <h5>${storeUrl}</h5>
+        <#else>
+            <h5>Nessun corso trovato.</h5>
+        </#if>
+        
         
         <#include "/templates/web/fragments/footer.ftl">
         <#include "/templates/web/fragments/scripts.ftl">
