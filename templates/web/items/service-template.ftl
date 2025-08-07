@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#assign link = "/course-view?id=" + contentModel.storeUrl />
+<#assign link = "/course-view?id=" + contentModel.storeName />
 <#assign productId = contentModel.productid_s?default("") />
 <#assign name = contentModel.name_s?default("Nessun nome") />
 <#assign description = contentModel.descrizione_t?default("Nessuna descrizione.") />
