@@ -85,14 +85,14 @@
             async function loadPartner() {
                 const dd = document.getElementById("${course.partnerId_s}");
                 if(!dd) { return; }
-                const url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${partnerId}";
+                const url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${course.partnerId_s}";
                 const headers = { "Authorization": "Bearer ${token}" };
                 const response = await fetch(url, { method: "GET", headers });
                 if(response.ok) {
                     const partner = await response.json();
-                    dd.innerText = partner.partnerAzienda ?? "${partnerId}";
+                    dd.innerText = partner.partnerAzienda ?? "${course.partnerId_s}";
                 }
-                else { span.innerText = "${partnerId}"; }
+                else { span.innerText = "${course.partnerId_s}"; }
             }
             
             const quantitySpan = document.getElementById('quantity');
