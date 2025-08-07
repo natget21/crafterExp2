@@ -108,7 +108,7 @@
             };
             const url = "https://api.shortcut.uno/v1/Ideale-request/request";
             const response = await fetch(url, {
-              method: 'POST',
+              method: "POST",
               headers: {
                 "Authorization": "Bearer ${token}",
                 "Content-Type": 'application/json'
