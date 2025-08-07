@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/course</content-type>
+	<display-template>/templates/web/new-pages/course-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>60a5</objectGroupId>
+	<objectId>60a5f334-c721-f0dc-5990-c6ef45d30431</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>course-view</folder-name>
+	<internal-name>course</internal-name>
+	<navLabel>course</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-08-07T13:35:55.559Z</createdDate>
+	<createdDate_dt>2025-08-07T13:35:55.559Z</createdDate_dt>
+	<lastModifiedDate>2025-08-07T13:35:55.559Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-08-07T13:35:55.559Z</lastModifiedDate_dt>
+</page>
