@@ -79,52 +79,65 @@
                     orderHandler.classList.remove("d-flex");
                     orderHandler.classList.add("d-none");
                 }
-                
+                loadPartner();
             });
             
-          const quantitySpan = document.getElementById('quantity');
-          const increaseBtn = document.getElementById('increase');
-          const decreaseBtn = document.getElementById('decrease');
-          let quantity = 1;
-        
-          increaseBtn.addEventListener("click", () => {
-            quantity++;
-            quantitySpan.textContent = quantity;
-          });
-        
-          decreaseBtn.addEventListener("click", () => {
-            if (quantity > 1) {
-              quantity--;
-              quantitySpan.textContent = quantity;
+            async function loadPartner() {
+                const span = document.getElementById("${productId}");
+                if(!span) { return; }
+                const url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${partnerId}";
+                const headers = { "Authorization": "Bearer ${token}" };
+                const response = await fetch(url, { method: 'GET', headers });
+                if(response.ok) {
+                    const partner = await response.json();
+                    span.innerText = partner.partnerAzienda ?? "${partnerId}";
+                }
+                else { span.innerText = "${partnerId}"; }
             }
-          });
-          
-          async function makeOrder() {
-            const user = JSON.parse(localStorage.getItem('crafterVadinUser'));
-            const body = {
-              'productCode': '${course.codice_s!""}',
-              'cup': '${course.cup_s!""}',
-              'agevolazione': ${course.agevolazione_b?default(false)?string("true", "false")},
-              'productName': '${course.name_s!""}',
-              'partnerId': '${course.partnerId_s!""}',
-              'productQty': '' + quantity,
-              'productPrice': '${course.costo_s!"0"}',
-              'clientId': user._id,
-              'itemUrl': '${storeUrl!""}'
-            };
-            const url = "https://api.shortcut.uno/v1/Ideale-request/request";
-            const response = await fetch(url, {
-              method: "POST",
-              headers: {
-                "Authorization": "Bearer ${token}",
-                "Content-Type": 'application/json'
-              },
-              body: JSON.stringify(body)
+            
+            const quantitySpan = document.getElementById('quantity');
+            const increaseBtn = document.getElementById('increase');
+            const decreaseBtn = document.getElementById('decrease');
+            let quantity = 1;
+            
+            increaseBtn.addEventListener("click", () => {
+                quantity++;
+                quantitySpan.textContent = quantity;
             });
-            if (response.ok) {
-                window.location.href = '/order-confirmed';
+            
+            decreaseBtn.addEventListener("click", () => {
+                if(quantity > 1) {
+                    quantity--;
+                    quantitySpan.textContent = quantity;
+                }
+            });
+            
+            async function makeOrder() {
+                const user = JSON.parse(localStorage.getItem('crafterVadinUser'));
+                const body = {
+                  'productCode': '${course.codice_s!""}',
+                  'cup': '${course.cup_s!""}',
+                  'agevolazione': ${course.agevolazione_b?default(false)?string("true", "false")},
+                  'productName': '${course.name_s!""}',
+                  'partnerId': '${course.partnerId_s!""}',
+                  'productQty': '' + quantity,
+                  'productPrice': '${course.costo_s!"0"}',
+                  'clientId': user._id,
+                  'itemUrl': '${storeUrl!""}'
+                };
+                const url = "https://api.shortcut.uno/v1/Ideale-request/request";
+                const response = await fetch(url, {
+                  method: "POST",
+                  headers: {
+                    "Authorization": "Bearer ${token}",
+                    "Content-Type": 'application/json'
+                  },
+                  body: JSON.stringify(body)
+                });
+                if (response.ok) {
+                    window.location.href = '/order-confirmed';
+                }
             }
-          }
         </script>
         
         <#include "/templates/web/fragments/footer.ftl">
