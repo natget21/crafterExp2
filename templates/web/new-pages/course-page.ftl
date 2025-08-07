@@ -1,5 +1,5 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
-<#assign storeUrl = RequestParameters.storeUrl />
+<#assign storeUrl = RequestParameters.storeUrl?default("") />
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
@@ -10,7 +10,7 @@
         <#include "/templates/web/fragments/navigation.ftl">
  
         
-        <h5>Hello World!</h5>
+        <h5>${storeUrl}</h5>
         
         <#include "/templates/web/fragments/footer.ftl">
         <#include "/templates/web/fragments/scripts.ftl">
