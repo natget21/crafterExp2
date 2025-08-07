@@ -60,7 +60,7 @@
               <input type="password" class="form-control" id="password" />
               <span class="toggle-password" onclick="togglePassword()"> </span>
             </div>
-            <#assign passwordRecoverUrl = "https://ideale.shortcut.uno/v1/web/forgot-password?" />
+            <#assign passwordRecoverUrl = "https://ideale.shortcut.uno/web/forgot-password?" />
             <#assign passwordRecoverUrl = passwordRecoverUrl + "className=com.jopSdk.modules.organization_ideale_marketplace.models.IdealeClientCompany&" />
             <#assign passwordRecoverUrl = passwordRecoverUrl + "passwordFieldName=aziendaPassword&" />
             <#assign passwordRecoverUrl = passwordRecoverUrl + "userIdentifierFieldName=aziendaContactEmail" />
