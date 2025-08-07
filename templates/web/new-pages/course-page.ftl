@@ -79,6 +79,7 @@
                     orderHandler.classList.remove("d-flex");
                     orderHandler.classList.add("d-none");
                 }
+                
             });
             
           const quantitySpan = document.getElementById('quantity');
