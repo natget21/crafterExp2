@@ -65,7 +65,7 @@
             <#assign passwordRecoverUrl = passwordRecoverUrl + "passwordFieldName=aziendaPassword&" />
             <#assign passwordRecoverUrl = passwordRecoverUrl + "userIdentifierFieldName=aziendaContactEmail" />
             <button id="client-login-button" type="submit" class="btn client-login-button w-100 text-white" disabled>Log in</button>
-            <a class="d-block mx-auto" href="${passwordRecoverUrl}" target="_blank">Password dimenticata? clicca qui.</a>
+            <a class="d-block text-center" href="${passwordRecoverUrl}" target="_blank">Password dimenticata? clicca qui.</a>
           </form>
         </div>
       </div>
