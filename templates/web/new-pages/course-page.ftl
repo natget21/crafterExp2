@@ -83,14 +83,14 @@
             });
             
             async function loadPartner() {
-                const span = document.getElementById("${productId}");
-                if(!span) { return; }
+                const dd = document.getElementById("${productId}");
+                if(!dd) { return; }
                 const url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${partnerId}";
                 const headers = { "Authorization": "Bearer ${token}" };
                 const response = await fetch(url, { method: 'GET', headers });
                 if(response.ok) {
                     const partner = await response.json();
-                    span.innerText = partner.partnerAzienda ?? "${partnerId}";
+                    dd.innerText = partner.partnerAzienda ?? "${partnerId}";
                 }
                 else { span.innerText = "${partnerId}"; }
             }
