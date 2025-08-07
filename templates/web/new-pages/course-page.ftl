@@ -46,7 +46,7 @@
                         <dd class="col-sm-10">${course.cup_s?default("Nessun CUP")}</dd>
                       
                         <dt class="col-sm-2 text-primary fw-bold">Azienda</dt>
-                        <dd id="${courser.partnerId_s}" class="col-sm-10">------</dd>
+                        <dd id="${course.partnerId_s}" class="col-sm-10">------</dd>
                     </dl>
                   </div>
                 </div>
