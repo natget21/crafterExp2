@@ -112,7 +112,7 @@
                         { "title": "Imprese", "image": "imprese.png" },
                         { "title": "Pubblica Amministrazione", "image": "pa.png" },
                         { "title": "Enti del Terzo Settore", "image": "terzo-settore.png" },
-                        { "title": "Liberi Professionist", "image": "freelance.png" }
+                        { "title": "Liberi Professionisti", "image": "freelance.png" }
                     ] />
                     <div class="row px-0 mt-3">
                         <#list addressees as addressee>
@@ -124,8 +124,6 @@
                             </div>
                         </#list>
                     </div>
-
-                    
                 </div>
 
                 
