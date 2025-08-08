@@ -27,7 +27,7 @@
                 </div>
 
                 <!-- Obiettivi -->
-                <div class="mt-2">
+                <div class="mt-3">
                     <h2 class="title_section sub_title mb-4">
                         Obiettivi del progetto IDEALE
                     </h2>
@@ -53,7 +53,7 @@
                 </div>  
                 
                 <!-- Unicità -->
-                <div class="mt-2">
+                <div class="mt-3">
                     <h2 class="title_section sub_title">Cosa rende IDEALE unico?</h2>
                     <p>Una piattaforma progettata per generare valore condiviso:</p>
                     <ul>
@@ -73,13 +73,13 @@
                 </div>
                 
                 <!-- Servizi digitali -->
-                <div class="mt-5">
+                <div class="mt-3">
                 
                     <h2 class="services_section_title title_section">Servizi e Prodotti</h2>
                     <p class="services_section_description mb-0 mt-3">
                         La piattaforma offre un'ampia gamma di prodotti e servizi digitali pensati per facilitare l'adozione di tecnologie innovative, lo sviluppo delle competenze digitali, l'accesso ai finanziamenti e la creazione di reti collaborative tra aziende, startup, istituzioni ed Enti del Terzo settore. L'offerta si suddivide in due aree principali
                     </p>
-                    <div class="accordion" id="servicesAccordion">
+                    <div class="accordion mt-2" id="servicesAccordion">
                     
                         <div class="accordion-item">
                             <h2 class="accordion-header">
