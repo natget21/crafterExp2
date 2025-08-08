@@ -4,6 +4,7 @@
         <#if path_index < (size - 1)>
             <div>${path.name} ></div>
         <#else>
+            <div>${path.name}</div>
         </#if>
         <div>${size}</div>
     </#list>
