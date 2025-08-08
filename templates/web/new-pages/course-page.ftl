@@ -21,7 +21,7 @@
         
         <#assign paths = [
             {"name": "catalog", "link": "/catalog"},
-            {"name": ${course.name_s?default("Nessun nome")}, "link": ""}
+            {"name": course.name_s?default("Nessun nome"), "link": ""}
         ] />
         <#include "/templates/web/components/breadcrumb.ftl">
         
