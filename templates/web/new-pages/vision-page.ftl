@@ -118,9 +118,9 @@
                         <div class="row px-0 gap-3 mt-2">
                             <div class="col-12 col-md-3 d-flex justify-content-start flex-column align-items-start gap-3">
                                 <div class="imageContainer">
-                                    <img src="/static-assets/assets/imprese.png" alt="Imprese" style="width: 70px">
+                                    <img src="/static-assets/assets/${image}" alt="${name}" style="width: 70px">
                                 </div>
-                                <p class="addressee_text">Imprese</p>
+                                <p class="addressee_text">${name}</p>
                             </div>
                         </div>
                     </#list>
