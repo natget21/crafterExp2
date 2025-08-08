@@ -116,7 +116,7 @@
                         </div>
                         <p class="addressee_text">Imprese</p>
                       </div>
-                      </div>
+                  </div>
                     
                     
                     
