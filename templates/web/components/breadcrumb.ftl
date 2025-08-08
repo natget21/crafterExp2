@@ -3,9 +3,9 @@
     <div class="container d-flex">
         <#list paths as path>
             <#if path_index < (size - 1)>
-                <a>${path.name} ></a>
+                <a href="${path.link}">${path.name} ></a>
             <#else>
-                <a>${path.name}</a>
+                <a class="text-muted">${path.name}</a>
             </#if>
         </#list>
     </div>
