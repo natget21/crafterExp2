@@ -17,7 +17,7 @@
         
         <#assign paths = [
             {"name": "Partners", "link": "/partners-view"},
-            {"name": course.name_s?default("Nessun nome"), "link": ""}
+            {"name": partner.partnerAzienda?default("Nessun nome"), "link": ""}
         ] />
         <#include "/templates/web/components/breadcrumb.ftl">
     
