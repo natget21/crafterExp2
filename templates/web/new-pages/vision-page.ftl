@@ -72,71 +72,30 @@
                     </ul>
                 </div>
                 
-                <!-- Prodotti e Servizi -->
-                <div class="layout_padding services_section d-flex mx-auto flex-column justify-content-center col-11 col-md-9 px-0">
-            
-              <h2 class="services_section_title title_section">Prodotti e Servizi</h2>
-        
-              <p class="services_section_description mb-0 mt-3">La piattaforma offre un'ampia gamma di prodotti e servizi digitali pensati per facilitare l'adozione di tecnologie innovative, lo sviluppo delle competenze digitali, l'accesso ai finanziamenti e la creazione di reti collaborative tra aziende, startup, istituzioni ed Enti del Terzo settore. L'offerta si suddivide in due aree principali:</p>
-        
-            <!-- Prodotti digitali -->
-            <div class="mt-5">
-              <p class="title_section sub_title">Prodotti digitali</p>
-              <div class="accordion" id="productsAccordion">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#productOne" aria-expanded="false" aria-controls="productOne">
-                            E-services
-                        </button>
-                    </h2>
-                    <div id="productOne" class="accordion-collapse collapse" data-bs-parent="#productsAccordion">
-                      <div class="accordion-body">
-                          Microservizi completi con interfaccia utente, pronti all'uso per il cliente finale
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#productTwo" aria-expanded="false" aria-controls="productTwo">
-                            API
-                        </button>
-                    </h2>
-                    <div id="productTwo" class="accordion-collapse collapse" data-bs-parent="#productsAccordion">
-                      <div class="accordion-body">
-                          Interfacce di programmazione senza GUI, per l'integrazione diretta con altri sistemi
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-        
-            <!-- Servizi digitali -->
-            <div class="mt-5">
-            
-                <h2 class="services_section_title title_section">Servizi e Prodotti</h2>
-                <p class="services_section_description mb-0 mt-3">
-                    La piattaforma offre un'ampia gamma di prodotti e servizi digitali pensati per facilitare l'adozione di tecnologie innovative, lo sviluppo delle competenze digitali, l'accesso ai finanziamenti e la creazione di reti collaborative tra aziende, startup, istituzioni ed Enti del Terzo settore. L'offerta si suddivide in due aree principali
-                </p>
-                <div class="accordion" id="servicesAccordion">
+                <!-- Servizi digitali -->
+                <div class="mt-5">
                 
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serviceOne" aria-expanded="false" aria-controls="serviceOne">
-                                Test Before Invest
-                            </button>
-                        </h2>
-                        <div id="serviceOne" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion" style="">
-                            <div class="accordion-body">
-                                Servizi che permettono alle aziende di esplorare e testare nuove tecnologie e soluzioni prima di effettuare investimenti, attraverso dimostrazioni pratiche, studi di fattibilità, proof-of-concept, test e validazione di soluzioni.
+                    <h2 class="services_section_title title_section">Servizi e Prodotti</h2>
+                    <p class="services_section_description mb-0 mt-3">
+                        La piattaforma offre un'ampia gamma di prodotti e servizi digitali pensati per facilitare l'adozione di tecnologie innovative, lo sviluppo delle competenze digitali, l'accesso ai finanziamenti e la creazione di reti collaborative tra aziende, startup, istituzioni ed Enti del Terzo settore. L'offerta si suddivide in due aree principali
+                    </p>
+                    <div class="accordion" id="servicesAccordion">
+                    
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serviceOne" aria-expanded="false" aria-controls="serviceOne">
+                                    Test Before Invest
+                                </button>
+                            </h2>
+                            <div id="serviceOne" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion" style="">
+                                <div class="accordion-body">
+                                    Servizi che permettono alle aziende di esplorare e testare nuove tecnologie e soluzioni prima di effettuare investimenti, attraverso dimostrazioni pratiche, studi di fattibilità, proof-of-concept, test e validazione di soluzioni.
+                                </div>
                             </div>
                         </div>
                     </div>
+                  
                 </div>
-              
-            </div>
-
-                
-                
             </div>
         </div>
         
