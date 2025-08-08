@@ -80,19 +80,23 @@
                         La piattaforma offre un'ampia gamma di prodotti e servizi digitali pensati per facilitare l'adozione di tecnologie innovative, lo sviluppo delle competenze digitali, l'accesso ai finanziamenti e la creazione di reti collaborative tra aziende, startup, istituzioni ed Enti del Terzo settore. L'offerta si suddivide in due aree principali
                     </p>
                     <div class="accordion mt-2" id="servicesAccordion">
-                    
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serviceOne" aria-expanded="false" aria-controls="serviceOne">
-                                    Test Before Invest
-                                </button>
-                            </h2>
-                            <div id="serviceOne" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion" style="">
-                                <div class="accordion-body">
-                                    Servizi che permettono alle aziende di esplorare e testare nuove tecnologie e soluzioni prima di effettuare investimenti, attraverso dimostrazioni pratiche, studi di fattibilità, proof-of-concept, test e validazione di soluzioni.
+                        <#if services?has_content>
+                            <#list services.childItems as serviceItem>
+                                <#assign service = siteItemService.getSiteItem(serviceItem.storeUrl) />
+                                <#assign name = service.queryValue("name_s")?default("Nessun nome") />
+                                <#assign description = service.queryValue("description_t")?default("Nessuna descrizione") />
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serviceOne" aria-expanded="false" aria-controls="serviceOne">
+                                            Test Before Invest
+                                        </button>
+                                    </h2>
+                                    <div id="serviceOne" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion" style="">
+                                        <div class="accordion-body">
+                                            Servizi che permettono alle aziende di esplorare e testare nuove tecnologie e soluzioni prima di effettuare investimenti, attraverso dimostrazioni pratiche, studi di fattibilità, proof-of-concept, test e validazione di soluzioni.
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
                         
                     </div>
                 </div>
