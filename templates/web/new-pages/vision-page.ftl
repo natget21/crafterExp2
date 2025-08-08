@@ -37,9 +37,9 @@
                         <#list objectives as objective>
                             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
                                 <div class="obj d-flex gap-3">
-                                    <p><strong>Matching</strong></p>
+                                    <p><strong>${title}</strong></p>
                                 </div>
-                                <p class="desc"></p>
+                                <p class="desc">${desccription}</p>
                             </div>
                         </#list>
                     </div>
