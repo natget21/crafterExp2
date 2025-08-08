@@ -43,12 +43,6 @@
                 
                 
             </div>
-
-
-
-
-
-
         </div>
         
         <#include "/templates/web/fragments/footer.ftl">
