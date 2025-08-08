@@ -104,7 +104,6 @@
                     </div>
                 </div>
                 
-                
                 <!-- Destinatari -->
                 <div class="mt-3">
                     <h2 class="title_section sub_title">Destinatari</h2>
@@ -145,9 +144,7 @@
                         </#list>
                     </div>
                 </div>
-
-                
-                
+ 
             </div>
         </div>
         
