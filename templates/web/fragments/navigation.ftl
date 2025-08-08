@@ -44,7 +44,7 @@
                             </div>
                         </div>
                         
-                        <a href="/catalog" class="nav-item nav-link <#if currentUrl?starts_with("/catalog")>active</#if>">
+                        <a href="/catalog-view" class="nav-item nav-link <#if currentUrl?starts_with("/catalog")>active</#if>">
                             CATALOGO
                         </a>
                         
