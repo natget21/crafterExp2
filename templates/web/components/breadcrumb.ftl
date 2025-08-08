@@ -1,6 +1,6 @@
 <#assign size = paths?size />
-<div class="w-100" style="background-color: red;">
-    <div class="container d-flex border p-1 my-4">
+<div class="w-100">
+    <div class="container d-flex border p-1 my-4" style="background-color: red;">
         <#list paths as path>
             <#if path_index < (size - 1)>
                 <a href="${path.link}" class="text-muted d-block my-auto">${path.name}</a>
