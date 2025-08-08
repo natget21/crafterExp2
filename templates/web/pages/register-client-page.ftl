@@ -6,26 +6,6 @@
 <body>
 <@crafter.body_top/>
 
-    <header>
-        <div class="container-fluid">
-            <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
-                <div class="col-lg-4">
-                    <a href="" class="text-decoration-none">
-                        <img src="/static-assets/assets/ideale_logo.png" height="90px" />
-                        <!-- <span class="h1 text-uppercase text-primary bg-dark px-2">Ideale</span>
-                        <span class="h1 text-uppercase text-dark bg-primary px-2 ml-n1">Partner</span> -->
-                    </a>
-                </div>
-                <div class="col-lg-4 col-6 text-left">
-                    
-                </div>
-                <div class="col-lg-4 col-6 text-right">
-                    <a href="/login" class="btn btn-primary text-uppercase px-4" id="login-btn">Accedi/Registrati</a>
-                </div>
-            </div>
-        </div>
-    </header>
-    
     <!-- Navigation Section --> 
     <#include "/templates/web/fragments/navigation.ftl">
     
