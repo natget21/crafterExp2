@@ -37,7 +37,7 @@
                         <#list objectives as objective>
                             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
                                 <div class="obj d-flex gap-3">
-                                    <p><strong>${title}</strong></p>
+                                    <p><strong>${objective.title}</strong></p>
                                 </div>
                                 <p class="desc">${description}</p>
                             </div>
