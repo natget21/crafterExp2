@@ -31,7 +31,6 @@
                         Obiettivi del progetto IDEALE
                     </h2>
                     <#assign objectives = [
-                        { title: "Matching", description: "Connettere domanda e offerta in modo intelligente e rapido." }
                     ] />
                     <div class="objectives row row-gap-5">
                         <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
