@@ -108,7 +108,12 @@
                 <!-- Destinatari -->
                 <div class="mt-3">
                     <h2 class="title_section sub_title">Destinatari</h2>
-                    
+                    <#assign addressee = [
+                        { "title": "Imprese", "image": "imprese.png" },
+                        { "title": "Pubblica Amministrazione", "image": "pa.png" },
+                        { "title": "Enti del Terzo Settore", "image": "terzo-settore.png" },
+                        { "title": "Liberi Professionist", "image": "freelance.png" }
+                    ] />
                     <div class="row px-0 gap-3 mt-2">
                         <div class="col-12 col-md-3 d-flex justify-content-start flex-column align-items-start gap-3">
                             <div class="imageContainer">
