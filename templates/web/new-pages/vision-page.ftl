@@ -130,9 +130,9 @@
                 <div class="mt-3">
                     <h2 class="title_section sub_title">Settori Target</h2>
                     <#assign targets = [
-                        { "title": "Imprese", "image": "imprese.png" },
-                        { "title": "Pubblica Amministrazione", "image": "pa.png" },
-                        { "title": "Enti del Terzo Settore", "image": "terzo-settore.png" }
+                        { "title": "Cultura", "image": "cultura.png" },
+                        { "title": "Turismo", "image": "turismo.png" },
+                        { "title": "Sociale", "image": "sociale.png" }
                     ] />
                     <div class="row px-0 mt-3">
                         <#list targets as target>
