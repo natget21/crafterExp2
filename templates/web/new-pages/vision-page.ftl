@@ -114,7 +114,7 @@
                         { "title": "Enti del Terzo Settore", "image": "terzo-settore.png" },
                         { "title": "Liberi Professionist", "image": "freelance.png" }
                     ] />
-                    <div class="row px-0 gap-3 mt-2">
+                    <div class="row px-0 mt-2">
                         <#list addressees as addressee>
                             <div class="col-3">
                                 <div class="imageContainer">
