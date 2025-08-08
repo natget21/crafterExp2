@@ -1,5 +1,5 @@
 <#assign size = paths?size />
-<div class="w-100">
+<div class="w-100 bg-white">
     <div class="container d-flex border p-1 my-4">
         <#list paths as path>
             <#if path_index < (size - 1)>
