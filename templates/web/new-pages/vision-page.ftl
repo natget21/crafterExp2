@@ -39,7 +39,7 @@
                                 <div class="obj d-flex gap-3">
                                     <p><strong>${title}</strong></p>
                                 </div>
-                                <p class="desc">${desccription}</p>
+                                <p class="desc">${description}</p>
                             </div>
                         </#list>
                     </div>
