@@ -16,14 +16,15 @@
                 </div>
             </div>
 
-
-            <div class="marketing_section layout_padding mb-5">
-                <h2 class="marketing_title title_section">
-                    IDEALE è il punto d'incontro tra tecnologia, innovazione e impatto sociale.
-                </h2>
-                <p>
-                    Vogliamo costruire un ecosistema digitale dove imprese, pubbliche amministrazioni e terzo settore collaborano per progettare servizi intelligenti, inclusivi e sostenibili.
-                </p>
+            <div class="container">
+                <div class="marketing_section layout_padding">
+                    <h2 class="marketing_title title_section">
+                        IDEALE è il punto d'incontro tra tecnologia, innovazione e impatto sociale.
+                    </h2>
+                    <p>
+                        Vogliamo costruire un ecosistema digitale dove imprese, pubbliche amministrazioni e terzo settore collaborano per progettare servizi intelligenti, inclusivi e sostenibili.
+                    </p>
+                </div>
             </div>
 
 
