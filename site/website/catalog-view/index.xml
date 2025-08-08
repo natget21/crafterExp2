@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/catalog</content-type>
+	<display-template>/templates/web/new-pages/catalog-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f645</objectGroupId>
+	<objectId>f64527ae-fbbf-c9bb-6e09-4a5fe5020142</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>catalog-view</folder-name>
+	<internal-name>catalog</internal-name>
+	<navLabel>catalog</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-08-08T13:50:46.809Z</createdDate>
+	<createdDate_dt>2025-08-08T13:50:46.809Z</createdDate_dt>
+	<lastModifiedDate>2025-08-08T13:50:46.809Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-08-08T13:50:46.809Z</lastModifiedDate_dt>
+</page>
