@@ -137,7 +137,7 @@
                     <div class="row px-0 mt-3">
                         <#list targets as target>
                             <div class="col-3">
-                                <div class="imageContainer" style="heigth: 70px">
+                                <div style="heigth: 70px">
                                     <img src="/static-assets/assets/${target.image}" alt="${target.title}" style="width: 70px">
                                 </div>
                                 <p class="text-muted">${target.title}</p>
