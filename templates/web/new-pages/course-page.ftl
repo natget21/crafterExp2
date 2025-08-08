@@ -19,6 +19,10 @@
           </div>
         </div>
         
+        <#assign paths = [
+            {"name": "catalog", "link": "/catalog"},
+            {"name": ${course.name_s?default("Nessun nome")}, "link": ""}
+        ] />
         <#include "/templates/web/components/breadcrumb.ftl">
         
         <#if storeUrl?has_content>
