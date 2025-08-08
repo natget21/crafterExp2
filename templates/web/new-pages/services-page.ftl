@@ -22,8 +22,8 @@
             <#if categories?has_content>
                 <#list categories.childItems as categoryItem>
                     <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
-                    <#assign name = category.queryValue("name_s")?default("") />
-                    <#assign description = category.queryValue("description_t")?default("") />
+                    <#assign name = category.queryValue("name_s")?default("Nessun nome") />
+                    <#assign description = category.queryValue("description_t")?default("Nessuna descrizione") />
                     <#assign image = category.queryValue("image_s")?default("https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg") />
                     <div class="service mt-5 d-flex justify-content-between align-items-center">
                         <div class="d-flex flex-column align-items-center justify-content-center">
