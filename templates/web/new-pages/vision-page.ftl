@@ -12,7 +12,7 @@
             <div class="banner_section banner_partners layout_padding d-flex align-items-center">
                 <img class="banner_img" src="static-assets/assets/progetto.png">
                 <div class="container">
-                  <h1 class="best_taital text-center dark p-0">Partners</h1>
+                  <h1 class="best_taital text-center dark p-0">Visione</h1>
                 </div>
             </div>
             <h5>Hello World!</h5>
