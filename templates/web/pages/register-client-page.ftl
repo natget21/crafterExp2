@@ -7,6 +7,7 @@
 <@crafter.body_top/>
 
     <!-- Navigation Section --> 
+    <#include "/templates/web/fragments/header.ftl">
     <#include "/templates/web/fragments/navigation.ftl">
     
 
