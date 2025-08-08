@@ -1,4 +1,4 @@
-<footer style="">
+<footer>
     <!-- Footer Start -->
     <div class="container-fluid text-secondary">
         <!--
