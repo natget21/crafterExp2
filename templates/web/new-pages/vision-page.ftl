@@ -49,7 +49,26 @@
                             </div>
                         </#list>
                     </div>
-                </div>   
+                </div>  
+                
+                <div class="unicita">
+                    <h2 class="title_section sub_title">Cosa rende IDEALE unico?</h2>
+                    <p>Una piattaforma progettata per generare valore condiviso:</p>
+                    <ul>
+                        <li>
+                            <p><strong>AI e VR</strong> per connettere bisogni e soluzioni in modo personalizzato</p>
+                        </li>
+                        <li>
+                            <p><strong>Marketplace digitale</strong> per promuovere servizi innovativi</p>
+                        </li>
+                        <li>
+                            <p><strong>Formazione immersiva</strong> e adattiva</p>
+                        </li>
+                        <li>
+                            <p><strong>Strumenti di collaborazione real-time</strong>, come stanze virtuali e call for procurement</p>
+                        </li>
+                    </ul>
+                </div>
                 
                 
             </div>
