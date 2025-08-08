@@ -18,7 +18,7 @@
                             <i class="fa fa-home mt-1 me-2"></i> HOME
                         </a>
                         
-                        <a href="/project" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">
+                        <a href="/vision-view" class="nav-item nav-link <#if currentUrl?starts_with("/project")>active</#if>">
                             VISIONE
                         </a>
                             
