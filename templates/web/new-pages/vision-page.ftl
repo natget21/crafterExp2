@@ -89,11 +89,11 @@
                                 <#assign description = service.queryValue("description_t")?default("Nessuna descrizione") />
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${}" aria-expanded="false" aria-controls="serviceOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${id}" aria-expanded="false" aria-controls="${id}">
                                             ${name}
                                         </button>
                                     </h2>
-                                    <div id="service-${serviceItem_index}" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion" style="">
+                                    <div id="${id}" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion" style="">
                                         <div class="accordion-body">
                                             ${description}
                                         </div>
