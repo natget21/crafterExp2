@@ -114,16 +114,16 @@
                         { "title": "Enti del Terzo Settore", "image": "terzo-settore.png" },
                         { "title": "Liberi Professionist", "image": "freelance.png" }
                     ] />
-                    <#list addressees as addressee>
-                        <div class="row px-0 gap-3 mt-2">
+                    <div class="row px-0 gap-3 mt-2">
+                        <#list addressees as addressee>
                             <div class="col-12 col-md-3 d-flex justify-content-start flex-column align-items-start gap-3">
                                 <div class="imageContainer">
                                     <img src="/static-assets/assets/${addressee.image}" alt="${addressee.title}" style="width: 70px">
                                 </div>
                                 <p class="addressee_text">${addressee.title}</p>
                             </div>
-                        </div>
-                    </#list>
+                        </#list>
+                    </div>
 
                     
                 </div>
