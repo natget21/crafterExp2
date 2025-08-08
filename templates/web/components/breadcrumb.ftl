@@ -4,7 +4,7 @@
         <#list paths as path>
             <#if path_index < (size - 1)>
                 <a href="${path.link}" class="text-muted">${path.name}</a>
-                <i class="fa fa-angle-right"></i>
+                <i class="my-auto fa fa-angle-right"></i>
             <#else>
                 <a href="${path.link}" class="text-muted">${path.name}</a>
             </#if>
