@@ -6,7 +6,7 @@
                 <a href="${path.link}" class="text-muted d-block my-auto">${path.name}</a>
                 <i class="my-auto fa fa-angle-right"></i>
             <#else>
-                <a href="${path.link}" class="text-muted">${path.name}</a>
+                <a href="${path.link}" class="d-block my-auto text-muted">${path.name}</a>
             </#if>
         </#list>
     </div>
