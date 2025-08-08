@@ -120,7 +120,7 @@
                                 <div class="imageContainer">
                                     <img src="/static-assets/assets/${addressee.image}" alt="${addressee.title}" style="width: 70px">
                                 </div>
-                                <p class="small text-muted">${addressee.title}</p>
+                                <p class="text-muted">${addressee.title}</p>
                             </div>
                         </#list>
                     </div>
@@ -140,7 +140,7 @@
                                 <div class="imageContainer">
                                     <img src="/static-assets/assets/${target.image}" alt="${target.title}" style="width: 70px">
                                 </div>
-                                <p class="addressee_text">${target.title}</p>
+                                <p class="text-muted">${target.title}</p>
                             </div>
                         </#list>
                     </div>
