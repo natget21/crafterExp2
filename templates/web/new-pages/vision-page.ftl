@@ -117,7 +117,7 @@
                     <div class="row px-0 mt-3">
                         <#list addressees as addressee>
                             <div class="col-3">
-                                <div style="heigth: 70px">
+                                <div style="height: 70px">
                                     <img src="/static-assets/assets/${addressee.image}" alt="${addressee.title}" style="width: 70px">
                                 </div>
                                 <p class="text-muted">${addressee.title}</p>
