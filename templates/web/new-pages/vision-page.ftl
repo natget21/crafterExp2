@@ -72,7 +72,7 @@
                     </ul>
                 </div>
                 
-                <!-- Servizi digitali -->
+                <!-- Servizi e Prodotti -->
                 <div class="mt-3">
                 
                     <h2 class="title_section sub_title">Servizi e Prodotti</h2>
