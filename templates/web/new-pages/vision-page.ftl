@@ -125,6 +125,27 @@
                         </#list>
                     </div>
                 </div>
+                
+                <!-- Targets -->
+                <div class="mt-3">
+                    <h2 class="title_section sub_title">Settori Target</h2>
+                    <#assign addressees = [
+                        { "title": "Imprese", "image": "imprese.png" },
+                        { "title": "Pubblica Amministrazione", "image": "pa.png" },
+                        { "title": "Enti del Terzo Settore", "image": "terzo-settore.png" },
+                        { "title": "Liberi Professionisti", "image": "freelance.png" }
+                    ] />
+                    <div class="row px-0 mt-3">
+                        <#list addressees as addressee>
+                            <div class="col-3">
+                                <div class="imageContainer">
+                                    <img src="/static-assets/assets/${addressee.image}" alt="${addressee.title}" style="width: 70px">
+                                </div>
+                                <p class="addressee_text">${addressee.title}</p>
+                            </div>
+                        </#list>
+                    </div>
+                </div>
 
                 
                 
