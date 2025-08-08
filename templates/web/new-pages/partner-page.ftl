@@ -14,6 +14,12 @@
                 <h1 class="best_taital text-center dark p-0">Partner</h1>
             </div>
         </div>
+        
+        <#assign paths = [
+            {"name": "Partners", "link": "/partners-view"},
+            {"name": course.name_s?default("Nessun nome"), "link": ""}
+        ] />
+        <#include "/templates/web/components/breadcrumb.ftl">
     
         <div class="content pb-5 layout_padding col-11 col-md-9 mx-auto">
           <div class="d-flex flex-column flex-md-row">
@@ -25,7 +31,7 @@
               </div>
             </div>
             <div class="col-12 col-sm-5">
-              <img src="${partner.partnerCompanyLogoUrl?default("")}" alt="${partner.partnerAzienda?default("")}" class="logo w-100" />
+              <img src="${partner.partnerCompanyLogoUrl?default("")}" alt="${partner.partnerAzienda?default("Nessun nome")}" class="logo w-100" />
             </div>
           </div>
         </div>
