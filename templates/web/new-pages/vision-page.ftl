@@ -26,6 +26,7 @@
                     </p>
                 </div>
 
+                <!-- Obiettivi -->
                 <div class="mt-2">
                     <h2 class="title_section sub_title mb-4">
                         Obiettivi del progetto IDEALE
@@ -51,6 +52,7 @@
                     </div>
                 </div>  
                 
+                <!-- Unicità -->
                 <div class="mt-2">
                     <h2 class="title_section sub_title">Cosa rende IDEALE unico?</h2>
                     <p>Una piattaforma progettata per generare valore condiviso:</p>
