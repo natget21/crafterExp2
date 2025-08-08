@@ -89,12 +89,12 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serviceOne" aria-expanded="false" aria-controls="serviceOne">
-                                            Test Before Invest
+                                            ${name}
                                         </button>
                                     </h2>
                                     <div id="service-${serviceItem_index}" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion" style="">
                                         <div class="accordion-body">
-                                            Servizi che permettono alle aziende di esplorare e testare nuove tecnologie e soluzioni prima di effettuare investimenti, attraverso dimostrazioni pratiche, studi di fattibilità, proof-of-concept, test e validazione di soluzioni.
+                                            ${description}
                                         </div>
                                     </div>
                                 </div>
