@@ -32,7 +32,12 @@
                     </h2>
                     <div class="objectives row row-gap-5">
                         <#assign objectives = [
-                            { "title": "Matching", "description": "Connettere domanda e offerta in modo intelligente e rapido.", "image": "matching.png" }
+                            { "title": "Matching", "description": "Connettere domanda e offerta in modo intelligente e rapido.", "image": "matching.png" },
+                            { "title": "Co-progettazione", "description": "Favorire la co-progettazione tra startup, PMI, PA, università e grandi imprese.", "image": "co-progettazione.png" },
+                            { "title": "Digital Trasformation", "description": "Supportare la trasformazione digitale nei settori del turismo, cultura e sociale.", "image": "digital-trasformation.png" },
+                            { "title": "Business models", "description": "Promuovere modelli di business sostenibili e collaborativi.", "image": "business-model.png" },
+                            { "title": "Formazione innovativa", "description": "Innovare la formazione con tecnologie immersive e approcci esperienziali.", "image": "formazione-innovativa.png" },
+                            { "title": "Certificare le competenze", "description": "Misurare e certificare le competenze digitali, anche nella PA.", "image": "certificare-le-competenze.png" },
                         ] />
                         <#list objectives as objective>
                             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
