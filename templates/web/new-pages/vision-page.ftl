@@ -30,13 +30,16 @@
                     <h2 class="title_section sub_title mb-4">
                         Obiettivi del progetto IDEALE
                     </h2>
+                    <#assign objectives = [
+                        { title: "Matching", description: "Connettere domanda e offerta in modo intelligente e rapido." },
+                        { title: "", description: "", icon "" },
+                    ] />
                     <div class="objectives row row-gap-5">
                         <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
                             <div class="obj d-flex gap-3">
-                                <img class="obj_image" src="static-assets/assets/matching.png" alt="">
                                 <p><strong>Matching</strong></p>
                             </div>
-                            <p class="desc">Connettere domanda e offerta in modo intelligente e rapido.</p>
+                            <p class="desc"></p>
                         </div>
                     </div>
                 </div>   
