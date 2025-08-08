@@ -109,29 +109,16 @@
                 <div class="mt-3">
                     <h2 class="title_section sub_title">Destinatari</h2>
                     
-                    <div class="row layout_padding addressee px-0 gap-3">
+                    <div class="row px-0 gap-3">
+                    
                       <div class="col-12 col-md-3 d-flex justify-content-start flex-column align-items-start gap-3">
                         <div class="imageContainer">
                           <img src="/static-assets/assets/imprese.png" alt="Imprese" style="width: 70px">
                         </div>
                         <p class="addressee_text">Imprese</p>
                       </div>
-                  </div>
-                    
-                    
-                    
-                    <!--
-                    <div class="row">
-                        <div class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3">
-                            <div class="imageContainer">
-                              <img src="/static-assets/assets/imprese.png" alt="" style="width: 70px">
-                            </div>
-                          <p class="addressee_text d-flex justify-content-start">
-                              Imprese
-                          </p>
-                        </div>
+                      
                     </div>
-                    -->
                 </div>
 
                 
