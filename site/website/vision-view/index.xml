@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/vision</content-type>
+	<display-template>/templates/web/new-pages/vision-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>923a</objectGroupId>
+	<objectId>923a4e46-f764-40c9-d6d0-f67a733b57e9</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>vision-view</folder-name>
+	<internal-name>vision</internal-name>
+	<navLabel>vision</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-08-08T07:47:07.353Z</createdDate>
+	<createdDate_dt>2025-08-08T07:47:07.353Z</createdDate_dt>
+	<lastModifiedDate>2025-08-08T07:47:07.353Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-08-08T07:47:07.353Z</lastModifiedDate_dt>
+</page>
