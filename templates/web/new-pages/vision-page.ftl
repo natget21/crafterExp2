@@ -37,7 +37,7 @@
                         <#list objectives as objective>
                             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
                                 <div class="obj d-flex gap-3">
-                                    <img class="obj_image" src="static-assets/assets/${objective.image}" alt="">
+                                    <img class="obj_image" src="static-assets/assets/${objective.icon}" alt="">
                                     <p><strong>${objective.title}</strong></p>
                                 </div>
                                 <p class="desc">${objective.description}</p>
