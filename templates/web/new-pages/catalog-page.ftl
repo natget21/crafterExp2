@@ -55,7 +55,7 @@
                         <#list categories.childItems as categoryItem>
                             <#assign category = siteItemService.getSiteItem(categoryItem.storeUrl) />
                             <#assign categoryName = category.queryValue("internal-name")?default("") />
-                            <h5 class="mt-2">${category.name_s}:</h5>
+                            <h5 class="mt-2">${category.name_s?default("Nessun nome")}:</h5>
                             <#assign relatedSubCategories = subCategories.childItems?filter(subCategory -> (
                                 siteItemService.getSiteItem(subCategory.storeUrl)?has_content && 
                                 siteItemService.getSiteItem(subCategory.storeUrl).category_o?has_content && 
@@ -64,7 +64,7 @@
                             ) /> 
                             <#list relatedSubCategories as subCategoryItem>
                                 <#assign subCategory = siteItemService.getSiteItem(subCategoryItem.storeUrl) />
-                                <#assign subCategoryName = subCategory.queryValue("name_s")?default("") />
+                                <#assign subCategoryName = subCategory.queryValue("name_s")?default("Nessun nome") />
                                 <a href="/catalog?category=${subCategoryName}" class="d-block ms-3">- ${subCategoryName}</a>
                             </#list>
                         </#list>
