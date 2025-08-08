@@ -35,7 +35,7 @@
 
 
     <!-- Footer Section -->
-    <#include "/templates/web/fragments/foote.ftl">
+    <#include "/templates/web/fragments/footer.ftl">
 
     <!-- Scripts -->
     <#include "/templates/web/fragments/scripts.ftl">
