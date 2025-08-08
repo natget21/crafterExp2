@@ -116,7 +116,7 @@
                     ] />
                     <div class="row px-0 gap-3 mt-2">
                         <#list addressees as addressee>
-                            <div class="col-4">
+                            <div class="col-3">
                                 <div class="imageContainer">
                                     <img src="/static-assets/assets/${addressee.image}" alt="${addressee.title}" style="width: 70px">
                                 </div>
