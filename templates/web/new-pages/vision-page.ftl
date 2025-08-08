@@ -108,41 +108,18 @@
                 <!-- Destinatari -->
                 <div class="mt-3">
                     <h2 class="title_section sub_title">Destinatari</h2>
-            <div class="row pl-3">
-                <div class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3">
-                    <div class="imageContainer">
-                      <img src="/static-assets/assets/imprese.png" alt="" style="width: 70px">
+                    <div class="row">
+                        <div class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3">
+                            <div class="imageContainer">
+                              <img src="/static-assets/assets/imprese.png" alt="" style="width: 70px">
+                            </div>
+                          <p class="addressee_text d-flex justify-content-start">
+                              Imprese
+                          </p>
+                        </div>
                     </div>
-                  <p class="addressee_text d-flex justify-content-start">
-                      Imprese
-                  </p>
                 </div>
-                <div class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3">
-                    <div class="imageContainer">
-                      <img src="/static-assets/assets/pa.png" alt="" style="width: 100px">
-                    </div>
-                  <p class="addressee_text d-flex justify-content-start">
-                      Pubblica Amministrazione
-                  </p>
-                </div>
-                <div class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3">
-                    <div class="imageContainer">
-                      <img src="/static-assets/assets/terzo-settore.png" alt="" style="width: 90px">
-                    </div>
-                  <p class="addressee_text d-flex justify-content-start">
-                      Enti del Terzo Settore
-                  </p>
-                </div>
-                <div class="layout_padding addressee px-0 col-12 col-md-3 d-flex justify-content-start flex-column gap-3">
-                    <div class="imageContainer">
-                      <img src="/static-assets/assets/freelance.png" alt="" style="width: 80px">
-                    </div>
-                  <p class="addressee_text d-flex justify-content-start">
-                      Liberi Professionisti
-                  </p>
-                </div>
-            </div>
-          </div>
+
                 
                 
             </div>
