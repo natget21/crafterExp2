@@ -34,7 +34,7 @@
                         <#assign objectives = [
                             { "title": "Matching", "description": "Connettere domanda e offerta in modo intelligente e rapido.", "icon": "" }
                         ] />
-                        <#list>
+                        <#list objectives as objective>
                             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
                                 <div class="obj d-flex gap-3">
                                     <p><strong>Matching</strong></p>
