@@ -20,7 +20,8 @@
         </div>
         
         <#assign paths = [
-            {"name": "catalog", "link": "/catalog"},
+            {"name": "Catalogo", "link": "/catalog"},
+            {"name": "Catalogo", "link": "/catalog"},
             {"name": course.name_s?default("Nessun nome"), "link": ""}
         ] />
         <#include "/templates/web/components/breadcrumb.ftl">
