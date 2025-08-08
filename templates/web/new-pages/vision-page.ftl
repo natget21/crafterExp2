@@ -80,7 +80,7 @@
                         La piattaforma offre un'ampia gamma di prodotti e servizi digitali pensati per facilitare l'adozione di tecnologie innovative, lo sviluppo delle competenze digitali, l'accesso ai finanziamenti e la creazione di reti collaborative tra aziende, startup, istituzioni ed Enti del Terzo settore. L'offerta si suddivide in due aree principali
                     </p>
                     <div class="accordion mt-2" id="servicesAccordion">
-                        <#assign services = siteItemService.getSiteTree('/site/components/events', 1)>
+                        <#assign services = siteItemService.getSiteTree('/site/components/category', 1)>
                         <#if services?has_content>
                             <#list services.childItems as serviceItem>
                                 <#assign service = siteItemService.getSiteItem(serviceItem.storeUrl) />
