@@ -32,11 +32,12 @@
                     </h2>
                     <div class="objectives row row-gap-5">
                         <#assign objectives = [
-                            { "title": "Matching", "description": "Connettere domanda e offerta in modo intelligente e rapido.", "icon": "" }
+                            { "title": "Matching", "description": "Connettere domanda e offerta in modo intelligente e rapido.", "icon": "matching.png" }
                         ] />
                         <#list objectives as objective>
                             <div class="d-flex flex-column col-12 col-md-6 col-lg-4">
                                 <div class="obj d-flex gap-3">
+                                    <img class="obj_image" src="static-assets/assets/${objective.image}" alt="">
                                     <p><strong>${objective.title}</strong></p>
                                 </div>
                                 <p class="desc">${objective.description}</p>
