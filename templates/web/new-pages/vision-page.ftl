@@ -83,12 +83,13 @@
                         <#assign services = siteItemService.getSiteTree('/site/components/category', 1)>
                         <#if services?has_content>
                             <#list services.childItems as serviceItem>
+                                <#assign id = "service-" + serviceItem_index />
                                 <#assign service = siteItemService.getSiteItem(serviceItem.storeUrl) />
                                 <#assign name = service.queryValue("name_s")?default("Nessun nome") />
                                 <#assign description = service.queryValue("description_t")?default("Nessuna descrizione") />
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serviceOne" aria-expanded="false" aria-controls="serviceOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${}" aria-expanded="false" aria-controls="serviceOne">
                                             ${name}
                                         </button>
                                     </h2>
