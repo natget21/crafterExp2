@@ -8,8 +8,17 @@
     <objectId>bc13c53a-095e-48ed-817a-ed89f1badaff</objectId>
     <file-name>bc13c53a-095e-48ed-817a-ed89f1badaff.xml</file-name>
     <folder-name/>
+    <internal-name>PROJECT DEVELOPMENT</internal-name>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>bc13</objectGroupId>
+    <objectId>bc13c53a-095e-48ed-817a-ed89f1badaff</objectId>
+    <file-name>bc13c53a-095e-48ed-817a-ed89f1badaff.xml</file-name>
+    <folder-name/>
     <internal-name>INTELLIGENZA ARTIFICIALE GENERATIVA E PRINCIPI DI PROMPT DESIGN</internal-name>
-    <name_s>Intelligenza Artificiale Generativa e principi di Prompt Design</name_s>
+    <name_s>Project Development</name_s>
     <obiettivo_html>&lt;p&gt;
 
 
@@ -19,11 +28,6 @@
 &lt;/p&gt;&lt;p&gt;
 
 
-&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
- &lt;o:OfficeDocumentSettings&gt;
-  &lt;o:AllowPNG/&gt;
- &lt;/o:OfficeDocumentSettings&gt;
-&lt;/xml&gt;&lt;![endif]--&gt;
 
 
 &lt;!--[if gte mso 9]&gt;&lt;xml&gt;
@@ -53,6 +57,7 @@
    &lt;w:DontFlipMirrorIndents/&gt;
    &lt;w:OverrideTableStyleHps/&gt;
   &lt;/w:Compatibility&gt;
+  &lt;w:DoNotOptimizeForBrowser/&gt;
   &lt;m:mathPr&gt;
    &lt;m:mathFont m:val="Cambria Math"/&gt;
    &lt;m:brkBin m:val="before"/&gt;
@@ -657,34 +662,31 @@
 	mso-font-pitch:variable;
 	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
 @font-face
-	{font-family:Aptos;
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
 	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:"Arial MT";
+	mso-font-alt:Arial;
+	mso-font-charset:1;
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
-	mso-font-signature:536871559 3 0 0 415 0;}
+	mso-font-signature:0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-parent:"";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:0cm;
-	line-height:107%;
-	mso-pagination:widow-orphan;
+	margin:0cm;
+	mso-pagination:none;
+	text-autospace:none;
 	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Aptos;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-font-kerning:1.0pt;
-	mso-ligatures:standardcontextual;
+	font-family:"Arial MT",sans-serif;
+	mso-fareast-font-family:"Arial MT";
+	mso-bidi-font-family:"Arial MT";
 	mso-fareast-language:EN-US;}
 .MsoChpDefault
 	{mso-style-type:export-only;
@@ -692,20 +694,23 @@
 	font-size:11.0pt;
 	mso-ansi-font-size:11.0pt;
 	mso-bidi-font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Aptos;
+	mso-fareast-font-family:Calibri;
 	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Aptos;
+	mso-hansi-font-family:Calibri;
 	mso-hansi-theme-font:minor-latin;
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:0pt;
+	mso-ligatures:none;
+	mso-ansi-language:EN-US;
 	mso-fareast-language:EN-US;}
 .MsoPapDefault
 	{mso-style-type:export-only;
-	margin-bottom:8.0pt;
-	line-height:107%;}
+	mso-pagination:none;
+	text-autospace:none;}
 @page WordSection1
 	{size:612.0pt 792.0pt;
 	margin:70.85pt 2.0cm 2.0cm 2.0cm;
@@ -727,42 +732,38 @@ div.WordSection1
 	mso-style-priority:99;
 	mso-style-parent:"";
 	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
-	mso-para-margin-top:0cm;
-	mso-para-margin-right:0cm;
-	mso-para-margin-bottom:8.0pt;
-	mso-para-margin-left:0cm;
-	line-height:107%;
-	mso-pagination:widow-orphan;
+	mso-para-margin:0cm;
+	mso-pagination:none;
+	text-autospace:none;
 	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
-	mso-hansi-font-family:Aptos;
+	mso-hansi-font-family:Calibri;
 	mso-hansi-theme-font:minor-latin;
-	mso-font-kerning:1.0pt;
-	mso-ligatures:standardcontextual;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-US;
 	mso-fareast-language:EN-US;}
 &lt;/style&gt;
 &lt;![endif]--&gt;
 
 
 
-&lt;!--StartFragment--&gt;&lt;span style=""&gt;Hai
-mai immaginato di &lt;b&gt;dialogare con una macchina&lt;/b&gt; come faresti con una
-persona? &lt;br&gt;
-Questo pensiero ti spaventa o ti stimola? &lt;br&gt;
-Le &lt;b&gt;opportunità dell’IA sono infinite&lt;/b&gt;, ma solo per chi sa coglierle e
-governarle!&lt;br&gt;
-Con questo percorso di microlearning, caratterizzato da contenuti audio-video e
-attività interattive in formato multimediale, avrai una panoramica &lt;b&gt;sull’Intelligenza
-Artificiale Generativa&lt;/b&gt; e i principi di &lt;b&gt;Prompt Design&lt;/b&gt;.&lt;/span&gt;&lt;!--EndFragment--&gt;
+&lt;!--StartFragment--&gt;
+
+&lt;p style="text-align: justify;"&gt;&lt;span style=""&gt;Fornire un supporto completo per la gestione di progetti finanziati,
+dalla fase di ideazione fino alla rendicontazione finale, garantendo il
+rispetto delle normative e una gestione ottimale delle risorse.&lt;/span&gt;&lt;/p&gt;
+
+&lt;!--EndFragment--&gt;
 
 
 
 &lt;br&gt;&lt;/p&gt;</obiettivo_html>
     <descrizione_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</descrizione_html>
     <partnerId_s>680906dd693aa6484a014063</partnerId_s>
-    <codice_s>ELEARNING-AI</codice_s>
+    <codice_s>4.2</codice_s>
     <descrizione_t>Percorso di microlearning sull’Intelligenza Artificiale Generativa e i principi di Prompt Design.</descrizione_t>
     <informazionisulcosto_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</informazionisulcosto_html>
     <productid_s>PRO_c7f925e9</productid_s>
@@ -775,4 +776,12 @@ Artificiale Generativa&lt;/b&gt; e i principi di &lt;b&gt;Prompt Design&lt;/b&gt
     <createdDate_dt>2025-08-26T11:16:02.435Z</createdDate_dt>
     <lastModifiedDate>2025-08-26T11:16:02.435Z</lastModifiedDate>
     <lastModifiedDate_dt>2025-08-26T11:16:02.435Z</lastModifiedDate_dt>
+    <localId>/site/components/services/skills-and-training/formazione-tailor-made-tecnica-e-manageriale/bc13c53a-095e-48ed-817a-ed89f1badaff.xml</localId>
+    <rootId>ideale:/site/components/services/skills-and-training/formazione-tailor-made-tecnica-e-manageriale/bc13c53a-095e-48ed-817a-ed89f1badaff.xml</rootId>
+    <agevolazione_b>true</agevolazione_b>
+    <rivolto_t>PA e Imprese</rivolto_t>
+    <createdDate>2025-08-26T11:51:27.639Z</createdDate>
+    <createdDate_dt>2025-08-26T11:51:27.639Z</createdDate_dt>
+    <lastModifiedDate>2025-08-26T11:51:27.639Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-08-26T11:51:27.639Z</lastModifiedDate_dt>
 </component>
