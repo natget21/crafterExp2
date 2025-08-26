@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>9ad0</objectGroupId>
+    <objectId>9ad01f68-894e-4114-a557-9272fa0c0708</objectId>
+    <file-name>9ad01f68-894e-4114-a557-9272fa0c0708.xml</file-name>
+    <folder-name/>
+    <internal-name>TRANSIZIONE ECOLOGICA: DIVENTA UN AGENTE DEL CAMBIAMENTO</internal-name>
+    <name_s>Transizione Ecologica: diventa un agente del cambiamento</name_s>
+    <obiettivo_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</obiettivo_html>
+    <descrizione_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</descrizione_html>
+    <partnerId_s>680906dd693aa6484a014063</partnerId_s>
+    <codice_s>ELEARNING-TRANSIZIONE_ECOLOGICA</codice_s>
+    <descrizione_t>Percorso di microlearning sulla Transizione ecologica, così da diventare un agente del cambiamento.</descrizione_t>
+    <informazionisulcosto_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</informazionisulcosto_html>
+    <productid_s>PRO_540edc1f</productid_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-11.xml</key>
+   <value>formazione-tailor-made-tecnica-e-manageriale</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-11.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <createdDate>2025-08-26T11:16:58.654Z</createdDate>
+    <createdDate_dt>2025-08-26T11:16:58.654Z</createdDate_dt>
+    <lastModifiedDate>2025-08-26T11:16:58.654Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-08-26T11:16:58.654Z</lastModifiedDate_dt>
+</component>
