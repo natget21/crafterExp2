@@ -9,6 +9,15 @@
     <file-name>469b9d3f-25d6-4458-b245-d5e16b5062b0.xml</file-name>
     <folder-name/>
     <internal-name>TEST DI SKILLS AND TRAINING</internal-name>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>469b</objectGroupId>
+    <objectId>469b9d3f-25d6-4458-b245-d5e16b5062b0</objectId>
+    <file-name>469b9d3f-25d6-4458-b245-d5e16b5062b0.xml</file-name>
+    <folder-name/>
+    <internal-name>TEST DI SKILLS AND TRAINING</internal-name>
     <name_s>Test di skills and training</name_s>
     <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
     <codice_s>POP5416161</codice_s>
@@ -36,4 +45,11 @@
     <createdDate_dt>2025-09-01T12:59:44.426Z</createdDate_dt>
     <lastModifiedDate>2025-09-01T12:59:44.426Z</lastModifiedDate>
     <lastModifiedDate_dt>2025-09-01T12:59:44.426Z</lastModifiedDate_dt>
+    <localId>/site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/469b9d3f-25d6-4458-b245-d5e16b5062b0.xml</localId>
+    <rootId>ideale:/site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/469b9d3f-25d6-4458-b245-d5e16b5062b0.xml</rootId>
+    <image_s>/img/screenshot-2025-08-19-095748.png</image_s>
+    <createdDate>2025-09-02T09:36:40.376Z</createdDate>
+    <createdDate_dt>2025-09-02T09:36:40.376Z</createdDate_dt>
+    <lastModifiedDate>2025-09-02T09:36:40.376Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-09-02T09:36:40.376Z</lastModifiedDate_dt>
 </component>
