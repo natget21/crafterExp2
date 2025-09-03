@@ -4,14 +4,18 @@
 <#assign productId = contentModel.productid_s?default("") />
 <#assign name = contentModel.name_s?default("Nessun nome") />
 <#assign description = contentModel.descrizione_t?default("Nessuna descrizione.") />
-<#assign image = contentModel.image_s?default("https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg") />
+<#assign image = contentModel.image_s?default("") />
 <#assign facilitation = contentModel.agevolazione_b?default(false)?string("Possibile", "Non possibile") />
 <#assign partnerId = contentModel.partnerId_s?default("") />
 
 <div class="container my-4">
     <div class="row">
         <div class="col-md-auto">
-            <img src="${image}" alt="Servizio ${name}" style="height: 100px; object-fit: cover;">
+            <#if image>
+                <img src="${image}" alt="Servizio ${name}" style="height: 100px; object-fit: cover;">
+            <#else>
+                <img src="https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" alt="Servizio ${name}" style="height: 100px; object-fit: cover;">
+            </#if>
         </div>
         
         <div class="col d-flex flex-column justify-content-between">
