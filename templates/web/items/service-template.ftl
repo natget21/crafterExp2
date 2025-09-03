@@ -11,7 +11,7 @@
 <div class="container my-4">
     <div class="row">
         <div class="col-md-auto">
-            <#if image>
+            <#if image?has_content>
                 <img src="${image}" alt="Servizio ${name}" style="height: 100px; object-fit: cover;">
             <#else>
                 <img src="https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" alt="Servizio ${name}" style="height: 100px; object-fit: cover;">
