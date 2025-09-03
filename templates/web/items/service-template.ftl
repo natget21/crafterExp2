@@ -4,7 +4,7 @@
 <#assign productId = contentModel.productid_s?default("") />
 <#assign name = contentModel.name_s?default("Nessun nome") />
 <#assign description = contentModel.descrizione_t?default("Nessuna descrizione.") />
-<#assign image = contentModel.image_s?default("") />
+<#assign image = contentModel.image_s />
 <#assign facilitation = contentModel.agevolazione_b?default(false)?string("Possibile", "Non possibile") />
 <#assign partnerId = contentModel.partnerId_s?default("") />
 
