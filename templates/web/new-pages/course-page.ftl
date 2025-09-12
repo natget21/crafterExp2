@@ -19,12 +19,12 @@
         
         <#if storeUrl?has_content>
             <#assign course = siteItemService.getSiteItem(storeUrl) />
-            <#assign paths = [
-                {"name": "Catalogo", "link": "/catalog"},
-                {"name": course.name_s?default("Nessun nome"), "link": ""}
-            ] />
-            <#include "/templates/web/components/breadcrumb.ftl">
             <#if course?has_content>
+                <#assign paths = [
+                    {"name": "Catalogo", "link": "/catalog"},
+                    {"name": course.name_s?default("Nessun nome"), "link": ""}
+                ] />
+                <#include "/templates/web/components/breadcrumb.ftl">
                 <#assign handleQuantity = course.quantity_b?default(false) />
                 <div class="container row mx-auto">
                   <h4 class="text-primary">${course.name_s?default("Nessun nome")}</h4>
