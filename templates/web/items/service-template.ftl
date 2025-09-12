@@ -14,7 +14,7 @@
             <#if image?has_content>
                 <img src="${image}" alt="Servizio ${name}" style="height: 100px; object-fit: cover;">
             <#else>
-                <img src="https://thumb.ac-illust.com/b1/b170870007dfa419295d949814474ab2_t.jpeg" alt="Servizio ${name}" style="height: 100px; object-fit: cover;">
+                <img src="/static-assets/img/ideale.png" alt="Servizio ${name}" style="height: 100px; object-fit: cover;">
             </#if>
         </div>
         
