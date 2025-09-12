@@ -19,6 +19,7 @@
         </div>
         
         <#if storeUrl?has_content>
+        yesssssssssssssssssssssssssss
             <#assign course = siteItemService.getSiteItem(storeUrl) />
             <#assign paths = [
                 {"name": "Catalogo", "link": "/catalog"},
@@ -27,7 +28,7 @@
             <#include "/templates/web/components/breadcrumb.ftl">
         
         
-            yesssssssssssssssssssssssssss
+            
             
             <#if course?has_content>
                 <div class="container row mx-auto">
