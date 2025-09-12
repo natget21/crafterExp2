@@ -18,17 +18,12 @@
         </div>
         
         <#if storeUrl?has_content>
-        AAAAAAAAAAAAAAAAAAAA
             <#assign course = siteItemService.getSiteItem(storeUrl) />
             <#assign paths = [
                 {"name": "Catalogo", "link": "/catalog"},
                 {"name": course.name_s?default("Nessun nome"), "link": ""}
             ] />
             <#include "/templates/web/components/breadcrumb.ftl">
-        
-        
-            
-            
             <#if course?has_content>
                 <#assign handleQuantity = course.quantity_b?default(false) />
                 <div class="container row mx-auto">
@@ -79,7 +74,7 @@
         </#if>
         
         
-        
+        <#if course?has_content>
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 const user = JSON.parse(localStorage.getItem("crafterVadinUser"));
@@ -149,6 +144,7 @@
                 }
             }
         </script>
+        </#if>
         
         <#include "/templates/web/fragments/footer.ftl">
         <#include "/templates/web/fragments/scripts.ftl">
