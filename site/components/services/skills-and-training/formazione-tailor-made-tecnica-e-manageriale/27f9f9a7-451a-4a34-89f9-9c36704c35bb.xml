@@ -18,7 +18,7 @@
 &lt;li&gt;Distribuzione culturale e avvicinamento delle nuove generazioni al mondo del teatro;&lt;/li&gt;
 &lt;li&gt;Promozione territoriale, valorizzando luoghi iconici e il patrimonio storico-artistico della citt&amp;agrave;;&lt;/li&gt;
 &lt;li&gt;Comunicazione dell&amp;rsquo;associazione culturale di riferimento, attraverso un&amp;rsquo;esperienza coinvolgente e innovativa;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;Attrazione turistica, proponendo un&amp;rsquo;esperienza interattiva che pu&amp;ograve; essere fruita anche da visitatori e scuole in modalit&amp;agrave; remota (dal sito web dell&amp;rsquo;associazione culturale) o in loco durante i momenti di attesa (prima dell&amp;rsquo;evento).&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Attrazione turistica, proponendo un&amp;rsquo;esperienza interattiva che pu&amp;ograve; essere fruita anche da visitatori e scuole in modalit&amp;agrave; remota (dal sito web dell&amp;rsquo;associazione culturale) o in loco durante i momenti di attesa (prima dell&amp;rsquo;evento).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- [if !supportLists]--&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
@@ -704,7 +704,7 @@ table.MsoTableGrid
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</informazionisulcosto_html>
 	<rivolto_t>Studenti delle scuole secondarie di primo grado</rivolto_t>
-	<image_s>/img/01.cultura_2.jpg</image_s>
+	<image_s/>
 	<productid_s>PRO_71226f0b</productid_s>
 	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-11.xml</key>
 	<value>formazione-tailor-made-tecnica-e-manageriale</value>
@@ -714,8 +714,8 @@ table.MsoTableGrid
 	<quantity_b>false</quantity_b>
 	<createdDate>2025-08-26T09:06:59.495Z</createdDate>
 	<createdDate_dt>2025-08-26T09:06:59.495Z</createdDate_dt>
-	<lastModifiedDate>2025-09-12T07:58:17.883Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-09-12T07:58:17.883Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-09-12T08:02:23.634Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-09-12T08:02:23.634Z</lastModifiedDate_dt>
 	<durata_s/>
 	<duratasessione_s/>
 	<partecipantiMin_s/>
