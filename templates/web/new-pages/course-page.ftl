@@ -89,12 +89,12 @@
             async function loadPartner() {
                 const dd = document.getElementById("${course.partnerId_s?default("dummy")}");
                 if(!dd) { return; }
-                const url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${course.partnerId_s}";
+                const url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${course.partnerId_s?default("dummy")}";
                 const headers = { "Authorization": "Bearer ${token}" };
                 const response = await fetch(url, { method: "GET", headers });
                 if(response.ok) {
                     const partner = await response.json();
-                    dd.innerText = partner.partnerAzienda ?? "${course.partnerId_s}";
+                    dd.innerText = partner.partnerAzienda ?? "Nessun Partner";
                 }
                 else { span.innerText = "${course.partnerId_s?default("Nessun Partner")}"; }
             }
