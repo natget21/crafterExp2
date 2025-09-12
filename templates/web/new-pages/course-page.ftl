@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#assign storeUrl = "aaaa" />
+<#assign storeUrl = RequestParameters.url />
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
