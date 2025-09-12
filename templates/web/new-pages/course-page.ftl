@@ -25,7 +25,7 @@
         ] />
         <#include "/templates/web/components/breadcrumb.ftl">
         
-        <#if storeUrl?has_content>
+        <#if course?has_content>
             <#assign course = siteItemService.getSiteItem(storeUrl) />
             <#if course?has_content>
                 <div class="container row mx-auto">
