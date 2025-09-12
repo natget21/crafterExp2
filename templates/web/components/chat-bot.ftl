@@ -165,8 +165,7 @@ function addLink(link) {
     a.style.fontSize = '0.85rem';
     a.textContent = 'Clicca qui per maggiori info';
     const xml = link.split("&url=")[1];
-    //link = link.replace('https://demo.shortcut.uno/detail?crafterSite=ideale&item=', '');
-    a.href = 'https://demo.shortcut.uno/detail?url=' + xml;
+    a.href = 'https://demo.shortcut.uno/course-view?storeUrl=' + xml;
     a.target = '_blank';
 
     chatMessage.appendChild(a);
