@@ -1,7 +1,5 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#assign storeUrl = RequestParameters.storeUrl?default("") />
-<#assign course = siteItemService.getSiteItem(storeUrl) />
 <#assign handleQuantity = course.quantity_b?default(false) />
 
 <!DOCTYPE html>
@@ -25,7 +23,7 @@
         ] />
         <#include "/templates/web/components/breadcrumb.ftl">
         
-        <#if course?has_content>
+        <#if storeUrl?has_content>
             <#assign course = siteItemService.getSiteItem(storeUrl) />
             <#if course?has_content>
                 <div class="container row mx-auto">
