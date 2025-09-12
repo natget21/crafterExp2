@@ -87,7 +87,7 @@
             });
             
             async function loadPartner() {
-                const dd = document.getElementById("${course.partnerId_s}");
+                const dd = document.getElementById("${course.partnerId_s?default("dummy")}");
                 if(!dd) { return; }
                 const url = "https://api.shortcut.uno/v1/Ideale-partner/findOne?partnerId=${course.partnerId_s}";
                 const headers = { "Authorization": "Bearer ${token}" };
