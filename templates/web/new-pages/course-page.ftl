@@ -18,8 +18,8 @@
           </div>
         </div>
         
-        <#if storeUrl>
-        
+        <#if storeUrl?has_content>
+            <#assign course = siteItemService.getSiteItem(storeUrl) />
             <#assign paths = [
                 {"name": "Catalogo", "link": "/catalog"},
                 {"name": course.name_s?default("Nessun nome"), "link": ""}
@@ -28,7 +28,7 @@
         
         
             yesssssssssssssssssssssssssss
-            <#assign course = siteItemService.getSiteItem(storeUrl) />
+            
             <#if course?has_content>
                 <div class="container row mx-auto">
                   <h4 class="text-primary">${course.name_s?default("Nessun nome")}</h4>
