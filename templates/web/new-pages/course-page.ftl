@@ -29,7 +29,7 @@
         
             
             
-            <#if course?has_content
+            <#if course?has_content>
                 <#assign handleQuantity = course.quantity_b?default(false) />
                 <div class="container row mx-auto">
                   <h4 class="text-primary">${course.name_s?default("Nessun nome")}</h4>
