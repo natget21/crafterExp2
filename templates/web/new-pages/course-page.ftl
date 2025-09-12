@@ -1,5 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+<#assign storeUrl = "aaaa" />
 <#assign handleQuantity = course.quantity_b?default(false) />
 
 <!DOCTYPE html>
