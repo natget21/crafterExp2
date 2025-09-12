@@ -18,6 +18,7 @@
         </div>
         
         <#if storeUrl?has_content>
+        AAAAAAAAAAAAAAAAAAAA
             <#assign course = siteItemService.getSiteItem(storeUrl) />
             <#assign paths = [
                 {"name": "Catalogo", "link": "/catalog"},
