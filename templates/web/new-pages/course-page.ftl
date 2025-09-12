@@ -67,7 +67,7 @@
                   <button class="btn btn-secondary text-white rounded-pill px-4" onclick="makeOrder()">ORDINA</button>
                 </div>
             <#else>
-                <h5>Nessun corso trovato.</h5>
+                <h5 class="container text-center my-3">Nessun corso trovato.</h5>
             </#if>
         <#else>
             <h5>Nessun corso trovato.</h5>
