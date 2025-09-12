@@ -70,7 +70,7 @@
                 <h5 class="container text-center my-3">Nessun corso trovato.</h5>
             </#if>
         <#else>
-            <h5>Nessun corso trovato.</h5>
+            <h5 class="container text-center my-3">Nessun corso trovato.</h5>
         </#if>
         
         
