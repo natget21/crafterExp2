@@ -96,7 +96,7 @@
                     const partner = await response.json();
                     dd.innerText = partner.partnerAzienda ?? "Nessun Partner";
                 }
-                else { span.innerText = "${course.partnerId_s?default("Nessun Partner")}"; }
+                else { span.innerText = "Nessun Partner"; }
             }
             
             const quantitySpan = document.getElementById('quantity');
