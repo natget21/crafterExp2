@@ -26,7 +26,7 @@
                 ] />
                 <#include "/templates/web/components/breadcrumb.ftl">
                 <#assign handleQuantity = course.quantity_b?default(false) />
-                <div class="container row mx-auto">
+                <div class="container row mx-auto mb-3">
                   <h4 class="text-primary">${course.name_s?default("Nessun nome")}</h4>
                   <p class="text-muted small">Codice: ${course.codiceprodotto_s?default("")}${course.codice_s?default("")}</p>
                   <div class="col-sm-3 col-12">
