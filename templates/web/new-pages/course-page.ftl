@@ -17,13 +17,15 @@
           </div>
         </div>
         
-        <#assign paths = [
-            {"name": "Catalogo", "link": "/catalog"},
-            {"name": course.name_s?default("Nessun nome"), "link": ""}
-        ] />
-        <#include "/templates/web/components/breadcrumb.ftl">
-        
         <#if storeUrl>
+        
+            <#assign paths = [
+                {"name": "Catalogo", "link": "/catalog"},
+                {"name": course.name_s?default("Nessun nome"), "link": ""}
+            ] />
+            <#include "/templates/web/components/breadcrumb.ftl">
+        
+        
             yesssssssssssssssssssssssssss
             <#assign course = siteItemService.getSiteItem(storeUrl) />
             <#if course?has_content>
