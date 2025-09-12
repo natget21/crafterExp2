@@ -704,7 +704,7 @@ table.MsoTableGrid
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</informazionisulcosto_html>
 	<rivolto_t>Studenti delle scuole secondarie di primo grado</rivolto_t>
-	<image_s/>
+	<image_s>/static-assets/img/corso-vr-immersivo.jpeg</image_s>
 	<productid_s>PRO_71226f0b</productid_s>
 	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-11.xml</key>
 	<value>formazione-tailor-made-tecnica-e-manageriale</value>
@@ -714,8 +714,8 @@ table.MsoTableGrid
 	<quantity_b>false</quantity_b>
 	<createdDate>2025-08-26T09:06:59.495Z</createdDate>
 	<createdDate_dt>2025-08-26T09:06:59.495Z</createdDate_dt>
-	<lastModifiedDate>2025-09-12T08:02:23.634Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-09-12T08:02:23.634Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-09-12T08:03:29.482Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-09-12T08:03:29.482Z</lastModifiedDate_dt>
 	<durata_s/>
 	<duratasessione_s/>
 	<partecipantiMin_s/>
