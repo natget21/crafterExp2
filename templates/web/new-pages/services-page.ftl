@@ -36,6 +36,7 @@
                             </div>
                         </div>
                         <!--<img src="${image}" alt="${name}">-->
+                        <hr />
                     </div>
                 </#list>
             </#if>
