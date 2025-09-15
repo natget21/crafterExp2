@@ -109,6 +109,7 @@
             </div>
         </div>
         
+        <!--
         <#if partner.partnerLandingImagesAssetsUrlList?default([])?size != 0>
             <div class="bg-primary pb-5">
                 <div class="layout_padding mx-auto col-11 col-md-9 px-0 other_news_section">
@@ -123,6 +124,7 @@
                 </div>
             </div>
         </#if>
+        -->
         
         <#include "/templates/web/fragments/footer.ftl">
         <#include "/templates/web/fragments/scripts.ftl">
