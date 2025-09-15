@@ -73,7 +73,7 @@
                                 </a>
                                 <div class="dropdown-menu rounded-0 border-0 m-0">
                                     <a href="/client-signup" class="nav-item nav-link sublink py-2">Cliente</a>
-                                    <a href="/partner-signup;" class="nav-item nav-link sublink py-2">Partner</a>
+                                    <a href="/partner-signup" class="nav-item nav-link sublink py-2">Partner</a>
                                 </div>
                             </div>
                             
