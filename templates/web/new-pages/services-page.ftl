@@ -30,7 +30,7 @@
                             <h3 class="service_title text-center">${name}</h3>
                             <p class="text-center">${description}</p>
                             <div class="d-flex flex-grow-1 justify-content-center align-items-end">
-                              <a href="/service-view?id=${category.storeName}" class="btn btn-secondary read_more rounded-pill">
+                              <a href="/service-view?id=${category.storeName}" class="btn btn-secondary read_more rounded-pill mb-2">
                                 Scopri di più
                               </a>
                             </div>
