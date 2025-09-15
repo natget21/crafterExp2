@@ -35,7 +35,7 @@
                               </a>
                             </div>
                         </div>
-                        <img src="${image}" alt="${name}">
+                        <!--<img src="${image}" alt="${name}">-->
                     </div>
                 </#list>
             </#if>
