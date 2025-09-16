@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
+	<savedAsDraft>true</savedAsDraft>
 	<content-type>/component/access-to-finance</content-type>
 	<display-template>/templates/web/components/product-access-to-finance.ftl</display-template>
 	<no-template-required>true</no-template-required>
@@ -37,8 +38,8 @@
 	<productid_s>PRO_7fdd3276</productid_s>
 	<createdDate>2025-09-16T07:53:59.796Z</createdDate>
 	<createdDate_dt>2025-09-16T07:53:59.796Z</createdDate_dt>
-	<lastModifiedDate>2025-09-16T10:18:40.182Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-09-16T10:18:40.182Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-09-16T10:22:13.332Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-09-16T10:22:13.332Z</lastModifiedDate_dt>
 	<cup_s>CUP-15-09-2025</cup_s>
 	<costodelservizio_s>1</costodelservizio_s>
 	<modalitdierogazione_s/>
@@ -47,7 +48,7 @@
 	<areageografica_t/>
 	<links_o item-list="true">	<item>	<link_t>#</link_t>
 	<label_s>Test 1</label_s>
-	</item>	<item>	<link_t>#</link_t>
+	</item>	<item>	<link_t>##</link_t>
 	<label_s>Test 2</label_s>
 	</item></links_o>
 </component>
