@@ -22,8 +22,9 @@
             <#list categories.childItems as item>
                 <#assign category = siteItemService.getSiteItem(item.storeUrl) />
                 <h4 class="text-primary">${category.title_s}</h4>
+                <#assign counter = 0 />
                 <#list category.list_o.item as faq>
-                    <div class="accordion mb-3" id="accordion-${category.title_s}">
+                    <div class="accordion mb-3" id="accordion-${counter}">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button
@@ -31,14 +32,14 @@
                                     style="background-color: #32509f; font-size: 1rem !important;"
                                     type="button"
                                     data-bs-toggle="collapse"
-                                    data-bs-target="#accordion-button-${category.title_s}"
+                                    data-bs-target="#accordion-button-${counter}"
                                     aria-expanded="false"
-                                    aria-controls="accordion-button-${category.title_s}"
+                                    aria-controls="accordion-button-${counter}"
                                   >
                                     Hello World Title
                                   </button>
                             </h2>
-                            <div id="accordion-button-${category.title_s}" class="accordion-collapse collapse" data-bs-parent="accordion-${category.title_s}">
+                            <div id="accordion-button-${counter}" class="accordion-collapse collapse" data-bs-parent="accordion-${counter}">
                                 <div class="accordion-body row row-gap-5">
                                     <div class="col-12 info">
                                           <p class="desc" style="font-size: 1rem !important;">Hello World Body</p>
