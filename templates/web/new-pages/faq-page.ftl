@@ -23,7 +23,7 @@
                     <h2 class="accordion-header">
                         <button
                             class="accordion-button faq-question collapsed"
-                            style="background-color: red;"
+                            style="background-color: #32509f;"
                             type="button"
                             data-bs-toggle="collapse"
                             data-bs-target="#accordion-button-1"
