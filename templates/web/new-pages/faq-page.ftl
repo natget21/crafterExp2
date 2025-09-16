@@ -21,7 +21,31 @@
             <#assign categories = siteItemService.getSiteTree("/site/components/faqs", 1)>
             <#list categories.childItems as item>
                 <#assign category = siteItemService.getSiteItem(item.storeUrl) />
-                ${category.title_s}
+                <h4 class="text-center text-primary mb-3">${category.title_s}</h4>
+                <div class="accordion mb-3" id="accordion-1">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button faq-question collapsed text-white"
+                                style="background-color: #32509f;"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#accordion-button-1"
+                                aria-expanded="false"
+                                aria-controls="accordion-button-1"
+                              >
+                                Hello World Title
+                              </button>
+                        </h2>
+                        <div id="accordion-button-1" class="accordion-collapse collapse" data-bs-parent="accordion-1">
+                            <div class="accordion-body row row-gap-5">
+                                <div class="col-12 info">
+                                      <p class="fs-5 desc">Hello World Body</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </#list>
         </div>
     
