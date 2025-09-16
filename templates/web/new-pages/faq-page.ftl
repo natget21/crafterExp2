@@ -15,7 +15,7 @@
             </div>
         </div>
         
-        <h5>Hai dei dubbi? Consulta le domande frequenti</h5>
+        <h4 class="fw-bold text-primary">Hai dei dubbi? Consulta le domande frequenti</h4>
         
         <#include "/templates/web/fragments/footer.ftl">
         <#include "/templates/web/fragments/scripts.ftl">
