@@ -37,17 +37,17 @@
 	<productid_s>PRO_7fdd3276</productid_s>
 	<createdDate>2025-09-16T07:53:59.796Z</createdDate>
 	<createdDate_dt>2025-09-16T07:53:59.796Z</createdDate_dt>
-	<lastModifiedDate>2025-09-16T10:16:20.732Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-09-16T10:16:20.732Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-09-16T10:18:40.182Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-09-16T10:18:40.182Z</lastModifiedDate_dt>
 	<cup_s>CUP-15-09-2025</cup_s>
 	<costodelservizio_s>1</costodelservizio_s>
 	<modalitdierogazione_s/>
 	<tipologiadifinanziamento_s/>
 	<durata_t/>
 	<areageografica_t/>
-	<links_o item-list="true">	<item>	<link_t>https://www.google.com/imgres?q=test&amp;imgurl=https%3A%2F%2Fwww.connetweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2Fcanstockphoto22402523-arcos-creator.com_-1024x1024-1.jpg&amp;imgrefurl=https%3A%2F%2Fwww.connetweb.com%2Fit%2Fproduct%2Ftest-product-1%2F&amp;docid=_FSxt4Fr5YUoDM&amp;tbnid=9eq5SSvK9niQEM&amp;vet=12ahUKEwiYwLOJ_dyPAxVhhv0HHdkGNcMQM3oECBEQAA..i&amp;w=1024&amp;h=1024&amp;hcb=2&amp;ved=2ahUKEwiYwLOJ_dyPAxVhhv0HHdkGNcMQM3oECBEQAA</link_t>
-	<label_s>Test</label_s>
-	</item>	<item>	<link_t>https://www.google.com/imgres?q=test&amp;imgurl=https%3A%2F%2Fwww.connetweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2Fcanstockphoto22402523-arcos-creator.com_-1024x1024-1.jpg&amp;imgrefurl=https%3A%2F%2Fwww.connetweb.com%2Fit%2Fproduct%2Ftest-product-1%2F&amp;docid=_FSxt4Fr5YUoDM&amp;tbnid=9eq5SSvK9niQEM&amp;vet=12ahUKEwiYwLOJ_dyPAxVhhv0HHdkGNcMQM3oECBEQAA..i&amp;w=1024&amp;h=1024&amp;hcb=2&amp;ved=2ahUKEwiYwLOJ_dyPAxVhhv0HHdkGNcMQM3oECBEQAA</link_t>
-	<label_s>Test</label_s>
+	<links_o item-list="true">	<item>	<link_t>#</link_t>
+	<label_s>Test 1</label_s>
+	</item>	<item>	<link_t>#</link_t>
+	<label_s>Test 2</label_s>
 	</item></links_o>
 </component>
