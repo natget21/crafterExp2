@@ -16,7 +16,7 @@
         </div>
         
         <div class="container">
-            <h3 class="text-center text-primary mb-3">Hai dei dubbi? Consulta le domande frequenti</h3>
+            <h3 class="text-center text-primary mb-5">Hai dei dubbi? Consulta le domande frequenti</h3>
             
             <#assign categories = siteItemService.getSiteTree("/site/components/faqs", 1)>
             <#list categories.childItems as item>
