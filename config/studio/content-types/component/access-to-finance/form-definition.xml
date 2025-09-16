@@ -189,7 +189,7 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>productid_s</id>
+					<id>productCode_s</id>
 					<iceId></iceId>
 					<title>Codice Marketplace</title>
 					<description></description>
