@@ -1056,7 +1056,7 @@
 					<type>textarea</type>
 					<id>link_t</id>
 					<iceId></iceId>
-					<title>links_t</title>
+					<title>link</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -1096,26 +1096,51 @@
 					</constraints>
 				</field>
 				<field>
-					<type>label</type>
-					<id>linkLabel_l</id>
+					<type>input</type>
+					<id>label_s</id>
 					<iceId></iceId>
-					<title>linkLabel_l</title>
+					<title>label</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>text</name>
-							<value></value>
-							<type>string</type>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
 						</property>
 						<property>
-							<name>renderAsHTML</name>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
 							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
 					</constraints>
 				</field>
 					</fields>
