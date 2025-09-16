@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/itemfaq</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5c02</objectGroupId>
+	<objectId>5c02b099-f814-bf4f-f6bd-b643552a1e75</objectId>
+	<file-name>5c02b099-f814-bf4f-f6bd-b643552a1e75.xml</file-name>
+	<folder-name/>
+	<internal-name>Accreditation to the Service Catalogue</internal-name>
+	<title_s>Accreditamento al Catalogo dei Servizi</title_s>
+	<list_o item-list="true">	<item>	<question_t>Come faccio ad accreditarmi per offrire determinati servizi?</question_t>
+	<answer_t>Inserire Risposta qui.</answer_t>
+	</item>	<item>	<question_t>Ho problemi in fase di accreditamento dei servizi, cosa posso fare?</question_t>
+	<answer_t>Inserire Risposta qui.</answer_t>
+	</item></list_o>
+	<createdDate>2025-09-16T15:03:28.369Z</createdDate>
+	<createdDate_dt>2025-09-16T15:03:28.369Z</createdDate_dt>
+	<lastModifiedDate>2025-09-16T15:03:28.369Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-09-16T15:03:28.369Z</lastModifiedDate_dt>
+</component>
