@@ -54,7 +54,7 @@
 
               
                             <dt class="col-sm-2 text-primary fw-bold">Links</dt>
-                            <dd class="col-sm">
+                            <dd class="col-sm-10">
                                 <#list course.links_o.item as item>
                                     <a href="${item.link_t?default("#")}">${item.label_s?default("clicca qui")}</a>
                                 </#list>
