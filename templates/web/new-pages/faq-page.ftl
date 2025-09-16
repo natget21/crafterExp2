@@ -16,7 +16,7 @@
         </div>
         
         <div class="container">
-            <h3 class="text-center text-primary">Hai dei dubbi? Consulta le domande frequenti</h3>
+            <h3 class="text-center text-primary mb-3">Hai dei dubbi? Consulta le domande frequenti</h3>
         
             <div class="accordion mb-3" id="accordion-1">
                 <div class="accordion-item">
