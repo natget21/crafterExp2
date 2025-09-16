@@ -32,7 +32,7 @@
                             Hello World
                           </button>
                     </h2>
-                    <div id="accordion-button-1" class="accordion-collapse collapse" data-bs-parent="accordion-1">
+                    <div id="accordion-button-1" class="accordion-collapse collapse" data-bs-parent="accordion-1" style="background-color: red;">
                         <div class="accordion-body row row-gap-5">
                             <div class="col-12 info">
                                   <p class="fs-5 desc">Hello World</p>
