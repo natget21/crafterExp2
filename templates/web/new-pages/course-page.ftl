@@ -53,6 +53,7 @@
                         <dd id="${course.partnerId_s?default("no-partner")}" class="col-sm-10">------</dd>
                         
                         <#if course.links_o??>
+                            <script>console.log("test", ${course.links_o})</script>
                             <dt class="col-sm-2 text-primary fw-bold">Links</dt>
                             <#list course.links_o as link>
                                 <dd class="col-sm-10">
