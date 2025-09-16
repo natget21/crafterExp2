@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/itemfaq</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8b70</objectGroupId>
+	<objectId>8b70113f-e6ed-001a-1f6b-8130270fef8c</objectId>
+	<file-name>8b70113f-e6ed-001a-1f6b-8130270fef8c.xml</file-name>
+	<folder-name/>
+	<internal-name>Portal Registration</internal-name>
+	<createdDate>2025-09-16T13:20:41.322Z</createdDate>
+	<createdDate_dt>2025-09-16T13:20:41.322Z</createdDate_dt>
+	<lastModifiedDate>2025-09-16T13:20:41.322Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-09-16T13:20:41.322Z</lastModifiedDate_dt>
+</component>
