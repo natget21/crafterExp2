@@ -56,7 +56,7 @@
                             NEWS
                         </a>
                         
-                        <a href="/faq" class="nav-item nav-link <#if currentUrl?starts_with("/faq")>active</#if>">
+                        <a href="/faq-view" class="nav-item nav-link <#if currentUrl?starts_with("/faq")>active</#if>">
                             FAQ
                         </a>
                         
