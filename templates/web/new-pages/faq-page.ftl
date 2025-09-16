@@ -19,10 +19,10 @@
             <h3 class="text-center text-primary mb-5">Hai dei dubbi? Consulta le domande frequenti</h3>
             
             <#assign categories = siteItemService.getSiteTree("/site/components/faqs", 1)>
+            <#assign counter = 0 />
             <#list categories.childItems as item>
                 <#assign category = siteItemService.getSiteItem(item.storeUrl) />
                 <h4 class="text-primary">${category.title_s}</h4>
-                <#assign counter = 0 />
                 <#list category.list_o.item as faq>
                     <div class="accordion mb-3" id="accordion-${counter}">
                         <div class="accordion-item">
