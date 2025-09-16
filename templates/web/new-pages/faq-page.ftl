@@ -8,7 +8,12 @@
         <#include "/templates/web/fragments/header.ftl">
         <#include "/templates/web/fragments/navigation.ftl">
         
-        FAQ
+        <div class="banner_section banner_services layout_padding d-flex align-items-center">
+            <img class="banner_img" src="static-assets/assets/faq.png">
+            <div class="container">
+                <h1 class="best_taital text-center text-white p-0 dark">News</h1>
+            </div>
+        </div>
         
         <#include "/templates/web/fragments/footer.ftl">
         <#include "/templates/web/fragments/scripts.ftl">
