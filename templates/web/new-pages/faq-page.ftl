@@ -48,6 +48,7 @@
                             </div>
                         </div>
                     </div>
+                    <#assign counter = counter + 1 />
                 </#list>
             </#list>
         </div>
