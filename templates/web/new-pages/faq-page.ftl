@@ -38,7 +38,7 @@
                                     Hello World Title
                                   </button>
                             </h2>
-                            <div id="accordion-button-1" class="accordion-collapse collapse" data-bs-parent="accordion-${category.title_s}">
+                            <div id="accordion-button-${category.title_s}" class="accordion-collapse collapse" data-bs-parent="accordion-${category.title_s}">
                                 <div class="accordion-body row row-gap-5">
                                     <div class="col-12 info">
                                           <p class="desc" style="font-size: 1rem !important;">Hello World Body</p>
