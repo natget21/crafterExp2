@@ -22,7 +22,7 @@
             <#list categories.childItems as item>
                 <#assign category = siteItemService.getSiteItem(item.storeUrl) />
                 <h4 class="text-primary">${category.title_s}</h4>
-                <#list category.faqs.item as faq>
+                <#list category.list_o.item as faq>
                     <div class="accordion mb-3" id="accordion-1">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
