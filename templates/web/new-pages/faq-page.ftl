@@ -19,9 +19,9 @@
             <h3 class="text-center text-primary mb-3">Hai dei dubbi? Consulta le domande frequenti</h3>
             
             <#assign categories = siteItemService.getSiteTree("/site/components/faqs", 1)>
-            <#list categories.childItems as category>
-                <#assign categoryName = category.queryValue("internal-name") />
-                ${categoryName}
+            <#list categories.childItems as item>
+                <#assign category = siteItemService.getSiteItem(item.storeUrl) />
+                ${category.internalName}
             </#list>
         
             <div class="accordion mb-3" id="accordion-1">
