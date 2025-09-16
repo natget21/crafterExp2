@@ -21,7 +21,7 @@
             <#assign categories = siteItemService.getSiteTree("/site/components/faqs", 1)>
             <#list categories.childItems as item>
                 <#assign category = siteItemService.getSiteItem(item.storeUrl) />
-                ${category.internalName}
+                ${category.title_s}
             </#list>
         
             <div class="accordion mb-3" id="accordion-1">
