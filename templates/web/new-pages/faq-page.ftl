@@ -38,7 +38,7 @@
                               </button>
                         </h2>
                         <div id="accordion-button-1" class="accordion-collapse collapse" data-bs-parent="accordion-1">
-                            <div class="accordion-body row row-gap-5">
+                            <div class="accordion-body row row-gap-5" style="font-size: 10px !important;">
                                 <div class="col-12 info">
                                       <p class="desc fs-3">Hello World Body</p>
                                 </div>
