@@ -53,7 +53,10 @@
                         <dd id="${course.partnerId_s?default("no-partner")}" class="col-sm-10">------</dd>
                         
                         <dt class="col-sm-2 text-primary fw-bold">Links</dt>
-                        <dd class="col-sm-10">${course.links_o?default("Nessun links")}</dd>
+                        <#list course.links_o?default([]) as link>
+                          <dd class="col-sm-10">${link?default("Nessun links")}</dd>
+                        </#list>
+                        
                     </dl>
                   </div>
                 </div>
