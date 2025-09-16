@@ -54,7 +54,7 @@
                         
                         <dt class="col-sm-2 text-primary fw-bold">Links</dt>
                         <#list course.links_o?default([]) as link>
-                        <script>alert(${link})</script>
+                        <script>console.log(${link})</script>
                           <dd class="col-sm-10">${link.label_s?default("Nessun links")}</dd>
                         </#list>
                         
