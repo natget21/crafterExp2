@@ -120,7 +120,7 @@
                 const user = JSON.parse(localStorage.getItem('crafterVadinUser'));
                 // replaced !"" con ?default("")
                 const body = {
-                  'productCode': '${course.codice_s?default("")}',
+                  'productCode': '${course.productid_s?default("")}',
                   'cup': '${course.cup_s?default("")}',
                   'agevolazione': ${course.agevolazione_b?default(false)?string("true", "false")},
                   'productName': '${course.name_s?default("")}',
