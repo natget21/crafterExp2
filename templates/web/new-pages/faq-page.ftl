@@ -24,14 +24,14 @@
                         class="accordion-button faq-question collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#registration-button-${item.id_s}"
+                        data-bs-target="#accordion-button-1"
                         aria-expanded="false"
-                        aria-controls="registration-button-${item.id_s}"
+                        aria-controls="accordion-button-1"
                       >
                         Hello World
                       </button>
                 </h2>
-                <div id="registration-button-${item.id_s}" class="accordion-collapse collapse" data-bs-parent="#registration-${item.id_s}">
+                <div id="accordion-button-1" class="accordion-collapse collapse" data-bs-parent="#registration-${item.id_s}">
                     <div class="accordion-body row row-gap-5">
                         <div class="col-12 info">
                               <p class="fs-5 desc">Hello World</p>
