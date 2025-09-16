@@ -27,7 +27,7 @@
                         <h2 class="accordion-header">
                             <button
                                 class="accordion-button faq-question collapsed text-white fs-3"
-                                style="background-color: #32509f; font-size: 10px !important;"
+                                style="background-color: #32509f; font-size: 1rem !important;"
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#accordion-button-1"
@@ -40,7 +40,7 @@
                         <div id="accordion-button-1" class="accordion-collapse collapse" data-bs-parent="accordion-1">
                             <div class="accordion-body row row-gap-5">
                                 <div class="col-12 info">
-                                      <p class="desc" style="font-size: 10px !important;">Hello World Body</p>
+                                      <p class="desc" style="font-size: 1rem !important;">Hello World Body</p>
                                 </div>
                             </div>
                         </div>
