@@ -11,7 +11,12 @@
 	<internal-name>Request Management</internal-name>
 	<createdDate>2025-09-16T13:18:39.472Z</createdDate>
 	<createdDate_dt>2025-09-16T13:18:39.472Z</createdDate_dt>
-	<lastModifiedDate>2025-09-16T13:41:49.689Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-09-16T13:41:49.689Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-09-16T13:52:01.606Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-09-16T13:52:01.606Z</lastModifiedDate_dt>
 	<title_s>Gestione delle Richieste</title_s>
+	<list_o item-list="true">	<item>	<question_t>Non riesco a visualizzare tutte le richieste dei clienti, cosa posso fare?    </question_t>
+	<answer_t>Inserire Risposta qui.</answer_t>
+	</item>	<item>	<question_t>Come gestisco le richieste o prenotazioni dei clienti? </question_t>
+	<answer_t>Inserire Risposta qui.</answer_t>
+	</item></list_o>
 </component>
