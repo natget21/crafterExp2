@@ -20,7 +20,7 @@
             
             <#assign categories = siteItemService.getSiteTree("/site/components/faqs", 1)>
             <#list categories.childItems as category>
-                ${category.internalName}
+                ${category.queryValue("internal-name")}
             </#list>
         
             <div class="accordion mb-3" id="accordion-1">
