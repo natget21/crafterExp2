@@ -42,7 +42,7 @@
                             <div id="accordion-button-${counter}" class="accordion-collapse collapse" data-bs-parent="accordion-${counter}">
                                 <div class="accordion-body row row-gap-5">
                                     <div class="col-12 info">
-                                          <p class="desc" style="font-size: 1rem !important;">${faq.answer_t}</p>
+                                          <p class="desc" style="font-size: 0.95rem !important;">${faq.answer_t}</p>
                                     </div>
                                 </div>
                             </div>
