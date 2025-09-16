@@ -20,7 +20,7 @@
         
             <div class="accordion mb-3" id="accordion-1" style="background-color: red;">
                 <div class="accordion-item" style="background-color: red;">
-                    <h2 class="accordion-header">
+                    <h2 class="accordion-header" style="background-color: red;">
                         <button
                             class="accordion-button faq-question collapsed"
                             type="button"
