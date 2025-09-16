@@ -35,15 +35,16 @@
     <codiceprodotto_s>4.1</codiceprodotto_s>
     <descrizionecostoservizio_t>Il servizio Access to Finance è strutturato in pacchetti di giornate di consulenza, il cui valore è determinato in base al budget approvato. La quantificazione del servizio varia a seconda del target di riferimento: 1. Per la Pubblica Amministrazione (PA) è previsto un pacchetto di 10 giornate al costo di € 2.810,03 + IVA. 2. Per le imprese è previsto un pacchetto di 8 giornate al costo di € 2.248,03 + IVA.</descrizionecostoservizio_t>
     <productid_s>PRO_7fdd3276</productid_s>
-    <createdDate>2025-08-26T11:59:45.469Z</createdDate>
-    <createdDate_dt>2025-08-26T11:59:45.469Z</createdDate_dt>
-    <lastModifiedDate>2025-08-26T11:59:45.469Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-08-26T11:59:45.469Z</lastModifiedDate_dt>
-    <localId>/site/components/services/access-to-finance/finanza-agevolata-ed-europrogettazione/427a7b90-599d-4fcb-9923-a6d7ab58cee4.xml</localId>
-    <rootId>ideale:/site/components/services/access-to-finance/finanza-agevolata-ed-europrogettazione/427a7b90-599d-4fcb-9923-a6d7ab58cee4.xml</rootId>
-    <cup_s>CUP-15-09-2025</cup_s>
     <createdDate>2025-09-15T09:41:30.271Z</createdDate>
     <createdDate_dt>2025-09-15T09:41:30.271Z</createdDate_dt>
     <lastModifiedDate>2025-09-15T09:41:30.271Z</lastModifiedDate>
     <lastModifiedDate_dt>2025-09-15T09:41:30.271Z</lastModifiedDate_dt>
+    <localId>/site/components/services/access-to-finance/finanza-agevolata-ed-europrogettazione/427a7b90-599d-4fcb-9923-a6d7ab58cee4.xml</localId>
+    <rootId>ideale:/site/components/services/access-to-finance/finanza-agevolata-ed-europrogettazione/427a7b90-599d-4fcb-9923-a6d7ab58cee4.xml</rootId>
+    <cup_s>CUP-15-09-2025</cup_s>
+    <costodelservizio_s>1</costodelservizio_s>
+    <createdDate>2025-09-16T07:53:59.796Z</createdDate>
+    <createdDate_dt>2025-09-16T07:53:59.796Z</createdDate_dt>
+    <lastModifiedDate>2025-09-16T07:53:59.796Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-09-16T07:53:59.796Z</lastModifiedDate_dt>
 </component>
