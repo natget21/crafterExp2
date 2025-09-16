@@ -15,31 +15,34 @@
             </div>
         </div>
         
-        <h3 class="text-center text-primary">Hai dei dubbi? Consulta le domande frequenti</h3>
+        <div class="container">
+            <h3 class="text-center text-primary">Hai dei dubbi? Consulta le domande frequenti</h3>
         
-        <div class="accordion mb-3" id="accordion-1">
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button
-                        class="accordion-button faq-question collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#accordion-button-1"
-                        aria-expanded="false"
-                        aria-controls="accordion-button-1"
-                      >
-                        Hello World
-                      </button>
-                </h2>
-                <div id="accordion-button-1" class="accordion-collapse collapse" data-bs-parent="accordion-1">
-                    <div class="accordion-body row row-gap-5">
-                        <div class="col-12 info">
-                              <p class="fs-5 desc">Hello World</p>
+            <div class="accordion mb-3" id="accordion-1">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#accordion-button-1"
+                            aria-expanded="false"
+                            aria-controls="accordion-button-1"
+                          >
+                            Hello World
+                          </button>
+                    </h2>
+                    <div id="accordion-button-1" class="accordion-collapse collapse" data-bs-parent="accordion-1">
+                        <div class="accordion-body row row-gap-5">
+                            <div class="col-12 info">
+                                  <p class="fs-5 desc">Hello World</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         
         <#include "/templates/web/fragments/footer.ftl">
         <#include "/templates/web/fragments/scripts.ftl">
