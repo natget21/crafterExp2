@@ -1056,7 +1056,7 @@
 					<type>textarea</type>
 					<id>link_t</id>
 					<iceId></iceId>
-					<title>link</title>
+					<title>Link</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -1099,7 +1099,7 @@
 					<type>input</type>
 					<id>label_s</id>
 					<iceId></iceId>
-					<title>label</title>
+					<title>Label</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
