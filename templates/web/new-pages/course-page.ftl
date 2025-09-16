@@ -52,11 +52,12 @@
                         <dt class="col-sm-2 text-primary fw-bold">Azienda</dt>
                         <dd id="${course.partnerId_s?default("no-partner")}" class="col-sm-10">------</dd>
                         
-                        <dt class="col-sm-2 text-primary fw-bold">Links</dt>
-                        <#list course.links_o as link>
-                        <script>console.log("Test", ${link})</script>
-                          <dd class="col-sm-10">${link.label_s?default("Nessun links")}</dd>
-                        </#list>
+                        <#if course.links_o??>
+                            <dt class="col-sm-2 text-primary fw-bold">Links</dt>
+                            <#list course.links_o as link>
+                                <dd class="col-sm-10">${link.label_s?default("Nessun links")}</dd>
+                            </#list>
+                        </#if>
                         
                     </dl>
                   </div>
