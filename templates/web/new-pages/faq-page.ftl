@@ -19,7 +19,7 @@
             <h3 class="text-center text-primary">Hai dei dubbi? Consulta le domande frequenti</h3>
         
             <div class="accordion mb-3" id="accordion-1" style="background-color: red;">
-                <div class="accordion-item">
+                <div class="accordion-item" style="background-color: red;">
                     <h2 class="accordion-header">
                         <button
                             class="accordion-button faq-question collapsed"
