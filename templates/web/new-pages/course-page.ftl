@@ -56,7 +56,7 @@
                             <dt class="col-sm-2 text-primary fw-bold">Links</dt>
                             <#list course.links_o as link>
                                 <dd class="col-sm-10">
-                                    <a href="${course.link_t}">${course.label_s}</a>
+                                    <a href="${course.link_t}">clicca</a>
                                 </dd>
                             </#list>
                         </#if>
