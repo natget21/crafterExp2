@@ -36,13 +36,13 @@
                                     aria-expanded="false"
                                     aria-controls="accordion-button-${counter}"
                                   >
-                                    Hello World Title
+                                    ${faq.question}
                                   </button>
                             </h2>
                             <div id="accordion-button-${counter}" class="accordion-collapse collapse" data-bs-parent="accordion-${counter}">
                                 <div class="accordion-body row row-gap-5">
                                     <div class="col-12 info">
-                                          <p class="desc" style="font-size: 1rem !important;">Hello World Body</p>
+                                          <p class="desc" style="font-size: 1rem !important;">${faq.answer}</p>
                                     </div>
                                 </div>
                             </div>
