@@ -22,30 +22,32 @@
             <#list categories.childItems as item>
                 <#assign category = siteItemService.getSiteItem(item.storeUrl) />
                 <h4 class="text-primary">${category.title_s}</h4>
-                <div class="accordion mb-3" id="accordion-1">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button
-                                class="accordion-button faq-question collapsed text-white fs-3"
-                                style="background-color: #32509f; font-size: 1rem !important;"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#accordion-button-1"
-                                aria-expanded="false"
-                                aria-controls="accordion-button-1"
-                              >
-                                Hello World Title
-                              </button>
-                        </h2>
-                        <div id="accordion-button-1" class="accordion-collapse collapse" data-bs-parent="accordion-1">
-                            <div class="accordion-body row row-gap-5">
-                                <div class="col-12 info">
-                                      <p class="desc" style="font-size: 1rem !important;">Hello World Body</p>
+                <#list category.faqs.item as faq>
+                    <div class="accordion mb-3" id="accordion-1">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button faq-question collapsed text-white fs-3"
+                                    style="background-color: #32509f; font-size: 1rem !important;"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#accordion-button-1"
+                                    aria-expanded="false"
+                                    aria-controls="accordion-button-1"
+                                  >
+                                    Hello World Title
+                                  </button>
+                            </h2>
+                            <div id="accordion-button-1" class="accordion-collapse collapse" data-bs-parent="accordion-1">
+                                <div class="accordion-body row row-gap-5">
+                                    <div class="col-12 info">
+                                          <p class="desc" style="font-size: 1rem !important;">Hello World Body</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </#list>
             </#list>
         </div>
     
