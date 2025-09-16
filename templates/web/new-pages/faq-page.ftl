@@ -11,7 +11,7 @@
         <div class="banner_section banner_services layout_padding d-flex align-items-center">
             <img class="banner_img" src="static-assets/assets/faq.png">
             <div class="container">
-                <h1 class="best_taital text-center text-white p-0 dark">News</h1>
+                <h1 class="best_taital text-center text-white p-0 dark">Faq</h1>
             </div>
         </div>
         
