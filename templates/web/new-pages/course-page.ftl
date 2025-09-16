@@ -52,14 +52,14 @@
                         <dt class="col-sm-2 text-primary fw-bold">Azienda</dt>
                         <dd id="${course.partnerId_s?default("no-partner")}" class="col-sm-10">------</dd>
 
-              
+                        <#if course.links_o??>
                             <dt class="col-sm-2 text-primary fw-bold">Links</dt>
                             <dd class="col-sm-10">
                                 <#list course.links_o.item as item>
                                     <a href="${item.link_t?default("#")}">${item.label_s?default("clicca qui")}</a>
                                 </#list>
                             </dd>
-                            
+                        </#if>
                     </dl>
                   </div>
                 </div>
