@@ -1035,7 +1035,7 @@
 					<type>repeat</type>
 					<id>links_o</id>
 					<iceId></iceId>
-					<title>links_o</title>
+					<title>Links</title>
 					<description></description>
 					<minOccurs>0</minOccurs>
 					<maxOccurs>*</maxOccurs>
