@@ -61,7 +61,7 @@
                                 <textarea class="form-control" name="message" rows="6" placeholder="Messaggio" required></textarea>
                             </div>
                             <div class="col-md-12 text-end">
-                                <button type="submit" class="btn btn-primary px-4 rounded-2" disable="true">
+                                <button type="submit" class="btn btn-primary px-4 rounded-2" disabled="true">
                                     INVIA MESSAGGIO
                                 </button>
                             </div>
