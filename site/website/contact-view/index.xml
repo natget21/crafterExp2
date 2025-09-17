@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/contact</content-type>
+	<display-template>/templates/web/new-pages/contact-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b564</objectGroupId>
+	<objectId>b564aef8-b854-2987-7d5e-15dd5f15e15f</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>contact-view</folder-name>
+	<internal-name>contact</internal-name>
+	<navLabel>contact</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2025-09-17T09:30:02.509Z</createdDate>
+	<createdDate_dt>2025-09-17T09:30:02.509Z</createdDate_dt>
+	<lastModifiedDate>2025-09-17T09:30:02.509Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-09-17T09:30:02.509Z</lastModifiedDate_dt>
+</page>
