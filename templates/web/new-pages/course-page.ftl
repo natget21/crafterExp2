@@ -56,7 +56,7 @@
                             <dt class="col-sm-2 text-primary fw-bold">Links</dt>
                             <dd class="col-sm-10">
                                 <#list course.links_o.item as item>
-                                    <a target="_blank" href="${item.link_t?default("#")}">${item.label_s?default("clicca qui")}</a>
+                                    <a class="btn btn-primary" target="_blank" href="${item.link_t?default("#")}">${item.label_s?default("clicca qui")}</a>
                                 </#list>
                             </dd>
                         </#if>
