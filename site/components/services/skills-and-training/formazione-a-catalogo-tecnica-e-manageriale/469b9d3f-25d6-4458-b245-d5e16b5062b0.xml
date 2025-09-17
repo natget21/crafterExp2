@@ -1,42 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/skills-and-training</content-type>
-	<display-template/>
-	<no-template-required>true</no-template-required>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>469b</objectGroupId>
-	<objectId>469b9d3f-25d6-4458-b245-d5e16b5062b0</objectId>
-	<file-name>469b9d3f-25d6-4458-b245-d5e16b5062b0.xml</file-name>
-	<folder-name/>
-	<internal-name>TEST DI SKILLS AND TRAINING</internal-name>
-	<name_s>Test di skills and training</name_s>
-	<partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
-	<codice_s>POP5416161</codice_s>
-	<durata_s>20</durata_s>
-	<informazionisulcosto_html>&lt;p&gt;Informazioni sul costo test della descrizione&lt;/p&gt;</informazionisulcosto_html>
-	<rivolto_t>PA e Imprese</rivolto_t>
-	<costo_s>1000</costo_s>
-	<subcategory_o item-list="true">	<item>	<key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
-	<value>formazione-a-catalogo-tecnica-e-manageriale</value>
-	<include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></subcategory_o>
-	<extra_costo_t>100</extra_costo_t>
-	<quantity_b>false</quantity_b>
-	<duratasessione_s>4</duratasessione_s>
-	<agevolazione_b>true</agevolazione_b>
-	<obiettivo_html>&lt;p&gt;Obiettivo del test&lt;/p&gt;</obiettivo_html>
-	<descrizione_html>&lt;p&gt;Descrizione&lt;/p&gt;</descrizione_html>
-	<descrizione_t>Descrizione breve òbalòkadsòl aslkòlklò asòlkòl kasdòlklòklò</descrizione_t>
-	<partecipantiMin_s>4</partecipantiMin_s>
-	<cup_s>CUP-181818</cup_s>
-	<productid_s>PRO_23bbb505</productid_s>
-	<maxpartecipanti_s>10</maxpartecipanti_s>
-	<createdDate>2025-09-02T10:50:27.646Z</createdDate>
-	<createdDate_dt>2025-09-02T10:50:27.646Z</createdDate_dt>
-	<lastModifiedDate>2025-09-12T08:01:55.464Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-09-12T08:01:55.464Z</lastModifiedDate_dt>
-	<image_s/>
-	<modalita_t/>
-	<tipologiacosto_s/>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>469b</objectGroupId>
+    <objectId>469b9d3f-25d6-4458-b245-d5e16b5062b0</objectId>
+    <file-name>469b9d3f-25d6-4458-b245-d5e16b5062b0.xml</file-name>
+    <folder-name/>
+    <internal-name>TEST DI SKILLS AND TRAINING</internal-name>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>469b</objectGroupId>
+    <objectId>469b9d3f-25d6-4458-b245-d5e16b5062b0</objectId>
+    <file-name>469b9d3f-25d6-4458-b245-d5e16b5062b0.xml</file-name>
+    <folder-name/>
+    <internal-name>TEST DI SKILLS AND TRAINING</internal-name>
+    <name_s>Test di skills and training</name_s>
+    <partnerId_s>67dd8279c70ba0680bdc849d</partnerId_s>
+    <codice_s>POP5416161</codice_s>
+    <durata_s>20</durata_s>
+    <informazionisulcosto_html>&lt;p&gt;Informazioni sul costo test della descrizione&lt;/p&gt;</informazionisulcosto_html>
+    <rivolto_t>PA e Imprese</rivolto_t>
+    <costo_s>1000</costo_s>
+   <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</key>
+   <value>formazione-a-catalogo-tecnica-e-manageriale</value>
+   <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-10.xml</include>
+   <disableFlattening>false</disableFlattening>
+   </item></subcategory_o>
+    <extra_costo_t>100</extra_costo_t>
+    <quantity_b>false</quantity_b>
+    <duratasessione_s>4</duratasessione_s>
+    <agevolazione_b>true</agevolazione_b>
+    <obiettivo_html>&lt;p&gt;Obiettivo del test&lt;/p&gt;</obiettivo_html>
+    <descrizione_html>&lt;p&gt;Descrizione&lt;/p&gt;</descrizione_html>
+    <descrizione_t>Descrizione breve òbalòkadsòl aslkòlklò asòlkòl kasdòlklòklò</descrizione_t>
+    <partecipantiMin_s>4</partecipantiMin_s>
+    <cup_s>CUP-181818</cup_s>
+    <productid_s>PRO_23bbb505</productid_s>
+    <maxpartecipanti_s>10</maxpartecipanti_s>
+    <createdDate>2025-09-02T10:50:27.646Z</createdDate>
+    <createdDate_dt>2025-09-02T10:50:27.646Z</createdDate_dt>
+    <lastModifiedDate>2025-09-12T08:01:55.464Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-09-12T08:01:55.464Z</lastModifiedDate_dt>
+    <image_s>68a43dbffaa17b4d9bdbcfdf</image_s>
+    <modalita_t/>
+    <tipologiacosto_s/>
+    <localId>/site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/469b9d3f-25d6-4458-b245-d5e16b5062b0.xml</localId>
+    <rootId>ideale:/site/components/services/skills-and-training/formazione-a-catalogo-tecnica-e-manageriale/469b9d3f-25d6-4458-b245-d5e16b5062b0.xml</rootId>
+    <createdDate>2025-09-17T08:00:48.800Z</createdDate>
+    <createdDate_dt>2025-09-17T08:00:48.800Z</createdDate_dt>
+    <lastModifiedDate>2025-09-17T08:00:48.800Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-09-17T08:00:48.800Z</lastModifiedDate_dt>
 </component>
