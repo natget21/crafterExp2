@@ -11,11 +11,7 @@
 <div class="container my-4">
     <div class="row">
         <div class="col-md-auto">
-            <#if image?has_content>
-                <img src="${image}" alt="Servizio ${name}" style="height: 100px; object-fit: cover;">
-            <#else>
-                <img src="/static-assets/img/ideale.png" alt="Servizio ${name}" style="height: 100px; object-fit: cover;">
-            </#if>
+            <img src="${image?has_content?then(assetsFolder + '/' + image, '/static-assets/img/ideale.png')}" style="height: 100px; object-fit: cover;">
         </div>
         
         <div class="col d-flex flex-column justify-content-between">
