@@ -30,11 +30,7 @@
                   <h4 class="text-primary">${course.name_s?default("Nessun nome")}</h4>
                   <p class="text-muted small">Codice: ${course.codiceprodotto_s?default("")}${course.codice_s?default("")}</p>
                   <div class="col-sm-3 col-12">
-                    <#if course.image_s?has_content />
-                        <img src="${assetsFolder}/${course.image_s}" style="width: 100%;" />      
-                    <#else>
-                        <img src="/static-assets/img/ideale.png" style="width: 100%;" />
-                    </#if>
+                    <img src="${course.image_s?has_content?then(assetsFolder + '/' + course.image_s, '/static-assets/img/ideale.png')}" style="width: 100%;" />
                   </div>
                   <div class="col-sm-9 col-12">
                     <dl class="row">
