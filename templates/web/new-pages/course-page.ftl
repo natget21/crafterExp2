@@ -17,8 +17,6 @@
           </div>
         </div>
         
-        ${assetsFolder}
-        
         <#if storeUrl?has_content>
             <#assign course = siteItemService.getSiteItem(storeUrl)?default("") />
             <#if course?has_content>
@@ -32,7 +30,11 @@
                   <h4 class="text-primary">${course.name_s?default("Nessun nome")}</h4>
                   <p class="text-muted small">Codice: ${course.codiceprodotto_s?default("")}${course.codice_s?default("")}</p>
                   <div class="col-sm-3 col-12">
-                    <img src="${course.image_s?default("/static-assets/img/ideale.png")}" style="width: 100%;" />
+                    <#if course.image_s?? />
+                        <img src="${assetsFolder}/${course.image_s}" style="width: 100%;" />        
+                    <#else>
+                        <img src="/static-assets/img/ideale.png" style="width: 100%;" />
+                    </#if>
                   </div>
                   <div class="col-sm-9 col-12">
                     <dl class="row">
