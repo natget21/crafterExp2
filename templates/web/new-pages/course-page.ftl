@@ -31,7 +31,7 @@
                   <p class="text-muted small">Codice: ${course.codiceprodotto_s?default("")}${course.codice_s?default("")}</p>
                   <div class="col-sm-3 col-12">
                     <#if course.image_s?has_content />
-                        <img src="${assetsFolder}/${course.image_s}" style="width: 100%;" />        
+                        <img src="${assetsFolder}" style="width: 100%;" />        
                     <#else>
                         <img src="/static-assets/img/ideale.png" style="width: 100%;" />
                     </#if>
