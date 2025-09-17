@@ -17,6 +17,8 @@
           </div>
         </div>
         
+        ${assetsFolder}
+        
         <#if storeUrl?has_content>
             <#assign course = siteItemService.getSiteItem(storeUrl)?default("") />
             <#if course?has_content>
