@@ -42,7 +42,7 @@
                         <div class="col-md-12">
                             <div class="info-item d-flex align-items-center py-3">
                                 <i class="bi bi-telephone flex-shrink-0 me-3 text-primary"></i>
-                                <p class="mb-0 text-primary">+39 3456789</p>
+                                <p class="mb-0 text-primary">+39 123456789</p>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                                 <textarea class="form-control" name="message" rows="6" placeholder="Messaggio" required></textarea>
                             </div>
                             <div class="col-md-12 text-end">
-                                <button type="submit" class="btn btn-primary px-4 rounded-2">
+                                <button type="submit" class="btn btn-primary px-4 rounded-2" disable="true">
                                     INVIA MESSAGGIO
                                 </button>
                             </div>
