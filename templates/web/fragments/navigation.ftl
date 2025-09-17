@@ -60,7 +60,7 @@
                             FAQ
                         </a>
                         
-                        <a href="/contact" class="nav-item nav-link <#if currentUrl?starts_with("/contact")>active</#if>">
+                        <a href="/contact-view" class="nav-item nav-link <#if currentUrl?starts_with("/contact")>active</#if>">
                             CONTATTI
                         </a>
                     </div>
