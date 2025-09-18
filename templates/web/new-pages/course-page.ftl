@@ -61,11 +61,12 @@
                             </dd>
                         </#if>
                         
-                        <dt class="col-sm-2 text-primary fw-bold">Links</dt>
-                        <dd class="col-sm-10">
-                            <a class="btn btn-primary rounded" target="_blank" href="${course.linkDemo_s?default("#")}">${course.labelDemo_s?default("clicca qui")}</a>
-                        </dd>
-                        
+                        <#if course.linkDemo_t??>
+                            <dt class="col-sm-2 text-primary fw-bold">Links</dt>
+                            <dd class="col-sm-10">
+                                <a class="btn btn-primary rounded" target="_blank" href="${course.linkDemo_t?default("#")}">${course.labelDemo_s?default("clicca qui")}</a>
+                            </dd>
+                        </#if>
                     </dl>
                   </div>
                 </div>
