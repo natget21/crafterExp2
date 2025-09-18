@@ -134,19 +134,23 @@
             
             async function makeOrder() {
                 const user = JSON.parse(localStorage.getItem('crafterVadinUser'));
-                // replaced !"" con ?default("")
-                const body = {
-                  'productCode': '${course.productid_s?default("")}',
-                  'cup': '${course.cup_s?default("")}',
-                  'agevolazione': ${course.agevolazione_b?default(false)?string("true", "false")},
-                  'productName': '${course.name_s?default("")}',
-                  'partnerId': '${course.partnerId_s?default("")}',
-                  'productQty': '' + quantity,
-                  'productPrice': '${course.costo_s?default("0")}',
-                  'clientId': user._id,
-                  'itemUrl': '${storeUrl?default("")}'
-                };
                 const url = "https://api.shortcut.uno/v1/Ideale-request/request";
+                const body = {
+                    'deliveryLink': '',
+                    'description': '',
+                    'licenseKey': '',
+                    
+                    'productCode': '${course.productid_s?default("")}',
+                    'cup': '${course.cup_s?default("")}',
+                    'agevolazione': ${course.agevolazione_b?default(false)?string("true", "false")},
+                    'productName': '${course.name_s?default("")}',
+                    'partnerId': '${course.partnerId_s?default("")}',
+                    'productQty': '' + quantity,
+                    'productPrice': '${course.costo_s?default("0")}',
+                    'clientId': user._id,
+                    'itemUrl': '${storeUrl?default("")}'
+                };
+                
                 const response = await fetch(url, {
                   method: "POST",
                   headers: {
