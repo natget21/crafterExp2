@@ -137,11 +137,19 @@
                 const url = "https://api.shortcut.uno/v1/Ideale-request/createOrder";
                 const body = {
 
-                    <#if course.deliveryLink_t?has_content && course.deliveryDescription_t?has_content && course.deliveryLicenseKey_s?has_content>
+                    <#if course.deliveryLink_t?has_content || course.deliveryDescription_t?has_content || course.deliveryLicenseKey_s?has_content>
                         'deliveryData': {
-                            'deliveryLink': '${course.deliveryLink_t}',
-                            'description': '${course.deliveryDescription_t}',
-                            'licenceKey': '${course.deliveryLicenseKey_s}',
+                            <#if course.deliveryLink_t?has_content>
+                                'deliveryLink': '${course.deliveryLink_t}',
+                            </#if>
+                            <#if course.deliveryLink_t?has_content>
+                                'description': '${course.deliveryDescription_t}',
+                            </#if>
+                            <#if course.deliveryLink_t?has_content>
+                                'licenceKey': '${course.deliveryLicenseKey_s}',
+                            </#if>
+                            
+                            
                         },
                     </#if>
                     
