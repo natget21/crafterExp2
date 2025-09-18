@@ -137,7 +137,13 @@
                 const url = "https://api.shortcut.uno/v1/Ideale-request/request";
                 const body = {
 
-
+                    <#if <#if course.deliveryLink?has_content && course.deliveryDescription?has_content && course.deliveryLicenseKey?has_content>
+                        'deliveryData': {
+                            'deliveryLink': '${course.deliveryLink}',
+                            'description': '${course.deliveryDescription}',
+                            'licenseKey': '${course.deliveryLicenseKey}',
+                        },
+                    </#if>
                     
                     'productCode': '${course.productid_s?default("")}',
                     'cup': '${course.cup_s?default("")}',
