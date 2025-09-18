@@ -9,9 +9,18 @@
     <file-name>bf46763f-948b-4c30-ad2a-09ab31bfa624.xml</file-name>
     <folder-name/>
     <internal-name>TRANSIZIONE ECOLOGICA: DIVENTA UN AGENTE DEL CAMBIAMENTO</internal-name>
+    <content-type>/component/skills-and-training</content-type>
+    <display-template/>
+    <no-template-required>true</no-template-required>
+    <merge-strategy>inherit-levels</merge-strategy>
+    <objectGroupId>bf46</objectGroupId>
+    <objectId>bf46763f-948b-4c30-ad2a-09ab31bfa624</objectId>
+    <file-name>bf46763f-948b-4c30-ad2a-09ab31bfa624.xml</file-name>
+    <folder-name/>
+    <internal-name>TRANSIZIONE ECOLOGICA: DIVENTA UN AGENTE DEL CAMBIAMENTO</internal-name>
     <name_s>Transizione Ecologica: diventa un agente del cambiamento</name_s>
     <duratasessione_s>10</duratasessione_s>
-    <obiettivo_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</obiettivo_html>
+    <obiettivo_html>&lt;p&gt;&lt;br&gt;&lt;!--EndFragment--&gt;&lt;/p&gt;</obiettivo_html>
     <descrizione_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</descrizione_html>
     <partnerId_s>67fce2daf647a63da899d029</partnerId_s>
     <codice_s>ELEARNING-TRANSIZIONE_ECOLOGICA</codice_s>
@@ -28,4 +37,10 @@
     <createdDate_dt>2025-09-18T09:03:59.705Z</createdDate_dt>
     <lastModifiedDate>2025-09-18T09:03:59.705Z</lastModifiedDate>
     <lastModifiedDate_dt>2025-09-18T09:03:59.705Z</lastModifiedDate_dt>
+    <localId>/site/components/services/skills-and-training/formazione-tailor-made-tecnica-e-manageriale/bf46763f-948b-4c30-ad2a-09ab31bfa624.xml</localId>
+    <rootId>ideale:/site/components/services/skills-and-training/formazione-tailor-made-tecnica-e-manageriale/bf46763f-948b-4c30-ad2a-09ab31bfa624.xml</rootId>
+    <createdDate>2025-09-18T09:06:24.830Z</createdDate>
+    <createdDate_dt>2025-09-18T09:06:24.830Z</createdDate_dt>
+    <lastModifiedDate>2025-09-18T09:06:24.830Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-09-18T09:06:24.830Z</lastModifiedDate_dt>
 </component>
