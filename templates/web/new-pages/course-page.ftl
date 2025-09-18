@@ -60,6 +60,9 @@
                                 </#list>
                             </dd>
                         </#if>
+                        <#if course.linkDemo??>
+                            <a class="btn btn-primary rounded" target="_blank" href="${course.linkDemo}">${course.labelDemo?default("clicca qui")}</a>
+                        </#if>
                     </dl>
                   </div>
                 </div>
