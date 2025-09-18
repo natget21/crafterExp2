@@ -60,12 +60,12 @@
                                 </#list>
                             </dd>
                         </#if>
-                        <#if course.linkDemo??>
-                            <dt class="col-sm-2 text-primary fw-bold">Links</dt>
-                            <dd class="col-sm-10">
-                                <a class="btn btn-primary rounded" target="_blank" href="${course.linkDemo}">${course.labelDemo?default("clicca qui")}</a>
-                            </dd>
-                        </#if>
+                        
+                        <dt class="col-sm-2 text-primary fw-bold">Links</dt>
+                        <dd class="col-sm-10">
+                            <a class="btn btn-primary rounded" target="_blank" href="${course.linkDemo?default("#")}">${course.labelDemo?default("clicca qui")}</a>
+                        </dd>
+                        
                     </dl>
                   </div>
                 </div>
