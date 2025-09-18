@@ -32,19 +32,19 @@
     <quantity_b>true</quantity_b>
     <duratasessione_s>10 min</duratasessione_s>
     <agevolazione_b>false</agevolazione_b>
-    <obiettivo_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</obiettivo_html>
+    <obiettivo_html>&lt;p&gt;test&lt;/p&gt;</obiettivo_html>
     <descrizione_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</descrizione_html>
     <descrizione_t>Percorso di microlearning sulla Transizione ecologica</descrizione_t>
     <cup_s/>
     <productid_s>PRO_5bf1577e</productid_s>
-    <createdDate>2025-09-18T07:26:59.327Z</createdDate>
-    <createdDate_dt>2025-09-18T07:26:59.327Z</createdDate_dt>
-    <lastModifiedDate>2025-09-18T07:26:59.327Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-09-18T07:26:59.327Z</lastModifiedDate_dt>
-    <localId>/site/components/services/skills-and-training/formazione-tailor-made-tecnica-e-manageriale/a472e18f-61be-4fa4-8e91-0ba22ef6757f.xml</localId>
-    <rootId>ideale:/site/components/services/skills-and-training/formazione-tailor-made-tecnica-e-manageriale/a472e18f-61be-4fa4-8e91-0ba22ef6757f.xml</rootId>
     <createdDate>2025-09-18T07:27:32.820Z</createdDate>
     <createdDate_dt>2025-09-18T07:27:32.820Z</createdDate_dt>
     <lastModifiedDate>2025-09-18T07:27:32.820Z</lastModifiedDate>
     <lastModifiedDate_dt>2025-09-18T07:27:32.820Z</lastModifiedDate_dt>
+    <localId>/site/components/services/skills-and-training/formazione-tailor-made-tecnica-e-manageriale/a472e18f-61be-4fa4-8e91-0ba22ef6757f.xml</localId>
+    <rootId>ideale:/site/components/services/skills-and-training/formazione-tailor-made-tecnica-e-manageriale/a472e18f-61be-4fa4-8e91-0ba22ef6757f.xml</rootId>
+    <createdDate>2025-09-18T08:19:15.199Z</createdDate>
+    <createdDate_dt>2025-09-18T08:19:15.199Z</createdDate_dt>
+    <lastModifiedDate>2025-09-18T08:19:15.199Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-09-18T08:19:15.199Z</lastModifiedDate_dt>
 </component>
