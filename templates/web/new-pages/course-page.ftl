@@ -142,6 +142,7 @@
                         'description': ${course.deliveryDescription},
                         'licenseKey': ${course.deliveryLicenseKey},
                     },
+                    </#if>
 
                     
                     'productCode': '${course.productid_s?default("")}',
