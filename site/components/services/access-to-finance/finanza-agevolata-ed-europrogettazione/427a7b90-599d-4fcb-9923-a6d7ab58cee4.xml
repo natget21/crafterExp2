@@ -37,8 +37,8 @@
 	<productid_s>PRO_7fdd3276</productid_s>
 	<createdDate>2025-09-16T07:53:59.796Z</createdDate>
 	<createdDate_dt>2025-09-16T07:53:59.796Z</createdDate_dt>
-	<lastModifiedDate>2025-09-18T14:36:53.271Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-09-18T14:36:53.271Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-09-18T15:22:58.556Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-09-18T15:22:58.556Z</lastModifiedDate_dt>
 	<cup_s>CUP-15-09-2025</cup_s>
 	<costodelservizio_s>1</costodelservizio_s>
 	<modalitdierogazione_s/>
@@ -54,5 +54,5 @@
 	<linkDemo_t>#</linkDemo_t>
 	<deliveryLicenseKey_s>XYZ9-ABCD-1234-EFGH</deliveryLicenseKey_s>
 	<deliveryLink_t>https://example.com/courses/abc123</deliveryLink_t>
-	<deliveryDescription_t>Accesso al corso completo di Java per principianti, valido 12 mesi.</deliveryDescription_t>
+	<deliveryDescription_t/>
 </component>
