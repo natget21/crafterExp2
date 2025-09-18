@@ -138,9 +138,9 @@
                 const body = {
                     <#if course.deliveryLink?? && course.deliveryDescription?? && course.deliveryLicenseKey?? />
                         'deliveryData': {
-                            'deliveryLink': ${course.deliveryLink},
-                            'description': ${course.deliveryDescription},
-                            'licenseKey': ${course.deliveryLicenseKey},
+                            'deliveryLink': '${course.deliveryLink}',
+                            'description': '${course.deliveryDescription}',
+                            'licenseKey': '${course.deliveryLicenseKey}',
                         },
                     </#if>
 
