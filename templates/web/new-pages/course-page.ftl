@@ -134,7 +134,7 @@
             
             async function makeOrder() {
                 const user = JSON.parse(localStorage.getItem('crafterVadinUser'));
-                const url = "https://api.shortcut.uno/v1/Ideale-request/request";
+                const url = "https://api.shortcut.uno/v1/Ideale-request/createOrder";
                 const body = {
 
                     <#if course.deliveryLink?has_content && course.deliveryDescription?has_content && course.deliveryLicenseKey?has_content>
