@@ -37,8 +37,8 @@
 	<productid_s>PRO_7fdd3276</productid_s>
 	<createdDate>2025-09-16T07:53:59.796Z</createdDate>
 	<createdDate_dt>2025-09-16T07:53:59.796Z</createdDate_dt>
-	<lastModifiedDate>2025-09-18T10:37:44.823Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-09-18T10:37:44.823Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-09-18T13:34:16.494Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-09-18T13:34:16.494Z</lastModifiedDate_dt>
 	<cup_s>CUP-15-09-2025</cup_s>
 	<costodelservizio_s>1</costodelservizio_s>
 	<modalitdierogazione_s/>
@@ -52,4 +52,7 @@
 	</item></links_o>
 	<labelDemo_s>Test Demo</labelDemo_s>
 	<linkDemo_t>#</linkDemo_t>
+	<deliveryLicenseKey_s>3</deliveryLicenseKey_s>
+	<deliveryLink_t>1</deliveryLink_t>
+	<deliveryDescription_t>2</deliveryDescription_t>
 </component>
