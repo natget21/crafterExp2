@@ -1272,10 +1272,53 @@
 					</fields>
 				</field>
 				<field>
-					<type>input</type>
-					<id>linkDemo_s</id>
+					<type>textarea</type>
+					<id>linkDemo_t</id>
 					<iceId></iceId>
 					<title>linkDemo</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>rows</name>
+							<value>5</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>100000</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>allowResize</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>labelDemo_s</id>
+					<iceId></iceId>
+					<title>labelDemo</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
