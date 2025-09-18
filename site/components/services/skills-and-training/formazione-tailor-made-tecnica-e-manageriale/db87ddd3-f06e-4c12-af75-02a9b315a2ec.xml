@@ -26,7 +26,7 @@
     <partnerId_s>67fce2daf647a63da899d029</partnerId_s>
     <codice_s>ELEARNING-TRANSIZIONE_ECOLOGICA</codice_s>
     <informazionisulcosto_html>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</informazionisulcosto_html>
-    <deliveryDescription_t>Clicca qui per accedere al corso sulla Transizione ecologica</deliveryDescription_t>
+    <deliveryDescription_t>Clicca al link sopra per accedere al percorso sulla Transizione ecologica</deliveryDescription_t>
     <costo_s>0</costo_s>
     <productid_s>PRO_c00d2db9</productid_s>
    <subcategory_o item-list="true">        <item>  <key>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-11.xml</key>
@@ -34,10 +34,10 @@
    <include>/site/components/sub_category/282767e2-991b-1c07-1cf2-8eb2f88bc65c-copy-11.xml</include>
    <disableFlattening>false</disableFlattening>
    </item></subcategory_o>
-    <createdDate>2025-09-18T15:17:41.801Z</createdDate>
-    <createdDate_dt>2025-09-18T15:17:41.801Z</createdDate_dt>
-    <lastModifiedDate>2025-09-18T15:32:18.070Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-09-18T15:32:18.070Z</lastModifiedDate_dt>
+    <createdDate>2025-09-18T15:37:01.560Z</createdDate>
+    <createdDate_dt>2025-09-18T15:37:01.560Z</createdDate_dt>
+    <lastModifiedDate>2025-09-18T15:37:01.560Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-09-18T15:37:01.560Z</lastModifiedDate_dt>
     <durata_s/>
     <partecipantiMin_s/>
     <maxpartecipanti_s/>
@@ -55,8 +55,8 @@
     <image_s/>
     <localId>/site/components/services/skills-and-training/formazione-tailor-made-tecnica-e-manageriale/db87ddd3-f06e-4c12-af75-02a9b315a2ec.xml</localId>
     <rootId>ideale:/site/components/services/skills-and-training/formazione-tailor-made-tecnica-e-manageriale/db87ddd3-f06e-4c12-af75-02a9b315a2ec.xml</rootId>
-    <createdDate>2025-09-18T15:37:01.560Z</createdDate>
-    <createdDate_dt>2025-09-18T15:37:01.560Z</createdDate_dt>
-    <lastModifiedDate>2025-09-18T15:37:01.560Z</lastModifiedDate>
-    <lastModifiedDate_dt>2025-09-18T15:37:01.560Z</lastModifiedDate_dt>
+    <createdDate>2025-09-18T16:03:16.952Z</createdDate>
+    <createdDate_dt>2025-09-18T16:03:16.952Z</createdDate_dt>
+    <lastModifiedDate>2025-09-18T16:03:16.952Z</lastModifiedDate>
+    <lastModifiedDate_dt>2025-09-18T16:03:16.952Z</lastModifiedDate_dt>
 </component>
