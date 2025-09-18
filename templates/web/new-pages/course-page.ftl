@@ -61,7 +61,7 @@
                             </dd>
                         </#if>
                         
-                        <#if course.linkDemo_t??>
+                        <#if course.linkDemo_t?has_content>
                             <dt class="col-sm-2 text-primary fw-bold">Links</dt>
                             <dd class="col-sm-10">
                                 <a class="btn btn-primary rounded" target="_blank" href="${course.linkDemo_t?default("#")}">${course.labelDemo_s?default("clicca qui")}</a>
