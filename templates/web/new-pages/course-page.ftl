@@ -142,14 +142,12 @@
                             <#if course.deliveryLink_t?has_content>
                                 'deliveryLink': '${course.deliveryLink_t}',
                             </#if>
-                            <#if course.deliveryLink_t?has_content>
+                            <#if course.deliveryDescription_t?has_content>
                                 'description': '${course.deliveryDescription_t}',
                             </#if>
-                            <#if course.deliveryLink_t?has_content>
+                            <#if course.deliveryLicenseKey_s?has_content>
                                 'licenceKey': '${course.deliveryLicenseKey_s}',
                             </#if>
-                            
-                            
                         },
                     </#if>
                     
