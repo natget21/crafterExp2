@@ -136,13 +136,7 @@
                 const user = JSON.parse(localStorage.getItem('crafterVadinUser'));
                 const url = "https://api.shortcut.uno/v1/Ideale-request/request";
                 const body = {
-                    <#if course.deliveryLink?? && course.deliveryDescription?? && course.deliveryLicenseKey?? />
-                        'deliveryData': {
-                            'deliveryLink': '${course.deliveryLink}',
-                            'description': '${course.deliveryDescription}',
-                            'licenseKey': '${course.deliveryLicenseKey}',
-                        },
-                    </#if>
+
 
                     
                     'productCode': '${course.productid_s?default("")}',
