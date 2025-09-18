@@ -141,7 +141,7 @@
                         'deliveryData': {
                             'deliveryLink': '${course.deliveryLink_t}',
                             'description': '${course.deliveryDescription_t}',
-                            'licenseKey': '${course.deliveryLicenseKey_s}',
+                            'licenceKey': '${course.deliveryLicenseKey_s}',
                         },
                     </#if>
                     
