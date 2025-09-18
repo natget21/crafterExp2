@@ -153,7 +153,7 @@
                     
                     'productCode': '${course.productid_s?default("")}',
                     'cup': '${course.cup_s?default("")}',
-                    // 'agevolazione': ${course.agevolazione_b?default(false)?string("true", "false")},
+                    'agevolazione': ${course.agevolazione_b?default(false)?string("true", "false")},
                     'productName': '${course.name_s?default("")}',
                     'partnerId': '${course.partnerId_s?default("")}',
                     'productQty': '' + quantity,
